@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 39</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 39</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e361"> <!-- iuy75t-t39 -->
+      <head xml:id="iuy75t-d1e361-Hd1e109">Tractatus 39</head>
+      <p xml:id="iuy75t-d1e361-d1e112">
+       <hi rend="italic">Ab eo quod</hi> scriptum <hi rend="italic">est,</hi> Multa habeo de vobis loqui 
+   
+   
+   <lb ed="#PL"/> et judicare; <hi rend="italic">usquead id"</hi> Et non cognoverunt qnia 
+   <lb ed="#PL"/> Patrem ejus diccbat Deum. <hi rend="italic">Cap.</hi> VIII, y . 26, 27.</p>
+      <p xml:id="iuy75t-d1e361-d1e132">i. Verba Domini nostri Jesu Christi quae habuit 
+   <lb ed="#PL"/> cum Judxis, ita moderans loquelam suam, ut caeci 
+   <lb ed="#PL"/> non viderent, et fideles oculos apcrirent, quae hodie 
+   <lb ed="#PL"/> de sancto Evangelio recitata sunt, ista sunt : <hi rend="italic">DIce.. 
+   <lb ed="#PL"/> bant ergo</hi> Judaei, <hi rend="italic">Tu quis</hi> es ? Quia dixerat supra Domi<lb ed="#PL" break="no"/>nus, <hi rend="italic">Nisi credideritis quia ego</hi> sum, <hi rend="italic">moriemini</hi> in pecca­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tis vestris (Joan.</hi> VIII, 25, 24). Ad boc ergo illi, <hi rend="italic">Tu quis</hi>
+   
+       <lb ed="#PL"/> es ? veluti quaerentes nosse in quem deberent credere, 
+   <lb ed="#PL"/> ne in suo peccato morerentur. Respondit dicentibus, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Tu quis</hi> es ? et ait, <hi rend="italic">Principium,</hi> quia <hi rend="italic">et loquor vobis.</hi> Si 
+   <lb ed="#PL"/> se dixit Dominus esse principium. quaeri potest utrum 
+   <lb ed="#PL"/> et Pater principium sit. Si enim Filius principium est 
+   <lb ed="#PL"/> qui habet Patrem, quanto facilius intelligendus est 
+   <lb ed="#PL"/> Deus Pater esse principiumr qui habet quidem Filium 
+   <lb ed="#PL"/> cui Patcr sit, sed non habet de quo sit? Filius enim 
+   <lb ed="#PL"/> Patris est Filius, et Pater utique Filii Pater est: sed 
+   <lb ed="#PL"/> Deus de Deo Filius dicitur, lumen de lumine Filius 
+   <lb ed="#PL"/> dicitur : Pater dicitur lumen, sed non de lumine;
+   
+   <lb ed="#PL"/> Pater dicitur Dens, sed non de Deo. Si ergo Deus de 
+   <lb ed="#PL"/> Deo, lumen de lumine priucipium est; quanto facilius 
+   <lb ed="#PL"/> intelligitur principium lumen dc quo lumen, et Dcus 
+   <lb ed="#PL"/> de quo Deus? Videtur itaque absurdum, charissimi, 
+   <lb ed="#PL"/> ut Filium dicamus principium, et Patreul principium 
+   <lb ed="#PL"/> non dicamus.</p>
+      <p xml:id="iuy75t-d1e361-d1e213">i. Sed quid agemus? numquid duo erunt principia? 
+   <lb ed="#PL"/> Cavendum est hoc dicere. Quid ergo? si et Pater priu<lb ed="#PL" break="no"/>cipium
+   et Filius principium, quomodo non duo prin<lb ed="#PL" break="no"/>cipia
+   ? Quomodo dicimus Patrem Deum et Filium 
+   <lb ed="#PL"/> Deum, nec tamen dicimus duos deos. Nefas est cnun 
+   <lb ed="#PL"/> diccre duos deos, nefas est dicere tres deos : et tamen 
+   <lb ed="#PL"/> qui Pater est, non est Filius; qui Filius est, non est 
+   <lb ed="#PL"/> Pater. Spiritus autem sanctus Patris ei Filii Spiritus, 
+   <lb ed="#PL"/> nec Pater est ncc Filius. Quamvis ergo, sicut aures
+   
+   <lb ed="#PL"/> catholicae sunt erudike in gremio matris Ecclesiae, 
+   <lb ed="#PL"/> nrc ille qui est Pater sit Filius, nee ille qui est Filius 
+   <lb ed="#PL"/> sit Pater, nec Spiritus sanctus Patris et Filii sit vel 
+   <lb ed="#PL"/> Filius vel Pater, tres deos tamen esse uon diciqius: 
+   <lb ed="#PL"/> quamvis de singulis si quaeratur, necesse est de quo<lb ed="#PL" break="no"/>cumque
+   interrogati fuerimus, Deum esse fateamur.</p>
+      <p xml:id="iuy75t-d1e361-d1e247">3. Et absurda ista videntur hominibus solita tra<lb ed="#PL" break="no"/>hentibus
+   ad insolita, visibilia ad invisibilia, creatu<lb ed="#PL" break="no"/>ram
+   comparantibus Creatori. Interrogant enim nos 
+   <lb ed="#PL"/> aliquando infideles et dicunt: Patrem quem dicitis, 
+   <lb ed="#PL"/> Deum dicitis? Respondemus: Deum. Filium-quem di<lb ed="#PL" break="no"/>citis, Dcum dicitis? Respondemus : Deum. Spiritum 
+   <lb ed="#PL"/> sanctum quem dicitis, Deum dicitis? Respondemus : 
+   <lb ed="#PL"/> Deum. Ergo, inquiunt, Pater et Filius et Spiritus 
+   <lb ed="#PL"/> sanctus tres sunt dii ? Respondemus : Non. Turban<lb ed="#PL" break="no"/>tur, quia non illuminantur : cor clausum habent, quia. 
+   <lb ed="#PL"/> clavim fidei non habent. Nos ergo, fratres, fide prae<lb ed="#PL" break="no"/>cedente, quae sanat oculum cordis nostri, quod intel­
+   
+   <lb ed="#PL"/> ligimus, sine obscuritate capiamus; quod non intelligi<lb ed="#PL" break="no"/>mus, sine dubitatione credamus: a fundamento fidei nIMI 
+   <lb ed="#PL"/> reccdamus, ut ad culmen perfectionis veniamus. Deus 
+   <lb ed="#PL"/> est Pater, Deus est Filius, Deus est Spiritus sanctus: et 
+   <lb ed="#PL"/> tamen Pater non est qui Filius, nec Filiusest qui Pater, 
+   <lb ed="#PL"/> nee Spiritus sanctus Patris et Filii Spiritus aulPater est 
+   <pb ed="#PL" n="1683"/>
+       <lb ed="#PL"/> aut Filius. Trinitas unus Dcus : Trinitas. una aeterni<lb ed="#PL" break="no"/>tas, una potestas, nna majestas; tres1, sed non dii. 
+   <lb ed="#PL"/> Non niilii calumniator respondeat : Quid ergo tres? 
+   <lb ed="#PL"/> Si enim tres, ait, oportet dicas quid tres. Respondeo: 
+   <lb ed="#PL"/> Pater et Filius et Spiritus sanctus. Ecce, inquit, tres 
+   <lb ed="#PL"/> dixisti; sed quid tres exprime. Imo tu numera : nam 
+   <lb ed="#PL"/> ego compleo tres, cum dico, PateretFilius et Spiri<lb ed="#PL" break="no"/>tus
+   sanctus. Id enim quod Pater ad seorsi, Deus est; 
+   <lb ed="#PL"/> quod ad Filium cst, Pater cst: quod Filius ad scipsum 
+   <lb ed="#PL"/> est, Deus est; quod ad Patrem est, Filius est.</p>
+      <p xml:id="iuy75t-d1e361-d1e310">4. Ista quae dico potestis de similitudinibus agno<lb ed="#PL" break="no"/>scere
+   quotidianis. Homo et aller homo, si ille sit pa<lb ed="#PL" break="no"/>ter, inc filius; quod horno est, ad scipsum est; quod
+   
+   <lb ed="#PL"/> pater est, ad filium est : et filius quod homo est, ad 
+   <lb ed="#PL"/> seipsum est; quod autem filius est, ad patrem est. 
+   <lb ed="#PL"/> Pater enim nomen est dictum ad aliquid,etfilius ad 
+   <lb ed="#PL"/> aliquid : sed isti duo homines sunt. At vero Pater 
+   <lb ed="#PL"/> Deus ad aliquid est Pater, id est ad Filium ;etFilius 
+   <lb ed="#PL"/> Dens ad aliquid est Filius, id est ad Patrem : sed non 
+   <lb ed="#PL"/> quomodo illi duo homines sunt, sic isti duo dii. Quare 
+   <lb ed="#PL"/> hoc non ila est ihi? Quia illud aliud, hoc autem aliud 
+   <lb ed="#PL"/> est : quia illa divinitas est. Esi ihi aliquid ineffabile, 
+   <lb ed="#PL"/> quod verbis explicari non possit, ut et nuincrus sit, 
+   <lb ed="#PL"/> et numerus nou sit. Videte cnim si non quasi apparet<lb ed="#PL" break="no"/>nnmerus, Pater et Filius et Spiritus sanctus Trinitas. 
+   <lb ed="#PL"/> Si tres, quid tres? Deficit numerus. Ita Deus nec rc­
+   
+   <lb ed="#PL"/> ccdit a numero, nec capitur numero. Quia tres sunt, 
+   <lb ed="#PL"/> tanquam est numerus : si quaeris quid tres, non est 
+   <lb ed="#PL"/> numerus. Undc dictum est, <hi rend="italic">Magnus
+    Dominus noster et 
+   <lb ed="#PL"/> magna virtus ejus, et sapientiae ejus non est numerus 
+   <lb ed="#PL"/>
+    (Psal.</hi> xiv, 6, 5). Ubi cogitare coeperis, incipis nu<lb ed="#PL" break="no"/>mcrarc : uhi numeraveris, quid numeraveris non po<lb ed="#PL" break="no"/>tes
+   respondere. Pater, Pater ost; Filius, Filius cal; 
+   <lb ed="#PL"/> , Spiritus sanctus, Spiritus sanctus est : quid sunt isti 
+   <lb ed="#PL"/> i tres, Pater et Filius et Spiritus sanctus? Nou tres dii? 
+   <lb ed="#PL"/> ' Non. Non Ires omnipotentes? Non. Non tres mundi 
+   <lb ed="#PL"/> creatores? Non. Ergo omnipotens l'ater? Omnipotens 
+   <lb ed="#PL"/> , plane. Ergo et Filius non omnipotens? Plane et Fi<lb ed="#PL" break="no"/>, lius omnipotens? Ergo et Spiritus sanctus non omni<lb ed="#PL" break="no"/>potens? Et ipse omnipotens. Tres ergo omnipoten- 
+   <lb ed="#PL"/> I tes? Non; sed unus omnipotens. Hoc solo numerum 
+   <lb ed="#PL"/> insinuant quod ad invicem sunt, non quod ad se sunt. 
+   <lb ed="#PL"/> Quia enim Deus Pater ad sc est Ocus simi:! &lt; um Filio 
+   <lb ed="#PL"/> et Spiritu sancto, non sunt Ires dii; quia ad se est 
+   <lb ed="#PL"/> omnipotens simul cum Filio et Spiritu sancto, non 
+   <lb ed="#PL"/> sunt tres omnipotentes : quia vero nun ad se est Pa<lb ed="#PL" break="no"/>ter, sed' ad Filium; nee Filius ad sc est, sed ad Pa<lb ed="#PL" break="no"/>trem
+   ; nec Spiritus ad se, in eo quod dicitur Spiritus 
+   <lb ed="#PL"/> Patris et Filii; non est quid dicam Ires, nisi Patrem 
+   <lb ed="#PL"/> et Filium et Spiritum sanctum unnm Deum, unum 
+   <lb ed="#PL"/> omnipotentem. Ergo unum principium.</p>
+      <p xml:id="iuy75t-d1e361-d1e402">5. Accipite aliquid cle Scripturis sanctis, undc hoe 
+   <lb ed="#PL"/> quod dicitur utcumque capiatis. Postcaquam Dominus 
+   <lb ed="#PL"/> noster Jesus Christus resurrexit, et cnm voluit 
+   <lb ed="#PL"/> ascendit in caelum, decem dichus illic impletis misit 
+   <lb ed="#PL"/> inde Spiritum sanctum : quo impleti qui aderant in 
+   
+   <lb ed="#PL"/> conclavi uno, omnium gentium linguis cocporunt lo- f 
+   <lb ed="#PL"/> qui. Miraculo exterriti Domini interfectores, compun<lb ed="#PL" break="no"/>cti
+   doluerunt, dolentes mutati sunt, mutati credide­
+   
+   <lb ed="#PL"/> runt : accesserunt corpori Domini, id est numero 
+   <lb ed="#PL"/> fidelium, tria millia hominum. Item alio facto quodam 
+   <lb ed="#PL"/> miraculo, accesserunt alia quinque millia; facta et 
+   <lb ed="#PL"/> plebs una non parva : in qua omnes accepto Spiritu 
+   <lb ed="#PL"/> sancto, quo amor spiritualis accensus cst, charitate 
+   <lb ed="#PL"/> ipsa et fervorc spiritus iu unum redacti, coeperunt in 
+   <lb ed="#PL"/> ipsa socictatis unitate vendere omnia quae habebant, 
+   <lb ed="#PL"/> et pretia ponere ad pedes Apostolorum, ut distribue<lb ed="#PL" break="no"/>retur
+   unicuique, sicut cuiquc opus crat. Et hoc de 
+   <lb ed="#PL"/> illis Scriptura dicit, quod <hi rend="italic">erat eis anima</hi> una <hi rend="italic">et cor</hi>
+   
+       <lb ed="#PL"/> unum <hi rend="italic">in Deum (Act.</hi> II-IV). Attendite ergo, fratres, ct
+   
+   <lb ed="#PL"/> hinc agnoscite mysterium Trinitatis, quomodo dica<lb ed="#PL" break="no"/>mus, Et Pater est, et Filius est, et Spiritus sanctus 
+   <lb ed="#PL"/> cst, et tamen unus Deus est. Ecce illi tot millia crant, 
+   <lb ed="#PL"/> et cor unum crat; ecce tot millia erant,etuna ani- V 
+   <lb ed="#PL"/> ma erat. Sed ubi? In Deo. Quanto magis ipse Dens? 
+   <lb ed="#PL"/> Numquid crro in verbo, quando dico duos homines 
+   <lb ed="#PL"/> duas animas, aut tres homines tres animas, aut mul<lb ed="#PL" break="no"/>tos
+   homines multas animas? Recte utique dico. Acce<lb ed="#PL" break="no"/>dant
+   ad Deum, una anima est omnium. Si accedentes 
+   <lb ed="#PL"/> ad Deum, multae animne per, charitatem una anima 
+   <lb ed="#PL"/> cst, et multa corda unum cor; quid agit ipse fons 
+   <lb ed="#PL"/> charitatis in Patrc et r'ilio? Nonne ibi magis Trinitas 
+   <lb ed="#PL"/> unus est Deus? Inde enim nobis charitas venit, de 
+   <lb ed="#PL"/> ipso Spiritu sancto, sicut dicit Apostolus : charitas 
+   <lb ed="#PL"/>
+       <hi rend="italic">Dei</hi> diffusa <hi rend="italic">est in cordibus nostris per</hi> Spiritum .san­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">ctum qui datus est nobis (Rom.</hi> v, 5). Si ergo <hi rend="italic">charitas 
+   <lb ed="#PL"/> Dei diffusa</hi> in <hi rend="italic">cordibus nostris per</hi> Spiritum sanctum qui 
+   <lb ed="#PL"/>
+       <hi rend="italic">datus est nobis,</hi> multas :minas facit unam animam, et 
+   <lb ed="#PL"/> multa corda facit unum cor; quando magis Pateret
+   <lb ed="#PL"/> Filius cl Spiritus sanctus, Deus unus, lumen unum. 
+   <lb ed="#PL"/> unumque principium?</p>
+      <p xml:id="iuy75t-d1e361-d1e517">6. Audiamus ergo principium quod loquitur nobis. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Multa,</hi> inquit, <hi rend="italic">habeo loqui de vobis et
+    judicare.</hi> Memi<lb ed="#PL" break="no"/>nisUs
+   quod ait. <hi rend="italic">Ego non judico quemquam
+    (Joan.</hi> vui, 
+   <lb ed="#PL"/> 13): ecce modo dicit, <hi rend="italic">Multa habeo de vobis
+    loqui cl
+   <lb ed="#PL"/> judicare.</hi> Scd aliud est, <hi rend="italic">non judico;</hi> aliud,
+    <hi rend="italic">habeo judi<lb ed="#PL" break="no"/>care. Non judico,</hi> dixit ad praesens; vcnerat enim ut 
+   <lb ed="#PL"/> salvaret mundum, non ut judicaret mundum <hi rend="italic">(Id.</hi> XII,
+   
+   <lb ed="#PL"/> 47) : quod autcm dicit, <hi rend="italic">Multa habeo de vobis loqui et 
+   <lb ed="#PL"/>
+    judicare,</hi> judicium futurum dicit. Ideo enim ascendit, 
+   <lb ed="#PL"/> ut veniat judicare vivos et mortuos. Ncmo justius j i- 
+   <lb ed="#PL"/> dicabit, quam qui injuste judicatus esl. <hi rend="italic">Multa,</hi> inquit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">habeo de vobis loqui et judicare : sed qui me misit,</hi> verax 
+   <lb ed="#PL"/>
+       <hi rend="italic">est.</hi> Videte quemadmodum Patri dct gloriam aequalis 
+   <lb ed="#PL"/> Filius. Exemplum enim nobis praebet, et tanquam in 
+   <lb ed="#PL"/> cordibus nostris loquitur : O homo fidelis, si Evange<lb ed="#PL" break="no"/>lium
+   memo audis, dicit. lihi Dominus Deus tuus, uhi 
+   <lb ed="#PL"/> ego in principio Verbum Dcus apud Deum, aequalis 
+   <lb ed="#PL"/> Patri, coaeternas gignenti, do gloriam ci cujus sum 
+   <lb ed="#PL"/> Filius; quomodo tu superbus cs adversus cum cujus 
+   <lb ed="#PL"/> servus es?</p>
+      <p xml:id="iuy75t-d1e361-d1e595">
+       <hi rend="italic">7. Multa habeo,</hi> inquit, <hi rend="italic">de vobis loqui et
+    judicare :
+   <lb ed="#PL"/> scd qui me misit, verax est:</hi> tanquam diceret, Ideo ve<lb ed="#PL" break="no"/>rum
+   judico, quia Filius veracis veritas sum. Pater vo<lb ed="#PL" break="no"/>rax, Filius veritas, quid putamus esse amplius? Co­ 
+   <pb ed="#PL" n="1685"/>
+       <lb ed="#PL"/> gitemus si possimus, quid est amplius, verax an veri<lb ed="#PL" break="no"/>t:ts. De quibusdam quaeramus. Pius homo plus est, 
+   <lb ed="#PL"/> an pietas ? Sed plus est ipsa pietas : pius enim a pie<lb ed="#PL" break="no"/>tate, non pietas a pio. Potest enim esse pictas, etsi 
+   <lb ed="#PL"/> ille qui pius erat, factus est impius. Ipse perdidit picta<lb ed="#PL" break="no"/>tem, pictati nihil abstulit. Quid item pulcheretpul<lb ed="#PL" break="no"/>chritudo? Plus est pulchritudo quam pulcher: pul<lb ed="#PL" break="no"/>chritudo
+   cnim facit pulchrum, non pulcher facit pul<lb ed="#PL" break="no"/>chritudincm? Castus et eastitas? Castitas plane plus 
+   <lb ed="#PL"/> ext quam castus. Si enim castitas non esset, unde es<lb ed="#PL" break="no"/>set
+   iste castus, non haberet : si autem
+    nol<unclear>verit</unclear> esse 
+   <lb ed="#PL"/> castus, castitns integra perseverat. Si ergo plus pie<lb ed="#PL" break="no"/>tas
+   quan pius, plus pulchritudo quam pulcher, plus 
+   <lb ed="#PL"/> castitas quam castas; numquid dicturi snmus plus 
+   <lb ed="#PL"/> vcritas qnam veras? Si hoc dixcrimns, Filium inci<lb ed="#PL" break="no"/>piemus
+   dicere Patre majorem. Ait enim apertissime 
+   <lb ed="#PL"/> ipse Dominus : <hi rend="italic">Ego</hi> tum, <hi rend="italic">via et veritas, et vita (Joan.</hi>
+   
+       <lb ed="#PL"/> xiv, 6). Ergo si Filius vcrilas; Pater quid, nisi quod 
+   <lb ed="#PL"/> ait ipsa veritas, <hi rend="italic">Qui me misit, verax est?</hi> Filius veritas, 
+   <lb ed="#PL"/> Pater verax : quid plus sit quaero, sed aequalitatem 
+   <lb ed="#PL"/> invenio. Verax enim Pater non ab ea veritate vcrax
+   
+   <lb ed="#PL"/> est cujus partem cepit, sed qnam totam gcnuit.</p>
+      <p xml:id="iuy75t-d1e361-d1e673">8. Video planius esse dicendum. Et certe ne vos 
+   <lb ed="#PL"/> din teneam , hodie huc usque tractetur : cum finiero 
+   <lb ed="#PL"/> quod volo dicere, adjuvante Deo, sermo claudatur. 
+   <lb ed="#PL"/> Hoc ideo dixi, ut intentos vos facerem. Omnib anima 
+   <lb ed="#PL"/> quoniam res est mutabilis,etquamvis magna crea<lb ed="#PL" break="no"/>tura, tamen creatura; quamvis corpore melior, tamen 
+   <lb ed="#PL"/> facta : omnis ergo anitna quoniam mutabilis cst, hoc 
+   <lb ed="#PL"/> est, modo credit, modo non credit; modo vult, modo 
+   <lb ed="#PL"/> non vult; modo adultera cst, modo casta; modo 
+   <lb ed="#PL"/> bona, modo mala; mutabilis est : Deus autem hoc 
+   <lb ed="#PL"/> est quod est; idco proprium nomen sibi tenuit, <hi rend="italic">Ego
+   <lb ed="#PL"/> sum qui sum (Exud.</hi> III, 44). Hoc est Filius, dicendo, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Niti credideritis quia ego sum</hi> : ad hoc perLinct et, <hi rend="italic">Tu
+   <lb ed="#PL"/> quis es? Principium (Joan.</hi> vm , i4, 25). Deus igitnr 
+   <lb ed="#PL"/> incommutabilis est, anima mutabilis. Quando capit 
+   <lb ed="#PL"/> anima ex Deo unde sit bona, participando fit bona : 
+   <lb ed="#PL"/> quomodo tuus oculus participando videt. Nam lumine 
+   <lb ed="#PL"/> subtracto non videt, cujus particeps factus videt. Quia 
+   <lb ed="#PL"/> ergo anima participando fit bona, si mutata coeperit 
+   <lb ed="#PL"/> esse mala, bonitas manet cujus erat particeps bona.
+   
+   <lb ed="#PL"/> Bonitatis enim cujusdam particeps facti est cum bona 
+   <lb ed="#PL"/> esset; qua mutata in pejus, integra bonitas permanet. 
+   <lb ed="#PL"/> Si recedat animaetmala fiat, non minuitur bonitas; 
+   <lb ed="#PL"/> si revertatur et bona fiat, non crescit bonitas. Factus 
+   <lb ed="#PL"/> est oculus tuus particeps lucis hujus, et vides : clam 
+   <lb ed="#PL"/> sus est? hanc lucem non minnisti : apertus est? hanc 
+   <lb ed="#PL"/> lucem non auxisti. Hac data similitudinc, fratres, in<lb ed="#PL" break="no"/>telligite
+   quia si pia est anima, est pietas apud Deum, 
+   <lb ed="#PL"/> cujus fit particeps anima; si est casta anima , est ca<lb ed="#PL" break="no"/>stitas
+   apud Deum, cujus est particeps anima ; si est
+   
+   <lb ed="#PL"/> bona anima, est bonitas apud Deum, cujus est parti<lb ed="#PL" break="no"/>ceps
+   anima; si est verax anima, est veritas apud 
+   <lb ed="#PL"/> Dewn, cujus est particeps anima. Cujus particeps si 
+   <lb ed="#PL"/> non fuerit anima , omnis homo mendax <hi rend="italic">(Ptal.</hi> cxv, 
+   <lb ed="#PL"/> i 1) : si omnis homo mendax, nullus homo de suo 
+   <lb ed="#PL"/> verax. Pater autem verax, de suo est verax; quia ge<lb ed="#PL" break="no"/>nuit
+   veritatem. Aliud est. Verax est homo iste, quia 
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> jam percepit veritatem; alind est, Verax Deus, quia 
+   <lb ed="#PL"/> genuit veritatem. Ecce quomodo verax est Deus, non 
+   <lb ed="#PL"/> participando, sod generando veritatem. Video vos in­
+   
+   <lb ed="#PL"/> tellexisse et gaudeo : sufficiat vobis hodie; caetera 
+   <lb ed="#PL"/> quando Domino placucrit, sicut donaverit, exponemus.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

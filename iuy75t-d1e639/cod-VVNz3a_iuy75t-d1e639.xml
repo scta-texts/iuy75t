@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 73</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 73</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e639"> <!-- iuy75t-t73 -->
+      <head xml:id="iuy75t-d1e639-Hd1e109">Tractatus 73</head>
+      <!--<ab>
+   <title type="sub">
+    <hi rend="italic">ltem vi eamdem lectionem.</hi>
+   </title>
+  </ab>-->
+      <p xml:id="iuy75t-d1e639-d1e114">i. Magnam spem Dominus suis promisit speranti<lb ed="#PL" break="no"/>bus1, dicens : Quia <hi rend="italic">ego ad Patrem vado, et</hi> quodcum­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">que petieritis</hi> in <hi rend="italic">nomine meo, hoc faciam.</hi> Sic ergo per<lb ed="#PL" break="no"/>rexit
+   ad Patrem, ut nen relinqueret indigentes, sed 
+   <lb ed="#PL"/> exaudiret petentes. Sed quid est, <hi rend="italic">quodcumque</hi> petieri<lb ed="#PL" break="no"/>tis, cum videamus plerumque fideles ejus petere, et 
+   <lb ed="#PL"/> non accipere? An forte proplerca quia male petunt! 
+   <lb ed="#PL"/> Nam hoc exprobravit apostolus Jacobus dicens : Pe<lb ed="#PL" break="no"/>titis, <hi rend="italic">et non accipitis, eo quod male petatis,</hi> ut in <hi rend="italic">concu<lb ed="#PL" break="no"/>piscentiis
+   vestris insumatis ( Jacobi</hi> iv, 3). Male ergo 
+   <lb ed="#PL"/> usurus eo quod vult accipere, Deo potius miserante 
+   <lb ed="#PL"/> non accipit. Proinde si hoc ab illo petitur uade homo 
+   <lb ed="#PL"/> laedatur exauditus, magis metuendum est ne quod 
+   <lb ed="#PL"/> posset non dare propitius, det iratus. An non videmus 
+   <lb ed="#PL"/> Israelitas malo suo impetrasse quod culpabili concu<lb ed="#PL" break="no"/>piscentia
+   petierunt? Concupierant euim carnibus vesci 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Num.</hi> XI, 32), quibus pluebatur manna de caelo. Fasti<lb ed="#PL" break="no"/>diebant
+   quippe quod habebant; et quod Aon habe<lb ed="#PL" break="no"/>bant, impudenter petebant: quasi non melius pete<lb ed="#PL" break="no"/>rent, non ut cibus qui deerat indecenti desiderio 
+   <lb ed="#PL"/> praestaretur, sed ut ille qui aderat sanato fastidia su<lb ed="#PL" break="no"/>meretur. Quando enim nos delcetant mala, ei non 
+   <lb ed="#PL"/> delectant bona, rogare debemus potius Deum ut de<lb ed="#PL" break="no"/>lectent
+   bona, quam ut concedantur mala. Non quia 
+   <lb ed="#PL"/> malum est carne vesci, cum de hac re loquens Apo<lb ed="#PL" break="no"/>stolus
+   dicai, <hi rend="italic">Omnis creatura</hi> Dei <hi rend="italic">bona est, et nihil</hi> abji­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">ciendum quod cum gratiarum actione, accipitur</hi> (1 Tim. 
+   <lb ed="#PL"/> IV, 4) : sed quia sicat item ipse ait, Malum eat homini 
+   <lb ed="#PL"/>
+       <hi rend="italic">qui per offensionem manducat (. Rom.</hi> XIV, 20 ); et si 
+   <lb ed="#PL"/> hominis offensionem, quanto magis Dei? Cujus is 
+   <lb ed="#PL"/> Israelitis non parva erat offensio, repudiare quod da<lb ed="#PL" break="no"/>bat
+   sapientia, et petere id quod inhiabat concupiscen<lb ed="#PL" break="no"/>tia : quamvis illi nec peterent, sed quia deerat mur<lb ed="#PL" break="no"/>murarent. Sed ut sciremus non Dei creaturam esse 
+   <lb ed="#PL"/> culpabilem, sed inobedientiam contumacem et inor<lb ed="#PL" break="no"/>dinatam
+   cupiditatem; non propter porcum, sed pro<lb ed="#PL" break="no"/>pter
+   pomum mortem primus homo invenit (Gen.III,6), 
+   <lb ed="#PL"/> et Esau primatus suos non propter gallinam, sed pro<lb ed="#PL" break="no"/>pter
+   lenticulam perdidit <hi rend="italic">(Id.</hi> xxv, 34).</p>
+      <p xml:id="iuy75t-d1e639-d1e237">2. Quomodo ergo intelligendum est, <hi rend="italic">Quodcumque 
+   <lb ed="#PL"/> petieritis, hoc
+    faciam,</hi> si Deus aliqua petentibus fideli<lb ed="#PL" break="no"/>bus
+   etiam consulendo non facit? An forte solis Apo- 
+   
+   <pb ed="#PL" n="1825"/>
+       <lb ed="#PL"/> stolis dictum debemus accipere? Absit. Unde enim ad 
+   <lb ed="#PL"/> hoc venit ut dicerct, supcrius dixerat, <hi rend="italic">Qui credit in
+   <lb ed="#PL"/> me, opera quae ego facio
+    , faciet, et majora horum (a- 
+   <lb ed="#PL"/> ciet :</hi> de qua re pristino sermone tractavimus. Et ne 
+   <lb ed="#PL"/> quisquam hoc sibi tribueret, ut cHam illa opera ma<lb ed="#PL" break="no"/>jura
+   scipsum facere ostenderet, adjecit, atque ait: 
+   <lb ed="#PL"/>
+       <hi rend="italic">Quia ego ad Patrem vado; et quodcumque petieritis</hi> in 
+   <lb ed="#PL"/> nomine
+    <hi rend="italic">meo, hoc faciam.</hi> Numquid in eum soli Apostoli 
+   <lb ed="#PL"/> credidcrunt
+   ? Ad cos itaque loquebatur dicendo, <hi rend="italic">Qui
+   <lb ed="#PL"/> credit in me,</hi> in quibus eo donante etiam nos sumus, 
+   <lb ed="#PL"/> qui uliquc non quodcumque petierimus accipitmus. 
+   <lb ed="#PL"/> Ipsos quoque beatissimos si cogitemus Apostolos, in<lb ed="#PL" break="no"/>venimus
+   eum qui plus omnibus laboravit, non autem 
+   <lb ed="#PL"/> ipse, sed gratia Dei cum ipso (I Cor. xv, 10), ter Do<lb ed="#PL" break="no"/>minum
+   rogasse ut ab eo discederet angelus satanae, 
+   <lb ed="#PL"/> nec tamen quod rogaverat accepisse (II <hi rend="italic">Cor.</hi> xii, 8). 
+   <lb ed="#PL"/> Quid dicemus, charissimi' ? Putabimusne hoc pro<lb ed="#PL" break="no"/>missum
+   ubi ait, <hi rend="italic">Quodcumque
+    petieritis, hoc faciam,</hi> nee 
+   <lb ed="#PL"/> Apostolis fuissc ab illo completum? Et cui tandem 
+   <lb ed="#PL"/> quod promittit implebit, si Apostolos suos in sua pro<lb ed="#PL" break="no"/>missione
+   fraudavit?</p>
+      <p xml:id="iuy75t-d1e639-d1e314">3. Evigila igitur, homo fidelis, et vigilanter audi 
+   <lb ed="#PL"/> quod illic positum est, <hi rend="italic">in nomine meo :</hi> ipsum enim 
+   <lb ed="#PL"/>
+       <hi rend="italic">quodcumque,</hi> non ait, pctieritis utcumque; sed, in 
+   <lb ed="#PL"/> nomine
+    <hi rend="italic">meo.</hi> Qui promisit ergo tam magnum benefi<lb ed="#PL" break="no"/>cium, quid vocatur T Utique Christus Jesus : Christus 
+   <lb ed="#PL"/> significat regem, Jesus significat Salvatorem : non 
+   <lb ed="#PL"/> utique nos salvos faciet, quicumque rex, sed rex Sal<lb ed="#PL" break="no"/>vator
+   ; ac per hoc quodcumque petimus adversus uti<lb ed="#PL" break="no"/>litatem
+   salutis, non petimus in nomine Salvatoris. 
+   <lb ed="#PL"/> Et tamen ipse Salvator est, non solum quando facit 
+   <lb ed="#PL"/> qnod petimus, verum etiam quando non facit; quo<lb ed="#PL" break="no"/>niam
+   quod videt peti contra salutem, non faciendo 
+   <lb ed="#PL"/> potius se exhibet Salvatorem. Novit enim medicus 
+   <lb ed="#PL"/> quid pro sua, quid contra suam salutem poscat aegro<lb ed="#PL" break="no"/>tus; et ideo contraria poscentis non facit voluntatem, 
+   <lb ed="#PL"/> ut faciat sanitatem. Quapropter quando volumus ut 
+   <lb ed="#PL"/> faciat quodcumque petimus, non utcumque, sed in no<lb ed="#PL" break="no"/>mine- ejus petamus, hoc est in nomine Salvatoris pe<lb ed="#PL" break="no"/>tamus. Non ergo contra nostram salutem petamus : 
+   <lb ed="#PL"/> quod si fecerit, non ut Salvator facit, quod est no<lb ed="#PL" break="no"/>men
+   ejus fidelibus ejus. Est quippe impiis et damna<lb ed="#PL" break="no"/>tor, qui dignatur fidelibus esse Salvator. Qui ergo 
+   <lb ed="#PL"/> credit in eum, quodcumque petierit in eo nomine, 
+   <lb ed="#PL"/> quod est illis qui credunt in eum, hoc facit; quoniam 
+   <lb ed="#PL"/> hoc sicut Salvator facit. Si autem qui in eum credit, 
+   <lb ed="#PL"/> aliquid per ignorantiam contra suam salutem petit, 
+   <lb ed="#PL"/> non in nomine Salvatoris petit; quia Salvator ejus 
+   <lb ed="#PL"/> non erit, si qnod ejus salutem impedit, fecerit. Unde 
+   <lb ed="#PL"/> tunc etpedit potius at non faciendo propter qnod 
+   <lb ed="#PL"/> invocatur, faciat quod vocatur. Propterea non solum 
+   <lb ed="#PL"/> Salvator, sed etiam magister bonus, ut faciat quod<lb ed="#PL" break="no"/>cumque
+   petierimus, in ipsa oratione quam nobis 
+   <lb ed="#PL"/> dedit, docuit quid petamus; ut etiam sic intelliga<lb ed="#PL" break="no"/>mus
+   Bon petere nus in nomine magistri, quod peti<lb ed="#PL" break="no"/>mus
+   praeter regulam ipsius magisterii.</p>
+      <p xml:id="iuy75t-d1e639-d1e400">4. Sane quaedam quamvis in nomine gjus petamus, 
+   
+   <lb ed="#PL"/> id est secundum Salvatorcm et sccundum magistr um 
+   <lb ed="#PL"/> petamus; non tunc quando pctimus facit, sed tamen 
+   <lb ed="#PL"/> facit. Ncque enim quia et illud petimus ut veniat re­
+   
+   <lb ed="#PL"/> gnum Dei, propterea non facit quod petimus, quia 
+   <lb ed="#PL"/> non statim cum illo in aeternitate regnamus : differtur 
+   <lb ed="#PL"/> enim quod petimus, non negatur. Verumtamen oran­
+   
+   <lb ed="#PL"/> tes tanquam seminantes non deliciamus; tempore 
+   <lb ed="#PL"/> enim proprio metemus <hi rend="italic">(Galat.</hi> vi, 9). Et simul pcta<lb ed="#PL" break="no"/>mus
+   quando bene petimus , ut non faciat quod non 
+   <lb ed="#PL"/> bene pctimus; quia et ad hoc pertinet quod in eadem 
+   <lb ed="#PL"/> oratione dominica dicimus, <hi rend="italic">Ne nos inferas in tenta­
+   <lb ed="#PL"/> tionem
+    (Matth.</hi> VI, 9-15). Neque cnim parva est ten<lb ed="#PL" break="no"/>. tatio, si contra tuam sit causam tua postulatio. Non 
+   <lb ed="#PL"/> autem negligenter audiendum est, quod Dominus, ne 
+   <lb ed="#PL"/> quisquam cum putarct quod se promisit facere peten<lb ed="#PL" break="no"/>tibus, sine Patre esse facturum, cum dixisset, <hi rend="italic">Quod­
+   <lb ed="#PL"/> cumque petieritis</hi> in <hi rend="italic">nomine meo, hoc</hi> faciant continuo 
+   <lb ed="#PL"/> subjecit, <hi rend="italic">Ut glorificetur Pater</hi> in <hi rend="italic">Filio,</hi> si <hi rend="italic">quid</hi> petie­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">ritis</hi> in <hi rend="italic">nomine meo, hoc faciam.</hi> Nullo modo igitur 
+   <lb ed="#PL"/> sine Patre hoc Filius facit, quandoquidem ut in illo 
+   <lb ed="#PL"/> Pater glorificetur, propterea facit. Facit ergo Pater 
+   <lb ed="#PL"/> in Filio, ut Filius glorificetur in Patrc : et facit Fi<lb ed="#PL" break="no"/>lius
+   in Patre, ut Patcr glorificetur in Filio; quoniam
+   
+   <lb ed="#PL"/> unum suut Pater et Filius.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

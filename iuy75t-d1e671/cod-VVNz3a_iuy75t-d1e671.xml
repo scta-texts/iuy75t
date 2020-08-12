@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 77</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 77</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e671"> <!-- iuy75t-t77 -->
+      <head xml:id="iuy75t-d1e671-Hd1e109">Tractatus 77</head>
+      <p xml:id="iuy75t-d1e671-d1e112">
+       <hi rend="italic">De co quod sequitur,</hi> Haec loculus sum vobis apud vos 
+   <lb ed="#PL"/> manons; <hi rend="italic">usque ad id,</hi> Pacem meam do vobis ; non 
+   <lb ed="#PL"/> quomodo mundus dat, ego do vobis. <hi rend="italic">Cap.</hi> XIV, ℣. 
+   <lb ed="#PL"/> 25-27.</p>
+      <p xml:id="iuy75t-d1e671-d1e131">1. In praecedenti lectione sancti Evangelii, quam se<lb ed="#PL" break="no"/>quitur
+   ista quae modo recitata est, Dominus Jesus di<lb ed="#PL" break="no"/>xcrat
+   se et Patrem ad dilectores suos esse venturos, 
+   <lb ed="#PL"/> et apud eos mansionem esse facturos. Jamvero et su<lb ed="#PL" break="no"/>perius
+   dixerat de Spiritu sancto, <hi rend="italic">Vos autem cognosce­
+   <lb ed="#PL"/> tis</hi> eum, <hi rend="italic">quia apud</hi> vos <hi rend="italic">manebit, et in vobis eric (
+    Joan.</hi>
+   
+       <lb ed="#PL"/> XIV, 11 : unde intelleximus in sanctis tanquam in 
+   <lb ed="#PL"/> templo suo simul manere Trinitatem Deum. Nunc au<lb ed="#PL" break="no"/>tem
+   dicit: <hi rend="italic">Hac locutus sum vobis apud
+    vos manens.</hi> Illa 
+   <lb ed="#PL"/> itaque mansio alia est, quam promisit futuram; haec 
+   <lb ed="#PL"/> vero alia, quam presentem esse testatur. llla spiritua<lb ed="#PL" break="no"/>lis
+   est, atque intrinsecus mentibus redditur : haec 
+   <lb ed="#PL"/> corporalis forinsecus oculis atque auribus exhibetur.
+   
+   <lb ed="#PL"/> Illa in aeternum beatificat liberatos; haec in tempore 
+   <lb ed="#PL"/> visitat libcrandos. Secundum illam Dominus a suis di<lb ed="#PL" break="no"/>lectoribus
+   non recedit; secundum hanc itet recedit1. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Haec,</hi> inquit, <hi rend="italic">locutus sum vobis, apud vos
+    manens:</hi>
+   
+       <lb ed="#PL"/> utique praesentia corporali, qua cum illis visibilis lo<lb ed="#PL" break="no"/>quebatur.</p>
+      <p xml:id="iuy75t-d1e671-d1e191">i, <hi rend="italic">Paracletus autem,</hi> inquit, <hi rend="italic">Spiritus</hi> sanctus, <hi rend="italic">quem</hi>
+   
+       <lb ed="#PL"/> mite t Puter <hi rend="italic">in nomine meo, ille vos docebit omnia, et
+   <lb ed="#PL"/>
+    commemorabit vos omnia quaecumque dixero vobis.</hi> Num<lb ed="#PL" break="no"/>quidnam
+   dicit Filius, et docet Spiritus sanctus; ut di<lb ed="#PL" break="no"/>cente
+   Filio verba capiamus, docente autem Spiritu 
+   <lb ed="#PL"/> sancto cadem verba intelligamus? Quasi dicat Filius 
+   <lb ed="#PL"/> sine Spiritu sancto, aut Spiritus sanclus doceat sinc 
+   <lb ed="#PL"/> Filio : aut vcro non et Filius doceat et Spiritus san<lb ed="#PL" break="no"/>ctus
+   dicat, et cum Deus aliquid dicit et docet, Trinitas 
+   <lb ed="#PL"/> ipsa dicat et doceat ? Sed quoniam Trinitas est, opor<lb ed="#PL" break="no"/>tebat
+   ejus singulas iusinuarc personas, eamque nos 
+   <lb ed="#PL"/> distincte audire, inseparabiliter intelligere. Audi Pa<lb ed="#PL" break="no"/>trem
+   dicentem ubi legis, <hi rend="italic">Dominus dixit ad me, Filius
+   <lb ed="#PL"/> meus</hi> es
+    <hi rend="italic">tu</hi> ( <hi rend="italic">Psal.</hi> II, 7 ) : audi et docentem ubi legis, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Omnis qui audivit a Patre et didicit, venit ad me (Joan.</hi>
+   
+       <lb ed="#PL"/> VI, 45 ). Filium vero dicentem modo audisti ; de se 
+   <lb ed="#PL"/> quippe ait, <hi rend="italic">Quaecumque dixero</hi> vobis : quem sietdo<lb ed="#PL" break="no"/>centem. vis nossc, magistrum rccolc, <hi rend="italic">Unus est,</hi> nituit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Magister vester Christus ( Matth.</hi> XXIII, 10). Spiritum 
+   <lb ed="#PL"/> porro sanctum, quem modo audisti docentem ubi di<lb ed="#PL" break="no"/>ctum
+   cst, <hi rend="italic">Ipse</hi> vos docebit omnia, audi etiam dicentem, 
+   <lb ed="#PL"/> ubi legis in Actibus Apostolorum, beato Petro dixisse 
+   <lb ed="#PL"/> Spiritum sanctum, <hi rend="italic">Vade cum
+    illis, quiu ego</hi> misi <hi rend="italic">eos</hi>
+   
+       <lb ed="#PL"/> ( <hi rend="italic">Act.</hi> X ,20). Omnis igitur et dicit et decet Trinitas :
+   
+   <lb ed="#PL"/> sed uisi etiaut singillatim commendaretum, eam nullo 
+   <lb ed="#PL"/> modo humana capere utique posset infirmitas. Cum 
+   <lb ed="#PL"/> ergo omnino sit inseparabilis, nunquam Trinitas esse
+   
+   <lb ed="#PL"/> sciretur, si semper inseparabiliter diceretur : namet
+   <lb ed="#PL"/> cum dicimus Patrem et Filium et Spiritum sanctum, 
+   <lb ed="#PL"/> nou eos utique dicimus simul, cum ipii non possint
+   
+   <lb ed="#PL"/> esse non simul. Quod ver o addidil, <hi rend="italic">commemorabit vos,</hi>
+   
+       <lb ed="#PL"/> intelligere debemus etiam, quod jubemur non oblivi<lb ed="#PL" break="no"/>sci
+   saluberrimos monitus ad graHam pertinere, quam 
+   <lb ed="#PL"/> nos commemorat Spiritus. 
+  </p>
+      <p xml:id="iuy75t-d1e671-d1e316">3. <hi rend="italic">Patrem,</hi> inquit, <hi rend="italic">relinquo vobis,</hi> pacem
+    <hi rend="italic">meam da
+   <lb ed="#PL"/> vobis.</hi> Hoc est quad legimus apud prophetam, <hi rend="italic">Pacem 
+   <lb ed="#PL"/> super pacem</hi> : pacem nobis rclinquit iturus, pacem 
+   <lb ed="#PL"/> suam nobis dabit in fine venturus. Pacem nobis re<lb ed="#PL" break="no"/>linquit
+   in hoc sacculo, pacem suam nobis dabit in 
+   <lb ed="#PL"/> futuro saeculo. Pacem suam nobis relinquit, in qua 
+   <lb ed="#PL"/> manentes hostem vincimus : pacem suam nobis dabit, 
+   <lb ed="#PL"/> quando sine hoste regnabimus. Pacem relinquit no<lb ed="#PL" break="no"/>bis, ut etiam hic invicem diligamus : pacem suam 
+   <lb ed="#PL"/> nobis dabit, ubi nunquam dissentirc posuimus. Pacem 
+   <lb ed="#PL"/> relinquit nobis, ne de occultis nostris invicem judi<lb ed="#PL" break="no"/>ccmus, cum ill hoc sumus mundo: pacem suam dabit 
+   <lb ed="#PL"/> nobis, cum manifestabit cogitationes cordis, et tunc 
+   <lb ed="#PL"/> laus erit unicuique a Deo ( I
+    <hi rend="italic">Cor.</hi> IV, 5). In illo tamen 
+   <lb ed="#PL"/> atque ab illo nobis est pax, sive quam nobis relinquit 
+   <lb ed="#PL"/> iturus ad Patrem, sive quam uobis dabit nos per<lb ed="#PL" break="no"/>ducturus
+   ad Patrem. Quid autem nobis relinquit 
+   <lb ed="#PL"/> ascendens a nobis, nisi seipsum, dum non recedit a 
+   <lb ed="#PL"/> nobis? Ipse est euim pax nostra; qui fecit utraque 
+   <lb ed="#PL"/> unum
+    <hi rend="italic">(Ephes.</hi> II, 14). Pax ergo ipse nobis est, et 
+   <lb ed="#PL"/> cum credimus quia est , et cum vidcmus eum sicuti 
+   <lb ed="#PL"/> est ( I <hi rend="italic">Joan.</hi> III. 2). Si cnim quamdiu sumus in cor<lb ed="#PL" break="no"/>pore
+   corruptibili quod aggravat animam, cum per
+   
+   <lb ed="#PL"/> fidem ambulansus, non per speciem, non dcseril per<lb ed="#PL" break="no"/>egrinantes
+   a se (II <hi rend="italic">Cor.</hi> v, 6, 7); quanto magis cum 
+   <lb ed="#PL"/> ad ipsam speciem venerimus, nos implebit ex sc?</p>
+      <p xml:id="iuy75t-d1e671-d1e398">4. Sed quid est quod ubi ait, <hi rend="italic">Pacem relinquo vobis,</hi>
+   
+       <lb ed="#PL"/> non addidit <hi rend="italic">meam;</hi> ubi, vero ait, <hi rend="italic">do
+    vobis,</hi> ibi dixit 
+   <lb ed="#PL"/>
+       <hi rend="italic">meam</hi> ? Utrum subaudiendum est <hi rend="italic">meam,</hi> et ubi dicium 
+   <lb ed="#PL"/> non est, quia potest referri ad utrumque etiain quod 
+   <lb ed="#PL"/> semel dictum est? An forte et hic aliquid latet quod 
+   <lb ed="#PL"/> petendum est et quaerendum, et ad quod pulsantibus 
+   <lb ed="#PL"/> aperiendum? Quid si enim pacem suam eam voluit 
+   <lb ed="#PL"/> intelligi qualem habet ipse? Pax vcro ista quam nobis 
+   <lb ed="#PL"/> relinquit in hoc saeculo, nostra est potius dicenda 
+   <lb ed="#PL"/> quam ipsius. Illi quippe nihil rcpugnat in scipso, qui 
+   <lb ed="#PL"/> nullum babet omnino peccatum : nosautem tale lit 
+   <lb ed="#PL"/> pacem nunc habcmus, in qua adhuc dicainu, <hi rend="italic">Di<lb ed="#PL" break="no"/>mille
+   nobis debita nostra (Matth.</hi> VI, 12). Est ergo 
+   <lb ed="#PL"/> nobis pax aliqua, quoniam condelectamur legi Dci 
+   <lb ed="#PL"/> secundum interiorem hominem : sed non est plena, 
+   <lb ed="#PL"/> quia videmus aliam legem in membris nostris, rc<lb ed="#PL" break="no"/>pugnantem
+   lcgi mentis nostrae <hi rend="italic">(Rom.</hi> VII, 22 <hi rend="italic">et</hi> 25).
+   
+   <lb ed="#PL"/> Itemque inter nos ipsos est nobis pax, quia invicem 
+   <lb ed="#PL"/> nobis credimus quod invicem diligamus : sed nec 
+   <lb ed="#PL"/> ipsa plena est, quia cogitationes cordis nostri invi­
+   
+   <lb ed="#PL"/> cem non videmus; et quaedam de nobis quae non sunt 
+   <lb ed="#PL"/> in uobis, vel in melius invicem vel in deterius opi-, 
+   <lb ed="#PL"/> namur. Itaque ista etiamsi ab illo nobis relicta est, 
+   <lb ed="#PL"/> pax nostra est: nisi enim ab illo, non haberemus et 
+   <lb ed="#PL"/> talem; sed ipse non habet talem. Si tenuerimus 
+   <lb ed="#PL"/> ubque in finem qualem accepimus, qualem habet ha<lb ed="#PL" break="no"/>bebimus,
+   ubi nihil nobis rcpugnet ex nobis,etnihil 
+   <lb ed="#PL"/> nos invicem lateat in cordibus nostris. Nec ignoro 
+   <lb ed="#PL"/> ista Domini verba etiam sic accipi posse, ut ejusdem
+   
+   <lb ed="#PL"/> sententiae repetitio videatur, <hi rend="italic">Pacem relinquo vobis , 
+   <lb ed="#PL"/> pacem
+    meam do vobis</hi> : ut quod dixerat, pacem, hoc 
+   <lb ed="#PL"/> repetierit dicens, <hi rend="italic">pacem meam;</hi> et quod dixerat, re­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">linquo vobis,</hi> hoc repetierit dicens, <hi rend="italic">do
+    vobit.</hi> Ut volet 
+   
+   
+   <pb ed="#PL" n="1835"/>
+       <lb ed="#PL"/> quisque accipiat: me tamen delectat, credo et vos, 
+   <lb ed="#PL"/> fratres mci dilecti, sic tenere istam pacem, ubi ad- , 
+   <lb ed="#PL"/> versarium concortlilcr vincinius, ut desideremus pa<lb ed="#PL" break="no"/>cem, ubi adversarium non habebimus.</p>
+      <p xml:id="iuy75t-d1e671-d1e518">5. Quod vcro Dominus adjunxit, atqne ait, <hi rend="italic">Non 
+   <lb ed="#PL"/> quomodo mundus
+    dat, ego do vobis;</hi> quid est aliud, 
+   <lb ed="#PL"/> nisi, non quomodo homines dant qui diligunt mun<lb ed="#PL" break="no"/>dum, ita do vobis? Qui propterea dant sibi pacem, 
+   <lb ed="#PL"/> ut sinc molestia litium atque bellorum, non Deo, sed 
+   <lb ed="#PL"/> amico suo mundo perfruantur: et quando justis dant 
+   <lb ed="#PL"/> pacem ut non eos persequantur, pax non potest esse 
+   <lb ed="#PL"/> vera, ubi non est vera concordia; quia disjuncta sunt 
+   <lb ed="#PL"/> corda. Quomodo enim consors dicitur, qui sortem 
+   <lb ed="#PL"/> jungit; ita ille concors dicendus est, qui corda jungit. 
+   <lb ed="#PL"/> Nos ergo, charissimi, quibus Christus pacem relin<lb ed="#PL" break="no"/>quit, et pacem suam nobis dat, non sicutmundus, sed 
+   <lb ed="#PL"/> sicut ille per quem factus est mundus , ut concordes 
+   <lb ed="#PL"/> simus; jungamus invicem corda, et cor unum sur<lb ed="#PL" break="no"/>sum
+   babcamus, ne corrumpatur in terra.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

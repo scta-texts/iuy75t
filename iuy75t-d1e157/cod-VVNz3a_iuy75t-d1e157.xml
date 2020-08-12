@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 14</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 14</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e157"> <!-- iuy75t-t14 -->
+      <head xml:id="iuy75t-d1e157-Hd1e109">Tractatus 14</head>
+      <p xml:id="iuy75t-d1e157-d1e112">
+       <hi rend="italic">Ab eo Evangelii loco,</hi> Hoc ergo gaudium meum imple<lb ed="#PL" break="no"/>tum
+   est, <hi rend="italic">etc., usque ad id,</hi> Qui autem incredulus est 
+   <lb ed="#PL"/> Filio, non videbit vitam, sed ira Dei manet super 
+   <lb ed="#PL"/> cum. <hi rend="italic">Cap.</hi> III, T • 29-36.</p>
+      <p xml:id="iuy75t-d1e157-d1e131">4. Lectio ista de sahcto Evangelio excellentiam 
+   <lb ed="#PL"/> divinitatis Domini nostri Jesu Christi, et humilitatem 
+   <lb ed="#PL"/> hominis qui meruit dici amicus sponsi, nos docet; ut 
+   <lb ed="#PL"/> distinguamus quid intersit inter hominem hominem , 
+   <lb ed="#PL"/> et hominem Deum. Quia homo Deus Dominus noster 
+   <lb ed="#PL"/> Jesus Christus, Deus ante omnia sxcula, et homo in 
+   <lb ed="#PL"/> nostro saeculo : Deus de Patre, homo de Virgine, 
+   <lb ed="#PL"/> unus tamen atque idem Dominus et Salvator Jesus 
+   <lb ed="#PL"/> Christus, Filius Dei, Deus et homo. Joannes vero 
+   <lb ed="#PL"/> excellentis gratiae missus ante ipsum; illuminatus ab 
+   <lb ed="#PL"/> illo qui lumen est. De Joanne enim dictum est, Non 
+   <lb ed="#PL"/>
+       <hi rend="italic">erat ille lumen, sed ut</hi> testimonium <hi rend="italic">perhiberet
+    de lumine 
+   <lb ed="#PL"/> (Joan.</hi> i. 8), Potest quidem dici lumen, et bene dici<lb ed="#PL" break="no"/>tur
+   et ipse lumen ; sed illuminatum, non illuminans. 
+   <lb ed="#PL"/> Aliud est enim lumen quod illuminat, et aliud lumen 
+   <lb ed="#PL"/> quod iUuminatur : nam et oculi nostri lumina dicun­
+   
+   <lb ed="#PL"/> tur, et tamen in tenebris patent, et non vident. Lu<lb ed="#PL" break="no"/>men
+   autem illuminans a seipso lumen est, et sibi 
+   <lb ed="#PL"/> lumen est, et non indiget alio lumine ut lucere pos­
+   
+   <lb ed="#PL"/> sit, sed ipso indigent caetera ut luceant.</p>
+      <p xml:id="iuy75t-d1e157-d1e181">2. Confessus est ergo Joannes, sicut audistis, quia 
+   <lb ed="#PL"/> cum discipulos multos faceret Jesus, et perferretur 
+   <lb ed="#PL"/> ad eum veluti ut instigaretur; quasi invido enim nar<lb ed="#PL" break="no"/>raverunt,
+   Ecce ille facit plures discipulos quam tu : 
+   <lb ed="#PL"/> ille confessus est quid esset, et inde meruit ad ipsum 
+   <lb ed="#PL"/> pertinere, quia nou est ausus se dicere quod est ille. 
+   <lb ed="#PL"/> Hoc ergo dixit Joannes, &lt; Non potest horno accipere 
+   <lb ed="#PL"/> quidquam, nisi datum illi fuerit de coelo. &gt; Ergo Chri<lb ed="#PL" break="no"/>atus
+   dat, homo accipit. « Ipsi vos mihi testimonium per<lb ed="#PL" break="no"/>hibetis
+   quod dixerim, Ego non sum Christus, sed 
+   <lb ed="#PL"/> quia missus sum ante ilium. Qui habet sponsam, 
+   <lb ed="#PL"/> sponsus est: amicus autem sponsi, qui stat et audit 
+   <lb ed="#PL"/> eum, gaudio gaudet propter vocem sponsi &gt; <hi rend="italic">(Id.</hi> III , 
+   <lb ed="#PL"/> 26-29). Non sibi gaudium fecit de se. Qui cnim vult 
+   <lb ed="#PL"/> gaudere de se, tristis erit: qui autem de Deo vuit 
+   <lb ed="#PL"/> gaudere, semper gaudebit; quia Deus sempiternus 
+   <lb ed="#PL"/> est. Vis habere gaudium sempiternum ? Inhaere illi qui 
+   <lb ed="#PL"/> sempiternus est. Talem se dixit Joannes. <hi rend="italic">Propter</hi> vo­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">cem sponsi gaudet</hi> amicus <hi rend="italic">sponsi,</hi> ait, non propter 
+   <lb ed="#PL"/> vocem suam : et <hi rend="italic">stat, et audit eum.</hi> Si ergo cadit, r,on 
+   
+   <pb ed="#PL" n="1503"/>
+       <lb ed="#PL"/> audit eum : de illo enim quodam qui recidit, dictum 
+   <lb ed="#PL"/> est, <hi rend="italic">Et</hi> in <hi rend="italic">veritate non stetit (Joan.</hi> VIII, 44); de diabolo 
+   <lb ed="#PL"/> dictum est. Ergo stare debet amicus sponsi et audirc. 
+   <lb ed="#PL"/> Quid est stare? Permanere in gratia cjus quam accc<lb ed="#PL" break="no"/>pit. Et audit vocem ad quam gaudeat. Sic erat Joan- 
+   <lb ed="#PL"/> Des : noverat undc gaudcbat, non sibi arrogabat quod 
+   <lb ed="#PL"/> ipse non erat ; sciebat illuminatum se, non illumina<lb ed="#PL" break="no"/>torero. <hi rend="italic">Erat autcm
+    lumen</hi> verum, ait Evangelista, <hi rend="italic">quod 
+   <lb ed="#PL"/> illuminat omnem</hi> hominem <hi rend="italic">venientem in hunc mundum 
+   <lb ed="#PL"/> (Id.</hi> I, 9). Si ergo omnem hominem,etipsum Joan<lb ed="#PL" break="no"/>nem; quia et ipse de hominibus. Elcnim quamvis 
+   <lb ed="#PL"/> nemo exsurrexerit major Joanne in natis mulierum 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Matth.</hi> xi, 11), unus tamenetipse ex his qui nati 
+   <lb ed="#PL"/> sunt ex mulieribus. Numquid comparandus est ei qui, 
+   <lb ed="#PL"/> quia voluit, natus cst; et idco novo partu, quia no<lb ed="#PL" break="no"/>vus
+   natus? Ambae enim generationes Damini inusi<lb ed="#PL" break="no"/>tatae
+   sunt,etdivina et humana v divina non habet 
+   <lb ed="#PL"/> matrem, humana non habet patrem. Ergo unus de 
+   <lb ed="#PL"/> caeteris Joannes, sed tamen majoris gratiae, ita ut in 
+   <lb ed="#PL"/> natis mulicrum nemo exsurgeret major illo, tantam 
+   <lb ed="#PL"/> testificationem tribuit Domino nostro Jesu Christo, ut 
+   <lb ed="#PL"/> illum dicat sponsum, se amicum sponsi, non dignum 
+   <lb ed="#PL"/> tamen solvere corrigiam calceamenti ipsius. Hinc au<lb ed="#PL" break="no"/>divit
+   jam multa Charitas vestra : quod sequitur vi­
+   
+   <lb ed="#PL"/> deamus; aliquantum enim spissum est ad intelligen<lb ed="#PL" break="no"/>dum. Sed quoniam dicit ipse Joannes, quia <hi rend="italic">non</hi> po­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">test homo accipere quidquam,</hi> nisi <hi rend="italic">datum</hi> ilii <hi rend="italic">fuerit de 
+   <lb ed="#PL"/> caelo;</hi> quidquid non intellexerimus, rogcmuseum qui 
+   <lb ed="#PL"/> dat de coelo: quia homines sumus, et non possu<lb ed="#PL" break="no"/>mus
+   accipere quidqnam, nisi illo dederit qui homo 
+   <lb ed="#PL"/> non est.</p>
+      <p xml:id="iuy75t-d1e157-d1e342">3. Hoc ergo sequitur,etdicit Joannes, <hi rend="italic">Hoc ergo</hi>
+   
+       <lb ed="#PL"/> gaudium meum <hi rend="italic">impletum eat.</hi> Quod est gaudium ipsius ? 
+   <lb ed="#PL"/> Ut gaudeat ad vocem sponsi. Impletum est in me, 
+   <lb ed="#PL"/> habeo gratiam meam, plus mihi non assumo, ne et 
+   <lb ed="#PL"/> quod accepi amittam. Quod est hoc gaudium? Gaudio 
+   <lb ed="#PL"/>
+       <hi rend="italic">gaudet propter vocem</hi> sponsi. Intelligat ergo homo non 
+   <lb ed="#PL"/> se gaudere debere de sapientia sua, sed de sapientia 
+   <lb ed="#PL"/> . quam accepit a Deo. Nihil plus quaerat, et non amit<lb ed="#PL" break="no"/>tit
+   qnod invenit. Multi enim ideo farti sunt insipientes,
+   
+   <lb ed="#PL"/> quia dixerunt se esse sapientes. Arguit illos Aposto<lb ed="#PL" break="no"/>lus, et dicit de ipsis
+   : c Quia quod notum est Dei, 
+   <lb ed="#PL"/> ait, manifestum est illis : Deus enim illis manifestavit. 
+   <lb ed="#PL"/> De quibusdam ingratis, impiis, audite quid dicat: 
+   <lb ed="#PL"/> &lt; Deus enim illis manifestavit. Invisibilia enim cjus,a 
+   <lb ed="#PL"/> creatura mundi, per ea quae facta sunt, intellecta con<lb ed="#PL" break="no"/>spiciuntur; sempiterna quoque virtus ejus ac divinitas,
+   
+   <lb ed="#PL"/> ut sint ipsi inexcusabiles. » Quare « inexcusabiles?»Quia 
+   <lb ed="#PL"/> i cognoscentes Deum; i non dixit, quia non cognove<lb ed="#PL" break="no"/>runt; &lt; cognoscentes Deum, non sicut Deum gloria<lb ed="#PL" break="no"/>caverunt
+   aut gratias egerunt; sed evanuerunt in cogi<lb ed="#PL" break="no"/>tationibus
+   suis, et obscuratum est insipiens cor corum: 
+   <lb ed="#PL"/> dicentes enim se esse sapientes, <hi rend="italic">stulti facti sunt » (Rom.</hi>
+   
+       <lb ed="#PL"/> I, 19-22). Si enim Deum cognoverant, simul cognove<lb ed="#PL" break="no"/>rant
+   quia non eos fecerat sapientes nisi Deus. Non 
+   <lb ed="#PL"/> ergo sibi tribuerent quod a se non habebant, sed ei a 
+   <lb ed="#PL"/> quo acceperant. Non autem agendo gratias insipientes 
+   <lb ed="#PL"/> facti sunt. Ergo Deus quod dederat gratis, tulit in<lb ed="#PL" break="no"/>graiis. Noluit esse hoc Joannes, gratus esse voluit: 
+   <lb ed="#PL"/> confessus est accepisse sc, et gaudere se dixit propter 
+   <lb ed="#PL"/> vocem sponsi,etait, <hi rend="italic">Hoc ergo gaudium meum imple<lb ed="#PL" break="no"/>tum
+   est.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e157-d1e425">4. <hi rend="italic">lllum oportet</hi> crescere, <hi rend="italic">me autem
+    minui.</hi> Quid est 
+   <lb ed="#PL"/> hoc? Illum oportet exaltari, me autem humiliari. 
+   <lb ed="#PL"/> Quomodo crescit Jesus? quomodo crescit Deus? Pcr<lb ed="#PL" break="no"/>fectus
+   non crescit. Deus autem nee crescit, nec rni<lb ed="#PL" break="no"/>nuitur. Si cnim crescit, perfectus non est : si minui. 
+   <lb ed="#PL"/> tur, Deus non est. Jesus autem Deus quomodo cre<lb ed="#PL" break="no"/>scit? Si ad aetatem, quia dignatus est csse homo, et 
+   <lb ed="#PL"/> fuit puer; et cum sit Verbum Dei, infans in praesepi 
+   <lb ed="#PL"/> jacuit, et cum ipse matrem suam condiderit, lac in<lb ed="#PL" break="no"/>fantiae
+   de matre suxit: quia crerit ergo Jesus aetate 
+   <lb ed="#PL"/> carnis, ideo fortc dictum est, <hi rend="italic">Illum
+    oportet crescere,</hi>
+   
+       <lb ed="#PL"/> me <hi rend="italic">autem minui.</hi> Sed quare et hoc? JoannesetJesus, 
+   <lb ed="#PL"/> quod ad carnem pertinct, coaevi erant : sex menses 
+   <lb ed="#PL"/> inter se habebant <hi rend="italic">(Luc.</hi> I, 36), paritcr creverant; et 
+   <lb ed="#PL"/> si diutius ante mortem Dominus noster Jcsus Chri<lb ed="#PL" break="no"/>stus
+   vellet hic esse, et ipsum Joannem hic secum csse,
+   
+   <lb ed="#PL"/> quomodo pariter creverant, ita pariter senescere po<lb ed="#PL" break="no"/>terant : quare ergo,
+    <hi rend="italic">Illum oportet cretcere, me autem</hi>
+   
+       <lb ed="#PL"/> minui ? Primo, quia jametDominus triginta annorum 
+   <lb ed="#PL"/> erat <hi rend="italic">(Id.</hi> III, 23) : numquid junonis, si jam triginta 
+   <lb ed="#PL"/> annorum sit, adhuc crescit? Jam ab ipsa aetate vcr<lb ed="#PL" break="no"/>gere
+   incipiunt homines; et declinare ad graviorem
+   
+   <lb ed="#PL"/> aetatem,etindc ad senectutem. Sed et si pueri cssent 
+   <lb ed="#PL"/> ambo, non diceret, <hi rend="italic">Illum oportet crescere,</hi> me <hi rend="italic">autem</hi>
+   
+       <lb ed="#PL"/> minui; sed dicerct, Simul nos oportet crescere. Nunc 
+   <lb ed="#PL"/> autcm triginta annorum ille, triginta et ille : sex 
+   <lb ed="#PL"/> menses qui intererant, nullam distinguunt aetatem;
+   
+   <lb ed="#PL"/> magis illud invenit lectio quam aspectio.</p>
+      <p xml:id="iuy75t-d1e157-d1e515">5. Quid ergo est, <hi rend="italic">Illum oportet crescere, me autem
+   <lb ed="#PL"/> minui?</hi> Magnum hoc sacramentum ! intelligat Charitas 
+   <lb ed="#PL"/> vestra. Antequam venirct Dominus lesus, homines 
+   <lb ed="#PL"/> gloriabantur de se : venit illc homo, ut minueretur 
+   <lb ed="#PL"/> hominis gloria, et augeretur gloria Dei. Etenim venit 
+   <lb ed="#PL"/> ille sine peccato, et invenit omnes cum peccato. Si 
+   <lb ed="#PL"/> sic venit ille ut dimitteret peccata , Deus largiatur, 
+   <lb ed="#PL"/> homo confiteatur. Etenim confessio hominis, humi<lb ed="#PL" break="no"/>litas
+   hominis : miseratio Dei, altitudo Dei. Si ergo 
+   <lb ed="#PL"/> venit ille dimittere homini peccata, agnoscat horno 
+   <lb ed="#PL"/> humilitatem suam, et Deus faciat misericordiam suam. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Illum oportet cresceret me autem</hi> minui : hoc est, illum 
+   <lb ed="#PL"/> oportet dare, me autem accipere; illum oportet glo - 
+   <lb ed="#PL"/> rificari, me autem confiteri. Intelligat homo gradum 
+   <lb ed="#PL"/> suum, et confiteatur Deo, et audiat Apostolum di<lb ed="#PL" break="no"/>centem
+   homini superbienti et elato, extollere se vo<lb ed="#PL" break="no"/>lenti : <hi rend="italic">Quid enim habes quod non</hi> accepisti ? si <hi rend="italic">autem 
+   <lb ed="#PL"/> accepisti,
+    quid gloriaris quasi non acceperis</hi> (I <hi rend="italic">Cor.</hi> IV, 
+   <lb ed="#PL"/> 7)? Intelligat ergo homo quia accepit, qui volcbat 
+   <lb ed="#PL"/> suum dicere quod non est ejus, et minuatur : honum 
+   <lb ed="#PL"/> est enim illi ut Deus in illo glorificetur. Ipse iti se 
+   <lb ed="#PL"/> minuatur, ut in Deo augeatur. Haec testimonia et hanc 
+   <lb ed="#PL"/> veritatem, etiam passionibus suis significaverunt 
+   <lb ed="#PL"/> Christus et Joannes. Nam Joannes capite minutus, 
+   <lb ed="#PL"/> Christus in cmce exaltatus; ut et ibi apparcret quid 
+   <lb ed="#PL"/> est, <hi rend="italic">Illum
+    oportet</hi> creare, <hi rend="italic">me autem</hi> minui. Dcinde na<lb ed="#PL" break="no"/>tus
+   est Christus cum jam inciperent crescere dies, 
+   <lb ed="#PL"/> natus est Joannes quando coepcrunt minii dies. At. 
+   <pb ed="#PL" n="1505"/>
+       <lb ed="#PL"/> testata est ipsa crcatura cl ipsae passiones verbis 
+   <lb ed="#PL"/> Joannis dicentis, Illum <hi rend="italic">oportet crescere, me</hi> autem mi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">nui.</hi> Grescat ergo in nobis gloria Dei, et minuatur 
+   <lb ed="#PL"/> gloria nostra, ut in Deo crescat et nostra. Hoc cain 
+   <lb ed="#PL"/> dicit Apostolus, hoc dicit Scriptura sancta : <hi rend="italic">Qui glo­</hi>
+   
+       <lb ed="#PL"/> riatur, <hi rend="italic">in Domino glorietur</hi> ( I <hi rend="italic">Cor.</hi> I, 31, <hi rend="italic">et Jerem.</hi> IX, 
+   <lb ed="#PL"/> 25, 24). In te vis gloriari? crescere vis : sed malo tuo 
+   <lb ed="#PL"/> male crescis. Qui enim male crescit, juste minuitur. 
+   <lb ed="#PL"/> Crescat ergo Dcus qui semper perfectus est, crescat 
+   <lb ed="#PL"/> in te. Quanto eniin magis intelligis Deum ,etquaulo 
+   <lb ed="#PL"/> inagis capis, videtur in te crescere Deus : in se autem 
+   <lb ed="#PL"/> non crescit, sed semper perfectus est. Intelligebas 
+   <lb ed="#PL"/> heri modicum, intelligis hodie amplius, intelliges 
+   <lb ed="#PL"/> cras multo amplius : lumen ipsum Dei crescit in te ; 
+   <lb ed="#PL"/> iia velut Deus crescit , qui semper perfectus manet. 
+   <lb ed="#PL"/> Quemadmodum si curarentur alicujus oculi ex pri<lb ed="#PL" break="no"/>stina
+   caecitate, et inciperet videre paululum lucis, et 
+   <lb ed="#PL"/> alia dic plus videret, et tertia die amplius , videretur 
+   <lb ed="#PL"/> illi lux crescere : lux tamen perfecta est, sive ipse 
+   <lb ed="#PL"/> videat, sive non videat. Sic est et interior homo : 
+   <lb ed="#PL"/> proficit quidem in Deo', et Deus in illo videtur cre<lb ed="#PL" break="no"/>scere; ipse tamen minuitur, ut a gloria sua decidat, et 
+   <lb ed="#PL"/> in gloriam Dei surgat.</p>
+      <p xml:id="iuy75t-d1e157-d1e669">G. EI distincte jametmanifestc apparet quod modo 
+   <lb ed="#PL"/> audivimus. <hi rend="italic">Qui de</hi> sursum <hi rend="italic">venit, supra omnes est.</hi> Vide 
+   <lb ed="#PL"/> quid dicat de Christo. Quid de se ? <hi rend="italic">Qui est de terra, de 
+   <lb ed="#PL"/> terra est,
+    et de terra loquitur.</hi> Qui <hi rend="italic">de sursum venit,</hi> su­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">pra omnes est;</hi> Christus est : <hi rend="italic">Qui</hi> autem
+    <hi rend="italic">est de terra,
+   <lb ed="#PL"/> de terra eat, et de terra loquitur;</hi> Joannes est. Et hoc 
+   <lb ed="#PL"/> est totum, Joannes de terra est, et de terra loquiLur? 
+   <lb ed="#PL"/> totum testimonium quod perhibet de Christo, de terra 
+   <lb ed="#PL"/> loquitur? non voces Dei audiuntur a Joanne, ubi te<lb ed="#PL" break="no"/>stimonium
+   perhibet de Christo? Quomodo ergo de 
+   <lb ed="#PL"/> terra loquitur? Sed de homine dicebat. Quantum ad 
+   <lb ed="#PL"/> ipsum hominem pertinet, de terra est, et de terra lo<lb ed="#PL" break="no"/>quitur : si autem aliqua loquitur divina, illuminatus 
+   <lb ed="#PL"/> est a l eo. Nam si non esset illuminatus, terra terram 
+   <lb ed="#PL"/> loqueretur. Ergo seorsum est gratia Dei, seorsum na<lb ed="#PL" break="no"/>tura
+   liominis. Modo naturam hominis interroga : na<lb ed="#PL" break="no"/>scitur
+   et crescit, usitata ista hominum discit. Quid no<lb ed="#PL" break="no"/>vit
+   nisi terram de terra? Humana loquitur, humana 
+   <lb ed="#PL"/> novit, humana sapit; carnalis carnaliter aestimat, car­
+   
+   <lb ed="#PL"/> naliter suspicatur : ecce est totus homo. Veniat gra<lb ed="#PL" break="no"/>tia
+   Dei, illuminet tenebras illius, sicut dicit, <hi rend="italic">Tu illu­</hi>
+   
+       <lb ed="#PL"/> minabis <hi rend="italic">lucernam meam, Domine; Deus meus, illumina 
+   <lb ed="#PL"/>
+    tenebras meas (Psal.</hi> xvn, 29); assumat mentem huma<lb ed="#PL" break="no"/>nam, convertat I ad lucem suam : incipit jam dicere, 
+   <lb ed="#PL"/> quod Apostolus dicit, <hi rend="italic">Non ego
+    autem , sed gratia Dei</hi>
+   
+       <lb ed="#PL"/> mecum (I Cor. xv, 10); et, <hi rend="italic">Vivo</hi> autem jam <hi rend="italic">non ego, vi­</hi>
+   
+       <lb ed="#PL"/> vit <hi rend="italic">autem</hi> in me <hi rend="italic">Christus (Galat,</hi> n, 20). Hoc cst, Il<lb ed="#PL" break="no"/>lum <hi rend="italic">oportet crescere, me autem minui.</hi> Ergo Joannes, 
+   <lb ed="#PL"/> quod ad Joannem pertinet, de terra est,etde terra 
+   <lb ed="#PL"/> loquitur : si quid divinum audisti a Joanne, illumi<lb ed="#PL" break="no"/>nantis
+   cst, non recipientis.</p>
+      <p xml:id="iuy75t-d1e157-d1e784">7. <hi rend="italic">Qui</hi> de caelo <hi rend="italic">venit, supra omnes est; et quod
+    vi<lb ed="#PL" break="no"/>dit
+   et audivit, hoc testificatur; et testimonium ejus</hi>
+   
+   
+       <lb ed="#PL"/>
+       <hi rend="italic">nemo accipit. De caelo venit, supra omnes</hi> est, Dominus 
+   <lb ed="#PL"/> noster Jesus Christus : de quo superius dictum est, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Nemo ascendit in</hi> caelum, nisi <hi rend="italic">qui de caelo</hi> descendit, 
+   <lb ed="#PL"/> Filis <hi rend="italic">hominis qui est</hi> in <hi rend="italic">coelo
+    (Joan.</hi> III, 13). Est au<lb ed="#PL" break="no"/>tem
+   super omnes ; <hi rend="italic">et quod vidit
+    et audivit, hoc loqui­
+   <lb ed="#PL"/> tur.</hi> Ilabet enimetPatrem ipsc Filius Dei; habct et
+   
+   <lb ed="#PL"/> Patrem, et audit a Patre. Et quod audit a Patre quid 
+   <lb ed="#PL"/> est? quis hoc explicat? Quando lingua mca, quando 
+   <lb ed="#PL"/> cor meum sufficere potest, vel cor ad intelligendum,
+   
+   <lb ed="#PL"/> vel lingua ad proferendum, quid estquod Filius audivit 
+   <lb ed="#PL"/> a Patre? Forte Filius Verbum Patris audivit ? Imo Filius 
+   <lb ed="#PL"/> Verbum Patris est. Videtis quemadmodum hic falige<lb ed="#PL" break="no"/>tur
+   omnis conatus humanus ; videlis quemadmodum 
+   <lb ed="#PL"/> hic deficiat omnis conjectura pectoris nostri, et 
+   <lb ed="#PL"/> omnis intentio mentis caligantis. Audio dicentem
+   
+   <lb ed="#PL"/> Scripturam quia Filius hoc loquitur, quod audit a 
+   <lb ed="#PL"/> Patre ;etrursus audio dicentem Scripturam quia 
+   <lb ed="#PL"/> ipse Filius Verbum Patris est : <hi rend="italic">In
+    principio erat Ver­
+   <lb ed="#PL"/> bum, et Verbum erat apud Deum, et Deus erat Verbum.</hi>
+   
+       <lb ed="#PL"/> Nos loquimur verba volantia et transenntia : mox ut 
+   <lb ed="#PL"/> sonuerit ore tuo verbum tuum, transit; peragit stre<lb ed="#PL" break="no"/>pitum
+   suumettransit in silentium. Namquid polcs
+   
+   <lb ed="#PL"/> sequi sonum tuum, et tenere ut stet ? Cogitatio tamen 
+   <lb ed="#PL"/> tua manet, et de ipsa cogitatione manente dicismulla 
+   <lb ed="#PL"/> verba transeuntia. Quid dicimus, fratres ? Deus cum
+   
+   <lb ed="#PL"/> loqueretur, adhibuit vocem, adhibuit sonos, adhibuit 
+   <lb ed="#PL"/> syllabas ? Si adhibuit ista, qua lingua locutus est ? 
+   <lb ed="#PL"/> Hebraea, an graeca, an latina? ibi necessariae linguae,
+   
+   <lb ed="#PL"/> ubi distinctio gentium. Ibi autem nemo potest dicere, 
+   <lb ed="#PL"/> illa lingua, vel illa lingua locutum esse Dcum. Cor 
+   <lb ed="#PL"/> tuum attende. Quando concipis verbum qnod dicas :
+   
+   <lb ed="#PL"/> dicam enim, si poicro, quod in nobis attendamus, 
+   <lb ed="#PL"/> non unde illud comprehendamus : quando ergo con<lb ed="#PL" break="no"/>cipis
+   verbum quod proferas, rem vis dicere, et ipsa 
+   <lb ed="#PL"/> rei conceptio in corde tuo jam verbum est; nondum 
+   <lb ed="#PL"/> processit, sed jam natum est in corde, et manet ut 
+   <lb ed="#PL"/> procedat : attendis autem ad quem procedat , cum
+   
+   <lb ed="#PL"/> quo loquaris; si Latinus est, vocem latnam quicris; 
+   <lb ed="#PL"/> si Graecus est, verba graeca mcditaris; si Punicus cst, 
+   <lb ed="#PL"/> attendis si nosti linguam punicam; pro diversitate au<lb ed="#PL" break="no"/>ditorum
+   diversas linguas adhibcs, ut proferas verbum 
+   <lb ed="#PL"/> conceptum : illud autem quod cordc concepcras, nulla 
+   <lb ed="#PL"/> lingua tenebatur. Cum ergo Deus loquens, linguarn 
+   <lb ed="#PL"/> non quaereret, et genus locutionis 1 nox assumeret, 
+   <lb ed="#PL"/> quomodo auditus est a Filio, cum ipsum Filium sit 
+   <lb ed="#PL"/> locutus Deus? Quomodo euim tu verbum quod lo<lb ed="#PL" break="no"/>qucris, 
+   in corde habes, et apud te est, et ipsa ton<lb ed="#PL" break="no"/>ceptio
+   spiritualis est (nam sicut anima tua spiritus 
+   <lb ed="#PL"/> est, ita et verbum quod concepisti, spiritus est ; 
+   <lb ed="#PL"/> nondum enim accepit sonum ut per syllabas divida<lb ed="#PL" break="no"/>tur, 
+   sed manet in conceptione cordis et in speculo 
+   <lb ed="#PL"/> mentis') : sic Deus edidit Verbum, hoc est, genuit 
+   <lb ed="#PL"/> Filium. Et tu quidem ex tempore gignis verbum etiam 
+   <lb ed="#PL"/> in corde : Deus sine tempore genuit Filium, per 
+   <lb ed="#PL"/> quem creavit omnia tempora. Cum ergo Verbum Dei 
+   <lb ed="#PL"/> Filius sit, Fdius autem locutus est nobis, non ver­ 
+   
+   <!-- seems like a column or page get left out of ocr here 
+   missing line breaks
+   -->
+    
+   bum suum, sed Verbum Patris, se nobis loqui voluit, qui Verbum Patris loquebatur. Hoc ergo quomodo decuit, et oportuit, dixit Ioannes: quomodo potuimus, nos exposuimus. Cui ad cor nondum pervenit dignus de tanta re intellectus, habet quo se convertat, habet quo pulset, habet a quo quaerat, habet a quo petat, habet a quo accipiat.</p>
+
+      <p xml:id="iuy75t-d1e157-d1e940">8. Qui de coelo venit, supra omnes est: et quod vidit et audivit, 
+   hoc testatur; et testimonium eius nemo accipit. 
+   Si nemo, utquid venit? Quorumdam ergo nemo. 
+   Est quidam populus praeparatus ad iram Dei, damnandus cum diabolo: 
+   horum nemo accipit testimonium Christi. 
+   Nam si omnino nemo, nullus homo; quid est quod sequitur: 
+   Qui autem accepit testimonium eius, signavit quia 
+   Deus verax est? Certe ergo non nemo, si tu ipse dicis: 
+   Qui accepit testimonium eius, signavit quia Deus verax est. 
+   Responderet ergo fortasse Ioannes interrogatus, et diceret: 
+   Novi quid dixerim, nemo. Est enim quidam populus natus ad iram Dei, 
+   et ad hoc praecognitus. Qui sint enim credituri, et qui non sint credituri, 
+   novit Deus; qui sint perseveraturi in eo quod crediderunt, et qui sint lapsuri, 
+   novit Deus: et numerati sunt Deo omnes futuri in vitam aeternam; 
+   et novit iam illum populum distinctum. Et si ipse novit, 
+   et Prophetis dedit nosse per Spiritum suum, dedit et Ioanni. 
+   Attendebat ergo Ioannes, non oculo suo; nam quantum ad ipsum pertinet, 
+   terra est, et de terra loquitur: sed in ea gratia Spiritus, 
+   quam accepit a Deo, vidit quemdam populum impium, infidelem; 
+   attendens illum in infidelitate sua, ait: Testimonium eius qui venit de coelo, 
+   nemo accipit. Quorum nemo? Eorum qui ad sinistram futuri sunt, 
+   eorum quibus dicetur: Ite in ignem aeternum qui praeparatus est diabolo et angelis eius. 
+   Qui ergo accipiunt? Illi qui ad dexteram futuri sunt, 
+   illi quibus dicetur: Venite, benedicti Patris mei, 
+   percipite regnum quod vobis paratum est ab origine mundi. 
+   Attendit ergo in spiritu divisionem, in genere autem humano commixtionem; 
+   et quod nondum locis separatum est, separavit intellectu, separavit cordis aspectu; 
+   et vidit duos populos, fidelium et infidelium: attendit infideles, et ait: 
+   Qui de coelo venit, supra omnes est: et quod vidit et audivit, hoc testatur; 
+   et testimonium eius nemo accipit. Deinde transtulit se a sinistra, et aspexit 
+   ad dexteram, et secutus ait: Qui accepit testimonium eius, signavit quia Deus verax est.
+   Quid est, signavit quia Deus verax est, nisi, homo mendax est, et Deus verax est? 
+   Quia nemo hominum potest dicere quod veritatis est, nisi illuminetur ab eo qui mentiri 
+   non potest. Deus ergo verax, Christus autem Deus. Vis probare? 
+   Accipe testimonium eius, et invenis: Qui enim accepit testimonium eius, 
+   signavit quia Deus verax est. Quis? Ipse qui de coelo venit et supra omnes est, 
+   Deus verax est. Sed si nondum illum intellegis Deum, nondum accepisti testimonium eius: 
+   accipe, et signas, praesumenter intellegis, definienter agnoscis quia Deus verax est.
+  </p>
+      <p xml:id="iuy75t-d1e157-d1e944">9. Quem enim misit Deus, verba Dei loquitur. 
+   Ipse est Deus verax, et misit illum Deus: Deus misit Deum. 
+   Iunge ambos, unus Deus, Deus verax missus a Deo. De singulis interroga, 
+   Deus: et de ambobus interroga, Deus. Non singuli Deus et ambo dii, 
+   sed singulus quisque Deus et ambo Deus. Tanta enim ibi est caritas Spiritus sancti, 
+   tanta pax unitatis, ut de singulis cum interrogatur, Deus tibi respondeatur; 
+   de Trinitate cum interrogatur, Deus tibi respondeatur. 
+   Si enim spiritus hominis quando inhaeret Deo unus spiritus est, 
+   aperte Apostolo dicente: Qui adhaeret Domino, unus spiritus est; 
+   quanto magis Filius aequalis adhaerens Patri simul cum illo unus Deus est? 
+   Audite alterum testimonium. Nostis quam multi crediderunt, 
+   quando omnia quae habebant, ad pedes Apostolorum vendita posuerunt, 
+   ut distribueretur unicuique sicut opus erat: et de illa congregatione sanctorum 
+   quid dicit Scriptura? Erat illis anima una et cor unum in Domino. 
+   Si caritas de tot animis fecit animam unam, et de tot cordibus fecit cor unum, 
+   quanta est caritas inter Patrem et Filium? 
+   Maior utique potest esse quam inter illos homines quibus erat cor unum. 
+   Si ergo multorum fratrum cor unum propter caritatem, 
+   et multorum fratrum anima una propter caritatem; 
+   Deus Pater et Deus Filius, dicturus es quia duo sunt? 
+   Si duo dii sunt, non est ibi summa caritas. Si enim hic tanta caritas est, 
+   ut animam tuam et animam amici tui unam animam faciat; 
+   quomodo ibi non est unus Deus Pater et Filius? 
+   Absit ut hoc sentiat fides non ficta. 
+   Prorsus quantum excellat caritas illa, hinc intellegite. 
+   Multae animae sunt multorum hominum, et si se diligunt, una anima est; 
+   sed possunt dici et multae animae, possunt in hominibus, 
+   quia non est tanta coniunctio: ibi autem, unum Deum licet dicas; 
+   duos aut tres deos non licet dicas. Hinc tibi commendatur supereminentia 
+   et summitas caritatis tanta, ut maior esse non possit.
+  </p>
+
+      <p xml:id="iuy75t-d1e157-d1e947">10. Quem enim misit Deus, verba Dei loquitur. Hoc utique de Christo dicebat, ut se ab illo distingueret. Quid enim? ipsum Ioannem nonne Deus misit? An non ipse dixit: Missus sum ante eum, et: Qui me misit baptizare in aqua: et de illo dictum est: Ecce mitto angelum meum ante te, et praeparabit viam tuam? Nonne et ipse verba Dei loquitur, de quo etiam dictum est quod sit amplius quam propheta 30? Si ergo et ipsum Deus misit, et verba Dei loquitur; quomodo ad distinctionem, de Christo eum dixisse accipimus: Quem enim misit Deus, verba Dei loquitur? Sed vide quid adiungat: Non enim ad mensuram dat Deus Spiritum. Quid est hoc: Non enim ad mensuram dat Deus Spiritum? Invenimus quia ad mensuram dat Deus Spiritum. Audi Apostolum dicentem: Secundum mensuram donationis Christi. Hominibus ad mensuram dat, unico Filio non dat ad mensuram. Quomodo hominibus ad mensuram? Alii quidem datur per Spiritum sermo sapientiae; alii sermo scientiae secundum eumdem Spiritum; alii fides in eodem Spiritu, alii prophetia, alii diiudicatio spirituum, alii genera linguarum, alii donatio curationum. Numquid omnes apostoli? numquid omnes prophetae? numquid omnes doctores? numquid omnes virtutes? numquid omnes dona habent sanitatum? numquid omnes linguis loquuntur? numquid omnes interpretantur? Aliud habet iste, aliud ille; et quod habet ille, non habet iste: mensura est, divisio quaedam donorum est. Ergo hominibus ad mensuram datur, et concordia ibi unum corpus facit. Quomodo aliud accipit manus ut operetur, aliud oculus ut videat, aliud auris ut audiat, aliud pes ut ambulet; anima tamen una est quae agit omnia, in manu ut operetur, in pede ut ambulet, in aure ut audiat, in oculo ut videat: sic sunt etiam diversa dona fidelium, tamquam membris ad mensuram cuique propriam distributa. Sed Christus qui dat, non ad mensuram accipit.</p>
+
+
+      <p xml:id="iuy75t-d1e157-d1e950">11. Audi enim adhuc quid sequitur; quia de Filio dixerat: Non enim ad mensuram dat Deus Spiritum: Pater diligit Filium, et omnia dedit in manu eius. Adiecit: Omnia dedit in manu eius, ut nosses et hic qua distinctione dictum sit: Pater diligit Filium. Quare enim? Pater non diligit Ioannem? et tamen non omnia dedit in manu eius. Pater non diligit Paulum? et tamen non omnia dedit in manu eius. Pater diligit Filium: sed quomodo Pater Filium, non quomodo dominus servum; quomodo Unicum, non quomodo adoptatum. Itaque omnia dedit in manu eius. Quid est, omnia? Ut tantus sit Filius, quantus est Pater. Ad aequalitatem enim sibi genuit eum, cui rapina non esset in forma Dei esse aequalem Deo. Pater diligit Filium, et omnia dedit in manu eius. Ergo cum ad nos dignatus est mittere Filium, non putemus aliquid minus nobis missum quam est Pater. Pater mittens Filium, se alterum misit.</p>
+
+      <p xml:id="iuy75t-d1e157-d1e953">12. Namque putantes adhuc discipuli quia Pater aliquid maius est quam Filius, videntes carnem et non intellegentes divinitatem, dixerunt ei: Domine, ostende nobis Patrem, et sufficit nobis. Tamquam dicerent: Iam novimus te, et benedicimus te, quia novimus te: gratias enim tibi agimus, quia ostendisti te nobis; sed Patrem nondum novimus: propterea cor nostrum ardet, et satagit concupiscentia quadam sancta videndi Patris tui qui te misit; ipsum nobis ostende, et nihil amplius a te desiderabimus: sufficit enim nobis cum ille fuerit demonstratus, quo maior esse nemo potest. Bona concupiscentia, bonum desiderium; sed parvus intellectus. Attendens enim ipse Dominus Iesus parvos magna quaerentes, et se ipsum magnum inter parvos, et parvum inter parvos, ait Philippo qui hoc dixerat, uni ex discipulis: Tanto tempore vobiscum sum, et non cognovistis me, Philippe? Posset hic Philippus respondere: Cognovimus te; sed numquid diximus tibi: Ostende nobis te? Te cognovimus, sed Patrem quaerimus. Subiecit statim: Qui me vidit, vidit et Patrem. Si ergo aequalis Patri missus est, non eum aestimemus ex infirmitate carnis, sed cogitemus maiestatem indutam carne, non oppressam carne. Manens enim Deus apud Patrem, apud homines factus est homo, ut tu per illum qui ad te factus est homo, fieres talis qualis capit Deum. Non enim homo poterat capere Deum: videre poterat homo hominem, capere Deum non poterat. Unde non poterat capere Deum? Quia oculum cordis unde caperet, non habebat. Erat ergo aliquid intus saucium, et aliquid foris sanum: corporis oculos habebat sanos, cordis oculos habebat saucios. Factus est ille homo ad corporis oculum; ut credens in eum qui videri corporaliter potuit, curareris ad eum ipsum videndum quem spiritaliter videre non poteras. Tanto tempore vobiscum sum, et non cognovistis me, Philippe? Qui me vidit, vidit et Patrem. Quare illi non illum videbant? Ecce videbant illum, et Patrem non videbant: videbant carnem, sed maiestas latebat. Quod videbant discipuli qui amaverunt, viderunt et Iudaei qui crucifixerunt. Intus ergo erat totus ille, et sic intus in carne, ut apud Patrem maneret: non enim deseruit Patrem quando venit ad carnem.</p>
+
+      <p xml:id="iuy75t-d1e157-d1e956">13. Carnalis cogitatio non capit quod dico: differat intellectum, et incipiat a fide; audiat quod sequitur: Qui credit in Filium, habet vitam aeternam: qui autem incredulus est Filio, non videbit vitam, sed ira Dei manet super eum. Non dixit, ira Dei venit ad eum; sed, ira Dei manet super eum. Omnes qui nascuntur mortales, habent secum iram Dei. Quam iram Dei? Quam accepit primus Adam. Si enim peccavit primus homo, et audivit: Morte morieris; factus est mortalis ille, et coepimus nasci mortales; cum ira Dei nati sumus. Venit inde Filius non habens peccatum, et indutus est carne, indutus est mortalitate. Si ille nobiscum communicavit iram Dei, nos pigri sumus cum illo communicare gratiam Dei? Qui ergo non vult credere in Filium, ira Dei manet super eum. Quae ira Dei? De qua dicit Apostolus: Fuimus et nos natura filii irae sicut et caeteri 40. Omnes ergo filii irae; quia de maledicto mortis venientes. Crede in Christum factum pro te mortalem, ut illum capias immortalem: quando enim ceperis eius immortalitatem, nec tu eris mortalis. Vivebat, moriebaris: mortuus est, ut vivas. Attulit gratiam Dei, abstulit iram Dei. Deus vicit mortem, ne mors vinceret hominem.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 30</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 30</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e288"> <!-- iuy75t-t30 -->
+      <head xml:id="iuy75t-d1e288-Hd1e109">Tractatus 30</head>
+      <p xml:id="iuy75t-d1e288-d1e112">. <hi rend="italic">Ab eo loco,</hi> Nonne Moyses dedit vobis Legem, et nemo 
+   <lb ed="#PL"/> ex vobis facit Legem ? <hi rend="italic">usque ad id,</hi> Nolite judicare 
+   <lb ed="#PL"/> sccundum faciem, sed justum judicium judicatc. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Cap.</hi> VII, f . 19-24.</p>
+      <p xml:id="iuy75t-d1e288-d1e131">1. Evangelii sancti lectionem, de qua pridem Cha<lb ed="#PL" break="no"/>ritati 
+   vestrae locuti sumus, ista quae modo lecta est, 
+   <lb ed="#PL"/> hodierna consequitur. Dominum loquentem audiebant 
+   <lb ed="#PL"/> et discipuli et Judaei ; verilalem loquentem audiebant, 
+   <lb ed="#PL"/> et veraces et mendaccs; charitatem loquentem audie<lb ed="#PL" break="no"/>bam
+   et amici et inimici; bonum loquentem audiebant
+   
+   <lb ed="#PL"/>etbonietmali. Illi audiebant, sed ille discernebat; et 
+   <lb ed="#PL"/> quibus sermo prodesset et profuturus esset, videbat 
+   <lb ed="#PL"/> et praevidebat. In illis enim qui tunc erant videbat, 
+   <lb ed="#PL"/> in nobis qui fuluri eramus praevidebat. Nos itaque sic 
+   <lb ed="#PL"/> audiamus Evangelium, quasi praesentem Dominum; 
+   <lb ed="#PL"/> nee dicamus, 0 illi fclices qui eum videre potuerunt! 
+   <lb ed="#PL"/> quia multi in cis qui viderunt, et occiderunt; multi 
+   <lb ed="#PL"/> autem in nobis qui non viderunt, et crediderunt. Quod 
+   <lb ed="#PL"/> enim pretiosum sonabat de ore Domini, et propter 
+   <lb ed="#PL"/> nos scriptum est, et nobis servatum, et propter 
+   <lb ed="#PL"/> nos recitatum 1, et recitabitur cHam propter posteros 
+   <lb ed="#PL"/> nostros, et donec saeculum liniatur. Sursum est Do<lb ed="#PL" break="no"/>minus : sed etiam hic est veritas Dominus. Corpus 
+   <lb ed="#PL"/> eniin Domini I in quo resurrexit, uno loco esse po<lb ed="#PL" break="no"/>test : veritas ejus ubique ditius, est. Dominum ergo 
+   <lb ed="#PL"/> audiamus, et quod ipse donaverit de verbis ejus, et 
+   <lb ed="#PL"/> nos dicamus.</p>
+      <p xml:id="iuy75t-d1e288-d1e181">
+       <hi rend="italic">2. Nonne Moyses,</hi> inquit, <hi rend="italic">dedit vobis Legem, et
+    nemo
+   <lb ed="#PL"/> cx vobis facit Legem ? Quid me quoeritis inter ficere?</hi> Idco 
+   <lb ed="#PL"/> coint quaeritis me interficere, quia nemo ex vobis 
+   
+   <pb ed="#PL" n="1633"/>
+       <lb ed="#PL"/> . tacit Legem : nam si Legem faceretis, iis ipsis litteris 
+   <lb ed="#PL"/> Christum agnosceretis, et praesentem non occidcretis. 
+   <lb ed="#PL"/> Et illi responderunt 1 : <hi rend="italic">Respondit</hi> ei <hi rend="italic">turba.</hi> Respondit 
+   <lb ed="#PL"/> quasi turba noM pertinentia ad ordinem, sed ad pcr<lb ed="#PL" break="no"/>turbationem : denique turba turbata videte quid rc<lb ed="#PL" break="no"/>sponderit: <hi rend="italic">Doemonium habes; quis</hi> te quaerit
+    <hi rend="italic">occidcre?</hi>
+   
+       <lb ed="#PL"/> Quasi non pejus fuerit dicere, <hi rend="italic">Damonium habea,</hi> quam 
+   <lb ed="#PL"/> eum occidere. Ei qoippe dictuln est quod daemonium 
+   <lb ed="#PL"/> haboret, qui dacmones expellebat. Quid possit aliud 
+   <lb ed="#PL"/> dicere turba turbulenta? quid possit aliud olere coe­
+   
+   <lb ed="#PL"/> num commotum? Turba turbata est; uude? A veritate. 
+   <lb ed="#PL"/> Turbam lippitudinis turbavit claritas lucis. Oculi enim 
+   <lb ed="#PL"/> non habentes sanitatem, non possunt ferre luminis 
+   <lb ed="#PL"/> claritatem.</p>
+      <p xml:id="iuy75t-d1e288-d1e243">5. Dominus autem non plane turbatus, sed in sua 
+   <lb ed="#PL"/> vcritale tranquillus, non reddidit malum pro malo, 
+   <lb ed="#PL"/> nec maledictum pro nialcdicto (1 <hi rend="italic">Petr.</hi> III, 9). Qnibus 
+   <lb ed="#PL"/> si diceret, Daemonium habetis vos; verum utique di­
+   
+   <lb ed="#PL"/> ceret. Non enim talia illi veritati dicerent, nisi cos 
+   <lb ed="#PL"/> diaboli falsitas irritaret. Quid ergo respondit? Audia<lb ed="#PL" break="no"/>mus
+   tranquille,ettranquillum bibamus :
+    <hi rend="italic">Unum opus
+   <lb ed="#PL"/> feci, ei omnes miramini.</hi> Tanquam dicens, Quid si
+   
+   <lb ed="#PL"/> omnia opera mea videretis? Ipsius enim opera erant 
+   <lb ed="#PL"/> quae in mundo videbant,etjpsum qui fecit omnia non 
+   <lb ed="#PL"/> videbant : fecit unam rem, et turbati sunt, quia sal­
+   
+   <lb ed="#PL"/> vum fecit homincm sabbato. Quasi vero si quisquam 
+   <lb ed="#PL"/> aegrotus sabbato sinceraret 2, alius illum sanum fecis<lb ed="#PL" break="no"/>set
+   quam ille, qui eos scandalizavit, quia unum boni­
+   
+   <lb ed="#PL"/> nem salvum fecit sabbato Quis enim alius alios salvos 
+   <lb ed="#PL"/> lecit quam ipsa salus; qui illam salutem quam dedit 
+   <lb ed="#PL"/> buic homini, dat et jumentis ? Salus eniin corporalis
+   
+   <lb ed="#PL"/> erat. Salus carnis et reparatur, et moritur; et cum 
+   <lb ed="#PL"/> reparatur, mors differtur, non aufertur. Tamen, fra<lb ed="#PL" break="no"/>tres, etiam ipsa salus a Domino est, per quemlibet 
+   <lb ed="#PL"/> detur : quocumque curante et ministrante impertia<lb ed="#PL" break="no"/>tur, ab illo datur a quo est omnis salus, cui dicitur in 
+   <lb ed="#PL"/> Psalmo, <hi rend="italic">Homines et
+    jumenta salvos facies, Domine; 
+   <lb ed="#PL"/> sicut multiplicasti misericordiam tuam,
+    Deus.</hi> Quia enim 
+   <lb ed="#PL"/> Deus es, multiplicata misericordia tua pervenit etiam 
+   <lb ed="#PL"/> ad salutem carnis humanae, pervenit etiam ad salutem 
+   <lb ed="#PL"/> mutorum animalium : sed qui das salutem carnis ho<lb ed="#PL" break="no"/>minibus
+   jumentisque communem, numquid nulla salus 
+   <lb ed="#PL"/> est quam servas hominibus? Est certe alia quae non 
+   <lb ed="#PL"/> solum communis non est hominibus et jumentis, sed 
+   <lb ed="#PL"/> neC ipsis bominibus communis est bonis et malis. 
+   <lb ed="#PL"/> licuique cum ibi de ista salute dixisset, quam com<lb ed="#PL" break="no"/>muniter
+   accipiunt pecora et homines; propter illam 
+   <lb ed="#PL"/> salutem quam sperare debent homines, sed boni ho<lb ed="#PL" break="no"/>mines, secutus adjunxit, <hi rend="italic">Filii</hi> autem <hi rend="italic">hominum sub
+   <lb ed="#PL"/>
+    tegmine alarum</hi> tuarum sperabunt <hi rend="italic">: inebriabuntur ab 
+   <lb ed="#PL"/>
+    ubertate domus</hi> tum, <hi rend="italic">el torrente voluptatis tuoe potabis 
+   <lb ed="#PL"/>
+    eos; quoniam apud te est fons</hi> vite, <hi rend="italic">et in lumine</hi> tuo vi­
+   
+   <lb ed="#PL"/> debimus <hi rend="italic">lumen (Psal.</hi> XXXV, 7-10). Haec est salus quas 
+   
+   <lb ed="#PL"/> ad bonos pertinet, quos nppellavit filios bominum; 
+   <lb ed="#PL"/> cum supra dixisset, <hi rend="italic">Homines et jumenta salvos facies, 
+   <lb ed="#PL"/> Domine.</hi> Quid enim? illi homines non erant filii ho<lb ed="#PL" break="no"/>minum, ut cum dixisset, <hi rend="italic">Homines,</hi> sequeretur et dice- 
+   <lb ed="#PL"/> rei, Filii <hi rend="italic">autem</hi> hominum; quasi aliud erant homines, 
+   <lb ed="#PL"/> et aliud <hi rend="italic">filii hominum?</hi> Non tamen arbitror sine aliqua 
+   <lb ed="#PL"/> significatione distinctionis hoc dixisse Spiritum san<lb ed="#PL" break="no"/>ctum. <hi rend="italic">Homines</hi> ad primum Adam, <hi rend="italic">filii
+    hominum</hi> ad 
+   <lb ed="#PL"/> Christum. Forte enim <hi rend="italic">homines</hi> pertinent ad primum 
+   <lb ed="#PL"/> hominem : <hi rend="italic">filii</hi> autem <hi rend="italic">hominum</hi> pertinent ad Filium 
+   <lb ed="#PL"/> hominis.</p>
+      <p xml:id="iuy75t-d1e288-d1e408">4. <hi rend="italic">Unum</hi> opus <hi rend="italic">feci, et omnes</hi> miramini. Et continuo 
+   <lb ed="#PL"/> subjungit : <hi rend="italic">Propterea</hi> Moyses <hi rend="italic">dedit vobis circumcisio­
+   <lb ed="#PL"/> nem.</hi> Bene factum est ut acciperetis circumcisionem
+   
+   <lb ed="#PL"/> a Moyse. <hi rend="italic">Non quia ex Moyse eat, sed ex Patribus.</hi> Abra­
+   
+   <lb ed="#PL"/> ham quippe primus accepit circumicisionem a Domino 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Gen.</hi> XVII, 10). <hi rend="italic">Et in sabbato
+    circumciditis.</hi> Convicit 
+   <lb ed="#PL"/> vos Moyses, In Lege accepistis ut circumcidatis octavo 
+   <lb ed="#PL"/> die <hi rend="italic">(Levit.</hi> XII, 3); accepistis in Lege ut vacetis septi<lb ed="#PL" break="no"/>mo
+   die <hi rend="italic">(Exod.</hi> xx, 10): si octavus dies illius qui natus 
+   <lb ed="#PL"/> est occurret ad diem septimum sabbati, quid facietis? 
+   <lb ed="#PL"/> Vacabitis, ut servetis sabbatum; an circumcidetis, ut 
+   <lb ed="#PL"/> impleatis sacramentum dici octavi ? Sed novi, inquit, 
+   <lb ed="#PL"/> quid faciatis. <hi rend="italic">Circumciditis hominem.</hi> Quare! Quia cir<lb ed="#PL" break="no"/>cumcisio
+   pertinet ad aliquod signaculum salutis, et 
+   <lb ed="#PL"/> non debont homines sabbato vacare a salute. Ergo 
+   <lb ed="#PL"/> nec <hi rend="italic">mihi irascamini, quia
+    salvum feci totum hominem 
+   <lb ed="#PL"/> sabbato : si circumcisionem,</hi> inquit, <hi rend="italic">accipit homo</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">iabbalo, ut non</hi> solvatur <hi rend="italic">lex Moysi</hi>
+   (aliquid enim per 
+   <lb ed="#PL"/> Moysen in illa constitutione circumcisionis salubriter 
+   <lb ed="#PL"/> institutum est), mihi operanti salutem in sabbato 
+   <lb ed="#PL"/> quare indignamini ?</p>
+      <p xml:id="iuy75t-d1e288-d1e498">5. Forte enim illa circumcisio ipsum Dominum si<lb ed="#PL" break="no"/>gnificabat, cui isti curanti et sananti indignabantur. , 
+   <lb ed="#PL"/> Jussa est enim adhiberi octavo die circumcisio: et 
+   <lb ed="#PL"/> quid est circumcisio, nisi carnis exspoliatio? Significat 
+   <lb ed="#PL"/> ergo ista circumcisio exspoliationem a corde cupidita<lb ed="#PL" break="no"/>tum
+   carnalium. Non ergo sine causa data est, et in eo 
+   <lb ed="#PL"/> membro jussa fieri; quoniam per illud mcnabrum 
+   <lb ed="#PL"/> procreatur creatnra mortalium. £t per unum hominem 
+   <lb ed="#PL"/> niors, sicut per unum hominem resurrectio mortuo­
+   
+   <lb ed="#PL"/> rum (ICor. xv, 21): et per unum hominem peccatum 
+   <lb ed="#PL"/> intravit in mundum, et per peccatum mors <hi rend="italic">( Rom.</hi> v, 
+   <lb ed="#PL"/> 12). Ideo quisque cum praeputio nascitur, quia omnis 
+   <lb ed="#PL"/> homo cum vitio propaginis nascitur : et non mundat 
+   <lb ed="#PL"/> Deus sive a vitio cum quo nascimur, sive a vitiis quae 
+   <lb ed="#PL"/> male vivendo addimus, nisi per cultellum petrinum, 
+   <lb ed="#PL"/> Dominum Christum. Petra enim erat Christus (I Cor. , 
+   <lb ed="#PL"/> x, 4). Cultellis enim petrinis circumcidebant, et petrae 
+   <lb ed="#PL"/> nomine Christum figurabant: et praesentem non agno<lb ed="#PL" break="no"/>scebant, sed insuper eum occidere cupiebant. Quare 
+   <lb ed="#PL"/> autem octavo die, nisi quia post septiinum sabbati 
+   <lb ed="#PL"/> Dominus die dominico resurrexit? Ergo resurrectio ' 
+   <lb ed="#PL"/> Christi, quae facta est tertio quidem die passionis, sed 
+   <lb ed="#PL"/> octavo die in diebus hebdomadis, ipsa nos circumci<lb ed="#PL" break="no"/>dit. Audi circumcisos vera petra, Apostolo admonente: 
+   <lb ed="#PL"/> Si <hi rend="italic">ergo
+    resurrexistis</hi> cum <hi rend="italic">Christo; quoe sursum,</hi> sunt 
+   <lb ed="#PL"/>
+       <hi rend="italic">quoerite, ubi Christus eat in dextera Dei sedens; quae</hi>
+   
+       <lb ed="#PL"/> sursum sunt <hi rend="italic">sapite, non quoe super terram</hi> ( <hi rend="italic">Coloss.</hi> III, 
+   <pb ed="#PL" n="1635"/>
+       <lb ed="#PL"/> i, i). Circumcisis loquitur: Resurrexit Christos, aba<lb ed="#PL" break="no"/>tulit
+   vobis desideria carnalia, abstulit concupiscen<lb ed="#PL" break="no"/>tias
+   malas, abstulit superfluum cum quo nati cratis, 
+   <lb ed="#PL"/> et multo pejus quod male vivendo addideratis; cir<lb ed="#PL" break="no"/>cumcisi
+   per pellam quare adhuc sapitis terram? Et 
+   <lb ed="#PL"/> ad extremum quia Legem dedit Moyses, et circumci<lb ed="#PL" break="no"/>ditis
+   hominem sabbato, intelligite hoc significari opus 
+   <lb ed="#PL"/> bouum, quod ego feci totum hominem salvum sab<lb ed="#PL" break="no"/>bato; quia et curatus est, ut sanus esset in corpore, et 
+   <lb ed="#PL"/> credidit ut sanus esset in anima.</p>
+      <p xml:id="iuy75t-d1e288-d1e600">6. <hi rend="italic">Nolite judicare personaliter, sed rectum</hi> Judicium 
+   <lb ed="#PL"/>
+       <hi rend="italic">judicate.</hi> Quid est hoc? Modo qui per legem Moysi cir<lb ed="#PL" break="no"/>cumciditis
+   sabbato, non irascimini Moysi; et quia ego 
+   <lb ed="#PL"/> die sabbati salvum feci hominem, irascimini mihi. 
+   <lb ed="#PL"/> Personalitcr judicatis, veritatem attendite. Ego non
+   
+   <lb ed="#PL"/> me praefero Moysi, ait Dominus, qui erat et ipsius 
+   <lb ed="#PL"/> Moysi Dominus. Sic attendite quomodo homines nos 
+   <lb ed="#PL"/> duos, tanquam ambos homines : judicate inter nos,
+   
+   <lb ed="#PL"/> sed verum judicium judicate; nolite me honorato ii<lb ed="#PL" break="no"/>lum
+   damnare, sed illo intellecto me honorate. Hoc 
+   <lb ed="#PL"/> enim cis alio loco dixit: <hi rend="italic">Si
+    crederetis Moysi, crederetis 
+   <lb ed="#PL"/> utique et mihi; de</hi> me <hi rend="italic">enim
+    ille</hi> scripsit <hi rend="italic">(Joan.</hi> v, 46). 
+   <lb ed="#PL"/> Sed hoe loco noluit hoc dicere, tanquam se et Moyse 
+   <lb ed="#PL"/> ante illos constitutis. Propter legem Moysi circumei­
+   
+   <lb ed="#PL"/> ditis, quando etiam sabbatum occurrerit; et ego sani<lb ed="#PL" break="no"/>tatum
+   faciendarum beneficentiam non vultis ut exhi<lb ed="#PL" break="no"/>beam
+   per sabbatum? Quia Dominus circumcisionis et 
+   <lb ed="#PL"/> Dominus sabbati, salutas est auctor : et servilia opera 
+   <lb ed="#PL"/> prohibiti estis facere sabbato; si vcre intelligatis ser<lb ed="#PL" break="no"/>vilia
+   opera, non peccatis. Qui enim facit peccatum, 
+   <lb ed="#PL"/> servus est peccati <hi rend="italic">(Id.</hi> VIII, 34). Numquid servile opus 
+   <lb ed="#PL"/> est, hominem sanare per sabbatum? Manducatis et 
+   <lb ed="#PL"/> bibitis (ut aliquid dicam ex admonitione Domini nostri 
+   <lb ed="#PL"/> Jesu Christi, et ex verbis ejus); utiqnc quare mandu<lb ed="#PL" break="no"/>catis
+   et bibitis in sabbato, nisi quia pertinet ad salu<lb ed="#PL" break="no"/>tem
+   quod facitis? Per hoc ostenditis opera salutis non 
+   <lb ed="#PL"/> esse ullo modo die sabbati omittenda. Ergo <hi rend="italic">nolite per<lb ed="#PL" break="no"/>sonaliter
+   judicare, sed rectum
+    judicium judicate.</hi> Atten<lb ed="#PL" break="no"/>dite
+   me quomodo hominem, attendite Moysen quo­
+   
+   <lb ed="#PL"/> modo hominem : si sccundum veritatem judicetis, 
+   <lb ed="#PL"/> neque Moysen, nerNe Inc condemnabitis; et veritate 
+   <lb ed="#PL"/> cognita me cognoscetis, quia ego sum veritas <hi rend="italic">( Id.</hi>
+   
+       <lb ed="#PL"/> xiv, 6).</p>
+      <p xml:id="iuy75t-d1e288-d1e697">7. Hoc vitium, fra!res, quod Dominus notavit hoc 
+   <lb ed="#PL"/> loco, evadcre in hoc saeculo magni laboris et, non 
+   <lb ed="#PL"/> personaliter judicare, sed rectum judicium retinere, 
+   <lb ed="#PL"/> Admonuit qnidem Dominus Judxos, sed monuit et 
+   <lb ed="#PL"/> nos : illos convicit, nos instruxit; illos redarguit, nos 
+   <lb ed="#PL"/> exacuit. Non putemus hoc nobis non ideo dictum, quia 
+   <lb ed="#PL"/> tunc ibi non fuimus. Scriptum est, tegitur, cum reci<lb ed="#PL" break="no"/>taretur
+   audivimus; sed tanquam Judacis dictum audi<lb ed="#PL" break="no"/>vimus: non nos ponamus post nos, et quasi intueamur
+   
+   <lb ed="#PL"/> inimicos reprehendere, et ipsi nos faciamus quod in 
+   <lb ed="#PL"/> nobis veritas ipsa reprehendat. Judaei quidcm perso<lb ed="#PL" break="no"/>naliter
+   judicabant, sed ideo non pertinent ad Novum 
+   <lb ed="#PL"/> Testamentum, ideo non habent in Christo regnum 
+   <lb ed="#PL"/> coelorum, ideo non junguntur sanctorum societati 
+   <lb ed="#PL"/> Angelorum : terrena quaerebant a Dommo; terra 
+   <lb ed="#PL"/> enim promissionis, victoria ab inimicis, fecunditas 
+   <lb ed="#PL"/> pariendi, multiplicatio filiorum, abundantia fructuum, 
+   <lb ed="#PL"/> quae illis omnia a Deo quidem vero et bono, tamen ut
+   
+   <lb ed="#PL"/> carnalibus promissa sunt, omnia haec fecerunt illis 
+   <lb ed="#PL"/> Vetus Testamentum. Quid est Vetus Testamentum ? 
+   <lb ed="#PL"/> Quasi haereditas pertinens ad hominem veterem. Nos 
+   <lb ed="#PL"/> innovati sumus, homo novus fatti sumus; quia et ille 
+   <lb ed="#PL"/> homo novus venit. Quid lam novum quam nasci de 
+   <lb ed="#PL"/> virgine? Quia ergo non erat auid I in illo innovaret 
+   <lb ed="#PL"/> praeceptum, quia nullum habebat peccatum; novus 
+   <lb ed="#PL"/> partus est datus. In illo partus novus, in nobJs home 
+   <lb ed="#PL"/> novus. Quid est homo novas? A vetusiate innovatus. 
+   <lb ed="#PL"/> Ad quam rem innovatus? Ad desideranda celestia, 
+   <lb ed="#PL"/> ad concupiscenda sempiterna, ad patriam quae sursum 
+   <lb ed="#PL"/> est et hostem non timet, desiderandam, ubi non per<lb ed="#PL" break="no"/>dimus
+   amienm, non timemus inimicum ; ubi vivimus 
+   <lb ed="#PL"/> cum bono affectu, sine ullo defectu; ubi nemo nasci<lb ed="#PL" break="no"/>tur, quia nemo moritur; ubi nemo jam proficit, et 
+   <lb ed="#PL"/> nemo deficit; ubi non esuritur, et non sitimr, sed sa<lb ed="#PL" break="no"/>tietas
+   est immortalitas, et cibus veritas. Haec haben<lb ed="#PL" break="no"/>tes
+   promissa, et ad Novum Testamentum pertinentes,
+   
+   <lb ed="#PL"/> et novae hxreditatis facti haeredes, et ipsius Domini 
+   <lb ed="#PL"/> cohseredes, aliam spem valde habemus: non persona<lb ed="#PL" break="no"/>liter
+   judicemus, sed rectum judicium teneamus.</p>
+      <p xml:id="iuy75t-d1e288-d1e782">8. Quis est qni non judicat personaliter? Qui diligit 
+   <lb ed="#PL"/> aequaliter. Dilectio aequalis facit non acceptari perso<lb ed="#PL" break="no"/>nas. Non cum homines diverso modo pro suis gradi<lb ed="#PL" break="no"/>bus
+   honoramus, tunc timendam est ne personas acci<lb ed="#PL" break="no"/>piamus. Sed quando inter duos judicamus, et ali<lb ed="#PL" break="no"/>quando
+   inter necessarios, fit nonnunquam judicium
+   
+   <lb ed="#PL"/> inter patrem et filium ; queritur pater de malo filio, 
+   <lb ed="#PL"/> aut queritur filius de duro patre : servamus honori<lb ed="#PL" break="no"/>ficentiam
+   patri, quae debetur a filio; non aequamus 
+   <lb ed="#PL"/> filium patri in honore; sed praeponimus, si bonam 
+   <lb ed="#PL"/> causam habet: filium aequemus patri in veritate ; et 
+   <lb ed="#PL"/> sic tribuemus honorem debitum, ut non perdat aequi<lb ed="#PL" break="no"/>tas
+   meritum. Ita verbis Domini proficimus, et ut pro<lb ed="#PL" break="no"/>flciamus
+   gratia illius adjuvamur.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

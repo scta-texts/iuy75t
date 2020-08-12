@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 114</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 114</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e974"> <!-- iuy75t-t114 -->
+      <head xml:id="iuy75t-d1e974-Hd1e109">Tractatus 114</head>
+      <p xml:id="iuy75t-d1e974-d1e112">
+       <hi rend="italic">Ab eo loco,</hi> Adducunt ergo Jesum ad Caipham in 
+   <lb ed="#PL"/> praetorium;
+    <hi rend="italic">usque ad id,</hi> Ut sermo Jesu impleretur 
+   <lb ed="#PL"/> quem dixit, significans qua morte esset moriturus. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Cap.</hi> XVIII, f . 28-32.</p>
+      <p xml:id="iuy75t-d1e974-d1e131">i. Quae cum Domino vel de Domino nostro Jesu 
+   <lb ed="#PL"/> Christo apud Pontium Pilatum praesidem gesta sint, 
+   <lb ed="#PL"/> quantum Joannes evangelista indicat, deinde videa<lb ed="#PL" break="no"/>mus. Redit cnim ad locum narrationis suae ubi eam 
+   <lb ed="#PL"/> reliquerat, ut explicaret Petri negationem. Jam quippe 
+   <lb ed="#PL"/> dixerat, <hi rend="italic">Et misit eum Annas ligatum ad Caipham
+    pon­</hi>
+   
+       <lb ed="#PL"/> tificem <hi rend="italic">(Joan.</hi> XVIII, 24) : atque inde regressus ubi di­
+   
+   <lb ed="#PL"/> miserat Petrum calefacientem se ad ignem in atrio, 
+   <lb ed="#PL"/> postcaquam totam ejus negationem, quae ter facta est, 
+   <lb ed="#PL"/> terminavit, <hi rend="italic">Adducunt ergo
+    Jesum,</hi> inquit, <hi rend="italic">ad</hi> Caipham 
+   <lb ed="#PL"/> in <hi rend="italic">praetorium.</hi> Ad Caipham quippe ab Anna collega 
+   <lb ed="#PL"/>etsocero ejus dixerat missum. Sed si ad Caipham, 
+   <lb ed="#PL"/> cur in praetorium ? Quod nibil aliud vult intelligi,
+   
+   <lb ed="#PL"/> quam ubi praeses Pilatus habitabat. Aut igitur aiiqua 
+   <lb ed="#PL"/> urgente causa de domo Annae, quo ad audiendum 
+   <lb ed="#PL"/> Jesum ambo convenerant, Caiphas perrexerat ad 
+   <lb ed="#PL"/> praetorium praesidis, et soccro suo Jesum reliquc<lb ed="#PL" break="no"/>rat
+   audiendum : aut in domo Caiphas praetorium 
+   <lb ed="#PL"/> Pilatus acceperat, et tanta domus erat, ut seor<lb ed="#PL" break="no"/>sum
+   habitautem dominum suum, seorsum judicem 
+   <lb ed="#PL"/> ferret.</p>
+      <p xml:id="iuy75t-d1e974-d1e193">i. <hi rend="italic">Erat</hi> autem <hi rend="italic">mane, et ipsi,</hi> id est qui ducebant 
+   <lb ed="#PL"/> Jesum : <hi rend="italic">non introierunt</hi> in <hi rend="italic">praetorium,</hi> hoc est in cam 
+   <lb ed="#PL"/> partem domus quam Pilatus tenebat, si ipsa erat
+   
+   <lb ed="#PL"/> domus Caiphae. Cur autem non introierunt in praeto<lb ed="#PL" break="no"/>rium, exponens causam,
+    <hi rend="italic">Ut non contaminarentur,</hi> in<lb ed="#PL" break="no"/>quit, <hi rend="italic">sed</hi> ut <hi rend="italic">manducarent Pascha.</hi> Dies enim agere 
+   <lb ed="#PL"/> coeperant azymorum : quibus diebus contaminatio 
+   <lb ed="#PL"/> illis erat in alienigenae habitaculum intrare. 0 impia 
+   <lb ed="#PL"/> caecitas! Habitaculo videlicet contaminarentur alieno, 
+   <lb ed="#PL"/> et non contaminarentur scelere proprio? Alienigenae 
+   <lb ed="#PL"/> judicis praetorio contaminari timebant, et fratris in<lb ed="#PL" break="no"/>nocentis
+   sanguine non timebant : ut hoc solum in<lb ed="#PL" break="no"/>terim
+   dicam, ubi rea malorum conscientia lencbatur. 
+   <lb ed="#PL"/> Nam quod etiam Dominus erat, qui eorum impietate 
+   <lb ed="#PL"/> ducebatur ad mortem, et vitae dator occidebatur;
+   
+   <lb ed="#PL"/> non eorum conscientie, sed ignorantiae deputetur.</p>
+      <p xml:id="iuy75t-d1e974-d1e251">
+       <hi rend="italic">3. Exivit ergo</hi> Pilatus <hi rend="italic">ad eos foras, et dixit:
+    Quam
+   <lb ed="#PL"/> accusationem affertis adversus hominem hunc ? Respon­
+   <lb ed="#PL"/> derunt, et
+    dixerunt ei : Si non esset hic malefactor, non</hi>
+   
+       <lb ed="#PL"/> tibi <hi rend="italic">tradidissemus eum.</hi> Interrogentur atque respon<lb ed="#PL" break="no"/>deant
+   ab immundis spiritibus liberati, languidi sanati, 
+   <lb ed="#PL"/> leprosi mundati, surdi audientes, muti loquentes, caeci 
+   <lb ed="#PL"/> videntes, mortui resurgentes, et quod omnia superat, 
+   <lb ed="#PL"/> stulti sapientes, utrum sit malefactor Jesus. Sed ista 
+   <lb ed="#PL"/> dicebant, de quibus per prophetam jam ipse praedixe<lb ed="#PL" break="no"/>rat, Retribuebant mihi <hi rend="italic">mala pro bonis</hi> ( <hi rend="italic">Psal.</hi> xxxiv, 
+   <lb ed="#PL"/> 12). 
+   <pb ed="#PL" n="1937"/>
+      </p>
+      <p xml:id="iuy75t-d1e974-d1e293">4. Dixit <hi rend="italic">ergo cis</hi> Pilatus <hi rend="italic">:</hi> Accipite <hi rend="italic">eum vos, et</hi> secun­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">dnm Legem vestram judicate</hi> eum. <hi rend="italic">Dixerunt ergo
+    ei Ju­
+   <lb ed="#PL"/> daei : Nobis non licet interficere quemquam.</hi> Quid est quod 
+   <lb ed="#PL"/> loquitur insana crudelitas? An non interficicbant, 
+   <lb ed="#PL"/> quem interficiendum offerebant? An forte crux non 
+   <lb ed="#PL"/> inierficil? Sic desipiunt, qui non sectantur. sed inse<lb ed="#PL" break="no"/>ctantur
+   sapientiam. Qnid est autem, <hi rend="italic">Nobis non licet 
+   <lb ed="#PL"/> inter
+    ficere</hi> quemquam? Si malefactor est, cur non Ii<lb ed="#PL" break="no"/>cet? Nonne Lex eis praecepit, ne malefactoribus, prae<lb ed="#PL" break="no"/>sertim (qualem istum putabant) a suo Deo seductori<lb ed="#PL" break="no"/>bus
+   parcant (Deut. XIII, 5)? Sed intelligendum est eos 
+   <lb ed="#PL"/> dixisse non sibi licere interficere quemquam, propter 
+   <lb ed="#PL"/> diei festi sanctitatem, quem celebrare jam coeperant; 
+   <lb ed="#PL"/> propter qucm de ingressu etiam praetorii contaminari 
+   <lb ed="#PL"/> metuebant. Itane obduruislis, falsi Israelita? itane 
+   <lb ed="#PL"/> omnem sensum niinia malitia perdidistis, ut ideo vos 
+   <lb ed="#PL"/> a sanguine innocentis impollutos esse credatis, quia
+   
+   <lb ed="#PL"/> eum fundendum alteri tradidistis? Numquid et Pilatus 
+   <lb ed="#PL"/> illum, qui potestati ejus a vobis ingeritur occidendus, 
+   <lb ed="#PL"/> suis est manibus occisurus? Si non eum voluistis oc<lb ed="#PL" break="no"/>cidi, si non insidiati estis, si non vobis tradendum 
+   <lb ed="#PL"/> pecunia comparastis, si non comprehendistis, vinxi<lb ed="#PL" break="no"/>slis, adduxistis; si non occidendum manibus obtulistis, 
+   <lb ed="#PL"/> vocibus poposcistis, non cum a vobis interfectum esse 
+   <lb ed="#PL"/> jactate. Si autem illis omnibus vestris praecedentibus 
+   <lb ed="#PL"/> factis, aliam <hi rend="italic">Crucifige, crucifige,</hi> clamastis <hi rend="italic">(Joan.</hi> XIX,
+   
+   <lb ed="#PL"/> 6); audite quod contra vos etiam propheta clamat : 
+   <lb ed="#PL"/> Filii hominum, <hi rend="italic">dentes</hi> eorum <hi rend="italic">arma et</hi> sagittae, <hi rend="italic">et lingua 
+   <lb ed="#PL"/> eorum machaera</hi> acuta <hi rend="italic">(Psal,</hi> LVI, 5). Ecce quibus ar<lb ed="#PL" break="no"/>mis, quibus sagiuis, qua machaera justum interfeci<lb ed="#PL" break="no"/>stis,
+   quando vobis interficere quemquam non liccre 
+   <lb ed="#PL"/> Jiiistis. Hinc est quod ad comprehendendum Jesum, 
+   <lb ed="#PL"/> cum sacerdotum non vcnissent principes, sod misis<lb ed="#PL" break="no"/>sent
+   ; Lucas tamen evangelista in eodem narrationis 
+   <lb ed="#PL"/> suae loco ait: <hi rend="italic">Dixit</hi> autem, inquil, Jesus <hi rend="italic">ad eoa qui ne­</hi>
+   
+       <lb ed="#PL"/> nerant <hi rend="italic">ad se, principes sacerdotum, et magistratus tem­</hi>
+   
+       <lb ed="#PL"/> pli, <hi rend="italic">et seniores : Quasi ad latronem</hi> existis ( <hi rend="italic">Luc.</hi> XXII, 
+   <lb ed="#PL"/> 52), et caetera. Sicut ergo principes sacerdotum non 
+   <lb ed="#PL"/> per seipsos, sed per eos quos miserant ad comprehcn<lb ed="#PL" break="no"/>dendum
+   Jesum, quid aliud quam ipsi in suae jussionis 
+   <lb ed="#PL"/> potestatevenerunt? sic omnes qui crucifigendum Chri<lb ed="#PL" break="no"/>stum
+   impiis vocibus clamaverunt, non quidem per 
+   <lb ed="#PL"/> seipsos eum, sed limen ipsi per illum qui eorum cla- 
+   <lb ed="#PL"/> more ad hoc nefas impulsus est, occiderunt.</p>
+      <p xml:id="iuy75t-d1e974-d1e442">5. Quod vero Joannes evangelisfa subjungit, <hi rend="italic">Ut 
+   <lb ed="#PL"/> sermo Jesu
+    impleretur quem dixit, significans qua morte
+   <lb ed="#PL"/> esset moriturus</hi> : si mortem crucis hic velimus acci<lb ed="#PL" break="no"/>pere, tanquam ideo dixerinl Judaei, <hi rend="italic">Nobis non licet in­</hi>
+   
+       <lb ed="#PL"/> terficere <hi rend="italic">quemquam,</hi> quia interfici aliud est, aliud cru­
+   
+   <lb ed="#PL"/> cifigi; non video quomodo id possit conseqoenler 
+   <lb ed="#PL"/> intelligi, cum hoc ad Pilati verba responderint, qui<lb ed="#PL" break="no"/>bUs
+   cis dixerat, <hi rend="italic">Accipite</hi> eum vos, <hi rend="italic">et secundum Legem 
+   <lb ed="#PL"/> vestram judicate eum.</hi> Numquid ergo eum non poterant 
+   <lb ed="#PL"/> accipcre, et ipsi cum crucifigere, si p r tale genus 
+   <lb ed="#PL"/> supplicii interfectionem cujusquam vitare cupiebant? 
+   <lb ed="#PL"/> Quis autem non videat quam sit absurdum eis licere 
+   <lb ed="#PL"/> quemquam crucifigere, quibus non licet quemquam 
+   <lb ed="#PL"/> interficere? Quid quod ipse Dominus eamdem mor<lb ed="#PL" break="no"/>tem
+   suam, id est mortem crucis, etiam interfectionem 
+   <lb ed="#PL"/> vocat, sicut legimus apud Mareum, ubi ait : « Ecce 
+   <lb ed="#PL"/> ascendimus Jerosolymam, et Filius hominis tradetur 
+   <lb ed="#PL"/> principibus sacerdotum et Scribis, et damnabunt eum 
+   <lb ed="#PL"/> morte, et tradent eum Gentibus; et illudent ei,et
+   <lb ed="#PL"/> conspuent eum, et flagellabunt cum, et interficient 
+   <lb ed="#PL"/> eum, et tertia die resurget i
+    <hi rend="italic">(Marc.</hi> x, 53, 34)? Nimi<lb ed="#PL" break="no"/>rom
+   ergo ista dicendo significavit Dominus qua esset 
+   <lb ed="#PL"/> morte moriturus : non quod hic mortem crucis vellet
+   
+   <lb ed="#PL"/> intelligi, sed quod eum Judaei fuissent Gentibus tra<lb ed="#PL" break="no"/>diluri, hoc est Romanis. Nam Pilatus Romanus erat, 
+   <lb ed="#PL"/> eumque in Judaeam Romani praesidem miserant. Ut
+   
+   <lb ed="#PL"/> ergo iste sermo Jesu impleretur, id est, ut eum sibi 
+   <lb ed="#PL"/> traditum Gentes interficerent, quod Jesus futurum 
+   <lb ed="#PL"/> esse praedixerat ; ideo Pilatus qui judex Romanus
+   
+   <lb ed="#PL"/> crat, cum vellet eum reddere Judaeis, ut secundum 
+   <lb ed="#PL"/> Legem suam judicarent eum, noluerunt eum accipere 
+   <lb ed="#PL"/> dicentes, <hi rend="italic">Nobis non licet interficere
+    quemquam.</hi> Ac sic 
+   <lb ed="#PL"/> impletus est sermo Jesu, quem de sua morte praedixit,
+   
+   <lb ed="#PL"/> ut eum a Judaeis traditum interficerent Gentes; mi<lb ed="#PL" break="no"/>nore
+   scelere quam Judnei, qui se isto modo ab ejus 
+   <lb ed="#PL"/> interfectione velut alienos facere voluerunt, non ut 
+   <lb ed="#PL"/> eorum innocentia, sed ut dementia monstrarctur.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

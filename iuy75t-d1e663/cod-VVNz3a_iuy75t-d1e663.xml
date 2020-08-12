@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 76</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 76</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e663"> <!-- iuy75t-t76 -->
+      <head xml:id="iuy75t-d1e663-Hd1e109">Tractatus 76</head>
+      <p xml:id="iuy75t-d1e663-d1e112">
+       <hi rend="italic">De eo quod tequilur,</hi> Dicit ei Judas. non illc Iscariotes, 
+   <lb ed="#PL"/>
+       <hi rend="italic">etc., usque ad id,</hi> Sermo qucm audistis non est meus, 
+   <lb ed="#PL"/> sed ejus qui misit me, Patris. <hi rend="italic">Cap.</hi> xiv, f . 22-24.</p>
+      <p xml:id="iuy75t-d1e663-d1e128">i. Interrogantibus discipulis et eis magistro respon<lb ed="#PL" break="no"/>dente
+   Jesu, etiam noe tanquam cum illis discimus, 
+   <lb ed="#PL"/> quando sanctum Evangelium vel legimus vel audimus.
+   
+   <lb ed="#PL"/> Quia ergo dixerat Dominus, <hi rend="italic">Adhuc</hi> modicum, <hi rend="italic">et</hi> mun­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">dua</hi> me <hi rend="italic">jam</hi> nonvidet, vos autem <hi rend="italic">videbitis me;</hi> interro<lb ed="#PL" break="no"/>gavit
+   eum de hoc ipso Judas, noh ille traditor ejus qui 
+   <lb ed="#PL"/> Iscariotes cognominatus est, sod cujus Epistola inter 
+   <lb ed="#PL"/> Scripturas canonicas legitur : Domine, <hi rend="italic">quid factum 
+   <lb ed="#PL"/> est, quia
+    nobis manifestaturus</hi> es teipsum, <hi rend="italic">et non</hi> mun­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">do</hi> ? Simus eum ipsis tanquam interrogantes discipuli, 
+   <lb ed="#PL"/> communemque magistrum audiamus et nos. Judas 
+   <lb ed="#PL"/> enim sanctus, non immundus, nec insectator Domini, 
+   <lb ed="#PL"/> sod sectator, causam quaesivit quare se non mundo, 
+   <lb ed="#PL"/> sed suis manifestaturus esset Jesus; quare adhuc mo- 
+   <lb ed="#PL"/> dicumet mundus non videret eum, ipsi autem vide<lb ed="#PL" break="no"/>rent
+   eum.</p>
+      <p xml:id="iuy75t-d1e663-d1e188">i. <hi rend="italic">Respondit Jesus, et dixit ei :</hi> Si <hi rend="italic">quis
+    diligit me, 
+   <lb ed="#PL"/> sermonem meum servabit : et Puter meus diliget eum, et 
+   <lb ed="#PL"/> ad</hi> eum <hi rend="italic">veniemus, et mansionem apud eum</hi> jaciemus. 
+   <lb ed="#PL"/> Qui <hi rend="italic">non diligit me, sermones</hi> meos <hi rend="italic">non servat.</hi> Ecce ex<lb ed="#PL" break="no"/>posita
+   est causa quare se suis manifestaturus est, non 
+   <lb ed="#PL"/> alienis, quos mundi nomine appellat; et ipsa est causa 
+   <lb ed="#PL"/> quod hi diligant, illi non diligant. Ipsa, causa est de 
+   <lb ed="#PL"/> qua sacer insonat Psalmus, <hi rend="italic">Judica me, Deus,
+    et</hi> discer­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">ne causam meam de gente</hi> non <hi rend="italic">sancta</hi> ( <hi rend="italic">Psal.</hi> XLII, i ). 
+   <lb ed="#PL"/> Qui enim diligunt \ quia diligunt, eliguntur
+   : qui ve<lb ed="#PL" break="no"/>ro
+   nou diligunt, si linguis hominum loquantur et An<lb ed="#PL" break="no"/>gelorum, fiunt aeramentum sonans et cymbalum tin<lb ed="#PL" break="no"/>niens; et si habuerint prophetiam, et scierint omnia 
+   <lb ed="#PL"/> sacramenta, et omnem scicntiam, et habuerint omnem 
+   <lb ed="#PL"/> fidem utmontes transferant, nihil sunt; et si distri<lb ed="#PL" break="no"/>buerint. omnem substantiam suam, et tradiderint cor<lb ed="#PL" break="no"/>pus
+   suum ut ardeant, nihil eis prodest ( I <hi rend="italic">Cor.</hi> XIII, 
+   <lb ed="#PL"/> 1-3 ). Dilectio sanctos discernit a mundo, quae tacit 
+   <lb ed="#PL"/> unanimes habitare in domo <hi rend="italic">(Psal.</hi> LXVII, 7). In qua 
+   <lb ed="#PL"/> domo facit Pater et Filius mansionem; qui donant et 
+   <lb ed="#PL"/> ipsam dilectionem, quibus donent in fine etiam ipsam 
+   <lb ed="#PL"/> suam manifestationem : deL qua discipulus magistrum 
+   <lb ed="#PL"/> interrogavit, ut non solum illi qui tunc audiebant per 
+   <lb ed="#PL"/> os ejus, sed etiam nos per Evangelium ejus hoc nosse 
+   <lb ed="#PL"/> possemus. Quaesierat enim de Cbrisii manifestatione,
+   
+   <lb ed="#PL"/>etaudivit de dilectione atque mansione. Est ergo quae<lb ed="#PL" break="no"/>dam
+   Dei manifestatio interior, quam prorsus impii 
+   <lb ed="#PL"/> non noverunt, quibus Dci Patris et Spiritus sancti ma<lb ed="#PL" break="no"/>nifestatio
+   nulla. est: Filii vero potuitesse, sed in car<lb ed="#PL" break="no"/>ne; quae nec mUs est qualis illa, nec semper illis 
+   <lb ed="#PL"/> adesse potest qualiscumque sit, sed ad . modicum tem<lb ed="#PL" break="no"/>pus ; et hoc ad judicium, nou ad gaudium ; ad suppli<lb ed="#PL" break="no"/>cium ,non ad praemium.</p>
+      <p xml:id="iuy75t-d1e663-d1e295">3. Nunc est ergo ut intelligamus, quantum aperire 
+   <lb ed="#PL"/> ipse dignatur, quomodo dictum sit, <hi rend="italic">Adhuc modicum, 
+   <lb ed="#PL"/> et mundus me jam</hi> non <hi rend="italic">videt, vos autem videbitis me.</hi>
+   
+       <lb ed="#PL"/> Verum est quidem quod post paululum etiam corpus 
+   
+   <lb ed="#PL"/> suum in quo poterant eum et impii videre, oculis eo<lb ed="#PL" break="no"/>rum
+   fuerat subtracturus
+   ; quandoquidem post resur<lb ed="#PL" break="no"/>rectionem
+   nemo illorum vidit cum. Sed quouiam di<lb ed="#PL" break="no"/>ctum
+   est testantibus <hi rend="italic">Angelis, Sic</hi> veniet, <hi rend="italic">quemadmo­</hi>
+   
+       <lb ed="#PL"/> dum <hi rend="italic">vidistis eum euntem</hi> in <hi rend="italic">caetum (
+    Act.</hi> i, it ); noi; 
+   <lb ed="#PL"/> aliud credimus quam eum in eodcni corpore ad judi<lb ed="#PL" break="no"/>cium
+   vivorum et mortuorum esse venturum : procul 
+   <lb ed="#PL"/> dubio tunc eum vidcbit mundus, quo nomine signifi<lb ed="#PL" break="no"/>cati
+   sunt a regno ejus alieni. Ac per hoc longe melius 
+   <lb ed="#PL"/> intelligitur jam illud tempus significare voluisse, in eo 
+   <lb ed="#PL"/> quod <hi rend="italic">ait, Adhuc modicum, et</hi> mundus <hi rend="italic">me jam non videl,</hi>
+   
+       <lb ed="#PL"/> quando in fine sacculi auferetur ab oculis damnatorum, 
+   <lb ed="#PL"/> ut illi eum de caetero videant, apud quos diligentes 
+   <lb ed="#PL"/> eum facit Pater atque ipse mansionem. <hi rend="italic">Modicum</hi> amem 
+   <lb ed="#PL"/> dixit, quia et id quod prolixum videtur hominibus, 
+   <lb ed="#PL"/> brevissimum est ante oculos Dei : de hoc quippe mo<lb ed="#PL" break="no"/>dico
+   iste ipse Joannes evangelista, <hi rend="italic">Filioli,</hi> inquit, <hi rend="italic">no­</hi>
+   
+       <lb ed="#PL"/> vissima <hi rend="italic">hora eat</hi> ( 1 <hi rend="italic">Joan.</hi> it, 18).</p>
+      <p xml:id="iuy75t-d1e663-d1e384">4. Ne quis porro existimet Patrem tantummodo et 
+   <lb ed="#PL"/> Filium sine Spiritu sancto apud dilectores suos faecre 
+   <lb ed="#PL"/> mansionem, recolat quod superius de Spiritu sancto 
+   <lb ed="#PL"/> dictum est, <hi rend="italic">Quem</hi> mundus non <hi rend="italic">potest
+    accipere,</hi> quia non 
+   <lb ed="#PL"/> videt eum, nec <hi rend="italic">scit</hi> eum : <hi rend="italic">vos autem cognoscetis</hi> eum, 
+   <lb ed="#PL"/>
+       <hi rend="italic">quia</hi> apud vos <hi rend="italic">manebit,</hi> ei in <hi rend="italic">vobis</hi> erit <hi rend="italic">( Joan.</hi> XIV, 17). 
+   <lb ed="#PL"/> Ecce facit in sanctis cum Patre et Filio sanctus etiam 
+   <lb ed="#PL"/> Spiritus mansionem ; intus utique, tanquam Deus in 
+   <lb ed="#PL"/> ',templo suo. Deus Trinitas, Pater et Filius et Spiritus
+   
+   <lb ed="#PL"/> sanctus, vcniunt ad nos, dum venimus ad eos : veniuut 
+   <lb ed="#PL"/> subveniendo, venimus obediendo; veniunt illuminau<lb ed="#PL" break="no"/>do, 
+   venimus intuendo ; veniunt implendo, venimus ca<lb ed="#PL" break="no"/>piendo: 
+   ut sit nobis eorum non extraria visio, sed in<lb ed="#PL" break="no"/>terna ; etin nobis eorum non transitoria mansio, sel 
+   <lb ed="#PL"/> aeterna. Sic mundo non se Filius manifestat : mundus 
+   <lb ed="#PL"/> enim dictus est hoc loco, de quibus continuo subjun<lb ed="#PL" break="no"/>xit, <hi rend="italic">Qui</hi> non <hi rend="italic">diligit</hi> me, sermones meos <hi rend="italic">non servat.</hi> Hi 
+   <lb ed="#PL"/> sunt qui Patrem et Spiritum sanctum nunquam videut: 
+   <lb ed="#PL"/> Filium autcm non ut beatificentur, sed ut judicentur, 
+   <lb ed="#PL"/> ad modicum vident; nec ipsum in forma Dei, ubi est 
+   <lb ed="#PL"/> cum Patre et Spiritu sancto pariter invisibilis; sed in 
+   <lb ed="#PL"/> forma bominis, ubi esse valuit mupdo patiendo con<lb ed="#PL" break="no"/>temptibilis,
+   judicando terribilis.</p>
+      <p xml:id="iuy75t-d1e663-d1e469">5. Qpod vero adjunxit, <hi rend="italic">Et sermo quem</hi> audistis <hi rend="italic">non 
+   <lb ed="#PL"/> est</hi> meus, <hi rend="italic">sed ejus qui misit met Patris</hi> ; non miremur, 
+   <lb ed="#PL"/> non paveamus : non est minor Patre, sed non est nisi 
+   <lb ed="#PL"/> a Patre; non est impar ipso, spd non est a seipso. 
+   <lb ed="#PL"/> Neque enim mentitusest dicendo, <hi rend="italic">Qui non diligit</hi> me, 
+   <lb ed="#PL"/> sermones meos non servat. Ecce suos dixit esse sermo<lb ed="#PL" break="no"/>nes ; numquid sibi ipse est contrarius, ubi rursus di<lb ed="#PL" break="no"/>Xit, Et sermo quem <hi rend="italic">audistis non eat</hi> meus? Et fortasse 
+   <lb ed="#PL"/> propter aliquam distinctinem, ubi suos dixit, dixit 
+   <lb ed="#PL"/> pluraliter, boc est <hi rend="italic">sermones ;</hi> ubi autem <hi rend="italic">sermonem,</hi>
+   
+       <lb ed="#PL"/> hoc est Verbum, non suum dixit esse, sed Patris, se<lb ed="#PL" break="no"/>ipsum
+   intelligi voluit. In principio enim erat Verbum, 
+   <lb ed="#PL"/> et Verbum erat apud Deum,et Deus erat Verbum(Joan.
+   
+   <lb ed="#PL"/> i, 1). Non utique suum, sed Patris est Verbum: quo<lb ed="#PL" break="no"/>modo
+   Dee sua imago, sed Patris ; nec suus Filius idem 
+   <lb ed="#PL"/> ipse, sed Patris. Recte igitur tribuit auctori quidquid 
+   <lb ed="#PL"/> facit aequalis, a quo habet hoc ipsum quod iili est tu<lb ed="#PL" break="no"/>differenter
+   aequalis.</p>
+      <pb ed="#PL" n="1833"/>
+
+    </div>
+   </body>
+  </text>
+</TEI>

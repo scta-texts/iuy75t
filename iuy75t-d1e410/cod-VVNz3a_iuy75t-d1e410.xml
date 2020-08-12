@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 45</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 45</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e410"> <!-- iuy75t-t45 -->
+      <head xml:id="iuy75t-d1e410-Hd1e109">Tractatus 45</head>
+      <p xml:id="iuy75t-d1e410-d1e112">At eo quod scriptum <hi rend="italic">est</hi> , Amen, amen dico vobis; qui 
+   <lb ed="#PL"/> non intrat Iter ostium in ovile ovium, sed ascendit 
+   <lb ed="#PL"/> aliunde, ille fur est et latro ; uque all id, Ego veni 
+   <lb ed="#PL"/> ut vitam habeant, et abundantius habeant. Cap. X, 
+   <lb ed="#PL"/> v . 1-10.</p>
+      <p xml:id="iuy75t-d1e410-d1e126">I.. De illuminato illo qui natas est caecus, sermo ad 
+   <lb ed="#PL"/> Judaeos Domini exortus est. Huic itaque lectioni bo<lb ed="#PL" break="no"/>diernam
+   essa contextam , scire debuit et commoneri 
+   <lb ed="#PL"/> Chartas vestra. Cum enim Dominus dixisset, In ju<lb ed="#PL" break="no"/>dicium
+   ego veni in hunc mundum , III qui nou vident, 
+   <lb ed="#PL"/> videant ; et gui vident ,caeci fiant; quod eo tempore, 
+   <lb ed="#PL"/> quando lectum est, ut potuimus exposuimus : qnidam 
+   <lb ed="#PL"/> ex Pharisaeis dixerunt, Numquid ci nos <hi rend="italic">caeci</hi> sumus? 
+   <lb ed="#PL"/> Quibus respondit : Si <hi rend="italic">caeci essetis</hi> , non habereti, pec­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">catum ; nunc</hi> autem dicitis, Quia videmus : peccatum 
+   <lb ed="#PL"/> vestrum manet (Joan. IX, 39-41). His verbis subjunxit 
+   <lb ed="#PL"/> ea quae hodie cum recitarentur, audivimus.</p>
+      <p xml:id="iuy75t-d1e410-d1e162">? 2. Amen, amen <hi rend="italic">dico vobis,</hi> qui non intrat <hi rend="italic">per</hi> ostium 
+   <lb ed="#PL"/> n ovile ovium, <hi rend="italic">aed</hi> aacendi, aliunde, ille fur <hi rend="italic">eat et tatro.</hi>
+   
+       <lb ed="#PL"/> Dixerunt enim se caecos non esse: videre autemtunc 
+   <lb ed="#PL"/> possent, si oves Christi essent. Unde sibi usurpabant 
+   <lb ed="#PL"/> lumen qui furebant contra diem?Propter illorum ergo
+   
+   <lb ed="#PL"/> vanam et superbam et insanabilem arrogantiam Do<lb ed="#PL" break="no"/>minus
+   Jesus ista contexuit
+   : in quibus salubriter nos, 
+   <lb ed="#PL"/> si advertamus, admonuit. Multi enim sunt qni secun­
+   
+   <lb ed="#PL"/> dum quamdam vitae hujus consuetudinem dicuntur 
+   <lb ed="#PL"/> boni homines, boni viri, bonae feminae, innocentes, et 
+   <lb ed="#PL"/> quasi observantes ea quae in lege praecepta sunt; dc- 
+   <lb ed="#PL"/> fcrentes bonorem parentibus suis , ncnomoechantes , 
+   <lb ed="#PL"/> non homicidium perpetrantes , non furtum facientes, 
+   <lb ed="#PL"/> non falsum testimonium adversus qucmquam per- 
+   <lb ed="#PL"/> bibentes, et caetera qum lege mandata sunt velut ob<lb ed="#PL" break="no"/>servantes , christiani non sunt : et plerumque se ja- 
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> ctant quomodo isti, Numquid <hi rend="italic">et noa caeci</hi> sumus ? Quia 
+   <lb ed="#PL"/> vero ita omnia quae faciunt , et uesciuut ad quem fi<lb ed="#PL" break="no"/>nem
+   referant, inaniter faciunt, Dominus de grege suo, 
+   <lb ed="#PL"/> et de ostio quo intratur ad ovile , similitudinem pru- 
+   <lb ed="#PL"/> posuit in hodierna lectione. Dicant ergo Pagani: Bene 
+   <lb ed="#PL"/> vivunns. Si per ostium non intrant , qUI prodest eis 
+   <lb ed="#PL"/> unde gloriantur? Ad hoc enim debet unicuique prod<lb ed="#PL" break="no"/>esse
+   bene vivere , ut detur illi semper vivere : lIam 
+   <lb ed="#PL"/> cui non datur semper vivere , quid prodest bene vi<lb ed="#PL" break="no"/>vere ? Quia nec bene vivere dicendi sunt, qui finem 
+   <lb ed="#PL"/> bene vivendi vel caecitate nesciunt, vei inflatione con- 
+   <lb ed="#PL"/> temnunt. Non est autem cuiquam spes vera et certa 
+   <lb ed="#PL"/> semper vivendi , nisi agnoscat vitam , quod est Chri<lb ed="#PL" break="no"/>stus; et per januam intret in ovile.</p>
+      <p xml:id="iuy75t-d1e410-d1e246">3. Quaerunt plerumque tales homines etiam 
+   <lb ed="#PL"/> ergo 
+   <lb ed="#PL"/> persuadere hominibus ilL bene vivant , et christiani 
+   <lb ed="#PL"/> non sint. Per alian partem colunt ascendere, rapere
+   
+   <lb ed="#PL"/> et occidere; non ut pastor, conservare atque salvare. 
+   <lb ed="#PL"/> Fuerunt 
+   <lb ed="#PL"/> , ergo quidam philosophi, de virtutibus et vi<lb ed="#PL" break="no"/>tiis
+   subtilia multa tractantes, dividentes, deftnienLes, 
+   <lb ed="#PL"/> ratiocinationes acutissimas coocludonLes , libros im-
+   
+   <lb ed="#PL"/> plentes , suam sapientiam buccis crepantibus venti- 
+   <lb ed="#PL"/> lantes i qui etiam dicere auderent hominibus, Nos se<lb ed="#PL" break="no"/>quimini , sectam nostram tenete, si vultis beate 
+   <lb ed="#PL"/> vivere. Sed non intrarant per ostium : perdere vole<lb ed="#PL" break="no"/>bant, mactare et oecidcre.</p>
+      <p xml:id="iuy75t-d1e410-d1e277">4. Quid de istis dicam ? Ecce ipsi Pharisaei lege<lb ed="#PL" break="no"/>bant , et in eo quod legebant , Christum sonabant, 
+   <lb ed="#PL"/> venturum sperabant, et praesentem non agnoscebant : 
+   <lb ed="#PL"/> jactabant se etiam ipsi inter videntes, hoc est inter 
+   <lb ed="#PL"/> sapientes , et negabant Cbristum , et non intrabant 
+   <lb ed="#PL"/> per ostium. Ergo et ipsi , si quos forte seducerent ,
+   
+   <lb ed="#PL"/> mactandos et occidendos, non liberandos seducerent. 
+   <lb ed="#PL"/> Et hos dimittamus : videamus illas si forte ipsi in<lb ed="#PL" break="no"/>trant
+   per ostium, qui ipsius Christi nomme glo-
+   
+   <lb ed="#PL"/> rianlur.</p>
+      <p xml:id="iuy75t-d1e410-d1e299">5. Innumerabiles enim sunt, qui se videmes non so<lb ed="#PL" break="no"/>lum
+   jactant, sed a Christo illuminatos videri volunt : 
+   <pb ed="#PL" n="1721"/>
+       <lb ed="#PL"/> sunt autem haeretici. Forte ipsi per januam intrave- 
+   <lb ed="#PL"/> runt? Absit. Sabellius dicit, Qni Filius est, ipse est 
+   <lb ed="#PL"/> Pater : sed si Filius, non est Pater. Non intrat per 
+   <lb ed="#PL"/> ostium, qui Filium dicit Patrem. Arius dicit : Aliud 
+   <lb ed="#PL"/> est Pater, aliud est Filius, Recte diceret, si diceret 
+   <lb ed="#PL"/> Alius; non, aliud, Quando enim dicit, Aliud, ei con<lb ed="#PL" break="no"/>tradicit
+   a quo audit, <hi rend="italic">Ego et</hi> Puter unum sumus (Joan. 
+   <lb ed="#PL"/> x, 30). Nec ipse ergo per ostium intrat: praedicat 
+   <lb ed="#PL"/> enim Christum qualem sibi fingit, non qualem veritas 
+   <lb ed="#PL"/> dicit. Nomen habes, rem non hahes, Alicujus rei no<lb ed="#PL" break="no"/>men
+   est Christus : tene ipsam rem, si vis prodesse ti- 
+   <lb ed="#PL"/> hi nomen. Alius nescio unde, sicut Photinus : Chri<lb ed="#PL" break="no"/>stus
+   homo est, inquit; Deus non est. Nee ipse intrat 
+   <lb ed="#PL"/> per ostium, qnia Christus et homo et Deus est. Et 
+   <lb ed="#PL"/> quid opus est multa percurrere, et multa vana haere- 
+   <lb ed="#PL"/> sum enumerare? Hoc tenete, ovile Christi esse catho<lb ed="#PL" break="no"/>licam
+   Ecclesiam. Quicumque vult intrare ad ovile, 
+   <lb ed="#PL"/> per ostium intret, Christum verum praedicet. Non so- 
+   <lb ed="#PL"/> tum Christum verum praedicet, sed Christi gloriam 
+   <lb ed="#PL"/> quaerat, non suam : nam mulli quaerendo gloriam 
+   <lb ed="#PL"/> suam, oves Christi sparserunt potius quam congrega- 
+   <lb ed="#PL"/> vernut. Humilis est enim janua Christus Dominus : 
+   <lb ed="#PL"/> qui intrat per hanc januam, oportet humiliet se, ut 
+   <lb ed="#PL"/> sano capite pussit intrare. Qui autem se non humiliat, 
+   <lb ed="#PL"/> sed extollit, per maceriam vult ascendere: qui autem 
+   <lb ed="#PL"/> per maceriam ascendit, idco exaltatur ut cadat.</p>
+      <p xml:id="iuy75t-d1e410-d1e365">6. Tecte tamen adhuc loquitur Dominus Jesus, noa- 
+   <lb ed="#PL"/> dnm intelligitur : nominat ostium, nominat ovile, no<lb ed="#PL" break="no"/>minat
+   oves; commendat haec omnia, sed nondum 
+   <lb ed="#PL"/> exponit. Legamus ergo, quia venturus est ad ea ver<lb ed="#PL" break="no"/>ba
+   in quibus nobis aliqua quae dixit dignetur exponere : 
+   <lb ed="#PL"/> ex quorum expositione dabit nobis fortasse etiam illa
+   
+   <lb ed="#PL"/> quae non exposuit, intelligere. Pascit enim manifestis, 
+   <lb ed="#PL"/> exercet ohsenris. Qui MOM intrut pcr ostium in <hi rend="italic">ovile</hi>
+   
+       <lb ed="#PL"/> ovium, <hi rend="italic">sed ascendit</hi> aliunde. Vae misero, quia casurus 
+   <lb ed="#PL"/> est! Sit ergo hUOlilis, per ostium intret : plano pede 
+   <lb ed="#PL"/> veniat, et non offendet. Ille, inquit, fur est <hi rend="italic">et</hi> latro. 
+   <lb ed="#PL"/> Oves suas vult dicere oves alienas : ad hoc suas, id 
+   <lb ed="#PL"/> est, furto ablatas, non ut salvet, sed ut occidat. Ergo
+   
+   <lb ed="#PL"/> fur est, quia qnod alicnum est, suum dicit: latro, 
+   <lb ed="#PL"/> quia et quod est furatus, occidit. Qni <hi rend="italic">autem</hi> intrat per 
+   <lb ed="#PL"/> ostium, <hi rend="italic">pastor eat</hi> ovium: <hi rend="italic">huic</hi> ostiarius<hi rend="italic">aperit.</hi> De 
+   <lb ed="#PL"/> ostiario isto tunc qua'ramus, quando ab ipso Domiuo 
+   <lb ed="#PL"/> audierimus quod sit ostium, et qui sit pastor. El oves 
+   <lb ed="#PL"/> bocem <hi rend="italic">ejus</hi> audiunt, et proprias oves vocat nominatim. 
+   <lb ed="#PL"/> Habet enim nomina carunt scripta in libro vitae. Pro<lb ed="#PL" break="no"/>prias
+   oves vocal nominatim. Hinc dicit Apostolus : No<lb ed="#PL" break="no"/>vit
+   Dominus gui Bunt <hi rend="italic">ejus</hi> ( II Tin:. II, i 9 ) Et educit 
+   <lb ed="#PL"/> zas Et cum proprias oves emiserit, ante eas "adit : et 
+   <lb ed="#PL"/> obes illum sequuntur, <hi rend="italic">quia</hi> sciunt uocem <hi rend="italic">ejus.</hi> Alienum 
+   <lb ed="#PL"/>
+       <hi rend="italic">aurem</hi> non sequuntur, sed fugiunt ab <hi rend="italic">eo</hi> ; quia non nove<lb ed="#PL" break="no"/>runt <hi rend="italic">vocem</hi> alienorum. Tecta sunt haec, plena quaestio<lb ed="#PL" break="no"/>nibus, gravida sacramentis. Sequamur ergo et audia- 
+   <lb ed="#PL"/> nius magistrum ex his obscuris aliquid aperientem ; 
+   <lb ed="#PL"/> et per id quod aperit, nos forte intrare facientem.</p>
+      <p xml:id="iuy75t-d1e410-d1e473">7. boc proverbium dixit illis <hi rend="italic">Jesus</hi> ; illi autem non 
+   <lb ed="#PL"/>
+       <hi rend="italic">cognoverunt</hi> quid <hi rend="italic">loqueretur eis.</hi> Forte nec nos. Quid 
+   <lb ed="#PL"/> ergo interest inter ilos et nos, antequam ista verba 
+   <lb ed="#PL"/> aguoseamus et nos ? Quia nos pulsamus ut aperiatur 
+   <lb ed="#PL"/> nobis; illa autem Christum negando nolebant intra<lb ed="#PL" break="no"/>re
+   servandi, sed foris remanere perdendi. Quod ergo 
+   <lb ed="#PL"/> nos audimus haec pie, quoa antequam illa inteHiga- 
+   <lb ed="#PL"/> mus, credimus vera esse atque divina, magna ab istis 
+   <lb ed="#PL"/> diversitate distamus. Cum enim duo audiunt verba 
+   <lb ed="#PL"/> Evangelii, unus impius, alter pius, et alia sunt ut fur- 
+   <lb ed="#PL"/> Ron 
+   <lb ed="#PL"/> te ambo ulteUiganl, unus dicit, Nibil dixit ; alius 
+   <lb ed="#PL"/> dicit, Verum dixit, et bonum est quod dixit, sed nos 
+   <lb ed="#PL"/> non intelligimus : iste quia creditjam pulsat, et dignus 
+   <lb ed="#PL"/> est cui aperiatur, Ii pulsare persistat; ille vero adhuc 
+   <lb ed="#PL"/> audit, Nisi <hi rend="italic">crediderilil, non</hi> intelligetis (Isai. VII, 9, 
+   <lb ed="#PL"/>
+       <hi rend="italic">aec.</hi> LXX). Quare ista commendo ? Quia etiam cum 
+   <lb ed="#PL"/> verba haec obscura, sicut possum, exposuero, aut quia 
+   <lb ed="#PL"/> valde sunt abdita, vel ego eorum non apprehendero 
+   <lb ed="#PL"/> intelligentiam, vel explicandi quod intelligo non ha<lb ed="#PL" break="no"/>buero
+   facultatem, vel tam fucrit quisque tardus, ut 
+   <lb ed="#PL"/> etiam exponentem non seqnatur ; non de sc desperet: 
+   <lb ed="#PL"/> maneat in fide, ambulet in via, andiat Apostolum di<lb ed="#PL" break="no"/>centem, Et Ii <hi rend="italic">guid aliter</hi> sapitis, <hi rend="italic">hoc quoque</hi> vobis Deus 
+   <lb ed="#PL"/>
+       <hi rend="italic">revelabit</hi> : verumtamen in quod pervenimus, ill eo ambu<lb ed="#PL" break="no"/>lemus
+   ( Philipp. III, 15).</p>
+      <p xml:id="iuy75t-d1e410-d1e555">8. Incipiamus ergo audire exponentem, quem audi<lb ed="#PL" break="no"/>vimus
+   proponentem. <hi rend="italic">Dixit ergo iterum</hi> cis Jesus : 
+   <lb ed="#PL"/> Amen, <hi rend="italic">amen
+    dieo</hi> vobis, quia ego sum ostium ovium. 
+   <lb ed="#PL"/> Ecce ipsum ostium quod clausum posuerat, aperuit. 
+   <lb ed="#PL"/> Ipse est ostium. Agnovimus, intremus, aut nos intras- 
+   <lb ed="#PL"/> se gandeamus. <hi rend="italic">Omenes</hi> quotquot <hi rend="italic">venerunt,</hi> fures sunt et 
+   <lb ed="#PL"/> latrones. Quid est hoc, Domine, Omenes quotquot <hi rend="italic">vene­</hi>
+   
+       <lb ed="#PL"/> runt? Quid enim ? tu non venisti? Sed intellige: 
+   <lb ed="#PL"/> Omnes quotquot venerunt dixi, utique praeter me- Re- 
+   <lb ed="#PL"/> colamus ergo. Ante adventum ipsius venerunt Prophe­
+   
+   <lb ed="#PL"/> tae; numquid fures et latrones fuerunt r absit. Non 
+   <lb ed="#PL"/> praeter illum venerunt, quia cum illo venerunt. Ven<lb ed="#PL" break="no"/>turus
+   praecones mittebat, sed corum corda quos mi­
+   
+   <lb ed="#PL"/> serat, possidebat. Vultis nosse quia cumillo venerunt, 
+   <lb ed="#PL"/> qui est ipse semper ? Carnem quippe accepit ex tem<lb ed="#PL" break="no"/>pore. Quid est ergo semper? In principio erat Verbum
+   
+   <lb ed="#PL"/> (Joan, I, i ). Cum illo ergo venerunt, qui cum ver<lb ed="#PL" break="no"/>bo
+   Dci venerunt. Ego sum, inquit, via et veritas et vita 
+   <lb ed="#PL"/> ( Id. XIV, 6 ). Si ipse est ventas, cum illo venerunt 
+   <lb ed="#PL"/> qui veraces fuerunt. Quotquot ergo praeter ilium. 
+   <lb ed="#PL"/> id 
+   <lb ed="#PL"/>
+       <hi rend="italic">furca</hi> et latrones; est, ad furandum et occidendum.</p>
+      <p xml:id="iuy75t-d1e410-d1e623">9. <hi rend="italic">Sed</hi> noM <hi rend="italic">audierunt eos</hi> oves. Major haec quaestio 
+   <lb ed="#PL"/> est, non <hi rend="italic">audierunt eoa</hi> cuM. Ante ad ventum Domini no<lb ed="#PL" break="no"/>stri
+   Jesu Christi, quo humilis venit in carne, praeces-
+   <lb ed="#PL"/> serunt justi, sic in eum credentes venturum quomo- 
+   <lb ed="#PL"/> do nos credimus in eam qui venit. Tempora variata
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> sunt, non fides. Quia et ipsa verba pro tempore variam- 
+   <lb ed="#PL"/> tur, cum varie declinantur : alium sonum habeL, Veu. 
+   <lb ed="#PL"/> turus est; alium sonum habet, Venit : mutatus est 
+   <lb ed="#PL"/> sonus, venturus est, et venit : eadem tamen fides 
+   <lb ed="#PL"/> utrosque conjungit, et eos qui venturum esse, et eos 
+   <lb ed="#PL"/> qui eum venisse crediderunt. Diversis quidem tempo<lb ed="#PL" break="no"/>ribus, sed utrosque per unum fidei ostium, hoc est 
+   <lb ed="#PL"/> per Christum, vidcmus ingressos. Nos credimus Do- ' 
+   <lb ed="#PL"/> minum Jesum Christum natum ex Virgine, venisse in 
+   <lb ed="#PL"/> carne, passum esse, resurrexisse, in caelum ascendis. 
+   <lb ed="#PL"/> se
+   : totum hoc, sicut verba auditis praeteriti temporis, 
+   <lb ed="#PL"/> Impletum esse jam credimus. Inejus sunt fidei socie­ 
+   <pb ed="#PL" n="1723"/>
+       <lb ed="#PL"/> tate nobiseum el Uti patres, qui erediderunt de Vir- 
+   <lb ed="#PL"/> line nasciturum, passurum, resurrecturum, in cae- 
+   <lb ed="#PL"/> hun ascensurum : illos evim ostendit Apostolus ubi 
+   <lb ed="#PL"/> ait, <hi rend="italic">H abentes</hi> autem eumdem spiritum fidei, sicut <hi rend="italic">scri-</hi>
+   
+       <lb ed="#PL"/> ptum <hi rend="italic">est, Gredidi, propter quod locutus sum;</hi> et nos <hi rend="italic">cre­</hi>
+   
+       <lb ed="#PL"/> dimus, <hi rend="italic">propter quod</hi> et loquimur (II Cor. IV,13 ). Pro­
+   
+   <lb ed="#PL"/> pheta dixit, Gredidi, propter <hi rend="italic">quod</hi> locutus sum ( Psal.
+   
+   <lb ed="#PL"/> CXV, 10 ) : Apostolus dicit, Et noa credimus, <hi rend="italic">propter</hi>
+   
+       <lb ed="#PL"/> quod et loquimur. Ul scias autcm quod una sit fides, 
+   <lb ed="#PL"/> audi dicentem, Habentes eumdem spiritum <hi rend="italic">fidei,</hi> et nos
+   <lb ed="#PL"/> credimus. Sic et alio loco, Nolo <hi rend="italic">enim</hi> vos ignorare, fra-
+   <lb ed="#PL"/> tres, quia patres nostri omnes sub nube <hi rend="italic">fuerant, et omnes 
+   <lb ed="#PL"/> per mare</hi> transierunt, et omnes in Moysen baptisati sunt, 
+   <lb ed="#PL"/> in nube et in mari, <hi rend="italic">et omnes
+    eamdem</hi> eacam <hi rend="italic">spiritualem</hi>
+   
+       <lb ed="#PL"/> mandacaverunt, et omnes eumdem potum spiritualem 
+   <lb ed="#PL"/>
+       <hi rend="italic">biberunt.</hi> Marc Rubrum significat Baptismum ; Moy<lb ed="#PL" break="no"/>ses
+   ductor per mare Rubrum significat Christum; 
+   <lb ed="#PL"/> populus transiens significat fideles; mors aegyplio- 
+   <lb ed="#PL"/> rum significat abolilioneln peccatorum. In signis di<lb ed="#PL" break="no"/>versis
+   eadem fides : sic in signis diversiS, quomodo 
+   <lb ed="#PL"/> in verbis diversis ; quia verba sonos mutant per tem- 
+   <lb ed="#PL"/> porn, et utique nihil aliud sunt verba quam signa. 
+   <lb ed="#PL"/> Significando enim verba sunt : tolle significationem 
+   <lb ed="#PL"/> verbo, strepitus inanis est. Significata ergo sunt omnia. 
+   <lb ed="#PL"/> Numquid non eadem credebant, per quos haec signa 
+   <lb ed="#PL"/> ministrabantur, per quos eadem quae credimus, pro<lb ed="#PL" break="no"/>phetata
+   praenuntiabantur ? Utique credebant :sed illi 
+   <lb ed="#PL"/> Tentura esse, nos autem venisse. Ideo et sic ait, Eum<lb ed="#PL" break="no"/>dem
+   potum spiritualem biberunt. Spiritualem eudem, 
+   <lb ed="#PL"/> nam corporalem non eumdem. Quid cnim illi bibc- 
+   <lb ed="#PL"/> bant? Bibebant enim de spiritauli sequente petra : petra 
+   <lb ed="#PL"/> autem <hi rend="italic">erat</hi> Christus ( I Cor. x, 1 -4 ). Videte ergo, fide 
+   <lb ed="#PL"/> manente, signa variata. Ibi petra Christus, nobis Chri<lb ed="#PL" break="no"/>stus
+   quod in attan Dei ponitur. Et iUi pro magro sa<lb ed="#PL" break="no"/>cramento
+   ejusdem Christi biberunt aquam pronucn-
+   
+   <lb ed="#PL"/> tem de petra ; nos quid bibatnus norunt fideles. Si 
+   <lb ed="#PL"/> speciem visibilem imendas, aliud est: si intelligibi- 
+   <lb ed="#PL"/> lem significationem, eumdem polum spiritualem bi<lb ed="#PL" break="no"/>berunt. Quotquot ergo illo tempore crediderunt vel 
+   <lb ed="#PL"/> Abrahae, vel Isaac, vel Jacob, vel Moysi, vel aliis Pa<lb ed="#PL" break="no"/>triarchis, aliisque Prophetis Christum praenuntianti- 
+   <lb ed="#PL"/> bus, oves erant, et Christum audierunt :non alienam 
+   <lb ed="#PL"/> vocem, sed ipsius audierunt. Judex fuerat in praecone. 
+   <lb ed="#PL"/> Qnia et quando judex loquitur per praeconem, exce- 
+   <lb ed="#PL"/> ptor non facit, Praeco dixit; sed, Judex dixit. Alii 
+   <lb ed="#PL"/> sunt ergo quos non audierunt oves, iri quibus non erat 
+   <lb ed="#PL"/> vox Christi, errantes, falsa dicentes, inania garnen- 
+   <lb ed="#PL"/> tes, vana fingentes, miscros seducentes.</p>
+      <p xml:id="iuy75t-d1e410-d1e822">10. Quid est ergo quod dixi, Major hxc est quaestio ? 
+   <lb ed="#PL"/> Quid habet obscurum et ad intelligendum difficile ? 
+   <lb ed="#PL"/> Audite, obsecro. Ecce Dominus ipse Jesus Christus 
+   <lb ed="#PL"/> venit, praedicavit : uUque multo magis vox pastoris 
+   <lb ed="#PL"/> erat, expressa ipso ore pastoris. Si enim per Prophe<lb ed="#PL" break="no"/>tas
+   vox pastoris erat, quanto magis vocem pastoris
+   
+   <lb ed="#PL"/> proferebat lingua ipsa pastoris ? Non omnes audierunt. 
+   <lb ed="#PL"/> Sed quid putamus ? qui audierunt, oves erant ? Ecce 
+   <lb ed="#PL"/> audivit Judas, eI lupus erat : sequebatur, sed pelle 
+   <lb ed="#PL"/> ovilla tectus pastori insidiabatur. Aliqui vero eorum 
+   <lb ed="#PL"/> quid Christum crucifixerunt, non audicballl, et ovcs 
+   <lb ed="#PL"/> crant : ipsos cnim videbat in turba, quando dicebat: 
+   <lb ed="#PL"/> Cum exaltaveritis Filium hominis, <hi rend="italic">tunc cognoacetis</hi> quia 
+   <lb ed="#PL"/>
+       <hi rend="italic">ego</hi> SIUn (Joan. VIII, 23 ). Quomodo enim ista solvitur 
+   <lb ed="#PL"/> quaestio ? Audiunt non oves, et non audiunt oves; ,sa- 
+   <lb ed="#PL"/> quunlur vocem pastoris quidam Inpi, et ei quaedam 
+   <lb ed="#PL"/> contradicunt oves; postremo pastorem occidunt oves.
+   
+   <lb ed="#PL"/> Solvitur quaestio : respondet enim aliquis,etdicit, 
+   <lb ed="#PL"/> Sed quando non audiebant, oves nondum crant, tunc 
+   <lb ed="#PL"/> lupi erant; vox audita cos mutavit, et ex lupis oves 
+   <lb ed="#PL"/> fecit : quando ergo facta' sunt oves, audierunt,etpa<lb ed="#PL" break="no"/>storem
+   invenerunt, pastoremque secut:e sunt; pasto- 
+   <lb ed="#PL"/> . .ris promissa speraverunt, quia jussa fecerunt.</p>
+      <p xml:id="iuy75t-d1e410-d1e879">I 1. Soluta est utcumqne ista quaestio, et cuiquam 
+   <lb ed="#PL"/> forte sufficiat. Me autem adhuc movet,etquid me 
+   <lb ed="#PL"/> moveat communico vobiscum , ut quodammodo quae<lb ed="#PL" break="no"/>rens
+   vobiscum, revelante illo vobiscum mercar inve<lb ed="#PL" break="no"/>nire. Quid ergo me moveat, accipite. Per Ezechielem 
+   <lb ed="#PL"/> prophetant Dominus ohjurgat pastores, et dicit inter
+   
+   <lb ed="#PL"/> caetera de ovibus, Errantem ovem nOli <hi rend="italic">revocastis (Ezech.</hi>
+   
+       <lb ed="#PL"/> XXXIV, d). Et <hi rend="italic">errantem</hi> dicit, et ovem alpellat. Si 
+   <lb ed="#PL"/> quando errabat ovis erat, cujus vocem ut erraret au- 
+   <lb ed="#PL"/> diebat? Procul dubio enim non erraret, si vocem pa-
+   <lb ed="#PL"/> storis audiret : sed ideo erravit, quia vocem audivit 
+   <lb ed="#PL"/> alieni; vocem furis et latronis audivit. Certe latronum 
+   <lb ed="#PL"/> vocem non audiunt ovcs : Qui <hi rend="italic">venerunt</hi> I inquit , et 
+   <lb ed="#PL"/> intelligimus, Praeter me ; ill est, Qui venerunt praeter 
+   <lb ed="#PL"/> me , <hi rend="italic">fures</hi> sunt <hi rend="italic">et latrones , et non</hi> audierunt eos oves. 
+   <lb ed="#PL"/> Domine , si non audicrunt eas oves, quomodo errant 
+   <lb ed="#PL"/> oves ? Si oves non audiunt nisi te; tu autem vcritas 
+   <lb ed="#PL"/> es
+   : quisquis veritatem audit, non utirque errat. Illi 
+   <lb ed="#PL"/> autem errant, et oves appellantur. Nam si in errore 
+   <lb ed="#PL"/> ipso oves non appellarentur, non diceretur per Exc-
+   
+   <lb ed="#PL"/> chielem, <hi rend="italic">Erruntem</hi> ovem non revocastis. Quomodoet
+   <lb ed="#PL"/> errat, et ovis est? Vocem alieni audivit ? Certe nOli 
+   <lb ed="#PL"/> audierunt <hi rend="italic">eoa</hi> oues. Deinde modo multi" colliguntur ad 
+   <lb ed="#PL"/> ovile Christi, et ex haereticis fiunt catholici ; a furibus 
+   <lb ed="#PL"/> tolluntur, pastori redduntur : et aliquando murmu­
+   
+   <lb ed="#PL"/> rant, taedium patiuntur ad revocantem, et non intel<lb ed="#PL" break="no"/>ligunt
+   jugulantem ; verumtamen etiam cum renitentes 
+   <lb ed="#PL"/> venerint quae oves sunt, agnoscunt vocem pastoris,et
+   <lb ed="#PL"/> sc venisse lactantur, et errasse erubescunt. Quando 
+   <lb ed="#PL"/> ergo in illo errore tanquam in veritatc gloriabantnr, 
+   <lb ed="#PL"/> et utique non audiebant vocem pastoris,etalienum 
+   <lb ed="#PL"/> idco sequebantur, oves erant an non erant ? Si oves 
+   <lb ed="#PL"/> crant, quomodo alienos oves non audiunt ? si oves 
+   <lb ed="#PL"/> non erant, quare objurgantur illi quibus dicitur, Er<lb ed="#PL" break="no"/>rantem <hi rend="italic">onem</hi> non revocastis ? In ipsis etiam jam factis 
+   <lb ed="#PL"/> catholicis Christianis, bonae spei fidelibus, aliquando 
+   <lb ed="#PL"/> mala contingunt ; seducuntur in errorem , el post er<lb ed="#PL" break="no"/>rorem
+   revocantur : quando seducti sunt in errorem , 
+   <lb ed="#PL"/> et rcbaptizati sunt, aut post ovilis dominici societa<lb ed="#PL" break="no"/>tem
+   rursus in errorem pristinum revoluti sunt, oves 
+   <lb ed="#PL"/> crant an non erant ? Utiqnc catholici erant. Si catho<lb ed="#PL" break="no"/>lici
+   fideles erant, oves erant, Si oves erant, quomodo
+   
+   <lb ed="#PL"/> vocem alieni audire potuerunt, cunt Dominus dicat, 
+   <lb ed="#PL"/> non audierunt eos oves
+   ?</p>
+      <p xml:id="iuy75t-d1e410-d1e1000">12. Audistis, fratres, altitudinem quaestionis. Dico 
+   <lb ed="#PL"/> ergo : Nouit Dominus qui sunt ejus (II Tim. II, 19). Novit 
+   <lb ed="#PL"/> praescitos, novit praedestivatos : de illo quippe dicitur,
+   <pb ed="#PL" n="1725"/>
+       <lb ed="#PL"/> a Quos autem praescivit, et praedestinavit conformes 
+   <lb ed="#PL"/> fieri imaginis Filii sui, ut sil ipse primogenitus in mul<lb ed="#PL" break="no"/>tis
+   fratribus. Quos autempraedestinavit, ipsos et vo<lb ed="#PL" break="no"/>cavit; et quos vocavit, ipsos et justificavit; quos 
+   <lb ed="#PL"/> autem jusiiHcavit, ipsos et glorificavit. Si Deus pro 
+   <lb ed="#PL"/> nobis, quis contra nos? Adde adhuc : Qni proprio 
+   <lb ed="#PL"/> Filio suo non pepercit ; sod pro nobis omnibus tradi<lb ed="#PL" break="no"/>dit
+   eum, quomodo non et cum illo omnia nobis dena<lb ed="#PL" break="no"/>vit ? &gt; Sed quibus nobis ? Prascitis, praedestinatis, 
+   <lb ed="#PL"/> justificatis, glorificatis : de quibus sequitur, <hi rend="italic">Quis ac<lb ed="#PL" break="no"/>cusabitadversus
+   electos Det (Rom.</hi> VIII , 29-33) ? <hi rend="italic">Novit</hi>
+   
+       <lb ed="#PL"/> ergo Dominus qui <hi rend="italic">sunt ejus;</hi> ipsae sunt oves. Aliquando
+   
+   <lb ed="#PL"/> . se ipsae nesciunt, sed pastor novit eas, secundum 
+   <lb ed="#PL"/> I istam praedestinationem, secundum istam Dei prae<lb ed="#PL" break="no"/>scientiam, secundum electionem ovium, ante consti<lb ed="#PL" break="no"/>tutionem
+   mundi : nam el hoc dicit Apostolus" <hi rend="italic">Sicut
+    
+   <lb ed="#PL"/> elegit</hi> nos in <hi rend="italic">ipso ante constitutionem mundi (Ephes.</hi> I, 
+   <lb ed="#PL"/> * 4). Secundum istam ergo praescientiam Dei et praede<lb ed="#PL" break="no"/>stinationcm, quam multae oves foris, quam multi 
+   <lb ed="#PL"/> lupi intus ; et quam multae oves intus, et quam multi
+   
+   <lb ed="#PL"/> lupi foris! Quid est qnod dixi, quam multae oves fo<lb ed="#PL" break="no"/>ris? Quam multi modo luxuriantur, casti fuluri ; 
+   <lb ed="#PL"/> quam tnulti blasphemant Christum, credituri in Chri­
+   
+   <lb ed="#PL"/> stum ; quam multi se inebriant, futuri sobrii; quam 
+   <lb ed="#PL"/> mulli rapiunt res alienas, donaturi suas! vertimta<lb ed="#PL" break="no"/>mcn
+   modo vocem alienam audiunt, alienos sequun­
+   
+   <lb ed="#PL"/> tur. Item quam multi intus laudant, blasphematuri ; 
+   <lb ed="#PL"/> casti sunt, fornicaturi
+   ; sobrii sunt, se vino postea 
+   <lb ed="#PL"/> sepulturi ;stant, casuri ! non sunt oves. ( De praede<lb ed="#PL" break="no"/>stinatis
+   enim loquimur ; de his loquimur quos novit 
+   <lb ed="#PL"/> Dominus, qui sunt cjus.) Et tamen ipsi quamdiu recte 
+   <lb ed="#PL"/> sapiunt,Christi vocem audiunt. Ecce audiunt ipsi, 
+   <lb ed="#PL"/> non audiunt illi : et tamen secundum praedestina<lb ed="#PL" break="no"/>tionem
+   non oves isti, oves illi.</p>
+      <p xml:id="iuy75t-d1e410-d1e1098">13. Adhuc manet quaestio, quae mihi interim nunc 
+   <lb ed="#PL"/> videtur ita posse dissolvi. Est aliqua vox, est, inquam, 
+   <lb ed="#PL"/> vox aliqua pastoris, in qua oves non audiunt alienos,
+   
+   <lb ed="#PL"/> in qua non oves non audiunt Christum. Quae est ista 
+   <lb ed="#PL"/> vox ! <hi rend="italic">Qui</hi> persEVeraverit <hi rend="italic">usque in finem, hic salvus erit 
+   <lb ed="#PL"/>
+    (Matth.</hi> x, 22). Hanc vocem non negligit proprius, 
+   <lb ed="#PL"/> non audit alienus : naiD et ille hoc ei praedicat, ut 
+   <lb ed="#PL"/> perseveret apud ipsum usque in finem, sed non apud
+   
+   <lb ed="#PL"/> eum perseverando non audit hanc vocem. Venit ad 
+   <lb ed="#PL"/> Christum, audivit alia cl alia verba, illa clilla, omnia 
+   <lb ed="#PL"/> vera, sana omnia : inter quae omnia est et il!a vox, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Qui perseveraverit usque</hi> in <hi rend="italic">finem, hic salvus
+    erit.</hi> Istam 
+   <lb ed="#PL"/> 1 qui audierit, ovis est. Sed audiebat illam nescio quis, 
+   <lb ed="#PL"/> et desipuit, refriguit, audivit alienam : si pr;rdesli<lb ed="#PL" break="no"/>natus
+   et,ad tempus erravit, in aeternum non periit; 
+   <lb ed="#PL"/> redit ut audiat quod neglexit, faciat quod audivit. Si 
+   <lb ed="#PL"/> onim de his est qui praedestinati sunt, et errorem 
+   <lb ed="#PL"/> ipsius Deus praescivit, et conversionem futuram ; si 
+   <lb ed="#PL"/> aberravit, redit ut audiat illam vocem pastoris, et se<lb ed="#PL" break="no"/>quatur
+   dicentem, <hi rend="italic">Qui perseveraverit usque in
+    finem,
+   <lb ed="#PL"/> hic salvus crit.</hi> Bona vox, fratres, vera , pastoralis, 
+   <lb ed="#PL"/> Ipsa est vox salutis in tabernaculis justorum (Psal. 
+   <lb ed="#PL"/> CXVII, 15). Nam facile est audire Christum, facile est 
+   <lb ed="#PL"/> laudare EvangeHom, facile acclamare disputatori : 
+   <lb ed="#PL"/> perseverare usque in finem, hoc est ovium vocem pa<lb ed="#PL" break="no"/>storis
+   audientium. Tentatio accidit, persevera usque 
+   <lb ed="#PL"/> in finem : quia tentatio non perseverat usque in finem1.
+   
+   <lb ed="#PL"/> Usque in quem finem perseverabis ? Quousque finias 
+   <lb ed="#PL"/> viam. Quamdiu enim non audis Christum, adversarius 
+   <lb ed="#PL"/> tuus est in ista via, hoc ost in ista mortali viii Scd
+   
+   <lb ed="#PL"/> quid dicit? <hi rend="italic">Concorda cunt adversario tuo ci/o, dum es 
+   <lb ed="#PL"/> cnm
+    eo in via (Matth.</hi> v , 25). Audisti, credidisti, eon<lb ed="#PL" break="no"/>cordasti. Si adversabaris, concorda. Si libi praestitum 
+   <lb ed="#PL"/> est concordare, noli ulterius litigare. Quando enim 
+   <lb ed="#PL"/> ficiatur via nescis, sed tamen scit ille. Si ovis es, et 
+   <lb ed="#PL"/> si perseveraveris usque in finem, salvus cris : ac por 
+   <lb ed="#PL"/> boc istam vocem non contemnunt sui, non audiunt 
+   <lb ed="#PL"/> alieni. Ut potui, ut ipse donavit, profundam multum 
+   <lb ed="#PL"/> quaestionem aut exposui vobis , aut tractavi vobiscum. 
+   <lb ed="#PL"/> Si qui minus intellexerunt, maneat pietas ,etreve<lb ed="#PL" break="no"/>labitur
+   veritas : qui autem intellexerunt, non se ex­
+   
+   <lb ed="#PL"/> tollant quasi celeriores super tardiores, ne extollendo 
+   <lb ed="#PL"/> se exorbitent, et facilius perveniant tardiores. Omnes 
+   <lb ed="#PL"/> autem perducat cui dicimus : <hi rend="italic">Deduc me, Domine, in 
+   <lb ed="#PL"/> via</hi> tua, <hi rend="italic">et</hi> ambulabo <hi rend="italic">in veritate tua (Psal</hi> LXXXV, 11).</p>
+      <p xml:id="iuy75t-d1e410-d1e1224">14. Per hoc ergo quod exposuit Dominus, quia ipse 
+   <lb ed="#PL"/> est ostium, intremus ad ea quae proposuit , nec expo<lb ed="#PL" break="no"/>suit. Et pastor quidem quisnam sit, quamvis uon dixe<lb ed="#PL" break="no"/>rit
+   in ista lectione quae hodie recitata est, tamen in ea 
+   <lb ed="#PL"/> quae sequitur apertissime dicit: <hi rend="italic">Ego</hi> sum <hi rend="italic">pastor bonus.</hi>
+   
+       <lb ed="#PL"/> Quod etsi non diceret, quem alium praeter ipsum in. 
+   <lb ed="#PL"/> telligere deberemus in eis verbis, ubi ait: « Qui in<lb ed="#PL" break="no"/>trat
+   per ostium, pastor est ovium. Huic ostiarius ape<lb ed="#PL" break="no"/>rit: et oves vocem ejus andiunt; et proprias oves vo<lb ed="#PL" break="no"/>cat
+   nominatim, et educit eas. Et cum proprias oves 
+   <lb ed="#PL"/> cmiserit, ante eas vadit: et ovcs cum sequuntur, quia 
+   <lb ed="#PL"/> sci'unt vocem ejus ? Quis enim alius oves proprias vo<lb ed="#PL" break="no"/>cat
+   nominatim, at educit eas hinc ad vitam aeternam , 
+   <lb ed="#PL"/> nisi qui novit nomina praedestinatorum ? Unde ait di<lb ed="#PL" break="no"/>scipulis
+   suis, <hi rend="italic">Gaudete quia nomina vestra scripta sunt
+    in 
+   <lb ed="#PL"/> coelo (Luc. x,</hi> 20) : hinc euim vocal cas nominatim. 
+   <lb ed="#PL"/> Et quis alius eas eniitiit, nisi qui earum peccata di- 
+   <lb ed="#PL"/> mittit, ut eum sequi duris liberatae vinculis possint! 
+   <lb ed="#PL"/> Et quis eas praecessit quo cum sequantur, nisi qui 
+   <lb ed="#PL"/> surgens a mortuis jam non moritur, et mors ei ultra 
+   <lb ed="#PL"/> non dominabitur <hi rend="italic">(Rom.</hi> vi, 9):etcum hic conspicuus 
+   <lb ed="#PL"/> esset in carne ait, &lt; Pater, quos dcdisli mihi, volo 
+   <lb ed="#PL"/> ut ubi ego sum, et ipsi sint mecum &gt; <hi rend="italic">(loan</hi> XVII , 2i) ? 
+   <lb ed="#PL"/> Unde illud est quod ait : &lt; Ego sum ostium : por mesi 
+   <lb ed="#PL"/> quis introierit, salvabitur; et ingredietur, et egredictur; 
+   <lb ed="#PL"/> et pascua inveniet. » In hoc evidenter ostendit, non 
+   <lb ed="#PL"/> solum pastorem, sed etiamoves intrare per ostium.</p>
+      <p xml:id="iuy75t-d1e410-d1e1300">15. Sed quid est, <hi rend="italic">ingredietur , et egredictur, et</hi> pa<lb ed="#PL" break="no"/>scua
+    <hi rend="italic">inveniet !</hi> Ingredi quippe in Ecclesiam per ostium 
+   <lb ed="#PL"/> Christum, valde bonum est: exire autem de Ecclesia, 
+   <lb ed="#PL"/> sicut ait iste ipse Joannes evangelista in Epistola sua, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ex nobis exierunt, sed non erant ex nobis (Joan.</hi> II, 19); 
+   <lb ed="#PL"/> non est utique bonum. Talis ergo egressus non posset 
+   <lb ed="#PL"/> a bono pastore laudari; ut diceret, <hi rend="italic">et ingredietur, rt</hi>
+   
+       <lb ed="#PL"/> egredietur, <hi rend="italic">et pascua inveniet.</hi> Est ergo aliquis non so*
+   
+   <lb ed="#PL"/> lum ingressus, vcrum etiam egressus bonus per ostium 
+   <lb ed="#PL"/> bonum, quod est Christus. Sed quis est iste laudabilis 
+   
+   <pb ed="#PL" n="1727"/>
+       <lb ed="#PL"/> et beatus egressus ! Possem quidemdicere ingredi nos, 
+   <lb ed="#PL"/> quando interius aliquid cogitamus ; egredi autem , 
+   <lb ed="#PL"/> quando exterius aliquid operamur : et quoniam, sicut 
+   <lb ed="#PL"/> dicit Apostolus, pcr fidem habitat Christus in cordibus 
+   <lb ed="#PL"/> nostris <hi rend="italic">(Ephes.</hi> III, 17), ingredi per Christum esse 
+   <lb ed="#PL"/> secundum ipsam fidem cogitare ; egredi autem per Chri<lb ed="#PL" break="no"/>stum, secundum ipsam fidem etiamforis,id est, coram 
+   <lb ed="#PL"/> hominibus opcrari. Unde et in Psalmo legitur , <hi rend="italic">Exiet 
+   <lb ed="#PL"/> homo ad opus</hi>suum <hi rend="italic">(Psal.</hi> CIII, 25) :etipse Dominus 
+   <lb ed="#PL"/> dicit, <hi rend="italic">Luceant opera vestra coram
+    hominibus (Matth.</hi> v, 
+   <lb ed="#PL"/> 16). Sed plus me delectat quod ipsa veritas tanquam
+   
+   <lb ed="#PL"/> pastor bonus, et ideo bonus doctor, quodammodo nos 
+   <lb ed="#PL"/> admonuit, quemadmodum intelligere debeamus quod 
+   <lb ed="#PL"/> ait, « ingredietur, et egredietur, et pascua inveniet ;
+   » 
+   <lb ed="#PL"/> cum secutus adjunxit, i Fur non venit nisi ut furetur, 
+   <lb ed="#PL"/> et mactet, et perdat: ego veni ut vitan. habcant,et
+   <lb ed="#PL"/> abundantius habeant. &gt; Videtur euim milii dixisse, Ut 
+   <lb ed="#PL"/> vitam habeant ingredientes, et abundantius habeaat 
+   <lb ed="#PL"/> egredientes. Non autcm potest quisque per ostium, id 
+   <lb ed="#PL"/> est per Christum , egredi ad vitam aeternam, quas erit 
+   <lb ed="#PL"/> in specie, nisi per ipsum ostium, hoc est per eumdem
+   
+   <lb ed="#PL"/> Christum in Eccelesiam ejus, quod est ovile ejus, in<lb ed="#PL" break="no"/>traverit
+   ad vitam temporalem, quae est in fide. Ideo 
+   <lb ed="#PL"/> ait, <hi rend="italic">Ego veni,</hi> ut <hi rend="italic">vitam habeant,</hi> hoc est fidem, quae per 
+   <lb ed="#PL"/> dilectionem operatur
+    <hi rend="italic">(Galat.</hi> v, 6); per quam fidem in 
+   <lb ed="#PL"/> ovile ingrediuntur ut vivant, quia justus ex Me vivit 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Rom.</hi> i, <hi rend="italic">17) : et abundantius habeant,</hi> qui perseverando 
+   <lb ed="#PL"/> . usque in finem, per illud ostium, id est, per fidem Chri<lb ed="#PL" break="no"/>sti
+   egrediuntur , quoniam veri fideles moriuntur; et 
+   <lb ed="#PL"/> abundantius habebunt vitam, veniendo quo pastor ille 
+   <lb ed="#PL"/> praecessit , ubi nunquam deinde moriantur. Quamvis 
+   <lb ed="#PL"/> ergoet hic in ipso ovili non desunt pascua, quoniam ad 
+   <lb ed="#PL"/> utrumque possumus intelligere quod dictum est, <hi rend="italic">et 
+   <lb ed="#PL"/> pascua inveniet,</hi> id est, et ad ingressum et ad egres<lb ed="#PL" break="no"/>sum : tamen tunc vera pascua invenient, abi saturen­
+   
+   <lb ed="#PL"/> tur qui esuriunt et sitiunt justitiam <hi rend="italic">(Matth.</hi> v, 6); 
+   <lb ed="#PL"/> qualia pascua invenit cui dictam est, <hi rend="italic">Hodie mecum</hi> eris 
+   <lb ed="#PL"/>
+       <hi rend="italic">in paradiso (Luc.</hi> XXIII, 43). Quomodo autem ipse sit 
+   <lb ed="#PL"/> ostium, ipse pastor, ut per seipsum quodammodo 
+   <lb ed="#PL"/> etiam ipse ingredi et egredi intelligatur, et quisnam sit 
+   <lb ed="#PL"/> Dstiarius, longum est hodie quaerere, et disserendo
+   
+   <lb ed="#PL"/> iicut ipse donaverit explicare.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

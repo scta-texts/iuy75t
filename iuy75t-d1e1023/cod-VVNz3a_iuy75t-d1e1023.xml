@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 120</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 120</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e1023"> <!-- iuy75t-t120 -->
+      <head xml:id="iuy75t-d1e1023-Hd1e109">Tractatus 120</head>
+      <p xml:id="iuy75t-d1e1023-d1e112">
+       <hi rend="italic">Ab eo quod sequitur,</hi> Judaei ergo, quoniam parasceve 
+   <lb ed="#PL"/> erat,
+    <hi rend="italic">etc.; usque ad</hi> id, Nondum enim sciebant Scri<lb ed="#PL" break="no"/>pturam, quia oportet eum a mortuis resurgere. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Cap.</hi> XIX, } . 31-42, <hi rend="italic">et cap.</hi> xx, v. 1-9.</p>
+      <p xml:id="iuy75t-d1e1023-d1e134">1. Posteaquam Dominus Jesus, peactis omnibus 
+   <lb ed="#PL"/> quae ante suam mortem pcragi oportere praesciebat , 
+   <pb ed="#PL" n="1953"/>
+       <lb ed="#PL"/> quando voluit tradidit spiritum, quas deinde secuta 
+   <lb ed="#PL"/> sunt, Evangelista narrante videamus. « Judaei ergo, 
+   <lb ed="#PL"/> inquit, quoniam parasceve erat, ut non remanerem 
+   <lb ed="#PL"/> in cruce corpora sabbato (erat enim magnus dies ille 
+   <lb ed="#PL"/> sabbati), rogaverunt Pilatum ut frangerentur eorum 
+   <lb ed="#PL"/> crura, et tollerentur. &gt; Non crura tollerentur. sed hi 
+   <lb ed="#PL"/> quibus ideo frangebantur ut morcrentur, et auferren<lb ed="#PL" break="no"/>tur
+   ex ligno ; ne pendentes in crucibus magnum diem 
+   <lb ed="#PL"/> festum sui diurni I cruciatus horrore foedarent</p>
+      <p xml:id="iuy75t-d1e1023-d1e160">9. &lt; Venerunt ergo milites, et primi quidem frege<lb ed="#PL" break="no"/>runt
+   crura, et alterius qui crucifixus est cum eo. Ad 
+   <lb ed="#PL"/> Jesum autem cum venissent, ut viderunt eum jam 
+   <lb ed="#PL"/> mortuum , non fregerunt ejus crura : sed unus mili<lb ed="#PL" break="no"/>tum
+   lancea latus ejus aperuit, et continuo exivit san<lb ed="#PL" break="no"/>guis
+   et aqua. » Vigilanti verbo Evangelista usus est, ut
+   
+   <lb ed="#PL"/> non diceret, Latus ejus percussit, aut vulneravit, aut 
+   <lb ed="#PL"/> quid aliud ; sed, <hi rend="italic">aperuit</hi> : ut illic quodammodo vitae 
+   <lb ed="#PL"/> ostium panderetur, unde Sacramenta Ecclesiae mana<lb ed="#PL" break="no"/>verunt, sine quibus ad vitam quae vera vita est, non
+   
+   <lb ed="#PL"/> intratur. Ille sanguis in remissionem fusus est pecca<lb ed="#PL" break="no"/>torum : aqua illa salutare temperat poculum ; haec et 
+   <lb ed="#PL"/> lavacrum praestat, et potum. Hoc praenuntiabat quod 
+   <lb ed="#PL"/> Noe in latere arcae ostium facere jussus est <hi rend="italic">(Gen.</hi> v!,
+   
+   <lb ed="#PL"/> 46), qua intrarent animalia quoe non erant diluvio 
+   <lb ed="#PL"/> peritura, quibus praefigurabatur Ecclesia. Propter hoc 
+   <lb ed="#PL"/> prima mulier facta est de latere viri dormientis <hi rend="italic">(Id.</hi>
+   
+       <lb ed="#PL"/> II, 22), et appellata est vita materque vivorum <hi rend="italic">(Id.</hi>
+   
+       <lb ed="#PL"/> iii , 20). Magnum quippe significavit bonum , anto 
+   <lb ed="#PL"/> magnum praevaricationis malum I Hic secundus Adam 
+   <lb ed="#PL"/> inclinato capite in cruce dormivit, ut inde formare­
+   
+   <lb ed="#PL"/> tur ei conjux, quod de latere dormientis effluxit. 0 
+   <lb ed="#PL"/> mors unde mortui reviviscunt! Quid isto sanguine 
+   <lb ed="#PL"/> mundius ? qnid vulnere isto salubrius ?</p>
+      <p xml:id="iuy75t-d1e1023-d1e226">5. <hi rend="italic">Et</hi> qui <hi rend="italic">vidit,</hi> inquit, <hi rend="italic">testimonium perhibuit,</hi> et 
+   <lb ed="#PL"/> verum <hi rend="italic">eat
+    testimonium ejus : et ille scit quia vera dicit,</hi>
+   
+       <lb ed="#PL"/> ut <hi rend="italic">et</hi> vos <hi rend="italic">credatis.</hi> Non dixit, ut et vos sciatis; sed <hi rend="italic">ut
+   <lb ed="#PL"/> credatis</hi> : scit enim qui vidit, cujus credat testimonio 
+   <lb ed="#PL"/> qui non vidit. Magis autem ad fidem credere pertinet 
+   <lb ed="#PL"/> quam videre. Nam quid est aliud credere, quam fidem 
+   <lb ed="#PL"/> accommodare ? <hi rend="italic">Facta sunt</hi> eniti <hi rend="italic">haec,</hi> inquit, ut <hi rend="italic">Scri-
+    
+   <lb ed="#PL"/> plura impleretur.</hi> Os non <hi rend="italic">comminuetis ex eo. Et iterum
+    
+   <lb ed="#PL"/> alia Scriptura dicit, Videbunt in quem confixerunt.</hi>
+   
+       <lb ed="#PL"/> Duo testimonia de Scripturis reddidit singulis rebus 
+   <lb ed="#PL"/> quas factas fuisse narravit. Nam quia dixerat, <hi rend="italic">Ad 
+   <lb ed="#PL"/> Jesum</hi> autem <hi rend="italic">cum venissent, ut viderunt eum jam mor­</hi>
+   
+       <lb ed="#PL"/> tuum, <hi rend="italic">non fregerunt ejus crura,</hi> ad hoc pertinet testi­
+   
+   <lb ed="#PL"/> monium, <hi rend="italic">Os</hi> non <hi rend="italic">comminuetis ex eo :</hi> quod praeceptum 
+   <lb ed="#PL"/> est eis qui celebrare Pascha jussi sunt ovis immola<lb ed="#PL" break="no"/>tione
+   in veteri Lege, quae Dominicae passionis umbra 
+   <lb ed="#PL"/> praecesserat. Unde <hi rend="italic">Pascha nostrum immolatus est Chri­</hi>
+   
+       <lb ed="#PL"/> stus (I <hi rend="italic">Cor.</hi> v, 7) : de quo et Isaias propheta praedixe­
+   
+   <lb ed="#PL"/> rat, Sicut <hi rend="italic">ovis ad immolandum ductus est (Isai.</hi> LIII, 7),
+   
+   <lb ed="#PL"/> hem quia subjunxerat dicens, <hi rend="italic">Sed</hi> unus <hi rend="italic">militum lan­
+   <lb ed="#PL"/> rea latus ejus aperuit;</hi> ad hoc pertinet alterum testi- 
+   
+   <lb ed="#PL"/> monium, <hi rend="italic">Videbunt in quem confixerunt</hi> : ubi promissus 
+   <lb ed="#PL"/> est Christus, in ea qua crucifixus est carne venturus.</p>
+      <p xml:id="iuy75t-d1e1023-d1e345">4. t Post hac autcm rogavit Pilatum Joseph ab 
+   <lb ed="#PL"/> Arimathia (eo quod esset discipulus Jesu , occultus 
+   <lb ed="#PL"/> autem propter metum Judaeorum) , ut tolleret corpus 
+   <lb ed="#PL"/> Jesu : et permisit Pilatus. Venit ergo, et tulit corpus 
+   <lb ed="#PL"/> Jesu. Venit autem Nicodemus , qui venerat ad Jesum 
+   <lb ed="#PL"/> nocte primum, ferens mixturam myrrhae et aloes 
+   <lb ed="#PL"/> quasi libras centum. &gt; Non ita distinguendum est, ut 
+   <lb ed="#PL"/> dicamus, <hi rend="italic">primum
+    ferens mixturam myrrhae;</hi> sed ut 
+   <lb ed="#PL"/> quod dictum est, <hi rend="italic">primum,</hi> ad superiorem sensum per<lb ed="#PL" break="no"/>tineal. Venerat enim Nicodemus ad Jesum nocte pri<lb ed="#PL" break="no"/>mum , quod idem Joannes narravit in prioribus Evan<lb ed="#PL" break="no"/>gelii
+   sui partibus <hi rend="italic">(Joan.</hi> III, i, 2). Hic ergo intelli<lb ed="#PL" break="no"/>gendum
+   est ad Jesum, non tunc solum, sed tunc pri<lb ed="#PL" break="no"/>mum
+   venisse Nicodemum; ventitasse autem postea ut 
+   <lb ed="#PL"/> fieret audiendo discipulus : quod certe modo in reve<lb ed="#PL" break="no"/>latione
+   corporis beatissimi Stephani fercomnibusgen<lb ed="#PL" break="no"/>tibus
+   declaratur (a). <hi rend="italic">Acceperunt ergo corpus Jesu, et
+   <lb ed="#PL"/> ligaverunt illud</hi> linteis <hi rend="italic">cum aromatibus, sicut mos</hi> eat 
+   <lb ed="#PL"/> Judaeis <hi rend="italic">sepelire.</hi> Non mihi videtur Evangelista frustra 
+   <lb ed="#PL"/> dicere voluisse, <hi rend="italic">sicut mos eat Judaeis sepelire</hi> ; ita 
+   <lb ed="#PL"/> quippe, nisi fallor, admonuit in hujusmodi officiis 
+   <lb ed="#PL"/> quae mortuis exhibentur, morem cujusque gentis esse
+   
+   <lb ed="#PL"/> servandum.</p>
+      <p xml:id="iuy75t-d1e1023-d1e417">5. <hi rend="italic">Erat autem in loco ubi crucifixus est, hortus, et</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">horto monumentum novum, in quo nondum quisquam 
+   <lb ed="#PL"/> positus
+    erat.</hi> Sicut in Mariae virginis utero nemo ante 
+   <lb ed="#PL"/> illum, nemo post ilium conceptus est; ita in hoc mo<lb ed="#PL" break="no"/>numento
+   nemo ante illum, nemo post illum sepultus
+   
+   <lb ed="#PL"/> est. c Ibi ergo propter parasceven Judaeorum, quia 
+   <lb ed="#PL"/> juxta erat monumentum; posuerunt jesum. Accele<lb ed="#PL" break="no"/>ratam
+   vult intelligi sepulturam, ne advesperasceret;
+   
+   <lb ed="#PL"/> quando jam propter .parasceven, quam coenam puram 
+   <lb ed="#PL"/> Judaei latine usitatius apud nos vocant, facere tale ali<lb ed="#PL" break="no"/>quid
+   non licebat.</p>
+      <p xml:id="iuy75t-d1e1023-d1e447">6. <hi rend="italic">Una autem sabbati Maria Magdalene venit mane,
+   <lb ed="#PL"/> cum adhuc
+    tenebrae essent, ad monumentum; et vidit</hi> la<lb ed="#PL" break="no"/>pidem <hi rend="italic">sublatum a, monumento.</hi> Una sabbati est, quem 
+   <lb ed="#PL"/> jam diem dominicum propter Domini resurrectionem 
+   <lb ed="#PL"/> mos Christianus appellat: quem Matthaeus solus in 
+   <lb ed="#PL"/> Evangelistis primam sabbati nominavit (Matth. XXVIII, 
+   <lb ed="#PL"/> 1). <hi rend="italic">Cucurrit ergo, et venit ad Simonem Petrum, et ad 
+   <lb ed="#PL"/> alium discipulum</hi> quem <hi rend="italic">amabat</hi> Jesus; <hi rend="italic">et dicit eis : Tu­
+   <lb ed="#PL"/> lerunt
+    Dominum de monumento, et nescimus</hi> ubi po. 
+   <lb ed="#PL"/> suerunt <hi rend="italic">cum.</hi> Nonnulli codices etiam graeci habent, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Tulerunt Dominum meum,</hi> quod videri dictum potest 
+   <lb ed="#PL"/> propensiore charitatis vel famulatus affectu; sed hoc 
+   <lb ed="#PL"/> in pluribus codicibus quos in promptu habuimus, non 
+   <lb ed="#PL"/> invenimus.</p>
+      <p xml:id="iuy75t-d1e1023-d1e499">. 7. <hi rend="italic">ExiU ergo Petrus et</hi> iUte <hi rend="italic">alius
+    discipuluss, et vene­</hi>
+   
+       <lb ed="#PL"/> runt <hi rend="italic">qd</hi> monumentum. <hi rend="italic">Currebanl autem</hi> duo simul, <hi rend="italic">es 
+   <lb ed="#PL"/> ille alius discipulus</hi> praecucurrit <hi rend="italic">citius Petro, et venit</hi>
+   
+       <lb ed="#PL"/> primus <hi rend="italic">ad</hi> monumentum. Advertenda hic et commen<lb ed="#PL" break="no"/>danda
+   est recapitulatio, quomodo reditum est ad id 
+   
+   <lb ed="#PL"/> m 
+   <pb ed="#PL" n="1955"/>
+       <lb ed="#PL"/> quod fuerat praetermissum; et tamen quasi hoc se<lb ed="#PL" break="no"/>queretur
+   adjunctum est. Cum enim jam dixisset, ve<lb ed="#PL" break="no"/>nerunt <hi rend="italic">ad monumentum,</hi> regressus est ut narraretquo<lb ed="#PL" break="no"/>modo
+   Yenerunt; atque ait, <hi rend="italic">currebant autem duo</hi> simul, 
+   <lb ed="#PL"/> etc. Ubi ostendit quod prjecurrens ad monumentum 
+   <lb ed="#PL"/> prior venerit alius ille discipulus, quem seipsum si<lb ed="#PL" break="no"/>gnificat, sed tanquam de alio cuncla narrat 1.</p>
+      <p xml:id="iuy75t-d1e1023-d1e558">8. c Et cum se inclinasset, inquit, vidit posita lin<lb ed="#PL" break="no"/>teamina, non Limen introivit. Venit ergo Simon Pe<lb ed="#PL" break="no"/>trus
+   sequens eum, et introivit in monumentum ; et
+   
+   <lb ed="#PL"/> vidit linteamina posita, et sudarium quod fueratsuper 
+   <lb ed="#PL"/> caput ejus, non cum linteaminibus positum, sed se<lb ed="#PL" break="no"/>paratim
+   involutum in unum locum. » Putamusne 
+   <lb ed="#PL"/> nihil ista significant? Nequaquam hoc putaverim. Sed 
+   <lb ed="#PL"/> ad alia festinamus, in quibus immorari quaestionis 
+   <lb ed="#PL"/> vel obscuritatis alicujus necessitate compellimur. Nam 
+   <lb ed="#PL"/> ista quae per seipsa manifesta sunt, quid singula etiam 
+   <lb ed="#PL"/> significent, quaerere sanctae quidem deliciae suut, sed 
+   <lb ed="#PL"/> otiosoruin, quod non sumus nos.</p>
+      <p xml:id="iuy75t-d1e1023-d1e585">9. <hi rend="italic">Tunc ergo introiit, et ille discipulus</hi> qui <hi rend="italic">venerat</hi>
+   
+       <lb ed="#PL"/> primus <hi rend="italic">ad monumentum.</hi> Prior venit, et posterior in<lb ed="#PL" break="no"/>travit.
+   Neque hoc utique vacat, sed mihi ad ista noh 
+   <lb ed="#PL"/> vacat. <hi rend="italic">Et</hi> vidit, inquit, <hi rend="italic">et credidit.</hi> Hic nonnulli parum 
+   <lb ed="#PL"/> attendentes, putant hoc Joannem credidisse, quod 
+   <lb ed="#PL"/> Jesus resurrexit; sed quod sequitur, hoc non indicat. 
+   <lb ed="#PL"/> Quid sibi enim vult quod statim adjunxit, <hi rend="italic">Nondum 
+   <lb ed="#PL"/> enim sciebant Scripturam, quia</hi> oportet <hi rend="italic">eum</hi> a <hi rend="italic">mortuis 
+   <lb ed="#PL"/> resurgere?</hi> Non ergo eum credidit resurrexisse, quem 
+   <lb ed="#PL"/> nesciebat oportere resurgere. Quid ergo vidit ? quid
+   
+   <lb ed="#PL"/> credidit? Vidit scilicet inane monumentum, et credi<lb ed="#PL" break="no"/>dit
+   quod dixerat mulier, eum de monumento esse 
+   <lb ed="#PL"/> sublatum. <hi rend="italic">Nondum enim sciebant
+    Scripturam, quia 
+   <lb ed="#PL"/> oporteret eum a</hi> mortuis <hi rend="italic">resurgere.</hi> Et ideo quando id 
+   <lb ed="#PL"/> ab ipso Domino audiebant, quamvis apertissime di<lb ed="#PL" break="no"/>ceretur; consuetudine audiendi ab illo parabolas, non 
+   <lb ed="#PL"/> intelligebant, et aliquid aliud eum significare credebant. 
+   <lb ed="#PL"/> Sed ea quae sequuntur in sermonem alium did'eramus.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

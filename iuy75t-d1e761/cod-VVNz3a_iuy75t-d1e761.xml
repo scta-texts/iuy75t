@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 88</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 88</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e761"> <!-- iuy75t-t88 -->
+      <head xml:id="iuy75t-d1e761-Hd1e109">Tractatus 88</head>
+      <p xml:id="iuy75t-d1e761-d1e112">
+       <hi rend="italic">De co quod nit</hi> Jesus, Mementote sermonis moi, <hi rend="italic">etc., 
+   <lb ed="#PL"/> usque ad id,</hi> Sed haec omnia facient vobis propter 
+   <lb ed="#PL"/> nomen meum, quia nesciunt eum qni misit DIC. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Cap.</hi> xv, ) f . 30, 21.</p>
+      <p xml:id="iuy75t-d1e761-d1e130">I. Exhortans Dominus servos suos ad mundi odia 
+   <lb ed="#PL"/> perferenda paticnter, nullum majus cis et melius 
+   <lb ed="#PL"/> quam de seipso proponit exemplum : quoniam, sicut 
+   <lb ed="#PL"/> dicit apostolus Petrus, <hi rend="italic">Christus pro</hi> nobis <hi rend="italic">passus
+    est, 
+   <lb ed="#PL"/> relinquens nobis exemplum,</hi> ut <hi rend="italic">sequamur vestigia
+    ejus</hi>
+   
+       <lb ed="#PL"/> (I <hi rend="italic">Petr.</hi> II, 21). Quod iitique si facimus, ipso adju<lb ed="#PL" break="no"/>Vante
+   facimns, qui dixit, <hi rend="italic">Sine me nihil potestis facere.</hi>
+   
+       <lb ed="#PL"/> Dcnique quibus jam dixerat, <hi rend="italic">Si odit</hi> vos mundus, sci­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tote quia me</hi> priorem <hi rend="italic">vobis odio habuit:</hi>etnunc in eo 
+   <lb ed="#PL"/> quod audistis, cum legeretur Evangelium, <hi rend="italic">Mementote,</hi>
+   
+       <lb ed="#PL"/> inquit, <hi rend="italic">sermonis mei quem ego dixi vobis, Non est ser­
+   <lb ed="#PL"/> vus
+    major domino suo :</hi> si <hi rend="italic">me persecuti</hi> :rint, <hi rend="italic">et vos per<lb ed="#PL" break="no"/>sequentur ; si sermonem meum servaverunt, et vestrum
+    
+   <lb ed="#PL"/> servabunt.</hi> Dicendo autem, <hi rend="italic">Non eat servus major do­</hi>
+   
+       <lb ed="#PL"/> . mino suo, nonne evidenter ostendit quemadmodum 
+   <lb ed="#PL"/> Intelligere dcbeamus quod superius dixerat, <hi rend="italic">Jam noM
+   <lb ed="#PL"/> dico vos servos (Joan.</hi> xv, 5; XVIII , 15)? Ecce cnim 
+   <lb ed="#PL"/> eos servos dicit. Nam quid est aliud, <hi rend="italic">Non
+    eat</hi> servus 
+   <lb ed="#PL"/>
+       <hi rend="italic">major domino suo</hi> : si me <hi rend="italic">persecuti sunt, et vos
+    perse­
+   <lb ed="#PL"/> quentur ?</hi> Manifestum est igitur illum servum (a), qui 
+   <lb ed="#PL"/> non manet in domo in aeternum <hi rend="italic">(Id</hi> VIII, 35), illum 
+   <lb ed="#PL"/> pertinentem ad timoreM quem foras charitas miuit 
+   <lb ed="#PL"/> (I <hi rend="italic">JoaM.</hi> iv, 18), esse intelligendum, ubi dicluin est, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Jam</hi> non <hi rend="italic">dico vos servos:</hi> hic autem uhi dicitur, Non 
+   <lb ed="#PL"/>
+       <hi rend="italic">eat servus major domino</hi> suo : <hi rend="italic">si me persecuti
+    sunt, et 
+   <lb ed="#PL"/> vos persequentur,</hi> illum significari servum pertinentem 
+   <lb ed="#PL"/> ad timorem castum, qui pemranet in saeculum saeculi 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Psal.</hi> XYIII, 10). llic enim servus est aHditurus , 
+   <lb ed="#PL"/>
+       <hi rend="italic">Euge, serve bone, intra</hi> in <hi rend="italic">gaudium Domini tui
+    (Matlh.</hi>
+   
+       <lb ed="#PL"/> XXV, 21).</p>
+      <p xml:id="iuy75t-d1e761-d1e277">
+       <hi rend="italic">2. Sed haec,</hi> inquit, omnia <hi rend="italic">facient vobis
+    propter no<lb ed="#PL" break="no"/>men</hi> meum, <hi rend="italic">quia nesciunt eun qui misit
+    me.</hi> Quae omnia 
+   <lb ed="#PL"/>
+       <hi rend="italic">facient,</hi> nisi quae dixit, odio habebunt scilicet, et perse. 
+   
+   <pb ed="#PL" n="1855"/>
+       <lb ed="#PL"/> quentur, sermonemque contemnent? Quoniam si ser<lb ed="#PL" break="no"/>monem
+   non servarent eorum, nee tamen odissent eos, 
+   <lb ed="#PL"/> neque persequerentur ; vel etiamsi odissent, nec ta<lb ed="#PL" break="no"/>men
+   persequerentur : non omnia facerent. Haec autem 
+   <lb ed="#PL"/>
+       <hi rend="italic">omnia</hi> facient <hi rend="italic">vobis propter nomen meum</hi> , quid est 
+   <lb ed="#PL"/> aliud dicere, quam, me in vobis odio habebunt, me 
+   <lb ed="#PL"/> in vobis persequentur, et sermonem vestrum, quia 
+   <lb ed="#PL"/> meus est, idco non ser vabunt? <hi rend="italic">Haec</hi> enim <hi rend="italic">omnia fa­</hi>
+   
+       <lb ed="#PL"/> cient <hi rend="italic">vobis propter nomen rneum :</hi> nou vestrum , sed 
+   <lb ed="#PL"/>
+       <hi rend="italic">meum.</hi> Tanto igitur miscriores qui propter hoc nomcn 
+   <lb ed="#PL"/> ista faciunt, quanto beatiores qui propter hoc nomen 
+   <lb ed="#PL"/> ista patiuntur : sicut ipse alio loco dicit, <hi rend="italic">Beati qui pcr<lb ed="#PL" break="no"/>secutionem
+   patiuntur propler
+    justitiam (Matth.</hi> v, 10). Hoc 
+   <lb ed="#PL"/> est enim propter me, vel <hi rend="italic">propter nomen meum</hi> : quia, 
+   <lb ed="#PL"/> sicut Apostolus docet, <hi rend="italic">Factus
+    est nobis sapientia a Deo, 
+   <lb ed="#PL"/> el justitia, et sanctificatio ,etredemptio; ut
+    quemadmo<lb ed="#PL" break="no"/>dum</hi> scriptum <hi rend="italic">eat, Qui gloriatur,</hi> in <hi rend="italic">Domino glorictur</hi>
+   
+       <lb ed="#PL"/> (I <hi rend="italic">Cor.</hi> I, 30 <hi rend="italic">et</hi> 31). Faciunt quippe ista mali malis; sed 
+   <lb ed="#PL"/> non propter justitiam : et ideo miscri utrique, et qui 
+   <lb ed="#PL"/> faciunt, et qui patiuntur. Faciunt et boni malis : ubi 
+   <lb ed="#PL"/> etsi faciunt isti propter justitiam, non tamen illi pro<lb ed="#PL" break="no"/>pter
+   justitiam patiuntur.</p>
+      <p xml:id="iuy75t-d1e761-d1e388">3. Sed dicit aliquis : Si mali quando persequuatur 
+   <lb ed="#PL"/> bonos propter nomen Christi, propter justitiam boni 
+   <lb ed="#PL"/> patiuntur, profecto propter justitiam haec cis mali fa­
+   
+   <lb ed="#PL"/> ciunt; quod si ita est, ergo et quando boni malos 
+   <lb ed="#PL"/> propter justiliam persequuntur, propter jusliliam 
+   <lb ed="#PL"/> etiam mali patiuntur. Si enim possunt mali persecu<lb ed="#PL" break="no"/>tionem
+   facere bonis propter nomen Christi, cur non 
+   <lb ed="#PL"/> possunt mali persecutionem pati a bonis propter no<lb ed="#PL" break="no"/>men
+   Christi; et quid est, nisi propter justitiam ? Nam 
+   <lb ed="#PL"/> si non propter quod boni faciunt, propter hoc mali 
+   <lb ed="#PL"/> patiuntur
+   ; quia faciunt boni propter justitiam, pa<lb ed="#PL" break="no"/>tiuntur
+   mali propter injustitiam : nec mali ergo pro<lb ed="#PL" break="no"/>pter
+   hoc possunt facere propter quod boni patiuntur, 
+   <lb ed="#PL"/> quia faciunt mali propter injustitiam , paliunLur boni 
+   <lb ed="#PL"/> propter justitiam. Quomodo ergo eiit verum, <hi rend="italic">Haec 
+   <lb ed="#PL"/> omnia facient vobis propter nomen meum ;</hi> cum illi non 
+   <lb ed="#PL"/> propter nomen Christi faciant, id cst, nou propter ju<lb ed="#PL" break="no"/>stitiam, sed propter iniquitatem suam? Haec quaestio 
+   <lb ed="#PL"/> ita solvitur, si eo modo intelligamus dictum, <hi rend="italic">Haec 
+   <lb ed="#PL"/> omnia (acient</hi> vobis <hi rend="italic">propter
+    nomen meum,</hi> ul totum re<lb ed="#PL" break="no"/>feratur
+   ad justos; tanquam dictum sii, Haec omnia
+   
+   <lb ed="#PL"/> patiemini ab eis propter nomen meum : ut hoc sit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">facient vobis,</hi> quod est, patiemini ab cis. Si autem 
+   <lb ed="#PL"/>
+       <hi rend="italic">propter nomen</hi> meum sic accipitur , tanquam diceret, 
+   <lb ed="#PL"/> propter nomen meum quod in vobis oderunt; ita po<lb ed="#PL" break="no"/>test
+   accipi, et propter justitiam quam in vobis ode<lb ed="#PL" break="no"/>runt1 : ac per hoc boni cum persecutionem faciunt 
+   <lb ed="#PL"/> malis, possunt recte dici et propter justitiam facere, 
+   <lb ed="#PL"/> quam diligendo pel'sequuntur malos; et propter ini- 
+   <lb ed="#PL"/> (quitatem, quam oderunt in ipsis malis: ita ergo et 
+   <lb ed="#PL"/> ipsi mali possunt dici pati, et propter iniquitatemquae 
+   <lb ed="#PL"/> in illis punitur, et propter justitiam quae in eorum 
+   <lb ed="#PL"/> poena exercetur.</p>
+      <p xml:id="iuy75t-d1e761-d1e475">4. Item quaeri potest, si etiam mali faciunt perse<lb ed="#PL" break="no"/>cutionem
+   malis; sicut impii reges et judices, cum 
+   
+   <lb ed="#PL"/> essent persecutores piorum, utique et homicidas, &lt;a 
+   <lb ed="#PL"/> adulteros, et quoscumque malcficos, quos contra le<lb ed="#PL" break="no"/>ges
+   publicas fecisse cognoscerent, puniebant; quo<lb ed="#PL" break="no"/>modo
+   intelligendum est quod ait Dominus, Si de 
+   <lb ed="#PL"/>
+       <hi rend="italic">mundo essetis, mundus quod</hi> suum <hi rend="italic">erat diligeret
+    ( Joan.</hi>
+   
+       <lb ed="#PL"/> xv, 49). Neque enim quos punit diligit mundus, a quo 
+   <lb ed="#PL"/> videmus supra dicta scelerum genera plerumque pu<lb ed="#PL" break="no"/>niri : nisi quia mundus est in eis a quibus talia sce<lb ed="#PL" break="no"/>lera
+   puniuntur, et mundus est in cis a quibus talia 
+   <lb ed="#PL"/> scelera diliguntur. Mundus itaque ille qui intelligitur 
+   <lb ed="#PL"/> in malis atque hnpiis, et odit quod suum est, ex ea 
+   <lb ed="#PL"/> parte hominum qua sceleratis nocct; et diligit quod 
+   <lb ed="#PL"/> suum est, ex ea parte hominum qua eisdem ipsis 
+   <lb ed="#PL"/> cousceleratis favet. Ergo, <hi rend="italic">Haec
+    omnia facient</hi> vobis <hi rend="italic">pro<lb ed="#PL" break="no"/>pter
+   nomen</hi> meum, vel ila dictum est, propter qucd 
+   <lb ed="#PL"/> vos patimini ; vel ita, propter quod et ipsi faciunt:
+   
+   <lb ed="#PL"/> quia et hoc in vobis dum persequuntur, oderunt. Et 
+   <lb ed="#PL"/> addidit : <hi rend="italic">Quia nesciunt eum qui misit me.</hi> IIoc secun<lb ed="#PL" break="no"/>dum
+   eam scientiam dictum intelligendum est, de qua 
+   <lb ed="#PL"/> etalibi scriptum est, <hi rend="italic">Scire
+    autem te, sensus est con­
+   <lb ed="#PL"/> summatus (Sap.</hi> VI, 16). Hac quippescientia qui sciunt 
+   <lb ed="#PL"/> Patrem a quo missus est Christus, nullo modo per<lb ed="#PL" break="no"/>sequuntur
+   eos quos colligit Christus; quia et ipsi 
+   <lb ed="#PL"/> cum eis colliguntur a Christo.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

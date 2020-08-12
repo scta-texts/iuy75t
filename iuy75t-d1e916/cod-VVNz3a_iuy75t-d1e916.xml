@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 107</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 107</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e916"> <!-- iuy75t-t107 -->
+      <head xml:id="iuy75t-d1e916-Hd1e109">Tractatus 107</head>
+      <p xml:id="iuy75t-d1e916-d1e112">
+       <hi rend="italic">De eo quod dicit Jesus,</hi> Ego pro eis rogo, <hi rend="italic">etc., usque ad</hi>
+   
+       <lb ed="#PL"/> id, Ut habeant gaudium meum impletum in semet<lb ed="#PL" break="no"/>ipsis. <hi rend="italic">Cap.</hi> XVII, f . 9-15.</p>
+      <p xml:id="iuy75t-d1e916-d1e128">i. Cum de his quos jam discipulos habebat, Do<lb ed="#PL" break="no"/>minus
+   loqueretur ad Patrem , inter alia etiam dixit 
+   <lb ed="#PL"/> hoc : <hi rend="italic">Ego pro eis</hi> rogo : <hi rend="italic">non pro mundo rogo, sed pro
+   <lb ed="#PL"/> his quos dedisti mihi.</hi> Mundum vult modo intelligi, qui 
+   <lb ed="#PL"/> vivunt secundum concupiscentiam mundi, et non sunt 
+   <lb ed="#PL"/> in ea sorte gratiae, ut ab illo eligantur ex mundo. 
+   <lb ed="#PL"/> Non itaque pro mundo, sed pro his quos ei Pater de<lb ed="#PL" break="no"/>dil, rogare se dicit: per hoc enim quod eos illi Pater 
+   <lb ed="#PL"/> jam dedit, factum est ut non pertineant ad eum mun<lb ed="#PL" break="no"/>dun. pro quo non rogat.</p>
+      <p xml:id="iuy75t-d1e916-d1e156">i. Deinde subjungit, <hi rend="italic">Quia</hi> tui <hi rend="italic">sunt.</hi> Neque enim 
+   <lb ed="#PL"/> quia Pater eos Filio dedit, amisit ipse quos dedit : 
+   <lb ed="#PL"/> cum adhuc Filius sequatur, et dicat, <hi rend="italic">Et mea</hi> omnia 
+   <lb ed="#PL"/>
+       <hi rend="italic">tua sunt, et tua mea.</hi> Ubi satis apparet quomodo uni<lb ed="#PL" break="no"/>geniti
+   Filii sint omnia quae sunt Patris; per hoc uti<lb ed="#PL" break="no"/>que
+   quod etiam ipse Deus est, et de Patre Patri est 
+   <lb ed="#PL"/> natus aequalis : 'non quomodo dictum est uni ex duo<lb ed="#PL" break="no"/>bus
+   filiis, majori scilicet, <hi rend="italic">Tu semper mecum es, et</hi> om­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">nia mea tua sunt (Luc.</hi> xv, 51). Illud enim dictum est 
+   <lb ed="#PL"/> de his omnibus creaturis quae infra creaturam san<lb ed="#PL" break="no"/>clam
+   rationalem sunt, quae utique subduntur Eccle<lb ed="#PL" break="no"/>siae ; in qua universa Ecclesia et illi duo intelliguntur 
+   <lb ed="#PL"/> filii major et minor, cum omnibus Angelis sanctis, 
+   <lb ed="#PL"/> quibus erimus aequales in regno Christi et Dei <hi rend="italic">(Matth.</hi>
+   
+       <lb ed="#PL"/> xxn, 30) : hoc autem ita dictum est, <hi rend="italic">Et mea omnia
+   <lb ed="#PL"/> tua sunt,
+    et tua mea,</hi> ut hic sit etiam ipsa creatura ra<lb ed="#PL" break="no"/>tionalis, quae non nisi Deo subditur, ut ei quae infra 
+   <lb ed="#PL"/> illam sunt cuncta subdantur. Haec ergo cum sit Dei 
+   <lb ed="#PL"/> Patris, non simul esse! et Filii, nisi Patri esset aequa<lb ed="#PL" break="no"/>lis : de ipsa quippe agebat, cum diceret , <hi rend="italic">Non</hi> pro 
+   <lb ed="#PL"/>
+       <hi rend="italic">mundo rogo, sed pro his quos dedisti mihi : quia</hi> tui 
+   <lb ed="#PL"/>
+       <hi rend="italic">sunt, et mea omnia tua sunt,</hi> et <hi rend="italic">tua mea.</hi> Nec fas est 
+   <lb ed="#PL"/> ut sancti, de quibus haec locutus est, cujusquam sint, 
+   <lb ed="#PL"/> nisi ejus a quo creatietsanctificati sunt : ac per hoc 
+   <lb ed="#PL"/> et omnia quae ipsorum sunt, necesse est ut ejus sint 
+   <lb ed="#PL"/> cujus et ipsi sunt. Ergo cum et Patris et Filii sunt, 
+   <lb ed="#PL"/> aequales eos esse demonstrant, quorum :'qualiter 
+   <lb ed="#PL"/> sunt. lllud antem quod ait, cum de Spiritu sancto lo­ 
+   <pb ed="#PL" n="1913"/>
+       <lb ed="#PL"/> queretur, <hi rend="italic">Omnia qu</hi>ae <hi rend="italic">habet Pater,
+    mea</hi> sunt; <hi rend="italic">pro­</hi>
+   
+       <lb ed="#PL"/> plerea <hi rend="italic">dixi quia de meo accipict, et</hi> annuntiabit vobis 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Juan.</hi> xvi, 15); de his dixit quae ad ipsam Patris per<lb ed="#PL" break="no"/>tinent
+   divinitatem, in quibus illi est aequalis, omnia 
+   <lb ed="#PL"/> quae habet habendo. Ncque enim Spiritus sanctus de 
+   <lb ed="#PL"/> creatura quae Patri est subdita et Filio, fuerat ac<lb ed="#PL" break="no"/>cepturus
+   quod ait, <hi rend="italic">de meo accipiet;</hi> sed utique de 
+   <lb ed="#PL"/> Patre de quo procedit Spiritus, de quo est natus et 
+   <lb ed="#PL"/> Filius.</p>
+      <p xml:id="iuy75t-d1e916-d1e297">
+       <hi rend="italic">3. Et clarificatus</hi> sum, inquit, in <hi rend="italic">eis.</hi> Nunc suam 
+   <lb ed="#PL"/> clarificationem tanquam facta sit dicit, cum adhuc 
+   <lb ed="#PL"/> esset futura : superius autem a Patre poscebat ut fie<lb ed="#PL" break="no"/>ret. Sed utrum ipsa sit clarificatio, de qua dixerat, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Et nunc clarifica me tu, Pater, apud temetipsum, cla<lb ed="#PL" break="no"/>ritate
+    quan, habui, priusquam <unclear>undcia</unclear> esset, apud te 
+   <lb ed="#PL"/> (Joan.</hi> x VII, 1, 5); utique requirendum est. Si enim 
+   <lb ed="#PL"/>
+       <hi rend="italic">apud te,</hi> quomodo in <hi rend="italic">eis ?</hi> An cum hoc ipsum inno<lb ed="#PL" break="no"/>tescit
+   eis, ac per ipsos omnibus qui credunt eis testi<lb ed="#PL" break="no"/>bus
+   suis ? Possumus plane sic intelligere dixisse Do<lb ed="#PL" break="no"/>minum
+   de Apostolis, quod clarificatus sit in eis : di<lb ed="#PL" break="no"/>cendo
+   enim esse jam factum, ostendit jam fuisse 
+   <lb ed="#PL"/> praedestinatum, et certum haberi voluit quod esset 
+   <lb ed="#PL"/> futurum.</p>
+      <p xml:id="iuy75t-d1e916-d1e346">
+       <hi rend="italic">4. Et jam,</hi> inquit, <hi rend="italic">non</hi> sum <hi rend="italic">in</hi> mundo, <hi rend="italic">et hi in 
+   <lb ed="#PL"/> mundo</hi> sunt. Si horam prorsus illam qua loquebatur 
+   <lb ed="#PL"/> attendas, utrique adhuc in mundo erant; et ipse sci<lb ed="#PL" break="no"/>licet, et illi de quibus hoc dicebat: non enim secun<lb ed="#PL" break="no"/>dum
+   provectum cordis et vitae id accipere possumus 
+   <lb ed="#PL"/> vel debemus, ut illi propterea adhuc esse dicantur 
+   <lb ed="#PL"/> in mundo, quod mundana adhuc sapiant; ille autem 
+   <lb ed="#PL"/> jam non esse in mundo, sapiendo divina. Posi!um est 
+   <lb ed="#PL"/> hic enim verbum unum, quod nos ita intelligere
+   
+   <lb ed="#PL"/> omnino non sinat : quia non ait, Et non sum in mun<lb ed="#PL" break="no"/>do; sed, <hi rend="italic">Jam non sum in mundo</hi> : per hoc ostendens 
+   <lb ed="#PL"/> fuisse se in mundo, jam non esse. Numquid ergo fas 
+   <lb ed="#PL"/> est ut eum credamus atiquando mundana sapuisse, ct
+   
+   <lb ed="#PL"/> ab hoc errore liberatum jam illa non sapere? Quis 
+   <lb ed="#PL"/> tam impio sensu se induerit? Restat igitur ut secun<lb ed="#PL" break="no"/>dum
+   id quod ipse etiam in mundo prius erat, in
+   
+   <lb ed="#PL"/> mundo se dixerit jam non esse; profecto praesentia 
+   <lb ed="#PL"/> corporali, a mundo scilicet absentiam suam jam cito 
+   <lb ed="#PL"/> futuram, iliorum autem tardius, per hoc ostendens, 
+   <lb ed="#PL"/> quod se jam non hic esse, illos autem hic esse dixit, 
+   <lb ed="#PL"/> cum et ipse hic et illi adhuc essent. Sic enim est lo<lb ed="#PL" break="no"/>. cuius, horno congrucns hominibus, ut mos loqucndi 
+   <lb ed="#PL"/> sese habet humanus. An non quotidie dicimus, Jam 
+   <lb ed="#PL"/> non est hic, de aliquo quantocius abituro? Et max!<lb ed="#PL" break="no"/>me hoc de morituris solet dici. Quanquam et ipse Do<lb ed="#PL" break="no"/>minus
+   tanquam praevidens quid lecturos movere pos<lb ed="#PL" break="no"/>set
+   adjecit, Et
+    <hi rend="italic">ego ad te venio</hi> : sic exponens quodam<lb ed="#PL" break="no"/>modo
+   cur dixcrit,
+    <hi rend="italic">Jam non</hi> sum in <hi rend="italic">mundo.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e916-d1e432">5. Commendat ergo eos Patri, quos corporali ab<lb ed="#PL" break="no"/>sentia
+   relicturus est, dicens :
+    <hi rend="italic">Pater</hi> sancte, <hi rend="italic">serva eoa</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">nomine tuo quos dedisti mihi.</hi> Nempe sicut homo 
+   <lb ed="#PL"/> Deum rogat pro discipulis suis, quos accepit a Deo. 
+   <lb ed="#PL"/> Sed attende quod scquitur :
+    <hi rend="italic">Ut sint,</hi> inquit, <hi rend="italic">unum sic<lb ed="#PL" break="no"/>ut
+   et
+    noa.</hi> Non ait, Ut nobiscum sint unum, aut, 
+   <lb ed="#PL"/> simus unum ipsi et nos, sicut unum sumus nos; sed 
+   <lb ed="#PL"/> ait, <hi rend="italic">Ut sint unum sicut et nos.</hi> Ipsi utique in natura 
+   <lb ed="#PL"/> sua s:nt unum, sicutetnos in nostra unum sumus. 
+   <lb ed="#PL"/> Quod procul dubio verum non dicerct, nisi secundum 
+   <lb ed="#PL"/> hoc diceret, quod ejusdem naturae Deus est cujus et 
+   <lb ed="#PL"/> Pater, secundum quod alibi dixit, <hi rend="italic">Ego et Pater
+    unum 
+   <lb ed="#PL"/> sumus (Joan.</hi> x, 30): non secundumidquod etiam ho<lb ed="#PL" break="no"/>mo
+   est; nam secundum hoc, <hi rend="italic">Pater major me eat (Id. ;</hi>
+   
+       <lb ed="#PL"/> xiv, 28), dixit. Sed quoniam una eademque persona 
+   <lb ed="#PL"/> est Deus et homo, intelligimus hominem in co quod 
+   <lb ed="#PL"/> rogat: intelligimus autem Deum in eo quod unum
+   
+   <lb ed="#PL"/> sunt et ipse et ille quem rogat. Sed est adhuc in con<lb ed="#PL" break="no"/>sequentibus
+   locus ubi de hac rc diligentius disputan<lb ed="#PL" break="no"/>dum
+   est.</p>
+      <p xml:id="iuy75t-d1e916-d1e501">6. Hic autem sequitur : Cum <hi rend="italic">essern</hi> cum <hi rend="italic">eis,
+    ego serva­
+   <lb ed="#PL"/> bam</hi> eoa <hi rend="italic">in nomine tuo.</hi> Mc, inquit, veniente ad te, serva 
+   <lb ed="#PL"/> cos in nomine tuo, in quo eos quando cum eis cram, 
+   <lb ed="#PL"/> et ipse servabam. In nomine Patris servabat discipulos 
+   <lb ed="#PL"/> suos Filius homo, cum eis humana praesentia constitu<lb ed="#PL" break="no"/>lus : sed etiam Pater in nomine Filii servabat quos in
+   
+   <lb ed="#PL"/> nomine Filii petentes exaudiebat. His quippe idem Fi<lb ed="#PL" break="no"/>lius
+   dixerat: <hi rend="italic">Amen, amen dico vobis,</hi> si <hi rend="italic">quid petieritis
+   <lb ed="#PL"/>
+    Palrom jn nomine meo, dabit vobis (Id.</hi> xvi, 23). Neque 
+   <lb ed="#PL"/> hoc tam carnaliter debemus accipere, velut vicissim 
+   <lb ed="#PL"/> nos servent Pater et Filius, amborum in nobis cuslo<lb ed="#PL" break="no"/>diendis
+   alternante custodia, quasi succedat alius 
+   <lb ed="#PL"/> quando discesserit alius : simul enim nos custodiunt 
+   <lb ed="#PL"/> Pater et Filius et Spiritus sanctus, qui est unus verus 
+   <lb ed="#PL"/> et beatus Deus. Sed Scriptura nos non levat, nisi 
+   <lb ed="#PL"/> descendat ad nos : sicut Verbum caro factum descen<lb ed="#PL" break="no"/>dit
+   ut levaret, non cecidit ut jaceret. Si descenden<lb ed="#PL" break="no"/>tem
+   cognovimus, cum levante surgamus; et intelli<lb ed="#PL" break="no"/>gamus, cum ita loquitur, personas eum distinguere, 
+   <lb ed="#PL"/> non separare naturas. Quando ergo servabat disci - 
+   <lb ed="#PL"/> pullus suos Filius praesentia corporali, non exspecta<lb ed="#PL" break="no"/>bat
+   Pater ad custodiendum succedere Filio disceden- 
+   <lb ed="#PL"/> Li; sed eos ambo servabant potentia spirituali: et 
+   <lb ed="#PL"/> quando ab eis abstulit Filius praesentiam corporalem, 
+   <lb ed="#PL"/> tenuit cum Patre custodiam spiritualem. Quia et 
+   <lb ed="#PL"/> custodiendos quando Filius homo accepit, custo<lb ed="#PL" break="no"/>diae
+   paternae non eos abstulit : et cum Pater Filio 
+   <lb ed="#PL"/> custodiendos dedit, non dedit sine ipso cui dedit; 
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> sed dedit homini Filio, non sine Deo eodem ipso uti<lb ed="#PL" break="no"/>que
+   Filio.</p>
+      <p xml:id="iuy75t-d1e916-d1e584">7. Sequitur ergo Filius, et dicit: <hi rend="italic">Quos dedisti</hi> mihi, 
+   <lb ed="#PL"/>
+       <hi rend="italic">custodivi : et nemo ex his periit,</hi> nisi <hi rend="italic">filius
+    perditionis, 
+   <lb ed="#PL"/> ut Scriptura impleatur.</hi> Filius perditionis dictus est 
+   <lb ed="#PL"/> traditor Christi, perditioni praedestinatus, secundum 
+   <lb ed="#PL"/> Scripturam quae de illo in psalmo centesimo octavo 
+   <lb ed="#PL"/> maxime prophetatur.</p>
+      <p xml:id="iuy75t-d1e916-d1e607">8. <hi rend="italic">Nunc</hi> auteM, inquit, <hi rend="italic">ad te venio; et haec
+    loquor</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">mundo, ut habeant gaudium meum impletum</hi> in se­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">metipsis.</hi> Ecce in mundo se loqui dicit, qui paulo ante 
+   <lb ed="#PL"/> dixerat, Jam <hi rend="italic">non</hi> sum in <hi rend="italic">mundo</hi> : quod cur dixerit, 
+   <lb ed="#PL"/> ibi exposuimus, imo ipsum id exposuisse docuimus. 
+   <lb ed="#PL"/> Ergo et quia nondum abierat, hic adhuc erat; et quia 
+   <lb ed="#PL"/> mox fuerat abiturus, hic quodammodo jam non crat. 
+   <lb ed="#PL"/> Quod sit autem hoc gaudium de quo ait, ut <hi rend="italic">habeant
+   <lb ed="#PL"/>
+    gaudium meum imptetum</hi> in <hi rend="italic">semetipsis,</hi> jam supcrius 
+   <lb ed="#PL"/> expressum est, ubi ait, <hi rend="italic">Ut sint unum sicut et nos.</hi> Hoc 
+   <lb ed="#PL"/> gaudium suum, id cst, a se in eos collatum, in cis 
+   <pb ed="#PL" n="1915"/>
+       <lb ed="#PL"/> dicil implendum ; propter quod locutum se dixit in 
+   <lb ed="#PL"/> mundo. Haec est pax illa et heatitudo in futuro sac<lb ed="#PL" break="no"/>culo, propter quam consequendam temperanter pt 
+   <lb ed="#PL"/> juste ei pie vivendum est in hoc saeculo.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

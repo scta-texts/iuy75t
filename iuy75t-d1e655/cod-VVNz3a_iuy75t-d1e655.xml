@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 75</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 75</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e655"> <!-- iuy75t-t75 -->
+      <head xml:id="iuy75t-d1e655-Hd1e109">Tractatus 75</head>
+      <p xml:id="iuy75t-d1e655-d1e112">
+       <hi rend="italic">Deeo quod ait Jesus,</hi> non relinquam vos orphanos; 
+   <lb ed="#PL"/>
+       <hi rend="italic">usque ad id.</hi> Et ego diligam eum, etinanifestabo 
+   <lb ed="#PL"/> ci meipsum. <hi rend="italic">Cap.</hi> xiv, y. 18-21.</p>
+      <p xml:id="iuy75t-d1e655-d1e128">1.Post promissionem Spiritus sancti, ne quisquam 
+   <lb ed="#PL"/> putaret quod ita eum Dominus daturus fuerat velut 
+   <lb ed="#PL"/> pro seipso, ut non et ipse cum eis esset futurus, adje<lb ed="#PL" break="no"/>cit
+   atque ait : <hi rend="italic">Non relinquam vos orphanos; veniam
+   <lb ed="#PL"/> ad vos.</hi> Orphani pupilli sunt. Illud enim graecum ejus<lb ed="#PL" break="no"/>dem
+   rei nomen est, hoc latinum Dam et in psalmo 
+   <lb ed="#PL"/> ubi legimus, <hi rend="italic">Pupillo tu eris adjutor (Psal.</hi> ix, 14), 
+   <lb ed="#PL"/> graecus babet <hi rend="italic">orphano.</hi> Quamvis ergo non Filius Dei
+   
+   <lb ed="#PL"/> suo Patri adoptaverit filios, et eumdem Patrem nos 
+   <lb ed="#PL"/> voluerit habere per gratiam, qui ejus Pater est per 
+   <lb ed="#PL"/> naturam ; tamen etiam ipse circa nos paternum aCTe<lb ed="#PL" break="no"/>ctum
+   quodammodo demonstrat, cum dicit, <hi rend="italic">Non re­
+   <lb ed="#PL"/>
+    linquam vos orphanos ; veniam ad vos.</hi> Hinc est quod 
+   <lb ed="#PL"/> etiam sponsi filios nos appellat, ubi dicit : <hi rend="italic">Veniet 
+   <lb ed="#PL"/> hora</hi> ut <hi rend="italic">auferatur ab eis sponsus, et tunc jejunabunt 
+   <lb ed="#PL"/> filii</hi> sponsi <hi rend="italic">(Matth.</hi> IX, 15). Quis autcm sponsus, 
+   <lb ed="#PL"/> nisi Dominus Cbristus?</p>
+      <p xml:id="iuy75t-d1e655-d1e187">2. Deinde sequitur, et dicit : <hi rend="italic">Adhuc modicum,</hi> et 
+   <lb ed="#PL"/>
+       <hi rend="italic">mundus me</hi> jam <hi rend="italic">non videt.</hi> Quid enim? tunc eum vide<lb ed="#PL" break="no"/>liat
+   mundus; quandoquidem mundi nomine vult in<lb ed="#PL" break="no"/>telligi
+   cos de quibus superius est locutus, dicens de 
+   <lb ed="#PL"/> Spiritu sancto, <hi rend="italic">Quem
+    mundus accapere non</hi> potest, <hi rend="italic">quia
+   <lb ed="#PL"/> non videt eum , neque
+    cognoscit eum ?</hi> Videbat eum 
+   <lb ed="#PL"/> plane mundus carneis oculis in carne conspicuum, 
+   <lb ed="#PL"/> non autem videbat quod in carne Verbum latebat: 
+   <lb ed="#PL"/> videbat hominem, noH videbat Deum; videbat indo<lb ed="#PL" break="no"/>nientum, non videbat indutum. Sed quoniam post re­
+   
+   <lb ed="#PL"/> surrectionem etiam ipsam carnem suam, quam non 
+   <lb ed="#PL"/> solum videndam, verum etiam contrectandam de<lb ed="#PL" break="no"/>monstravit
+   suis, noluit demonstrare non suis; hinc 
+   <lb ed="#PL"/> fortasse intelligendum est esse dictum, <hi rend="italic">Adhuc modi.</hi>
+   
+       <lb ed="#PL"/> cum, <hi rend="italic">et mundus me jam non videt : vos autem videbitis
+   <lb ed="#PL"/> me ;
+    quia ego</hi> vivo, <hi rend="italic">et vos vivetis.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e655-d1e248">3. Quid est, <hi rend="italic">quia ego vivo, et vos vivetis</hi> ? Cur de 
+   <lb ed="#PL"/> prasenti se dixit vivere, illos autem de futuro esse 
+   <lb ed="#PL"/> victuros, nisi quia vitam etiam carnis utique resur<lb ed="#PL" break="no"/>gentis, qualis in ipso praecedebat, et illis est pollicitus 
+   <lb ed="#PL"/> secuturam? Et quia ipsius mox futura erat resurre<lb ed="#PL" break="no"/>etio, praesentis posuit temporis verbum propter signi<lb ed="#PL" break="no"/>ficandam
+   celeritatem : illorum autem quoniam sacculi 
+   <lb ed="#PL"/> dilTertur in linem, non ait, vivitis; sed, <hi rend="italic">vivetis.</hi> Duas 
+   <lb ed="#PL"/> ergo resurrectiones, suam scilicet mox futuram et 
+   <lb ed="#PL"/> nostram in saeculi fine venturam, duobus verbis prae<lb ed="#PL" break="no"/>sentis
+   temporis et futuri, eleganter breviterqne pro<lb ed="#PL" break="no"/>misit. <hi rend="italic">Quia ego,</hi> inquit, <hi rend="italic">vivo, et</hi> vos <hi rend="italic">vivetis:</hi> quia ille 
+   <lb ed="#PL"/> vivit, idcoetnos vivemus. Per hominem quippe mors, 
+   <lb ed="#PL"/> et per hominem resurrectio mortuorum. Sicut enim 
+   <lb ed="#PL"/> in Adam omnes moriuntur, sic in Christo omnes vi<lb ed="#PL" break="no"/>vificabuntur (I
+    <hi rend="italic">Cor.</hi> xv, 21 <hi rend="italic">et</hi> 22). Quoniam nemo ad
+   
+   <lb ed="#PL"/> mortem nisi per illum, nemo ad vitam nisi-per Chri<lb ed="#PL" break="no"/>stum. Quia non I viximus, mortui sumus : quia vixit 
+   <lb ed="#PL"/> ipse, vivemus nos. Mortui sumus illi, quando vixi<lb ed="#PL" break="no"/>mus
+   nobis : quia vero mortuus ille pro nobis, et 
+   <lb ed="#PL"/> sibi vivit et nobis. Quia enim vivit ille, et nos vi<lb ed="#PL" break="no"/>vemus. Nam sicut per nos mortem habere potuimus,
+   
+   <lb ed="#PL"/> non sic et vitam per nos babere possumus.</p>
+      <p xml:id="iuy75t-d1e655-d1e320">4. In <hi rend="italic">ilio die,</hi> inquit, <hi rend="italic">vos cognoscetis quia
+    ego sum.</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">Patre meo, et vos</hi> in <hi rend="italic">me, et ego</hi> in <hi rend="italic">vobis.</hi> In quo die, 
+   <lb ed="#PL"/> nisi de quo ait, et <hi rend="italic">vos vivetis?</hi> Tunc enini erit ulpos<lb ed="#PL" break="no"/>sumus
+   videre quod credimus. Nam et nunc est in no<lb ed="#PL" break="no"/>bis, et nos in illo : sed boc nunc credimus, tunc etiam 
+   <lb ed="#PL"/> cognoscemus; quamviset nunc credendo noverimus, 
+   <lb ed="#PL"/> sed quod contemplando noscemus. Quamdiu enim su<lb ed="#PL" break="no"/>mus
+   in corpore quale nunc est, Id est corruptibile 
+   <lb ed="#PL"/> quod aggravat animam, peregrinamur a Domino: 
+   <lb ed="#PL"/> perfidem enim ambulamus, non per speciem,
+   (II <hi rend="italic">Cor.</hi>
+   
+       <lb ed="#PL"/> v. 6). Tunc ergo per speciem, quoniam videbimus 
+   <lb ed="#PL"/> eum sicuti est (I Joan, III, 2). Nain si etiam nunc 
+   <lb ed="#PL"/> Christus in nobis non esset, non diceret Apostolus * 
+   <lb ed="#PL"/>
+       <hi rend="italic">Si autem Christus in vobis, corpus quidem mortuum eat 
+   <lb ed="#PL"/> propter
+    peccatum, spiritus autem vita est propter justi. 
+   <lb ed="#PL"/> tiam (Rom.</hi> VIII, 10). Quia veroel nos etiam tunc in 
+   <lb ed="#PL"/> illo sumus, satis ostendit, ubidicit <hi rend="italic">:
+    Ego sum vitis, vos
+   <lb ed="#PL"/> palmites (Joan.</hi> xv, 5). In illo ergo die, quando vive­
+   
+   <lb ed="#PL"/> mus ea vita qua mors absorbebitur,cognoscemus quia 
+   <lb ed="#PL"/> ipse in Patre, et nos in ipso, et ipse in nobis; quia 
+   <lb ed="#PL"/> tunc perficietur hoc ipsum quodetnunc inchoatum
+   
+   <lb ed="#PL"/> est jam per ipsum, ut sit in nobisetnos in ipso.</p>
+      <p xml:id="iuy75t-d1e655-d1e396">5. <hi rend="italic">Qui habet,</hi> inquit, <hi rend="italic">mandata mea et servat ea
+    ille 
+   <lb ed="#PL"/> eat qui diligit me.</hi> Qui habet in memoria,etservat in 
+   <lb ed="#PL"/> vita; qui habet in sermonibus, et servat in moribus ; 
+   <lb ed="#PL"/> qui habet audiendo, et servat faciendo
+   ; aut qui habet 
+   <lb ed="#PL"/> faciendo, et servat perseverando; <hi rend="italic">ipse est,</hi> inquil, <hi rend="italic">qui
+   <lb ed="#PL"/> diligit me.</hi> Opere est demonstranda dilectio, ne sit in. 
+   <lb ed="#PL"/> fructuosa nominis appellatio. <hi rend="italic">Et qui diligit me,</hi> in<lb ed="#PL" break="no"/>quit, <hi rend="italic">diligetur a Patre meo; ei ego diligam eum, et</hi> ma­
+   
+   <lb ed="#PL"/> nifestabo <hi rend="italic">ei meipsum.</hi> Quid est, <hi rend="italic">dilignm?</hi> tanquam tunc 
+   <lb ed="#PL"/> dilecturus sit, et nunc non diligat? Absit. Quomodo
+   
+   <lb ed="#PL"/> enim nos Pater sine Filio, aut Filius sine Patre dili. 
+   <lb ed="#PL"/> geret? Quomodo cum inseparabiliter operentur, se<lb ed="#PL" break="no"/>parabiliter
+   diligunt? Sed ad hoc dixit, <hi rend="italic">diligam eum,</hi>
+   
+       <lb ed="#PL"/> ad quod sequitur, <hi rend="italic">et manifestabo</hi> ei <hi rend="italic">meipsum. Diligam, 
+   <lb ed="#PL"/> et manifestabo;</hi> id est, ad hoc diligam, ut manifestem.
+   
+   <lb ed="#PL"/> Nunc enim ad hoc dilexit, ut credamus, et mandatum 
+   <lb ed="#PL"/> fidei teneamus; tunc ad hoc diliget, ut videamus, et 
+   <lb ed="#PL"/> ipsam visionem 2 mercedem fidei capiamus: quia et
+   
+   <lb ed="#PL"/> nos nunc diligimus, credendo quod videhimus; tunc 
+   <lb ed="#PL"/> autem diligemus, videndo quod credimus. 
+   <pb ed="#PL" n="1831"/>
+      </p>
+    </div>
+   </body>
+  </text>
+</TEI>

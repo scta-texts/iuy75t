@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 90</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 90</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e778"> <!-- iuy75t-t90 -->
+      <head xml:id="iuy75t-d1e778-Hd1e109">Tractatus 90</head>
+      <p xml:id="iuy75t-d1e778-d1e112">
+       <title type="sub">
+        <hi rend="italic">In illud,</hi> Qui me odit, et Patrem meum odit. <hi rend="italic">Cap;</hi> xv, J . 23.</title>
+      </p>
+      <p xml:id="iuy75t-d1e778-d1e124">i. Audistis Dominum dicentem, <hi rend="italic">Qui me odit, et PII­</hi>
+   
+       <lb ed="#PL"/> trem <hi rend="italic">meum odit;</hi> qui superius dixerat, <hi rend="italic">Haec
+    facient 
+   <lb ed="#PL"/> vobis, quia nesciunt</hi> eum <hi rend="italic">qui misit me.</hi> Non itaque dis<lb ed="#PL" break="no"/>simulanda
+   nascitur quaestio, quomodo p ossint odisse 
+   <lb ed="#PL"/> quem nesciunt. Si enim Deum non quod est ipse, sed 
+   <lb ed="#PL"/> nescio quid aliud eum suspicantur aut credunt, et hoc 
+   <lb ed="#PL"/> oderunt; utique non ipsum oderunt, sed quod sua 
+   <lb ed="#PL"/> mendaci suspicione vel vana credulitate concipiunt: 
+   <lb ed="#PL"/> si autem quod est, hoc de illo sentiunt, quomodo 
+   <lb ed="#PL"/> eum nescire dicuntur? Et de hominibus quidem fieri 
+   <lb ed="#PL"/> potest ut cos sape quos nunquam vidimus, diliga<lb ed="#PL" break="no"/>mus; ac per hoc nec illud a contrario impossibile est, 
+   <lb ed="#PL"/> ut cos quos nunquam vidimus, oderimus. Fama 
+   <lb ed="#PL"/> quippe de aliquo sermocinante seu bene seu male, fit 
+   <lb ed="#PL"/> non immerito ut amemus vel oderimus ignotum. Sed 
+   <lb ed="#PL"/> si fama sit verax , quomodo est de quo vera didici<lb ed="#PL" break="no"/>mus, dicendus ignotus? An quia ejus faciem non vi<lb ed="#PL" break="no"/>dimus? Quam cumetipse uon videat, nulli tamen 
+   <pb ed="#PL" n="1859"/>
+       <lb ed="#PL"/> potest notior esse quam sibi. Non igitur in ejus facie 
+   <lb ed="#PL"/> corporali nobis intimatur cujusque notitia. Sed tunc 
+   <lb ed="#PL"/> nobis ad cognitionem patet, quando ejus mores et vita 
+   <lb ed="#PL"/> non latet. Alioquin nec seipsum nosse quisquam po<lb ed="#PL" break="no"/>test, (qui videre faciem suam non potest. Sed tuique 
+   <lb ed="#PL"/> tanto certius quam notus est aliis ipse se novit, quanto 
+   <lb ed="#PL"/> certius interiore conspectu potest videre quod sapit, 
+   <lb ed="#PL"/> vidcre qnod cupit, videre quod vivit: quae cum aperiun<lb ed="#PL" break="no"/>tur
+   et nobis, tunc vere fil cognitus nobis. Haec itaque 
+   <lb ed="#PL"/> quoniam plerumque ad nos de absentibus vel etiam 
+   <lb ed="#PL"/> mortuis,sive fama, sive litteris perferuntur ; hinc sit 
+   <lb ed="#PL"/> ut saepe quos nunquam facie corporis vidimus (non ta<lb ed="#PL" break="no"/>men
+   quos omnino nescimus), vel oderimus homines,
+   
+   <lb ed="#PL"/> vel amemus.</p>
+      <p xml:id="iuy75t-d1e778-d1e208">i. Sed plerumque in eis .ostra credulitas fallitur; 
+   <lb ed="#PL"/> quia non nunquam et historia, et multo magis fama 
+   <lb ed="#PL"/> mentitur. Pertinet autem ad nos ne perniciosa opi<lb ed="#PL" break="no"/>nione
+   fallamur, ut quia non possumus hominum inda<lb ed="#PL" break="no"/>gare
+   conscientiam, de ipsis rebus habeamus veram 
+   <lb ed="#PL"/> certamque sententiam 1. Hoc est, ut si ille vel ille 
+   <lb ed="#PL"/> homo utrum sit impudicus pudicusve nescimus, odcri<lb ed="#PL" break="no"/>mus
+   tamen impudiciliam,etpudicitiam diligamus : et si 
+   <lb ed="#PL"/> illum vel illum injustum esse justumve nescimus, ame­
+   
+   <lb ed="#PL"/> mus tamen justitiam, et injustitiam detestemur; nun 
+   <lb ed="#PL"/> quas uobis ipsi errando contingimus, sed quas fideliter, 
+   <lb ed="#PL"/> hanc appetendam , illamque vitandam in Dei veritate 
+   <lb ed="#PL"/> conspicimus : utcum de ipsis rebus quod appetendum 
+   <lb ed="#PL"/> est appetimus, quod devitandum est devitamus, igno<lb ed="#PL" break="no"/>scatur
+   nobis quod de occultis hominum aliquando, 
+   <lb ed="#PL"/> imo assidue nonvera sentimus. Hoc enim ad huma<lb ed="#PL" break="no"/>nam
+   tentationem pertinere arbitror. sine qua duci 
+   <lb ed="#PL"/> ista non potest vita , ita ut Apostolus diceret,
+    <hi rend="italic">Ten<lb ed="#PL" break="no"/>latio
+   nos non apprehendat nisi humana</hi> (I <hi rend="italic">Cor.</hi> x, 13). 
+   <lb ed="#PL"/> Quid enim tam humanum quam non posse inspicere
+   
+   <lb ed="#PL"/> cor humanum ; et ideo non ejus latebras perserutari, 
+   <lb ed="#PL"/> sed plerumque aliud quam id quod ibi agitur suspi<lb ed="#PL" break="no"/>cari? Quanquam et in his rerum tenebris humana­
+   
+   <lb ed="#PL"/> rum, hoc esi cogitationum alienarum , etsi suspicio<lb ed="#PL" break="no"/>ncs
+   intelligere non possumus, quia homines sumus; 
+   <lb ed="#PL"/> v judicia tamen, id est, definitas firmasque sententias 
+   <lb ed="#PL"/> cominere debemus, nee ante tempus quidquam judi<lb ed="#PL" break="no"/>care, donec veniat Dominus, et illuminet abscondita 
+   <lb ed="#PL"/> tenebrarum, et manifestet cogitationcs cordis;et
+   <lb ed="#PL"/> iunc lans erit uuicuique a Dco <hi rend="italic">(Id.</hi> iv, 5). Quando ergo 
+   <lb ed="#PL"/> non erratur in rebus, ut recta sit improbatio vitio<lb ed="#PL" break="no"/>rHm
+   virtutumque probatio; profecto si erratur in ho<lb ed="#PL" break="no"/>minibus, venialis est humana tentatio.</p>
+      <p xml:id="iuy75t-d1e778-d1e290">3. Per has autem humanorum cordium tenebras, 
+   <lb ed="#PL"/> res multum miranda et multum dolenda contingit, 
+   <lb ed="#PL"/> ut eum nonnunquam quem injustum putamus, et 
+   <lb ed="#PL"/> tamen justus est et justitiam in eo nescientes diligi<lb ed="#PL" break="no"/>mus, devitemus, aversemur, a nostro prohibeainus 
+   <lb ed="#PL"/> accessu , communem cum illo vitam victumque ha<lb ed="#PL" break="no"/>here
+   nolimus; eumque etiam, si xdisciplinae impo<lb ed="#PL" break="no"/>nendae
+   necessitas cogit, sive ne aliis noceat, sive ut 
+   <lb ed="#PL"/> fiat ipse correctior, asperitate salubri persequamur; 
+   <lb ed="#PL"/> et hominem bonum tanquam malum affligamus, quem 
+   <lb ed="#PL"/> nescientes amamus. Hoc fit, si quis, verbi gratia, 
+   
+   <lb ed="#PL"/> cnm sit pudicus, a noliis creditur imptidicus. Sinc 
+   <lb ed="#PL"/> duhio enim si pudicum diligo, hoc est ipse quad di<lb ed="#PL" break="no"/>ligo . ergo etiam ipsum diligo,etnescio. Et si im­
+   
+   <lb ed="#PL"/> pudicum odi, non ergo ipsam odi; quia non est quod 
+   <lb ed="#PL"/> odi : ei tamen dilecto mco, cum quo seu'per in cha<lb ed="#PL" break="no"/>ritate
+   pudicitiae habitai anima mea , facio ignarus in<lb ed="#PL" break="no"/>juriam, non errans in diseretione virtutum atque vi<lb ed="#PL" break="no"/>tiorum, sed in cordium tenebris humanorum. Proinde 
+   <lb ed="#PL"/> sicut Geri potest ut homo bonus hominem bonum
+   
+   <lb ed="#PL"/> oderit nesciens , vel potius diligat nesciens (ipsum 
+   <lb ed="#PL"/> enim diligit cam bonum diligit, quia id quod est illc, 
+   <lb ed="#PL"/> hoc isic diligit) ; oderit autem nesciens non ipsum , 
+   <lb ed="#PL"/> sed quod putat esse ipsum : ita fieri potest ut etiam 
+   <lb ed="#PL"/> homo injustus hominem oderit justum,etdum aesti<lb ed="#PL" break="no"/>mat
+   se sui similem injustum diligcre, nesciens diligat 
+   <lb ed="#PL"/> justum ; rt tamen dum cum credit injustum , diliga' 
+   <lb ed="#PL"/> non ipsum, sed quod putat essc ipsum. Quemadmo 
+   <lb ed="#PL"/> dum autem hominem, sic et Deum. Denique si inter­
+   
+   <lb ed="#PL"/> rogarentur Judaei, utrum diligerent Deum; quid se 
+   <lb ed="#PL"/> aliud quam diligere responderent, nee ex :nAno men<lb ed="#PL" break="no"/>ticules, sed errando potius opinantes? Quomodo euim 
+   <lb ed="#PL"/> diligerent Patrem veritatis, qNi haberent odio verita<lb ed="#PL" break="no"/>lem? Nolunt enim sua facta damuari, et hoc habet 
+   <lb ed="#PL"/> veritas ut talia facta damnentur : tantum igitur ode, 
+   <lb ed="#PL"/> runt veritatem, quantum oderunt suas poenas, quas 
+   <lb ed="#PL"/> talibus irrogat veritas. Nesciunt autem illata esse re.. 
+   <lb ed="#PL"/> ritatem , quae tales qualcs ipsi sunt damnai : odcrunt 
+   <lb ed="#PL"/> ergo quam nesciunt; et cnm iliam odcrunt, prote<lb ed="#PL" break="no"/>cto
+   et eum de quo nata est nisi odisse non possunt. 
+   <lb ed="#PL"/> Ac por hoc quia veritatem qua judicante damnantur, 
+   <lb ed="#PL"/> de Patre Deo natam nesciunt ; utique etiam ipsum et 
+   <lb ed="#PL"/> nesciunt, et oderunt. 0 miseros homines, qui cum 
+   <lb ed="#PL"/> esse volunt mali, nolunt esse vcritatem qua damnan<lb ed="#PL" break="no"/>tur
+   mali ! Nolunt enim eam esse quod est, cum se<lb ed="#PL" break="no"/>ipsos
+   dcbeani nolle esse quod sunt; ut ipsa manente 
+   <lb ed="#PL"/> mutentur, ne ipsa judicante damnentur.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

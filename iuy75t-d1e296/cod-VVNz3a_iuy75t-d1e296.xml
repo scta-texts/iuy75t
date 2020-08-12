@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 31</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 31</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e296"> <!-- iuy75t-t31 -->
+      <head xml:id="iuy75t-d1e296-Hd1e109">Tractatus 31</head>
+      <p xml:id="iuy75t-d1e296-d1e112">
+       <hi rend="italic">Ab eo loco,</hi> Dicebant ergo quidam ex Jerosolymis, 
+   <lb ed="#PL"/> Nonne hic est quem quaerebant Judaii interiiccre; 
+   <lb ed="#PL"/>
+       <hi rend="italic">usque ad id,</hi> Quaeretisme, et non iBveniclis; et ubi 
+   <lb ed="#PL"/> sum ego, VOS non potestis venire. <hi rend="italic">Cap.</hi> VII, f . 25-56.</p>
+      <p xml:id="iuy75t-d1e296-d1e131">i. Meminit Charitas vestra pristinis sermonibus et 
+   <lb ed="#PL"/> lectum esse in Evangelio, et a nobis ut potuimus 
+   <lb ed="#PL"/> disputatum, quod Dominus Jesus ideo velut occulte 
+   <lb ed="#PL"/> ascendit ad diem festum, non qnia timebat ne tenere<lb ed="#PL" break="no"/>tur, cujus potestas erat ne teneretur; sed ut significa<lb ed="#PL" break="no"/>ret
+   etiam in ipso die festo qai celebrabatur a Judaeis, 
+   <lb ed="#PL"/> se occultari, et suum esse mysterium : hodierna ergo 
+   <lb ed="#PL"/> lectione apparnit potestas, quae putabatur timiditas ; 
+   <lb ed="#PL"/> loquebatur enim palam in dic festo, ita ut mirarentur 
+   <lb ed="#PL"/> turbae, et dicerent quod audivimus, cum lectio lege<lb ed="#PL" break="no"/>retur, <hi rend="italic">Nonne
+    hic eat quem quaerebant interficere? Et 
+   <lb ed="#PL"/> ecce</hi> palam <hi rend="italic">loquitur, et nihil</hi> illi <hi rend="italic">dicunt:</hi> numquid <hi rend="italic">vere</hi>
+   
+       <lb ed="#PL"/> cognoverunt <hi rend="italic">principes quia hic est Christus?</hi> Qui nove­
+   
+   <lb ed="#PL"/> rant qua saevitia quaerebatur, mirabantur qua potentia 
+   <lb ed="#PL"/> non tenebatur. Deinde non plene intelligentes illitis 
+   
+   <pb ed="#PL" n="1637"/>
+       <lb ed="#PL"/> potentiam, putaverunt principum esse scientiam, quod 
+   <lb ed="#PL"/> ipsi cognoverant eumdem esse Christum : ideo pe<lb ed="#PL" break="no"/>percerunt
+   ei, quem tantopereoccidendum quaesierunt.</p>
+      <p xml:id="iuy75t-d1e296-d1e188">2. Deinde illi ipsi apud seipsos, qui dixerant, 
+   <lb ed="#PL"/> Numquid <hi rend="italic">cognoverunt principes quia hic est</hi> Christus' 
+   <lb ed="#PL"/> lecerunt sibi quaestionem qua eis videretur non ipse 
+   <lb ed="#PL"/> esse Christus: adjungentes enim dixerunt, <hi rend="italic">Sed isium</hi>
+   
+       <lb ed="#PL"/> novimus unde sil; Christus autem <hi rend="italic">cum venerit, nemo</hi>
+   
+       <lb ed="#PL"/> scit unde sit. Haec opinio apud Judaeos unde nata fue<lb ed="#PL" break="no"/>rit, quod Christus <hi rend="italic">cum venerit,</hi> nemo <hi rend="italic">uit unde sit</hi> (non 
+   <lb ed="#PL"/> enim inaniter nata est); si consideremus Scripturas, in<lb ed="#PL" break="no"/>venimus, fratres, quoniam sanciae Scriptura: dixerunt 
+   <lb ed="#PL"/> de Christo, quomam Nazaroeus <hi rend="italic">vocabitur</hi> ( Math. <hi rend="italic">II,</hi>
+   
+       <lb ed="#PL"/> 25). Ergo praedixerunt unde sit. Rursus si locum na<lb ed="#PL" break="no"/>tivitatis
+   cjus quaeramus, tanquam inde sil ubi uatus 
+   <lb ed="#PL"/> est; nec boc latebat Judaeos, propter Scripturas quae
+   
+   <lb ed="#PL"/> ista praedixerant. Nam cum eum visa stella Magi quae<lb ed="#PL" break="no"/>rerent
+   adorare, venerunt ad Herodem, et dixerunt 
+   <lb ed="#PL"/> quid quaererent et quid vellent: ille autem convocatis 
+   <lb ed="#PL"/> eis qui Legein sciebant, quaesivit ab eis ubi Christus 
+   <lb ed="#PL"/> nasceretur
+   : illi dixerunt, <hi rend="italic">ln Bethlehem Judce;</hi> et te<lb ed="#PL" break="no"/>stimonium
+   etiam propheticum protulerunt <hi rend="italic">(Matth.</hi> II, 
+   <lb ed="#PL"/> 1.6). Si ergo Prophetae praedixerant et locum unde 
+   <lb ed="#PL"/> erat origo carnis ejus, et locum ubi eum peperit ma­
+   
+   <lb ed="#PL"/> ter ejus; unde nata est isia opinio apud Judaeos, 
+   <lb ed="#PL"/> quam modo audivimus, <hi rend="italic">Christus</hi> cum <hi rend="italic">venerit, nemo scit
+   <lb ed="#PL"/> unde
+    sil,</hi> nisi quia utrumque praedicaverant et prae<lb ed="#PL" break="no"/>nuntiaverant
+   Scripturae? Secundum hominem prae<lb ed="#PL" break="no"/>dixerant
+   Scripturae unde esset: secundum Deum late- 
+   <lb ed="#PL"/> I bat impios, et quaerebat pios. Ad boc enim et isti 
+   <lb ed="#PL"/> dixerunt, Christus cum venerit,
+    <hi rend="italic">nema scit unde ait;</hi> quia 
+   <lb ed="#PL"/> bane illis opinionem generaverat quod per Isaiam di<lb ed="#PL" break="no"/>ctum
+   est, Generationem autem. cjus quis <hi rend="italic">enarrabit (Isai</hi>
+   
+       <lb ed="#PL"/> UH, 8)? Denique et ipse Dominus ad utruMque respon<lb ed="#PL" break="no"/>dil, et quia noverant eum unde esset, et quia non no<lb ed="#PL" break="no"/>veraut; ut attestaretur prophetiae sanctae quae de ilo 
+   <lb ed="#PL"/> ante praedicta est, et secundum humanitatem infirmi<lb ed="#PL" break="no"/>tatis, et secundum divinitatem majestatis.</p>
+      <p xml:id="iuy75t-d1e296-d1e306">a. AuditeergoVerbum Domini, fratres, videte que<lb ed="#PL" break="no"/>madmodum
+   cenfirmavit eis et quod dixerunt, Istum 
+   <lb ed="#PL"/> novimus unde sit; * et quod dixerunt, « Christus 
+   <lb ed="#PL"/> cum venerit, nemo acH unde siL Clamabat ergo do<lb ed="#PL" break="no"/>cens
+   in templo Jesus : Et me scitis, et unde sim sci<lb ed="#PL" break="no"/>lis; et a meipse nou veni, aed est verus qui me mi<lb ed="#PL" break="no"/>ait , quem vos nescitis. &gt; Hoc est dicere, Et me sci<lb ed="#PL" break="no"/>'s, et me nescitis : hoc ext dieere, Et unde sim sci<lb ed="#PL" break="no"/>is, et unde sim nesciis. Uude sim scitis, Jesus a Na­
+   
+   <lb ed="#PL"/> vareth, cujas etiam parentes nostis. Solus enim in 
+   <lb ed="#PL"/> hac causa latebat virginis partus, cui tamen testis erat 
+   <lb ed="#PL"/> maritus : ipse enim hoe poterat fideliter indieare, qui 
+   <lb ed="#PL"/> possd moritaliter et zelare 1. Hoc ergo excepto virgi<lb ed="#PL" break="no"/>nis
+   partu, totum noverant in Jesu quod ad bominem 
+   <lb ed="#PL"/> pertiet: facies ipsius uota erat, patria ipsius nota 
+   <lb ed="#PL"/> erat, gewis ipsius notum erat, ubi natas est sciebatur. 
+   <lb ed="#PL"/> Recte ergo dixit, <hi rend="italic">El</hi> me <hi rend="italic">nostis,</hi> et unde simscitis , se<lb ed="#PL" break="no"/>cundum
+   carnem et effigiem hominis quam gerebat: 
+   <lb ed="#PL"/> secundum autem diviniiatem, <hi rend="italic">Et a me</hi> ipso non veni, 
+   
+   <lb ed="#PL"/>
+       <hi rend="italic">sed eat verus</hi> qui <hi rend="italic">me misit, quem</hi> vos <hi rend="italic">nescitis;</hi> sed ut 
+   <lb ed="#PL"/> eum sciatis, credite in cujn quem misit, et scietis. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Deum</hi> enim <hi rend="italic">nemo</hi> vidit <hi rend="italic">unquam, nisi unigenitus Filius 
+   <lb ed="#PL"/> qui eat in</hi> sinu <hi rend="italic">Patris
+    ipse enarravit (Joan.</hi> I, 18) : et, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Patrem non cognoscit</hi> nisi <hi rend="italic">Filius , et cui
+    voluerit Filius
+   <lb ed="#PL"/> revelare (Matth.</hi> XI ,27).</p>
+      <p xml:id="iuy75t-d1e296-d1e398">4. Denique cum dixisset, <hi rend="italic">Sed eat verus</hi> qui <hi rend="italic">misit 
+   <lb ed="#PL"/> me, quem</hi> vos <hi rend="italic">nescitis;</hi> ut ostenderet eis unde possent 
+   <lb ed="#PL"/> scire quod nesciebant, subjecit, <hi rend="italic">Ego scio eum.</hi> Ergo a 
+   <lb ed="#PL"/> me quaerite, ut sciatis eum. Quare autem scio eum* ? 
+   <lb ed="#PL"/>
+       <hi rend="italic">Quia ab ipso sum, et ipse me misit.</hi> Magnifice utrumque 
+   <lb ed="#PL"/> monstravit. <hi rend="italic">Ab ipso,</hi> inquit, sum; quia Filius de Pa<lb ed="#PL" break="no"/>tre, et quidquid est Filius, de illo est cujus est Fi<lb ed="#PL" break="no"/>lius. Ideo Dominum Jesum dicimus Deum de Deo; t'a- 
+   <lb ed="#PL"/> trem non dicimus Deum de Deo, sed tantum Deum : 
+   <lb ed="#PL"/> et dicimus Dominum Jesum Lumen de Lumine; Da<lb ed="#PL" break="no"/>trem
+   non dicimus Lumen de Lumine, sed tantum Lu<lb ed="#PL" break="no"/>men. Ad hoc ergo pertinet, quod dixit, <hi rend="italic">Ab ipso sum.</hi>
+   
+       <lb ed="#PL"/> Quod autem videtis me in carne, <hi rend="italic">ipse me misit.</hi> Ubi 
+   <lb ed="#PL"/> audis, <hi rend="italic">ipse me misit,</hi> noli intelligere naturae dissimili<lb ed="#PL" break="no"/>tudinem
+   , sed generantis auctoritatem.</p>
+      <p xml:id="iuy75t-d1e296-d1e459">5. <hi rend="italic">Quaerebant ergo eum apprehendere, et nemo misit</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">illum manus, quia nondum venerat hora ejus :</hi> hoc 
+   <lb ed="#PL"/> est, quia nolebat. Quid est enim, <hi rend="italic">nondum venerat hora
+   <lb ed="#PL"/> ejus?</hi> Non enim Dominus sub fato natus est. IIoc nec 
+   <lb ed="#PL"/> de te credendum est, nedum de illo I per quem fa<lb ed="#PL" break="no"/>ctus
+   es. Si tua hora voluntas est illius; illius hora quae 
+   <lb ed="#PL"/> est, nisi voluntas sua? Non ergo horam dixit qua co<lb ed="#PL" break="no"/>gcrelur
+   mori, sed qua dignaretur occidi. Tempus 
+   <lb ed="#PL"/> enim exspectabat quo moreretur, quia et tempus 
+   <lb ed="#PL"/> exspectavit quo nasceretur. De hoc tempore Aposto<lb ed="#PL" break="no"/>lus
+   loquens, ait : <hi rend="italic">Cum
+    autcm venit plenitudo temporis, 1</hi>
+   
+       <lb ed="#PL"/> misit <hi rend="italic">Deus</hi> Filium <hi rend="italic">suum (Galat.</hi> IV, 4). Ideo multi di<lb ed="#PL" break="no"/>cunt : Quare non ante venit Christus? Quibus re<lb ed="#PL" break="no"/>spondendum
+   est, quia nondum venerat plenitudo tem<lb ed="#PL" break="no"/>poris, moderante illo per quem facta sunt tempora : 
+   <lb ed="#PL"/> sciebat enim quando venire deberet. Primo per mul- 
+   <lb ed="#PL"/> Lim seriem temporum et annorum praedicendus fuit ; 
+   <lb ed="#PL"/> non enin aliquid parvum venturum fuit : diu fuerat 
+   <lb ed="#PL"/> praedicendus, semper tenendus. Quanto major judex 
+   <lb ed="#PL"/> veniebat, tanto praeconum longior series praecedebat. 
+   <lb ed="#PL"/> Dcniqne ubi venit plenitudo temporis, venitetille 
+   <lb ed="#PL"/> qui nos liberaret a tempore. Liberati enim a tempore, 
+   <lb ed="#PL"/> venturi sumus ad aeternitatem illam, ubi non est tem. 
+   <lb ed="#PL"/> pus : nec dicitur ibi, Quando veniet hora; dies csf 
+   <lb ed="#PL"/> enim sempiternus, qui nee praeceditur hesterno, nec 
+   <lb ed="#PL"/> excluditur crastino. In hoc autem sacculo volvuntur 
+   <lb ed="#PL"/> dies, et alii transcunt, et alii veniunt; nullus manet : 
+   <lb ed="#PL"/> et momenta quihus loquimur, inviccn sc expellunt, 
+   <lb ed="#PL"/> nec stat prima syllaba , ut sonare possit secunda. Ex 
+   <lb ed="#PL"/> quo loquimur aliquantum senuimus,etsine ulla dubi<lb ed="#PL" break="no"/>tatione
+   senior sum modo quam manc : ita nihil stat , 
+   <lb ed="#PL"/> nihil fixum manet in tempore. Amare itaque debemus 
+   <lb ed="#PL"/> perquem facta sunt tempora, ut liberemur a tempore, 
+   <lb ed="#PL"/> et figamur in aeternitate, ubi jam nulla est mutabili<lb ed="#PL" break="no"/>tas
+   temporum. Magna igitur misericordia Domini no<lb ed="#PL" break="no"/>stri
+   Jcsu Christi, factum esse eum propter nos in tem<lb ed="#PL" break="no"/>pore, per quem facta sunt tempora; factum esse in- 
+   
+   <pb ed="#PL" n="1639"/>
+       <lb ed="#PL"/> ter omnia, pcr quem facta sunt omnia : factum esso 
+   <lb ed="#PL"/> quod fecit. Factus est euim quod fecerat; factas est 
+   <lb ed="#PL"/> enim homo qui hominem fecerat, ne periret quod fe<lb ed="#PL" break="no"/>cerat. Secundum hanc dispensationem jam venerat 
+   <lb ed="#PL"/> hora nativitatis , et natus erat: sed nondum venerat 
+   <lb ed="#PL"/> hora passionis, ideo nondum passus erat1.</p>
+      <p xml:id="iuy75t-d1e296-d1e574">6. Denique ut noveritis non necessitatem , sed po- 
+   <lb ed="#PL"/> 1 testatem morientis <hi rend="italic">(a)</hi> : propter nonnullos hoc lo<lb ed="#PL" break="no"/>quor, qui cum audierint, <hi rend="italic">nondum venit hora</hi> ejus, 
+   <lb ed="#PL"/> aedificantur ad credenda fata , et fiunt corda eorum 
+   <lb ed="#PL"/> fatua : ut ergo noveritis potestatem morientis, ipsam 
+   <lb ed="#PL"/> passionem recolite, crucifixum intuemini. Dixit in 
+   <lb ed="#PL"/> ligno pendens, <hi rend="italic">Sitio.</hi> IUi hoc audito , in arundine per 
+   <lb ed="#PL"/> spongiam obtulerunt ei acetum in cruce : accepit, et 
+   <lb ed="#PL"/> ait, <hi rend="italic">Perfectum est;</hi> et inclinato capite, reddidit spiri<lb ed="#PL" break="no"/>tum. Videtis potestatem morientis, quia hoc exspe<lb ed="#PL" break="no"/>ctabat, donec omnia complerentur quae de illo prae<lb ed="#PL" break="no"/>dicta
+   fuerant ante mortem futura. Dixerat enim pro<lb ed="#PL" break="no"/>pheta : <hi rend="italic">Dederunt in escam meam
+    fel, ei in siti mea po<lb ed="#PL" break="no"/>taverunt
+   me aceto (Psal.</hi> LXVIII, 22). Exspectabat ut 
+   <lb ed="#PL"/> haec omnia complerentur : posteaquam completa 
+   <lb ed="#PL"/> sunt, dixit, <hi rend="italic">Perfectum est;</hi> et abscessit potestate, quia 
+   <lb ed="#PL"/> non venerat necessitate. Ideo quidam plus mirati sunt 
+   <lb ed="#PL"/> istam potestatem morientis, quam potentiam mira<lb ed="#PL" break="no"/>cula
+   facientis. Ventum est enim ad crucem, ut cor<lb ed="#PL" break="no"/>pora
+   deponerentur de ligno , quoniam sabbatum illu<lb ed="#PL" break="no"/>cescebal; et inventi sunt latrones viventes. Supplicium 
+   <lb ed="#PL"/> quippe crucis ideo durius erat, quia diutius cruciabat, 
+   <lb ed="#PL"/> et omnes crucifixi longa morte necabantur. Illi autem, 
+   <lb ed="#PL"/> ne remanerent in ligno, cruribus fractis coacti sunt 
+   <lb ed="#PL"/> mori, ut possent inde deponi. Dominus autem inven­
+   
+   <lb ed="#PL"/> tus est mortuus <hi rend="italic">(Joan.</hi> xix, 28-33),etadmirati sunt 
+   <lb ed="#PL"/> homines : et qui eum vivum contempserunt, mor<lb ed="#PL" break="no"/>tuum
+   sic admirati sunt, ut dicerent quidam, <hi rend="italic">Vere</hi> Fi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">lius Dei est hic (Matth.</hi> XXVII, 54). Undc est et illud , 
+   <lb ed="#PL"/> fratres, ubi ait quaerentibus se, <hi rend="italic">Ego</hi> sum; et illi retro 
+   <lb ed="#PL"/> redeuntes omnes ceciderunt <hi rend="italic">(Joan.</hi> XVIII, 6). Erat 
+   <lb ed="#PL"/> ergo in illo potestas summa. Nee hora cogebatur 
+   <lb ed="#PL"/> mori; sed horam exspectabat, qua opportune fieret 
+   <lb ed="#PL"/> voluntas, non qua inviti impleretur necessitas.</p>
+      <p xml:id="iuy75t-d1e296-d1e683">
+       <hi rend="italic">7. De turba autem</hi> multi <hi rend="italic">crediderunt in
+    eum.</hi> Humi<lb ed="#PL" break="no"/>les
+   ei pauperes salvos faciebat Dominus. Principes 
+   <lb ed="#PL"/> insaniebant; et ideo medicum non solum non agnosce<lb ed="#PL" break="no"/>bant, sed etiam occidere cupiebant. Erat quaedam 
+   <lb ed="#PL"/> turba quae suam aegritudinem cito vidit, et illius me<lb ed="#PL" break="no"/>dicinam
+   sine dilatione cognovit. Videte quid sibi 
+   <lb ed="#PL"/> dixerit turba ipsa commota miraculis : <hi rend="italic">Numquid 
+   <lb ed="#PL"/> Christus cum venerit, plura signa facturus
+    est ?</hi> Utique 
+   <lb ed="#PL"/> si- duo non erunt, hic est. Crediderunt ergo in eam 
+   <lb ed="#PL"/> dicentes ista.</p>
+      <p xml:id="iuy75t-d1e296-d1e714">8. Principes vero illi audita muhiludinfs fide, et eo 
+   <lb ed="#PL"/> murmure quo Christus glorificabatur, <hi rend="italic">miserunt</hi> mi<lb ed="#PL" break="no"/>nistros, <hi rend="italic">ut
+    apprehenderent eun.</hi> Quem apprehende<lb ed="#PL" break="no"/>rent ? Adhuc nolentem ? Quia ergo non poterant ap<lb ed="#PL" break="no"/>prehendere
+   nolentem, missi sunt ut audirent doccn<lb ed="#PL" break="no"/>tem. Quid docentem ? <hi rend="italic">Dicit ergo Jesus : Adhuc modi­
+   <lb ed="#PL"/> cum tempus vobiscum
+    sum.</hi> Quod modo vultis facere 
+   
+   
+   <lb ed="#PL"/> facturi estis, sed non modo; quia modo noto. Quare 
+   <lb ed="#PL"/> adhuc modo nolo ? Quia
+    <hi rend="italic">adhuc modicum tempus vobis­
+   <lb ed="#PL"/> cum</hi> sum <hi rend="italic">: et
+    tunc vado ad eum qui me misit.</hi> Implere 
+   <lb ed="#PL"/> debeo dispensationem meam, et sic pervenire ad 
+   <lb ed="#PL"/> passionem meam.</p>
+      <p xml:id="iuy75t-d1e296-d1e757">
+       <hi rend="italic">9.</hi> Quaeretis <hi rend="italic">vie, et non invenietis; et ubi
+    sum ego, 
+   <lb ed="#PL"/> vos non potestis venire.</hi> Hic jam resurrectionem suain 
+   <lb ed="#PL"/> praedixit : noluerunt enim agnoscere praesentem, et 
+   <lb ed="#PL"/> postea quaesierunt, cum viderunt in eum multitudinem 
+   <lb ed="#PL"/> jam credentem. Magna enim signa facta sunt, etiam 
+   <lb ed="#PL"/> cum Dominus resurrexit, et ascendit in coelum. Tunc 
+   <lb ed="#PL"/> per discipulos facta sunt magna; sed ille pcr ilius, qui 
+   <lb ed="#PL"/> et per seipsum : ipse quippe illis dixerat, <hi rend="italic">Sine me
+   <lb ed="#PL"/> nihil potestis facere (Joan.</hi> xv, 5). Quando claudus
+   
+   <lb ed="#PL"/> ille qui sedehat ad portam, ad vocem Petri surrexit, 
+   <lb ed="#PL"/> et suis pedibus ambulavit, ita ut homines mirarentur, 
+   <lb ed="#PL"/> sic eos allocutus est Petrus, quia non in sua potestate 
+   <lb ed="#PL"/> ista fecit, sed in virtute illius quem ipsi occiderunt 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Act.</hi> III, i 16). Multi compuncti dixerunt: <hi rend="italic">Quid facie­
+   <lb ed="#PL"/> mus (Id.</hi> n, 37)? Viderunt enim se ingenti crimine 
+   <lb ed="#PL"/> impietatis astrictos , quando illum occiderunt, quem 
+   <lb ed="#PL"/> venerari et adorare debuerunt
+   : et hoc putabant esse 
+   <lb ed="#PL"/> inexpiabile. Magnum enim facinus crat, cujus cons!­ 
+   <lb ed="#PL"/> deratio illos faceret desperare : sed non debebant de<lb ed="#PL" break="no"/>sperare, pro quibus in cruce pendens Dominus esi 
+   <lb ed="#PL"/> dignatus orare. Dixerat enim : <hi rend="italic">Pater,
+    ignosce illis, 
+   <lb ed="#PL"/> quia nesciunt quid faciunt (Luc.</hi> XXIII, 34). Videbat ' 
+   <lb ed="#PL"/> quosdam suos inter multos alienos; illis jam petebat 
+   <lb ed="#PL"/> veniam, a quibus adhuc accipiebat iujuriam. Non enim 
+   <lb ed="#PL"/> attendebat quod ab ipsis moriebatur, sed quia pro ipsis , 
+   <lb ed="#PL"/> moriebatur. Multum est quod illis concessum est, et ab i 
+   <lb ed="#PL"/> ipsis, et pro ipsis; ut nemo de sui peccati dimissione de<lb ed="#PL" break="no"/>speret, quando illi veniam meruerunt, qui Christum oc<lb ed="#PL" break="no"/>ciderunt. Mortuus est Cbristus pro nobis; sed numquid
+   
+   <lb ed="#PL"/> a nobis? At vero illi viderunt Christum suo scelere ino<lb ed="#PL" break="no"/>rientem ; et crediderunt in Christum suis sceleribus 
+   <lb ed="#PL"/> ignoscentem. Quousque biberent sanguinem quem 
+   <lb ed="#PL"/> fuderant, de sua salute desperaverunt. Ergo hoc dixit, 
+   <lb ed="#PL"/> Quaeretis <hi rend="italic">me, et non invenietis; et ubi</hi> sum <hi rend="italic">ego, vos non
+    
+   <lb ed="#PL"/> potestis venire</hi> : quia quaesituri illum erant post resur<lb ed="#PL" break="no"/>rectionem
+   compuncti. Nec dixit, ubi ero; sed, ubi 
+   <lb ed="#PL"/> sum. Semper enim ibi erat Christus, quo fuerat red<lb ed="#PL" break="no"/>diturus : sic enim venit, ut non recederet. Unde alio 
+   <lb ed="#PL"/> loco aih,
+    <hi rend="italic">Nemo ascendit</hi> in caelum, nisi qui <hi rend="italic">descendit
+    de
+   <lb ed="#PL"/> coelo,</hi> Filius <hi rend="italic">hominis,</hi> qtti <hi rend="italic">eat</hi> in <hi rend="italic">coelo (Joan.</hi> in , 13) ; 
+   <lb ed="#PL"/> non dixit, qui fuit in caelo. In terra loquebatur, et in 
+   <lb ed="#PL"/> coelo se esse dicebat. Sic venit, ut inde non abscede<lb ed="#PL" break="no"/>ret : sic rediit, ut nos non derclinqucret. Quid mira- ; 
+   <lb ed="#PL"/> mini? Deus hoc facit. Homo enim secundum corpus 
+   <lb ed="#PL"/> in loco est, et de loco migrat, et cum ad alium lo<lb ed="#PL" break="no"/>cum
+   venerit, in eo loco uude venit non erit : Deus 
+   <lb ed="#PL"/> autem implet omnia, et ubique totus est; non secun<lb ed="#PL" break="no"/>dum
+   spatia tenetur locis. Erat tamen Dominus Chri<lb ed="#PL" break="no"/>stus
+   secundum visibilem carnem in terra, secundum 
+   <lb ed="#PL"/> invisibilem majestatem in coelo et in terra : ideo ait, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ubi ego</hi> sum, <hi rend="italic">vos non potestis</hi> venire. Nec dixit, non 
+   <lb ed="#PL"/> poteritis; sed, <hi rend="italic">non potestis</hi> : tales enim tunc erant qui 
+   <lb ed="#PL"/> non possent. Nam ut sciatis non hoc ad desperatio<lb ed="#PL" break="no"/>nem
+   dictum, et discipulis suis dixit tale aliquid, <hi rend="italic">Quo</hi>
+   
+       <lb ed="#PL"/>
+       <pb ed="#PL" n="1641"/>
+       <hi rend="italic">ego vado, vos non potestis venire (Joan.</hi> XIII, 33) ; cum 
+   <lb ed="#PL"/> pro illis orans dixerit, <hi rend="italic">Pater, volo ut ubi ego sunt, et 
+   <lb ed="#PL"/> ipsi
+    sint mecum (Id.</hi> XVII, 24). Denique hoc Petro ex<lb ed="#PL" break="no"/>posuit, et ait illi : <hi rend="italic">Quo ego vado, non potes</hi> me <hi rend="italic">sequi 
+   <lb ed="#PL"/> modo;
+    sequeris autem postea (Id.</hi> XIII, 3G).</p>
+      <p xml:id="iuy75t-d1e296-d1e953">10. <hi rend="italic">Dixerunt ergo Judaei,</hi> non ad ipsum ; sed , <hi rend="italic">ad 
+   <lb ed="#PL"/> seipsos : Quo hic iturus est, quia non inveniemus</hi> eum ? 
+   <lb ed="#PL"/>
+       <hi rend="italic">numquid</hi> in <hi rend="italic">dispersionem Gentium</hi> iturus <hi rend="italic">eat, et doctu<lb ed="#PL" break="no"/>rus
+   Gentes?</hi> Non enim sciebant quod dixerunt; sed 
+   <lb ed="#PL"/> quia ille voluit, prophetaverunt. Iturus enim erat 
+   <lb ed="#PL"/> Dominus ad Gentes, non praesentia corporis sui, sed 
+   <lb ed="#PL"/> tamen pedibus suis. Qui erant pedes ejus? Quos pe­
+   
+   <lb ed="#PL"/> des conculcare volebat persequendo Saulus, quando 
+   <lb ed="#PL"/> ei caput clamavit: * Saule, Saule, quid me perse<lb ed="#PL" break="no"/>qucris, <hi rend="italic">(Act.</hi> ix, 4)? «Quis est hic sermo, quem dixit: 
+   <lb ed="#PL"/> Quaeretis me, et non invenietis; et ubi ego sum , vos
+   
+   <lb ed="#PL"/> non potestis venire ? » Unde hoc dixit Dominus, ne<lb ed="#PL" break="no"/>scierunt, et tamen aliquid quod futurum erat, nescien<lb ed="#PL" break="no"/>tes
+   praenuntiaverunt. Dixit enim hoc Dominus, quia 
+   <lb ed="#PL"/> locum, si tamen dicendus est locus, id est sinum Pa<lb ed="#PL" break="no"/>tris
+   unde nunquam discedit unigenitus Filius, non 
+   <lb ed="#PL"/> illi noverant; nec cogitare idonei erant ubi erat
+   
+   <lb ed="#PL"/> Christus, unde non recessit Christus; quo rediturus 
+   <lb ed="#PL"/> erat Christus, ubi manebat Christus. Unde hoc cordi 
+   <lb ed="#PL"/> humano cogitare, nedum lingua explicare' ? Hoc ergo 
+   <lb ed="#PL"/> illi nullo modo intellexerunt; et tamen ex hac occa<lb ed="#PL" break="no"/>sione
+   salutem nostram praedixerant, quod Dominus 
+   <lb ed="#PL"/> iturus esset ad dispersionem Gentium, et impleturus 
+   <lb ed="#PL"/> quod legebant et non intelligebant, <hi rend="italic">Populus quem
+    
+   <lb ed="#PL"/> non cognovi, servivit</hi> mihi, <hi rend="italic">in obauditu auris</hi> obau­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">divit</hi> mihi <hi rend="italic">(Psal.</hi> XVII, 45). Illi non audierunt in 
+   <lb ed="#PL"/> quorum oculis fuit; illi audierunt in quorum auribus 
+   <lb ed="#PL"/> sonuit.</p>
+      <p xml:id="iuy75t-d1e296-d1e1045">ii. Illius enim Ecclesiae venturac de Gentibus ty<lb ed="#PL" break="no"/>pum
+   gerebat mulier quae fluxum sanguinis patiebatur: 
+   <lb ed="#PL"/> tangebat, et non videbatur; nesciebatur, et sanaba<lb ed="#PL" break="no"/>tur.
+   Fignra quippeerat, quod Dominus interrogavit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Quis me</hi> tetigit ? Quasi ignorans ignoratam sanavit 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Luc.</hi> VIII, 43-48) : sic fecit et Gentibus. Non eum 
+   <lb ed="#PL"/> didicimus in carne, et meruimus carnem ejus man<lb ed="#PL" break="no"/>ducare, et in carne ejus membra esse. Quare? Quia 
+   <lb ed="#PL"/> misit ad nos. Quos ? Praecones suos, discipulos suos, 
+   <lb ed="#PL"/> servos suos , redemptos suos quos creavit, sed quos 
+   <lb ed="#PL"/> et redemit fratres suos : totum parum dixi: membra 
+   <lb ed="#PL"/> sua, seipsum; misit enim ad nos membra sua, et fecit
+   
+   <lb ed="#PL"/> nos membra sua. Tamen secundum speciem corporis 
+   <lb ed="#PL"/> quam Judaei viderunt et contempserunt, non apud - 
+   <lb ed="#PL"/> nos fuit Christus: quia et hoc de illo dictum erat, sie­
+   
+   <lb ed="#PL"/> ut et Apostolus dicit, <hi rend="italic">Dico enim Christum</hi> ministrum 
+   <lb ed="#PL"/> fuisse <hi rend="italic">circumcisionis propter</hi> veritatem <hi rend="italic">Dei, ad
+    confir­
+   <lb ed="#PL"/> mandas</hi> promissiones <hi rend="italic">pairum.</hi> Ad illos debuit venire, 
+   <lb ed="#PL"/> a quorum patribus et quorum patribus est promissus: 
+   <lb ed="#PL"/> ideo et ipse sic ait, <hi rend="italic">Non</hi> sum missus nisi <hi rend="italic">ad oves quae
+   <lb ed="#PL"/>
+    perierunt</hi> domus <hi rend="italic">Israel (Matth.</hi> xv, 24). Sed quid dicit
+   
+   <lb ed="#PL"/> Apostolus in sequenti? <hi rend="italic">Gentes autem super misericor<lb ed="#PL" break="no"/>dia
+    glorificare Deum (Rom.</hi> xv, 8, 9). Quid et ipse 
+   <lb ed="#PL"/> Dominus? <hi rend="italic">Habeo alias oves quae non</hi> sunt ex <hi rend="italic">hoc ovili</hi>
+   
+       <lb ed="#PL"/> tJoan. x, 16). Qui dixerat, <hi rend="italic">Non</hi> sum <hi rend="italic">missus nisi ad oves</hi>
+   
+   
+       <lb ed="#PL"/>
+       <hi rend="italic">quae perierunt domus Israel;</hi> quomodo habet alias oves 
+   <lb ed="#PL"/> ad quas non est missus, nisi quia significavit praesen<lb ed="#PL" break="no"/>tiam
+   corporalem non se missum exhibere nisi solis 
+   <lb ed="#PL"/> Judaeis, qui viderunt et occiderunt ? Et multi tamen 
+   <lb ed="#PL"/> inde et antea et postea crediderunt. Messis prima do 
+   <lb ed="#PL"/> cruce ventilata est, ut esset semen unde alia messis 
+   <lb ed="#PL"/> consurgeret. Nunc vero cum fama Evangelii et bono 
+   <lb ed="#PL"/> ejus odore excitati credunt fideles ejus per omnes 
+   <lb ed="#PL"/> gentes, erit exspectatio gentium , quando vcniat qui 
+   <lb ed="#PL"/> jam venit <hi rend="italic">(Gen.</hi> aux, 10); quando ab omnibus vidca<lb ed="#PL" break="no"/>tur, qui tunc a quibusdam visus non est, a quibusdam
+   
+   <lb ed="#PL"/> visus est; quando veniat judicaturus qui venit judicau<lb ed="#PL" break="no"/>dus; quando veniat discreturus, qui venit ut non discer<lb ed="#PL" break="no"/>neretur. Non enim ab impiis Christus est discretus, sed 
+   <lb ed="#PL"/> cum impiis judicatus : de illo enim dictum est, <hi rend="italic">Inter
+   <lb ed="#PL"/> iniquos rcputatus est (Isai.</hi> LIII, 12). Latro evasit: Chri<lb ed="#PL" break="no"/>stus
+   damnatus est <hi rend="italic">(Marc.</hi> xv, 15; <hi rend="italic">Joan.</hi> XVIII, 40). Ac<lb ed="#PL" break="no"/>cepit
+   indulgentiam criminosus, damnatus est qui om<lb ed="#PL" break="no"/>nium
+   crimina confitentium relaxavit. Tamen et ipsa 
+   <lb ed="#PL"/> crux, si attendas, tribunal fuit : in medio enim judice 
+   <lb ed="#PL"/> constituto, unus latro qui credidit liberatus <hi rend="italic">(Luc.</hi>
+   
+       <lb ed="#PL"/> XXIII, 43), aller qui insultavit damnatus est. Jam si<lb ed="#PL" break="no"/>gnificabat
+   quod facturus est de vivisetmortuis; alios 
+   <lb ed="#PL"/> positurus ad dexteram, alios ad sinistram
+   : similis ille 
+   <lb ed="#PL"/> latro futuris ad sinistram, similis alter futuris ad dex<lb ed="#PL" break="no"/>teram.
+   Judicabatur, et judicium minabatur.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

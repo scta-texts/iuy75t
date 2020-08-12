@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 62</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 62</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e549"> <!-- iuy75t-t62 -->
+      <head xml:id="iuy75t-d1e549-Hd1e109">Tractatus 62</head>
+      <p xml:id="iuy75t-d1e549-d1e112">
+       <hi rend="italic">Ab</hi> eo <hi rend="italic">quod scriptum est,</hi> Et cum tinxisset panem, de<lb ed="#PL" break="no"/>dit
+   Judae ; <hi rend="italic">usque ad id,</hi> Nunc clarificatus est Filius 
+   <lb ed="#PL"/> hominis. <hi rend="italic">Cap.</hi> XIII, f . 26-31.</p>
+      <p xml:id="iuy75t-d1e549-d1e132">i. Scio, charissimi, moveri posse nonnullos, sive 
+   <lb ed="#PL"/> pios ut requirant, sive impios ut reprehendant, quod 
+   <lb ed="#PL"/> posteaqualu panem tinctum traditori suo Dominus 
+   <lb ed="#PL"/> dedit, intraverit in illum satanas. Sic enim scriptum 
+   <lb ed="#PL"/> est : Ei cum <hi rend="italic">tinxisset panem, dedit Judae Simonis
+   <lb ed="#PL"/> Iscariotae ; et</hi> post <hi rend="italic">panem tunc</hi> introivit in illum satanas. 
+   <lb ed="#PL"/> Diount enim : Itane hoc meruit panis Christi porrectus 
+   <lb ed="#PL"/> de mensa Christi, ut post illum intraret in ejus disci-
+   
+   <lb ed="#PL"/> .polum satanas ? Quibus respoudcmus, hinc nos potius 
+   <lb ed="#PL"/> doceri quam sit cavendum male accipere bonum. 
+   <lb ed="#PL"/> Multum quippe interest, non quid accipiat, sed quis
+   
+   <lb ed="#PL"/> aceipiat; nec quale sit quod datur, sed qualis sit ipse 
+   <lb ed="#PL"/> cui datur. Nam et bona obsunt, et mala prosunt, sicut 
+   <lb ed="#PL"/> fuerint quibus dantur. <hi rend="italic">Peccatum,</hi> inquit Apostolus, 
+   <lb ed="#PL"/> ut <hi rend="italic">appareat peccatum,
+    per</hi> bonum <hi rend="italic">mihi operatum est</hi>
+   
+       <lb ed="#PL"/> mortem (Rom. vu, i3). Ecce per bonum factum est 
+   <lb ed="#PL"/> malum, dum male accipitur bonum. Itemque ipse ait, 
+   <lb ed="#PL"/> « In magnitudine revelationum mearum no extollar, 
+   <lb ed="#PL"/> datus est inibi stimulus carnis meae, angelus satanae 
+   <lb ed="#PL"/> qui me colaphizet. Propter quod ter Dominum rogavi, 
+   <lb ed="#PL"/> ut auferret eum a me, el dixit mihi: Sufficit tibi gra-
+   
+   <lb ed="#PL"/> Ii. mea; nam virtus in infirmitate perficitur » (II <hi rend="italic">Cor.</hi>
+   
+       <lb ed="#PL"/> XII, 7-9).Ecce per malum factum est bonum, dum 
+   <lb ed="#PL"/> hene accipitur malum. Quid ergo miraris si datus est 
+   <lb ed="#PL"/> JudiC panis Christi, per quem manciparetur diabolo;
+   
+   <lb ed="#PL"/> cum videas e conwario datum Paulo angelum diaboli, 
+   <lb ed="#PL"/> per quem perficeretur in Christo? Ila et malo bonum 
+   <lb ed="#PL"/> obsuit, et malum bono profuit. Recordamini undo sit
+   
+   <lb ed="#PL"/> scriptum, QuicUmque <hi rend="italic">manducaverit panem, aut biberit</hi>
+   
+       <lb ed="#PL"/> calicem <hi rend="italic">Domini indigne,</hi> reus <hi rend="italic">erit
+    corporisetsanguinis 
+   <lb ed="#PL"/> Domini</hi> (I <hi rend="italic">Cor.</hi> XI, 27). Et de his erat sermo, cum hoc 
+   <lb ed="#PL"/> Apostolus diceret, qui Domini corpus velut alium ci<lb ed="#PL" break="no"/>bum
+   quemlibet indiscrete negligenterque sumebant. 
+   <lb ed="#PL"/> Hic ergo si corripimur qui non dijudicat, hoc est, non 
+   <lb ed="#PL"/> disceruit a coeteris cibis Dominicum corpus; quo 
+   <lb ed="#PL"/> modo damnatur 1 qui ad ejus meusam fingens ami<lb ed="#PL" break="no"/>cum, accedit inimicus? Si reprehensione tangitur ne<lb ed="#PL" break="no"/>gligentia
+   convivantis, qua poena percutitur venditor
+   
+   <lb ed="#PL"/> invitanlis? Quid erat autem panis traditori datus, nist 
+   <lb ed="#PL"/> demonstratio cui gratiae fuisset ingratus?</p>
+      <p xml:id="iuy75t-d1e549-d1e250">i. Intravit ergo post hunc panem satanas in Do<lb ed="#PL" break="no"/>mini
+   traditorem, ut sibi jain traditum plenius possi<lb ed="#PL" break="no"/>deret, in quem prius intraverat ut deciperet. Neque 
+   <lb ed="#PL"/> enim non in illo erat quando perrexit ad Juda;os, et 
+   <lb ed="#PL"/> de <unclear>pretio</unclear> tradendi Domini pactus est, cum haec aper<lb ed="#PL" break="no"/>tissime
+   Lucas evangelista testeturetdicat: <hi rend="italic">Intravit 
+   <lb ed="#PL"/> autem satanas in Judam, qui cognominabatur
+    Iscario<lb ed="#PL" break="no"/>les,</hi> unum <hi rend="italic">de duodecim; et abiit, et loculus</hi> est cum 
+   <lb ed="#PL"/>
+       <hi rend="italic">principibus sacerdotum (Luc.</hi> XXII, 3 <hi rend="italic">et</hi> 4). Ecce ubi 
+   <lb ed="#PL"/> ostenditur quod jam intraverat satanas in Judam. 
+   <lb ed="#PL"/> Prius ergo intraverat, immittendo in cor ejus cogita<lb ed="#PL" break="no"/>tionem
+   qua traderet Christum : talis enim jam vene<lb ed="#PL" break="no"/>rat
+   ad coenandum. Nunc autem post panem intravit 
+   <lb ed="#PL"/> in eum, non ut adhuc alienum tentaret, sed ut pro<lb ed="#PL" break="no"/>prium
+   possidcrel.</p>
+      <p xml:id="iuy75t-d1e549-d1e299">3. Non autem, ut putant quidam negligenter legen<lb ed="#PL" break="no"/>tes, tunc Judas Christi corpus accepit. Intelligendum 
+   <lb ed="#PL"/> est enim quod jam omnibus eis distribuerat Dominus 
+   <lb ed="#PL"/> Sacramentum corporis et sanguinis sui, ubi et ipse 
+   <lb ed="#PL"/> Judas erat, sicut sanctus Lucas evidentissime narrat 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Ibid.,</hi> 19-21) : ac deinde ad hoc ventum est, ubi se<lb ed="#PL" break="no"/>cundum
+   narrationem Joannis apertissime Dominus per 
+   <lb ed="#PL"/> buccellam tinctam atque porrectam suum exprimit 
+   <lb ed="#PL"/> traditorem, fortassis per panis tinctionem illius signi­
+   
+   <lb ed="#PL"/> ficans fictionem Non enim omnia quae tinguntur, 
+   <lb ed="#PL"/> abluuntur; sed ut iuficiantur, nonnulla tinguntur. Si 
+   <lb ed="#PL"/> autem bonum aliquid hic significat tinctio, eidem bono 
+   <lb ed="#PL"/> ingratum non immerito est secuta damnatio.</p>
+      <p xml:id="iuy75t-d1e549-d1e331">4. Adhuc tamen Judae possesso, non a Domino, 
+   <lb ed="#PL"/> sed a diabolo, cum homini ingrato intrasset panis in 
+   <lb ed="#PL"/> ventrem, hostis in mentem : adhuc, inquam, tanti mali 
+   <lb ed="#PL"/> jam corde concepti plenus restabat effectus, cujus 
+   <lb ed="#PL"/> jam praecesserat damnandus affectus. Itaque cum 
+   <lb ed="#PL"/> Dominus panis vivus panem mortuo tradidisset, et 
+   <lb ed="#PL"/> panem tradeudo panis traditorem ostendisset: <hi rend="italic">Quoa</hi>
+   
+       <lb ed="#PL"/> facis, inquit, <hi rend="italic">fac</hi> citius. Non praecepit facinus ; sed 
+   <lb ed="#PL"/> pradixit Judae malum, nubis bonam. Quid enim Judae 
+   <lb ed="#PL"/> pcjus, et quid nobis mclius quam traditus Christus, 
+   <lb ed="#PL"/> ab illo adversus illum, pro nobis praeter illum? Quod 
+   <lb ed="#PL"/>
+       <hi rend="italic">facis, fac citius.</hi> 0 verbum libentius parati, quam 
+   <lb ed="#PL"/> irati! o verbum non tam poe£nam exprimens prodito­ 
+   
+   
+   
+   <pb ed="#PL" n="1803"/>
+       <lb ed="#PL"/> ris, quam mercedem signilicans Redemptoris ! Dixit 
+   <lb ed="#PL"/> enim , <hi rend="italic">Quod facis, fac</hi> cillica, non tam in perniciem 
+   <lb ed="#PL"/> perfidi saeviendo, quam ad salutem fidelium festi<lb ed="#PL" break="no"/>nando ; quia traditus est propter delicta nostra <hi rend="italic">(Rom.</hi>
+   
+       <lb ed="#PL"/> IV, 25), ctdilexit Ecclesiam, et semetipsum tradidit 
+   <lb ed="#PL"/> pro ca <hi rend="italic">(Ephes.</hi> v, 23). Unde et dc seipso dicit Apo<lb ed="#PL" break="no"/>stolus : <hi rend="italic">Qui dilexit</hi> me, <hi rend="italic">et</hi> tradidit <hi rend="italic">seipsum pro me
+   <lb ed="#PL"/> (Galat.</hi> II, 20). Nisi ergo se naderet Christus, nemo 
+   <lb ed="#PL"/> traderet Christum. Quid habel Judas, nisi peccatum ? 
+   <lb ed="#PL"/> Neque enin in tradendo Christo salutem nostram 
+   <lb ed="#PL"/> cogitavit, propter quam traditus est Cbristus, scd co<lb ed="#PL" break="no"/>gilavil
+   pecuniae lucrum, et iuvcnit animae detrimen<lb ed="#PL" break="no"/>tum. Accepit mercedem quam voluit, sed nolenti est 
+   <lb ed="#PL"/> data quam meruit. Tradidit Judas Christum, tradidit 
+   <lb ed="#PL"/> Christus scipsum : ille agebat negotium suae venditio<lb ed="#PL" break="no"/>nis, iste nostrae redemptionis. <hi rend="italic">Qnod facis, lac citius,</hi>
+   
+       <lb ed="#PL"/> non quia tu potes, sed quia hoc vult qui totum 
+   <lb ed="#PL"/> potest.</p>
+      <p xml:id="iuy75t-d1e549-d1e432">5. Hoc autem <hi rend="italic">nemo scivil discumbentium ad quid
+   <lb ed="#PL"/> dixerit ei.
+    Quidam cnim putabant, quia loculos habebat 
+   <lb ed="#PL"/> Judas, quia dicit ei Jesus,</hi> Eme
+    <hi rend="italic">ea quae</hi> opus sunt <hi rend="italic">nobis</hi>
+   
+       <lb ed="#PL"/> ad <hi rend="italic">diem festum; aut egenis</hi> ut <hi rend="italic">aliquid
+    daret.</hi> Habehat 
+   <lb ed="#PL"/> ergo et Dominus loculus, el a fidelibus oblata couser<lb ed="#PL" break="no"/>vans,
+   et suorum nccessitatibus et aliis indigentibus 
+   <lb ed="#PL"/> tribuebat. Tunc primum ecclesiasticae pecuniae forma 
+   <lb ed="#PL"/> est instituta, ubi intelligeremus quod praecepit non
+   
+   <lb ed="#PL"/> cogitandum esse cle crastino <hi rend="italic">(Matth.</hi> VI, 54), non ad 
+   <lb ed="#PL"/> hoc I'uisse praeceptum, ut nihil pecuniae servetur a 
+   <lb ed="#PL"/> sanctis ; sed nc Deo pro ista serviatur, et propter 
+   <lb ed="#PL"/> inopiae timorem justitia deseratur. NametApostolus 
+   <lb ed="#PL"/> in posterum providens, ait : <hi rend="italic">Si quis fidelis habet</hi> vi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">duas, sufficienter tribuat eis, ut non gravetur Ecclesia, 
+   <lb ed="#PL"/> quo
+    veris viduis sufficere possit</hi> ( I <hi rend="italic">Tim.</hi> v, 16 ).</p>
+      <p xml:id="iuy75t-d1e549-d1e493">6. <hi rend="italic">Cum ergo accepisset ille</hi> buccellam, <hi rend="italic">exiit
+    continuo. 
+   <lb ed="#PL"/> Erat autem nox,</hi> Et ipse qui exivit, erat nox. <hi rend="italic">Cum 
+   <lb ed="#PL"/> ergo exisset</hi> nox, <hi rend="italic">ait Jesus: Nunc clarificatus
+    eat</hi> tilius 
+   <lb ed="#PL"/>
+       <hi rend="italic">hominis.</hi> Dies ergo diei eructavit verbum, id cst, 
+   <lb ed="#PL"/> Christus discipulis fidelibus, ut audirent eum,etama<lb ed="#PL" break="no"/>rent
+   sequendo ; et nox nocti annuntiavit scientiam 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Paal.</hi> XVIII, 3), id est, Judas Judocisinfidclibus, ut ve<lb ed="#PL" break="no"/>nirent
+   ad cum,etapprehenderent persequendo. Sed 
+   <lb ed="#PL"/> jam hinc in sermonem Domini, qui factus est ad pios, 
+   <lb ed="#PL"/> antequam teneretur ab impiis, intentior flagitatur 
+   <lb ed="#PL"/> auditor; et idco eum praecipitare non debet, sed dif<lb ed="#PL" break="no"/>ferre
+   potius disputator.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

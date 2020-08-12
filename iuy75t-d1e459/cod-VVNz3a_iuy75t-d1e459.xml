@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 51</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 51</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e459"> <!-- iuy75t-t51 -->
+      <head xml:id="iuy75t-d1e459-Hd1e109">Tractatus 51</head>
+      <p xml:id="iuy75t-d1e459-d1e112">
+       <hi rend="italic">Ab eo quod</hi> scriptum est, In crastinum autem turba 
+   <lb ed="#PL"/> multa quae venerat ad diem festum, <hi rend="italic">etc., usque ad</hi>
+   
+       <lb ed="#PL"/> id, Si quis mihi ministraverit, honorificabit illum 
+   <lb ed="#PL"/> Pater meus. <hi rend="italic">Cap.</hi> XII, f . 12-26.</p>
+      <p xml:id="iuy75t-d1e459-d1e131">i. Posteaquam Dominus quatriduanum mortuum 
+   <lb ed="#PL"/> suscitavit, stupentibus Judaeis, et aliis eorum videndo 
+   <lb ed="#PL"/> credentibus, aliis invidendo percuntibus, propter 
+   <lb ed="#PL"/> odorem bonum, qui est aliis ad vitam, aliis ad mor<lb ed="#PL" break="no"/>tem (II <hi rend="italic">Cor.</hi> II, 15); posteaquam discubuit in domo 
+   <lb ed="#PL"/> cum recumbente- Lazaro, qui fuerat mortuus suscita<lb ed="#PL" break="no"/>tus, post unguentum effusura super pedes ejus, unde 
+   <lb ed="#PL"/> domus odore completa est; posteaquam vanamsaevi<lb ed="#PL" break="no"/>tiam, et stultissimum et dementissimum scelus Judxi 
+   <lb ed="#PL"/> etiam de occidendo Lazaro corde perdito concepe<lb ed="#PL" break="no"/>runt; de quibus omnibus ut potuimus, quod Dominus 
+   <lb ed="#PL"/> dedit, snperioribus sermonibus locuti sumus : nunc 
+   <lb ed="#PL"/> intendat Charitas vestra, ante Domini passionem 
+   <lb ed="#PL"/> quantus fructus apparuerit praedicationis ejus, et quan<lb ed="#PL" break="no"/>tus
+   grex ovium ex his quae perierant domus Israel, 
+   <lb ed="#PL"/> vocem pastoris audierit.</p>
+      <p xml:id="iuy75t-d1e459-d1e169">2. Sic enim loquitur Evangelium, quod modo cum 
+   <lb ed="#PL"/> recitaretur, audistis : <hi rend="italic">In crastinum autem turba multa 
+   <lb ed="#PL"/> quae venerat ad diem festum, cum
+    audissent quia venit 
+   <lb ed="#PL"/> Jesus Jerosolymam</hi> , aCceperunt <hi rend="italic">ramos
+    palmarum, et 
+   <lb ed="#PL"/> processerunt obviam ei, et clamabant, Hosanna, bene<lb ed="#PL" break="no"/>dictus
+    qui venit in nomine Domini,</hi> rex <hi rend="italic">Israel.</hi> Rami 
+   <lb ed="#PL"/> palmarum laudes sunt, significantes victoriam ; quia 
+   <lb ed="#PL"/> erat Dominas mortem moriendo superaturus, et tro<lb ed="#PL" break="no"/>paeo
+   crucis de diabolo mortis principe triumphaturus. 
+   <lb ed="#PL"/> Vox autem obsecrantis est, Hosanna, sicut nonnulli 
+   <lb ed="#PL"/> dicant qui Hebraeam linguam noVerunt, magis affectum 
+   <lb ed="#PL"/> indicans, quam rem aliquam significans : sicut sunt 
+   <lb ed="#PL"/> in lingua latina quas interjectiones vocant, velut 
+   <lb ed="#PL"/> cum dolentes dicimus, Heu I vel cum delectamur , 
+   <lb ed="#PL"/> Vah! dicimus; vel cum miramur, dicimus, 0 rem ma<lb ed="#PL" break="no"/>gnam ! tunc enim, 0, nihil significat, nisi mirantis 
+   <lb ed="#PL"/> affectum. Quod ideo credendam est ita esse, quia ne<lb ed="#PL" break="no"/>que
+   Graecos, neque Latinus hoc interpretari potuit: 
+   <lb ed="#PL"/> sicut illud, <hi rend="italic">Qui dixerit fratri</hi> suo, <hi rend="italic">Racha
+    (Matth.</hi> v, 
+   <lb ed="#PL"/> 22). Nam et haec interjectio esse perhibetur. affectum 
+   <lb ed="#PL"/> indignantis ostendens. 
+   
+   <pb ed="#PL" n="1765"/>
+       <lb ed="#PL"/>
+       <hi rend="italic">rex Israel,</hi> sic potius accipiendum cst, ut in nomine 
+   <lb ed="#PL"/> Domini, in nomine Dci Patris intelligatur : quamvis 
+   <lb ed="#PL"/> possit intelligi etiam in nomine suo, quia et ipse Do<lb ed="#PL" break="no"/>minus
+   est. Unde et alibi scriptum est, <hi rend="italic">Pluit Dominus 
+   <lb ed="#PL"/> a Domino (Gen.</hi> xix, 24). Sed verba ejus melius no<lb ed="#PL" break="no"/>strum
+   dirigunt intellectum, qni ait : <hi rend="italic">Ego veni</hi> in <hi rend="italic">no<lb ed="#PL" break="no"/>mine
+   Patris mei, et non suscepistis me : alius veniet</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">nomine suo, hunc suscipietis (Joan.</hi> v, 43). Humilitatis 
+   <lb ed="#PL"/> enim magister est Christus, qui humiliavit semct<lb ed="#PL" break="no"/>ipsum, factus obediens usque ad mortem, mortem au<lb ed="#PL" break="no"/>tem
+   crucis <hi rend="italic">(Philipp.</hi> II, 8). Non itaque amittit divi<lb ed="#PL" break="no"/>nitatem, quando nos docet humilitatem : in illa est 
+   <lb ed="#PL"/> Patri aequalis, in hac nobis similis : pcr quod Patri 
+   <lb ed="#PL"/> est aequalis, nos ut essemus creavit
+   ; per quod nobis 
+   <lb ed="#PL"/> est similis, ne pcrircmus redemit.</p>
+      <p xml:id="iuy75t-d1e459-d1e284">4. Has ei laudes turba dicebat, <hi rend="italic">Hosanna, benedictus
+   <lb ed="#PL"/> qui
+    venit</hi> in <hi rend="italic">nomine Domini, rex Israel.</hi> Quam crucem 
+   <lb ed="#PL"/> mntis invidentia principum Judaeorum perpeti po<lb ed="#PL" break="no"/>terat, quando regem suum Christum tanta multitudo 
+   <lb ed="#PL"/> clamabat? Sed quid fuit Domino regem esse Israel ? 
+   <lb ed="#PL"/> Quid magnum fuit regi saeculorum, regem fieri homi<lb ed="#PL" break="no"/>num? Non enim rex Israel Christus ad exigendum 
+   <lb ed="#PL"/> tributum, vel exercitum ferro armandum, hostesque 
+   <lb ed="#PL"/> visibiliter debellandos : sed rex Israel, quod mentes 
+   <lb ed="#PL"/> regat, quod in aeternum consulat, quod in regnum 
+   <lb ed="#PL"/> coelorum credentes, sperantes, amantesque perducat. 
+   <lb ed="#PL"/> Dei ergo Filius aequalis Patri, Verbum per quod facta 
+   <lb ed="#PL"/> sunt omnia, quod rex esse voluit Israel, dignatio est, 
+   <lb ed="#PL"/> non promotio; miserationis indicium est, non potesta<lb ed="#PL" break="no"/>tis
+   augmentum I. Qui enim appellatus est in terra rex 
+   <lb ed="#PL"/> Judaeorum, in coelis est Dominus Angelorum.</p>
+      <p xml:id="iuy75t-d1e459-d1e325">5. <hi rend="italic">Et invenit Jesus asellum, et sedit super eum.</hi> Hic 
+   <lb ed="#PL"/> breviter dictum est : nam quemadmodum sit factum, 
+   <lb ed="#PL"/> apud alios evangelistas plenissime legitur <hi rend="italic">(Matth. XXI,</hi>
+   
+       <lb ed="#PL"/> 1-16; <hi rend="italic">Marc.</hi> xi, i-ii, <hi rend="italic">et Luc.</hi> XIX, 29-48). Adhibetur 
+   <lb ed="#PL"/> autem huic facto propheticum testimonium, ut appa<lb ed="#PL" break="no"/>rerct
+   quod maligni principesJudacorumeum non intel<lb ed="#PL" break="no"/>ligebant, in quo implebantur quae lcgebant. <hi rend="italic">Invenit</hi>
+   
+       <lb ed="#PL"/> ergo <hi rend="italic">Jesus</hi> asellum, <hi rend="italic">et sedit super eum
+    :</hi> sicut <hi rend="italic">scriptum
+   <lb ed="#PL"/> est, Noli timere, filia</hi> Sion <hi rend="italic">: ecce rex</hi> tuus <hi rend="italic">venit sedens
+   <lb ed="#PL"/> super
+    pullum</hi> asince. In illo ergo populo erat filia Sion : 
+   <lb ed="#PL"/> ipsa est Jerusalem quae Sion. In illo, inquam, populo 
+   <lb ed="#PL"/> reprobo et caeco, erat tamen filia Sion, cui diceretur, 
+   <lb ed="#PL"/> Noli <hi rend="italic">timere : ecce rex tuus venit sedens super
+    pullum</hi>
+   
+       <lb ed="#PL"/> asinae. Haec filia Sion cui divinitus ista dicuntur, in 
+   <lb ed="#PL"/> illis erat ovibus quae vocem pastoris audiebant; in illa 
+   <lb ed="#PL"/> erat multitudine quae Dominum venientem tanta de<lb ed="#PL" break="no"/>votione
+   laudabat, tanto agmine deducebat. Ei di<lb ed="#PL" break="no"/>ctum
+   cst, <hi rend="italic">Noli</hi> timere : illum agnosce qui a te lauda<lb ed="#PL" break="no"/>tur, et noli trepidare cum patitur; quia ille sanguis 
+   <lb ed="#PL"/> funditur, per quem tuum delictum deleatur, et vita 
+   <lb ed="#PL"/> r reddatur. Sed pullum asinae in quo nemo sederat 
+   <lb ed="#PL"/> (hoc enim apud alios evangelistas invenitur) intelli<lb ed="#PL" break="no"/>gimus
+   populum Gentium, qui Legem Domini non ac<lb ed="#PL" break="no"/>cepcrat. Asinam vero (quia utrumque jumentum Do<lb ed="#PL" break="no"/>mino
+   adductum est) plebem ejus quae veniebat ex 
+   <lb ed="#PL"/> populo Israe!, non indomitam plane, sed quae praesepe 
+   <lb ed="#PL"/> Domini agnovit. 
+  </p>
+      <p xml:id="iuy75t-d1e459-d1e422">6. <hi rend="italic">Haec non cognoverunt</hi>
+       <hi rend="italic">discipuli ejus primum :
+    scd 
+   <lb ed="#PL"/> quando glorificatus est Jesus,</hi> id cst, quando virtutem 
+   <lb ed="#PL"/> sum resurrectionis ostendit : <hi rend="italic">tunc recordati stint quia 
+   <lb ed="#PL"/> haec scripta
+    erant de eo, et lucc fecerunt</hi> ei, hi cst, non 
+   <lb ed="#PL"/> alia fccerunt ei, quam illa quaeerant scripta de co- 
+   <lb ed="#PL"/> Recolentes quippe secumlum Scripturnm, quae ante 
+   <lb ed="#PL"/> passionem Domini, vel in p assione Domini completa 
+   <lb ed="#PL"/> sunt, ibi et hoc invenerunt qu od secundum eloquia 
+   <lb ed="#PL"/> Prophetarum in pullo asinae scderit.</p>
+      <p xml:id="iuy75t-d1e459-d1e451">i. <hi rend="italic">Testimonium ergo perhibebat turba quae erat cum
+   <lb ed="#PL"/> eo quando
+    Lazarum vocavit de monumento, et suscita­</hi>
+   
+       <lb ed="#PL"/> vit <hi rend="italic">cum a mortuis. Propterea et obviam venit ei turba , 
+   <lb ed="#PL"/>
+    quia audierunt eum fecisse hoc signum.</hi> Pharisaei <hi rend="italic">ergo 
+   <lb ed="#PL"/>
+    dixerunt ad semetipsos : Videtis quia nihil</hi> proficimus t 
+   <lb ed="#PL"/>
+       <hi rend="italic">ecce mundus totus post eum abiit.</hi> Turha turbavit tur<lb ed="#PL" break="no"/>bam. Quid autem invides, caeca turba, quia post eum 
+   <lb ed="#PL"/> abit mundus, per quem factus est mundus?</p>
+      <p xml:id="iuy75t-d1e459-d1e481">8. c Erantantem Gentiles quidam, ex iis qui ascen<lb ed="#PL" break="no"/>derant
+   ut adorarunt in dic festo. Hi ergo accesserunt 
+   <lb ed="#PL"/> • ad Philippum, qui erat a Bethsaida Galilaeae, et roga­
+   
+   <lb ed="#PL"/> bant eum, dicentes : Domine, volumus Jesum videre. 
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> Venit Philippus, et dicit Andreae : Andreas rursum et 
+   <lb ed="#PL"/> Philippus dicunt Jesu.
+   &gt; Audiamus quid Dominus ad 
+   <lb ed="#PL"/> ista responderit. Ecce volunt eum Judaei occidere,
+   
+   <lb ed="#PL"/> Gentiles videre : sed etiam illi ex Judaeis erant qui 
+   <lb ed="#PL"/> clamabant, <hi rend="italic">Benedictus qui venit in nomine Domini, rex 
+   <lb ed="#PL"/> Israel.</hi> Ecce illi ex circumcisione, illi ex praeputio, 
+   <lb ed="#PL"/> velut parietes duo de diverso venientes, et in unam 
+   <lb ed="#PL"/> fidem Christi pacis osculo concurrentes : audiamus 
+   <lb ed="#PL"/> ergo vacem lapidis angularis. <hi rend="italic">Jesus autem,</hi> inquit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">respondit eis dicens : Venit hora ut glorificetur Filius
+   <lb ed="#PL"/>
+    hominis.</hi> Hic quisquam forsitan putat ideo se dixisse 
+   <lb ed="#PL"/> glorificatum, quia Gentiles enm volebant videre. Noti 
+   <lb ed="#PL"/> ila est. Sed videbat ipsos Gentiles post passionem et 
+   <lb ed="#PL"/> resurrectionem suam in omnibus gentibus credituros : 
+   <lb ed="#PL"/> quia, sicut dicit Apostolus, <hi rend="italic">Caecitas ex parte in Israel' 
+   <lb ed="#PL"/> facta est
+    donec plenitudo Gentium intraret (Rom.</hi>
+   
+       <lb ed="#PL"/> XI, 25). Ex occasione igitur istorum Gentilium qui 
+   <lb ed="#PL"/> eum videre cupiebant, annuntiat futuram plenitudinem 
+   <lb ed="#PL"/> Gentium; cl promittit jam jamque adesse horam glo­
+   
+   <lb ed="#PL"/> rificationis suae, qua facta incoelis, Gentes fuerant 
+   <lb ed="#PL"/> crediturae. Unde <hi rend="italic">praedictum est, Exaltare super caelos,
+   <lb ed="#PL"/> Deus, et super omnem terram
+    gloria tua (Psal.</hi> CVII, 6). 
+   <lb ed="#PL"/> Haec est Gentium plenitudo, de qua dicit Apostolus, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Caecitas ex parte in Israel facta est, donec plenitudo 
+   <lb ed="#PL"/> Gentium
+    intraret.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e459-d1e565">9. Sed altitudiuem glorificationis oportuit ut pracc<lb ed="#PL" break="no"/>dcret
+   humilitas passionis : ideo secatus adjunxit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Amen, amen dico</hi> vobis, <hi rend="italic">nisi granum frumenti
+    cadens in 
+   <lb ed="#PL"/> terram,</hi> mortuum <hi rend="italic">fuerit,</hi> ipsum <hi rend="italic">solum manet :</hi> si <hi rend="italic">autem 
+   <lb ed="#PL"/> mortuum fuerit,
+    multum fructum affert.</hi> Se autem dice<lb ed="#PL" break="no"/>bat. Ipsum erat granum mortificandum et muJtiplican<lb ed="#PL" break="no"/>dum
+   mortificandum infidclitate Judaeorum, multipli- 
+   <lb ed="#PL"/> - candum fide populorum.</p>
+      <p xml:id="iuy75t-d1e459-d1e599">Jumvero exhortans ad passionis suae sectanda 
+   <lb ed="#PL"/> vestigia : <hi rend="italic">Qui
+    amat,</hi> inquit, animam <hi rend="italic">luam, perdet
+   <lb ed="#PL"/> eam.</hi> Quod duobus modis intelligi potest : Qui <hi rend="italic">amat,</hi>
+   
+   
+       <lb ed="#PL"/>
+       <pb ed="#PL" n="1767"/>
+       <hi rend="italic">perdet,</hi> id est, Si amas, perde; si cupis vitam tenere 
+   <lb ed="#PL"/> in Christo, noli mortem timere pro Christo. Item alio 
+   <lb ed="#PL"/> niodo : <hi rend="italic">Qui
+    amat animam suam,</hi> perdet <hi rend="italic">eam.</hi> Noli 
+   <lb ed="#PL"/> amare, ne perdas: noli amare in hac vita, ne perdas 
+   <lb ed="#PL"/> in uterna vita. Hoc autem quod postertus dixi, magis , 
+   <lb ed="#PL"/> habere videtur evangelicus sensus : sequitur enim, <hi rend="italic">Et
+    
+   <lb ed="#PL"/> qui odit</hi> animam <hi rend="italic">suam</hi> in <hi rend="italic">hoc mundo,
+    in vitam</hi> aeternam 
+   <lb ed="#PL"/>
+       <hi rend="italic">custodiet eam.</hi> Ergo quod supra dictum est, <hi rend="italic">Qui
+    amat,</hi>
+   
+       <lb ed="#PL"/> subintelligitur, in hoc mundo ; ipse utique perdet : 
+   <lb ed="#PL"/> qui autem <hi rend="italic">odit,</hi> utique in hoc mundo, in vitam aLternam 
+   <lb ed="#PL"/> ipse custodiet. Magna et mira sententia, quemadmo<lb ed="#PL" break="no"/>dum
+   sit hominis in animam suam amor ut pereat,
+   
+   <lb ed="#PL"/> odium ne pereat! Si male amaveris, tunc odisti : si 
+   <lb ed="#PL"/> bene oderis, tunc amasti. Felices qui odcrunt custo<lb ed="#PL" break="no"/>diendo, ne perdant amando. Sed vide ne tibi subrepat 
+   <lb ed="#PL"/> ut teipsum velis interimere, sic intelligendo quod 
+   <lb ed="#PL"/> debes odisse in hoc mundo animam tuam. Hinc enim 
+   <lb ed="#PL"/> quidam maligni atque perversi, ei in seipsis crude<lb ed="#PL" break="no"/>liores
+   et sceleratiores homicidae, flammis se donant, 
+   <lb ed="#PL"/> aquis praefocant, praecipitio collidunt, et pcreunt. Hoc 
+   <lb ed="#PL"/> Christus'non docuit, imo etiam diabolo praecipitium 
+   <lb ed="#PL"/> suggerenti respondit : <hi rend="italic">Redi retro, satanas;
+    scriptum 
+   <lb ed="#PL"/> est, Non tentabis Dominum Deum tuum (Matth.</hi> IV, 7). 
+   <lb ed="#PL"/> Petro autem dixit, significans qua morte glorificaturus 
+   <lb ed="#PL"/> erat Deum : <hi rend="italic">Cum esses</hi> junior, <hi rend="italic">cingebas te, et ibas quo 
+   <lb ed="#PL"/> volebas;</hi> cum <hi rend="italic">autem senueris, alter te cinget, et feret quo</hi>
+   
+       <lb ed="#PL"/> tu <hi rend="italic">non vis (Joan.</hi> XXI, 18,19). Ubi salis expressit, nun
+   
+   <lb ed="#PL"/> a scipso, sed ab alio debere occidi, qui vestigia sequi<lb ed="#PL" break="no"/>tur
+   Christi. Cum ergo causae articulus venerit, ut 
+   <lb ed="#PL"/> haec conditio proponatur, aut faciendum esse contra 
+   <lb ed="#PL"/> Dei praeceptum, aut ex hac vita emigrandum, quorum 
+   <lb ed="#PL"/> duorum homo cogatur alterum eligere, comminante 
+   <lb ed="#PL"/> mortem persecutore; ibi eligat Deo dilecto emori, 
+   <lb ed="#PL"/> quam offenso vivere: ibi oderit in hoc mundo animam 
+   <lb ed="#PL"/> suam, ut in vitam aeternam custodiat eam.</p>
+      <p xml:id="iuy75t-d1e459-d1e737">ii. Si <hi rend="italic">quis mihi ministrat,</hi> me <hi rend="italic">sequatur.</hi> Quid est, 
+   <lb ed="#PL"/>
+       <hi rend="italic">me sequatur;</hi> nisi, me imitetur ? <hi rend="italic">Christus enim
+    pro 
+   <lb ed="#PL"/> nobis</hi> passus <hi rend="italic">eat,</hi> ait apostolus Petrus, relinquens <hi rend="italic">nobis 
+   <lb ed="#PL"/> exemplum, ut sequamur</hi> vestigia <hi rend="italic">ejus</hi> ( I <hi rend="italic">Petr.</hi> n, 21). 
+   <lb ed="#PL"/> Ecce quod dictum est, Si quis <hi rend="italic">mihi ministrat, me</hi> se­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">qualur.</hi> Quo frucLu? qua mercede? quo praemio? <hi rend="italic">Et
+   <lb ed="#PL"/> ubi</hi> sum, inquit, <hi rend="italic">ego, illic et</hi> minister meus <hi rend="italic">erit.</hi> Gratis 
+   <lb ed="#PL"/> ametur, ut operis I quo ministratur illi , pretium sit 
+   <lb ed="#PL"/> I esse cum illo. Ubi enim bene erit sine illo, aut quando 
+   <lb ed="#PL"/> * esse male poterit cum illo? Audi evidentius. Si <hi rend="italic">quis 
+   <lb ed="#PL"/> mihi
+    ministraverit, honorificabit</hi> eum <hi rend="italic">Pater meus.</hi> Quo 
+   <lb ed="#PL"/> honore, nisi ut sit cum Filio ejus? Quod enim supe<lb ed="#PL" break="no"/>rius
+   ait, <hi rend="italic">Ubi ego sum,</hi> illic, <hi rend="italic">et minister</hi> meus <hi rend="italic">erit;</hi> hoc 
+   <lb ed="#PL"/> intelligitur exposuisse cum dicit, <hi rend="italic">honorificabit</hi> eum 
+   <lb ed="#PL"/>
+       <hi rend="italic">Pater</hi> meus. Nam quem majorem bonorem accipere 
+   <lb ed="#PL"/> poterit adoptatus, quam ut sit ubi est Unicus; non 
+   <lb ed="#PL"/> aequalis factus divinitati, sed consociatus aeternitati?</p>
+      <p xml:id="iuy75t-d1e459-d1e837">12. Quid sit autem ministrare Christo, cui operi 
+   <lb ed="#PL"/> merces tanta proponitur, hoc potius debemus inqui<lb ed="#PL" break="no"/>rere. Si enim hoc putaverimus esse Christo ministrare, 
+   <lb ed="#PL"/> ea quae sunt corpori necessaria praeparare, aut coe<lb ed="#PL" break="no"/>nanti
+   cibum coquere vel apponere, vel poculum dare 
+   <lb ed="#PL"/> potumque miscere; fecerunt hoc illi qui potuerunt 
+   
+   <lb ed="#PL"/> eum in corpore habere praesentem, sicut Martha et 
+   <lb ed="#PL"/> Maria, quandoetLazarus unus erat ex recumben<lb ed="#PL" break="no"/>tibus. Sed eo modo Christo etiam Judas perditus 
+   <lb ed="#PL"/> ministravit; nam et loculos ipse habebat: et quamvis 
+   <lb ed="#PL"/> ex cis quae mittebantur sceleratissime furaretur, per 
+   <lb ed="#PL"/> illum tamen etiam necessaria parabantur <hi rend="italic">(loan.</hi> XII, 
+   <lb ed="#PL"/> 2, 6). Hinc est illud quod cum ei diceret Dominus, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Quod facia, fac celeriter;</hi> arbitrati sunt quidam, quod 
+   <lb ed="#PL"/> cum jusserit propter diem festum necessaria praepa<lb ed="#PL" break="no"/>rare, vel indigentibus aliquid dare
+    <hi rend="italic">(Id.</hi> XIII, 27, 29). 
+   <lb ed="#PL"/> Nullo modo igitur de hujuscemodi ministris diceret 
+   <lb ed="#PL"/> Dominus, <hi rend="italic">Ubi</hi> surn <hi rend="italic">ego,</hi> ibi <hi rend="italic">erit et minister meus;</hi> et, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Si quis mihi ministravent, honorificabit eum Pater
+   <lb ed="#PL"/> meus:</hi> quoniam Judam talia ministrantem, reprobatum 
+   <lb ed="#PL"/> potius quam honoratum vidImus. Utquid ergo alibi 
+   <lb ed="#PL"/> quaerimus quid sit ministrare Christo, et non potius 
+   <lb ed="#PL"/> in istis ipsis verbis agnoscimus ? Cum enim dixit, Si 
+   <lb ed="#PL"/>
+       <hi rend="italic">quis mihi ministrat, me sequatur;</hi> hoc intelligi voluit, 
+   <lb ed="#PL"/> ac si diceret, Si quis me non sequitur, non mihi mini<lb ed="#PL" break="no"/>strat. Ministrant ergo Jesu Christo, qui non sua quae<lb ed="#PL" break="no"/>runt, sed quae Jesu Christi <hi rend="italic">(Philipp.</hi> II, 21). Hoc est 
+   <lb ed="#PL"/> enim, <hi rend="italic">me sequatur,</hi> vias ambulet meas, non suas : 
+   <lb ed="#PL"/> sicut alibi scriptum est, <hi rend="italic">Qui se dicit
+    in Christo manere, 
+   <lb ed="#PL"/> debet sicut ambulavit ille, et ipse ambulare ( I Joan.</hi>
+   
+       <lb ed="#PL"/> II, 6). Debet etiam, si porrigit esurienti panem, de 
+   <lb ed="#PL"/> misericordia facere, non de jactantia; non aliud ibi 
+   <lb ed="#PL"/> quaerere quam opus bonum, nesciente sinistra quid
+   
+   <lb ed="#PL"/> faciat dextera <hi rend="italic">(Matth.</hi> VI, 3), id est, ut alienetur in­
+   
+   <lb ed="#PL"/> tentio cupiditatis ab opere charitatis. Qui sic ministrat, 
+   <lb ed="#PL"/> Christo ministrat; recteque illi dicetur, <hi rend="italic">Cum</hi> uni em 
+   <lb ed="#PL"/>
+       <hi rend="italic">minimis</hi> meis <hi rend="italic">fecisti,</hi> nulli <hi rend="italic">fecisti (Id.XXV,</hi> 40). Nec tantum 
+   <lb ed="#PL"/> ea quae ad misericordiam pertiuent corporalem, sed 
+   <lb ed="#PL"/> omnia bona opera pronter Christum faciens (tunc erunt
+   
+   <lb ed="#PL"/> v cnim bona, quoniam <hi rend="italic">finis Legis Christus, ad justitiam 
+   <lb ed="#PL"/>
+    omni credenti (Rom.</hi> x, 4), minister est Christi usque ad 
+   <lb ed="#PL"/> illud opus magnae charitatis, quod est animam suam 
+   <lb ed="#PL"/> pro fratribus ponere : hoc est enim et pro Christo 
+   <lb ed="#PL"/> ponere. Quiaethoc propter sua membra dicturus est : 
+   <lb ed="#PL"/> Cum pro istis fecisti, pro me fecisti. De tali quippe 
+   <lb ed="#PL"/> opere etiam se ministrum facere et appellare dignatus 
+   <lb ed="#PL"/> est, ubi ait: <hi rend="italic">Sicut Filius hominis non venit
+    ministrari,
+   <lb ed="#PL"/> sed ministrare, et animam suam ponere pro mu/tis 
+   <lb ed="#PL"/> , (Matth.</hi> xx, 2S). Hine est ergo unusquisque minister 
+   <lb ed="#PL"/> Christi, unde est minister et Christus. Sic mini<lb ed="#PL" break="no"/>strantem
+   Christo honorificabit Pater ejus, honore illo 
+   <lb ed="#PL"/> magno, ut sit cum Filio ejus, nec unquam deficiat 
+   <lb ed="#PL"/> felicitas ejus.</p>
+      <p xml:id="iuy75t-d1e459-d1e1008">13. Cum ergo auditis, fratres, Dominum dicentem, j 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ubi ego sum, illic et minister meus erit ;</hi> nolite tautum<lb ed="#PL" break="no"/>modo
+   bonos episcopos et clericos cogitare. ,Eliam vos 
+   <lb ed="#PL"/> pro modo vestro ministrate Chiisto, bene vivendo, 
+   <lb ed="#PL"/> eleemosynas faciendo, nomen doctrinamque ejus qui<lb ed="#PL" break="no"/>bus
+   potueritis praedicando ; ut unusquisque etiam pa<lb ed="#PL" break="no"/>terfamilias
+   hoc nomine agnoscat paternum affectum 
+   <lb ed="#PL"/> suae familiae se debere. Pro Christo et pro vita aeterna, 
+   <lb ed="#PL"/> suos omnes admoneat, doceat, hortetur, corripiat; 
+   <lb ed="#PL"/> impendat benevolentiam, exerceat disciplinam : ita in 
+   <lb ed="#PL"/> domo sua ecclesiasticum et quodammodo cpiscopale i 
+   <lb ed="#PL"/> implebit officium, ministrans Christo ut in aeternum. 
+   <lb ed="#PL"/> t 
+   <pb ed="#PL" n="1769"/>
+       <lb ed="#PL"/> sit cum ipso. Nam et illam maximam passionis mini<lb ed="#PL" break="no"/>strationem
+   multi ex vestro numero ministrarunt: 
+   <lb ed="#PL"/> multi non episcopi neque clerici, juvenes et virgines, 
+   <lb ed="#PL"/> seniores cum junioribus, multi conjugati et conjugatae, 
+   <lb ed="#PL"/> inulti patres matresquc familias Christo ministrantes, 
+   <lb ed="#PL"/> etiam animas suas in ejus martyrio posuerunt, et hono<lb ed="#PL" break="no"/>rificante
+   Patre coronas gloriosissimas receperunt.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

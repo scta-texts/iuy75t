@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 122</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 122</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e1039"> <!-- iuy75t-t122 -->
+      <head xml:id="iuy75t-d1e1039-Hd1e109">Tractatus 122</head>
+      <p xml:id="iuy75t-d1e1039-d1e112">
+       <hi rend="italic">De eo quod sequitur,</hi> Multa quidemetalia signa fecit 
+   <lb ed="#PL"/> Jesus ; <hi rend="italic">usque ad</hi> id , Et cum tanti essent, non est 
+   <lb ed="#PL"/> scissum rete. <hi rend="italic">Cap.</hi> xx, £ f. 30, 31, <hi rend="italic">et cap.</hi> xxi,
+   
+   <lb ed="#PL"/> f. i-ii.</p>
+      <p xml:id="iuy75t-d1e1039-d1e134">i. Post narrationem rei gestae , in qua Thomas 
+   <lb ed="#PL"/> discipulus oblatis sibi tangendis in Christi carne vul<lb ed="#PL" break="no"/>neruin
+   locis, vidit quod credere nolebat et credidit ; 
+   <lb ed="#PL"/> interponit haec evangelista Joannes,etdicit: &lt; Multa 
+   <lb ed="#PL"/> quidem et alia signa fecit Jesus in conspectu discipu<lb ed="#PL" break="no"/>lorum
+   suorum, qum non sunt scripta in libro hoc.
+   
+   <lb ed="#PL"/> Haec autem scripta sunt, ut credatis quia Jesus est 
+   <lb ed="#PL"/> Christus Filius Dei; et ut ci edentes, vitam habeatis 
+   <lb ed="#PL"/> ill nomine ejus. &gt; Hoc capitulum velut libri hujus indi<lb ed="#PL" break="no"/>cat
+   finem : sed narratur hic deinde quemadmodum se 
+   <lb ed="#PL"/> manifestaverit Dominus ad mare Tiberiadis, ei in 
+   <lb ed="#PL"/> captura piscium commendaverit Ecclesiae sacramcn<lb ed="#PL" break="no"/>tuin , qualis futura est ultima resurrectione mortuo<lb ed="#PL" break="no"/>rum1.
+   Ad hoc itaque commendandum valere arbi<lb ed="#PL" break="no"/>tror, quod tanquam finis interpositus est libri, quod 
+   <lb ed="#PL"/> esset etiam secuturae narrationis quasi prooemium,
+   
+   <lb ed="#PL"/> quod ei quodammodo faceret eminentiorem locum, 
+   <lb ed="#PL"/> qua* narratio incipit ita :
+   &lt; Postea manifertavit se 
+   <lb ed="#PL"/> iterum Jesus ad mare Tiberiadis; manifestavit autem
+   
+   <lb ed="#PL"/> sic: Erant simul Simon PetrusetThomas qui dicitur 
+   <lb ed="#PL"/> Didymus, et Nathanael qui erat a Cana Galilaeae, et 
+   <lb ed="#PL"/> filii Zebedaei,etalii ex discipulis ejus duo. Dicit eis 
+   <lb ed="#PL"/> Simon Petrus : V ado piscari. Dicunt ei : Venimus et 
+   <lb ed="#PL"/> nos tecum. »</p>
+      <p xml:id="iuy75t-d1e1039-d1e186">2. QuaTi solet de hac piscatione discipulorum, 
+   <lb ed="#PL"/> cur redierint Petrusetfilii Zebedaei ad id quod fue<lb ed="#PL" break="no"/>runt
+   priusquam a Domino vocarentur: erant enim 
+   <lb ed="#PL"/> piscatores quando eis dixit, <hi rend="italic">Venite post me, et faciam
+   <lb ed="#PL"/> vos
+    piscatores hominum (Matth.</hi> IV, 19). Tunc eum 
+   <lb ed="#PL"/> quippe illi secuti sunt, ut magisterio ejus relictis omni<lb ed="#PL" break="no"/>bus
+   adhaererent : in tantum ut cum ab eo dives ille
+   
+   <lb ed="#PL"/> tristis abscederet, cui dixerat, <hi rend="italic">Vade, vende quae</hi> ha­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">bes, et da pauperibus</hi> , et <hi rend="italic">habebis thesaurum in
+    caelo ;
+   <lb ed="#PL"/> et veni,</hi> sequere <hi rend="italic">me,</hi> diceret ei Petrus, <hi rend="italic">Ecce nos</hi> dimi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">simus</hi> omnia, <hi rend="italic">et secuti</hi> sumus te <hi rend="italic">(ld.</hi> xix, 21 , 22, 27). 
+   <lb ed="#PL"/> Quid est ergo quod nunc quasi Apostolatu relicto fiunt 
+   <lb ed="#PL"/> quod fuerunt, et quod dimiserant repetunt, tanquam 
+   <lb ed="#PL"/> obliti quod audicrant, <hi rend="italic">Nemo</hi> ponens <hi rend="italic">manum
+    super
+   <lb ed="#PL"/> aratrum, et respiciens retro, aptus est regno</hi> caelorum 
+   
+   <lb ed="#PL"/>
+       <hi rend="italic">(Luc.</hi> IX, 62)? Quod si fecissent defuncto Jesu, 
+   <lb ed="#PL"/> priusquam resurrexisset a mortuis : quod quidem non 
+   <lb ed="#PL"/> poterant, quoniam dies quo crucifixus est, totos eos 
+   <lb ed="#PL"/> tenebat attentos, usque ad ejus sepulturam, quae ante 
+   <lb ed="#PL"/> vesperam facta est; sequens autem dies erat sabbati, 
+   <lb ed="#PL"/> quando eis morem patrium servantibus , operari uti. 
+   <lb ed="#PL"/> que non licebat; tertio vero die Dominus resurrexit, 
+   <lb ed="#PL"/> eosque revocavit ad spem quam de illo non habere 
+   <lb ed="#PL"/> jam coeperant: tamen si tunc fecissent, putaremus 
+   <lb ed="#PL"/> eos illa quae animos eorum occupaverat, desperatione 
+   <lb ed="#PL"/> fecisse. Nunc vero post eum sibi de sepulcro reddi<lb ed="#PL" break="no"/>tum
+   vivum, post oblatam suis oculis et manibus, noM 
+   <lb ed="#PL"/> solum videndam, verum etiam tangendam atque pal<lb ed="#PL" break="no"/>pandam
+   redivivae carnis evidentissimam veritatem; 
+   <lb ed="#PL"/> post inspecta vulnerum loca, usque ad apostoli 
+   <lb ed="#PL"/> Thomae confessionem, qui se aliter crediturum non 
+   <lb ed="#PL"/> esse praedixerat; post acceptum ejus <unclear>insuflatione</unclear>
+   
+       <lb ed="#PL"/> Spiritum sanctum, post verba in suas aures ejus ore 
+   <lb ed="#PL"/> prolata, Sicut misit <hi rend="italic">me Pater, et ego mitto</hi> vos : <hi rend="italic">quo<lb ed="#PL" break="no"/>rum
+    remiseritis peccata, remittuntur eis, et</hi> quorum 
+   <lb ed="#PL"/>
+       <hi rend="italic">retinueritis, retenta sunt</hi> (Joan. xx, 21-23): subito (iunt 
+   <lb ed="#PL"/> sicut fuerant, non hominum, sed piscium piscatores.</p>
+      <p xml:id="iuy75t-d1e1039-d1e318">5. His ergo quos hoe movet respondendum est, 
+   <lb ed="#PL"/> non eos fuisse prohibitos arte sua, licita scilicet at<lb ed="#PL" break="no"/>que
+   concessa, victuM necessarium quaerere, sui 
+   <lb ed="#PL"/> Apostolatus integritate servata, si quando unde vive<lb ed="#PL" break="no"/>rent
+   aliud nOD haberent. Nisi forte quispiam putare 
+   <lb ed="#PL"/> audebit aut dicere, apostolum Paulum non pertinuisse
+   
+   <lb ed="#PL"/> ad eorum perfectionem qui relictis omnibus Christum 
+   <lb ed="#PL"/> secuti sunt, quoniam ne quemquam eorum gravaret 
+   <lb ed="#PL"/> quibus Evangelium praedicabat, suum victum suis 
+   <lb ed="#PL"/> manibus transigebat (II <hi rend="italic">Thess.</hi> III , 8) : ubi magis im<lb ed="#PL" break="no"/>pletum
+   est quod ait, <hi rend="italic">Plus</hi> omnibus <hi rend="italic">illis
+    laboravi;</hi>et
+   <lb ed="#PL"/> adjunxit, Non <hi rend="italic">autem ego, sed gratia Dei
+    mecum</hi> ( I 
+   <lb ed="#PL"/>
+       <hi rend="italic">Cor.</hi> xv, 10) : ut hoc quoque appareat Dei gratiae de<lb ed="#PL" break="no"/>putandum,
+   quod et animo et corpore poterat usque 
+   <lb ed="#PL"/> adeo plus illis omnibus laborare, ut necque cessaret 
+   <lb ed="#PL"/> ab Evangelio praedicando, neque tamen ex Evange<lb ed="#PL" break="no"/>lio, sicut illi, sustentaret hanc vitam; cum id per tut 
+   <lb ed="#PL"/> gentes in quibus Christi nomen non fuerat propheta<lb ed="#PL" break="no"/>tum
+   I, multo latius atque fertilius seminaret. Ubi 
+   <lb ed="#PL"/> ostendit ex Evangelio vivendi, hoc est victum ha<lb ed="#PL" break="no"/>bendi, non necessitatem Apostolis impositam, sed 
+   <lb ed="#PL"/> potestatem datam. Quam potestatem commemorat 
+   <lb ed="#PL"/> idem apostolus dicens : &lt; Si uos vobis spiritualia se<lb ed="#PL" break="no"/>minavimus, magnum est si vestra carnalia metamus? 
+   <lb ed="#PL"/> Si alii potestatis vestne participant, non niagis nos?
+   
+   <lb ed="#PL"/> Sed non umus, &gt; inquit, i usi bac potestate. &gt; Et 
+   <lb ed="#PL"/> paulo post: &lt; Qui altari serviunt, &gt; inquit, I altari com<lb ed="#PL" break="no"/>partiuntur; sic et Dominus ordinavit liis qui Evange<lb ed="#PL" break="no"/>lium
+   annuntiant, de Evangelio vivere: ego autem nullo 
+   <lb ed="#PL"/> horum usus sum. i Satis igitur apertum est, non ian<lb ed="#PL" break="no"/>peratum, sed in potestate Apostolis positum, ut aliunde 
+   <lb ed="#PL"/> non viverent nisi ex Evangelio, etab eisquibus Evange<lb ed="#PL" break="no"/>lium
+   predicando spiritualia seminabant, carnalia mete<lb ed="#PL" break="no"/>reni; hoc est, carnis hujus sustentaculum sumerent,et
+   <lb ed="#PL"/> tanquam milites Christi stipendium debit um acciperent,
+    
+   
+   <pb ed="#PL" n="1961"/>
+       <lb ed="#PL"/> sicut a provincialibus Christi (a). Unde idem ipse 
+   <lb ed="#PL"/> niiles egregius paulo superius de hac re dixerat, <hi rend="italic">Quis</hi>
+   
+       <lb ed="#PL"/> milital suis stipendiis <hi rend="italic">unquam (I Cor.</hi> IX, 41-15, 7)? 
+   <lb ed="#PL"/> Quod tamen ipse faciebat , quia plus illis omnibus la<lb ed="#PL" break="no"/>borabat. Si ergo beatus Paulus ut ea potestate, quam 
+   <lb ed="#PL"/> profecto cum caeteris Evangelii pradicatoribns habe­
+   
+   <lb ed="#PL"/> bat, non cum caeteris uleretur, sed suo stipendio In i- 
+   <lb ed="#PL"/> litaret, ne gentes a nomine Christi penitus alienas 
+   <lb ed="#PL"/> doctrina rjus quasi venalis offenderet, aliter educa<lb ed="#PL" break="no"/>lus, artem quam non noverat didicit, ut dum suis 
+   <lb ed="#PL"/> manibus transigitur doctor, nullus gravaretur audi<lb ed="#PL" break="no"/>tor; quanto magis beatus Petrus, qui jam piscator
+   
+   <lb ed="#PL"/> fuerat, quod noverat fccit, si ad praeseus illud tem<lb ed="#PL" break="no"/>pus, aliud unde viveret, non invenit?</p>
+      <p xml:id="iuy75t-d1e1039-d1e449">4. Sed respondebit quispiam : Et cur non invenit, 
+   <lb ed="#PL"/> cum Dominus promiserit dicens,
+    <hi rend="italic">Quarite primum re­</hi>
+   
+       <lb ed="#PL"/> gnum <hi rend="italic">et justitiam Dei, et haec omnia apponentur vobis 
+   <lb ed="#PL"/>
+    (Matth.</hi> VI, 33) ? Prorsus etiam sic Dominus quod 
+   <lb ed="#PL"/> promisit implevit. Nam quis alius pisces qui caperen­ 
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> tur apposuit? qui non ob aliud credendus est eis in<lb ed="#PL" break="no"/>gessisse
+   penuriam qua compellerentur ire piscatum, 
+   <lb ed="#PL"/> nisi dispositum volens exhibere miraculum: ut simul
+   
+   <lb ed="#PL"/> et priedicatores Evangelii sui pasceret, et ipsum 
+   <lb ed="#PL"/> Evangelium tanto sacramento quod erat de numcro 
+   <lb ed="#PL"/> piscium commendaturusaugeret. De qua re etiam nos
+   
+   <lb ed="#PL"/> quod ipse apposuerit, dicere jam debemus.</p>
+      <p xml:id="iuy75t-d1e1039-d1e484">5. Dicit ergo <hi rend="italic">Simon</hi> Petrus : <hi rend="italic">Vado piscari.
+    Dicunt</hi>
+   
+       <lb ed="#PL"/> ei qui cum illo erant : <hi rend="italic">Venimus et nos tecum.</hi> Et exie­
+   
+   <lb ed="#PL"/> runt <hi rend="italic">et ascenderunt in navem: et illa nocte nihil</hi> appre­
+   
+   <lb ed="#PL"/> henderunt. <hi rend="italic">Mane autem jam facto</hi> stetil Jesus in <hi rend="italic">lillore;</hi>
+   
+       <lb ed="#PL"/> non <hi rend="italic">tamen cognoverunt discipuli quia Jesus est. Dicit 
+   <lb ed="#PL"/> ergo
+    eia Jesus : Pueri, numquid pulmentarium habetis ? 
+   <lb ed="#PL"/> Responderunt</hi> ei : <hi rend="italic">Non. Dicit eia : Mittite in dexteram</hi>
+   
+       <lb ed="#PL"/> navigii <hi rend="italic">rete, et invenietis. Miserunt ergo, et jam non</hi> va­
+   
+   <lb ed="#PL"/> lebant <hi rend="italic">illud trahere a</hi> multitudine <hi rend="italic">piscium. Dicit ergo 
+   <lb ed="#PL"/> discipulus ille quem diligebat Jesus, Petro : Dominus</hi>
+   
+       <lb ed="#PL"/> est. <hi rend="italic">Simon Petrus cum audisset quia</hi> Dominus est, tu­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">nica</hi> succinxit <hi rend="italic">se, erat</hi> enim <hi rend="italic">nudus, et</hi> misit se <hi rend="italic">in mare.
+   <lb ed="#PL"/> Alii autem
+    discipuli navigio venerunt (non enim longe 
+   <lb ed="#PL"/> erant a terra, sed quasi cubitis</hi> ducentis, <hi rend="italic">trahentes rete
+   <lb ed="#PL"/> piscium. Ut ergo descenderunt in terram,
+    viderunt pru<lb ed="#PL" break="no"/>nas
+   positas, et piscem</hi> superpositum , <hi rend="italic">et
+    panem. Dicit 
+   <lb ed="#PL"/> eis Jesus: Afferte de piscibus quos apprehendistis nunc. 
+   <lb ed="#PL"/>
+    Ascendit Simon Petrus, ei traxit rete in terram</hi> plenum 
+   <lb ed="#PL"/> magnis <hi rend="italic">piscibus centum quinquaginta tribus. Et cum 
+   <lb ed="#PL"/> tanti essent, non</hi> eat scissum <hi rend="italic">rete.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e1039-d1e589">6. Hoc est magnum sacralneutum in magno Joannis 
+   <lb ed="#PL"/> Evangelio; et ut vehementius commendaretur, loco 
+   <lb ed="#PL"/> ultimo scriptum. Quod ergo septem discipuli fuerunt 
+   <lb ed="#PL"/> in ista piscatione, Petrus, et Thomas, et Nathanael, 
+   <lb ed="#PL"/> et duo filii Zebedaei, et alii duo quorum nomina ta<lb ed="#PL" break="no"/>centur, isti suo septenario numcro finem significant 
+   <lb ed="#PL"/> temporis. Universum quippe septem diebus volvitur 
+   <lb ed="#PL"/> tempus. Ad hoc pertinet quod mane facto Jesus stetit 
+   
+   <lb ed="#PL"/> in littore; quia etiam littus finis eat maris, et ideo ft. 
+   <lb ed="#PL"/> nem significat saeculi. Eumdem finem saeenti ostendit 
+   <lb ed="#PL"/> et quod Petrus rete extraxit in terra n, hoc est in lit. 
+   <lb ed="#PL"/> tus. Quod ipse Dominus aperuit, uhi alio quodam loco 
+   <lb ed="#PL"/> de sagena in mare missa similitudinem dedit : <hi rend="italic">Et eam
+   <lb ed="#PL"/> trahunt,</hi> inquit,
+    <hi rend="italic">ad littus.</hi> Quod littus quid esset expo<lb ed="#PL" break="no"/>nens, ait : <hi rend="italic">Sic erit in consummatione saeculi (Matth.</hi>
+   
+       <lb ed="#PL"/> XIII, 48, 49).</p>
+      <p xml:id="iuy75t-d1e1039-d1e633">7. Sed illa verbi est, noN rei gestae parabola : re 
+   <lb ed="#PL"/> autem gesta, sicut hoc loco qualiter in saeculi fine tu<lb ed="#PL" break="no"/>tura
+   sit, ita Dominus alia piscatione significavit Ec­
+   
+   <lb ed="#PL"/> clesiam qualiter nunc sit. Quod autem illud fecit in 
+   <lb ed="#PL"/> initio praedicationis suae, hoc vero post resurrectio<lb ed="#PL" break="no"/>nem
+   suam, hinc ostendit illam capturam piscium,
+   
+   <lb ed="#PL"/> bonos et malus significare, quos nunc habet Ecclesia; 
+   <lb ed="#PL"/> istam vero tantummodo bonos, quos habebit in aeter<lb ed="#PL" break="no"/>num, completa in fine hujus saeculi resurrectione
+   
+   <lb ed="#PL"/> mortuorum. Denique ibi Jesus non sicut hic in littore 
+   <lb ed="#PL"/> stabat, quando jussit pisces capi; sed <hi rend="italic">ascendens in
+   <lb ed="#PL"/> unam navim quae erat</hi> Simonis,
+    <hi rend="italic">rogavit eum</hi> ut <hi rend="italic">a terra 
+   <lb ed="#PL"/> reduceret
+    pusillum; et</hi> in <hi rend="italic">ea sedens docebat turbas.</hi> Ut 
+   <lb ed="#PL"/>
+       <hi rend="italic">cessavit autem loquit dixit ad Simonem : Duc in altum, 
+   <lb ed="#PL"/> et laxate
+    retia vestra in capturam.</hi> Et illic quod captum 
+   <lb ed="#PL"/> est piscium in naviculis fuit, non sicut hic rete ex<lb ed="#PL" break="no"/>traxerunt
+   in terram. Ilis signis et si qua alia potuerint 
+   <lb ed="#PL"/> reperiri, ibi Ecclesia in hoc saeculo, hic vero in fine 
+   <lb ed="#PL"/> saeculi figurata est : idco illud ante , hoc amem post 
+   <lb ed="#PL"/> resurrectionem Domini factum est; quia ibi nos Chri<lb ed="#PL" break="no"/>stus
+   significavit vocatos, hic resuscitatos. Ibi retia non
+   
+   <lb ed="#PL"/> mittuntur in dexteram, ne solos significent bonos, 
+   <lb ed="#PL"/> nec in sinistram , ne solos malos; sed indifferenter, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Laxate,</hi> inquit, <hi rend="italic">retia vestra</hi> in <hi rend="italic">capturam,</hi> ut permixtos 
+   <lb ed="#PL"/> intelligamus bonos et malos : hic autem, inquit, <hi rend="italic">Mit<lb ed="#PL" break="no"/>tite
+   in dexteram navigii rete,</hi> ut significaret eos qui sta<lb ed="#PL" break="no"/>bant
+   ad dexteram, solos bonos. Ibi rete propter signi­
+   
+   <lb ed="#PL"/> ficanda schismata rumpebatur : hic vero quoniam 
+   <lb ed="#PL"/> tunc jam in illa summa pace sanctorum nulla erunt 
+   <lb ed="#PL"/> schismata, pertinuit ad Evangelistam dicere, <hi rend="italic">Et cum
+   <lb ed="#PL"/> tanti essent,</hi> id est, tam magni, <hi rend="italic">non
+    eat scissum rete;</hi>
+   
+       <lb ed="#PL"/> tanquam illud respiceret ubi scissum est , et in illius 
+   <lb ed="#PL"/> mali comparatione commendaret hoc bonum. Ibi ca<lb ed="#PL" break="no"/>pta
+   est multitudo piscium tanta, ut impleta duo navi<lb ed="#PL" break="no"/>gia
+   mergerentur <hi rend="italic">(Luc.</hi> v, 3.7) , id est, in submersio­
+   
+   <lb ed="#PL"/> nem premerentur : non enim mersa sunt, sed tamen 
+   <lb ed="#PL"/> periclitata. Unde eniin existunt in Ecclesia, tanta quae 
+   <lb ed="#PL"/> gemimus; nisi cum tantae multitudini obsisti non po<lb ed="#PL" break="no"/>test, quae ad submergendam propemodum disciplinam 
+   <lb ed="#PL"/> intrat cum moribus suis a sanctorum itinere penitus 
+   <lb ed="#PL"/> alienis? Hic autem miserunt rete in dexteram par­
+   
+   <lb ed="#PL"/> tem, <hi rend="italic">et jam non valebant illud trahere a multitudine</hi> pi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">scium.</hi> Quid est, <hi rend="italic">jam non valebant illud trahere
+    »</hi> nisi 
+   <lb ed="#PL"/> quia illi qui pertinent ad resurrectionem vitae, id est 
+   <lb ed="#PL"/> ad dexteram , et intra christiani nominis retia defun<lb ed="#PL" break="no"/>guntur , nonnisi in liltorc, id est in fine saeculi cum 
+   <lb ed="#PL"/> resurrexerint, apparebunt? Idco non vaiuerum sic 
+   <lb ed="#PL"/> trahere retia , ut in navem refunderent quos ceperant 
+   <lb ed="#PL"/> pisces; sicut de illis omnibus factum est, quibus rete 
+   <lb ed="#PL"/> disruptum , et naviculae pressae sunt. Habet auteui
+   
+   <lb ed="#PL"/> istos dextros Ecclesia post fincm vitx hujus in somu 
+   
+   
+   <pb ed="#PL" n="1963"/>
+       <lb ed="#PL"/> pacis, velut in profundo latentes, donee ad littus rete 
+   <lb ed="#PL"/> veniatquo trahebatur, quasi a cubitis ducentis. 
+   <lb ed="#PL"/> Quod autem illic duabus naviculis, propter circumci<lb ed="#PL" break="no"/>sionem
+   et praeputium ; hoc islo locu ducentis cubitis 
+   <lb ed="#PL"/> existimo figuratum, propter utriusque generis electos, 
+   <lb ed="#PL"/>etcircumcisionis et praeputii, tanquam centum et 
+   <lb ed="#PL"/> centum ; quia in summa ccutenarii numerus ad dexte<lb ed="#PL" break="no"/>ram
+   transit. Postremo in illa piscatione numerus pi<lb ed="#PL" break="no"/>scium
+   non exprimitur, tanquam illud ibi fial quod 
+   <lb ed="#PL"/> I raedictum est per proplictam , <hi rend="italic">Annuntiavi
+    et locutus 
+   <lb ed="#PL"/> sum ; multiplicati sunt super numerum ( Psal.</hi> xxxix , 
+   <lb ed="#PL"/> G) : hic vero non sunt aliqui super numerum, sed cer<lb ed="#PL" break="no"/>tus
+   eat numerus centum quinquaginta tres ; cujus nu<lb ed="#PL" break="no"/>meri
+   ratio Domino adjuvante reddenda est.</p>
+      <p xml:id="iuy75t-d1e1039-d1e826">8. Si enim numerum constituamus qui Legem si 
+   <lb ed="#PL"/> gnificet, quid erunt nisi decem ? Decalogum quippe 
+   <lb ed="#PL"/> Legis , id est, decem notissima illa praecepta digito 
+   <lb ed="#PL"/> Dei duabus lapideis tabulis primum fuisse conscripta 
+   <lb ed="#PL"/> certissimum nobis est <hi rend="italic">(Deut.</hi> IX, 10). Sed Lex quando 
+   <lb ed="#PL"/> non adjuvat gratia, praevaricatores facit, et tantum<lb ed="#PL" break="no"/>modo
+   ill littera est : propter hoc euim maxime ait 
+   <lb ed="#PL"/> Apostolus, <hi rend="italic">Littera occidit, spiritus autem vivifical</hi> { II 
+   <lb ed="#PL"/>
+       <hi rend="italic">Cor.</hi> III, G). Accedat ergo ad litteram spiritus, ne oc<lb ed="#PL" break="no"/>cidat
+   littera quem non vivificat spiritus; sed ut opere<lb ed="#PL" break="no"/>mur
+   praecepta Legis, non viribus nostris, sed munere 
+   <lb ed="#PL"/> Salvatoris. Cum autcm accedit ad Legem gratia , id
+   
+   <lb ed="#PL"/> cst, ad litteram spiritus, quodammodo denario nu<lb ed="#PL" break="no"/>mero
+   additur septenarius. Isto quippe numero, id est 
+   <lb ed="#PL"/> septenario, significari Spiritum sanctum, advertenda
+   
+   <lb ed="#PL"/> Litterarum sacrarum documenta testantur. Nempe 
+   <lb ed="#PL"/> enin sanctitas vel sanctificatio ad sanctum proprie 
+   <lb ed="#PL"/> pertinet Spiritum : unde cnm et Pater spiritus sit, et 
+   <lb ed="#PL"/> Filius spiritus sit, quoniam Deus spiritus est <hi rend="italic">(Joan.</hi>
+   
+       <lb ed="#PL"/> iv, 24);etPater sanctus, et Filius sanctus sit: pro<lb ed="#PL" break="no"/>prio
+   taincn nomine amborum Spiritus vocatur Spiri<lb ed="#PL" break="no"/>tus
+   sanctus. Ubi ergo primum in Lege sonuit sanctifi<lb ed="#PL" break="no"/>catio, nisi in die septimo? Non cnim sanctificavit 
+   <lb ed="#PL"/> Deus diem primum , in quo fecit lucem; aut secun<lb ed="#PL" break="no"/>dum, in quo firmamentum; aut tertium , in quo dis<lb ed="#PL" break="no"/>crevit
+   mare a terra, et terra herham lignumque 
+   <lb ed="#PL"/> produxit; aut quartum, in quo sidcra sunt creata ; aut 
+   <lb ed="#PL"/> quintum, in quo animalia quae in aquis vivunt et in 
+   <lb ed="#PL"/> acre volitant; aut sextum, in quo terrestris anima 
+   <lb ed="#PL"/> vivaetipse homo : set! sanctificavit dicm septimum, 
+   <lb ed="#PL"/> in quo requievit ab operibus suis <hi rend="italic">(Gen.</hi> I, et II, 3). 
+   <lb ed="#PL"/> Convenienter igitur septenario numero significatur 
+   <lb ed="#PL"/> Spiritus sanctus. Isaias etiam propheta , <hi rend="italic">Requiescet,</hi>
+   
+       <lb ed="#PL"/> inquit, in <hi rend="italic">eo Spiritus Dei:</hi> eumque deinceps commen<lb ed="#PL" break="no"/>dans
+   opere vel inuncre septenario, <hi rend="italic">Spiritus,</hi> inquit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">sapienti</hi>ae <hi rend="italic">et</hi> intellectus, <hi rend="italic">spiritus consilii et fortitudinis , 
+   <lb ed="#PL"/> spiritus scienti</hi>ae <hi rend="italic">et pietatis, et implebit illum spiritus ti<lb ed="#PL" break="no"/>moris
+   Dei (Isai.</hi> XI, 2, 3). Quid in Apocalypsi? nonne 
+   <lb ed="#PL"/> septem spiritus Dci dicuntur <hi rend="italic">( Apoc.</hi> III , 1), cum sit 
+   <lb ed="#PL"/> unus atque idem Spiritus, dividens propria unicuique 
+   <lb ed="#PL"/> prout vult (I Cor. XII , 11)? Sed operatio septenaria 
+   <lb ed="#PL"/> unius Spiritus sic appellata est ab eodcm Spiritu, qui 
+   <lb ed="#PL"/> scribenti adfuit, ut septem spiritus dicerentur. Cum 
+   <lb ed="#PL"/> itaque Legis denario Spiritus sanctus per septenarium
+   
+   <lb ed="#PL"/> numerum accedit, fiunt deccinetseptem : qui nume<lb ed="#PL" break="no"/>rus
+   ab uno usque ad scipsum computatis omnihns 
+   <lb ed="#PL"/> crescens, ad centum quinquaginta tres pervenit. Ad
+   
+   <lb ed="#PL"/> unum enim si adjicias duo, fiunt utique tres; his si 
+   <lb ed="#PL"/> adjicias tres et quatuor, fiunt omnes decem; deinde 
+   <lb ed="#PL"/> si adjicias omnes numeros qni sequuntur usque ad 
+   <lb ed="#PL"/> decem et septem , ad supradictum numerum summa 
+   <lb ed="#PL"/> perducitur; id est, si ad decem, quo ab uno usque ad 
+   <lb ed="#PL"/> quatuor perveneras, addas quinque, fiunt quindecim :
+   
+   <lb ed="#PL"/> his addas sex, et fiunt viginti unum; his addas se- 
+   <lb ed="#PL"/> picm, et fiunt vig nti octo; his addas octo et novem 
+   <lb ed="#PL"/> et decem , et fiunt quinquaginta quinque ; his addas
+   
+   <lb ed="#PL"/> undecim et duodecim et tredecim , et fiunt nonaginta 
+   <lb ed="#PL"/> unum ; his rursum quatuordecim et quindecim et 
+   <lb ed="#PL"/> sexdecim, et fiunt centum triginta sex : huic numero
+   
+   <lb ed="#PL"/> adde illum qui restat de quo agitur, id est decem et 
+   <lb ed="#PL"/> septem , et piscium numerus ille complebitur. Non 
+   <lb ed="#PL"/> ergo tantummodo centum quinquaginta tres sanct! ad
+   
+   <lb ed="#PL"/> vitam resurrecturi significantur aeternam, sed millia 
+   <lb ed="#PL"/> sauctorum ad gratiam Spiritus pertinentium : qua 
+   <lb ed="#PL"/> .gratia cum Lege Dci tanquam cum adversario con<lb ed="#PL" break="no"/>cordalur
+   ; ut vivificante Spiritu littera non occidat, sed 
+   <lb ed="#PL"/> quod per li tcrain jubetur, Spiritu adjuvante com<lb ed="#PL" break="no"/>pleatur, et si quid minus iit, remittatur. Omnes ergo 
+   <lb ed="#PL"/> ad istam gratiam pertinentes, boc numero figurantur, 
+   <lb ed="#PL"/> hoc est figurate signilicantur. Qui numerus ter habet 
+   <lb ed="#PL"/> etiam quinquagen irium numerum , et insuper ipsa 
+   <lb ed="#PL"/> tria propter mysterium Trinitatis : quinquagenarius 
+   <lb ed="#PL"/> autem multiplicatis septem per septem, et unius ad<lb ed="#PL" break="no"/>jectione
+   completur; nam septies septem fiunt quadra. 
+   <lb ed="#PL"/> ginta novem. Unus autem additur, Ut eo significetur 
+   <lb ed="#PL"/> unum esse qui per septem propter operationem se<lb ed="#PL" break="no"/>ptenariam
+   demonstratur : et novimus Spiritum san<lb ed="#PL" break="no"/>ctum
+   post ascensionem Domini quinquagesimo die 
+   <lb ed="#PL"/> missum, quem discipuli jussi sunt exspectare promis<lb ed="#PL" break="no"/>sum <hi rend="italic">(Act.</hi> II, 2-4; I, 4).</p>
+      <p xml:id="iuy75t-d1e1039-d1e1045">9. Non igitur frustra dicti sunt hi pisces et totet
+   <lb ed="#PL"/> tanti, id est et centum quinquaginta tres et magni. 
+   <lb ed="#PL"/> Sic enim scriptum est : <hi rend="italic">Et traxit
+    rete in terram plenum</hi>
+   
+       <lb ed="#PL"/> magnis <hi rend="italic">piscibus centum quinquaginta tribus.</hi> Cum enim 
+   <lb ed="#PL"/> dixisset Dominus, <hi rend="italic">Non veni solvere Legem. sed implere,</hi>
+   
+       <lb ed="#PL"/> daturus utiquc Spiritum per quem Lex posset imple<lb ed="#PL" break="no"/>ri, tanquam septem additurus ad decem; paucissimis 
+   <lb ed="#PL"/> verbis interpositis ait, Qui <hi rend="italic">ergo solverit unum de man<lb ed="#PL" break="no"/>datis
+   istis minimis, et docuerit sic homines,
+    minimus . 
+   <lb ed="#PL"/> vncabitur in regno</hi> caelorum <hi rend="italic">:qui autem fecerit
+    et docuerit,
+   <lb ed="#PL"/> magnus vocabitur</hi> in <hi rend="italic">regno coelorum.</hi> Iste ergo poterit 
+   <lb ed="#PL"/> pertinere ad numerum piscium magnorum. Minimus 
+   <lb ed="#PL"/> autcm illc qui solvit factis quod docet verbis, in tali Ec<lb ed="#PL" break="no"/>clesia
+   potest esse, qualem significat piscium prima illa 
+   <lb ed="#PL"/> captura, habentem bonos et malos, quia et ipsa dicitur 
+   <lb ed="#PL"/> regnum coelorum : propter quod ait, <hi rend="italic">Simile est regnum</hi>
+   
+       <lb ed="#PL"/> colorum <hi rend="italic">sagena missa;</hi> in <hi rend="italic">mare, et ex omni
+    genere con­
+   <lb ed="#PL"/> greganti 1 (Matth.</hi> XIII, 47). Ubi vult intelligi cHam bonos,
+   
+   <lb ed="#PL"/> , et malos; quos dicit in littore, id est, in fine saeculi se- 
+   <lb ed="#PL"/> Darandos. Denique ut ostenderet istos minimos repro<lb ed="#PL" break="no"/>bos
+   esse, qui docent bona loquendo, quae solvunt male 
+   <lb ed="#PL"/> vivendo, nec quasi minimos in vita aeterna futuros, sed 
+   
+   <pb ed="#PL" n="1965"/>
+       <lb ed="#PL"/> omnino ibi non futuros: cum dixisset, <hi rend="italic">Minimus vocabi­
+    
+   <lb ed="#PL"/> tur</hi> in <hi rend="italic">regno coelorum,</hi> continuo subjecit, <hi rend="italic">Dico enim vobis, 
+   <lb ed="#PL"/> quia nisi abundaverit justitia</hi> vestra <hi rend="italic">plus quam Scriba­</hi>
+   
+       <lb ed="#PL"/> rum <hi rend="italic">et Pharisoeorum, non</hi> intrabitis <hi rend="italic">in
+    regnum</hi> caelorum 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Matth.</hi> v, 17 - 20). Illi sunt certe, ScribaeetPharis vi, 
+   <lb ed="#PL"/> qni cathedram Moysi sedent,etde quibus ait, <hi rend="italic">Quae 
+   <lb ed="#PL"/> dicunt facile;
+    qu</hi>ae <hi rend="italic">autem faciunt, facere</hi> nolite : <hi rend="italic">dicunt 
+   <lb ed="#PL"/> enim et non faciunt</hi> ( Id. XXIII, i, 5) : docent scr<lb ed="#PL" break="no"/>monibus, quod solvunt moribus. Consequens est ergo, 
+   <lb ed="#PL"/> ut qui minimus est in regno coelorum, qualis nune est 
+   <lb ed="#PL"/> Ecclesia, non intret in regnum coelorum, qualis tune 
+   <lb ed="#PL"/> erit Ecclesia ; quoniam docendo quod solvit, ad eorum 
+   <lb ed="#PL"/> societatem qui faciunt quod docent, non pertinebit : 
+   <lb ed="#PL"/> et ideo non erit in numero piscium magnorum; quo<lb ed="#PL" break="no"/>niam
+   <hi rend="italic">qui fecerit et docuerit, magnus vocabitur in regno 
+   <lb ed="#PL"/>
+    coelorum.</hi> Et quia hic magnus erit, ideo ibi crit, ubi 
+   <lb ed="#PL"/> minimus ille non crit. Usque adeo quippe ibi magni 
+   <lb ed="#PL"/> erunt, ut qui minor ibi est, major sit eo quo hie ne­
+   
+   <lb ed="#PL"/> mo major est <hi rend="italic">(Id.</hi> xi, 41). Scd tamen qui laic magni 
+   <lb ed="#PL"/> sunt, id est,. qui in regno coelorum, ubi sagena con<lb ed="#PL" break="no"/>gregat
+   bonas et malos, faciunt bona quae docent, ipsi 
+   <lb ed="#PL"/> ciunt in illa regni collorum aternitale majores, quos 
+   <lb ed="#PL"/> isti ad dexteram et resurrectionem vitae pertinentes 
+   <lb ed="#PL"/> indicant pisces. Sequitur de prandio Domini cum istis 
+   <lb ed="#PL"/> septem discipulis, et de his quae post prandium locu<lb ed="#PL" break="no"/>lus
+   est, ac de ipsius Evangelii termino, ut Deus quod 
+   <lb ed="#PL"/> donaverit disseramus: sed hoc non est isto sermone 
+   <lb ed="#PL"/> coarctandum.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

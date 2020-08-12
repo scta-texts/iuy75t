@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 83</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 83</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e720"> <!-- iuy75t-t83 -->
+      <head xml:id="iuy75t-d1e720-Hd1e109">Tractatus 83</head>
+      <p xml:id="iuy75t-d1e720-d1e112">
+       <hi rend="italic">In haec</hi> verba, Haec locutus sum vobis, ut gaudiunl 
+   <lb ed="#PL"/> meum in vobis sit, et gaudium vestrum impleatur. 
+   <lb ed="#PL"/> Hoc est praeceptum meum, ut diligatis invicem, 
+   <lb ed="#PL"/> sicut dilexi vos. <hi rend="italic">Cap.</hi> xv, ; ℣ii, 12.</p>
+      <p xml:id="iuy75t-d1e720-d1e127">i. Audistis, charissimi, Dominum dicentem disci<lb ed="#PL" break="no"/>pulis
+   suis, <hi rend="italic">Haec loculus sum vobis, ut gaudium</hi> meum 
+   <lb ed="#PL"/>
+       <hi rend="italic">in vobis ait, et gaudium vesirum impleatur.</hi> Quid est 
+   <lb ed="#PL"/> gaudium Christi in nobis, nisi qnod dignatur gaudere 
+   <lb ed="#PL"/> de nobis? Et quid est gaudium nostrum quod dicit 
+   <lb ed="#PL"/> implendum, nisi ejus habere consortium? Propter 
+   <lb ed="#PL"/> quod beato Petro dixerat, Si <hi rend="italic">non</hi> lavero <hi rend="italic">te, non
+    habebis 
+   <lb ed="#PL"/> partem mecum (Id.</hi> XIII, 8). Gaudium ergo ejus in 
+   <pb ed="#PL" n="1845"/>
+       <lb ed="#PL"/> nobis, gratia est quam praestitit nobis : ipsa csl1 et 
+   <lb ed="#PL"/> gaudium nostrum. Sed de bac ille etiam ci aeternitate 
+   <lb ed="#PL"/> gaudebat. quando nos elegit ante constitutionem mundi 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Ephes.</hi> 1, 4). Nec recte possumus dicere quod gaudium 
+   <lb ed="#PL"/> rjus plenum non crat: non euim Deus imperfecte ali<lb ed="#PL" break="no"/>quando
+   gaudcbat. Sed illud cjus gaudium in nobis non 
+   <lb ed="#PL"/> orat: quia nec nos in quibus esse posset jam eramus; 
+   <lb ed="#PL"/> nec quando esse coepimus, cum illo esse coepimus, In 
+   <lb ed="#PL"/> ipso autem semper erat, qui noe suos futuros certissima 
+   <lb ed="#PL"/> suae praescientiae veritate gaudebat. Proinde gaudium
+   
+   <lb ed="#PL"/> jamperfectum de nobis habebat, quando nos praescien<lb ed="#PL" break="no"/>do
+   et pracdestinandogaudcbat: nequeeniu) ullus in illo 
+   <lb ed="#PL"/> rjus gaudio mctusesse poterat,nc forte non fieretquod 
+   <lb ed="#PL"/> se facturum esse praesciebat. Sed neque cum id faccre 
+   <lb ed="#PL"/> coepit, quod se facturum esse praescivit, gaudium ejus, 
+   <lb ed="#PL"/> quo beatus est, crevit; alioqui beatior factus est, quia 
+   <lb ed="#PL"/> nos fecit. Absit hoc, fratres : Dei bcatitudo quia nec 
+   <lb ed="#PL"/> minor fuerat sine nobis, non fit major ex nobis. Gau<lb ed="#PL" break="no"/>dium
+   igitur ejus de salulc nostra, qnod in illo semper 
+   <lb ed="#PL"/> fuit cum praescivit et praedestinavit nos, caepit esse in 
+   <lb ed="#PL"/> nobis quando vocavit nos; et boc gaudium merito 
+   <lb ed="#PL"/> nostrum dicimus, quoetnos bcati futuri sumus : scd 
+   <lb ed="#PL"/> hoc gaudium nostrum crescit et proficit, et ad suam 
+   <lb ed="#PL"/> perfectionem perscverando pertendit. Ergo inchoatur 
+   <lb ed="#PL"/> in fide renascentium, implebitur in praemio resurgen<lb ed="#PL" break="no"/>tium. Ecce ende dictum existimo, <hi rend="italic">Haec locutus</hi> sum 
+   <lb ed="#PL"/>
+       <hi rend="italic">vobis,</hi> ut <hi rend="italic">gaudium</hi> meum in <hi rend="italic">vobis sit, et gaudium ne<lb ed="#PL" break="no"/>atram</hi> impleatur <hi rend="italic">:
+    in vobis sit</hi> meum; <hi rend="italic">impleatur</hi> ve<lb ed="#PL" break="no"/>strum. Semper enim erat meum plenum, et antequam 
+   <lb ed="#PL"/> vocaremini, cum vocandi a me praesciremini ; sed fit
+   
+   <lb ed="#PL"/> et in vobis, cum hoc efficimini quod praescivi de vobis. 
+   <lb ed="#PL"/> Impleatur autem <hi rend="italic">vestrum</hi> : quia beati eritis, quod 
+   <lb ed="#PL"/> nondum estis; sicut creati estis qui non fuistis.</p>
+      <p xml:id="iuy75t-d1e720-d1e256">2. Hoc <hi rend="italic">est,</hi> inquit, praeceptum <hi rend="italic">mewn9</hi> ut
+    <hi rend="italic">diligatis</hi>
+   
+       <lb ed="#PL"/> invicem, sicut <hi rend="italic">dilexi</hi> vos. Sive dicatur praeceptum, sive
+   
+   <lb ed="#PL"/> mandatum, ex uno verbo graeco utrumque interpre<lb ed="#PL" break="no"/>tatur, quod est <foreign xml:lang="grc">ἐντολή</foreign> Jamvero istam sententiam et 
+   <lb ed="#PL"/> antea dixcrat, de qua me vobis, ut potui, disputasse 
+   <lb ed="#PL"/> meminisse debetis <hi rend="italic">(Supra,
+    Tract.</hi> 65). Ibi enim sic 
+   <lb ed="#PL"/> ait, <hi rend="italic">Mandatum</hi> norum <hi rend="italic">do vobis,</hi> ut <hi rend="italic">diligatis invicem, 
+   <lb ed="#PL"/> sicut
+    dilexi</hi> vos, <hi rend="italic">ut et vos diligatis invicem (Joan.</hi> XIII, 
+   <lb ed="#PL"/> 34). Hujus itaque mandati repetitio, commendatio 
+   <lb ed="#PL"/> est: nisi quod ibi, <hi rend="italic">Mandalum,</hi> inquit, <hi rend="italic">nonum do vobis;</hi>
+   
+       <lb ed="#PL"/> hic autcm, <hi rend="italic">Hoc est,</hi> inquit, <hi rend="italic">mandalum
+    meum</hi> : ibi, 
+   <lb ed="#PL"/> tanquam non fuerit ante tale mandatum; hic, tan<lb ed="#PL" break="no"/>quam
+   non sit aliud ejus mandatum. Sed ibi dictum est 
+   <lb ed="#PL"/> novum, ne in vetustate nostra perseveremus : hic 
+   <lb ed="#PL"/> dictum est <hi rend="italic">meum,</hi> ne contemnendum putemus.</p>
+      <p xml:id="iuy75t-d1e720-d1e337">3. Quod autem hic ita dixit, <hi rend="italic">Hoc est mandatum 
+   <lb ed="#PL"/> meum,</hi> velut non sit aliud, quid putamus, fratres mei ? 
+   <lb ed="#PL"/> Numquidnam solum cjus de ista dilectione mandatum 
+   <lb ed="#PL"/> cst, qua diligimus invicem ? Nonne est et aliud majus, 
+   <lb ed="#PL"/> ut diligamus Deum? Aut vcro de sola Deus nobis di<lb ed="#PL" break="no"/>lectione
+   mandavit, ut alia non requiramus? Tria certe 
+   <lb ed="#PL"/> commendat Apostolus dicens : <hi rend="italic">Manent autem
+    fides,
+   <lb ed="#PL"/> spes, charitas, tria hae : major autem horum charitas</hi>
+   
+       <lb ed="#PL"/> (I Cor, XIII, 13). Etsi in charitate, hoc est in dilectione 
+   <lb ed="#PL"/> concluduntur duo illa praecepta; <hi rend="italic">major</hi> tamen dicta 
+   
+   <lb ed="#PL"/> est esse, non sola. Dc fide igitur nobis quam multa 
+   <lb ed="#PL"/> mandata sunt, quam multa de spe, quis potest cuncta 
+   <lb ed="#PL"/> colligere, quis cnunierando sufficere? Sed intucamur
+   
+   <lb ed="#PL"/> quod ait idem apostolus, <hi rend="italic">Plenitudo Legis charitas
+   <lb ed="#PL"/>
+    (Ront.</hi> XIII, 10). Ubi ergo charitas est, quid est quod 
+   <lb ed="#PL"/> possit deesse? ubi autem non est, quid est quod pos<lb ed="#PL" break="no"/>sit
+   prodesse? Daemon credit <hi rend="italic">(Jacobi</hi> II, 19), ncc dili<lb ed="#PL" break="no"/>git : nemo diligit, qui non credit. Frustra quidem, sed 
+   <lb ed="#PL"/> tamen potest sperare veniam qui non diligit : nemo 
+   <lb ed="#PL"/> autem potest desperare qui diligit. Itaque ubi dilectio 
+   <lb ed="#PL"/> est, ibi neressario fides et spes :etubi dilectio pro<lb ed="#PL" break="no"/>ximi, ibi necessario etiam dilectio Dei. Qui enim non 
+   <lb ed="#PL"/> diligit Dcum, quomodo diligit proximum tanquam 
+   <lb ed="#PL"/> scipsum; quandoquidem non diligit et scipsum? Est 
+   <lb ed="#PL"/> ' quippe impius et iniquus; qui autem diligit iniquita<lb ed="#PL" break="no"/>tem, non plane diligit, sed odit animam suam <hi rend="italic">(Psal.</hi>
+   
+       <lb ed="#PL"/> x, 6). Hoc ergo praeceptum Domini teneamus, ut nos 
+   <lb ed="#PL"/> inviccm diligamus; et quidquid aliud praecepit, fa<lb ed="#PL" break="no"/>ciemus' : quoniam quidquid est a!iud hic habemus.
+   
+   <lb ed="#PL"/> Discernitur quippe ista dilectio ab illa dilectionc qua 
+   <lb ed="#PL"/> se invicem diligunt homines sicut homines : nam ut 
+   <lb ed="#PL"/> discerneretur, adjunctum est, <hi rend="italic">sicut dilexi vos,</hi> Utquid 
+   <lb ed="#PL"/> enim diligit nos Christus, nisi ut regnarc possimus cum 
+   <lb ed="#PL"/> Christo ? Ad hoc ergoetnos invicem diligamus, ut dilc<lb ed="#PL" break="no"/>ctionem
+   nostram discernamus a caeteris, qui non ad hoc 
+   <lb ed="#PL"/> se invicem diligunt, quia nec diligunt. Qui autem 
+   <lb ed="#PL"/> se propter habendum Deum diligunt, ipsi se diligunt :
+   
+   <lb ed="#PL"/> ergo ut se diligant, Deum diligunt. Non est haec di<lb ed="#PL" break="no"/>lectio
+   in omnibus hominibus : pauci sc propterea dili<lb ed="#PL" break="no"/>sunt, ut sit Deus omnia ill omnibus <hi rend="italic">(ICor.</hi> xv, 28).</p>
+    </div>
+   </body>
+  </text>
+</TEI>

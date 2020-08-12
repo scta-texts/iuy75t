@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 67</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 67</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e590"> <!-- iuy75t-t67 -->
+      <head xml:id="iuy75t-d1e590-Hd1e109">Tractatus 67</head>
+      <p xml:id="iuy75t-d1e590-d1e112">De eo <hi rend="italic">quod Dominus dicit,</hi> Non turbelur cor vestrum; 
+   <lb ed="#PL"/>
+       <hi rend="italic">usque ad id,</hi> Iterum venio,etaccipiam vos ad me<lb ed="#PL" break="no"/>ipsum.
+    <hi rend="italic">Cap.</hi> XIV, V 13.</p>
+      <p xml:id="iuy75t-d1e590-d1e128">1. Erigenda est nobis, fratres, ad Deum major in<lb ed="#PL" break="no"/>tentio, 
+   ut verba sancii Evangelii, quae modo in no<lb ed="#PL" break="no"/>stris
+   auribus sonuerunt, etiam mente capere utcum<lb ed="#PL"/>que 
+   possimus. Art enim Dominus Jesus : <hi rend="italic">Non turbetur</hi>
+       <lb ed="#PL"/> cor vestrum. <hi rend="italic">Credite 1 in</hi> Deum, <hi rend="italic">et in me credite.</hi> Ne 
+   <lb ed="#PL"/> mortem tanquam homines timerent, et ideo turbarcn<lb ed="#PL" break="no"/>tur , consolatur eos, etiam se Deum esse contestans. 
+   <lb ed="#PL"/> Credite, inquit, in <hi rend="italic">Deum, et</hi> in <hi rend="italic">me credite.</hi> Consequens 
+   <lb ed="#PL"/> est enim ut si in Deum creditis, et in me credere 
+   <lb ed="#PL"/> debeatis : quod non esset consequens, si Christus 
+   <lb ed="#PL"/> non esset Deus. <hi rend="italic">Credite in Deum, et
+    in</hi> eum <hi rend="italic">credite</hi>
+       <lb ed="#PL"/> cui natura est, non rapina , esse aequalem Deo : se<lb ed="#PL" break="no"/>metipsum
+   enim exinanivit; non tamen formam Dei 
+   <lb ed="#PL"/> amittens, sed formam servi accipiens <hi rend="italic">(Philipp.</hi> II, 6, 
+   <lb ed="#PL"/> 7). Mortem metuitis huic formae servi; <hi rend="italic">non turbetur
+   <lb ed="#PL"/> cor vestrum,</hi> suscitabit illam forma Dei.</p>
+      <p xml:id="iuy75t-d1e590-d1e191">i. Sed quid est quod sequitur, <hi rend="italic">ln domo Patris</hi> mei 
+   <lb ed="#PL"/>
+       <hi rend="italic">mansiones</hi> multoe <hi rend="italic">sunt,</hi> nisi quia et sibi metuebam 1 
+   <lb ed="#PL"/> Unde audire debuerunt, <hi rend="italic">Non turbetur cor vestrum.</hi>
+   
+       <lb ed="#PL"/> Quis enim eorum non metueret, cum Petro dictum 
+   <lb ed="#PL"/> esset fidentiori atque promptiori, <hi rend="italic">Non cantabit gallus 
+   <lb ed="#PL"/> donec ter me neges (Joan.</hi> XIII, 38) ? Tanquam ergo 
+   <lb ed="#PL"/> essent ab illo perituri, merito turbabantur : sed cum
+   
+   <lb ed="#PL"/> audiunt, <hi rend="italic">In</hi> domo <hi rend="italic">Patris mei mansiones
+    multae sunt:</hi>
+   
+       <lb ed="#PL"/> si <hi rend="italic">quo</hi> minus, <hi rend="italic">dixissem vobis quia vado
+    parare vobis</hi> lo­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">cum;</hi> a perturbatione recreantur, certi ac fidentes 
+   <lb ed="#PL"/> etiam post pericula tentationam se apud Deum cum 
+   <lb ed="#PL"/> Christo esse mansuros. Quia etsi alius est alio fortior, 
+   <lb ed="#PL"/> alius alio sapientior, alius alio justior, alius alio san<lb ed="#PL" break="no"/>clior
+   ; in <hi rend="italic">domo Patris mansiones multae sunt;</hi> nullus 
+   <lb ed="#PL"/> eorum alienabitur ab illa domo, ubi mansionem pro 
+   <lb ed="#PL"/> suo quisque accepturus est merito. Denarius quidem 
+   <lb ed="#PL"/> ille aequalis est omnibus, quem paterfamilias eis qui 
+   <lb ed="#PL"/> operati sunt in vinea jubet dari omnibus, non in eo dis<lb ed="#PL" break="no"/>cernens
+   qui minus et qui amplius laborarunt <hi rend="italic">(Matth.</hi>
+   
+       <lb ed="#PL"/> xx, 9) : quo utique denario vita significatur 
+   <lb ed="#PL"/> aeterna, ubi amplius alio nemo vivit, quoniam vivendi 
+   <lb ed="#PL"/> non est diversa in aeternitate mensura. Sed multae 
+   <lb ed="#PL"/> mansiones , diversas meritorum in una vita alterna 
+   <lb ed="#PL"/> significant dignitates. Alia est enim gloria solis , alia 
+   <lb ed="#PL"/> gloria lunae, alia gloria stellarum : stella enim ab
+   
+   <lb ed="#PL"/> stella differt in gloria; sic et resurrectio mortuorum. 
+   <lb ed="#PL"/> Tanquam stellae sancti diversas mansiones diversae 
+   <lb ed="#PL"/> claritatis *, tanquam in coelo, sortiuntur in regno; 
+   <lb ed="#PL"/> sed propter unum denarium nullus separatur a re<lb ed="#PL" break="no"/>gno : atque ita Deus erit omnia in omnibus (1 <hi rend="italic">Cor.</hi>
+   
+       <lb ed="#PL"/> xv, 41,42, 28), ilL quoniam Deus Charitas est (I <hi rend="italic">Joan.</hi>
+   
+       <lb ed="#PL"/> IV , 8) , per charitatem fiat ut quod habent singuli, 
+   <lb ed="#PL"/> commune sit omnibus. Sic enim quisque cHam ipse 
+   <lb ed="#PL"/> habet, cun amal in altero quod ipse non habel. Non
+   
+   <lb ed="#PL"/> crit itaqnc aliqua invidia imparis claritatis, quoniam 
+   <lb ed="#PL"/> regnabit in omnibus unitas charitatis.</p>
+      <p xml:id="iuy75t-d1e590-d1e315">3. Proindc respuendi sunt a eorde christiano, qui 
+   
+   <pb ed="#PL" n="1813"/>
+       <lb ed="#PL"/> putant idco dictum multas esse mansiones, quia extra 
+   <lb ed="#PL"/> regnum coelorum erit aliquid, ubi mancant beati in<lb ed="#PL" break="no"/>nocentes
+   qui sine Baptismo ex hac vita emigrarunt, 
+   <lb ed="#PL"/> quia sine illo in regnum coelorum intrare non pote<lb ed="#PL" break="no"/>runt. Haec fides non est fides, quoniam non est vera 
+   <lb ed="#PL"/> et catholica fides. Itanc taudem stulti homines,et
+   <lb ed="#PL"/> carnalibus cogitationibus excaecati, cum reprobandi 
+   <lb ed="#PL"/> essetis, si mansionem non dico Petri et Pauli vel cujus<lb ed="#PL" break="no"/>libet
+   Apostolorum, sed cujuscumque parvuli bapti<lb ed="#PL" break="no"/>zati
+   a regno coelorum separarclis; non vos putatis 
+   <lb ed="#PL"/> esse reprobandos, qui domum Dei l'atris inde sepa<lb ed="#PL" break="no"/>ratis ? Non enim ait Dominus, In universo mundo , 
+   <lb ed="#PL"/> aut, in universa creatura, aut, in vita vcl bcalitudine 
+   <lb ed="#PL"/> sempiterna mausioncs multae sunt; sed, In domo, in<lb ed="#PL" break="no"/>quit, <hi rend="italic">Patris
+    mei mansiones multae sunt.</hi> Nonne ista est 
+   <lb ed="#PL"/> domus ubi aedificationem habcmus ex Deo, domum 
+   <lb ed="#PL"/> non manufactam, aternam in calis <hi rend="italic">(IlCor.</hi> v, 1)?
+   
+   <lb ed="#PL"/> Nonne ista est donnus de qua cantamus Doniino, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Beati qui habitant in domo tua; in soeculu soeculorum 
+   <lb ed="#PL"/> laudabunt te
+    (Psal.</hi> LXXXIII, 5) ? Ergone vos non do<lb ed="#PL" break="no"/>mum
+   cujusque baptizati fratris, sca domum ipsius 
+   <lb ed="#PL"/> Dei Patris, cui omnes fratres dicimus, <hi rend="italic">Pater
+    noster,
+   <lb ed="#PL"/> qui</hi> es <hi rend="italic">in coelis (Matth.</hi> vi, 9), a regno scpararc coelo<lb ed="#PL" break="no"/>rum, aut cam sic dividcre audebitis, ut aliqux man<lb ed="#PL" break="no"/>siones
+   ejus sint in regno coelorum, aliquae autem ex<lb ed="#PL" break="no"/>tra
+   regnum coelorum? Absit, absit ut qui volunt ha<lb ed="#PL" break="no"/>bitare
+   in regno coelorum , in -hac stultitia velint habi<lb ed="#PL" break="no"/>fare
+   vobiscum : absit, inquam, ut cum omnis domus 
+   <lb ed="#PL"/> regnantium filiorum non sit alibi nisi in regno, ipsius 
+   <lb ed="#PL"/> regiae domus pars aliqua non sit in regno.</p>
+      <p xml:id="iuy75t-d1e590-d1e400">4. Et si <hi rend="italic">abiero,</hi> inquit, <hi rend="italic">et proeparavero vobis
+    locum; 
+   <lb ed="#PL"/> iterum venio, et accipiam</hi> vos <hi rend="italic">ad meipsum, ut ubi
+    sum
+   <lb ed="#PL"/> ego et vos sitis. Et quo ego vado scitis, et viam scitis.</hi>
+   
+       <lb ed="#PL"/> 0 Domine Jcsu, quomodo vadis parare locum, si jam 
+   <lb ed="#PL"/> multae mansiones sunt in domo Patris lui, ubi tecum 
+   <lb ed="#PL"/> habitabunt tui ! Aut si accipis eos ad teipsum , quo­
+   
+   <lb ed="#PL"/> modo iterum venis qui non recedis ? Ista, charissimi, 
+   <lb ed="#PL"/> si breviter explicare conemur, quantum videtur ho<lb ed="#PL" break="no"/>dierno
+   salis esse sermoni, coarctata utique non cla­
+   
+   <lb ed="#PL"/> rebunt; et erit iNsa brevitas altera obscuritas : pro<lb ed="#PL" break="no"/>inde
+   hoc debitum differamus, quod opportunius vo<lb ed="#PL" break="no"/>bis
+   Patrefamilias nostro largiente reddamus.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 81</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 81</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e704"> <!-- iuy75t-t81 -->
+      <head xml:id="iuy75t-d1e704-Hd1e109">Tractatus 81</head>
+      <p xml:id="iuy75t-d1e704-d1e112">
+       <hi rend="italic">De ce quod ait,</hi> Mancle in me, et ego in vobis; <hi rend="italic">usque 
+   <lb ed="#PL"/> ad id,</hi> Quodcumque volueritis petetis, et fiet vobis. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Cap.</hi> xv, f . 4-7.</p>
+      <p xml:id="iuy75t-d1e704-d1e128">i. Vitem se dixit esse Jesus, et discipulos suos 
+   <lb ed="#PL"/> palmites, et agricolam Patrem : unde jampridem sicut 
+   <lb ed="#PL"/> potuimus disputatum est. In hac autem lectione, cum 
+   <lb ed="#PL"/> adhuc de scipso qui est vitis, et de suis palmitibus 
+   <lb ed="#PL"/> hoc est discipulis loqueretur
+   : <hi rend="italic">Manete,</hi> inquit, <hi rend="italic">in</hi> me, 
+   <lb ed="#PL"/>
+       <hi rend="italic">et ego</hi> in <hi rend="italic">nobis.</hi> Non eo modo illi in ipso
+   , sicut ipse in 
+   <lb ed="#PL"/> illis. Utrumque autem prodest non ipsi, sed illis. Ita 
+   <lb ed="#PL"/> quippe in vite sunt palmites, ut viti non conferant, 
+   <lb ed="#PL"/> sed inde accipiant unde vivant: ita vero vilis est in 
+   <lb ed="#PL"/> palmilibus, ut vitale alimentum subministret eis, non 
+   <lb ed="#PL"/> sumat ab eis. Ac per hoc et manentem in se habere 
+   <lb ed="#PL"/> ' Christum, et manere in Christo, discipulis prodest 
+   <lb ed="#PL"/> utrumque, non Christo. Nam praeciso palmite, potest
+   
+   <lb ed="#PL"/> de viva radice alius pullulare; qui autem praecisus 
+   <lb ed="#PL"/> est, sine radice non potest vivere.</p>
+      <p xml:id="iuy75t-d1e704-d1e174">i. Denique adjungit et dicit: <hi rend="italic">Sicut palmea non</hi> po­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">test ferre fructum a semetipso,</hi> nisi <hi rend="italic">manserit
+    in vite; sic
+   <lb ed="#PL"/> nec vos, nisi</hi> in <hi rend="italic">me manseritis.</hi> Magna gratiae commen<lb ed="#PL" break="no"/>datio, fratres mei: corda instruit humilium, ora.ob<lb ed="#PL" break="no"/>struit
+   superborum. Ecce cui, si audent, respondeant, 
+   <lb ed="#PL"/> qui ignorantes Dei justitiam, et suam volentes consti<lb ed="#PL" break="no"/>tuere, justitiae Dei non sunt subjecti (Rom. x, 3). 
+   <lb ed="#PL"/> Eccc cui respondeant sibi placentes, et ad bona opera 
+   <lb ed="#PL"/> facienda Dcum sibi necessarium non putantes. Nonne 
+   <lb ed="#PL"/> huic resistunt veritati, homines mente corrupti, re<lb ed="#PL" break="no"/>probi
+   circa fidem (II <hi rend="italic">Tim.</hi> III, 8), qui respondent et
+   
+   <lb ed="#PL"/> loquuntur iniquitatem, dicentes: A Deo habemus 
+   <lb ed="#PL"/> quod homines sumus, a nobis ipsis autem quod justi 
+   <lb ed="#PL"/> sumus? Quid dicitis, qui vos ipsos decipitis, non 
+   <lb ed="#PL"/> assertores, sed praecipitatores liberi arbitrii, ex alto 
+   <lb ed="#PL"/> clationis per inania praesumptionis , in profunda sub<lb ed="#PL" break="no"/>mersionis? Nempe vox vestra est, quod homo ex se­
+   
+   <lb ed="#PL"/> metipso facit justitiam : hoc est altum dationis vestrac. 
+   <lb ed="#PL"/> Sed veritas contradicit, et dicit, <hi rend="italic">Palmes non potest 
+   <lb ed="#PL"/> ferre fructum a
+    semetipso, nisi manserit in vite.</hi> Ite. 
+   <lb ed="#PL"/> nunc per abrupta, et non habentes ubi figamini, 
+   <lb ed="#PL"/> ventosa loquacitate jactamini. Haec sunt inania prae<lb ed="#PL" break="no"/>sumptionis.
+   vestrae. Sed quid vos sequatur videte, et 
+   <lb ed="#PL"/> si est in vobis ullus sensus, horrete. Qui enim a se<lb ed="#PL" break="no"/>metipso
+   se fructum existimat ferre, in vite non est ;
+   
+   <lb ed="#PL"/> qui in vite non est, in Christo non est; qui in Christo 
+   <lb ed="#PL"/> non est, christianus non est. Haec sunt profunda 
+   <lb ed="#PL"/> submersionis vestrae.</p>
+      <p xml:id="iuy75t-d1e704-d1e255">3. Etiam atque etiam considerate quid adhuc ve<lb ed="#PL" break="no"/>ritas
+   adjungat et dicat: <hi rend="italic">Ego sum</hi> inquit, <hi rend="italic">vitis, vos pal<lb ed="#PL" break="no"/>mites. Qui
+    manet</hi> in <hi rend="italic">me, et ego in eo , hic fert fructum 
+   <lb ed="#PL"/> multum: quia
+    sine me nihil potestis facere.</hi> Ne quisquam 
+   <lb ed="#PL"/> putaret saltem parvum aliquem fructum posse a sc<lb ed="#PL" break="no"/>metipso
+   palmitem ferre, cum dixisset, <hi rend="italic">hic
+    fert fructum 
+   <lb ed="#PL"/> multum,</hi> non ait, quia sine me parum potestis facere; . 
+   <lb ed="#PL"/> sed , <hi rend="italic">nihil potestis facere.</hi> Sive ergo parurn, sive mul<lb ed="#PL" break="no"/>lum,
+   sine illo fieri non potest, sine quo nihil fieri 
+   <lb ed="#PL"/> potest. Quia etsi parum attulerit palmes, eum purgat 
+   <lb ed="#PL"/> agricola ut plus afferat: tamen nisi in vite manserit
+   
+   <lb ed="#PL"/> et vixerit de radicc , quantumlibet fructum a semet<lb ed="#PL" break="no"/>ipso
+   non potest ferrc. Quamvis autem Christus vitis 
+   <lb ed="#PL"/> non esset, nisi homo esset; tamen istam gratiam pal­
+   
+   <lb ed="#PL"/> mitibus non praeberet, nisi etiam Deus esset. Verum 
+   <lb ed="#PL"/> quia ita sine ista gratia non potest vivi, ut et mors iir 
+   <lb ed="#PL"/> potestate sit liberi arbitrii: Si <hi rend="italic">quis</hi> in <hi rend="italic">me,</hi> inquit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">non manserit, mittetur</hi> foras <hi rend="italic">sicut</hi> palmes
+   ; <hi rend="italic">et arescet;
+   <lb ed="#PL"/> et colligent eum, et</hi> in <hi rend="italic">ignem</hi> mittent, <hi rend="italic">ei ardet.</hi> Ligna 
+   <lb ed="#PL"/> itaque vilis tanto sunt contemptibiUora si in vite non 
+   <lb ed="#PL"/> manserint, quanto gloriosiora si rnanserint: denique, 
+   <lb ed="#PL"/> sicut de his etiam per Ezechielem prophetam Dom:<lb ed="#PL" break="no"/>nus dicit, praecisa nullis agricolarum usibus prosunt, 
+   <lb ed="#PL"/> nullis fabrilibus operibus deputantur
+    <hi rend="italic">(Ezech.</hi> xv, 5). 
+   <lb ed="#PL"/> Unum de duobus palmiti congruit, aut vitis, aut ignis; 
+   <lb ed="#PL"/> si in vite non est, in igne erit: ut ergo in igne non 
+   <lb ed="#PL"/> sit, in vite sit.</p>
+      <p xml:id="iuy75t-d1e704-d1e354">4. Si <hi rend="italic">manseritis</hi> in <hi rend="italic">me,</hi> inquit, <hi rend="italic">et verba mea iti vobis 
+   <lb ed="#PL"/> manserint, quodcumque volueritis petetis,
+    et fiet vobis.</hi>
+   
+       <lb ed="#PL"/> Manendo quippe in Christo, quid velle possunt nisi 
+   <lb ed="#PL"/> quod convenit Christo? Quid velle possunt manendo 
+   <lb ed="#PL"/> in Salvatore, nisi quod non est alienum a salute ?
+   
+   <lb ed="#PL"/> Aliud quippe volumus quia sumus in Christo, et aliud 
+   <lb ed="#PL"/> volumus quia sumus adhuc in hoc saeculo. De man. 
+   <lb ed="#PL"/> sione namque hujus saeculi uobis aliquando subrepit,
+   
+   <lb ed="#PL"/> ut hoc petamus quod nobis non expedire nescimus. 
+   <lb ed="#PL"/> Sed absit ut fiat nobis, si manemus in Christo , qui 
+   <lb ed="#PL"/> non facit quando petimus, nisi quod expedit nobis. 
+   <lb ed="#PL"/> Manentes ergo in eo , cum verba ejus tu nobis Ina<lb ed="#PL" break="no"/>nent, quodcumque volucrimus petemus, et fiet nobis. 
+   <lb ed="#PL"/> Quia si petimus et non fiet, non hoc petimus quod 
+   <lb ed="#PL"/> habet mansio in eo, nec quod bhabent verba ejus quae 
+   <lb ed="#PL"/> manent in nobis ; sed quod habet cupiditas et infir<lb ed="#PL" break="no"/>mitas
+   carnis, quae non est in eo, et in qua non manent
+   
+   <lb ed="#PL"/> verba ejus. Nam utique ad verba ejus pertinet oratio 
+   <lb ed="#PL"/> illa quam docuit, ubi dicimus, <hi rend="italic">Puter noster, qui es in
+   <lb ed="#PL"/> coelis (Matth.</hi> vi, 9). Ab hujus orationis verbis et 
+   <lb ed="#PL"/> sensibus non recedamus petitionibus nostris, et quid­
+   
+   <lb ed="#PL"/> quid petiermus, fiet nobis. Tunc enin dicenda sunt 
+   <lb ed="#PL"/> verba ejus in nubis manere, quando faciinus quae 
+   <lb ed="#PL"/> praecepit, et ditigimus quae promisit: quando nutent
+   
+   <lb ed="#PL"/> verba ejus manem in memoria, nec inveniuntur in 
+   <lb ed="#PL"/> vita, non computatur palmes in vile, quia vitam nun 
+   <lb ed="#PL"/> attrahit ex radice. Ad hanc differentiam valet quod 
+   <lb ed="#PL"/> scriptum est, <hi rend="italic">Et memoria retinentibus mandata ejus , 
+   <lb ed="#PL"/> ut faciant
+    ea (Psal.</hi> CII , 18). Multi enim memoria re-. 
+   <lb ed="#PL"/> tinent, ut contemnant, vel etiam derideant et oppu<lb ed="#PL" break="no"/>gnent
+   ea. In his verba Christi non manent, qui attin­
+   
+   <lb ed="#PL"/> guut quodammodo, non cohaerent: et ideo iNis non 
+   <lb ed="#PL"/> erunt in beneficium , sed in testimonium. Et quia. sic 
+   <lb ed="#PL"/> insunt cis ut non maneant in eis, ad hoc tenentur ab
+   
+   <lb ed="#PL"/> eis , ut judicentur ex eis.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

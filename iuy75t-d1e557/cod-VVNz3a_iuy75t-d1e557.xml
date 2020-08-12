@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 63</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 63</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e557"> <!-- iuy75t-t63 -->
+      <head xml:id="iuy75t-d1e557-Hd1e109">Tractatus 63</head>
+      <p xml:id="iuy75t-d1e557-d1e112">
+       <hi rend="italic">De eo quod Dominus</hi> ait, Nunc clarificatus est Filius 
+   <lb ed="#PL"/> hominis; <hi rend="italic">usque ad id,</hi> Et continuo clarificabit cum. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Cap.</hi> xIt, t f . 5i, 52.</p>
+      <p xml:id="iuy75t-d1e557-d1e128">i. Intendamus mentis obtutum,etadjuvante Do<lb ed="#PL" break="no"/>mino, Deum rcquiramus. Divini cantici vox est, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Quaerite Deum,et vivet anima vestra (Psal.</hi> LXVIII, 33). 
+   <lb ed="#PL"/> Quaeramus inveniendum, quaeramus inventum. Ut 
+   <lb ed="#PL"/> invenicndus quaeratur, occultus est; ut inventus 
+   <lb ed="#PL"/> quaeratur, immensus est. Unde alibi dicitur, <hi rend="italic">Quaerite
+   <lb ed="#PL"/> faciem ejus semper (Psal.</hi> CIV, 4). Satiat enim quaeren<lb ed="#PL" break="no"/>tem
+   in quantum capit; et invenientem capaciorem 
+   <lb ed="#PL"/> facit ut rursus quaerat impleri I, ubi plus capere 
+   
+   <lb ed="#PL"/> coeperit. Non ergo ita dictum esl, <hi rend="italic">Quaerite faciem</hi> ejus 
+   <lb ed="#PL"/> semper, quemadmo lum de quibusdam. <hi rend="italic">Semper discen<lb ed="#PL" break="no"/>tes,etad
+    scientiam veritatis nunquam pervenientes</hi>
+   
+       <lb ed="#PL"/> (II <hi rend="italic">Tim.</hi> III, 7) ; sed potitis sicut illc ait, <hi rend="italic">Cum con-
+   <lb ed="#PL"/> summaverit homo, tunc incipit ( Eccli.</hi> XVIII, G ): donce 
+   <lb ed="#PL"/> ad illam vitant veniamus, ubi sic impleamur, ut ca<lb ed="#PL" break="no"/>paciores
+   non efficiamur, quia ita perfecti erimus, ut 
+   <lb ed="#PL"/> jam non proficiamus. Tunc cnim ostendetur nobis 
+   <lb ed="#PL"/> quod sufficit nobis. Hic autem semper quaeramus, et 
+   <lb ed="#PL"/> fructus inventionis uon sil fluis inquisitionis. Neque 
+   <lb ed="#PL"/> enim propterea non semper, quia hic tantum; sed
+   
+   <lb ed="#PL"/> idco hic semper dicimus esse quaerendum, ne ali<lb ed="#PL" break="no"/>quando
+   hic putcmus ab inquisitione cessandum. Nam 
+   <lb ed="#PL"/> et dc quibus dictum est, <hi rend="italic">Semper
+    discentes,</hi> et ad veri­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tatis scientiam nunquam pervenientes</hi> ; hic sunt utique 
+   <lb ed="#PL"/> semper discentes; cum vero de hac vita exierint, jam 
+   <lb ed="#PL"/> non erunt discentes, sed, erroris sui mercedem reci<lb ed="#PL" break="no"/>pientes. Sic euim dictum est, <hi rend="italic">Semper
+    discentes,etad 
+   <lb ed="#PL"/> teritatis scientiam nunquam pervenientes;</hi> tamquam di­
+   
+   <lb ed="#PL"/> ceretur, Semper ambulantes, et ad viam nunquam 
+   <lb ed="#PL"/> pervenientes. Nos autem semper ambulemus in via, 
+   <lb ed="#PL"/> donee co veniamus quo ducit via; nusquam in ea re<lb ed="#PL" break="no"/>maneamus,
+   donee perducat ubi maneamus : atque 
+   <lb ed="#PL"/> ita, et quaerendo tendimus,etinveniendo ad aliquid 
+   <lb ed="#PL"/> pervenimus,etad id quod restat quaerendo et inve<lb ed="#PL" break="no"/>niendo
+   transimus, quo usquc ibi fiat finis quaerendi, 
+   <lb ed="#PL"/> uhi perfectioni non'superest intentio proficiendi. Haec 
+   <lb ed="#PL"/> praelocutio, dilectissimi, intentam fecerit Charitatem
+   
+   <lb ed="#PL"/> vestram ad istum Domiui sermonem, quem ad disci<lb ed="#PL" break="no"/>pulos
+   habuit ante passionem
+   : profundus est enim, et 
+   <lb ed="#PL"/> utique ubi mullum laboraturus est disputator, non re­
+   
+   <lb ed="#PL"/> missus debet esse auditor.</p>
+      <p xml:id="iuy75t-d1e557-d1e245">2. Quid ergo ait Dominus posteaquam Judas exiit, 
+   <lb ed="#PL"/> ut citius faceret quod erat facturns, hoc est, Dominum 
+   <lb ed="#PL"/> traditurus? Quid ait dies, cum cxisset nox Quid ait
+   
+   <lb ed="#PL"/> Redemptor, cum exisset venditor? <hi rend="italic">Nunc,</hi> inquit, <hi rend="italic">cla­</hi>
+   
+       <lb ed="#PL"/> rificatus <hi rend="italic">est</hi> Filius hominis. Quare <hi rend="italic">nunc?</hi> Numquid quia 
+   <lb ed="#PL"/> exiit qui tradat, quia imminentqui teneant et occident?
+   
+   <lb ed="#PL"/> Itane <hi rend="italic">nunc clarificatus eat,</hi> quia prope est ut humilielur
+   
+   <lb ed="#PL"/> amplius : cui jam impendet ut alligetur, ut judicetur, ut 
+   <lb ed="#PL"/> condemnetur, ut irrideatur, ut crucifigatur, ut interima<lb ed="#PL" break="no"/>tur? Haeceine est clarificatio, anpotius humiliatio? Nonne 
+   <lb ed="#PL"/> quando miracula faciebat, attamen de illo iste Joannes, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Spiritus non eratdatus, quia Jesus</hi> nondum <hi rend="italic">erat
+    glorifica­
+   <lb ed="#PL"/> tus (Joan. VII,</hi> 39) ? Tunc ergo nondum eratglorificatus, 
+   <lb ed="#PL"/> cum mortuos suscitaret; et nunc est glorilicatns, cum 
+   <lb ed="#PL"/> mortuis propinquaret ? nondum erat glorilicatus facient 
+   <lb ed="#PL"/> divina, et glorificatus est passurus humana ? Mirum, 
+   <lb ed="#PL"/> si hoc Deus ille magister significabat et docebat his 
+   <lb ed="#PL"/> verbis. Altius est perscrutandum Altissimi dictum, 
+   <lb ed="#PL"/> qui se aliquantum manifestat ut inveniamus, et ile<lb ed="#PL" break="no"/>rum
+   occultat ut inquiramus, et de inventis ad inve<lb ed="#PL" break="no"/>nicnda
+   tanquam passibus innitainur. Video hic aliquid 
+   <lb ed="#PL"/> quod praefiguret magnum aliquid. Exiit Judas, et cla<lb ed="#PL" break="no"/>rificatus
+   est Jesus; exiit filius pecrditionis, et clarifi<lb ed="#PL" break="no"/>catus
+   est Filius hominis. Ille quippe exierat, propter 
+   <lb ed="#PL"/> qucm dictum erat eis, <hi rend="italic">Et vos</hi> mundi <hi rend="italic">estis , sed non 
+   <lb ed="#PL"/> omnes
+    (Id.</hi> XIII, 10). Excunte itaque immundo. 
+   <lb ed="#PL"/> omnes mundi remanserunt, et cnm suo mundalore 
+   <pb ed="#PL" n="1805"/>
+       <lb ed="#PL"/> manserunt. Tale aliquid erit cum victus a Christo 
+   <lb ed="#PL"/> transicrit hic mundus,etnenio in populo Christi 
+   <lb ed="#PL"/> rcmancbil immundus ; cum zizaniis a tritico sepa<lb ed="#PL" break="no"/>ratis, justi fulgebunt sicut sol in regno Patris sui 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Mutth.</hi> XIII, 43). Hoc futurum praevidens Dominus, 
+   <lb ed="#PL"/> et nunc significatum esse contestans, discedente Juda 
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> tanquam zizaniis scparalis, remanentibus tanquam 
+   <lb ed="#PL"/> tritico Apostolis sanctis,
+    <hi rend="italic">Nunc,</hi> inquit, <hi rend="italic">clarificatus est 
+   <lb ed="#PL"/> Filius
+    hominis</hi> : tanquam diceret, Ecce in illa mca cla<lb ed="#PL" break="no"/>rificatione
+   quod erit, ubi malorum nullus erit, ubi 
+   <lb ed="#PL"/> bouorum nullUs perit. Sic autem non est dictum, 
+   <lb ed="#PL"/> Nunc significata est clarificatio Filii hominis ; sed 
+   <lb ed="#PL"/> dictum est, <hi rend="italic">Nunc clarificatus est Filius hominis :</hi> quem<lb ed="#PL" break="no"/>admodum
+   non est dictum, Petra significabat Chri<lb ed="#PL" break="no"/>stum; sed, <hi rend="italic">Petra era!</hi> Christus (t <hi rend="italic">Cor.</hi> x, 4). Nec di<lb ed="#PL" break="no"/>ctum
+   est, Bonum semen signiflcabat filios regni, aut, 
+   <lb ed="#PL"/> zizania significabant filius maligni, sed dictum est, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Bonum semen hi</hi> sunt <hi rend="italic">filii regni; zizania autem,
+    filii 
+   <lb ed="#PL"/> maligni (Matlh.</hi> XIII, 58). Sicut ergo solet loqui Scri<lb ed="#PL" break="no"/>plura, res significantes tanquam illas quae significan<lb ed="#PL" break="no"/>tur
+   appellans; ita locutus est Dominus dicens, <hi rend="italic">Nunc 
+   <lb ed="#PL"/> clarificatus sat Filius hominis:</hi> posteaquam separato 
+   <lb ed="#PL"/> inde nequissimo, et secum remanentibus sanctis, si<lb ed="#PL" break="no"/>gnificata
+   est glorificatio ejus, quando separatis iniquis 
+   <lb ed="#PL"/> manebit in aeternitate cum sanctis.</p>
+      <p xml:id="iuy75t-d1e557-d1e420">3. Cum autem dixisset, <hi rend="italic">Nunc clarificatus eat Filius
+   <lb ed="#PL"/>
+    hominis,</hi> adjunxit, <hi rend="italic">Et Deus clarificatus est in eo.</hi> Ipsa
+   
+   <lb ed="#PL"/> est enim clarificatio Filii hominis, ut Deus clarifice<lb ed="#PL" break="no"/>tur
+   in eo. Si enim non ipse in scipso, sed Deus in 
+   <lb ed="#PL"/> illo clarificatur, tunc illum Deus in se clarificat. De<lb ed="#PL" break="no"/>nique
+   tanquam ista exponens, adjungi!, et dicit: Si 
+   <lb ed="#PL"/>
+       <hi rend="italic">Deus clarificatus eat in eo, et Deus clarificabit</hi> eum in 
+   <lb ed="#PL"/>
+       <hi rend="italic">semetipso.</hi> Hoc est, <hi rend="italic">Si Deus clarificatus est in
+    eo,</hi> quia 
+   <lb ed="#PL"/> non venit iacere voluntatem suam, sed voluntatem 
+   <lb ed="#PL"/> ejus qui misit illum ; <hi rend="italic">et Deus clarificabit eum</hi> in <hi rend="italic">semet­
+   <lb ed="#PL"/> ipso,</hi> ut natura humana in qua est filius hominis, quae 
+   <lb ed="#PL"/> a Verbo aeterno suscepta est, etiam immortali aeter<lb ed="#PL" break="no"/>nitate
+   donelur. <hi rend="italic">Et
+    continuo,</hi> inquit, <hi rend="italic">clarificabit eum.</hi>
+   
+       <lb ed="#PL"/> Resurrectionem scilicet suam, nou sicut nostram in 
+   <lb ed="#PL"/> fine saeculi, sed continuo futuram hac attestatione 
+   <lb ed="#PL"/> praedicens. Ipsa est enim clarificatio, de qua Evan<lb ed="#PL" break="no"/>gelista
+   jam dixerat, quod paulo ante commemoravi, 
+   <lb ed="#PL"/> quia propterea nondum Spiritus datus erat illo novo 
+   <lb ed="#PL"/> modo in eis, quibus fuerat eo modo post resurre<lb ed="#PL" break="no"/>ctionem
+   credentibus dandus, quia Jesus nondum Cuc<lb ed="#PL" break="no"/>rat
+   clarificatus: id est, nondum fuerat mortalitas im<lb ed="#PL" break="no"/>mortalitate
+   vestita, et in aeternam virtutem temporalis 
+   <lb ed="#PL"/> infirmitas commutata I. Potest et de ista clarificatione 
+   <lb ed="#PL"/> dictum videri, <hi rend="italic">Nunc clarificatus est Filius hominis ;</hi>
+   
+       <lb ed="#PL"/> ut quod ait <hi rend="italic">nunc,</hi> non ad imminentem passionem, sed 
+   <lb ed="#PL"/> ad vicinam resurrectionem pertinere credatur, tan<lb ed="#PL" break="no"/>quam
+   fuerit factum quod erat tam proxime jam futu<lb ed="#PL" break="no"/>rum. Hodie Dilectioni vestrae ista suffecerint ; cum 
+   <lb ed="#PL"/> donaverit Dominus , de consequentibus disseremus.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 111</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 111</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e949"> <!-- iuy75t-t111 -->
+      <head xml:id="iuy75t-d1e949-Hd1e109">Tractatus 111</head>
+      <p xml:id="iuy75t-d1e949-d1e112">
+       <hi rend="italic">De eo quod Dominus dicit,</hi> Pater, quos dcdisti mihi, 
+   <lb ed="#PL"/> volo ut ubi ego sum, et illi sint mecum ; <hi rend="italic">utque ad id,</hi>
+   
+       <lb ed="#PL"/> Ut dilectio qua dilexisti me, in ipsis sit, et ego in 
+   <lb ed="#PL"/> ipsis. <hi rend="italic">Cap.</hi> XVII, f . 24-26.</p>
+      <p xml:id="iuy75t-d1e949-d1e131">i. In magnam spem Dominus Jesus suos erigit, qua 
+   <lb ed="#PL"/> major omnino esse non possit. Audite , et estote in 
+   <lb ed="#PL"/> spe gaudentes, propter quod vita ista non amanda, 
+   <lb ed="#PL"/> sed toleranda sit, ut esse possitis in ejus tribulatione 
+   <lb ed="#PL"/> patientes <hi rend="italic">(Rom.</hi> XII, 12). Audite, inquam, et quo spes 
+   <lb ed="#PL"/> nostra levetur attendite. Christus Jesus dicit, Filius 
+   <lb ed="#PL"/> Dei unigenitus qui Patri coaeternus et aequalis est,
+   
+   <lb ed="#PL"/> dicit; qui propter nos homo factus est, sed sicat 
+   <lb ed="#PL"/> omnis homo mendax <hi rend="italic">(Psal.</hi> cxv, li) non factus est, di<lb ed="#PL" break="no"/>cit; via, vita, veritas dicit <hi rend="italic">(Joan.</hi> XIV. 6); qui mundum 
+   <lb ed="#PL"/> vicit <hi rend="italic">(Id.</hi> IVI, 33). de his quibus vicit, dicit. Audite, 
+   <lb ed="#PL"/> credite, sperate, desiderate quod dicit: <hi rend="italic">Pater,</hi> inquit; 
+   <lb ed="#PL"/> quos dedisti <hi rend="italic">mihi , volo</hi> ut <hi rend="italic">ubi ego sum , et illi sint
+    me­</hi>
+   
+       <lb ed="#PL"/> cum. Qui sant isti quos ait a Patre datos sibi ? Nonne 
+   <lb ed="#PL"/> illi de quibus alio loco dicit, <hi rend="italic">Nemo venit ad me,</hi> nisi 
+   <lb ed="#PL"/>
+       <hi rend="italic">Pater</hi> qui misit <hi rend="italic">me,</hi> traxerit eum <hi rend="italic">(Id.</hi> vi, 44) ? Jam quo<lb ed="#PL" break="no"/>modo
+   ea quae fieri dicit a Patre , fnciat et ipse cum 
+   <lb ed="#PL"/> Patre, si quid in hoc Evangelio profecimus, novimus. 
+   <lb ed="#PL"/> Ipsi sunt ergo quos a Patre accepit, quos et ipse ele<lb ed="#PL" break="no"/>git
+   de mundo, atque elegit ut jam non sint de mundo. 
+   <lb ed="#PL"/> sicnt non est et ipse de munde : ut sint tamen etiam 
+   <lb ed="#PL"/> ipsi mundus credens et cognoscens quod Christus a 
+   <lb ed="#PL"/> Deo Patre sit missus, ut mundus ex mundo liberare<lb ed="#PL" break="no"/>tur, ne mundus Deo reconciliandus cam mundo ini. 
+   <lb ed="#PL"/> micissimo damnaretur. Sic enim ait in hujus orationis 
+   <lb ed="#PL"/> exordio : <hi rend="italic">Dedisti ei potestatem</hi> omnis <hi rend="italic">carnis,</hi> id est 
+   <lb ed="#PL"/> omnis hominis, ut omne quod dedisti <hi rend="italic">ei, det eis</hi> vitam 
+   <lb ed="#PL"/>
+       <hi rend="italic">eternam (Id.</hi> XVII, 2). Ubi ostendit potestatem se 
+   <lb ed="#PL"/> quidem omnis hominis accepisse, ut liberet quos vo<lb ed="#PL" break="no"/>luerit, damnet quos voluerit, qui vivos et mortuos jn<lb ed="#PL" break="no"/>dicabit ; sed eos sibi esse datos, quibus omnibus det 
+   <lb ed="#PL"/> vitam aeternam. Sic enim ait: Ut <hi rend="italic">omne quod dedisti 
+   <lb ed="#PL"/> ei , det</hi> cis <hi rend="italic">vitam</hi> aeternam. Proinde non ei dati sunt, 
+   <lb ed="#PL"/> quibus vitam non dabit aeternam : quamvis et ipsorum 
+   <lb ed="#PL"/> potestas data sit, eui potestas data est omnis carnis, 
+   <lb ed="#PL"/> id est omnis hominis. Ita mundus reconciliatus ex ini<lb ed="#PL" break="no"/>mico
+   liberabitUr mundo, cum in illum exserit poi 
+   <lb ed="#PL"/> lestatetn Mam, ut edm in mortem mittat aeternam ' 
+   <lb ed="#PL"/> hunc autem facit suum, cui vitam donet aeternam. 
+   <lb ed="#PL"/> Quapropter omnibus prorsus ovibus suis bonas pa<lb ed="#PL" break="no"/>stor , omnibus membris suls magnum caput promisit , 
+   <lb ed="#PL"/> hoc praemium, ut ubi ipso est, et nos cum illo simus: 
+   <lb ed="#PL"/> nec poterit nisi fieri quod omnipotenti Patri se velle, 
+   <lb ed="#PL"/> dixit omnipotens Filius. fbi est enim et Spiritus san. 
+   <lb ed="#PL"/> tlus pariter aeternus, pariter Deus, Spiritus unus 
+   <lb ed="#PL"/> duorum, et substantia voluntatis amborum. Nam illud 
+   <lb ed="#PL"/> quod dixisse legitur propinquante pasdione , <hi rend="italic">Verum 
+   <lb ed="#PL"/> non quod ego volo, sed</hi> quod <hi rend="italic">tu vis, Pater (Matth.</hi>
+   
+       <lb ed="#PL"/> XXVI, 39), quasi alia Patris, alla Filii sit voluntas aut 
+   <lb ed="#PL"/> luerit, sonus est nostrae infirmitatis, quamvis fidelis, 
+   <lb ed="#PL"/> quam iri se caput nostrum transfiguraVit, quando 
+   <lb ed="#PL"/> etiam peccata nostra portavit. Unam vero esse Patris 
+   <lb ed="#PL"/> et Filii voluntatem , quorum etiam Spiritus unus est, 
+   <lb ed="#PL"/> quo adjuncto cognoscimus Trinitatem, etsi intelligero 
+   <lb ed="#PL"/> nondum permittit infirmitas, credat pietas.</p>
+      <p xml:id="iuy75t-d1e949-d1e310">i. Sed quoniam quibus promiserit et quam firma 
+   <lb ed="#PL"/> sit ipsa promissio, pro sermonis brevitate jam dixi<lb ed="#PL" break="no"/>mus; hoc ipsum quantum valemus, quid sit quod di<lb ed="#PL" break="no"/>gnatus
+   est promittere videamus, <hi rend="italic">quos dedisti mihi,</hi> in<lb ed="#PL" break="no"/>quit, <hi rend="italic">volo ut ubi ego</hi> sum, <hi rend="italic">et ipsi sint mecum.</hi> QuantuM 
+   <lb ed="#PL"/> attinet ad creaturam in qua factus est ex semine Da<lb ed="#PL" break="no"/>vid
+   secundum carnem <hi rend="italic">(Rom.</hi> i, 5), nec ipse adhuc erat 
+   <lb ed="#PL"/> ubi futurus erat : sed co modo dicere potuit, ubi <hi rend="italic">ego
+   <lb ed="#PL"/> sum</hi> , quo intelligeremus quod cito fuerat ascensurus 
+   <lb ed="#PL"/> in coelum, ut jam ibi esse se diceret ubi fuerat mox
+   
+   <lb ed="#PL"/> futurus. Potuit et in illo modo, quo ante jam dixerat 
+   <lb ed="#PL"/> loquens ad Nicodemum,
+    <hi rend="italic">Nemo ascendit in caelum,</hi> nisi 
+   <lb ed="#PL"/>
+       <hi rend="italic">qui descendit de caelo, Filius</hi> honūnis , <hi rend="italic">qui in
+    caelo est 
+   <lb ed="#PL"/> (Joan.</hi> iii, 43). Nam et ibi non dixit, Erit; sed, <hi rend="italic">est,</hi>
+   
+       <lb ed="#PL"/> propter unitatem personae, in qua et Deus homo est, 
+   <lb ed="#PL"/> et homo Deus. In caelo ergo nos futuros esse promisit : 
+   <lb ed="#PL"/> illo cnim forma servi levata eSt, quam sumpsit ex Vir<lb ed="#PL" break="no"/>gine, et ad Patris dexteram collocata. Propter spem 
+   <lb ed="#PL"/> tanti hujus boni et Appotolus ait : <hi rend="italic">Deus autem qui</hi> di­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">ves est</hi> in <hi rend="italic">misericordia, propter multam
+    dilectionem qua 
+   <lb ed="#PL"/> dilexit nos, et cum essemus mortui peccatis,</hi> convivifica­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">vit noa Christo, cujus gratia</hi> sumus <hi rend="italic">salvi
+    facti;</hi> et simul 
+   <lb ed="#PL"/>
+       <hi rend="italic">excitavit , et simul sedere fecit in caelestibus</hi> in Christo 
+   <lb ed="#PL"/>
+       <hi rend="italic">Jesu (Ephes.</hi> II, 4-6). Hoc ergo potest intelligi dixisse 
+   <lb ed="#PL"/> Dominus, <hi rend="italic">Ut</hi> ubi <hi rend="italic">ego sum, et illi sint
+    mecum.</hi> Et ipse 
+   <lb ed="#PL"/> quidem de se dixit quod ibi jam esset; de nobis au<lb ed="#PL" break="no"/>tem
+   velle se dixit ut essemus ibi cum illo, non quod 
+   <lb ed="#PL"/> jam essemus ostendit. Apostolus autem quod bomi- 
+   <lb ed="#PL"/> DnS velle se dixit ut ficret, tanquam factum fuerit est
+   
+   <lb ed="#PL"/> locutus. Non enim ait, Excitaturus est, et in coelesti<lb ed="#PL" break="no"/>bus
+   sedere facturus; sed, <hi rend="italic">excitavit, et sedere</hi> in <hi rend="italic">caele­</hi>
+   
+       <lb ed="#PL"/> stibus <hi rend="italic">fecit:</hi> quia non inanitcr sed fideliter jam deputat
+   
+   <lb ed="#PL"/> factum qnod futurum esse non dubitat. Quod vero 
+   <lb ed="#PL"/> attinet ad formam Dei in qua aequalis est Patri, si se<lb ed="#PL" break="no"/>cundum
+   eam velimus intelligere quod dictum est, <hi rend="italic">Volo</hi>
+   
+       <lb ed="#PL"/> ut ubi ego <hi rend="italic">sum, et</hi> iUi <hi rend="italic">sint mecum ;</hi> abscedat ab animo 
+   <lb ed="#PL"/> omnis imaginum corporalium cogitatio : quidquid 
+   <lb ed="#PL"/> menti occurrerit longum , latum , erassum , qualibet 
+   <lb ed="#PL"/> luce corporea coloratum, per quaelibet locorum spa<lb ed="#PL" break="no"/>tia
+   vel imita , vel infinita diffusum, ab his omnibus, 
+   <lb ed="#PL"/> quantum potest, aciem suae contemplationis vel in<lb ed="#PL" break="no"/>tenlionis
+   avertat. Et non inquiratur aequalis Patri Fi<lb ed="#PL" break="no"/>liris
+   ubi sit, quoniam nemo invenit obi noi. sit. Sed
+   
+   <lb ed="#PL"/> qui vult quaerere, quaerat polius ut eum illosit; non 
+   <lb ed="#PL"/> ubique sicut ille, ded ubicumque esse potuerit. Qui 
+   <lb ed="#PL"/> enim homini poenaliter pendenti, et salubriter conR *
+   
+   <lb ed="#PL"/> tenti ait, <hi rend="italic">Hodie mecum eris</hi> in <hi rend="italic">paradiso
+    (Luc.</hi> XXIII, 43); 
+   <pb ed="#PL" n="1927"/>
+       <lb ed="#PL"/> secundum id quod homo crat, anima ejus ipso die fu<lb ed="#PL" break="no"/>tura
+   fuerat in inferno , caro in scpulcro; secundum 
+   <lb ed="#PL"/> autem id quod Deus erat , utiqueetin paradiso erat. 
+   <lb ed="#PL"/> Et ideo latronis anima a pristinis facinoribus absoluta, 
+   <lb ed="#PL"/> et illius munere jam bnata, quamvis ubique sicut ille 
+   <lb ed="#PL"/> esse non potcrat; tamen etiam ipso die cum illo in 
+   <lb ed="#PL"/> paradiso esse poterat, unde ille qui ubique semper 
+   <lb ed="#PL"/> cst, non recesserat. Propterea nimirum non ei satis 
+   <lb ed="#PL"/> fuit dicere, <hi rend="italic">Volo
+    ut ubi ego</hi> sum, <hi rend="italic">et</hi> illi <hi rend="italic">sint;</hi> sed addi<lb ed="#PL" break="no"/>dit, mecum. Esse cnirn cum illo, magnum bonum est. 
+   <lb ed="#PL"/> Nam et miseri esse possunt ubi est ille, quoniam qni<lb ed="#PL" break="no"/>cumque
+   ubicumque fueriat, est et ille : sed beati soli 
+   <lb ed="#PL"/> sunt cum illo , quia beati esse non poterunt nisi ex 
+   <lb ed="#PL"/> illo. Annon Deo veraciter dictum est, Si <hi rend="italic">ascendero in 
+   <lb ed="#PL"/> caelum, tu ibi es;
+    et</hi> si <hi rend="italic">descendero in infernum, ades 
+   <lb ed="#PL"/> (Psal.</hi> CXXXVIII, 8)? aut vcro Christus non est Dei 
+   <lb ed="#PL"/> Sapientia, quoe <hi rend="italic">attingit
+    ubique propter</hi> suam <hi rend="italic">munditiam
+   <lb ed="#PL"/> (Sap.</hi> VII, 24) ? Sed lux lucet in tenebris, nec eam te<lb ed="#PL" break="no"/>nebrae
+   comprehendunt <hi rend="italic">(Joan.</hi> i, 5). Ac per hoc, ulde 
+   <lb ed="#PL"/> re visibili, quamvis tongc dissimili , qualecumque su<lb ed="#PL" break="no"/>mamus
+   exemplum, sicut caecus etiamsi ibi sit ubi lux 
+   <lb ed="#PL"/> est, non est tamen ipse cHun luce, sed absens est a 
+   <lb ed="#PL"/> praesentc; ila infidelis atquc impius, aut etiamsi fidelis 
+   <lb ed="#PL"/> et pius, nondum tamen ad intuendum lumen sapien<lb ed="#PL" break="no"/>tiae
+   idoneus , etiamsi esse nusquam possit ubi non sit 
+   <lb ed="#PL"/> et Christus, non est tamen ipse cum Christo, duntaxat 
+   <lb ed="#PL"/> per speciem. Nam hominem pie fidelem, non est du<lb ed="#PL" break="no"/>bitandum
+   cum Christo esse per fidem : propter quod 
+   <lb ed="#PL"/> dicit, <hi rend="italic">Qui
+    non est mecum, adversum me est (Matth.</hi>
+   
+       <lb ed="#PL"/> XII, 30). Sed cnm Patri Deo dicebat, <hi rend="italic">Quos dedisti</hi> mihi, 
+   <lb ed="#PL"/>
+       <hi rend="italic">volo ut ubi ego</hi> sum, <hi rend="italic">et ipsi sint mecum;</hi> de specie illa 
+   <lb ed="#PL"/> omnino dicebat, in qua videbimus eum sicuti est 
+   <lb ed="#PL"/> (1 <hi rend="italic">Joan.</hi> III, 2).</p>
+      <p xml:id="iuy75t-d1e949-d1e609">3. Nemo serenissimum sensum nubilosa contra<lb ed="#PL" break="no"/>dictione
+   perturbet ; consequentia perhibcant testimo<lb ed="#PL" break="no"/>nium
+   praecedentibus verbis. Nempe cum dixisset, <hi rend="italic">Volo 
+   <lb ed="#PL"/> ut ubi ego</hi> sum , <hi rend="italic">et ipsi</hi> sint <hi rend="italic">mecum</hi> , continuo secutus 
+   <lb ed="#PL"/> adjunxit, <hi rend="italic">Ut
+    videant claritatem meamquam dedisti mihi, 
+   <lb ed="#PL"/> quia dilexisti me ante constitutionem
+    mundi. Ut videant,</hi>
+   
+       <lb ed="#PL"/> dixit; non, ut credant. Fidei merces est ista, non fi<lb ed="#PL" break="no"/>des. Si enim fides in Epistola ad Hebraeos recte de<lb ed="#PL" break="no"/>finita
+   est , Convictio <hi rend="italic">rerum qum
+    non videntur (Hebr.</hi>
+   
+       <lb ed="#PL"/> XI, 1) ; cur non merces fidei definiatur, Visio rerum 
+   <lb ed="#PL"/> quae creditae sperabantur ? Cum viderimus enim cla<lb ed="#PL" break="no"/>ritatem
+   quam dedit Pater Filio, cliamsi eam dici hoc 
+   <lb ed="#PL"/> ioco intelligamus, non quam Pater aequali Filio gignens 
+   <lb ed="#PL"/> cum dedit, sed quam facto hominis filio I dedit ei post 
+   <lb ed="#PL"/> mortem crucis : quando ergo videbimus illam Filii 
+   <lb ed="#PL"/> claritatem, profecto tunc fiet judicium vivorum atque 
+   <lb ed="#PL"/> mortuorum, tunc tolletur impius, ne videat claritatem 
+   <lb ed="#PL"/> Domini <hi rend="italic">(Isai.</hi> XXVI ,10); quam , nisi illam qua Deus 
+   <lb ed="#PL"/> est ? Beati enim mundicordes, quoniam ipsi Deum vi<lb ed="#PL" break="no"/>debunt <hi rend="italic">(Matth.</hi> v, 8) : nec mundicordes sunt impii,
+   
+   <lb ed="#PL"/> propterea non videbunt. Tunc ibunt ipsi in suppli<lb ed="#PL" break="no"/>cium
+   aeternum ; sic enim tolletur impius ne videaf 
+   <lb ed="#PL"/> claritatem Domini : justi autem ibunt in vitam aeter­
+   
+   <lb ed="#PL"/> nam <hi rend="italic">(Id.</hi> xxv, 46). Et quae est vita aeterna? <hi rend="italic">Ut</hi> co<lb ed="#PL" break="no"/>gnoscant, inquit, te solum <hi rend="italic">verum
+    Deum , et quem mi-</hi>
+   
+   
+       <lb ed="#PL"/>
+       <hi rend="italic">sisti Jesum Christum (Joan.</hi> XVII, 3) : non utique sicut 
+   <lb ed="#PL"/> eum cognoverunt qui licet non mundicordes, tamen 
+   <lb ed="#PL"/> in forma servi clarificata judicantem videre potuerunt; 
+   <lb ed="#PL"/> sed sicut cognoscendus est a mundis corde solus verus 
+   <lb ed="#PL"/> Deus, cum Patre et Spiritu sancto Filius, quia ipsa 
+   <lb ed="#PL"/> Trinitas est solus verus Deus. Si ergo secundum id 
+   <lb ed="#PL"/> quod Fijius Dei Deus est Patri aequalis atque coapter<lb ed="#PL" break="no"/>nus
+   ; accipiamus hoc dictum, <hi rend="italic">Volo ut ubi ego</hi> sum, <hi rend="italic">et</hi>
+   
+       <lb ed="#PL"/> ipsi <hi rend="italic">sint mecum,</hi> in Patre cum Christo crimus; sed ille
+   
+   <lb ed="#PL"/> sicut ille, nos sicut nos, ubicumque corpore fuerimus. 
+   <lb ed="#PL"/> Si enim loca dicenda sunt, et quibus non corpora 
+   <lb ed="#PL"/> continentur , et locus est cuique rei ubi est ; locus
+   
+   <lb ed="#PL"/> Christi aeternus ubi semper est, ipse Pater cst, et lo<lb ed="#PL" break="no"/>cus
+   Patris Filius est; quia, <hi rend="italic">Ego,</hi> inquit, <hi rend="italic">in Patre, et 
+   <lb ed="#PL"/>
+    Puter in me est (Id.</hi> xiv, 10) ; et in hac oratione, <hi rend="italic">Sicut
+   <lb ed="#PL"/>
+    tu Pater,</hi> inquit, <hi rend="italic">in me , et ego in te :</hi> et locus noster
+   
+   <lb ed="#PL"/> ipsi sunt, quia sequitur, <hi rend="italic">Ut et</hi> ipsi in <hi rend="italic">nobis</hi> unum <hi rend="italic">sint
+   <lb ed="#PL"/> (Id.</hi> XVII, 21) : et nos locus Dei sumus, quoniam tem<lb ed="#PL" break="no"/>plum
+   ejus sumus; sicut orat pro nobis qui mortuus 
+   <lb ed="#PL"/> est pro nobis, vivitque pro nobis, ut in ipsis unum si<lb ed="#PL" break="no"/>mus ; quia <hi rend="italic">factus est</hi> in <hi rend="italic">pace locus ejus, et habitatio ejus</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">Sion (Psal.</hi> LXXV, 3), quae nos sumus. Sed quis ido­
+   
+   <lb ed="#PL"/> neus loca ista , vel quai sunt in locis istis, sine spa<lb ed="#PL" break="no"/>tiosis
+   capacitatibus et sinecorporeis molibus cogitare ? 
+   <lb ed="#PL"/> Non parum tamen proficitur, si saltem quidquid tale 
+   <lb ed="#PL"/> oculo cordis occurrit, negatur, respuitur, improbatur: 
+   <lb ed="#PL"/> et lux quaedam in qua ista neganda , respuenda , im<lb ed="#PL" break="no"/>probanda
+   cernuntur, sicut potuerit, cogitatur; et quam 
+   <lb ed="#PL"/> sit certa cognoscitur, et amatur, ut inde surgatur, at<lb ed="#PL" break="no"/>que
+   ad interiora tendatur : quae cum penetrare mens 
+   <lb ed="#PL"/> invalida, et minus quam illa sunt, pura, nequiverit; 
+   <lb ed="#PL"/> . non sine amoris gemitu et desiderii lacrymis inde pel<lb ed="#PL" break="no"/>latur; et patienter ferat quamdiu fide mundatur , at<lb ed="#PL" break="no"/>que
+   ut illic habitare valeat, sanctis moribus prae<lb ed="#PL" break="no"/>paratur
+   t.</p>
+      <p xml:id="iuy75t-d1e949-d1e815">4. Quomodo ergo non erimus cum Christo ubi est, 
+   <lb ed="#PL"/> quando in Patre cum illo eriinus in quo est? Nequc 
+   <lb ed="#PL"/> hinc Apostolus nobis, quamvis nondum rem tenenti<lb ed="#PL" break="no"/>bns, sed tamen spem gerentibus, tacuit. Ait enim : 
+   <lb ed="#PL"/>
+       <hi rend="italic">Si resurrexistis cum Christo, quae</hi> sursum <hi rend="italic">sunt
+    quaerite , 
+   <lb ed="#PL"/> ubi Christus est</hi> in <hi rend="italic">dextera Dei sedens;
+    quae</hi> sursum <hi rend="italic">sunt
+   <lb ed="#PL"/> sapite, non quae super terram. Mortui enim
+    estis,</hi> inquit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">et vita vestra abscondita eat cum Christo in Deo.</hi> Ecce 
+   <lb ed="#PL"/> interim fide ac spe vita nostra ubi Christus est, cum 
+   <lb ed="#PL"/> illo est; quia cum Christo in Deo est. Ecce velut jam 
+   <lb ed="#PL"/> factum est quod oravil ut fieret, dicens, <hi rend="italic">Volo ut ubi 
+   <lb ed="#PL"/> ego sum, et ipsi sint mecum</hi> : sed nunc per fidem.
+   
+   <lb ed="#PL"/> Quando autem fiet per speciem ? Cum <hi rend="italic">Christus,</hi> inquit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">apparuerit vita vestra, tunc et vos apparebitis cum ipso
+   <lb ed="#PL"/> in
+    gloria (Coloss.</hi> III, 1-4 ). Tunc apparebimus quod 
+   <lb ed="#PL"/> tunc erimus; quia tunc apparebit non inaniter nos id 
+   <lb ed="#PL"/> credidisse ac sperasse antequam essemus Faciet hoc
+   
+   <lb ed="#PL"/> cui Filius cum dixisset 2, <hi rend="italic">Ut videant</hi> claritatem <hi rend="italic">meam 
+   <lb ed="#PL"/> quam dedisti mil,;,</hi> continuo subjunxit, <hi rend="italic">Quia</hi> dilexisti 
+   <lb ed="#PL"/> me <hi rend="italic">ante constitutionem</hi> mundi. In illo enim dilexit et 
+   
+   <pb ed="#PL" n="1929"/>
+       <lb ed="#PL"/> nos ante constitutionem naundi,ettune praedestinavit. 
+   <lb ed="#PL"/> quod in fine facturus est mundi.</p>
+      <p xml:id="iuy75t-d1e949-d1e902">5. <hi rend="italic">Pater,</hi> inquit, juste, <hi rend="italic">mundus te non
+    cognovit.</hi>
+   
+       <lb ed="#PL"/> Quia justus es, ideo te non cognovit. Mundus quippe 
+   <lb ed="#PL"/> ille damnationi praedestinatus merito non cognovit: 
+   <lb ed="#PL"/> mundus vero quem per Christum reconciliavit sibi, 
+   <lb ed="#PL"/> non merito, sed gratia cognovit. Quid est cnim eum 
+   <lb ed="#PL"/> cognoscere, nisi vita aeterna ? quam mundo damnato 
+   <lb ed="#PL"/> utiqne nou dedit, reconciliato dedit. Propterea itaque 
+   <lb ed="#PL"/> mundus uon cognovit, quia justus es, et meritis ejus, 
+   <lb ed="#PL"/> ut non cognosceret, tribuisti: et propterea mundus 
+   <lb ed="#PL"/> reconciliatus cognovit, quia misericors es.etutco<lb ed="#PL" break="no"/>guosceret
+   non ei merito, sed gratia subvenisti. Dcui­
+   
+   <lb ed="#PL"/> que sequitur, <hi rend="italic">Ego autem te cognovi.</hi> Ipse fons gratiae 
+   <lb ed="#PL"/> cat Deus natura, bono autem de Svirilu sancto et 
+   <lb ed="#PL"/> Virgine ineffabili gratia : denique propter ipsum, quia 
+   <lb ed="#PL"/> gratia Dei per Jesum Christum est Dominum no<lb ed="#PL" break="no"/>strum,
+   <hi rend="italic">Et hi cognoverunt ,</hi> iuquit, <hi rend="italic">quia</hi> tu
+    <hi rend="italic">me misisti.</hi>
+   
+       <lb ed="#PL"/> Ipse est mundus reconciliatus. Sed quia tu me misisti, 
+   <lb ed="#PL"/> ideo cognoverunt : ergo gratia cognoverunt.</p>
+      <p xml:id="iuy75t-d1e949-d1e960">6. <hi rend="italic">Et notum feci</hi> eia, inquit, nomen <hi rend="italic">tuum, et
+    notum
+   <lb ed="#PL"/> faciam.</hi> Notum fuci pcr fidem, notum faciam per spe<lb ed="#PL" break="no"/>ciem : notum feci cum fine peregrinantibus, notum 
+   <lb ed="#PL"/> faciam sine Une regnantibus. <hi rend="italic">Ut dilectio,</hi> inquit, <hi rend="italic">quam 
+   <lb ed="#PL"/> dilexisti me, in
+    ipsis sit, et ego in</hi> ipsis. Non est usitata 
+   <lb ed="#PL"/> locutio, <hi rend="italic">dileceio quam dilexisti me,</hi> in <hi rend="italic">ipsis sit , et ego</hi>
+   
+       <lb ed="#PL"/> in ipsis : usitate quippe diceretur, dilectio qua dilexisti 
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> me. De graeco quidem ista translata est: sed sunt si<lb ed="#PL" break="no"/>miles
+   et latinae; sicut dicimus, Fidelem servitutem 
+   <lb ed="#PL"/> servivit, strenunm militiam militavit ; cum dici de­
+   
+   <lb ed="#PL"/> buisse videatur, Fideli servitute servivit, strenua ini<lb ed="#PL" break="no"/>litia
+   militavit. Qualis autem ista locutio est, <hi rend="italic">dilectio 
+   <lb ed="#PL"/> quam dilexisti me;</hi> tali et Apostolus usus est, <hi rend="italic">Bonum 
+   <lb ed="#PL"/> certamen</hi> certavi (II <hi rend="italic">Tim.</hi> IV, 7): non ait, bono certa<lb ed="#PL" break="no"/>mine, quod usitatius et tanquam rectius diceretur. 
+   <lb ed="#PL"/> Quomodo autem dilectio quam dilexit Pater Filium ,
+   
+   <lb ed="#PL"/> est et in nobis, nisi quia membra cjus sumus , et in 
+   <lb ed="#PL"/> illo diligimur, cum ipse diligitur totus, id est caput et 
+   <lb ed="#PL"/> corpus? Ideo subjunxit, <hi rend="italic">et
+    ego in ipsis;</hi> tanquam di<lb ed="#PL" break="no"/>ceret, quoniam ego sum et in ipsis. Aliter enim est in 
+   <lb ed="#PL"/> nobis tanquam in tempto suo; aliter autem quia et 
+   <lb ed="#PL"/> nos ipse sumus, cum secundum id quod ut caput no<lb ed="#PL" break="no"/>strum
+   esset, homo factus esi, corpus ejus sumus. Fi­
+   
+   <lb ed="#PL"/> nita est Salvatoris oratio, incipit passio: ergo et iste 
+   <lb ed="#PL"/> sermo finiatur, ut de passione quod ipse donaverit, 
+   <lb ed="#PL"/> aliis sermonibus disputetur.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

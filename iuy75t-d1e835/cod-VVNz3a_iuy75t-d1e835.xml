@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 97</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 97</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e835"> <!-- iuy75t-t97 -->
+      <head xml:id="iuy75t-d1e835-Hd1e109">Tractatus 97</head>
+      <!--<ab>
+   <title type="sub">
+    <hi rend="italic">In eamdem lectionem.</hi>
+   </title>
+  </ab>-->
+      <p xml:id="iuy75t-d1e835-d1e114">i. Spiritus sanctus quem promisit Dominus se disci<lb ed="#PL" break="no"/>pulis
+   suis esse missurum, qui eos doceret omnem ve<lb ed="#PL" break="no"/>ritatem, quam tunc quando cum eis Loquebatur, por<lb ed="#PL" break="no"/>tare
+   non poterant: de quo Spiritu sancto, sicut dicit 
+   <lb ed="#PL"/> Apostolus, nunc <hi rend="italic">pignus</hi> accepimus (II Cor. I, 22), 
+   <lb ed="#PL"/> quo verbo intelligeremus ejus plenitudinem nobis in 
+   <lb ed="#PL"/> vita alia reservari: ipse ergo Spiritus sanctos et nunc
+   
+   <lb ed="#PL"/> docet fideles, quanta quisque potest capere spiritua<lb ed="#PL" break="no"/>lia; et corum pectora desiderio majore succendit, si 
+   <lb ed="#PL"/> quisque in ea charitate proficiat, qua et diligat cognita, 
+   <lb ed="#PL"/> et cognoscenda desideret: ita ut ea quoque ipsa quoe 
+   <lb ed="#PL"/> nunc quomodocumque cognoscit, nondum se scire sciat, 
+   <lb ed="#PL"/> sicut scienda sunt inca vita quam nee oculus vidit, nec 
+   <lb ed="#PL"/> auris audivit, nec in cor hominis ascendit (I Cor. II, 9).
+   
+   <lb ed="#PL"/> Quo sciendi modo, si nunc ea vellet interior magister 
+   <lb ed="#PL"/> dicere, id est, nostre menti aperire atque monstrare; 
+   <lb ed="#PL"/> humana infirmitas portare non posset. Unde me vestra 
+   <lb ed="#PL"/> Dilectio meminit jam locutum, cum sancti Evangelii 
+   <lb ed="#PL"/> verba tractaremus, ubi Dominus ait, <hi rend="italic">Adhuc multa
+   <lb ed="#PL"/> habeo vobis dicere, sed non potestis
+    portare modo.</hi> Non 
+   <lb ed="#PL"/> ut in his Domini verbis nescio quae secreta nimis abdita
+   
+   <lb ed="#PL"/> suspicemur, quae cum dici a docente possint, portari 
+   <lb ed="#PL"/> a discente non possint
+   : sed ea ipsa quae in doctrina 
+   <lb ed="#PL"/> rcligionis in quorumlibet hommum notitia legimus et
+   
+   <lb ed="#PL"/> scribimus, audimus et dicimus, si vellet eo modo 
+   <lb ed="#PL"/> nobis Christus dicere, sicut ea dicit Angelis sanctis 
+   <lb ed="#PL"/> in seipso unigenito Patris Verbo, Patrique coaeterno; 
+   <lb ed="#PL"/> quinam portare homines possent, etiam si jam essent 
+   <lb ed="#PL"/> spirituales, quales adhuc Apostoli non fuerunt, quando 
+   <lb ed="#PL"/> ista eis Dominus loquebatur, qualesque postea ve<lb ed="#PL" break="no"/>nicnte
+   sancto Spiritu facti sunt? Nam utique quidquid 
+   <lb ed="#PL"/> de creatura sciri potest, minus est ipso Creatore, 
+   <lb ed="#PL"/> qui summus ei verus et immutabilis est Deus. Et 
+   <lb ed="#PL"/> quit eam tacet? Ubi non a legentibus, disputantibus, 
+   <lb ed="#PL"/> quaerentibus, respondentibus, laudantibus, cantan<lb ed="#PL" break="no"/>tibus, quoquomodo sermocinantibus, postremo ab 
+   <lb ed="#PL"/> ipsis etiam blasphemantibus nominator? Et cum eum 
+   <lb ed="#PL"/> nemo taceat, quis est qui eum sicut intelligendus est 
+   <lb ed="#PL"/> capiat, cum de oribus et auribus hominum non rece­
+   
+   <lb ed="#PL"/> dat? Quis est cujus acies ad eum mentis accedat? Quis 
+   <lb ed="#PL"/> est qui cum Trinitatem esse scisset, nisi ipse sit 
+   <lb ed="#PL"/> innotescere voluisset ? Et quis hominum jam istam
+   
+   <lb ed="#PL"/> sileat Trinitatem : et tamen quis bominum siccat 
+   <lb ed="#PL"/> Angeli sapiat Trinitatem? Ea ipsa ergo quae do 
+   <lb ed="#PL"/> Dei aeternitate. veritate, sanctitate, in promptu et 
+   <lb ed="#PL"/> palam sine cessatione dicuntur, ab aliis bene, ab 
+   <lb ed="#PL"/> aliis male intelliguntur : imo ab aliis intelliguntur, ab 
+   <lb ed="#PL"/> aliis non intelliguntur. Qui enim male intelligit, non
+   
+   <lb ed="#PL"/> intelligit. Ab cis ipsis autem a quibus bene intelligun<lb ed="#PL" break="no"/>tur, ab aliis minus, ab aliis amplius mentis vivaci<lb ed="#PL" break="no"/>tate
+   cernuntur, et a nullo hominum sicut ab Angelis 
+   <lb ed="#PL"/> capiuntur. In ipsa ergo mente, hoc est in interiore 
+   <lb ed="#PL"/> homine, quodammodo crescitur, non solum ut ad 
+   <lb ed="#PL"/> cibum a lacte transeatur, verum etiam ut amplius 
+   <lb ed="#PL"/> atque amplius cibus ipse sumatur. Non autem cresci<lb ed="#PL" break="no"/>tur
+   spatiosa mole, sed intelligentia luminosa ; quia et 
+   <lb ed="#PL"/> ipse cibus intelligibilis lux est. Ut ergo crescatis, eum<lb ed="#PL" break="no"/>que
+   capiatis, et quanto magis crescitis, tanto magis 
+   <lb ed="#PL"/> magisque capiatis; non ab eo doctore qui vestris auri<lb ed="#PL" break="no"/>bus
+   sonat, hoc est, forinsecus operando plantat et rigat, 
+   <lb ed="#PL"/> sed ab eo qui dat incrementum (I Cor. III, 6), petere 
+   <lb ed="#PL"/> ac sperare debetis.</p>
+      <p xml:id="iuy75t-d1e835-d1e255">i. Proinde, sicnt praeterito sermone commonui, 
+   <lb ed="#PL"/> cavete, maxime qui parvuli estis et adhuc alimentis 
+   <lb ed="#PL"/> lacteis indigetis, ne hominibus sub hac occasione de. 
+   <lb ed="#PL"/> ceptis ac deceptoribus, quia Dominus ait, <hi rend="italic">Adhuc</hi> multa 
+   <lb ed="#PL"/>
+       <hi rend="italic">habeo vobis dicere, sed</hi> non potestis <hi rend="italic">portare</hi> modo, au<lb ed="#PL" break="no"/>rem
+   curiosam praebeatis ad incognita scienda, cum 
+   <lb ed="#PL"/> mentes invalidas habeatis ad vera et falsa dijudicanda: 
+   <lb ed="#PL"/> maxime propter obscoenissimas turpitudines, quas 
+   <lb ed="#PL"/> docuit satanas animas instabiles atque carnales, ad 
+   <lb ed="#PL"/> hoc Deo sinente, ut ejus ubique sint tremenda judi<lb ed="#PL" break="no"/>cia, et in comparatione impurae nequitiae dulcescat 
+   <lb ed="#PL"/> purissima disciplina ; atque ut illi det honorem, timo<lb ed="#PL" break="no"/>rem
+   autem vel pudorem sibi , qui in illa mala vel illo 
+   <lb ed="#PL"/> regente non cccidit, vel illo inde levante surrexit. 
+   <lb ed="#PL"/> Cavete timendo et orando, ne irruatis in illud aenigma 
+   <lb ed="#PL"/> Salomonis, ubi <hi rend="italic">mulier insipiens</hi> et
+    <hi rend="italic">audax, inops</hi> panis 
+   <lb ed="#PL"/>
+       <hi rend="italic">effecta,</hi> convocat praetereuntes dicens, <hi rend="italic">Panes
+    occultos
+   <lb ed="#PL"/> libenter</hi> attingite, <hi rend="italic">et aquae furtivae dulcedinem
+    (Prov.</hi>
+   
+       <lb ed="#PL"/> ix , 13-17). Haec- enim mulier vanitas est impiorum v 
+   <lb ed="#PL"/> cum sint insipicntissimi, aliquid se scire opinantium, 
+   <lb ed="#PL"/> sicut de ista muliere dictum est, inops <hi rend="italic">panis effecta.</hi>
+   
+       <lb ed="#PL"/> Quae cum sit inops panis, promittit panes ; id est, cum- 
+   <lb ed="#PL"/> sit, ignara veritatis, promittit scientiam veritatis. Oc<lb ed="#PL" break="no"/>cultos
+   tamen panes promittit, quos dicit libenter at<lb ed="#PL" break="no"/>tingi, et aquae furtivae dulcedinem ; ut ca scilicet Ii<lb ed="#PL" break="no"/>bentius
+   et dulcius audianturetagantur, quae palam in 
+   <lb ed="#PL"/> Ecclesia dici credique prohibentur. Ipsa quippe occul<lb ed="#PL" break="no"/>tatione
+   condiunt quodammodo nefarii doctores sua ve<lb ed="#PL" break="no"/>nena
+   curiosis; ut ideo se existiment aliquid discere 
+   <lb ed="#PL"/> magnum, quia meruit habere secretum, et suavius 
+   <lb ed="#PL"/> hauriant insipientiam , quam putant scientiam, cujus
+   
+   <lb ed="#PL"/> prohibitam quodammodo furantur audientiam.</p>
+      <p xml:id="iuy75t-d1e835-d1e354">3. Hinc et nefarios ritus suos hominibus sacrilega 
+   <lb ed="#PL"/> curiositate deceptis vel decipiendis magicarum artium 
+   <lb ed="#PL"/> doctrina commendat. Hinc illae illicitae divinationes
+   
+   <lb ed="#PL"/> inspectis pecudum viscenbus occisorum, aut vocibus 
+   <lb ed="#PL"/> et volatibus avium, aut signis multiformibus daemu- 
+   <pb ed="#PL" n="1879"/>
+       <lb ed="#PL"/> num, insusurrantur auribus hominum pcriturorum 
+   <lb ed="#PL"/> per colloquia perditorum. Propter haec iHieila atquo 
+   <lb ed="#PL"/> punienda secreta, mulier illa non solum insipiens, ve<lb ed="#PL" break="no"/>lum <hi rend="italic">audax</hi> etiam nuucupatur. Sed haec noa solam a 
+   <lb ed="#PL"/> re ipsa, verum et a nomine nostrae religionis aliena 
+   <lb ed="#PL"/> sunt. Quid quod mulier haec Insipiens et audax, sub 
+   <lb ed="#PL"/> christiano vocabulo tot scelestas haereses condidit, 
+   <lb ed="#PL"/> tot ncfandas fabulas finxit ? Utinam talus quales in 
+   <lb ed="#PL"/> theatris sive cantantur, sive saltantur, sive mimica 
+   <lb ed="#PL"/> scurrilitate ridentur ; et non quasdam tales, quales 
+   <lb ed="#PL"/> adversus Deum fingere potuisse sic illam doleamus 
+   <lb ed="#PL"/> insipientiam
+   , ut mircmur andaciam. Omnes autem 
+   <lb ed="#PL"/> insipientissimi haeretici, qui se christianos vocari vo<lb ed="#PL" break="no"/>iuut, audacias figmentorum suorum, quas maxime 
+   <lb ed="#PL"/> exhorret sensus humanus, occasione evangelicae sen<lb ed="#PL" break="no"/>tentiae
+   colorare conantur, ubi Dominus ait, <hi rend="italic">Adhuc
+   <lb ed="#PL"/> multa habeo vobis dicere, sed</hi> non <hi rend="italic">potestis portare modo:</hi>
+   
+       <lb ed="#PL"/> quasi haec ipsa sint quae tunc discipuli portare nun po<lb ed="#PL" break="no"/>terant, et ea docuerit Spiritus sanctus, quae palam 
+   <lb ed="#PL"/> docere atque praedicare, quantalibet feratur audacia, 
+   <lb ed="#PL"/> spiritus crubescit immundus.</p>
+      <p xml:id="iuy75t-d1e835-d1e422">4. Hos Apostolus in Spiritu sancto praevidens1 ait: 
+   <lb ed="#PL"/> « Erit enim tempus quo sanam doctrinam non susti • 
+   <lb ed="#PL"/> nebunt, sed secundum desidcria sua magistros sibi 
+   <lb ed="#PL"/> coacervabunt prurientes auditu : et a veritate quidem 
+   <lb ed="#PL"/> auditum suum avertent, ad fabulas autem converten<lb ed="#PL" break="no"/>tur, (II Tim. IV, 3, 4). Ilia enim secreti furtiquc com­
+   
+   <lb ed="#PL"/> memoratio quadicilur, Panes occultos <hi rend="italic">libenter attingite, 
+   <lb ed="#PL"/>
+    et aquae</hi> furtivae <hi rend="italic">dulcedinem,</hi> pruritum facit audientibus
+   
+   <lb ed="#PL"/> in auribus spiritualiter fornicantibus, sicut pruriiu 
+   <lb ed="#PL"/> quodam libidinis etiam in carne corrumpitur integritas 
+   <lb ed="#PL"/> castitatis. Audite itaque Apostolum talia praeviden<lb ed="#PL" break="no"/>tem , et ea vitanda salubriter admonentem : <hi rend="italic">Pro­ 
+   <lb ed="#PL"/>
+    fanas ,</hi> inquit, <hi rend="italic">verborum novitates evita :</hi> multum <hi rend="italic">enim
+   <lb ed="#PL"/> proficiunt ad impietatem, et sermo</hi> eorum <hi rend="italic">sicut cancer 
+   <lb ed="#PL"/> scrpit (Id.</hi> II, 4G, 47). Et non ait, verborum novita<lb ed="#PL" break="no"/>tes ; sed addidit, <hi rend="italic">profanas.</hi> Sunt euim eldoctrinae re. 
+   <lb ed="#PL"/> ligionis eongruentes verborum novitates, sicut ipsum 
+   <lb ed="#PL"/> nomen Christianerum quando dici coeperit, scriptum 
+   <lb ed="#PL"/> est. III Antiochia enim primum pest ascensionem Do­
+   
+   <lb ed="#PL"/> mini appellati sunt discipuli Christiani , sicut legitur 
+   <lb ed="#PL"/> in Actibus Apostolorum <hi rend="italic">(Act.</hi> XI , 26) : et xenodochia 
+   <lb ed="#PL"/> et monasteria postea sunt appellata novis nominibus , 
+   <lb ed="#PL"/> res tamen ipsae et ante nominasua erant, et religionis 
+   <lb ed="#PL"/> xerilate firmantur, qua etiam contra improbos defen<lb ed="#PL" break="no"/>duntur. Adversus impietatem quoque Arianorum hae<lb ed="#PL" break="no"/>reticorum
+   novam nomen Patris Homousion condide<lb ed="#PL" break="no"/>runt : sed non rem novam tali nomine signaverunt; 
+   <lb ed="#PL"/> hoc enim voeatur Hemousion, quod est, <hi rend="italic">Ego et Pater</hi>
+   
+       <lb ed="#PL"/> unum sumus <hi rend="italic">(Joan.</hi> x, 30), unius videlicet ejusdemque 
+   <lb ed="#PL"/> substantiae. Nam si omnis novitas profana esset, nec 
+   <lb ed="#PL"/> a Domino diceretur, <hi rend="italic">Mandutum novum do vobis (Id.</hi>
+   
+       <lb ed="#PL"/> XIII, 34); nec Testamentum appellaretur Novum, nec 
+   <lb ed="#PL"/> Cantaretur in universa terra Canticum novum. Sed 
+   <lb ed="#PL"/> profanae sunt verborum novitates, ubi dicit <hi rend="italic">mulier</hi> in­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">sipiens et audax : Panes occultos libenter attingite, et</hi>
+   
+       <lb ed="#PL"/> aquae <hi rend="italic">furtivae dulcedinem.</hi> Ab hac pollicitatione falsae 
+   <lb ed="#PL"/> scientiae prohibet etiam illo loco Apostolus ubi dicit: 
+   
+   <lb ed="#PL"/> ( 0 Timothee, depositum custodi , devitans profanas 
+   <lb ed="#PL"/> vocum novitates, eteontradictiones falsi nominis scien<lb ed="#PL" break="no"/>tiae , quam quidam promittentes, circa fidem excide<lb ed="#PL" break="no"/>runt &gt; (I Tim. VI, 20). Nihil enim sic amant isti quam 
+   <lb ed="#PL"/> scientiam promittere ;etfidcm rerum verarum quas cre<lb ed="#PL" break="no"/>dere
+   parvuli praecipiuntur, velut imperitiam deridere.</p>
+      <p xml:id="iuy75t-d1e835-d1e559">5. Dieet aliquis : Nihilne spirkuales viri habent in 
+   <lb ed="#PL"/> doctrina, qu*od carnalibus taceant, et spiritualibus 
+   <lb ed="#PL"/> cloquantur? Si respondero, Non habent, cootinuo 
+   <lb ed="#PL"/> mihi dicetur ex Epistola ad Corinthios apostoli Pauli: 
+   <lb ed="#PL"/> « Non potui vobis loqui quasi spiritualibus, sed quasi 
+   <lb ed="#PL"/> carnalibus. Quasi parvulis in Christo lac vobis polum 
+   <lb ed="#PL"/> dedi, non escam ; nondum enim poteratis: sed nec ad<lb ed="#PL" break="no"/>huc
+   quidem potestis; adhuc enim estis carnales (I <hi rend="italic">Cor.</hi>
+   
+       <lb ed="#PL"/> III, i <hi rend="italic">et</hi> 2) ; et illud., c Sapientiam loquimur inter per­
+   
+   <lb ed="#PL"/> fectos ; &gt; et illud, c Spiritualibus spiritualia comparaa<lb ed="#PL" break="no"/>tes : animalis aulem homo non percipit quae sunt Spi<lb ed="#PL" break="no"/>ritus
+   Dei ; stultitia enim est illi » <hi rend="italic">(Id.II, 6,13 et</hi> 14). Hoc 
+   <lb ed="#PL"/> totum quale sit, ne rursus propter haec verba Apostoli 
+   <lb ed="#PL"/> profanis vocum novitatibus secreta quaerantur, et ea 
+   <lb ed="#PL"/> quae debet castorum spiritus corpusque vilare, dicatur 
+   <lb ed="#PL"/> carnales sustinere non posse, sermone alio si Domi<lb ed="#PL" break="no"/>nus
+   donaverit, disputandum est ,. ut jam istum ali­
+   
+   <lb ed="#PL"/> quondo claudamus.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 41</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 41</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e377"> <!-- iuy75t-t41 -->
+      <head xml:id="iuy75t-d1e377-Hd1e109">Tractatus 41</head>
+      <p xml:id="iuy75t-d1e377-d1e112">
+       <hi rend="italic">Rursum in</hi> illud, Dicebat autem Jesus ad eos qui cre<lb ed="#PL" break="no"/>diderunt
+   ; <hi rend="italic">usque ad id,</hi> Si ergo vos Filius liberave<lb ed="#PL" break="no"/>rit, verc liberi eritis. <hi rend="italic">Cap.</hi> VIII, f . 31-36.</p>
+      <p xml:id="iuy75t-d1e377-d1e128">i. Quod de lectione pristina sequitur, et de sancto 
+   <lb ed="#PL"/> Evangelio hodie nobis recitatum est, tunc distuli di<lb ed="#PL" break="no"/>cere, quoniam multa jam dixeram , et de liberlatc
+   
+   <lb ed="#PL"/> in quam nos vocat gratia Salvatoris, non praetereun<lb ed="#PL" break="no"/>ter
+   neque negligenter fuerat disserendum : hinc ho<lb ed="#PL" break="no"/>die, Domino adjuvante, statuimus loqui vobis. Qui­
+   
+   <lb ed="#PL"/> bus enim loquebatur Dominus Jesus Christus, Juda;i 
+   <lb ed="#PL"/> erant, ex magna quidem parte inimici, sed etiam 
+   <lb ed="#PL"/> amici ex quadam parte jam facti, et futuri : nam 
+   <lb ed="#PL"/> quosdam ibi videbat, sicuti jam diximus, qui post 
+   <lb ed="#PL"/> ejus passionem fuerant credituri. Hos intuens dixe<lb ed="#PL" break="no"/>rat: <hi rend="italic">Cum exaltaveritis Filium
+    hominis, tunc cognoscetis
+   <lb ed="#PL"/> quia ego sum (Joan.</hi> vin, 28). Erant ibi etiam qui haec 
+   <lb ed="#PL"/> loquente illo continuo crediderunt; ipsis locutus est 
+   <lb ed="#PL"/> quod audivimus hodie : <hi rend="italic">Dicebat ergo Jesus ad eos qui 
+   <lb ed="#PL"/> crediderant ei, Judaeos
+    :</hi> Si <hi rend="italic">manseritis</hi> in <hi rend="italic">verbo</hi> meo, 
+   <lb ed="#PL"/>
+       <hi rend="italic">vere discipuli mei eritis.</hi> Manendo eritis : quia enim 
+   <lb ed="#PL"/> nunc credentes estis, manendo videntes critis. Ideo 
+   <lb ed="#PL"/> sequitur, <hi rend="italic">Et
+    cognoscetis veritatem.</hi> Veritas incommu<lb ed="#PL" break="no"/>tabilis
+   est. Veritas panis est, mentes rclicit nec de<lb ed="#PL" break="no"/>ficit : mutat vescentem, non ipsa in vescentem muta<lb ed="#PL" break="no"/>tur.
+   Ipsa est veritas Verbum Dei, Dens apud Deum 
+   <lb ed="#PL"/> unigenitus Filius. Haec Veritas carne induta est pro<lb ed="#PL" break="no"/>pter
+   nos , ut de Maria virgine nasceretur, et imple<lb ed="#PL" break="no"/>retur
+   prophetia, <hi rend="italic">Veritas de terra orta eat</hi> ( <hi rend="italic">Psal.</hi>
+   
+       <lb ed="#PL"/> LXXXIV, 12). Haec ergo Veritas cum Judaeis loquere<lb ed="#PL" break="no"/>tur, latebat in carne: latebat autem non ut negaretur, 
+   <lb ed="#PL"/> sed ut differretur; differretur, ut in carne paterclur; 
+   <lb ed="#PL"/> in carne autem pateretur, ut caro peccati redime. 
+   <lb ed="#PL"/> retur. Stans itaque conspicuus secundum infirmitatem 
+   <lb ed="#PL"/> carnis Dominus noster Jesus Christus, et secundum 
+   <lb ed="#PL"/> majestatem divinitatis occultus, dixit ad eos qui ei , 
+   <lb ed="#PL"/> cum haec loqueretur, credidcrant, Si manseritis in 
+   <lb ed="#PL"/>
+       <hi rend="italic">verbo meo, vere discipuli mei eritis.</hi> Qui enim perseve- 
+   
+   <pb ed="#PL" n="1693"/>
+       <lb ed="#PL"/> raverit usque in finem, hic salvus erit <hi rend="italic">(Matth.</hi> X, 22). 
+   <lb ed="#PL"/>
+       <hi rend="italic">Et</hi> cognoscetis <hi rend="italic">veritatem,</hi> quae modo vos latet , et lo<lb ed="#PL" break="no"/>quitur
+   vobis. <hi rend="italic">Et veritas liberabit vos.</hi> IIoc verbum Do<lb ed="#PL" break="no"/>minus
+   a libertate posuit, <hi rend="italic">Liberabit vos.</hi> Nihil est enim 
+   <lb ed="#PL"/> aliud proprio liberat, nisi liberum facit. Quomodo 
+   <lb ed="#PL"/> salvat nihil est aliud quam salvum facit; quomodo 
+   <lb ed="#PL"/> sanat nibil est aliud quam sanum facit; ditat nihil est 
+   <lb ed="#PL"/> aliud quam ditem , id est, divitem facit : sic liberat 
+   <lb ed="#PL"/> nihil est aliud quam liberum facit. Hoc in verbo graeco 
+   <lb ed="#PL"/> planius est (o). Nam in latina consuetudine plerumque 
+   <lb ed="#PL"/> dicimus hominem liberari, quod ad libertatcm non 
+   <lb ed="#PL"/> pertinet, sed tantum ad salutem : sicut quisquam 
+   <lb ed="#PL"/> dicitur liberari ab infirmitate; usitate dicitur, non 
+   <lb ed="#PL"/> tamen proprie. Sic autem posuit Dominus hoc ver<lb ed="#PL" break="no"/>bum, ut diceret, <hi rend="italic">Et veritas liberabit</hi> vos , ut in graeca 
+   <lb ed="#PL"/> lingua nemo dubitet cum de libertate dixisse.</p>
+      <p xml:id="iuy75t-d1e377-d1e286">2. Denique et Judaei sic intellexerunt, <hi rend="italic">et responde­</hi>
+   
+       <lb ed="#PL"/> runt <hi rend="italic">ei :</hi> non illi qui jam crediderant, sed illi qui in
+   
+   <lb ed="#PL"/> turba erant nondum credentes : <hi rend="italic">responderunt ei, Se<lb ed="#PL" break="no"/>men
+    Abrahae</hi> sumus, <hi rend="italic">et</hi> nemini <hi rend="italic">servivimus</hi> unquam ; 
+   <lb ed="#PL"/>
+       <hi rend="italic">quomodo tu dicis, Liberi critis?</hi> Non autem dixerat 
+   <lb ed="#PL"/> Dominus,
+    <hi rend="italic">Libcri critis;</hi> sed, <hi rend="italic">Veritas liberabit
+    vos.</hi>
+   
+       <lb ed="#PL"/> In quo tamen verbo illi, quia , sicut dixi , patcl in 
+   <lb ed="#PL"/> graeco, non intelleXerunt nisi libertatem; et extu<lb ed="#PL" break="no"/>lerunt
+   se qtiod semen essent Abrahae, et dixcrunt, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Semen Abrahae sumus ; et nemini servivimus unquam; 
+   <lb ed="#PL"/> quomodo tu
+    dicis, Liberi</hi> eritis ? 0 pellis innata! Non 
+   <lb ed="#PL"/> est ista magnitudo, sed tumor. Et hoc ipsum secun<lb ed="#PL" break="no"/>dum
+   hujus temporis libertatem quomodo verum 
+   <lb ed="#PL"/> dixistis,
+    <hi rend="italic">Nemini servivimus unquam ?</hi> Joseph non est 
+   <lb ed="#PL"/> venumdatus <hi rend="italic">(Gen.</hi> XXXVII, 28) ? Prophet:c sancti in 
+   <lb ed="#PL"/> captivitatem non sunt ducti ( IV <hi rend="italic">Reg.</hi> XXIV)? Deinde, 
+   <lb ed="#PL"/> nonne ipse ille est populus qui in aegypto lateres fa<lb ed="#PL" break="no"/>ciebat, et regibus duris non saltem in auro et argento,
+   
+   <lb ed="#PL"/> sed in iuto serviebat <hi rend="italic">( Exod.</hi> i, 14)? Si nemini ser. 
+   <lb ed="#PL"/> vistis unquam, o ingrati, quid est quod assidue vobis 
+   <lb ed="#PL"/> imputat Deus quod vos de domo servitutis liberavit 
+   <lb ed="#PL"/>
+       <hi rend="italic">(td.</hi> XIII, 3; <hi rend="italic">Deut.</hi> v, 6, etc. ? An forte patres vestri 
+   <lb ed="#PL"/> servierunt, vos autem qni loquimini, nemini unqnam 
+   <lb ed="#PL"/> serviatis? Quomodo ergo solvebatis jam tribula Ro<lb ed="#PL" break="no"/>manis, unde et ipsi Veritati laqueum quasi captionis 
+   <lb ed="#PL"/> proposuistis, lit diceretis , <hi rend="italic">Licet reddere tributum
+    Cae­</hi>
+   
+       <lb ed="#PL"/> sari? ut si dixisset, Licet; teneretis eum quasi male 
+   <lb ed="#PL"/> optasset libertati sentinis Abrabre : si autem diceret, 
+   <lb ed="#PL"/> Non licet; calumniaremini apud reges terrae , quod 
+   <lb ed="#PL"/> prohiberet regibus tributa persolvi. Merito prolato 
+   <lb ed="#PL"/> nummo victi estis, et captioni vestrae ves ipsi estis 
+   <lb ed="#PL"/> respondere compulsi. Ibi enim vobis dictum est,
+    <hi rend="italic">Red<lb ed="#PL" break="no"/>dite
+   Caesari quae</hi> Caesaris <hi rend="italic">sunt, et
+    Deo quae Dei sunt ;</hi>
+   
+       <lb ed="#PL"/> cum vos ipsi respondissetis quod nummus haberet ima<lb ed="#PL" break="no"/>ginem
+   Caesaris <hi rend="italic">(Matth,</hi> XXII, 15-21). Quia sicut quaerit 
+   <lb ed="#PL"/> Caesar in nummo imaginem suam, sic Deus quaerit in 
+   <lb ed="#PL"/> homine suam. Haec ergo respondit juda Movet enim 
+   <lb ed="#PL"/> . me, fratres, hominum vana superbia , quia etiam 
+   <lb ed="#PL"/> de ipsa, quam carnaliter intelligebant, sua libertate 
+   <lb ed="#PL"/> . mentiti sunt dicentes, <hi rend="italic">Nemini servivimus unquam.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e377-d1e437">3. Dominus autem quid responderit, hoc potius et 
+   <lb ed="#PL"/> intentius audiamus, ne et uos ipsi servi inveniamur. 
+   
+   <lb ed="#PL"/>
+       <hi rend="italic">Respondit</hi> cnim <hi rend="italic">eia Jesus : Amen, amen dico</hi> vobis, 
+   <lb ed="#PL"/>
+       <hi rend="italic">quia omnis qui facit peccalum, servus est peccati.</hi> Ser<lb ed="#PL" break="no"/>vus
+   est, utinam hominis et non peccati ! Quis non sub 
+   <lb ed="#PL"/> his verbis contremiscat ? Praestet nubis DominusDcus 
+   <lb ed="#PL"/> noster, id est et mihi et vobis, ut pro sententia lo­
+   
+   <lb ed="#PL"/> quar de hac libertate appetcuda, et de illa servitute 
+   <lb ed="#PL"/> vitanda. <hi rend="italic">Amen, amen dico vobis,</hi> Veritas dicit : et 
+   <lb ed="#PL"/> quale est Domini Dei nostri dicere, <hi rend="italic">Amen, amen dico</hi>
+   
+       <lb ed="#PL"/> vobis? Mullum commendat qnod ita pronuntiat; quo<lb ed="#PL" break="no"/>dammodo,si dici fas est, juratio ejus est, <hi rend="italic">Amen,
+   <lb ed="#PL"/> amen dico vobis. Amen</hi> quippe interpretatur, Verum : 
+   <lb ed="#PL"/>ettamcn non est interpretatum , cum potnisset dici, 
+   <lb ed="#PL"/> Verum dico vobis. Nee graecus hoc interpres ausus I 
+   <lb ed="#PL"/> est facere, nee latinus : nam hoc verbum quod est 
+   <lb ed="#PL"/>
+       <hi rend="italic">Amm,</hi> nec graecum est nec latinum, sed hebraeum. / 
+   <lb ed="#PL"/> Sic mansit, non est interpretatum, ut honorem ha<lb ed="#PL" break="no"/>beret
+   velamento secreti : non ut esset negatum, sed 
+   <lb ed="#PL"/> ne vilesceret nudatum. Nee semel tamen , sed bis a 
+   <lb ed="#PL"/> Domino dictum est, <hi rend="italic">Amen, amen dico vobis.Jam</hi> quan<lb ed="#PL" break="no"/>tum
+   hoc commendatum sit, ex ipsa geminatione 
+   <lb ed="#PL"/> cognoscite.</p>
+      <p xml:id="iuy75t-d1e377-d1e512">4. Quid est ergo commendatum ? Verum , verum 
+   <lb ed="#PL"/> dico vobis, Veritas dicit; quae utique etsi non diceret, 
+   <lb ed="#PL"/> Verum dico, mentiri omnino non posset : tamen com<lb ed="#PL" break="no"/>niendat,
+   inculcat; dormientes quodammodo excitat, 
+   <lb ed="#PL"/> intentos facit, contemni non vult. Quid dicens? <hi rend="italic">Amen,</hi>
+   
+       <lb ed="#PL"/> amen <hi rend="italic">dieo vobis, quia omnia qui facit peccatum</hi> , servus 
+   <lb ed="#PL"/>
+       <hi rend="italic">cst peccati.</hi> 0 miserabilis servitus! Plerumque turni<lb ed="#PL" break="no"/>nes
+   cum dominos malos patiuntur, venales se'petunt ; 
+   <lb ed="#PL"/> non quaerentes dominum non habere, sed sakem mu<lb ed="#PL" break="no"/>tare ; servus peccati quid faciat? quem interpellet? 
+   <lb ed="#PL"/> apud quem interpellet ? apud quem se venalem petat? 
+   <lb ed="#PL"/> Deinde servus hominis aliquando sui domini duris 
+   <lb ed="#PL"/> imperiis fatigatus, fugiendo requiescit : servus pec<lb ed="#PL" break="no"/>cati
+   quo fugit ? Secum se trahit qnoeumque fogerit. 
+   <lb ed="#PL"/> Non fugit seipsam mala conscientia, non est quo eat, 
+   <lb ed="#PL"/> sequitur se ; imo non recedit a se : peccatum caim 
+   <lb ed="#PL"/> quod facit, intus est. Fecit peccatum, utaliqnam 
+   <lb ed="#PL"/> corporalem caperet voluptatem : voluptas transit, 
+   <lb ed="#PL"/> peccatum manet; praeteriit quod deLectabat, reman<lb ed="#PL" break="no"/>sit
+   quod pungat. Mala servitus! Aliquando fugiunt 
+   <lb ed="#PL"/> homines ad Ecclesiam, et plerumque eos patimur
+   
+   <lb ed="#PL"/> tanquam indisciplinatos : volentes carere dominis \ 
+   <lb ed="#PL"/> qui nolunt carere peccatis. Aliquando autem etiam 
+   <lb ed="#PL"/> illicito jugoetimprobo subjecti fugiunt ad Ecclesiam, i 
+   <lb ed="#PL"/> quia retinentur ingenui ad servitutem, et interpella- 
+   <lb ed="#PL"/> lur episcopus : et nisi curet operam impedere, ne I 
+   <lb ed="#PL"/> ingenuitas opprimatur, immisericors deputatur. Ad 
+   <lb ed="#PL"/> Christum omues fugiamus, contra peccatum Deum 
+   <lb ed="#PL"/> Liberatorem interpellemus : venalcs nos pctamus , ut 
+   <lb ed="#PL"/> ejus sanguine redimamur. Dicit enim Dominus, <hi rend="italic">Gra­
+   <lb ed="#PL"/> tis venumdati estis, et sine argento
+    redimemini (Isai.</hi>
+   
+       <lb ed="#PL"/> LII, 5). Sinc pretio, sed vestro; quia mco. Hoc Do<lb ed="#PL" break="no"/>minus
+   dicit : ipse cnim pretium dedit, non argentum, 
+   <lb ed="#PL"/> sed sanguincm suum. Nam nos et servi et egeui re­
+   
+   <lb ed="#PL"/> manseramus.</p>
+      <p xml:id="iuy75t-d1e377-d1e601">5. Liberat ergo ab hac servitute solus Dominus : 
+   
+   <pb ed="#PL" n="1695"/>
+       <lb ed="#PL"/> qui illam non habuit, ipse de illa liberat; solus enim 
+   <lb ed="#PL"/> in bac carne venit sine peccato. Nam quos videtis in 
+   <lb ed="#PL"/> manibus matrum parvulos ferri, nondum ambulant, 
+   <lb ed="#PL"/> et jam sunt compediti ; traxerunt enim de Adam quod 
+   <lb ed="#PL"/> solvatur a Christo. Pertinet etiam ad ipsos t cum 
+   <lb ed="#PL"/> baptizantur, ista gratia qnam Dominus pollicetur; 
+   <lb ed="#PL"/> quia de peccato solus liberare potest, qui venit sine 
+   <lb ed="#PL"/> peccato, et factus est sacrificium pro peccato. Au<lb ed="#PL" break="no"/>distis
+   enim cum Apostolus legcretnr :
+    <hi rend="italic">Pro Christo,</hi>
+   
+       <lb ed="#PL"/> inquit, legatione <hi rend="italic">fungimur, tanquam Deo</hi> exhortante <hi rend="italic">per 
+   <lb ed="#PL"/> nos ; obsecramus pro Christo ;</hi> id est, tanquam vos 
+   <lb ed="#PL"/> Christus obsecret. Quid? <hi rend="italic">Reconciliari Deo.</hi> Si exhor<lb ed="#PL" break="no"/>tatur
+   et ohsecrat Apostolus ut reconciliemur Deo, ini<lb ed="#PL" break="no"/>mici
+   eramus Deo. Nemo enim reconciliatur nisi ex 
+   <lb ed="#PL"/> inimicitiis. Inimicos autem nos non natura, sed pec<lb ed="#PL" break="no"/>cata
+   fecerunt. Unde inimici illius, inde servi peccati. 
+   <lb ed="#PL"/> Non habet Deus liberos inimicos; necesse est servi 
+   <lb ed="#PL"/> sint :etservi remanebunt nisi ab illo liberentur, cui 
+   <lb ed="#PL"/> peccando inimici esse voluerunt. <hi rend="italic">Obsecramus</hi> ergo, 
+   <lb ed="#PL"/> inquit, <hi rend="italic">pro Christo, reconciliari Deo.</hi> Quomodo autem 
+   <lb ed="#PL"/> reconciliamur, nisi solvatur quod inter nos et ipsum 
+   <lb ed="#PL"/> separat? Ait enim per prophetam : <hi rend="italic">Non gravavit
+   <lb ed="#PL"/> aurem</hi> ne <hi rend="italic">audiat,
+    sed peccata vestra separant inter vos
+   <lb ed="#PL"/> et Deum (Isa</hi> LIX,1, 2). Quia ergo non reconciliamur 
+   <lb ed="#PL"/> nisi ablato quod in medio est, et posito quod in medio 
+   <lb ed="#PL"/> sit. Est enim medium separans, sed contra est media<lb ed="#PL" break="no"/>tor
+   reconcilians; mediuni separans est peccatum, 
+   <lb ed="#PL"/> mediator reconcilians est Dominus Jesus Christus : 
+   <lb ed="#PL"/>
+       <hi rend="italic">Unus</hi> enim <hi rend="italic">Deus, et unus mediator Dei et
+    hominum, 
+   <lb ed="#PL"/> homo Christus Jesus</hi> (I <hi rend="italic">Tim.</hi> II, 5). Ut ergo tollatur 
+   <lb ed="#PL"/> maceria separans quod est peccatum, venit ille media<lb ed="#PL" break="no"/>tor, et factus est sacrificium sacerdosipse. Et quia sa<lb ed="#PL" break="no"/>crificium
+   factus est pro peccato
+   , offerens seipsum in 
+   <lb ed="#PL"/> holocaustum in cruco passionis suae, sequitur Apo<lb ed="#PL" break="no"/>stolus
+   et dicit, cum dixis et, <hi rend="italic">Obsecramus pro Christo, 
+   <lb ed="#PL"/>
+    reconciliari Deo</hi> : quasi diceremus, quomodo poteri<lb ed="#PL" break="no"/>mus
+   reconciliari? Eum, inquit, id est ipsum Christum, 
+   <lb ed="#PL"/>
+       <hi rend="italic">qui non noverat peccatum,</hi> peccatum <hi rend="italic">pro nebis
+    fecit, ut</hi>
+   
+       <lb ed="#PL"/> nos simus <hi rend="italic">justitia Dei</hi> in <hi rend="italic">ipso</hi> (II
+    <hi rend="italic">Cor.</hi> v, 20, 21). <hi rend="italic">Eum</hi>
+   
+       <lb ed="#PL"/> ipsum, inquit, Christum Deum, <hi rend="italic">qui non noverat pecca­ 
+   <lb ed="#PL"/>
+    tum.</hi> Venit enim in earne, hoc est in similitudine car<lb ed="#PL" break="no"/>nis
+   peccati <hi rend="italic">(Rom.</hi> VIII, 3), non tamen in carne pec<lb ed="#PL" break="no"/>cati, non habens ullum omnino peccatum : et ideo 
+   <lb ed="#PL"/> factus est verum sacrificium pro peccato, quia nullum 
+   <lb ed="#PL"/> habebat ipse peccatum.</p>
+      <p xml:id="iuy75t-d1e377-d1e766">I 6. Sed forte de sensu meo dixi, quia <hi rend="italic">peccatum</hi> sa- 
+   <lb ed="#PL"/> - crificium est pro peccato. Qui legerunt, agnoscant; 
+   <lb ed="#PL"/> qui non legerunt, non sint pigri : non sint, inquam, 
+   <lb ed="#PL"/> pigri ad legendum, ut veraces sint ad judicandum. 
+   <lb ed="#PL"/> Cum de sacrificiis enim praeciperet Deus oflerendis 
+   <lb ed="#PL"/> pro peccato, in quibus sacrificiis non erat expiatio 
+   <lb ed="#PL"/> peccatorum, sed umbra futurorum , eadem ipsa sa­
+   
+   <lb ed="#PL"/> crificia , easdem ipsas hostias, easdem ipsas victi<lb ed="#PL" break="no"/>mas , eadem ipsa animalia quae admovcbantur ma<lb ed="#PL" break="no"/>ctanda
+   pro peccatis, in quoruln sanguine sanguis ille 
+   <lb ed="#PL"/> figurabatur, peccata Lex appellat : usque adeo nt in 
+   <lb ed="#PL"/> quibusdam locis scriptum sit ita, ut sacerdotes im<lb ed="#PL" break="no"/>molaturi
+   ponerent manus suas super caput peccati, 
+   <lb ed="#PL"/> id est, super caput victimae immolandae pro peccato. 
+   <lb ed="#PL"/> Tale ergo <hi rend="italic">peccatum,</hi> id est, sacrificium pro peccato, 
+   <lb ed="#PL"/> factus est Dominus noster Jesus Christus, <hi rend="italic">qui non</hi> no­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">verat peccatum.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e377-d1e816">7. Merito liberat ab hac servitute peccat! ille qui 
+   <lb ed="#PL"/> dicit in Psalmis : <hi rend="italic">Factus</hi> sum <hi rend="italic">tanquam homo sine</hi> adju<lb ed="#PL" break="no"/>torio,
+   <hi rend="italic">inter mortuos liber (Psal.</hi> LXXXVII , 5, G). Solus 
+   <lb ed="#PL"/> enim liber, quia non habebat peccatum. Ipse enim 
+   <lb ed="#PL"/> dicit in Evangelio : <hi rend="italic">Ecce venit princeps hujus mundi.</hi>
+   
+       <lb ed="#PL"/> diabolum significans venturum in Judaeis persecuto<lb ed="#PL" break="no"/>ribus ; <hi rend="italic">ecce,</hi> inquit, venit, <hi rend="italic">et in me nihil inveniet (loan.</hi>
+   
+       <lb ed="#PL"/> xiv, 30, 31). Non quomodo in eis quos occidit etiam 
+   <lb ed="#PL"/> justos, invenit qualecumque peccatum, in me nihil 
+   <lb ed="#PL"/> inveniet. Et tanquam ei diceretur, si nihil in te in<lb ed="#PL" break="no"/>veniet, quare te occidet? Subjecit,etait: <hi rend="italic">Sed ut 
+   <lb ed="#PL"/>
+    sciant omnes quia voluntatem Patris mei facio, surgite, 
+   <lb ed="#PL"/> eamus hinc.</hi> Non, inquit, mortem mei peccati neces<lb ed="#PL" break="no"/>sitate
+   persolvo, sed in eo quod morior, voluntatem 
+   <lb ed="#PL"/> Patris mei facio : plusque ibi facio quam patior, quia 
+   <lb ed="#PL"/> si nollem, nec passus essem. Habes illum alio loco 
+   <lb ed="#PL"/> dicentem , <hi rend="italic">Potestatem
+    hubeo ponendi animam meam,
+   <lb ed="#PL"/> et potestatem habeo iterum sumendi eam. (1 d.</hi> x , 18). 
+   <lb ed="#PL"/> Ecce verc in mortuis liber.</p>
+      <p xml:id="iuy75t-d1e377-d1e882">8. Cum ergo omnis qui facit peccatum, servus sit 
+   <lb ed="#PL"/> peccati, quae sit spes nobis libertatis, audite. <hi rend="italic">Servus 
+   <lb ed="#PL"/> autem,</hi> inquit, <hi rend="italic">non manet</hi> in <hi rend="italic">domo in</hi> alternum. Eccle<lb ed="#PL" break="no"/>sia
+   est domus
+   , servus peccator est. Intrant multi in 
+   <lb ed="#PL"/> Ecclesiam peccatores. Non ergo dixit, <hi rend="italic">Servus</hi> non est 
+   <lb ed="#PL"/> in domo; sed, <hi rend="italic">non manet</hi> in domo in <hi rend="italic">aeternum.</hi> Si ergo 
+   <lb ed="#PL"/> nulius ibi servus erit, quis ibi erit ? Cum enim <hi rend="italic">rex 
+   <lb ed="#PL"/> justus sederit</hi> in <hi rend="italic">throno,</hi> sicut Scriptura loquitur, <hi rend="italic">quis 
+   <lb ed="#PL"/> gloriabitur
+    castum se habere cor ? aut quis gloriabitur 
+   <lb ed="#PL"/> mundum se esse a peccato (Prov.</hi> xx, 8,9)? Multum 
+   <lb ed="#PL"/> nos terruit, o fratres mei, dicendo, <hi rend="italic">Servus non
+    manet</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">domo in</hi> alternum. Adjungit autem,etdicit, <hi rend="italic">Filius 
+   <lb ed="#PL"/> autem manet</hi> in <hi rend="italic">aeternum.</hi> Ergo solus in domo sua erit 
+   <lb ed="#PL"/> Cbristus? nullus illi populus cohaerebit? Cui eritcaput,
+   
+   <lb ed="#PL"/> si non erit corpus? An forte totum boc Filius, caput 
+   <lb ed="#PL"/> et corpus? Non enim sine causa et terruit, et spem 
+   <lb ed="#PL"/> dedit : terruit, ne peccatum amaremus ; spem dedit,
+   
+   <lb ed="#PL"/> ne de peccati solutione diffideremus : <hi rend="italic">Omnis,</hi> inquit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">qui facit peccatum, servus eat peccati. Servus</hi> autem 
+   <lb ed="#PL"/>
+       <hi rend="italic">non manet in domo</hi> in <hi rend="italic">aeternum.</hi> Quae ergo nobis spes 
+   <lb ed="#PL"/> est, qui non sumus sine peccato? Audi spem tuam ; 
+   <lb ed="#PL"/>
+       <hi rend="italic">Filius manet in</hi> alternum. <hi rend="italic">Si ergo vos Filius
+    liberaverit,</hi>
+   
+       <lb ed="#PL"/> tunc <hi rend="italic">vere liberi eritis.</hi> Haec spes nostra est, fratres,
+   
+   <lb ed="#PL"/> ut a libero liberemur, et liberando servos nos faciat : 
+   <lb ed="#PL"/> servi enim eramus cupiditatis, liberali servi effici<lb ed="#PL" break="no"/>mur
+   charitatis. Hoc et Apostolus dicit; <hi rend="italic">Vos autem
+   <lb ed="#PL"/> fratres</hi> in <hi rend="italic">libertatem vocati estis
+    ; tantum ne libertatem 
+   <lb ed="#PL"/> in occasionem carnis detis, sed per charitatem</hi> servite 
+   <lb ed="#PL"/>
+       <hi rend="italic">invicem (Galat.</hi> v, 13). Non ergo dicat christianus: 
+   <lb ed="#PL"/> Liber sum, in libertatem vocatus sum : servus eram, 
+   <lb ed="#PL"/> sed redemptus sum, et ipsa redemptione liber effe<lb ed="#PL" break="no"/>ctus
+   sum , faciam quod volo y nemo me prohibeat a 
+   <lb ed="#PL"/> voluntate mea, si liber sum. Sed si ista voluntate 
+   <lb ed="#PL"/> peccatum facis, servus es peccati. Noli ergo libertate 
+   <lb ed="#PL"/> abuti ad libere peccandum, sed utere ad non peccan-
+   <lb ed="#PL"/> dum. Erit enim voluntas tua libera, si fuerit pia. Eris 
+   <lb ed="#PL"/> libcr. si fucris servus; liber peccati, servus justitiae : 
+   <pb ed="#PL" n="1697"/>
+       <lb ed="#PL"/> dicente Apostolo, Cum servi <hi rend="italic">essetis peccati, liberi
+    eratis
+   <lb ed="#PL"/> justitiae : nunc</hi> autem <hi rend="italic">liberali</hi> a <hi rend="italic">peccato,</hi> servi <hi rend="italic">autem facti
+   <lb ed="#PL"/> Deo., habetis
+    fructum</hi> vestrum <hi rend="italic">in sanctificationem, finem 
+   <lb ed="#PL"/> vero vitam
+    aeternam (Rom.</hi> VI, 20,22). Hoc conemur, 
+   <lb ed="#PL"/> id agaunis. ^</p>
+      <p xml:id="iuy75t-d1e377-d1e1064">9. Prima libertas est carere criminibus. Intendite, 
+   <lb ed="#PL"/> fratres mei, intenditc; ne forte possim perducere 
+   <lb ed="#PL"/> I vobis ad sensum et qualis modo sit,etqualis futura
+   
+   <lb ed="#PL"/> sit ista libertas. Quemlibet valde justum discutias in 
+   <lb ed="#PL"/> bac vita , quamvis jam sit dignus justi vocabulo, non 
+   <lb ed="#PL"/> est tamen sine peccato : audi ipsum sanctum Joan<lb ed="#PL" break="no"/>nem , cujus et hoc Evaugclium est, in Epistola sua 
+   <lb ed="#PL"/> dicentem , Si dixerimus , inquit , <hi rend="italic">quia</hi> peccatum non 
+   <lb ed="#PL"/>
+       <hi rend="italic">habemus, nos ipsos decipimus, et veritas</hi> in <hi rend="italic">nobis non 
+   <lb ed="#PL"/> est</hi> (I <hi rend="italic">Joan.</hi> I, 8). Solus hoc dicere potuit in mortuis 
+   <lb ed="#PL"/> liber, de solo dici potuit qui non noverat peccatum ; 
+   <lb ed="#PL"/> de solo dici potuit : etenim expertus est omnia se- 
+   <lb ed="#PL"/> emulum similitudinem sine peccato
+    <hi rend="italic">(Ilebr.</hi> IV, 45). 
+   <lb ed="#PL"/> Solus dicere potuit, <hi rend="italic">Ecce veniet princeps</hi> mundi, <hi rend="italic">et in</hi>
+   
+       <lb ed="#PL"/> me <hi rend="italic">nihil inveniet.</hi> Quemcumque alium licet justum 
+   <lb ed="#PL"/> discusseris, non omnimodo est sine peccato. Nec qua<lb ed="#PL" break="no"/>lis
+   erat Job , cui Dominus tale testimonium perhibe<lb ed="#PL" break="no"/>bat, ut diabolus invideret, et postularet tentandum,
+   
+   <lb ed="#PL"/> tentans supcraretur, ut ille probaretur <hi rend="italic">(Job.</hi> I,II). 
+   <lb ed="#PL"/> Idco autem ille probatus est, non quia latcbat Deum 
+   <lb ed="#PL"/> coronandus, sed ut innote. ceret bominibus imitandus. 
+   <lb ed="#PL"/> Etiam ipse Job quid dicit ? <hi rend="italic">Quis enim
+    mundus ? Nec 
+   <lb ed="#PL"/> infans, cujus est</hi> unius <hi rend="italic">diei vita super
+    terram (Id.</hi> XIV, 
+   <lb ed="#PL"/> 4, <hi rend="italic">sec.</hi> LXX). Sed plane multi jusli dicti sunt sine 
+   <lb ed="#PL"/> querela , quod iniclligitur sine crimine : nulla enim 
+   <lb ed="#PL"/> querela justa est de his in rebus humanis, qui non 
+   <lb ed="#PL"/> habent crimen. Crimen autem est peccatum grave, 
+   <lb ed="#PL"/> accusatione eL damnatione dignissimum. Non ergo 
+   <lb ed="#PL"/> Deus quaedam peccata damnat, quaedam justificat et 
+   <lb ed="#PL"/> laudat : nulla laudat, odit omnia. Quomodo odit 
+   <lb ed="#PL"/> medicus angritudinem aegroti, et id agit curando ut 
+   <lb ed="#PL"/> aegritudo pellatur, ager levetur: sic Deus gratia sua 
+   <lb ed="#PL"/> hoc in nobis igit, ut peccatum consumatur, homo
+   
+   <lb ed="#PL"/> liberetur. Sed quando consumitur, inquies? Si minui<lb ed="#PL" break="no"/>tur, quare non consumitur? Minuitur autem in vita 
+   <lb ed="#PL"/> proficientium, quod in vita consumitur perfectorum.</p>
+      <p xml:id="iuy75t-d1e377-d1e1180">10. Prima csl ergo libertas, carere criminibus. 
+   <lb ed="#PL"/> Ideoetapostolus Paulus quando elegit ordinandos 
+   <lb ed="#PL"/> vel presbytcros vel diaconos, et quicumque ordinan<lb ed="#PL" break="no"/>dus
+   est ad praeposituram Ecclesiae, non ait, Si quis 
+   <lb ed="#PL"/> sine peccato est; hoc cnim si diceret, omnis homo 
+   <lb ed="#PL"/> reprobaretur, nullus ordinaretur : sed ait, <hi rend="italic">Si quis sine
+   <lb ed="#PL"/> crimine eat</hi> (I Tim.III, 10, <hi rend="italic">et Tit.</hi> 1,6), sicuti est homi<lb ed="#PL" break="no"/>cidium, adulterium, aliqua inmunditia fornicationis, 
+   <lb ed="#PL"/> furtum, fraus, sacrilegium, et caetera hujusmodi. Cum 
+   <lb ed="#PL"/> coeperit ea non habere homo
+   (debet autem non habere 
+   <lb ed="#PL"/> omnis chrislianus homo), incipit caput erigere ad ii­
+   
+   <lb ed="#PL"/> bertatem : sed ista inchoata est, non perfecta libertas. 
+   <lb ed="#PL"/> Quare, inquitaliquis, non est perfecta libertas? Quia 
+   <lb ed="#PL"/> « video aliam legem in membris mcis
+   , repugnantem 
+   <lb ed="#PL"/> lcgi mentis meae : non enim quod voloago, ait, sed 
+   <lb ed="#PL"/> quod odi illud facio &gt; <hi rend="italic">(Galat.</hi> v, 17). Caro, <hi rend="italic">inquit,</hi> con<lb ed="#PL" break="no"/>cupiscit
+   adversus spiritum , et spiritus adversus car<lb ed="#PL" break="no"/>nem,ut
+   non ea 'lux vultis illa faciatis. i Ex parte li<lb ed="#PL" break="no"/>bertas, ex parte servitus: nondum tota, nondum pura, 
+   <lb ed="#PL"/> nondum plena libertas, quia nondum aeternitas. Ha<lb ed="#PL" break="no"/>bemus
+   enim ex parte infirmitatem, ex parte accepi<lb ed="#PL" break="no"/>mus
+   libertatem. Quidquid peccatum est a nobis, an<lb ed="#PL" break="no"/>tea
+   deletum est in Baptismo. Numquid quia deleta est ;
+   
+   <lb ed="#PL"/> tota iniquitas, nulla remansit infirmitas ? Si non re- <hi rend="italic">i</hi>
+   
+       <lb ed="#PL"/> mansisset, sine peccato hic viveremus. Quis autem I ' 
+   <lb ed="#PL"/> audeat hoc dicere nisi superbus, nisi misericordia li<lb ed="#PL" break="no"/>beratoris
+   indignus, nisi qui seipsum vult decipere, 
+   <lb ed="#PL"/> et in quo veritas non est? Ergo ex eo quod remansit 
+   <lb ed="#PL"/> aliquid infirmitatis, audeo dicere, ex qua parte servi<lb ed="#PL" break="no"/>mus
+   Deo, liberi sumus : ex qua parte servimus legi 
+   <lb ed="#PL"/> peccati, adhuc servi sumus. Unde dicit Apostolus 
+   <lb ed="#PL"/> quod dicere coeperamus : <hi rend="italic">Condelector legi Dei</hi> secun­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">dnm interiorem hominem.</hi> Ecce unde liberi , unde con<lb ed="#PL" break="no"/>delectamur
+   tcgi Dei : libertas enim delectat. Nam 
+   <lb ed="#PL"/> quamdiu timore facis quod justum est, non Deus te 
+   <lb ed="#PL"/> delectat1. Quamdiu adhuc servus facis, te non dele<lb ed="#PL" break="no"/>etat : delectet te, et liber es. Noli timere poenam, Red 
+   <lb ed="#PL"/> ama justitiam. Nondum potes amare justitiam? time 
+   <lb ed="#PL"/> vel paenam, ut pervenias ad amandam justitiam.</p>
+      <p xml:id="iuy75t-d1e377-d1e1287">ii. Ergo jam ille ex parte superiore liberuin se 
+   <lb ed="#PL"/> esse sentiebat, unde dicebat,
+    <hi rend="italic">Condelector legi Dei se­
+   <lb ed="#PL"/> cundum interiorem hominem.</hi> Delectat me lex, delectat 
+   <lb ed="#PL"/> ure quod jubet lex , delectat me ipsa justitia. <hi rend="italic">Video
+   <lb ed="#PL"/> autcm</hi> aliti <hi rend="italic">legem</hi> in <hi rend="italic">membris meis</hi> : haec est quae re<lb ed="#PL" break="no"/>mansit
+   infirmitas : <hi rend="italic">repugnantem legi mentis me</hi>ae<hi rend="italic">, et 
+   <lb ed="#PL"/> captivantem
+    me</hi> in <hi rend="italic">lege peccati, quae est in membris 
+   <lb ed="#PL"/> meis.</hi> Ex hac parte sentit captivitatem, ubi nun est 
+   <lb ed="#PL"/> impleta justitia : nam ubi condelectatur legi Dei, non 
+   <lb ed="#PL"/> caplivus, sed legis amicus est; et ideo liber, quod 
+   <lb ed="#PL"/> amicus. Quid ergo ex eo quod restat? Quid, nisi re<lb ed="#PL" break="no"/>spiciamus
+   ad illum qui dixit, Si <hi rend="italic">vos Filius liberaverit,
+   <lb ed="#PL"/> tunc vere liberi eritis</hi> ? Deniqueetipse qui loquebatur, 
+   <lb ed="#PL"/> ad Ilum respexit : « Infelix ego honio, quis me libe<lb ed="#PL" break="no"/>rabit,
+   <hi rend="italic">inquit,</hi> de corpore mortis hujus? Gratia Dei per 
+   <lb ed="#PL"/> Jesum Christum Dominum nostrum. <hi rend="italic">Ergo</hi> si vos Filius 
+   <lb ed="#PL"/> liberaverit, tunc vere liberi eritis. &gt; Denique ita conclu<lb ed="#PL" break="no"/>sit: « Igitur ipse ego mente servio legi Dei, carne autem 
+   <lb ed="#PL"/> legi peccati <hi rend="italic">(Rom.</hi> VII, 19-25). <hi rend="italic">pse ego,</hi> inquit : non 
+   <lb ed="#PL"/> enim duo sumus inter nos contrarii de diversis princi<lb ed="#PL" break="no"/>piis
+   venientes; sed <hi rend="italic">ego ipse mente
+    servio legi Dei, carne
+   <lb ed="#PL"/> autem legi peccati,</hi> quamdiu languor obluctatur saluti.</p>
+      <p xml:id="iuy75t-d1e377-d1e1375">ii. Sed si carne servis legi peccati , fac quod ait 
+   <lb ed="#PL"/> ipse Apostulus : <hi rend="italic">Non ergo regnet peccatum in vestro
+   <lb ed="#PL"/> mortali corpore ad obediendum
+    desideriis ejus, neque 
+   <lb ed="#PL"/> exhibeatis membra vestra arma iniquitatis peccato
+    (Rom.</hi>
+   
+       <lb ed="#PL"/> VI, 12,13). Non ait, Non sit; sed, <hi rend="italic">Son regnet.</hi> Quam<lb ed="#PL" break="no"/>diu
+   peccatum necesse est esse in membris tuis, saltem 
+   <lb ed="#PL"/> illi regnum auferatur, non Gat quod jubet. Surgit ira? 
+   <lb ed="#PL"/> noli dare irae linguam ad maledicendum; noH dare 
+   <lb ed="#PL"/> irae manum aut pedem ad feriendum. Non surgeret 
+   <lb ed="#PL"/> ira ista irrationabilis, nisi peccatum esset in mem<lb ed="#PL" break="no"/>bris : sed tolle illi regnum, non habeat arma undo 
+   <lb ed="#PL"/> contra te pugnet; discet etiam non surgere, cum 
+   <lb ed="#PL"/> arma coeperit non invenire. <hi rend="italic">Non exhibeatis membra</hi>
+   
+   
+       <lb ed="#PL"/>
+       <pb ed="#PL" n="1699"/> vestra arma iniquitatis peccato; alioquin tuti captivi 
+   <lb ed="#PL"/> emis, et non crit dicere , Mente servio legi <hi rend="italic">Dei.</hi> Mens 
+   <lb ed="#PL"/> enim 4i teneat arma, membra non moventur in mi<lb ed="#PL" break="no"/>nisterium
+   furentis peccati Teneat arcem imperator
+   
+   <lb ed="#PL"/> interior, quia sub majore imperatore juvandus assis- 
+   <lb ed="#PL"/> tit ; frenet iram , coerccat concupiscentiam. Inest ta<lb ed="#PL" break="no"/>men
+   quod freucLur, inest quod cocrceaLur, inest quod 
+   <lb ed="#PL"/> teneatur. Quid autem volebat ille justus mente ser- 
+   <lb ed="#PL"/> viens legi Dei, nisi ut omnino nonessetquodfrena- 
+   <lb ed="#PL"/> retur ?Et hoc debet conari omnisqui tendit ad perfe<lb ed="#PL" break="no"/>ctionem, ut et iim concupiscentia cui non dantur ad 
+   <lb ed="#PL"/> obediendum membra, quotidie in proficiente minua<lb ed="#PL" break="no"/>tur. Velle, inquit, <hi rend="italic">adjacet</hi> mihi, <hi rend="italic">perficere</hi> autem. bonum 
+   <lb ed="#PL"/> "on (Rom. VII), 18). Numquid dixit, Non mihi adjacet 
+   <lb ed="#PL"/> facere bonum? Si Unc dixisset, spes uulla esset. Non 
+   <lb ed="#PL"/> ait, Non milii adjacet facere, sed, Non mihi <hi rend="italic">adjacet 
+   <lb ed="#PL"/> perfitere.</hi> Quae est enim perfectio boni, nisi consum<lb ed="#PL" break="no"/>ptio
+   et finis mali? Quae est autem consumptio mali, 
+   <lb ed="#PL"/> nisi quod Lex dicit, Non <hi rend="italic">concupisces</hi> (Exod. xx, 17) y 
+   <lb ed="#PL"/> Omnino non concupiscere perfectio boni est, quia 
+   <lb ed="#PL"/> consumptio mali est. Hoc dicebat ille, <hi rend="italic">Perficere bo­</hi>
+   
+       <lb ed="#PL"/> numnon mihi <hi rend="italic">adjacet ;</hi> quia non poterat facere ut non 
+   <lb ed="#PL"/> concupisceret : faciebat tantum ut concupiscentiam 
+   <lb ed="#PL"/> refrenaret, ut concupiscentiae non consentiret, et con- 
+   <lb ed="#PL"/> cupisceuLiae membra ad satellitium non praeberet. <hi rend="italic">Per<lb ed="#PL" break="no"/>ficere</hi> ergo, inquit, bonum non mihi adjacet : non pos-
+   
+   <lb ed="#PL"/> bum implere quod dictum csL, Non concupisces. Quid 
+   <lb ed="#PL"/> ergo opus est? Ut impleas, Postconcupiscentias tuasnon 
+   <lb ed="#PL"/> eas (Eccli, XVIII, 30). Hoc age interim quamdiu insunt. il- 
+   <lb ed="#PL"/> licitae concupiscentiae in carne tua, Post concupiscentias 
+   <lb ed="#PL"/> tuas non eas. Mane in servitute Dei, iu libertate Christi ; 
+   <lb ed="#PL"/> mente servi legi Dei tui. Noli te dare concupiscentiis 
+   <lb ed="#PL"/> tuis: sequendo cas, vires eis addis; dando eis vires 
+   <lb ed="#PL"/> quomodo vincis, quando contra te inimicos nutris vi<lb ed="#PL" break="no"/>ribus
+   tuis?</p>
+      <p xml:id="iuy75t-d1e377-d1e1516">13. Quae i;itnr libertas plena atque perfecta in illo 
+   <lb ed="#PL"/> Domnino Jesu qni divit, Si vos Filius liberaverit , tunc 
+   <lb ed="#PL"/> bere liberi eritis ; quando plena et perfecta libertas 
+   <lb ed="#PL"/> erit? Quando nullae inimicitiae, quando «novissima 
+   <lb ed="#PL"/> inimica destructur mors. Oportet cnim corruptibile 
+   <lb ed="#PL"/> Loc induere incorruptionem, et mortale hoc induere
+   
+   <lb ed="#PL"/> immortalitatem : cum autem mortale hoc induerit im<lb ed="#PL" break="no"/>mortalitatem, tunc fiet sermo qui scriptus est, Ab<lb ed="#PL" break="no"/>sorpta
+   est mors in viet<unclear>riam</unclear>. Ubi est, mors , conten<lb ed="#PL" break="no"/>tio
+   tua»(I Cor. xv, 26, 53, 54,55)?Quid est, Ubi est, 
+   <lb ed="#PL"/>
+       <hi rend="italic">mors,</hi> contentio tua ? Caro concupiscebat aduersus api- 
+   <lb ed="#PL"/> ritum, <hi rend="italic">et</hi> spiritus adversus carnelll, sed quando peccati 
+   <lb ed="#PL"/> caro vigebat. Ubi est, Mors, contentio tua? Jam vive<lb ed="#PL" break="no"/>mus, jam non moriemur, in illo qui pro nohis mor<lb ed="#PL" break="no"/>tuus
+   est et resurrexit : fit gui vivunt,inquit, jum non
+   
+   <lb ed="#PL"/> sibi vivant, sed ei gui pro <hi rend="italic">ipsis</hi> mortuus<hi rend="italic">est et resurrexit</hi>
+   
+       <lb ed="#PL"/> (II Cor. v, 15), Precemur medicum saucii , portemur 
+   <lb ed="#PL"/> in stabulumcurandi.
+    <unclear>Ille</unclear> est enim qui promittit s <unclear>oni</unclear>- 
+   <lb ed="#PL"/> tatem, qui miseratus est in via semivivum a latroni<lb ed="#PL" break="no"/>bus
+   derelictum 1: infudit oleumetvinum , curavit 
+   <lb ed="#PL"/> vulnera, levavit in jUIDclIluln, perduxit in stabulum 
+   <lb ed="#PL"/> stabulario commendavit Cut stabulario? Forte illi 
+   <lb ed="#PL"/> qui dicit, Pro Christo <hi rend="italic">legatione</hi> fungimur <hi rend="italic">(Ibid,</hi> 20). 
+   
+   <lb ed="#PL"/> Dedit eti<unclear>un</unclear> dUOS nummos, qni impenderentur saucio 
+   <lb ed="#PL"/> curando
+   (Lm. X, 30 33) : forte ipsa sunt duo prae<lb ed="#PL" break="no"/>cepta, in quibus tota Lex pendet et Prophetae (Matth. 
+   <lb ed="#PL"/> XXII, 37-40). Ergo, fratres, et Ecdesia hoc tempore, 
+   <lb ed="#PL"/> in qua saucius sanatur, stabulum est viatoris : seJ 
+   <lb ed="#PL"/> ipsi Ecclesiae sursum est haereditas possessoris.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

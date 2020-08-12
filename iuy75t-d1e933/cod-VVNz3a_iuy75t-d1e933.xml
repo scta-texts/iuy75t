@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 109</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 109</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e933"> <!-- iuy75t-t109 -->
+      <head xml:id="iuy75t-d1e933-Hd1e109">Tractatus 109</head>
+      <p xml:id="iuy75t-d1e933-d1e112">In <hi rend="italic">illud,</hi> Non pro his autem rogo tantum, sed et pro 
+   <lb ed="#PL"/> eis qui credituri sunt pop verbum eorum in me. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Cap.</hi> XVII, f . 20.</p>
+      <p xml:id="iuy75t-d1e933-d1e125">i. Dominus Jesus jam 5ua propinquante passione, 
+   <lb ed="#PL"/> cum orasset pro discipulis suis, quos et Aposiolps no<lb ed="#PL" break="no"/>minavit, cum quibus coenaverat ultimam coenam, de 
+   <lb ed="#PL"/> qua traditor ejus per buccellam manifestatus exierat, 
+   <lb ed="#PL"/> et cum quibus post ejus egressum aulequam pro eis 
+   <lb ed="#PL"/> oraret, multa jam fuerat loculus; adjuuxiL et caeteros 
+   <lb ed="#PL"/> qui in eum fuerant credituri, et ait ad Patrem, Non 
+   <lb ed="#PL"/> pro <hi rend="italic">his autem
+    rogo tantum,</hi> id est pro discipulis qui 
+   <lb ed="#PL"/> cum illo tunc crant: <hi rend="italic">sed et pro</hi> eis, inquit, <hi rend="italic">qui credituri
+   <lb ed="#PL"/> sunt
+    per verbum eorum in me.</hi> Ubi omnes suos intelligi 
+   <lb ed="#PL"/> voluit, non solum qui tunc erant in carne, sed etiam 
+   <lb ed="#PL"/> qui futuri erant. Quotquot enim postea crediderunt in
+   
+   <lb ed="#PL"/> eum, per verbum Apostolorum sine dubio credide<lb ed="#PL" break="no"/>runt, et donec veniat, credituri suut: ipsis enim di<lb ed="#PL" break="no"/>xerat, <hi rend="italic">Et vos testimonium
+    perhibebitis, quia ab initio 
+   <lb ed="#PL"/> mecum estis (Joan.</hi> xv, 27); et per hos Evangelium 
+   <lb ed="#PL"/> ministratum est, et antequam scriberetur, et utique 
+   <lb ed="#PL"/> quisquis in Christum credit, Evangelio credit. Non ita<lb ed="#PL" break="no"/>que
+   hi tantum intelligendi sunt, quos ait in se credi<lb ed="#PL" break="no"/>turos
+   per verbum eorum, qui ipsos, curn.in carne vi<lb ed="#PL" break="no"/>verent,
+   Apostolos audierunt; sed et post obitum 
+   <lb ed="#PL"/> eorum, et nos longe post nati, per verbum eorum 
+   <lb ed="#PL"/> credidimus in Christum. Quoniam ipsi qui cum illo tunc 
+   <lb ed="#PL"/> fuerunt, quod ab illo audierunt, caeteris praedicave<lb ed="#PL" break="no"/>runt: atque ita verbum eorum, ut etiam nos crede<lb ed="#PL" break="no"/>remus, ad nos usque perveuit, ubicumque est ejus 
+   <lb ed="#PL"/> Ecclesia; et perventurum est ad posteros, quicumque, 
+   <lb ed="#PL"/> ubicumque postea in eum credituri sunt.</p>
+      <p xml:id="iuy75t-d1e933-d1e198">2. Potest itaque videri Jesus in hac oratione non 
+   <lb ed="#PL"/> prasse pro quibusdam suis, nisi diligenter scrptemur 
+   <lb ed="#PL"/> in eadem oratione verba ejus. Si cnim pro eis prius 
+   <lb ed="#PL"/> oravit, sicut jam ostendimus, qui cum illo tunc erant, 
+   <lb ed="#PL"/> postea vero etiam pro eis qui per verbum corum in 
+   <lb ed="#PL"/> illum fuerant credituri; potest dici non orasse pro 
+   <lb ed="#PL"/> illis qui neque tunc erant cum illo quando ista dice. 
+   <lb ed="#PL"/> bat, neque per verbum eorum postea, sed in eum sive 
+   <lb ed="#PL"/> per ipsos, sive quomodolibet, tamen anie crediderant.
+   
+   <lb ed="#PL"/> Numquid enim cum illo tunc erat Nathanael? Num<lb ed="#PL" break="no"/>quid
+   Joseph ille ab Arimathia, qui corpus ejus a Pi<lb ed="#PL" break="no"/>lato
+   petiit, quem jam discipulum. ejus fuisse iste ipse 
+   <lb ed="#PL"/> Joannes evangelista testatur <hi rend="italic">(Joan.</hi> XIX, 58)? Numquid 
+   <lb ed="#PL"/> Maria mater ejus, et aliae feminae, quas ejus discipulas 
+   <lb ed="#PL"/> in Evangelio jam tunc fuisse didicimus ? Numquid cum 
+   <lb ed="#PL"/> illo tunc erant de quibus saepe dicit idem Joannes 
+   <lb ed="#PL"/> evangelista, <hi rend="italic">Mulli crediderunt in eum (ld.</hi> II, 23, IV, 
+   <lb ed="#PL"/> 39, VII, 31, vin, 30, <hi rend="italic">et</hi> x, 42) ? Nam unde erat mul­
+   
+   <lb ed="#PL"/> titudp illa eorum qui cum ramis partim praecedebant, 
+   <lb ed="#PL"/> partim sequebantur insidentem jumento, dicentes, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Benedictus qui venit in nomine Domini;</hi> et cum cis 
+   <lb ed="#PL"/> pueri, de quibus ipse ait fuisse praedictum, <hi rend="italic">Ex ore</hi>
+   
+       <lb ed="#PL"/> infantium <hi rend="italic">et lactentium perfecisti taudem</hi> (Matth. XXI,
+   
+   <lb ed="#PL"/> 7, 16; <hi rend="italic">Psal.</hi> vin, 3)? Unde quingenti fratres, quibus 
+   <lb ed="#PL"/> simul post resurrectionem non apparuisset (I <hi rend="italic">Cor.</hi>
+   
+       <lb ed="#PL"/> xv, 6), nisa in eum ante credidissent? Unde illi cen<lb ed="#PL" break="no"/>tum
+   ei povem, qui eum istis undecim centum et vi<lb ed="#PL" break="no"/>ginti
+   erant, quando simul eongregati post ejus ascen­
+   
+   <lb ed="#PL"/> sum exspectaverunt, et acceperunt promissum Spiri<lb ed="#PL" break="no"/>tum
+   sanctum <hi rend="italic">(Act.</hi> I, 15, et II, 4) ? Uude erant isti 
+   <lb ed="#PL"/> omnes, nisi ex illis de quibus dictum est, <hi rend="italic">Multi credi<lb ed="#PL" break="no"/>derunt
+   in</hi> eum ? Non ergo pro eis tunc oravit Salvator, 
+   <lb ed="#PL"/> quoniam pro ei oravit qui cum illo tunc erant, et pro 
+   <lb ed="#PL"/> aliis qui per verbum eorum in eum non jam credide<lb ed="#PL" break="no"/>rant, sed fuerant credituri. Isti autem nec cum illo 
+   <lb ed="#PL"/> tunc erant, et in eum jam ante crediderant. Omitto 
+   <lb ed="#PL"/> dicore do Simeone sene, qui in infantulum credidit; 
+   <lb ed="#PL"/> de Anna prophetisaa <hi rend="italic">(Luc.</hi> u, 25-38) ; de Zacharia et 
+   <lb ed="#PL"/> Elisabeth, qui eum prophetaverunt antequam de Vir<lb ed="#PL" break="no"/>line
+   nasceretur <hi rend="italic">(ld.</hi> I, 41-45, 67-79); de filio eorum 
+   <lb ed="#PL"/> Joanpe praecursore ejus, amjco sponsi, qui eum et in
+   
+   <lb ed="#PL"/> sancto Spiritu agnovit, et absentem praedicavit, et 
+   <lb ed="#PL"/> alis agnoscendum cum praesens esset ostendit <hi rend="italic">(Joan.</hi>
+   
+       <lb ed="#PL"/> I, 19-56, et III, 26-36): bos omkto, quoniam respon<lb ed="#PL" break="no"/>deri
+   potest orandum pro talibus mortuis non fuisse, 
+   <lb ed="#PL"/> qui cum magnis suis meritis hinc abierant, et recepti
+   
+   <lb ed="#PL"/> quiescebant; hoc enim et de antiquis justis similiter 
+   <lb ed="#PL"/> respondetur. Quis euim eorum a damnatioqe totius 
+   <lb ed="#PL"/> massae perditionis, quas per unum hominem facta est
+   
+   <lb ed="#PL"/> salvus esse potuisset, nisi in unum Mediatorem Dei 
+   <lb ed="#PL"/> pt hominum in carne venturum revelante Spiritu ere<lb ed="#PL" break="no"/>didisset? Sed numquid ei pro Apostolis orandum fuit, 
+   <lb ed="#PL"/> et pro tam multis qui in hac vita adhuc erant, nec cum 
+   <lb ed="#PL"/> illo tunc erant, et jam ante crediderant, orandum nep 
+   <lb ed="#PL"/> fuit? Quis hoc dixerit?</p>
+      <p xml:id="iuy75t-d1e933-d1e360">3. Intelligendum est igitur, quod nondum in eum 
+   <lb ed="#PL"/> sic crediderant, quomodo in se credi volebat : quan<lb ed="#PL" break="no"/>doquidem
+   et ipse Petrus, cui confilenti et dicenti, Tu 
+   <lb ed="#PL"/> es <hi rend="italic">Christus Filius Dei vivi,</hi> tam magnum testimonium 
+   <lb ed="#PL"/> perhibuerat, magis eum mori nolebat, quam mortuum 
+   <lb ed="#PL"/> resurrecturun esse oredebat; unde mox ab <hi rend="italic">co</hi> appel<lb ed="#PL" break="no"/>latus
+   est satans <hi rend="italic">(Matth.</hi> xvi, 16, 23). Fideliores 
+   <lb ed="#PL"/> itaque reperiuntur, qui defuncti jam fuerant, et resur<lb ed="#PL" break="no"/>recturum
+   Christum revelante Spiritu DOn utique da<lb ed="#PL" break="no"/>bitabant,
+   quam illi qui cum credidissent ipsum rodem<lb ed="#PL" break="no"/>pturum
+   israel, visa ejus morte spem totam quam de 
+   <lb ed="#PL"/> jUlo habuerant perdiderunt. Nihil ituque melius credi­
+   
+   <lb ed="#PL"/> mus, quam post ejqs resurrectionem impertito Spiritu 
+   <lb ed="#PL"/> sancto, et doctis at, confirmatis Apostolis, eisque in 
+   <lb ed="#PL"/> Ecclesia primitus doctoribus constitutis, per eorum 
+   <lb ed="#PL"/> verbum sic alios credidisse quelnadmodum in Chri<lb ed="#PL" break="no"/>stum
+   credi oporiebat, id est, ut fidem resurrectionis 
+   <lb ed="#PL"/> ejus tenerent. Ac per hoe et illos omnes qui jam in 
+   <lb ed="#PL"/> eum credidisse videbantur, ad eorum numerum per<lb ed="#PL" break="no"/>tinuisse
+   pro quibus oravit, dicens, <hi rend="italic">Non pro his autem 
+   <lb ed="#PL"/> rogo tantum, sed
+    et</hi> pro <hi rend="italic">eis qui credituri tunt</hi> per <hi rend="italic">ver­
+    
+   <lb ed="#PL"/> bum eorum in</hi> me.</p>
+      <p xml:id="iuy75t-d1e933-d1e427">4. Sed restat nobis ad istam quaestionem adhuc sol<lb ed="#PL" break="no"/>rendam
+   beatus Apostolus, et latro ille crudelis in 
+   <lb ed="#PL"/> scelere, fidelis in cruce Paulus quippe apostolus non 
+   <lb ed="#PL"/> ab hominibus, neque par hominem, sod per Jesum 
+   <lb ed="#PL"/> Christum se dicat factum Apostolum
+   : et de ipso suo 
+   <lb ed="#PL"/> evangelio loquens ait, <hi rend="italic">Neque</hi> enim ab homine <hi rend="italic">ego</hi> ac­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">cepi illud, neque didici;</hi> sed <hi rend="italic">per revelotionem
+    Jesu</hi>
+   
+       <lb ed="#PL"/>
+       <pb ed="#PL" n="1919"/>
+       <hi rend="italic">Christi (Galat.</hi> I, 1,12). Quomodo igitur erat in cis de 
+   <lb ed="#PL"/> quibus dictum est, <hi rend="italic">credituri</hi> sunt <hi rend="italic">per
+    verbum</hi> comm in 
+   <lb ed="#PL"/>
+       <hi rend="italic">me ?</hi> Latro vero ille tunc credidit, quando in ipsis 
+   <lb ed="#PL"/> doctoribus tides quoe fuerat qualiscumque defecit. 
+   <lb ed="#PL"/> Nec ipse itaque per eorum verbum credidit in Chri<lb ed="#PL" break="no"/>stum
+   Jesum : et tamen sic credidit, ut quem videbat 
+   <lb ed="#PL"/> crucilixum, confiteretur non solum resurrecturum, 
+   <lb ed="#PL"/> verum etiam regnaturum, dicendo,
+    <hi rend="italic">Memento</hi> mei, 
+   <lb ed="#PL"/> cum veneris <hi rend="italic">in regnum tuum
+    (Luc.</hi> XXIII, 42).</p>
+      <p xml:id="iuy75t-d1e933-d1e496">5. Proinde relinquitur, ut si Dominus Jesus hac 
+   <lb ed="#PL"/> oratione pro auis omnibus quicumque in hac vita, quae 
+   <lb ed="#PL"/> tentatio est super terram <hi rend="italic">(Job</hi> VII, 1), vel tunc erant, 
+   <lb ed="#PL"/> vei futuri crant, orasse credendus est, sic intciliga­
+   
+   <lb ed="#PL"/> mus quod dictum est, <hi rend="italic">per verbum eorum,</hi> ut ipsum 
+   <lb ed="#PL"/> verbum fidei quod praedicaverunt in mundo, hic signi<lb ed="#PL" break="no"/>ficatum
+   esse credamus; dictum autem esse verbum 
+   <lb ed="#PL"/> eorum, quoniam ab ipsis est primitus ac praecipue 
+   <lb ed="#PL"/> praedicatum. Jam enim ab ipsis praedicabatur in terra, 
+   <lb ed="#PL"/> quando per revelationem Jesu Christi ipsum verbum 
+   <lb ed="#PL"/> eorum Paulus accepit. Unde et contulit cum eis 
+   <lb ed="#PL"/>
+   £vangelium, ne forte in vacuum cucurrisset aut cur<lb ed="#PL" break="no"/>reret; et dexteras ei dederunt: quia et in illo, quam<lb ed="#PL" break="no"/>vis
+   non per eos illi datum; tamen verbum suum, quod 
+   <lb ed="#PL"/> jam praedicabant, et iu quo fundati fuerant, invene<lb ed="#PL" break="no"/>rant <hi rend="italic">(Galat.</hi> II, i, 9). De quo verbo resurrectionis 
+   <lb ed="#PL"/> Christi idem dicit apostolus, &lt; Sive ego, sive illi, sic 
+   <lb ed="#PL"/> praedicamus, et sic credidistis &gt;
+   (1 <hi rend="italic">Cor.</hi> xv, 11); et 
+   <lb ed="#PL"/> iterum, &lt; Hoc est, I inquit, &lt; verbum fidei quod prae<lb ed="#PL" break="no"/>dicamus, quia si confessus fueris in ore tuo quia Do­
+   
+   <lb ed="#PL"/> minus est Jesus, et credideris in corde tuo quia Deus 
+   <lb ed="#PL"/> illum suscitavit a mortuis, salvus eris &gt; <hi rend="italic">(Rom.</hi> x, 8 <hi rend="italic">et</hi> 9). 
+   <lb ed="#PL"/> £t in Actibus Apostolorum legitur quod in Christo 
+   <lb ed="#PL"/> Deus deQnicrit fidem omnibus, suscitans eum a mor. 
+   <lb ed="#PL"/> tuis <hi rend="italic">(Act.</hi> xvn, 31). Hoc verbum fidei, quia principa<lb ed="#PL" break="no"/>liter
+   ac primitus per Apostolos, qui ei cohaeserant,
+   
+   <lb ed="#PL"/> praedicatum est, ideo verbum eorum dictum est. Ne<lb ed="#PL" break="no"/>que
+   enim propterea non est verbum Dei, quia dictum 
+   <lb ed="#PL"/> est verbum eorum; cum dicat idem apostolus Thes<lb ed="#PL" break="no"/>salonicenses
+   excepisse a se, <hi rend="italic">noM ut</hi> verbum <hi rend="italic">hominum, 
+   <lb ed="#PL"/> sed, sicut eat, vere verbum Dei</hi> (I <hi rend="italic">Thess.</hi> II, 13). Ideo 
+   <lb ed="#PL"/> ergo Dei, quia Deus id donavit; eorum vero verbum 
+   <lb ed="#PL"/> dictum est, quia hoc praedicandum illis Deus primitus 
+   <lb ed="#PL"/> ac praecipue commendavit. Ac per hoc etiam ille- la<lb ed="#PL" break="no"/>tro
+   in sua fide verbum eorum habebat: quod eorum 
+   <lb ed="#PL"/> propterea dictum erat, quoniam praedicandum ad eo<lb ed="#PL" break="no"/>rum
+   officium primitus ac praecipue pertinebat. Deni<lb ed="#PL" break="no"/>que
+   cum murmur factum esset de ministerio mensa<lb ed="#PL" break="no"/>rum
+   a viduis Graecorum, antequam Paulus credidis<lb ed="#PL" break="no"/>set
+   in Christum; responderunt Apostoli, qui Domino 
+   <lb ed="#PL"/> ante cohaeserant: Non <hi rend="italic">est bonum</hi> noa <hi rend="italic">relinquere ver­
+   <lb ed="#PL"/> bum Dei, et</hi> ministrare mensis <hi rend="italic">(Act.</hi> VI, 1-4). Tunc or<lb ed="#PL" break="no"/>dinandos
+   diaconos providerunt, ne ipsi a praedicandi 
+   <lb ed="#PL"/> verbi avocarentur officio. Unde merito dictum est 
+   <lb ed="#PL"/> verbum eorum, quod est verbum fidei, per quod 
+   <lb ed="#PL"/> omnes in Christum, undecumque id audierint, credi<lb ed="#PL" break="no"/>dcrunt, vel audituri et credituri sunt. Ergo illa ora<lb ed="#PL" break="no"/>tione
+   pro omnibus quos redemit, sive tunc in carne 
+   <lb ed="#PL"/> viventes, sive postea futuros, Rcdemptor nosterornvit, 
+   <lb ed="#PL"/> cum rogans pro Apostolis qui cum illo tunc crant. ad<lb ed="#PL" break="no"/>junxit
+   etiam illos qui per corum verbum in cum fue<lb ed="#PL" break="no"/>rant
+   credituri. Quid autem adjunctis illis deinde dicat, 
+   <lb ed="#PL"/> alia est disputatione tractandum.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

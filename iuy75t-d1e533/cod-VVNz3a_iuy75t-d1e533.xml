@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 60</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 60</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e533"> <!-- iuy75t-t60 -->
+      <head xml:id="iuy75t-d1e533-Hd1e109">Tractatus 60</head>
+      <p xml:id="iuy75t-d1e533-d1e112">
+       <hi rend="italic">In illud,</hi> Cum haec dixisset Jesus turbatus est spiritu. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Cap.</hi> XIII, f . 21.</p>
+      <p xml:id="iuy75t-d1e533-d1e123">i. Non parva, fratres, ex Evangelio beati Joannis 
+   <lb ed="#PL"/> nobis proponitur quaestio, ubi ait : Cam <hi rend="italic">haec dixisset 
+   <lb ed="#PL"/> Jesus, turbatus eat spiritu, et
+    protestatus eat, ei dixit : 
+   <lb ed="#PL"/> Amen, amen dico vobis, quia</hi> unus <hi rend="italic">ex vobis tradet me.</hi>
+   
+       <lb ed="#PL"/> Hincne turbatus est Jesus, non carne, sed spiritu, 
+   <lb ed="#PL"/> quia dicturus fuerat, <hi rend="italic">Unus ex vobis tradet me ?</hi> Num<lb ed="#PL" break="no"/>quidnam
+   illi hoc tanc primum venit in mentem, vel 
+   <lb ed="#PL"/> tunc primum ei subito revelatum est, eumque repen<lb ed="#PL" break="no"/>tina
+   tanti mali novitas turbavit ? Nonne hinc paulo 
+   <lb ed="#PL"/> ante loquebatur dicens, <hi rend="italic">Qui manducat mecum panem, 
+   <lb ed="#PL"/> levabit</hi> super <hi rend="italic">me</hi> calcaneum ? Nonne etiam jam supe<lb ed="#PL" break="no"/>rius
+   dixerat, <hi rend="italic">Et</hi> vos <hi rend="italic">mundi</hi> estis, <hi rend="italic">sed non omnes</hi>
+   ? Ubi 
+   <lb ed="#PL"/> Evangelista subjunxit, <hi rend="italic">Sciebat enim quisnam esset qui
+   <lb ed="#PL"/>
+    traderet eum (Joan.</hi> XIII, 18, 10, 11) : quem jam 
+   <lb ed="#PL"/> et ante significaverat dicens , <hi rend="italic">Nonne ego vos duode­</hi>
+   
+       <lb ed="#PL"/> dm <hi rend="italic">elegi, et</hi> unus <hi rend="italic">ex vobis diabolus est
+    (Id.</hi> VI, 71) ? 
+   <lb ed="#PL"/> Quid est ergo quod nunc <hi rend="italic">turbatus est
+    spiritu,</hi> cum <hi rend="italic">pro­
+   <lb ed="#PL"/> testatus</hi> est, <hi rend="italic">et
+    dixit: Amen, amen dico vobis, quia</hi>
+   
+       <lb ed="#PL"/> unus <hi rend="italic">ex vobis tradet me</hi> ? An quia eum jam fuerat ex<lb ed="#PL" break="no"/>pressurus,
+   ut non lateret in caeteris, sed discernere<lb ed="#PL" break="no"/>tur
+   a caeteris, ideo <hi rend="italic">turbatus</hi> eat <hi rend="italic">spiritu?</hi> An quia ipse 
+   <lb ed="#PL"/> traditor jam fuerat exiturus, ut Judaeos, quibus Do<lb ed="#PL" break="no"/>minus
+   ab eo traderetur, adduceret, turbavit eum im<lb ed="#PL" break="no"/>minens
+   passio, et periculum proximum, et traditoris
+   
+   <lb ed="#PL"/> impendens manus, cujus fuerat praecognitus animas? 
+   <lb ed="#PL"/> Tale quippe hoc est quod Jesus <hi rend="italic">turbatus eat spiritu,</hi>
+   
+       <lb ed="#PL"/> quale etiam illud quod ait, <hi rend="italic">Nunc anima</hi> mea <hi rend="italic">turbata
+   <lb ed="#PL"/> est ; et quid dicam? Pater,</hi> salva me <hi rend="italic">ex hora hac ; sed 
+   <lb ed="#PL"/> propterea</hi> veni in horam <hi rend="italic">hanc (
+    Id.</hi> XII, 27). Sicut 
+   <lb ed="#PL"/> ergo tunc ejus anima turbata est hora propinquante
+   
+   <lb ed="#PL"/> passionis; ita etiam nunc exituro Juda atque venturo, 
+   <lb ed="#PL"/> et propinquante tanto scelcre traditoris, <hi rend="italic">turbatus est 
+   <lb ed="#PL"/> spiritu.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e533-d1e270">2. Turbatus est ergo potestatem habens ponendi 
+   <lb ed="#PL"/> animam suam , et potestatem habens iterum sumendi 
+   <lb ed="#PL"/> eam <hi rend="italic">(Id.</hi> x, 18 ). Turbatur tam ingens potestas, 
+   <lb ed="#PL"/> turbatur petrae firmitas : an potius in eo nostra tur<lb ed="#PL" break="no"/>batur
+   infirmitas ? Ita vero : nihil indignum credant 
+   <lb ed="#PL"/> servi de Domino suo, sed agnoscant se membra in 
+   <lb ed="#PL"/> capite suo. Qui mortuus est pro nobis, turbatus est 
+   <lb ed="#PL"/> idem ipse pro nobis. Qui ergo potestate mortuus est, 
+   <lb ed="#PL"/> potestate turbatus est : qui transfiguravit corpus hu<lb ed="#PL" break="no"/>militatis
+   nostrae conforme corpori gloriae sux ( Phi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tipp.</hi> III, 21), transfiguravit etiam in se affectum 
+   <lb ed="#PL"/> infirmitatis nostrae, compatiens nobis affectu animae 
+   <lb ed="#PL"/> suae. Proinde quando turbatur magnus, fortis, certus, 
+   <lb ed="#PL"/> invictus, non ei timeamus quasi deficiat; non perit, 
+   <lb ed="#PL"/> sed nos quaerit. Nos , inquam, nos omnino sic quae<lb ed="#PL" break="no"/>rit
+   nos ipsos in illius perturbatione vidcamus, ut 
+   <lb ed="#PL"/> quando turbamur, non desperatione pereamus. Quan<lb ed="#PL" break="no"/>do
+   turbatur qui non turharetur nisi volens, eum con<lb ed="#PL" break="no"/>solatur
+   qui turbaturetnolens.</p>
+      <p xml:id="iuy75t-d1e533-d1e319">3. Pereant argumenta philosophorum, qui negant 
+   <lb ed="#PL"/> in sapientem cadere perturbationes animorum. Stul<lb ed="#PL" break="no"/>tam
+   fecit Deus sapientiam hujus mundi (1 <hi rend="italic">Cor.</hi> I, 
+   <lb ed="#PL"/> 20. ) ; et Dominus novit cogitationes hominum, quo<lb ed="#PL" break="no"/>niam
+   vanae sunt <hi rend="italic">(Psal.</hi> XCIII, 11 ). Turbetur plane 
+   <lb ed="#PL"/> animus christianus, non miseria, sed misericordia: 
+   <lb ed="#PL"/> timeat ne pereant homines Christo, contristetur cum 
+   <lb ed="#PL"/> perit aliquis Christo; concupiscat acquiri homines 
+   <lb ed="#PL"/> Christo, laetetur cum acquiruntur homines Christo: 
+   <lb ed="#PL"/> timeat et sibi ne pereat Christo, contristetur per<lb ed="#PL" break="no"/>egrinari
+   se a Christo; concupiscat regnare cum Chri<lb ed="#PL" break="no"/>sto, laetetur dum sperat se regnaturum esse cum 
+   <lb ed="#PL"/> Christo. Istae sunt certe quatuor quas perturbationes 
+   <lb ed="#PL"/> vocant, timor et tristitia, amor et laetitia. Habeant 
+   <lb ed="#PL"/> eas justis de causis animi cbrisliani, nec philosopho<lb ed="#PL" break="no"/>rum
+   Stoicorum, vel quorumcumque similium con<lb ed="#PL" break="no"/>sentiatur
+   errori : qui profecto quemadmodum vani<lb ed="#PL" break="no"/>tatem
+   existimant vcrilatem, sic stuporem deputant 
+   <lb ed="#PL"/> sanitatem ; ignorantes sic hominis animum, quemad<lb ed="#PL" break="no"/>modum
+   corporis membrum, desperatius aegrotare&gt; 
+   <lb ed="#PL"/> quandoetdoloris amiscrit sensum.</p>
+      <p xml:id="iuy75t-d1e533-d1e371">4. Sed dicit aliquis ; Numquid animus christiani 
+   <lb ed="#PL"/> debet etiam morte impendente turbari ? Ubi est cnim 
+   <lb ed="#PL"/> quod ait Apostolus, concupiscentiam se habere dis<lb ed="#PL" break="no"/>solvi
+   et esse cum Christo ( Philipp. i, 23 ) ; si 
+   <lb ed="#PL"/> illud quod concupiscit, potest eum turbare cum vene<lb ed="#PL" break="no"/>rit ? Facile est quidem istis ad haec respondere, qui et
+   
+   <lb ed="#PL"/> ipsam latlitiam perturbationem vocant. Quid si enim 
+   <lb ed="#PL"/> propterea morte imminente turbatur, qnia morte im<lb ed="#PL" break="no"/>minente
+   laetatur? Sed hoc, inquiunt, gaudium , non 
+   <lb ed="#PL"/> laetitia nominanda est. Quid est hoc, nisi easdem res 
+   <lb ed="#PL"/> sentire, et rerum nomina velle mutare? Verum noe 
+   <lb ed="#PL"/> sacris Litteris accommodemus auditum, et secundum
+   
+   <lb ed="#PL"/> ipsas potius istam quaestionem Domino adjuvante 
+   <lb ed="#PL"/> solvamus: nec quoniam scriptum est, Cum <hi rend="italic">haec dixis<lb ed="#PL" break="no"/>sel
+   Jesus, turbatus eat
+    spiritu,</hi> dicamus eum lxtilia 
+   <lb ed="#PL"/> fuisse turbatum; ne verbis suis nos ipse convincat 
+   <lb ed="#PL"/> ubi dicit, Tristis <hi rend="italic">est anima mea usque ad mortem 
+   <lb ed="#PL"/>
+    ( Matth.</hi> xxvi, 58). Tale aliquid etiam hic intelligen<lb ed="#PL" break="no"/>dum
+   est, quando suo traditore jam tunc solo exituro, 
+   <lb ed="#PL"/> et cum suis sociis continuo redituro, Jesus <hi rend="italic">turbatus est
+   <lb ed="#PL"/> spiritu.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e533-d1e426">5. Firmissimi quidem sunt christiani, si qui sunt, 
+   <lb ed="#PL"/> qui nequaquam morte imminente turbantur : sed 
+   <lb ed="#PL"/> numquid Christo firmiores? Quis hoc insanissimus 
+   <lb ed="#PL"/> dixerit? Quid est ergo quod ille turbatus est, nisi 
+   <lb ed="#PL"/> quia infirmos in suo corpore, hoc est in sua Ecclesia, 
+   <lb ed="#PL"/> suae infirmitatis voluntaria similitudine consolatus 
+   <lb ed="#PL"/> est: at si qui suorum adhuc morte imminente tur­ 
+   <pb ed="#PL" n="1799"/>
+       <lb ed="#PL"/> bantur in spiritu, ipsum intueantur, ne boc ipso se 
+   <lb ed="#PL"/> putantes reprobos, pejore desperationis morte sor<lb ed="#PL" break="no"/>bcantur? Quantum itaque bonum de participatione 
+   <lb ed="#PL"/> divinitatis ejus exspectare et sperare debemus, cujus 
+   <lb ed="#PL"/> nos et perturbatio tranquillat , et infirmitas firmat? 
+   <lb ed="#PL"/> Sive ergo isto loco ipsum Judam pereuntem mise<lb ed="#PL" break="no"/>rando
+   turbatus est, sive sua morte propinquante 
+   <lb ed="#PL"/> turbatus est
+   : non est tamen ullo modo dubitandum, 
+   <lb ed="#PL"/> non eum animi infirmitatc, sed potestate turbatum ; 
+   <lb ed="#PL"/> ne nobis desperatio salutis oriatur, quando non po<lb ed="#PL" break="no"/>testate , sed infirmitate turbamur. Carnis quippe ille 
+   <lb ed="#PL"/> gercbat infirmitatem , quae infirmitas resurrectione 
+   <lb ed="#PL"/> consumpta est. Sed qui non solum homo, verum 
+   <lb ed="#PL"/> etiam Deus erat, ineffabili distantia universum genus 
+   <lb ed="#PL"/> humanum animi fortitudine superabat. Non ergo ali<lb ed="#PL" break="no"/>quo
+   est cogente turbatus, sed turbavit semetipsum; 
+   <lb ed="#PL"/> quod de illo evidenter expressum est, quando Laza<lb ed="#PL" break="no"/>rum
+   suscitavit: nam ibi scriptum est quod turbave<lb ed="#PL" break="no"/>rit
+   semetipsum <hi rend="italic">(Joan.</hi> XI, 33), ut hoc intelligatur et 
+   <lb ed="#PL"/> ubi non scriptum legitur, et tamen cum legitur fuisse 
+   <lb ed="#PL"/> turbatum. Affectum quippe humanum, quando opor<lb ed="#PL" break="no"/>tuisse
+   judicavit, in seipso potestate commovit, qui
+   
+   <lb ed="#PL"/> hominem totum potestate suscepit.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 112</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 112</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e957"> <!-- iuy75t-t112 -->
+      <head xml:id="iuy75t-d1e957-Hd1e109">Tractatus 112</head>
+      <p xml:id="iuy75t-d1e957-d1e112">
+       <hi rend="italic">In id quod</hi> sequitUr, Haec cum dixisset Jesus, egressus 
+   <lb ed="#PL"/> est cum discipulis suis, <hi rend="italic">etc.;</hi> usque <hi rend="italic">ad</hi> id, Compre<lb ed="#PL" break="no"/>henderunt
+   Jesum, et ligaverunt eum, <hi rend="italic">Cap.</hi> XVIII,
+   
+   <lb ed="#PL"/> i. 1-12.</p>
+      <p xml:id="iuy75t-d1e957-d1e134">I. Terminato magno prolixoque sermone quem 
+   <lb ed="#PL"/> post coenam Dominus, fundendo pro nobis proximus 
+   <lb ed="#PL"/> sanguini, ad discipulos habuit qui cum iUo tunc erant, 
+   <lb ed="#PL"/> adjuncta oratione quam direxit ad Patrem, deinceps. 
+   <lb ed="#PL"/> cjus passionem Joannes evangelista sic orsus est: 
+   <lb ed="#PL"/> a Haec cum dixisset Jesus, egressus est curo discipulis 
+   <lb ed="#PL"/> suis trans torrentem Cedron, ubi erat hortus, in quem 
+   <lb ed="#PL"/> iOtroivit ipse et discipuli ejus. Sciebat autem et Judas. 
+   <lb ed="#PL"/> qui lradcbat eum, locum; quia frequenter Jesus con - 
+   <lb ed="#PL"/> venerat illuc cum discipulis suis. » lloc quod narrat 
+   <lb ed="#PL"/> ingressum Doruinurn cum discipulis suis in hortum 
+   <lb ed="#PL"/> non continuo factum est, cum ejus illa linita esset
+   
+   <lb ed="#PL"/> oratio, de cujus verbis ait, <hi rend="italic">Haec cum dixisset Jesus</hi> : 
+   <lb ed="#PL"/> sed alia qua'dam sunt interposita quae ab isto praeter<lb ed="#PL" break="no"/>. missa apud alios evangelistas leguntur; sicut apud 
+   <lb ed="#PL"/> hunc inveniuntur multa quae illi similiter in sua nar<lb ed="#PL" break="no"/>ratione
+   tacuerunt. Quomodo autem inter se omnes 
+   <lb ed="#PL"/> conveniant, nec veritati quae per alium promitur, al 
+   <lb ed="#PL"/> alio repugnetur, quisquis nosse desiderat, non in his 
+   <lb ed="#PL"/> sermonibus, sed in aliis laboriosis lilleris quaerat (a) ; 
+   <lb ed="#PL"/> nec stando et audicndo, sed potius sedendo et Ie<lb ed="#PL" break="no"/>gendo, vel legenti aurem mentemque intentissimam 
+   <lb ed="#PL"/> praebendo, illa condiscat. Credat tamen antequam 
+   <lb ed="#PL"/> . sciat, sive id etiam scire in hac vita possit, sive per 
+   <lb ed="#PL"/> aliqua impedimenta non possii, nihil ab aliquo evan<lb ed="#PL" break="no"/>gelisla
+   esse conscriptum, quantum ad hos attinet quos 
+   <lb ed="#PL"/> in auctoritatem canonicam recepit Ecclesia, quod vel 
+   <lb ed="#PL"/> ipsius vel alterius nou minus vcraci narrationi possit 
+   <lb ed="#PL"/> esse contrarium. Nunc itaqne hujus beati Joannis nar­
+   
+   <lb ed="#PL"/> rationem, ut suscepimus tractandam, sine aliorum 
+   <lb ed="#PL"/> comparatione videamus, in cis quae manifesta sunt 
+   <lb ed="#PL"/> uon immorantes; ut hoc ubi opus est, causa poscente 
+   <lb ed="#PL"/> faciamus. Non ergo sic accipiamus quod ait, <hi rend="italic">Haec cunt 
+   <lb ed="#PL"/>
+    dixisset</hi> Jesus, <hi rend="italic">egressus est cum discipulis suis trans tor­
+    
+   <lb ed="#PL"/> rentem Cedron, ubi erat hortus, in quem introivit ipse et 
+   <lb ed="#PL"/> discipuli</hi> ejuS, tanquam continuo post illa verba in il<lb ed="#PL" break="no"/>lum
+   hortum fuerit ingressus : sed ad hoc valeat 
+   <lb ed="#PL"/> quod dictum est, <hi rend="italic">Haec</hi> cuM <hi rend="italic">dixisset Jesus,</hi> ut non 
+   <lb ed="#PL"/> eum ante opinemur ingressum, quam illa verba fi­
+   
+   <lb ed="#PL"/> niret.</p>
+      <p xml:id="iuy75t-d1e957-d1e236">i. <hi rend="italic">Sciebat,</hi> inquit, <hi rend="italic">et Judas, qui
+    tradebat</hi> eum , lo­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">cum.</hi> Ordo verborum est, <hi rend="italic">Sciebat locum qui
+    tradebat
+   <lb ed="#PL"/> eum. Quia frequenter,</hi> inquit, <hi rend="italic">Jesus
+    convenerat</hi> illuc 
+   <lb ed="#PL"/>
+       <hi rend="italic">cum discipulis suis.</hi> Ibi ergo lupus ovina pelle conte<lb ed="#PL" break="no"/>ctus,
+   et inter oves alto Patrisfamilias consilio tolera<lb ed="#PL" break="no"/>tus, didicit uhi ad tempus exiguum dispergeret 
+   <lb ed="#PL"/> gregem, insidiis appetendo pastorem. <hi rend="italic">Judas ergo,</hi> in<lb ed="#PL" break="no"/>quit, <hi rend="italic">cum accepisset</hi> cohortem, <hi rend="italic">et a principibus et Pha­
+   <lb ed="#PL"/> risaeis</hi> ministros, <hi rend="italic">venit illuc cum laternis et facibus et
+   <lb ed="#PL"/> armis.</hi> Cohors non Judaeorum, sed militum luit. A 
+   <lb ed="#PL"/> preside itaque intelligatur accepta , tanquam ad te<lb ed="#PL" break="no"/>nendum
+   reum, servato ordine legitimae potestatis, ut 
+   <lb ed="#PL"/> nullus tenentibus auderct obsistere
+   : quanquam et 
+   <lb ed="#PL"/> manus tanta fuerat congregata , et sic armata venie<lb ed="#PL" break="no"/>bat, ut vel terreret vel etiam repugnaret, si quisquam 
+   <lb ed="#PL"/> Christum defendere auderet. Ita quippe ejus abscon. 
+   <lb ed="#PL"/> debatur potestas, et obtendebatur infirmitas, ut ha c 
+   <lb ed="#PL"/> inimicis necessaria videremur adversus eum, in quem 
+   <lb ed="#PL"/> nihil valuisset nisi quod ipse voluisset; bene utens 
+   <lb ed="#PL"/> bonus malis, et faciens bona de malis, ad faciendos 
+   <lb ed="#PL"/> bonos ex malis et discernendos bonos a malis.</p>
+      <p xml:id="iuy75t-d1e957-d1e314">3. «Jesus itaque, sicut Evangelista secutusadjungit, 
+   <lb ed="#PL"/> c sciens omnia quae ventura erant super eum, pro<lb ed="#PL" break="no"/>cessit, et dicit eis : Quem quaeritis? Responderunt ei :
+   
+   <lb ed="#PL"/> Jesum Nazarenum. Dicit eis Jesus : Ego sam. Stabat 
+   
+   
+   
+   <pb ed="#PL" n="1931"/>
+       <lb ed="#PL"/> autem et Judas, qui tradebat eum, cum ipsis. Ut ergo 
+   <lb ed="#PL"/> dixit eis, Ego sum, abierunt retrorsum, et ceciderunt 
+   <lb ed="#PL"/> in terram. i Ubi nunc militum cohors, et ministri 
+   <lb ed="#PL"/> principum ac PharissDorum ? ubi terror et munimen 
+   <lb ed="#PL"/> armorum? Nempe una vox dicentis, <hi rend="italic">Ego sum,</hi> tantam 
+   <lb ed="#PL"/> turbam odiis ferocem armisque terribilem , sine telo 
+   <lb ed="#PL"/> ullo percussit, repulit, stravit. Deus enim latebat in 
+   <lb ed="#PL"/> carne ; et sempiternus dies ita membris occultabatur 
+   <lb ed="#PL"/> humanis, ut laternis et facibus quaereretur occidendus 
+   <lb ed="#PL"/> a tenebris. <hi rend="italic">Ego
+    sum,</hi> dicit;etimpios dejicit. Quid 
+   <lb ed="#PL"/> judicaturus faciet, qui judicandus hoc fecit? Quid re<lb ed="#PL" break="no"/>gnaturus
+   poterit, qui moriturus hoc potuit? Et nunc 
+   <lb ed="#PL"/> ubique per Evangelium, Ego sum, dicit Christus; et 
+   <lb ed="#PL"/> a Judaeis exspectatur Antichristus , ut retro re<lb ed="#PL" break="no"/>deant, et in terram cadant, quoniam deserentes coe<lb ed="#PL" break="no"/>lesiia , terrena desiderant. Certe ad comprehenden<lb ed="#PL" break="no"/>dum
+   Jesum persecutores cum traditore venerunt, 
+   <lb ed="#PL"/> quem quaerebant invenerunt, audierunt <hi rend="italic">Ego</hi> sum :
+   
+   <lb ed="#PL"/> quare non comprehenderunt, sed abierunt retro, et 
+   <lb ed="#PL"/> ceciderunt, nisi quia hoc voluit, qui potuit quidquid 
+   <lb ed="#PL"/> voluit? V crum si nunquam se ab eis permitteret ap­
+   
+   <lb ed="#PL"/> prehendi, non quidem illi facerent propter quod ve<lb ed="#PL" break="no"/>nerant, sed nec ipse faceret propter quod venerat. 
+   <lb ed="#PL"/> Eum quippe illi occidendum quaerebant saRviendo;
+   
+   <lb ed="#PL"/> sed quaerebat nos et ipse moricndo. Proindc quia 
+   <lb ed="#PL"/> tenere volcniibus, nec valentibus, ostendit potestatem 
+   <lb ed="#PL"/> suam; jam teneant eum, ut faciat de nescientibus vo<lb ed="#PL" break="no"/>luntatem
+   suam.</p>
+      <p xml:id="iuy75t-d1e957-d1e395">4. « Iterum ergo eos interrogavit: Quem quaeritis? 
+   <lb ed="#PL"/> llli autem dixerunt: Jesum Nazarenum. Respondit 
+   <lb ed="#PL"/> Jesus : Dixi vobis quia ego sum. Si ergo me quaeritis, 
+   <lb ed="#PL"/> sinite hos abire. Ut impleretur sermo quem dixit, 
+   <lb ed="#PL"/> Quia quos dedisti mihi, non perdidi ex eis quemquam. 
+   <lb ed="#PL"/> Si me, &gt; inquit, &lt; quaeritis, sinite hos abire. &gt; Inimi<lb ed="#PL" break="no"/>cos
+   videt1, et hoc faciunt qnod jubet; siunt eos 
+   <lb ed="#PL"/> abire, quos non vult perire. Numquid autem non 
+   <lb ed="#PL"/> erant postea morituri? Cur ergo si tunc morerentur,
+   
+   <lb ed="#PL"/> perderet eos, nisi quia nondum sic in eum credebant, 
+   <lb ed="#PL"/> quomodo credunt quicumque non pereunt ?</p>
+      <p xml:id="iuy75t-d1e957-d1e419">5. Simon <hi rend="italic">ergo Petrus habens gladium, eduxit eum,
+   <lb ed="#PL"/> et percussil
+    servum principis sacerdotum, et abscidit ejus
+   <lb ed="#PL"/> auriculam dexteram. Erat autem
+    nomen servo Malchus.</hi>
+   
+       <lb ed="#PL"/> Solus hic evangelista etiam nomen hujus servi expres<lb ed="#PL" break="no"/>sit: sicut Lucas sotus, quod ejus auriculam Dominus 
+   <lb ed="#PL"/> tetigerit, et sanaverit eum <hi rend="italic">(
+    Luc.</hi> XXII, 51). Malchus 
+   <lb ed="#PL"/> autem interpretatur Regnaturus. Quid ergo auris pro
+   
+   <lb ed="#PL"/> Domino amputata et a Domino sanata significat, nisi 
+   <lb ed="#PL"/> auditam amputata vetustate renovatum, ut sit in no<lb ed="#PL" break="no"/>vitate
+   spiritus, et non in vetustate litterae
+    <hi rend="italic">( Rom.</hi> vn, 
+   <lb ed="#PL"/> 6)? Quod cui praestitum fuerit a Christo, quis dubitet 
+   <lb ed="#PL"/> regnaturum esse cum Christo? Quod autem servus 
+   <lb ed="#PL"/> inventus est, et hoc ad inam pertinet vetustatem quae 
+   <lb ed="#PL"/> in servitutem generat, quod est Agar <hi rend="italic">(Galat.</hi> IV, 24). 
+   <lb ed="#PL"/> Sed cum accessit sanitas, figurata est et libertas, Fa<lb ed="#PL" break="no"/>ctum
+   tamen Petri Dominus improbavit, et progredi 
+   <lb ed="#PL"/> ultra prohibuit dicens : <hi rend="italic">Mitte gladium in vaginam.</hi> Ca<lb ed="#PL" break="no"/>licem <hi rend="italic">quem dedit mihi Pater, non bibam illum</hi> ? In suo 
+   
+   <lb ed="#PL"/> quippe facto ille discipulus magistrum defendere vo<lb ed="#PL" break="no"/>luit, non quod signiltcandum est cogitavit. Et ille igi- I 
+   <lb ed="#PL"/> tur ad patientiam commonendus fuit, et hoc ad intel. 
+   <lb ed="#PL"/> ligentiam conscribendum. Quod autem a Patre sibi 
+   <lb ed="#PL"/> dicit datum calicem passionis, profecto illud est quod 
+   <lb ed="#PL"/> ait Apostolus : <hi rend="italic">Si
+    Deus pronobis, quis contra no.?</hi> Qai 
+   <lb ed="#PL"/>
+       <hi rend="italic">Filio proprio non pepercit, sed pro nobis</hi> omnibus <hi rend="italic">tra<lb ed="#PL" break="no"/>didit
+   eum (Rom.</hi> VIII, 31, 52 ). Verum auctor calicis
+   
+   <lb ed="#PL"/> hujus est etiam ipse qui bibit. Unde idem apostolus 
+   <lb ed="#PL"/> item dicit : <hi rend="italic">Christus dilexit nos, et tradidit semetipsum</hi>
+   
+       <lb ed="#PL"/> pro nobis <hi rend="italic">oblationem et hostiam Deo in odorem suavita­
+   <lb ed="#PL"/> tis
+    (Ephes.</hi> v, 2).</p>
+      <p xml:id="iuy75t-d1e957-d1e519">6. <hi rend="italic">Cohors autem et</hi> tribunus <hi rend="italic">et</hi> ministri Judaeorum 
+   <lb ed="#PL"/>
+       <hi rend="italic">comprehenderunt Jesum, et ligaverunt eum.</hi> Compre- 
+   <lb ed="#PL"/> - henderunt ad quem non accesserunt: quoniam dies 
+   <lb ed="#PL"/> ille, illi vero tenebrae permanserunt; nec audierunt, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Accedite ad eum et illuminamini</hi> ( <hi rend="italic">Psal.</hi> XXXIII, 6). Si 
+   <lb ed="#PL"/> enim sic accederent, uon eum manibus occidendum, 
+   <lb ed="#PL"/> sed recipiendum corde comprehenderent. Nunc autem 
+   <lb ed="#PL"/> quando eum illo modo comprehenderunt, tunc ab illo 
+   <lb ed="#PL"/> longius receiserunt: et ligaverunt eum a quo solvi
+   
+   <lb ed="#PL"/> potius velle debuerunt. Et erant fortassis in eis qui 
+   <lb ed="#PL"/> tunc imposuerunt Christo vincula sua, atque ab eo 
+   <lb ed="#PL"/> postea liberali dixerunt, <hi rend="italic">Disrupisti vincula mea (Psal.</hi>
+   
+       <lb ed="#PL"/> cxv, 16). Haec hodie satis sint ; tractabuntur, Dco vo- 
+   <lb ed="#PL"/> lente, sermone alio quae sequuntur.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

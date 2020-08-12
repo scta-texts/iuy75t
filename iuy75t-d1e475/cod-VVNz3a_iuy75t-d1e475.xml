@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 53</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 53</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e475"> <!-- iuy75t-t53 -->
+      <head xml:id="iuy75t-d1e475-Hd1e109">Tractatus 53</head>
+      <p xml:id="iuy75t-d1e475-d1e112">
+       <hi rend="italic">Ab eo quod scriptum est,</hi> Cum autem tanta signa fecis<lb ed="#PL" break="no"/>set
+   coram eis, non credebant in eum; <hi rend="italic">usque ad id,</hi>
+   
+       <lb ed="#PL"/> Dilexerunt gloriam hominum magis quam gloriam 
+   <lb ed="#PL"/> Dei. <hi rend="italic">Cap.</hi> xn , f . 37-43.</p>
+      <p xml:id="iuy75t-d1e475-d1e131">i. Praenuntiata Dominus Christus passione sua, et 
+   <lb ed="#PL"/> morte fructuosa in exaltatione crucis, ubi dixit se 
+   <lb ed="#PL"/> omnia tracturum esse post se, cum intellexissent Ju<lb ed="#PL" break="no"/>daei
+   quod de sua morte dixisset, et proposuissent ei 
+   <lb ed="#PL"/> quaestionem, quomodo diceret se esse lnoriturum, 
+   <lb ed="#PL"/> cum ex Lege audierint quod Christus manet in aeter<lb ed="#PL" break="no"/>num; hortatus eat eos, ut dum adhuc modicum lumen 
+   <lb ed="#PL"/> in eis esset, quo Christum aeternum esse didicissent, 
+   <lb ed="#PL"/> ambularent, ut totum discerent, nc comprehenderen<lb ed="#PL" break="no"/>tur
+   a tenebris. Et cum haec esset locutus, abscondit 
+   <lb ed="#PL"/> se ab eis. Haec in superioribus dominicis lectionibus 
+   <lb ed="#PL"/> verbisquc didicistis.</p>
+      <pb ed="#PL" n="1775"/>
+
+      <p xml:id="iuy75t-d1e475-d1e160">i. Deinde inlulil Evangelista unde hodiernum capi. 
+   <lb ed="#PL"/> tulum recitatum est, et ait: Cum <hi rend="italic">antem lanla signa fe­</hi>
+   
+       <lb ed="#PL"/> cissel <hi rend="italic">coram eis, non credebaut in eum : ut sermo Isaiae
+   <lb ed="#PL"/>
+    prophetae impleretur quem dixit, Domine, quis credidit 
+   <lb ed="#PL"/> auditui</hi> nostro ? <hi rend="italic">ct brachium Domini</hi> cui <hi rend="italic">revelatum est ?</hi>
+   
+       <lb ed="#PL"/> i Ubi salis ostendil brachium Domini ipsum Filium Dei 
+   <lb ed="#PL"/> nuncupatum; non quod Deus Pater figura determine<lb ed="#PL" break="no"/>tur
+   carnis humanae, cique Filius tanquam membrum 
+   <lb ed="#PL"/>
+   } corporis haereat : sed quia omnia per ipsum facta sunt, 
+   <lb ed="#PL"/> ideo brachium Domini dictum est. Sicut enim tuum 
+   <lb ed="#PL"/> brachium, per quod operaris; sic'Dei brachium dictum
+   
+   <lb ed="#PL"/> est ejus Verbum, quia per Verbum operatus est mun<lb ed="#PL" break="no"/>dum. Cur enim homo ut aliquid operetur, brachium 
+   <lb ed="#PL"/> extendit, nisi qnia non continuo fit quod dixerit? Si
+   
+   <lb ed="#PL"/> autem tanta potestate praevaleret, ut sine ullo motu 
+   <lb ed="#PL"/> corporis sui quod diceret fieret, brachium ejus ver<lb ed="#PL" break="no"/>num
+   ejus esset Sed Dominus Jesus unigenitus Dei
+   
+   <lb ed="#PL"/> Patris Filius, sicut non est paterni corporis mem<lb ed="#PL" break="no"/>hrum, ita non est cogitabile vel sonabile ac transito<lb ed="#PL" break="no"/>rium
+   verbum; quia cum omnia per ipsum facta suut, 
+   <lb ed="#PL"/> Dei Verbum erat.</p>
+      <p xml:id="iuy75t-d1e475-d1e218">3. Cum ergo audimus braChium Dei Patris esse Dei 
+   <lb ed="#PL"/> Filium, non nobis obstrepat consuetudo carnalis: sed 
+   <lb ed="#PL"/> quantum illo donante possumus, Virtutem Dei et Sa<lb ed="#PL" break="no"/>pientiam
+   cogitemus, per quam facta suntomnia. Tale 
+   <lb ed="#PL"/> quippe brachium nec porrectum extenditur, nec coi- 
+   <lb ed="#PL"/> I lectum contrahitur. Non est enim ipse qui Pater, sed 
+   <lb ed="#PL"/> unum sunt ipse et Pater; et aequalis Patri ubique to<lb ed="#PL" break="no"/>tus
+   est sicut Pater: ne aliqua pateat occasio detestabili 
+   <lb ed="#PL"/> errori eorum, qui dicunt solum esse Patrem, sed pro 
+   <lb ed="#PL"/> diversitate causarum ipsum dici Filium, ipsum dici 
+   <lb ed="#PL"/> Spiritum sanctum; et in his verbis audeant dicere, 
+   <lb ed="#PL"/> Ecce videtis quia solus est Pater, si brachium ejus est 
+   <lb ed="#PL"/> Filius; non enim dune, sed una persona est homo et 
+   <lb ed="#PL"/> brachium ejus. Non intelligentes neque advertentes, 
+   <lb ed="#PL"/> quomodo verba de rebus aliis ad res alias transferan<lb ed="#PL" break="no"/>tur, propter aliquam similitudinem etiam in locutio<lb ed="#PL" break="no"/>nibus
+   quotidianis de visibilibusetnotissimis rebus; 
+   <lb ed="#PL"/> quanto magis ut nobis ineffabilia qualitercumque di<lb ed="#PL" break="no"/>cantur, quae dici sicuti sunt, omnino non possunt? 
+   <lb ed="#PL"/> Nam et homo alterum hominem per quem solet agere 
+   <lb ed="#PL"/> quidquid agit, brachium suum appellat: et si ei aute<lb ed="#PL" break="no"/>ratur, dolens dicit, Brachium perdidi; et ei qui abs<lb ed="#PL" break="no"/>tulerit,
+   dicit Brachium meum mihi abstulisti. Intelli<lb ed="#PL" break="no"/>gant
+   ergo quomodo dictus sit Filius Patris brachium, 
+   <lb ed="#PL"/> per quod Pater opcralus est omnia; ne hoc non in­
+   
+   <lb ed="#PL"/> telligendo, et in sui erroris tenebris permanendo, si<lb ed="#PL" break="no"/>ntiks
+   sint Judaeis ipsis, de quibus dictum est, <hi rend="italic">Et</hi> bra<lb ed="#PL" break="no"/>chium <hi rend="italic">Domini cui revelatum est ?</hi>
+      </p>
+      <p xml:id="iuy75t-d1e475-d1e285">4. Die occurrit altera quaestio, de qua quidem ut 
+   <lb ed="#PL"/> competenter aliquid disputetur, et omnes ejus late<lb ed="#PL" break="no"/>brosissimi
+   sinus perscrutentur et excutiantur ut di<lb ed="#PL" break="no"/>gnum
+   est, nec mearum virium esse arbitror, nec an<lb ed="#PL" break="no"/>gustiarum
+   temporis, nec vestrae capacitatis. Tamen 
+   <lb ed="#PL"/> quia transire ad alia vestra expectatione non sinimur, 
+   
+   <lb ed="#PL"/> nisi aliquid inde dicamus, accipite quod potuerimus : 
+   <lb ed="#PL"/> et ubi vestrae exspectationi non suffecerimus, ab iilo 
+   <lb ed="#PL"/> incrementum poscite qui nos plantare posuit et rigare; 
+   <lb ed="#PL"/> quia, sicut dicit Apostolus, <hi rend="italic">Neque qui plantat
+    est</hi> ali­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">quid, neque qui rigat; sed qui</hi> incrementum <hi rend="italic">dat
+    Deus</hi>
+   
+       <lb ed="#PL"/> (I <hi rend="italic">Cor.</hi> III, 7). Quidam ergo inter se mussitant, et ubi
+   
+   <lb ed="#PL"/> possunt aliquando proclamant, et turbulenta discepta<lb ed="#PL" break="no"/>tione
+   contendunt, dicentes : Quid fecerunt Judxi, vel 
+   <lb ed="#PL"/> quae culpa eorum fuit, si necesse erat ut <hi rend="italic">sermo Isaiae
+   <lb ed="#PL"/> prophetae impleretur quem dixit, Domine, quis</hi> credidit 
+   <lb ed="#PL"/>
+       <hi rend="italic">auditui nostro? et brachium Domini cui revelatum est ?</hi>
+   
+       <lb ed="#PL"/> Quibus respondemus, Dominum praescium futurorum, 
+   <lb ed="#PL"/> per Prophetam praedixisse iufidelitatem Judaeorum ; 
+   <lb ed="#PL"/> praedixisse tamen, non fecisse. Non enim propterea 
+   <lb ed="#PL"/> quemquam Deus ad peccandum cogit, quia futura ho<lb ed="#PL" break="no"/>minum
+   peccata jam novit. Ipsorum enim prescivit 
+   <lb ed="#PL"/> peccata, non sua; non cujusquam alterius, sed ipso<lb ed="#PL" break="no"/>rum. Quapropter si ea quaeille praescivit ipsorum, non 
+   <lb ed="#PL"/> sunt ipsorum; non vere ille praescivit: sed quia illius 
+   <lb ed="#PL"/> praescientia falli non potest; sine dubio non alius, sed 
+   <lb ed="#PL"/> ipsi peccant, quos Deus peccaturos esse praescivit. Fe<lb ed="#PL" break="no"/>cerunt
+   ergo peccatum Judxi, quod eos non compulit 
+   <lb ed="#PL"/> facere, cui peccatum non placet ; sed facturos esse prae<lb ed="#PL" break="no"/>dixit, quem nihil latet. Et ideo si non maium, sed bo<lb ed="#PL" break="no"/>num
+   facere voluissent, non prohiberentur; et hoc fa<lb ed="#PL" break="no"/>cturi
+   praeviderentur ab eo qui novit quid sit quisque 
+   <lb ed="#PL"/> facturus, et quid ei sit pro ejus opere redditurus.</p>
+      <p xml:id="iuy75t-d1e475-d1e376">5. Sedetquae sequuntur Evangelii verba plus ur<lb ed="#PL" break="no"/>gent, et profundiorem faciunt quaestionem : adjungit 
+   <lb ed="#PL"/> enim, et dicit, <hi rend="italic">Propterea non poterant
+    credere, quia ite. 
+   <lb ed="#PL"/> rum dixit Isaias: Excaecavit oculos eorum, et induravit 
+   <lb ed="#PL"/>
+    cor eorum,</hi> ut <hi rend="italic">non videant oculis, et intelligant corde, et
+   <lb ed="#PL"/>
+    convertantur, et sanem illos.</hi> Dicitur enim nobis: Si non 
+   <lb ed="#PL"/> potuerunt credere, quod peccatum est hominis non fa<lb ed="#PL" break="no"/>cientis
+   quod non potest facere ? si autem non credendo 
+   <lb ed="#PL"/> peccaverunt, potuerunt ergo credere, et non fecerunt. 
+   <lb ed="#PL"/> Si ergo potuerunt, quomodo dicit Evangelium, <hi rend="italic">Pro­</hi>
+   
+       <lb ed="#PL"/> pterea <hi rend="italic">non poterant credere, quia iterum dixit Isaias, 
+   <lb ed="#PL"/>
+    Excaecavit oculos eorum, et induravit cor eorum;</hi> ut, 
+   <lb ed="#PL"/> quod est gravius, ad Deum referatur causa qua non 
+   <lb ed="#PL"/> crediderunt, quandoquidem ipse <hi rend="italic">excaecavit oculos eo<lb ed="#PL" break="no"/>rum, etinduravit cor eorum? Non</hi> enim saltem hoc de
+   
+   <lb ed="#PL"/> diabolo dicitur, sed de Deo, quod ipsa prophetica Scri<lb ed="#PL" break="no"/>plura
+   testatur. Nam si arbitremur hoc dictum de dia<lb ed="#PL" break="no"/>boto, quod <hi rend="italic">excaecavit oculos
+    eorum, et car induravit;</hi> la<lb ed="#PL" break="no"/>borandum
+   est quomodo illorum culpam, quia non cre<lb ed="#PL" break="no"/>diderunt, possimus ostendere, de quibus dicitur, non 
+   <lb ed="#PL"/>
+       <hi rend="italic">poterant credere.</hi> Deinde quid respondebimus de alio 
+   <lb ed="#PL"/> prophetae ipsius testimonio, quod posuit Paulus apo<lb ed="#PL" break="no"/>stolus
+   dicens: <hi rend="italic">Quod</hi> quarebat <hi rend="italic">Israel, hoc non est con­</hi>
+   
+       <lb ed="#PL"/> secutus; <hi rend="italic">electio autem consecuta est : cceteri vero excae­ 
+   <lb ed="#PL"/>
+    cati sunt, sicut scriptum est, Dedit illis Deus spiritum
+   <lb ed="#PL"/> compuctionis; oculos, ut
+    noss videant, et aures, ut non au<lb ed="#PL" break="no"/>diant, usque in hodiernum diem (Rom.</hi> XI, 7, <hi rend="italic">Isai. VI,</hi> 10).</p>
+      <p xml:id="iuy75t-d1e475-d1e468">6. Audistis, fratres, propositam quaestionem, nempe 
+   <lb ed="#PL"/> qnam profunda sit cernitis: sed respondemus ut pos<lb ed="#PL" break="no"/>sumus. <hi rend="italic">Non poterant credere,</hi> quia hoc Isaias prophela 
+   <lb ed="#PL"/> praedixit: hoc autem Propheta praedixit, quia Deus 
+   <lb ed="#PL"/> hoc futuram esse praescivit. Quare autetn non pote. 
+   <pb ed="#PL" n="1777"/>
+       <lb ed="#PL"/> rant, si I me quaeratur, cito respondeo, quia noie<lb ed="#PL" break="no"/>bant: malam quippe eorum voluntatem praevidit Deus, 
+   <lb ed="#PL"/> et per Prophetam praenuntiavit ille cui abscondi fu<lb ed="#PL" break="no"/>tura
+   non possunt. Sed aliam causam, inquis, dicit 
+   <lb ed="#PL"/> Propheta non voluntatis eorum. Quam causam dicit 
+   <lb ed="#PL"/> Propheta ? Quia <hi rend="italic">dedit
+    illis</hi> Deus spiritum <hi rend="italic">compunctionis;
+   <lb ed="#PL"/> ocutos, ut non videant,
+    et aurea, ut non</hi> audiant, <hi rend="italic">et ex­
+   <lb ed="#PL"/> caecavit oculos eorum, et
+    induravit cor eorum.</hi> Etiam hoc 
+   <lb ed="#PL"/> eorum voluntatem meruisse respondeo. Sic enim ex<lb ed="#PL" break="no"/>caecat, sic obdurat Deus, deserendo et non adjuvando: 
+   <lb ed="#PL"/> quod occulto judicio facere postest, iniquo non potest. 
+   <lb ed="#PL"/> Hoc omnino pietas religiosorum inconcussum debet 
+   <lb ed="#PL"/> inviolatumque servare; sicut Apostolus, cum eamdem 
+   <lb ed="#PL"/> ipsam tractaret difficillimam quaestionem, <hi rend="italic">Quid ergo 
+   <lb ed="#PL"/> dicemus,</hi> inquit ? numquid <hi rend="italic">iniquitas apud Deum? Absit</hi>
+   
+       <lb ed="#PL"/> (Rom. ix, 14). Si ergo absit ut sit iniquitas apud Deum; 
+   <lb ed="#PL"/> sive quando adjuvat, misericorditer tacit; sive quando 
+   <lb ed="#PL"/> non adjuvat, juste facit: quia omnia non temeritate, 
+   <lb ed="#PL"/> sed judicio facit. Porro si judicia sanctorum justa 
+   <lb ed="#PL"/> sunt, quanto magis sanctificantis et justificantis Dei ? 
+   <lb ed="#PL"/> Justa ergo sunt, sed occulta. Idco cum quaestiones 
+   <lb ed="#PL"/> hujusmodi in medium venerint, quare alius sic, alius 
+   <lb ed="#PL"/> autem sic; quare ille Deo deserente excaecetur, ille 
+   <lb ed="#PL"/> Deo adjuvante illuminetur: non nobis judicium de ju<lb ed="#PL" break="no"/>dicio
+   tanti judicis usurpemus, sed contremiscentes 
+   <lb ed="#PL"/> exclamemus cum Apostolo, 0 <hi rend="italic">altitudo</hi> divitiarum sa<lb ed="#PL" break="no"/>pientiae
+    <hi rend="italic">et scientiae Dei! quam inscrutabilia sunt judicia 
+   <lb ed="#PL"/> ejus, et
+    inveatigabiles viae ejus (Id.</hi> xi, 35)! Unde dictum 
+   <lb ed="#PL"/> est in Psalmo, <hi rend="italic">Judicia tua, sicut multa abyssus (Psal.</hi>
+   
+       <lb ed="#PL"/> xixv, 7).</p>
+      <p xml:id="iuy75t-d1e475-d1e574">7. Non ergo me, fratres, ad hanc penetrandam al<lb ed="#PL" break="no"/>titudinem, ad hanc abyssum discutiendam, ad inscru<lb ed="#PL" break="no"/>tabilia
+   perscrutanda, expectatio vestrae Charitatis im­
+   
+   <lb ed="#PL"/> pingat. Agnosco modulum meum, sentire mihi videor 
+   <lb ed="#PL"/> etiam modulum vestrum. Altius est hoc incrementis 
+   <lb ed="#PL"/> meis, et fortius viribus meis; puto quiaetvestris. Si<lb ed="#PL" break="no"/>mul
+   ergo audiamus admonentem Scripturam atque di<lb ed="#PL" break="no"/>centem, <hi rend="italic">Altiora te ne</hi> quaesieris, <hi rend="italic">et fortiora te ne
+    scruta­
+   <lb ed="#PL"/> tua fueris (Eccli.</hi> III, 22). Non quia ista negata sunt 
+   <lb ed="#PL"/> nobis, cum Deus magister dicat, <hi rend="italic">Nihil est occultum 
+   <lb ed="#PL"/> quod non revelabitur
+    (Matth.</hi> x, 26): sed si in quod 
+   <lb ed="#PL"/> pervenimus, in eo ambulemus, sicut dicit Apostolus, 
+   <lb ed="#PL"/> non solum quod nescimus et scire debemus, sed etiam 
+   <lb ed="#PL"/> si quid aliter sapimus, id quoque nobis Deus revelabit 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Philipp.</hi> III, <hi rend="italic">15 et</hi> 16). Pervenimus autem in viam fidei, 
+   <lb ed="#PL"/> hanc perseverantissime teneamus : ipsa perducct ad 
+   <lb ed="#PL"/> cubiculum regis, in quo sunt omnes thesauri sapientiae 
+   <lb ed="#PL"/> et scientiae absconditi <hi rend="italic">(Coloss.</hi> II, 5). Non enim ipse 
+   <lb ed="#PL"/> Dominus Jesus Christus suis illis magnis ei praecipue 
+   <lb ed="#PL"/> electis discipulis invidebat, quando dicebat, <hi rend="italic">Jfulta ha­
+   <lb ed="#PL"/> beo vobis dicere, sed</hi> non <hi rend="italic">potestis illa portare modo 
+   <lb ed="#PL"/> (loan.</hi> XVI, 12). Ambulandum est, proficiendum est, 
+   <lb ed="#PL"/> crescendum est, ut sint corda nostra capacia earum 
+   <lb ed="#PL"/> rerum quas capere modo non possumus. Quod si nos 
+   <lb ed="#PL"/> ultimus dies proficientes invenerit, ibi discemus quod 
+   <lb ed="#PL"/> hie non potuimus.</p>
+      <p xml:id="iuy75t-d1e475-d1e656">8. Si quis autem istam quaestionem liquidius et me<lb ed="#PL" break="no"/>lius
+   novit sc posse et confidit exponere, absit ut non 
+   <lb ed="#PL"/> sim paratior discere quam docere. Tantum ne aodeat
+   
+   <lb ed="#PL"/> quisquam liberum arbitrium sic defendere, ut nobis i 
+   <lb ed="#PL"/> orationem qua dicimus,
+    <hi rend="italic">Ne noa inferas in tentationem,</hi>
+   
+       <lb ed="#PL"/> conetur auferre: rursus, ne quisquam neget voluntatis ! 
+   <lb ed="#PL"/> arbitrium, et audeat excusare peccatum. Sed audia<lb ed="#PL" break="no"/>mus
+   Dominum, et praecipientem, et opitulantem; et
+   
+   <lb ed="#PL"/> jubentem quid facere debcamus, et adjuvantem u'iot<lb ed="#PL" break="no"/>plere
+   possimus. Nam et quosdam nimia suae volun<lb ed="#PL" break="no"/>tatis
+   fiducia extulit in superbiam; et quosdam nimia
+   
+   <lb ed="#PL"/> suae voluntatis diffidentia dejecit in negligentiam. Illi 
+   <lb ed="#PL"/> dicunt: Utquid rogamus Deum ne vincamur tentatione, 
+   <lb ed="#PL"/> quod in nostra est potestate? Isti dicunt: Utquid cona<lb ed="#PL" break="no"/>mur
+   bene vivere, quod in Dei est potestate? 0 Do<lb ed="#PL" break="no"/>mille, o Pater qui es in coelis, ne nos inferas in quam<lb ed="#PL" break="no"/>libet
+   istarum tentationum, <hi rend="italic">sed libera noa</hi> a <hi rend="italic">malo (Matth.</hi>
+   
+       <lb ed="#PL"/> VI, 13)! Audiamus Dominum dicentem, <hi rend="italic">Rogavi pro 
+   <lb ed="#PL"/> te, Petre,
+    ne dejiciat fides tua (Luc.</hi> XXII, 32); ne sie 
+   <lb ed="#PL"/> existimemus fidem nostram esse in libero arbitrio, ut 
+   <lb ed="#PL"/> divino non egeat adjutorio. Audiamus et Evangelistam
+   
+   <lb ed="#PL"/> dicentem, <hi rend="italic">Dedit eis potestatem filios Dei fieri (Joan.</hi> I,
+   
+   <lb ed="#PL"/> 42); ne omnino existimemus in nostra potestate non 
+   <lb ed="#PL"/> esse quod credimus : verumtamen in utroque illius 
+   <lb ed="#PL"/> beneficia cognoscamus. Nam et agendae sunt gratiae,
+   
+   <lb ed="#PL"/> quia data est potestas; et orandum, ne succumbat in.. 
+   <lb ed="#PL"/> firmitas <hi rend="italic">(Galat.</hi> v, 6). Ipsa est fides quae per dilectio<lb ed="#PL" break="no"/>nero
+   operatur, sicut ejus mensuram Dominus cuique 
+   <lb ed="#PL"/> partitus est <hi rend="italic">(Rom.</hi> xu, 5); ut qui gloriatur, nou io 
+   <lb ed="#PL"/> seipso, sed in Domino glorietur ( I
+    <hi rend="italic">Cor.</hi> I, 31).</p>
+      <p xml:id="iuy75t-d1e475-d1e747">9. Non itaque mirum est quia non poterant credere, 
+   <lb ed="#PL"/> quorum voluntas sic superba crat, ut ignorantes Dei 
+   <lb ed="#PL"/> justitiam, suam vellent constituere * sicut dicit de iilis
+   
+   <lb ed="#PL"/> Apostolus, <hi rend="italic">Justitiae Dei</hi> non <hi rend="italic">sunt subjecti
+    (Rom.</hi> x, 5). 
+   <lb ed="#PL"/> Quia enim non ex fide,. sed tanquam ex operibus
+    <unclear>tu­</unclear>
+   
+       <lb ed="#PL"/> muerunt; ipso suo tumore caecati , offenderunt in 
+   <lb ed="#PL"/> lapidem offensionis. Sic autem dictum est <hi rend="italic">non</hi> po­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">teranl,</hi> ubi intelligendum est quod nolebant; quemad<lb ed="#PL" break="no"/>modum
+   dictum est de Domino Deo nostro, Si <hi rend="italic">non 
+   <lb ed="#PL"/> credimus, ille
+    fidelis</hi> permanet, <hi rend="italic">negare scipsum non</hi> po­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">test (II Tim.</hi> II, 13). De omnipotente dictum est, non 
+   <lb ed="#PL"/>
+       <hi rend="italic">potest.</hi> Sicut ergo quod Dominus <hi rend="italic">negare
+    seipsum</hi> non 
+   <lb ed="#PL"/>
+       <hi rend="italic">potest,</hi> laus est voluntatis divinae; ita quod illi nou 
+   <lb ed="#PL"/>
+       <hi rend="italic">poterant credere,</hi> culpa est voluntatis humanae.</p>
+      <p xml:id="iuy75t-d1e475-d1e816">10. Ecce dico et ego, quod qui tam superbe sapiunt, 
+   <lb ed="#PL"/> ut suae voluntatis viribus tautum existiment esse tri<lb ed="#PL" break="no"/>buendum, ut negent sibi esse neeessarium divinum 
+   <lb ed="#PL"/> adjutorium ad bene vivendum, non possunt credere 
+   <lb ed="#PL"/> in Christum. Non euim aliquid prosunt syllabae nomi<lb ed="#PL" break="no"/>nis
+   Christi, et Sacramenta Christi, ubi resistitur fidei
+   
+   <lb ed="#PL"/> Christi. Fides autem Christi est, credere in eum qui 
+   <lb ed="#PL"/> justificat impium (Rom. IV, 5) ; credere in Mediatorem, 
+   <lb ed="#PL"/> sine quo interposito non reconciliamur Deo; credere 
+   <lb ed="#PL"/> in Salvatorem, qui venit quod perierat quaerere atque 
+   <lb ed="#PL"/> salvare <hi rend="italic">(Luc.</hi> xix, 10); credere in eum qui dixit, Sine 
+   <lb ed="#PL"/>
+       <hi rend="italic">me nihil potestis facere (Joan.</hi> XV, 5). Quia ergo igno<lb ed="#PL" break="no"/>rans
+   Dei justitiam qua justificatur impius, suam vult 
+   <lb ed="#PL"/> constituere qua convincatur super bns, in hunc non 
+   <lb ed="#PL"/> potest credere. Hinc et illi <hi rend="italic">non poterant
+    credere:</hi> non 
+   <lb ed="#PL"/> quia mutari in melius homines non possunt; sed 
+   <lb ed="#PL"/> quanuliu talia sapiunt, non possunt credere. Itine 
+   <lb ed="#PL"/> excaecantur, et indurantur; quia negando divinum 
+   <pb ed="#PL" n="1779"/>
+       <lb ed="#PL"/> adjutorium, non adjuvantur. Iloc de Judaeis qui ex<lb ed="#PL" break="no"/>caecaii
+   et indurati sunt, Deus praescivit, atque in ejus 
+   <lb ed="#PL"/> Spiritu Propheta praedixit.</p>
+      <p xml:id="iuy75t-d1e475-d1e874">11. Quod vero addidit, <hi rend="italic">Et convertantur et sanem
+   <lb ed="#PL"/> eos:</hi> utrum subaudiendum sil, non, id cst, non con<lb ed="#PL" break="no"/>vertantur, connexa desuper sententia, ubi dictum est, 
+   <lb ed="#PL"/> ut <hi rend="italic">non videant oculis et intelligant corde;</hi> quia et hie 
+   <lb ed="#PL"/> utique dictum est (a), ut non intelligant? et ipsa enim 
+   <lb ed="#PL"/> conversio de illius gratia est, cui dicitur, <hi rend="italic">Deus virtu­</hi>
+   
+       <lb ed="#PL"/> tum, <hi rend="italic">converte</hi> nos <hi rend="italic">(Psal.</hi> LXXIX, 8). An forte et hoc de 
+   <lb ed="#PL"/> supernae medicinae misericordia factum intelligendum 
+   <lb ed="#PL"/> cst, ut quoniam superbae et perversae voluntatis erant, 
+   <lb ed="#PL"/> et suam justitiam constituere volebant, ad hoc dese<lb ed="#PL" break="no"/>rerentur, ut excaecarentur; ad hoc excaecarentur, ut 
+   <lb ed="#PL"/> offenderent in lapidem offensionis, et impleretur fa<lb ed="#PL" break="no"/>cies
+   eoram ignominia; atque ita humiliati quaererent 
+   <lb ed="#PL"/> nomen Domini, et non suam qua inflatur superbus, 
+   <lb ed="#PL"/> sed justitiam Dei qua justificatur impius ? Hoc enim 
+   <lb ed="#PL"/> multis eorum profecit in bonum, qui de suo scelere 
+   <lb ed="#PL"/> compuncti, in Christum postea crediderunt: pro qui<lb ed="#PL" break="no"/>bus
+   et ipse oraverat dicens, <hi rend="italic">Pater, ignosce illis, quia 
+   <lb ed="#PL"/> nesciunt
+    quid faciunt (Luc.</hi> XXIII, 34). De qua eorum 
+   <lb ed="#PL"/> ignorantia et Apostolus dicit, Testimonium <hi rend="italic">illis</hi> perhi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">beo quia</hi> zelum <hi rend="italic">Dei hiabent, sed non secundum
+    scientiam :</hi>
+   
+       <lb ed="#PL"/> tunc cnim et hoc subjunxit, atque ait, <hi rend="italic">Ignorantes 
+   <lb ed="#PL"/> MMM Dei
+    justitiam, et suam volentes</hi> constituere, justitiae 
+   <lb ed="#PL"/>
+       <hi rend="italic">Dei non</hi> sunt <hi rend="italic">subjecti (Rom.</hi> x, t, 3).
+   
+   <lb ed="#PL"/> it. <hi rend="italic">Haec dixit</hi> Isaias, <hi rend="italic">quando vidit
+    gloriam ejus, el 
+   <lb ed="#PL"/> locutus est de eo.</hi> Quid viderit Isaias, et boc quomodo
+   
+   <lb ed="#PL"/> ad Dominum Christum pertineat, in libro ejus legen<lb ed="#PL" break="no"/>dum
+   et intelligendum est. Vidit enim non sicuti est, 
+   <lb ed="#PL"/> sed modo quodam significativo, sicut Prophetae visio 
+   <lb ed="#PL"/> fuerat informanda. Nam vidit et Moyses, et tamen ei 
+   <lb ed="#PL"/> quem videbat dicebat, Si inveni <hi rend="italic">gratiam ante te,</hi> ostend, 
+   <lb ed="#PL"/>
+       <hi rend="italic">mihi</hi> temetipsum, <hi rend="italic">manifeste</hi> ut <hi rend="italic">videam te (Exod.</hi> XXIII, 
+   <lb ed="#PL"/> 13); quia non videbat sicuti est. Quando autem nobis 
+   <lb ed="#PL"/> hoc futurum sit, idem iste sanctus Joannes evangelista 
+   <lb ed="#PL"/> in Epistola sua dicit : <hi rend="italic">Dilectissimi,</hi> Filii <hi rend="italic">Dei</hi> sumus, <hi rend="italic">et 
+   <lb ed="#PL"/> nondum apparuit quid</hi> erimus : <hi rend="italic">scimus quia</hi> cum <hi rend="italic">appa­
+   <lb ed="#PL"/> ruerit, similes a</hi> erimus, <hi rend="italic">quoniam</hi> videbimus <hi rend="italic">eum sicuti 
+   <lb ed="#PL"/>
+    eat</hi> ( I <hi rend="italic">Joan.</hi> III, 2). Poterat dicere, <hi rend="italic">quoniam videbimus</hi>
+   
+       <lb ed="#PL"/> eum, et non addere, <hi rend="italic">sicuti est:</hi> sed quia sciebat a qui­
+   
+   <lb ed="#PL"/> busdam patribus et prophetis visum, sed non sicuti 
+   <lb ed="#PL"/> est; ideo cum dixisset,
+    <hi rend="italic">videbimus eum,</hi> addidit, <hi rend="italic">sicuti
+   <lb ed="#PL"/> est.</hi> Nemo enim vos fallat, fratres, eorum qui dicunt 
+   <lb ed="#PL"/> invisibilem Patrem , et visibilem Filium. Ili enim hoc 
+   <lb ed="#PL"/> asserunt qui putant eum esse creaturam; nec intelli<lb ed="#PL" break="no"/>gunt
+   secundum quid dictum sit, <hi rend="italic">Ego et Pater unum</hi>
+   
+       <lb ed="#PL"/> sumus <hi rend="italic">(Joan.</hi> x, 50). Prorsus in forma Dei in qua 
+   <lb ed="#PL"/>
+   :qualis est Patri, etiam Filius invisibilis est: ut au<lb ed="#PL" break="no"/>tem
+   ab hominibus videretur, formam servi accepit, et 
+   <lb ed="#PL"/> in similitudine I hominum factus <hi rend="italic">(Philipp.</hi> 11, 7), vi<lb ed="#PL" break="no"/>sibilis
+   factus cst. Ostendit ergo se etiam, antequam 
+   
+   
+   <lb ed="#PL"/> susciperet carnem, oculis hominum, sicut voluit in 
+   <lb ed="#PL"/> subjecta sibi creatura, non sicuti est. Mundemus corda 
+   <lb ed="#PL"/> per fidem, ut illi ineffabili, et, ut ita dicam, invisibili 
+   <lb ed="#PL"/> visioni praeparemur. Duali enim mundo corde, quo<lb ed="#PL" break="no"/>niam
+   ipsi Deum videbunt <hi rend="italic">(Matth.</hi> v, 8).</p>
+      <p xml:id="iuy75t-d1e475-d1e1100">13. <hi rend="italic">Verumtamen et ex principibus</hi> muli crediderunt 
+   <lb ed="#PL"/>
+       <hi rend="italic">in</hi> eum; <hi rend="italic">sed propter Pharisaeos non
+    confitebantur,</hi> ut <hi rend="italic">de 
+   <lb ed="#PL"/> synagoga non ejicerentur :
+    dilexerunt enim gloriam ho­
+   <lb ed="#PL"/> minum magis quam gloriam</hi> Dei. Videte quemadmodum
+   
+   <lb ed="#PL"/> notaverit Evangelista et improbaverit quosdam, quos 
+   <lb ed="#PL"/> tamen in eum credidisse dixit: qui in hoc ingressu 
+   <lb ed="#PL"/> fidei si proficerent, amorem quoque humanae gloriae
+   
+   <lb ed="#PL"/> proficiendo superarent, quem superavcrat Apostolus, 
+   <lb ed="#PL"/> dicens, <hi rend="italic">Mihi autem absit gloriari, nisi in cruce Domini</hi>
+   
+       <lb ed="#PL"/> nostri <hi rend="italic">Jesu CArM,</hi> per <hi rend="italic">quem mihi mundus
+    crucifixus
+   <lb ed="#PL"/> eal, et ego mundo (Galat.</hi> VI, 44). Ad hoc enim et ipse 
+   <lb ed="#PL"/> Dominus crucem suam, ubi eum dementia superbae 
+   <lb ed="#PL"/> impietatis irrisit, in eorum qui in illum crederent 
+   <lb ed="#PL"/> frontibus fixit, ubi est quodammodo sedes verecun<lb ed="#PL" break="no"/>diae, ut de nomine ejus fides non erubescat, et magis 
+   <lb ed="#PL"/> Dei gloriam quam hominum diligat.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

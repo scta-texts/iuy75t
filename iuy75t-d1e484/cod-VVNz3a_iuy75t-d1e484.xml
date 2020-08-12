@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 54</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 54</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e484"> <!-- iuy75t-t54 -->
+      <head xml:id="iuy75t-d1e484-Hd1e109">Tractatus 54</head>
+      <p xml:id="iuy75t-d1e484-d1e112">
+       <hi rend="italic">Ab eo quod ait Jesus,</hi> Qui credit in me, non credit in 
+   <lb ed="#PL"/> me, sed in eum qui misit me; <hi rend="italic">usque ad id,</hi> Quae ego 
+   <lb ed="#PL"/> loquor, sicut dixit mihi Pater, sic loquor. <hi rend="italic">Cap.</hi> XII, 
+   <lb ed="#PL"/> t. 44-50.
+  </p>
+      <p xml:id="iuy75t-d1e484-d1e131">i. Loquente Domino nostro Jesu Christo apud Ju<lb ed="#PL" break="no"/>daeos, 
+   et tanta miraculorum signa faciente, quidam 
+   <lb ed="#PL"/> crediderunt praedestinati in vitam aeternam, quos 
+   <lb ed="#PL"/> etiam vocavit oves suas : quidam vero non credide<lb ed="#PL" break="no"/>rum, 
+   nee poterant credere, eo quod occulto, nee ta<lb ed="#PL" break="no"/>men
+   injusto judicio Dei fuerant excaecati et indurati, 
+   <lb ed="#PL"/> deserente illo qui superbis resistit, humilibus autem 
+   <lb ed="#PL"/> dat gratiam <hi rend="italic">(Jacobi</hi> IV, 6). Eorum autem qui credidc<lb ed="#PL" break="no"/>runt, 
+   alii usque adeo confitebantur, ut palmarum 
+   <lb ed="#PL"/> ramis acceptis vcnienli occurrerent, in eadem laudis 
+   <lb ed="#PL"/> confessione laetantes : alii vero ex principibus nou 
+   <lb ed="#PL"/> audebant confiteri, ut de synagoga non ejicerentur; 
+   <lb ed="#PL"/> quos notavit Evangelista dicens, quod
+    <hi rend="italic">dilexerunt glo­
+   <lb ed="#PL"/> tiam hominum magis quam gloriam Dei (Joan.</hi> XII, 43). 
+   <lb ed="#PL"/> Eorum etiam qui non crediderunt, alii erant postea 
+   <lb ed="#PL"/> credituri, quos praevidebat, ubi ait, <hi rend="italic">Cum exaltaverilis</hi>
+   
+       <lb ed="#PL"/> Filium <hi rend="italic">hominis, tunc agnoscetis quia ego sum (Id.</hi> VIII,
+   
+   <lb ed="#PL"/> 28) : -alii vero in eadem infidelitate mansuri, quorum 
+   <lb ed="#PL"/> imitatrix est etiam ista gens Judaeorum, quae post. 
+   <lb ed="#PL"/> modum debellata, ad testimonium prophetiae quae du
+   
+   <lb ed="#PL"/> Christo scripta est, in toto pcne orbe dispersa est. i</p>
+      <p xml:id="iuy75t-d1e484-d1e189">i. His ita se habentibus, et sua jam propinquante 
+   <lb ed="#PL"/> passione, <hi rend="italic">Jesus</hi> clamavit, <hi rend="italic">et dixit;</hi> uude lectio coepit 
+   <lb ed="#PL"/> hodierna : <hi rend="italic">Qui credit in me, non credit in me, sed in 
+   <lb ed="#PL"/> eum qui
+    misit me : et qui videt me, videt eum qui</hi> misit 
+   <lb ed="#PL"/> me. Jam dixerat quodam loco
+   : <hi rend="italic">Mea doctrina non est</hi>
+   
+       <lb ed="#PL"/> mea, <hi rend="italic">sed ejus qui misit me ( 1 d.</hi> VII. 16). Ubi intellc­
+   
+   <lb ed="#PL"/> ximus eum doctrinam suam dixisse Verbum Patris 
+   <lb ed="#PL"/> quod est ipse; et hoc significasse dicendo, <hi rend="italic">Mea doctrina 
+   <lb ed="#PL"/> non est mea, sed ejus qui me
+    misit,</hi> quod a scipso ipse 
+   <lb ed="#PL"/> non esset, sed babere' a quo esset <hi rend="italic">(Supra, Tract.</hi> 29). 
+   <lb ed="#PL"/> Deus euim de Dco# Filius Patris : Pater autem non 
+   <pb ed="#PL" n="1781"/>
+       <lb ed="#PL"/> Dees de Deo, sed Deus Pater Filii. Nunc antem quod 
+   <lb ed="#PL"/> ait, Qui <hi rend="italic">credit</hi> in <hi rend="italic">me, non credit in me, sed</hi> in <hi rend="italic">eum qui</hi>
+   
+       <lb ed="#PL"/> misit me, quomodo intellecturi sumus, nisi quia homo 
+   <lb ed="#PL"/> apparebat hominibus, cum lateret Deus? Et ne puta- 
+   <lb ed="#PL"/> [ rent hoc cum esse tantummodo quod videbant, talem
+   
+   <lb ed="#PL"/> ac tantum se volens credi, qualis et quantus est Pater, 
+   <lb ed="#PL"/> Qui <hi rend="italic">credit in me,</hi> inquit, <hi rend="italic">non credit in me,</hi> id est, in hoc 
+   <lb ed="#PL"/> quod <hi rend="italic">videt; sed</hi> in eum <hi rend="italic">qui
+    misit me,</hi> id est, in Patrem. 
+   <lb ed="#PL"/> Sed qui credit in Patrem, necesse est cum credat esse 
+   <lb ed="#PL"/> Patrem; qui autem credit eum Patrem , necesse est 
+   <lb ed="#PL"/> I ut credat eum habere Filium : ac per hoc qui credit 
+   <lb ed="#PL"/> I in Patrem, necesse est ut credat in Filium. Sed ne 
+   <lb ed="#PL"/> 1 quisquam hoc credat de unigenito Filio, quod de iis 
+   <lb ed="#PL"/> qui dicti sunt filii Dei secundum gratiam, non natu<lb ed="#PL" break="no"/>ram, sicut ait Evangelista, <hi rend="italic">Dedit eia potestatem filios 
+   <lb ed="#PL"/> Dei</hi> fieri <hi rend="italic">(Joan.</hi> I, 12); unde et illud est quod ipse 
+   <lb ed="#PL"/> Dominus commemoravit in Lege dictum, <hi rend="italic">Ego dixi,
+   <lb ed="#PL"/> Dii estis, et filii excelsi omnes (ld.</hi> x, 34) : propterea 
+   <lb ed="#PL"/> dixit, <hi rend="italic">Qui credit in me, non credit in me;</hi> ne totum quod 
+   <lb ed="#PL"/> de Christo creditur, secundum hominem crederetur. 
+   <lb ed="#PL"/> Ille ergo, inquit, credit in me, qui non credit in me 
+   <lb ed="#PL"/> secundum id quod me videt, sed in eum qui me misit: 
+   <lb ed="#PL"/> ut cum credit in Patrem, credat eum habere Filium 
+   <lb ed="#PL"/> sibi aequalem, et tunc vere credat in mc. Nam si putavo<lb ed="#PL" break="no"/>rit
+   eum non habere nisi filios secundum gratiam, qui 
+   <lb ed="#PL"/> sunt ejus utique creatura, non Verbum. sed facta per 
+   <lb ed="#PL"/> Verbum, nec habere Filium aequalem sibi atque coae<lb ed="#PL" break="no"/>tenlum, semper natum, pariter incommutabilem, ex 
+   <lb ed="#PL"/> nullo dissimilem atque imparem; non credit in Patrem 
+   <lb ed="#PL"/> qui eum misit, quia non est hoc Patcr qui cum misit.</p>
+      <p xml:id="iuy75t-d1e484-d1e338">3. Et ideo cum dixisset, <hi rend="italic">Qui credit in me, non</hi> credit in 
+   <lb ed="#PL"/> me, sed <hi rend="italic">in</hi> eum <hi rend="italic">qui misit</hi> me; ne putaretur sic voluisse 
+   <lb ed="#PL"/> Patrem intelligi tanquam Patrem multorum filiorum per 
+   <lb ed="#PL"/> gratiam regeneratorum, non unici Ycrbi aequalis sibi, 
+   <lb ed="#PL"/> continuo subjecit, <hi rend="italic">Et</hi> qui <hi rend="italic">videt me, videt eum qui misit</hi>
+   
+       <lb ed="#PL"/> me. Numquid ait, Qui videt me, non videt me, sed 
+   <lb ed="#PL"/> eum qui misit me; sicut dixerat, <hi rend="italic">Qui credit in me,
+   <lb ed="#PL"/> non credit in me,</hi> sed in <hi rend="italic">eum qui misit</hi> me ? Illud nam<lb ed="#PL" break="no"/>que
+   dixit, ne sicut videbatur, crederetur tantummodo 
+   <lb ed="#PL"/> filius hominis : hoc autem dixit, ut Patri crederctur 
+   <lb ed="#PL"/> aequalis. Qui credit in me, inquit, non credit in hoc 
+   <lb ed="#PL"/> quod videt me, sed credit in eum qui misit me. Aut 
+   <lb ed="#PL"/> cum eredit in Patrem qui sibi aequalem genuit me; 
+   <lb ed="#PL"/> non quomodo me videt, sed sic credat in me, quo<lb ed="#PL" break="no"/>modo
+   in eam qui misit me : usque adeo enim nihil 
+   <lb ed="#PL"/> distat inter eam et me, ut qui me videt videat eum 
+   <lb ed="#PL"/> qui me misit. Apostolos suos eerte ipse Dominus 
+   <lb ed="#PL"/> . Christus misit, quod eorum etiam nomen indicat: 
+   <lb ed="#PL"/> nam sicut graece angeli, latine nimtii vocantur, ita 
+   <lb ed="#PL"/> graece apostoli, latine missi appellantur. Nunquam 
+   <lb ed="#PL"/> tamen aliquis apostolorum dicere anderct, <hi rend="italic">Qui credit 
+   <lb ed="#PL"/> in me, non credit</hi> in <hi rend="italic">me,</hi> aed in eum <hi rend="italic">qui misit</hi> me: 
+   <lb ed="#PL"/> omnino enim non dicerct, <hi rend="italic">Qai eredit in me.</hi> Credi<lb ed="#PL" break="no"/>mas
+   enim apostolo, sed non credimus in apostolum : 
+   <lb ed="#PL"/> non enim apostolus jusliftcat impium. Credenti au<lb ed="#PL" break="no"/>tem
+   in eum qui justificat impium, deputatur fides ejus 
+   <lb ed="#PL"/> ad justitiam <hi rend="italic">(Rom.</hi> IV, 5). Posset dicere apostolus, 
+   <lb ed="#PL"/> Qui recipit me, recipit eum qui me misit; vel, Qui 
+   <lb ed="#PL"/> audit me, audit cum qui me misit: hoc enim cis ipse 
+   <lb ed="#PL"/> Dominus ait, <hi rend="italic">Qui</hi> vos <hi rend="italic">recipit, me recipit, et qui
+    recipit 
+   <lb ed="#PL"/> me, recipit</hi> eum <hi rend="italic">qui me misit (Matlh.</hi> x, 40). Quia de<lb ed="#PL" break="no"/>minus
+   honoratur in servo, et pater in filio : sed pater 
+   <lb ed="#PL"/> tanquam in filio, dominus tanquam in servo. Filius 
+   <lb ed="#PL"/> autem unigenitus recte dicere potuit, <hi rend="italic">Credite in Deum, 
+   <lb ed="#PL"/> et</hi> in <hi rend="italic">me credite
+    (Joan.</hi> XIV, 1); et quod nunc ait, Qui 
+   <lb ed="#PL"/>
+       <hi rend="italic">credit in me, non credit</hi> in me, <hi rend="italic">sed</hi> in eum
+    <hi rend="italic">qui</hi> misit me. 
+   <lb ed="#PL"/> Non a se abstulit fidem credentis, sed noluit in forma 
+   <lb ed="#PL"/> servi remanere credentem : quoniam cum quisque 
+   <lb ed="#PL"/> credit in Patrem qui eum misit, profecto credit in Fi<lb ed="#PL" break="no"/>lium, sine quo Patrem non esse cognoscit; et ita cre<lb ed="#PL" break="no"/>dit
+   ut credat aequalem, quoniam sequitur, <hi rend="italic">Et</hi> qui vi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">det me, videt eum qui</hi> me misit.</p>
+      <p xml:id="iuy75t-d1e484-d1e498">A. Attende extera : <hi rend="italic">Ego lux</hi> in mundum veni, ut 
+   <lb ed="#PL"/> omuis <hi rend="italic">qui credit</hi> in me, in <hi rend="italic">tenebris non</hi> maneat. Dixit 
+   <lb ed="#PL"/> quodam loco discipulis suis, <hi rend="italic">Vos estis</hi> lux <hi rend="italic">mundi. No..</hi>
+   
+       <lb ed="#PL"/> potest <hi rend="italic">civitas abscondi</hi> super montem <hi rend="italic">constituta,</hi> neque 
+   <lb ed="#PL"/>
+       <hi rend="italic">accendunt lucernam, et ponunt eam sub modio , sed ..<lb ed="#PL" break="no"/>per
+    candelabrum , ut luceat omnibus qui in domo sunt : 
+   <lb ed="#PL"/> sic luceat lumen vestrum
+    coram hominibus, ut videam 
+   <lb ed="#PL"/> opera vestra bona, et</hi> glorificent Patrem <hi rend="italic">vestrum</hi> qui in 
+   <lb ed="#PL"/> caelis <hi rend="italic">eat (Matth.</hi> v, 14-16) : non tamen eis dixit, Vos 
+   <lb ed="#PL"/> lui venistis in mundum, ut omnis qui credit in vos, 
+   <lb ed="#PL"/> in tenebris non maneat. Nusquam hoc legi posse ? 
+   <lb ed="#PL"/> confirmo. Lumina ergo sunt omnes sancti; sed cre<lb ed="#PL" break="no"/>dendo
+   ab eo illuminantur, a quo si quis recesserit te­
+   
+   <lb ed="#PL"/> nebrabitur. Lumen autem illud quo illuminantur, a. ' 
+   <lb ed="#PL"/> se recedere non potest
+   ; quia incommutabile omnino 
+   <lb ed="#PL"/> est. Credimus ergo lumini illuminato, sicut 'pro­
+   
+   <lb ed="#PL"/> phetae, sicut apostolo : sed ideo illi credimus, ut 
+   <lb ed="#PL"/> non in ipsum credamus quod illuminatur, sed cum 
+   <lb ed="#PL"/> illo credamus in illud lumen aquo illuminatur; ut et
+   
+   <lb ed="#PL"/> nos illuminemur, non ab illo, sed cum illo a quo ille 
+   <lb ed="#PL"/> Cum autem dicit, <hi rend="italic">Ut omnis qui credit in me,</hi> in <hi rend="italic">tene
+   <lb ed="#PL"/> bris non
+    maneat;</hi> satis manifestat omnes se in tene 
+   <lb ed="#PL"/> bris invenisse : sed ne in eis tenebris maneant ii 
+   <lb ed="#PL"/> quibus inventi sunt, debent credere in lucem qua 
+   <lb ed="#PL"/> venit in mundum, quia per illam factus est mundus.</p>
+      <p xml:id="iuy75t-d1e484-d1e590">5. <hi rend="italic">Et</hi> si <hi rend="italic">quis audierit,</hi> inquit, <hi rend="italic">verha mea, et</hi> non <hi rend="italic">CII­</hi>
+   
+       <lb ed="#PL"/> stodierit, <hi rend="italic">ego non judico eum.</hi> Mementote quae vos au<lb ed="#PL" break="no"/>disse
+   in supcrioribus lectionibus novi;etqui obliti 
+   <lb ed="#PL"/> forte estis, recolite; et qui non adfuistis, sed adestis, 
+   <lb ed="#PL"/> audite quomodo dicit Filius, <hi rend="italic">Ego
+    nou judico</hi> eum ; 
+   <lb ed="#PL"/> cum dicat alio loco, <hi rend="italic">Pater non judicat
+    quemquam, sed
+   <lb ed="#PL"/> omnejudicium dedit Filio (Joan.</hi> v, 22): nisi quia in<lb ed="#PL" break="no"/>telligendum
+   est, Modo non judico eum. Quare non 
+   <lb ed="#PL"/> judicat modo? Attende quid sequitur : <hi rend="italic">Non enim 
+   <lb ed="#PL"/> veni,</hi> inquit, <hi rend="italic">ut
+    judicem</hi> mundum, <hi rend="italic">sed ut salvificem
+   <lb ed="#PL"/> mundum:</hi> id est ut salvum faciam mundum. Nunc 
+   <lb ed="#PL"/> ergo esr tempus misericordiae, post erit judieii : quia, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Misericordiam,</hi> inquit, et judicium <hi rend="italic">canabo tibi,
+    Do<lb ed="#PL" break="no"/>mine (Psal.</hi> c, 1).</p>
+      <p xml:id="iuy75t-d1e484-d1e658">6. Sed de ipso etiam futuro novissimo judicio vi<lb ed="#PL" break="no"/>dele
+   quid dicat: Qui <hi rend="italic">spernit me et non accipit verba 
+   <lb ed="#PL"/> mea, habet qui judicet eum: sermo
+    quem locutus</hi> sum y 
+   <lb ed="#PL"/>
+       <hi rend="italic">ille judicabit eum in</hi> novissimo <hi rend="italic">die.</hi> Non ait, Qui aper<lb ed="#PL" break="no"/>nit
+   me, et non accipit verba mea, ego non judico eum 
+   <lb ed="#PL"/> in novissimo dic. Doc enim si dixisset, non video 
+   <lb ed="#PL"/> quomodo posset non esse contrarium illi sentetentiae 
+   <pb ed="#PL" n="1783"/>
+       <lb ed="#PL"/> ubi ait, <hi rend="italic">Pater non judicat quemquam, sed omne
+    judi­</hi>
+   
+       <lb ed="#PL"/> cium <hi rend="italic">dedit Filio.</hi> Cum vero dixit, <hi rend="italic">Qui
+    spernit me, et 
+   <lb ed="#PL"/> non accipit verba mea, habet qui judicet eum;</hi> exspec<lb ed="#PL" break="no"/>tantibus
+   autem quisnam ille esset, secutus adjunxit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Sermo quem locutus</hi> sum, <hi rend="italic">ille judicabit eum</hi> in <hi rend="italic">novis­</hi>
+   
+       <lb ed="#PL"/> simo <hi rend="italic">die:</hi> salis manifestavit semetipsam judicaturum 
+   <lb ed="#PL"/> in novissimo dic. Seipsum quippe locutus est, seip. 
+   <lb ed="#PL"/> sum annuntiavit, seipsum januam posuit, qua ipse 
+   <lb ed="#PL"/> ad oves pastor intraret. Aliter itaque judicabuntur qui
+   
+   <lb ed="#PL"/> non audierunt, aliter qui audierunt et contempse<lb ed="#PL" break="no"/>runt. <hi rend="italic">Qui enim sine Lege peccaverunt,</hi> ait Apostolus, 
+   <lb ed="#PL"/>
+       <hi rend="italic">sine Lege et peribunt:</hi> et <hi rend="italic">qui</hi> in <hi rend="italic">Lege peccaverunt, per
+   <lb ed="#PL"/> Legem judicabuntur ( Rom.</hi> II, i 3).</p>
+      <p xml:id="iuy75t-d1e484-d1e748">7. <hi rend="italic">Quia</hi> ego, inquit, <hi rend="italic">ex meipso non sum
+    locutus.</hi>
+   
+       <lb ed="#PL"/> Ideo se dicit non locutum ex seipso, quia non est ex 
+   <lb ed="#PL"/> teipso. Jam hoc saepe diximus ; jam hoc tanquam no<lb ed="#PL" break="no"/>tissimum
+   non docere sed admonere debemus. <hi rend="italic">Sed 
+   <lb ed="#PL"/> qui misit me Pater, ipse mihi mandatum dedit quid</hi> di­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">cam et quid loquar.</hi> Non laboraremus , si cum eis nos 
+   <lb ed="#PL"/> loqui sciremus, cum quibas superiora locuti sumus, 
+   <lb ed="#PL"/>etcum eis ipsis non omnibus, sed quae audierunt me<lb ed="#PL" break="no"/>moria
+   rctinentibus : nunc vero quia fortasse aliqui 
+   <lb ed="#PL"/> adsunt qui non audierunt, eisque sunt similes qui 
+   <lb ed="#PL"/> obliti sunt quod audierunt, propter illos perferant 
+   <lb ed="#PL"/> moras nostras qui audita meminerunt. Quomodo 
+   <lb ed="#PL"/> dat mandatum Pater unico Filio? Quo verbo loquitur 
+   <lb ed="#PL"/> Verbo, cum sit ipse Filius unigenitum Verbum? 
+   <lb ed="#PL"/> Numquid per angelum , cum per ipsum creati sint 
+   <lb ed="#PL"/> Angeli ? Numquid per nubem : quae quando sonuit ad 
+   <lb ed="#PL"/> Filium, non propter ipsum sonuit, quod alibi dicit 
+   <lb ed="#PL"/> etiam ipse; sed propter alios quos oportebat ita au<lb ed="#PL" break="no"/>dire? Numquid per sonum labiis emissum, qui non 
+   <lb ed="#PL"/> habet corpus; nec aliquo locorum intervallo Filius a 
+   <lb ed="#PL"/> Patre separatur, ut sit inter illos aer medius, quo 
+   <lb ed="#PL"/> percusso vox fiat et in aurem veniat? Absit ut talia 
+   <lb ed="#PL"/> de illa incorporea et ineffabili substantia suspicemur. 
+   <lb ed="#PL"/> Filius unicus est Verbum Patris, et Sapientia Patris; 
+   <lb ed="#PL"/> in illa sunt omnia mandata Patris. Neque enim Patris 
+   <lb ed="#PL"/> mandatum Filius aliquando nesciebat, ut eum necesse 
+   <lb ed="#PL"/> esset ex tempore habere quod antea non habebat. Ita 
+   <lb ed="#PL"/> enim a Patre quod habet accepit, ut nascendo acce<lb ed="#PL" break="no"/>perit, dederitque illi gignendo. Nam et vita est, et ac<lb ed="#PL" break="no"/>cepit
+   vitam utique nascendo, non prius sine vita exis<lb ed="#PL" break="no"/>tendo. Quia et Pater habet vitam, et quod habet est : 
+   <lb ed="#PL"/> nec accepit tamen, quia non ex aliquo est. Filius autem 
+   <lb ed="#PL"/> accepit vitam, dante Patre a quo est : et ipse quod ha<lb ed="#PL" break="no"/>bel, est; habet enim vitam, et vita est. Ipsum audi lo<lb ed="#PL" break="no"/>quentem : <hi rend="italic">Sicut habet,</hi> inquit, <hi rend="italic">Pater
+    vitam in semetipso,
+   <lb ed="#PL"/> sic dedit et Filio vitam habere in semetipso (Joan.</hi> v, 26). 
+   <lb ed="#PL"/> Numquid existenti, et non habenti dedit? Sed eo dedit 
+   <lb ed="#PL"/> quo gcnuit, qui vitam genuit, et vita genuit vitam. Et 
+   <lb ed="#PL"/> quia parem genuit, non imparem vitam; ideo di<lb ed="#PL" break="no"/>ctum
+   est, <hi rend="italic">Sicut habet</hi> ipse <hi rend="italic">vitam in
+    semetipso, sic dedit 
+   <lb ed="#PL"/> et Filio vitam habere in semetipso.</hi> Vitam dedit, quia
+   
+   <lb ed="#PL"/> gignendo vitam, quid dedit, nisi esse vitam ? Et quia 
+   <lb ed="#PL"/> aeterna est ipsa nativitas, nunquam non luit Filius qui 
+   <lb ed="#PL"/> est vita, nunquam fuit Filius sine vita ; et sicut est 
+   <lb ed="#PL"/> nativitas aeterna, sic est qui natus est vita aeterna. 
+   <lb ed="#PL"/> Ita et mandatum non quod Filius nou habebat, Pater 
+   <lb ed="#PL"/> dedit; sed, sicut dixi, in Sapientia Patris , quod est 
+   <lb ed="#PL"/> Verbum Patris, omnia mandata sunt Patris. Dicitur 
+   <lb ed="#PL"/> autcm mandatum datum, quia non est a scipso cui 
+   <lb ed="#PL"/> dicitur datum : et hoc est dare Filio sine quo nun. 
+   <lb ed="#PL"/> quam Filius fait, quod est gignere Filium qui nun<lb ed="#PL" break="no"/>quam
+   non fuit.</p>
+      <p xml:id="iuy75t-d1e484-d1e886">8. Sequitur autem : <hi rend="italic">Et scio quia mandatum ejus</hi> vita 
+   <lb ed="#PL"/> aeterna
+    <hi rend="italic">est.</hi> Si ergo vita aeterna est ipse Filius, et vita 
+   <lb ed="#PL"/> aeterna est mandalum Patris ; quid aliud dictum est, 
+   <lb ed="#PL"/> quam, Ego sum mandatum Patris ? Proinde et id quod 
+   <lb ed="#PL"/> adjungit, et dicit, <hi rend="italic">Quae ego loquor, sicut
+    dixit mihi
+   <lb ed="#PL"/> Pater, sic loquor;</hi> non accipiamus, <hi rend="italic">dixit</hi> mihi, quasi 
+   <lb ed="#PL"/> Pater verba locutus sit tmico Verbo , aut egeat Dei 
+   <lb ed="#PL"/> verbis Dei Verbum. Dixit ergo Pater Filio, sicut dedit 
+   <lb ed="#PL"/> vitam Filio : non quod nesciebat vcl non habebat, sed 
+   <lb ed="#PL"/> quod ipse Filius erat. Quid est autem, <hi rend="italic">sicut
+    dixit mihi, 
+   <lb ed="#PL"/> sic loquor,</hi> nisi, Verum loquor 1? Ita ille dixit ut ve<lb ed="#PL" break="no"/>rax,
+   ita ista loquitur ut veritas. Verax autem genuit 
+   <lb ed="#PL"/> veritatem. Quid ergo jam diceret veritati! Non enim 
+   <lb ed="#PL"/> imperfecta erat veritas, cui verum aliquid adderctur.
+   
+   <lb ed="#PL"/> Dixit ergo veritati, quia genuit veritatcm. Porro ipsa 
+   <lb ed="#PL"/> veritas sic loquitur, ut ei dictum est sed intelligenti<lb ed="#PL" break="no"/>bus, quos docet ut nata est. Ut autem crederent lio<lb ed="#PL" break="no"/>niines
+   quod intelligere nondum valent, ex ore carnis 
+   <lb ed="#PL"/> verba sonuerunt, et abierunt; transvolantes soni stre<lb ed="#PL" break="no"/>puerunt, peractis morulis temporum suorum : sed res 
+   <lb ed="#PL"/> ipsae quarum signa sunt soni, trajectae quodammodo 
+   <lb ed="#PL"/> in eorum memoriam qui audierunt, etiam ad nos per 
+   <lb ed="#PL"/> litteras quae visibilia signa sunt, pervenerunt. Non sic 
+   <lb ed="#PL"/> loquitur veritas : intelligentibus mentibus intus loqui<lb ed="#PL" break="no"/>tur, sine sono instruit, intelligibili luce perfundit. Qui 
+   <lb ed="#PL"/> ergo potest in ea videre I nativitatis ejus aeternitatem, 
+   <lb ed="#PL"/> ipse illam sic audit loquentem, sicut ei dixit Pater
+   
+   <lb ed="#PL"/> quod loquerėtur. Excitavit nos ad magnum deside<lb ed="#PL" break="no"/>rium
+   interioris dulcedinis suae : sed crescendo capi<lb ed="#PL" break="no"/>mus, ambulando crescimus, proficiendo ambulamus 
+   <lb ed="#PL"/> ut pervenire possimus.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

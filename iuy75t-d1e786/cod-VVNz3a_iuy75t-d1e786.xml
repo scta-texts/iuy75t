@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 91</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 91</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e786"> <!-- iuy75t-t91 -->
+      <head xml:id="iuy75t-d1e786-Hd1e109">Tractatus 91</head>
+      <p xml:id="iuy75t-d1e786-d1e112">
+       <hi rend="italic">In haec verba,</hi> Si opera non fecissem in eis, quae nemo 
+   <lb ed="#PL"/> alius fecit; <hi rend="italic">usque ad id,</hi> Quia odio habuerunt me 
+   <lb ed="#PL"/> gratis. <hi rend="italic">Cap.</hi> xv, f f . 24, 25.</p>
+      <p xml:id="iuy75t-d1e786-d1e128">i. Dixerat Dominus : <hi rend="italic">Qui me odit, el Patrem meum</hi>
+   
+       <lb ed="#PL"/> odit. Utique enim qui odit veritatem, nccesse est ode<lb ed="#PL" break="no"/>rit
+   et a quo vcritas nata est: unde jam quantum da<lb ed="#PL" break="no"/>tum
+   est, locuti sumus. Dcinde addidit unde nobis nunc 
+   <lb ed="#PL"/> loquendum est: <hi rend="italic">Si opera non</hi> fecissem <hi rend="italic">in eis, qua nemo 
+   <lb ed="#PL"/>
+    
+        <lb ed="#PL"/> alius fecit, peccatum non</hi> haberent. Peccatum illud sci<lb ed="#PL" break="no"/>licet
+   magnum, de quo et superius ait, <hi rend="italic">Si non venissem,</hi>
+   
+       <lb ed="#PL"/> et locutus <hi rend="italic">eis fuissem, peccatum non</hi> haberent. Hoc est
+   
+   <lb ed="#PL"/> peccatum quo in eum loquentem et operantem non 
+   <lb ed="#PL"/> crediderunt. Neque enim nulluln habebant peccatum, 
+   <lb ed="#PL"/> antequam loqueretur eis et operaretur in cis; sed hoc
+   
+   <lb ed="#PL"/> peccatum quo in eum non crediderunt, ideo sic comme<lb ed="#PL" break="no"/>moratur, quia ipso peccato tenentur et caetera. Hoc 
+   <lb ed="#PL"/> enim si nou haberent, et in eum crederent,dimitteren 
+   <lb ed="#PL"/> tur et caetera.</p>
+      <p xml:id="iuy75t-d1e786-d1e179">2. Sed quid est hoc quod cum dixisset, <hi rend="italic">Si opera nou
+   <lb ed="#PL"/> fecissem in
+    eis,</hi> mox addidit, <hi rend="italic">quae nemo alius ferit ?</hi>
+   
+       <lb ed="#PL"/> Nulla quippe in operibus Christi videntur esse majora 
+   <lb ed="#PL"/> quam suscitatio mortuorum; quod scimus etiam ani - 
+   <pb ed="#PL" n="1861"/>
+       <lb ed="#PL"/> quos fecisse Prophetas. Ferit enim Elias (III Reg. 
+   <lb ed="#PL"/> XVII, 21, 22), fecit Elisaeus et cum in hac carne vive<lb ed="#PL" break="no"/>rot (IV <hi rend="italic">Reg.</hi> IV, 55), et cum in suo monumento se<lb ed="#PL" break="no"/>pul
+   tus jaceret. Nam quidam portantes mortuum, cum 
+   <lb ed="#PL"/> irruentibus hostibus eo refugissent, cumquc ibi posuis<lb ed="#PL" break="no"/>sent, continuo resurrexit <hi rend="italic">(Id.</hi> XIII, 21). Fecit tamen 
+   <lb ed="#PL"/> aliqua Christus, quae nemo alius fecit : quod quinque 
+   <lb ed="#PL"/> millia hominum de quinque, et quatuor millia de se<lb ed="#PL" break="no"/>ptem
+   panibus pavit <hi rend="italic">(Matth.</hi> xiv, 15-21, <hi rend="italic">cl</hi> xv, 32-38); 
+   <lb ed="#PL"/> quod supcr aquas ambulavit, et Petro ut hoc faceret 
+   <lb ed="#PL"/> praestitit (Id, XIV, 25 et 29); quod aquam mutavit in 
+   <lb ed="#PL"/> vinum <hi rend="italic">(Joan.</hi> II, 9); quod aperuit oculos caeci niti 
+   <lb ed="#PL"/> (Id. IX, 7),et alia multa quae commemorare longum est. 
+   <lb ed="#PL"/> Sed respondetur nobis,etalios fecisse quai ipse non fe<lb ed="#PL" break="no"/>cit, et quae nemo alius fecit. Quis enim nisi Moyses iEgy<lb ed="#PL" break="no"/>phos
+   plagis tot tantisque percussit <hi rend="italic">(Exod.</hi> VII-XII), di<lb ed="#PL" break="no"/>viso
+   mari populum duxit <hi rend="italic">(Id.</hi> xiv, 21-29), manna de 
+   <lb ed="#PL"/> coclo esurientibus impetravit <hi rend="italic">(Id.</hi> XVI,) aquam de Petra 
+   <lb ed="#PL"/> sitientibus fudit <hi rend="italic">(Id.</hi> XVII, 6)? Quis nisi Jesus Nave 
+   <lb ed="#PL"/> populo transituro Jordanis fluenta divisit <hi rend="italic">(Josue</hi> III), 
+   <lb ed="#PL"/>etcurrentem solem emissa ad Dcum oratione frenavit 
+   <lb ed="#PL"/>etfixit ( <hi rend="italic">Id.</hi> x, 12-14)? Quis praeter Samson propter 
+   <lb ed="#PL"/> suam sitim maxilla mortui asini exundante satiatus est 
+   <lb ed="#PL"/>
+       <hi rend="italic">Judic.</hi> xv, 19)? Quis praetor Etiam curru ignco in alta 
+   <lb ed="#PL"/> subvectus est (IV <hi rend="italic">Reg.</hi> II, 11)? Quis praeter Elisaeum, 
+   <lb ed="#PL"/> quod paulo ante commemoravi, sepulto suo cadavere, 
+   <lb ed="#PL"/> cadaver alterius reddidit vitae? Quis praeter Danielem 
+   <lb ed="#PL"/> inter ora inclusorum secum leonum esurientium vixit 
+   <lb ed="#PL"/> innocuus <hi rend="italic">(Dan.</hi> VI, 22)? Quis praeter tres viros, Ana<lb ed="#PL" break="no"/>niam, Azariam, Misaelem, in flammis ardentibus et 
+   <lb ed="#PL"/> non urentibus deambulavit illaesus <hi rend="italic">(Id.</hi> In, 93)?</p>
+      <p xml:id="iuy75t-d1e786-d1e312">3. Praetereo caetera, quoniam haec satis esse arbi<lb ed="#PL" break="no"/>tror, quibus demonstretur et aliquos sanctos quaedam 
+   <lb ed="#PL"/> opera miranda fecisse, quae nemo alius fecit. Sed qui 
+   <lb ed="#PL"/> tam nulla vitia et malas valetudines vexationesque 
+   <lb ed="#PL"/> nu.rtalium tanta potestate sanaret, nullus omnino le<lb ed="#PL" break="no"/>gitur
+   antiquorum. Ut enim taceantur quos jubendo, 
+   <lb ed="#PL"/> sicut occurrebant, salvos singulos fecit; Marcus cvan<lb ed="#PL" break="no"/>gelista
+   quodam loco ait :
+    <hi rend="italic">Vespere autem facto cum</hi> oc<lb ed="#PL" break="no"/>cidisse' <hi rend="italic">sol, afferebant ad eum omnes male habentes, et da;­</hi>
+   
+       <lb ed="#PL"/> monia <hi rend="italic">habentes; et erat omnis civitas ad januam congregata:
+    
+   <lb ed="#PL"/> et curavit multos qui vexabantur variis languoribus, et dae<lb ed="#PL" break="no"/>monia</hi> multa <hi rend="italic">ejiciebat (Marc.</hi> I, 32-34). Id autem cum com<lb ed="#PL" break="no"/>memorasset
+   Matthaeus, etiam testimonium propheti<lb ed="#PL" break="no"/>cum
+   addidit dicens : <hi rend="italic">Ut adimpleretur quod dictum est per
+   <lb ed="#PL"/> Isaiam prophetam dicentem, Ipse
+    infirmitates nostras 
+   <lb ed="#PL"/> accepit, et aegritudines portavit (Matth.</hi> VIII, 17). Item 
+   <lb ed="#PL"/> alio loco dicit Marcus : <hi rend="italic">Et quocumque introibat</hi> in vi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">eoa, vel in villas,</hi> aut in <hi rend="italic">civitates,</hi> in
+    <hi rend="italic">plateis ponebant 
+   <lb ed="#PL"/> infirmos, et</hi> deprecabantur <hi rend="italic">eum</hi> ut <hi rend="italic">vel fimbriam vesti­</hi>
+   
+       <lb ed="#PL"/> menti <hi rend="italic">ejus tangerent; et quotquot tangebant eum, salvi 
+   <lb ed="#PL"/>
+    fiebant (Marc.</hi> vi, 56). Haec nemo alius fecit in cis. 
+   <lb ed="#PL"/> Sic enim intelligendum est quod ait, in <hi rend="italic">eis,</hi> non inler 
+   <lb ed="#PL"/> cos vel coram eis; sed prorsus in <hi rend="italic">eia,</hi> quia sanavit eos. 
+   <lb ed="#PL"/> Haec Quippe intelligi voluit qux non solum facerent 
+   <lb ed="#PL"/> admirationem, verum etiam manifestam conferrent
+   
+   <lb ed="#PL"/> salutem; pro quibus bcneficiis utique amorem, non 
+   <lb ed="#PL"/> odium retribuere debuerunt. Omnia quidem caete<lb ed="#PL" break="no"/>rorum
+   miracula superat, quod est natus ex vir<lb ed="#PL" break="no"/>gine,
+   matrisque integritatem solus polnit nee conce<lb ed="#PL" break="no"/>pius
+   violare nec natus: sed Me nec coram eix facium 
+   <lb ed="#PL"/> est, nee in cis. Ad cognoscendam quippe hujus mira<lb ed="#PL" break="no"/>culi
+   veritatem, non communi cum cis aspectu, sed 
+   <lb ed="#PL"/> discreto ab cis discipulatu Apostoli pervenerunt. 
+   <lb ed="#PL"/> Jamvero illud quod die tertia in carne in qua occisus 
+   <lb ed="#PL"/> fuerat, de sepulcro se reddidit vivum, et nunquam 
+   <lb ed="#PL"/> deinde morilurus cum illa ascendit in coelum, superat 
+   <lb ed="#PL"/> eLiam cuncta qu;e fecit: sed neque hoc factum esi
+   
+   <lb ed="#PL"/> in Judaeis, neque coram eis; et nondum hoc fecerat, 
+   <lb ed="#PL"/> quando dicebat, <hi rend="italic">Si opera non</hi> fecissem in <hi rend="italic">eia, quae nemo
+   <lb ed="#PL"/> alius
+    fecit.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e786-d1e449">4. Nimirum ergo sunt illa quae in eorum valetudi<lb ed="#PL" break="no"/>nibus
+   tanta miracula salutis ostendit, quanta in illis 
+   <lb ed="#PL"/> antea nemo donavit: haec cnim viderunt, et hoc eis 
+   <lb ed="#PL"/> exprobrans adjungit, et dicit, <hi rend="italic">Nunc autem et viderunt. 
+   <lb ed="#PL"/> et
+    oderunt et me et Patrem meum : sed ut adimpleatur
+   <lb ed="#PL"/> sermo qui in Lege eorum
+    scriptus est, Quia odio</hi> habue<lb ed="#PL" break="no"/>runt <hi rend="italic">me gratis.</hi> Eorum Legem dicit, non ab ipsis in<lb ed="#PL" break="no"/>ventam, sed ipsis datam : sicut dicimus, <hi rend="italic">Panem no­</hi>
+   
+       <lb ed="#PL"/> strum <hi rend="italic">quotidianum;</hi> quein tamcn a Deo petimus, ad<lb ed="#PL" break="no"/>dendo,
+   <hi rend="italic">da nobis (Matth.</hi> vi, 11). Gratis autem odit, 
+   <lb ed="#PL"/> qui nullum cx odio commodum quaerit, vel incommo. 
+   <lb ed="#PL"/> dum fugit : sic oderunt Dominum impii; sic diligunt 
+   <lb ed="#PL"/> justi, hoc est gratis, ut alia pr;cter illum non exspe<lb ed="#PL" break="no"/>ctent
+   bona, quoniam ipse erit in omnibus omnia. 
+   <lb ed="#PL"/> Quisquis vero altius attenderit Christum dicentem, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Si opera non fecissem in eis, quae nenio alius fecit</hi> (sed 
+   <lb ed="#PL"/> haecetsi Pater aut Spiritus sanctus fecit, nemo alius 
+   <lb ed="#PL"/> fecit, quia totius Trinitatis una substantia est), inve<lb ed="#PL" break="no"/>niet
+   ipsum fecisse, si quando quispiam Dei homo tale 
+   <lb ed="#PL"/> aliquid fecit. Potest quippe in seipso cuncta per se<lb ed="#PL" break="no"/>ipsum; nemo autem potest aliquid sine ipso. Chri<lb ed="#PL" break="no"/>stus
+   namque cum Patre et Spiritu sancto, non sunt 
+   <lb ed="#PL"/> tres dii, scd unus Deus, de quo scriptum est, <hi rend="italic">Bene­
+   <lb ed="#PL"/>
+    dictus Dominus Deus Israel,</hi> qai <hi rend="italic">facit</hi> mirabilia <hi rend="italic">solus
+   <lb ed="#PL"/> (Psal.</hi> LXXI, i8). Nemo ergo alius fecit quacumque 
+   <lb ed="#PL"/> opera in cis fecit; quoniam quisquis alius homo ali<lb ed="#PL" break="no"/>quid <unclear>Bki</unclear> fecit, ipso faciente fecit. Нaec autem ipse, 
+   <lb ed="#PL"/> non <unclear>cientibus</unclear>, fecit.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

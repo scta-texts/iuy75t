@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 9</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 9</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e116"> <!-- iuy75t-t9 -->
+      <head xml:id="iuy75t-d1e116-Hd1e109">Tractatus 9</head>
+      <p xml:id="iuy75t-d1e116-d1e112">
+       <hi rend="italic">In eamdem Evangelii</hi> lectionem. <hi rend="italic">Quid</hi> mysterii <hi rend="italic">sit</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">miraculo facto</hi> in <hi rend="italic">nuptiis apud Cana Galiloeoe.
+    Cap.</hi> II 
+   <lb ed="#PL"/> f. !-! i.</p>
+      <p xml:id="iuy75t-d1e116-d1e135">i. Adsit Dominus Dens noster, ut donet nobis red<lb ed="#PL" break="no"/>dere
+   quod promisimus. Hesterno enim die, si memi<lb ed="#PL" break="no"/>nit
+   Sanctitas vestra, cum temporis excluderemur an<lb ed="#PL" break="no"/>gustia,
+   ne sermonem inchoatum impleremus, in ho<lb ed="#PL" break="no"/>diernum
+   distulimus, ut ea quae in hoc facto evangelica 
+   <lb ed="#PL"/> lectionis mystice in sacramentis posita essent, ipso 
+   <lb ed="#PL"/> adjuvante aperirentur. Non itaque opus est jam imp 
+   <lb ed="#PL"/> morari diutius in commendando Dei miraculo. Ipse 
+   <lb ed="#PL"/> est enim Deus qui per universam creaturam quotidiana. 
+   <lb ed="#PL"/> miracula facit, quae hominibus non facilitate, sed as<lb ed="#PL" break="no"/>siduitate
+   viluerunt: rara autem quae facta sunt ab co<lb ed="#PL" break="no"/>dem
+   Domino, id est a Verbo propter nos incarnato,
+   <lb ed="#PL"/> majorem stuporem hominibus attulerunt: non quia 
+   <lb ed="#PL"/> majora erant, quam sunt ea qune quotidie in creatura 
+   <lb ed="#PL"/> facit, sed quia ista quae quotidie fiunt, tanquam na
+   <lb ed="#PL"/> turali cursu peraguntur; illa vero efficacia potentio 
+   <lb ed="#PL"/> tanquam praesentis exhibita videntur oculis hominum. 
+   <lb ed="#PL"/> Diximus, sicut meministis, resurrexit unus mortuus, 
+   <lb ed="#PL"/> obstupuerunt homines; cum quotidie nasci qui nou 
+   <lb ed="#PL"/> erant, nemo miretur. Sic aquam in vinum conversam 
+   <lb ed="#PL"/> quis non miretur, cum hoc annis omnibus Deus in 
+   <lb ed="#PL"/> vitibus faciat? Sed quia omnia quae fecit Dominus Je<lb ed="#PL" break="no"/>sus, 
+   non solum valent ad excitanda corda nostra mi<lb ed="#PL" break="no"/>raculis, 
+   sed etiam ad aedificanda in doctrina fidei; 
+   <lb ed="#PL"/> scrutari nos oportet quid sibi velint illa omnia, id cst, 
+   <lb ed="#PL"/> quid significent. Horum enim omnium significationes, 
+   <lb ed="#PL"/> sicut recordamini, in hodiernum distulimus.</p>
+      <p xml:id="iuy75t-d1e116-d1e194">i. Quod Dominus invitatus venit ad nuptias, etiam 
+   <lb ed="#PL"/> excepta mystica significatione, confirmare voluit quod 
+   <lb ed="#PL"/> ipse fecit nuptias Futuri enim erant, de quibus dixit 
+   <lb ed="#PL"/> Apostolus, prohibentes nubere (I <hi rend="italic">Tim.</hi> IV, 3), et di<lb ed="#PL" break="no"/>centes
+   quod malum essent nuptiae, et quod diabolus 
+   <lb ed="#PL"/> eas fecisset: cum idem Dominusdicat in Evangelio, in<lb ed="#PL" break="no"/>terrogatus
+   utrum liceat homini dimittere uxorem suam 
+   <lb ed="#PL"/> ex qualibet causa, non licere excepta causa foruicatio<lb ed="#PL" break="no"/>nis. 
+   In qua responsione, si meministis, boc ait : <hi rend="italic">Quod</hi>
+   
+       <lb ed="#PL"/> Deus conjunxit, <hi rend="italic">homo</hi> non <hi rend="italic">separet
+    (Matth.</hi> XIX, 3-6 ). 
+   
+   <pb ed="#PL" n="1459"/>
+       <lb ed="#PL"/> Et qui bene erodili sunt in fide catholica, noverunt 
+   <lb ed="#PL"/> quod Ocus fecerit nuptias, et sicut conjunctio a Deo, 
+   <lb ed="#PL"/> ita divortium a diabolo sit. Sed propterea in causa 
+   <lb ed="#PL"/> fornicationis licet uxorem dimittere, quia ipsa esse 
+   <lb ed="#PL"/> uxor prior noluit, quae fidem conjugalem marito non 
+   <lb ed="#PL"/> servavit. Nec illae quae virginitatem Deo vovent, quan<lb ed="#PL" break="no"/>quam
+   ampliorem gradum honoris et sanctitatis in Ec<lb ed="#PL" break="no"/>clesia
+   teneant, sine nuptiis sunt: nam et ipsae pertinent 
+   <lb ed="#PL"/> ad nuptias cum tota Ecclesia, in quibus nuptiis spon<lb ed="#PL" break="no"/>sus
+   est Christus. Ac per hoc ergo Dominus invitatus 
+   <lb ed="#PL"/> venit ad nuptias, ut conjugalis castitas firmaretur, et 
+   <lb ed="#PL"/> ostenderetur sacramentum nuptiarum : quia et illa<lb ed="#PL" break="no"/>rum
+   nuptiarum sponsus personam Donnini figurabat, 
+   <lb ed="#PL"/> cui dictum est, Servasti vinum <hi rend="italic">bonum usque adhuc.</hi> Do. 
+   <lb ed="#PL"/> num enim vinum Christus servavit usque adhuc, id 
+   <lb ed="#PL"/> est, Evangelium suum.</p>
+      <p xml:id="iuy75t-d1e116-d1e270">3. Jam enim incipiamus ipsa sacramentorum operta 
+   <lb ed="#PL"/> detegere, quantum ille donat in cujus nomine vobis 
+   <lb ed="#PL"/> promisimus. Erat prophetia antiquis temporibus, et a 
+   <lb ed="#PL"/> prophetiae dispensatione nulla tempora cessaverunt: 
+   <lb ed="#PL"/> sed illa prophetia, quando in illa Christus non intelli<lb ed="#PL" break="no"/>gebatur, 
+   aqua erat. In aqua enim vinum quodammo<lb ed="#PL" break="no"/>do 
+   latet. Dicit Apostolus quid intelligamus in ista 
+   <lb ed="#PL"/> aqua : &lt; Usque ad hodiernum, inquit, diem, quamdiu 
+   <lb ed="#PL"/> legitur Moyses, idipsum velamen super cor eorum
+   
+   <lb ed="#PL"/> positum est; quod non revelatur I, quia in Christo 
+   <lb ed="#PL"/> evacuatur. Et cum transieris 2, inquit, ad Dominum, 
+   <lb ed="#PL"/> auferetur velamen &gt; <hi rend="italic">(II
+    Cor.</hi> m, 14-16), Velamen dicit 
+   <lb ed="#PL"/> adoperlionem prophetiae, ut non intelligeretur. Tolli<lb ed="#PL" break="no"/>tur
+   velamen, cum transieris ad Dominum : sic tolli<lb ed="#PL" break="no"/>tur
+   insipientia, cum transieris ad Dominum, et quod 
+   <lb ed="#PL"/> aqua erat, vinum tibi fit. Lege libros omnes prophe<lb ed="#PL" break="no"/>ticos, 
+   non intellecto Christo, quid tam insipidum et
+   
+   <lb ed="#PL"/> fatuum invenies? Intellige ibi Christum, non solum 
+   <lb ed="#PL"/> sapit quod legis, sed etiam inebriat; mutans mentem 
+   <lb ed="#PL"/> a corpore, ut praeterita obliviscens, in ea quae autem sunt 
+   <lb ed="#PL"/> extendaris <hi rend="italic">(Philipp.</hi> III, 15).</p>
+      <p xml:id="iuy75t-d1e116-d1e322">A. Ergo prophetia ab antiquis temporibus, ex quo 
+   <lb ed="#PL"/> prorsus currit ordo nascentium in genere humano, de 
+   <lb ed="#PL"/> Christo non tacuit: sed occultum ibi erat; adhuc enim 
+   <lb ed="#PL"/> erat aqua. Unde probamus quod omnibus temporibus 
+   <lb ed="#PL"/> superioribus usque ad aetatem qua Dominus venit, 
+   <lb ed="#PL"/> prophetia de illo non defuit ? Ipso Domino dicente. Cum 
+   <lb ed="#PL"/> enim resurrexisset a mortuis, invenit discipulos dubi<lb ed="#PL" break="no"/>tantes
+   de ipso quem seculi erant. Viderunt enim eum 
+   <lb ed="#PL"/> mortuum, et non speraverunt resurrecturum, et tota 
+   <lb ed="#PL"/> spes eorum concidit. Unde ille latro laudatus, ipso 
+   <lb ed="#PL"/> die meruit esse in paradiso? Quia in cruce fixus tunc 
+   <lb ed="#PL"/> confessus est Christum <hi rend="italic">(Luc.</hi> XXIII, 40-43), quando de. 
+   <lb ed="#PL"/> illo discipuli dubitaverunt. Ergo inveniteos nutantes, et
+   
+   <lb ed="#PL"/> quodammodo arguentes seipsos quod in illo redemptio<lb ed="#PL" break="no"/>nem
+   speraverant. Dolebant tamen eum sine culpa oc<lb ed="#PL" break="no"/>cisum, quia noverant innocentem. Et hoc ipsi post re- 
+   
+   <lb ed="#PL"/> surrectionem dixerunt, cum quosdam eorum tristes 
+   <lb ed="#PL"/> invenisset in via : c Tu solus peregrinaris in Jerusa<lb ed="#PL" break="no"/>lem, et non cognovisti quae facta sunt in illa istis dic<lb ed="#PL" break="no"/>bus? Ille autem dixit eis : Quae? Illi autem dixerunt: 
+   <lb ed="#PL"/> De Jesu Nazareno, qui fuit vir propheta, potens in fa<lb ed="#PL" break="no"/>ctis
+   et dictis in conspectu Dei et universi populi, quo<lb ed="#PL" break="no"/>modo
+   hunc tradiderunt sacerdotes et principes nostri 
+   <lb ed="#PL"/> in damnationem mortis, et cruci eum fixerunt. Nos 
+   <lb ed="#PL"/> autem sperabamus, quia ipse erat qui redempturus 
+   <lb ed="#PL"/> esset Israel; et nunc tertius dies agitur hodie t, ex 
+   <lb ed="#PL"/> quo haec facta sunt. Haec atque alia cum dixisset unus 
+   <lb ed="#PL"/> ex duobus quos invenit in via euntes ad propinquum 
+   <lb ed="#PL"/> castellum; respondit ipse et ait : « Oinsensati et tar<lb ed="#PL" break="no"/>di
+   corde ad credendum super omnia quae locuti sunt 
+   <lb ed="#PL"/> Prophetae ! nonne haec omnia oportebat pati Christum, 
+   <lb ed="#PL"/> et introire in claritatem suam? Et fuit incipiens a 
+   <lb ed="#PL"/> Moyse et omnibus Prophetis, interpretans illis in om<lb ed="#PL" break="no"/>nibus
+   Scripturis, quae de ipso erant. i Item alio loco, 
+   <lb ed="#PL"/> cum etiam palpari se manibus discipulorum voluit, ut
+   
+   <lb ed="#PL"/> crederent quia in corpore resurrexerat: &lt; Hi sunt, 
+   <lb ed="#PL"/> inquit, sermones, quos locutus sum ad vos, cum adhuc 
+   <lb ed="#PL"/> essem vobiscum , quia oporteret impleri omnia quae
+   
+   <lb ed="#PL"/> scripta sunt in Lege Moysi, et Prophetis; et PsalJnis 
+   <lb ed="#PL"/> de me. Tunc adaperuit illis schsum, ut intelligerent 
+   <lb ed="#PL"/> Scripturas, et dixit illis : Quia sic scriptum est, pati 
+   <lb ed="#PL"/> Christum2, et resurgere a mortuis tertia die, et praedi<lb ed="#PL" break="no"/>cari
+   in nomine ejus poenitentiam et remissionem pec<lb ed="#PL" break="no"/>catorum
+   in omnes gentes, incipiens ab Jerusalem. &gt;</p>
+      <p xml:id="iuy75t-d1e116-d1e421">5. His ex Evangelio, quae certe manifestasunt, intel<lb ed="#PL" break="no"/>lectis, patcbuntilla omnia mysteria quae in isto miracu<lb ed="#PL" break="no"/>lo
+   Domini latent. Videte quid ait, quia oportebat imple<lb ed="#PL" break="no"/>ri
+   in Christo quae de illo scripta sunt. Ubi scripta sunt! 
+   <lb ed="#PL"/>
+       <hi rend="italic">In Lege,</hi> inquit, <hi rend="italic">et Prophetis, et Psalmis.</hi> Nihil Scriptu<lb ed="#PL" break="no"/>rarum
+   veterum praetermisit. Illa erat aqua; et ideo di<lb ed="#PL" break="no"/>cti
+   sunt illi a Domino insensati, quia eis adhuc aqua 
+   <lb ed="#PL"/> sapiebat, non vinum. Quomodo autem fecit de aqua 
+   <lb ed="#PL"/> vinum? Cum aperuit eis sensum, et exposuit eis Scri<lb ed="#PL" break="no"/>pturas,
+   incipiens a Moyse per omnes Prophetas. Unde 
+   <lb ed="#PL"/> jam inebriati dicebant, <hi rend="italic">Nonne cor nostrum erat ardenp 
+   <lb ed="#PL"/> in via, cum aperiret nobis
+    Scripturas (Luc.</hi> xxiv, 13-47)? 
+   <lb ed="#PL"/> Intellexerunt enim Christum in his Libri,s in quibus eum 
+   <lb ed="#PL"/> non noverant. Mutavit ergo aquam in vinum Dominus 
+   <lb ed="#PL"/> noster Jesus Christus, et sapit quod non sapiebat, in<lb ed="#PL" break="no"/>ebriatquodnoninebriabat. Si enim jussisset inde aquam 
+   <lb ed="#PL"/> effundi, et sic ipse mitteret vinum ex occultis creaturae
+   
+   <lb ed="#PL"/> sinibus, node fecit et panem quando saturavit tot millia: 
+   <lb ed="#PL"/> non enim quinque panes habebant quinque millium 
+   <lb ed="#PL"/> hominum saturitatem, aut saltem duodecim cophinos
+   
+   <lb ed="#PL"/> plenos <hi rend="italic">(Matth.</hi> xiv, 17-21), sed omnipotentia Domini 
+   <lb ed="#PL"/> quasi fons panis erat; sic posset et effusa aqua vinum 
+   <lb ed="#PL"/> infundere : quod si fecisset, videretur Scripturas ve<lb ed="#PL" break="no"/>teres
+   improbasse. Cum autem ipsam aquam convertit 
+   <lb ed="#PL"/> in vinum, ostendit nobis quod et Scriptura vetus ab 
+   <lb ed="#PL"/> ipso est : nam jussu ipsius impletae sunt hydriae. A 
+   <lb ed="#PL"/> Domino quidem et illa Scriptura; sed nihil sapit, si 
+   
+   <lb ed="#PL"/> r 
+   <pb ed="#PL" n="1461"/>
+       <lb ed="#PL"/> non ibi Christus intelligatur.</p>
+      <p xml:id="iuy75t-d1e116-d1e499">6. Intendite autem quod ipse ait, <hi rend="italic">Quoe scripta sunt</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">Lege,</hi> et Prophetis, <hi rend="italic">et Psalmis de</hi> me. Novimus 
+   <lb ed="#PL"/> autem Legem ex quibus temporibus narret, id est, ab 
+   <lb ed="#PL"/> exordio mundi: <hi rend="italic">In principio fecit Deus coelum et terram
+   <lb ed="#PL"/> (Gen</hi> I, i). Inde usque ad boc tempus quod nunc agi<lb ed="#PL" break="no"/>mus, sexta aetas est, ut saepe audistis et nostis. Nam 
+   <lb ed="#PL"/> prima aetas computatur ab Adam usque ad Noe: se<lb ed="#PL" break="no"/>cunda
+   a Noe usque ad Abrabam : et sicut Matthaeus 
+   <lb ed="#PL"/> Evangelista per ordinem sequitur et distinguit, tertia 
+   <lb ed="#PL"/> ab Abraham usque ad David : quarta a David usque 
+   <lb ed="#PL"/> ad transmigrationem in Babyloniam : quinta a trans<lb ed="#PL" break="no"/>migratione
+   in Babyloniam usque ad Joannem Bapti<lb ed="#PL" break="no"/>stam <hi rend="italic">(Matlh.</hi> i, 17) : sexta inde usque ad finem sae<lb ed="#PL" break="no"/>culi. Propterea et seita die feeit Deus bominem ad 
+   <lb ed="#PL"/> imaginem suam
+   ( Gen. 1, 27): quia sexta ista aetate 
+   <lb ed="#PL"/> manifestatur per Evangelium reformatio mentis no<lb ed="#PL" break="no"/>strae, secundum imaginem ejus qui creavit nos <hi rend="italic">(Coloss.</hi>
+   
+       <lb ed="#PL"/> IU, 10); et convertitur aqua in vinum; ut jam mani<lb ed="#PL" break="no"/>festatum
+   Cbristum in Lege et Prophetis sapiamus. 
+   <lb ed="#PL"/> Ideo erant ibi <hi rend="italic">sex hydrice,</hi> quas jussit impleri aqua. 
+   <lb ed="#PL"/> Sex ergo illae bydriae, sex aetates significant, qdibus
+   
+   <lb ed="#PL"/> non defuit prophetia. Ilia ergo tempora sex, quasi ar<lb ed="#PL" break="no"/>tjculis
+   distributa atque distincta, quasi vasa essent ina<lb ed="#PL" break="no"/>nia, nisi a Christo implerentur. Quid dixi, tempora 
+   <lb ed="#PL"/> quae inaniter CUrrerent, nisi in eis Dominus Jesus prae<lb ed="#PL" break="no"/>dicaretur
+   ? Impletae sunt prophetiae, plenae sunt hy<lb ed="#PL" break="no"/>driae : sed ut aqua in vinum convertatur, in ilia tota 
+   <lb ed="#PL"/> prophetia Christus intelligatur.</p>
+      <p xml:id="iuy75t-d1e116-d1e582">7. Quid est ergo, <hi rend="italic">Capiebant metretas binas vel ter­</hi>
+   
+       <lb ed="#PL"/> nas? Mysterium nobis maxime ista tocutio commendat. 
+   <lb ed="#PL"/> Metretas enim dicit mensuras quasdam, tanquam sf 
+   <lb ed="#PL"/> diceret urnas, amphoras, vel si quid hujusmodi. No­
+   
+   <lb ed="#PL"/> men mensurae est metrcia, et a mensura accepit nomen 
+   <lb ed="#PL"/> ista mensura. <foreign xml:lang="grc">Μέτρον</foreign> enim mensuram dicunt Graeci : 
+   <lb ed="#PL"/> inde appellatae metretae. <hi rend="italic">Capiebant ergo metretas binas 
+   <lb ed="#PL"/> vel ternas</hi> Quid dicimus, fratres? Si ternas tantum di<lb ed="#PL" break="no"/>ceret, non curreret animus noster nisi ad mysterium' 
+   <lb ed="#PL"/> Trinitatis. Sed forte nec sic debemus inde cito jam 
+   <lb ed="#PL"/> sensum avertere, quia dixit <hi rend="italic">binas vel ternas:</hi> qtiia do<lb ed="#PL" break="no"/>minato
+   Patre et Filio, consequenter et Spiritus san<lb ed="#PL" break="no"/>ctus
+   intelligendus est. Spiritus eriim sanctus non est 
+   <lb ed="#PL"/> Patris tantummodo, aut Filii tantummodo Spiritus; 
+   <lb ed="#PL"/> sed Patris et Filii Spiritus: Scriptum est enim, <hi rend="italic">Si quis 
+   <lb ed="#PL"/> dilexerit
+    mundum, non eat Spiritus1 Patritin</hi> illo (I <hi rend="italic">Joan.</hi>
+   
+       <lb ed="#PL"/> II, 15): item scriptum est, <hi rend="italic">Quisquis autem Spiritum
+   <lb ed="#PL"/>
+    Christi</hi> non <hi rend="italic">habet, hie non eat ejus</hi> (Rom. VIII, 9). Idem
+   
+   <lb ed="#PL"/> autem Spiritus Patris et Filii. Nominato itaque Patre 
+   <lb ed="#PL"/> et Filio, intelligitur et Spiritus sanctus; quia Spiritus 
+   <lb ed="#PL"/> est Patris etFiHi. Cum autem nominatur Pater et F'i. 
+   <lb ed="#PL"/> lius, tanquam duae metretae nominantur, cum autem 
+   <lb ed="#PL"/> ibi intellgitur Spiritus sanctus, tres metretae. Ideo non' 
+   <lb ed="#PL"/> dictum est, capientes metretas aliae binas, alae ternas: 
+   <lb ed="#PL"/> sed ipsae sex hydriae <hi rend="italic">capiebant metretas
+    binas vel ternas.</hi>
+   
+       <lb ed="#PL"/> Tanquam diceret, Et quando dico binas; etiam Spiri<lb ed="#PL" break="no"/>tum
+   Patris et Filii cum his intelligi volo : et quando 
+   <lb ed="#PL"/> dico ternas, ipsam Trinitatem manifestius enuntio.
+    
+  </p>
+      <p xml:id="iuy75t-d1e116-d1e671">8. Quisquis itaque nominat Patrem et Filium, opor<lb ed="#PL" break="no"/>tet
+   ibi intelligat tanquam charilatem invicem Patris 
+   <lb ed="#PL"/> et Filii, quod est Spiritus sanctus. Fortassis enim dis­
+   
+   <lb ed="#PL"/> cussae Scripturae : quod non sic dico, ut hodie docere 
+   <lb ed="#PL"/> possim , aut quasi aliud inveniri non possit : sed ta<lb ed="#PL" break="no"/>men
+   fortasse scrutatae Scripturae indicant quod Spiri<lb ed="#PL" break="no"/>tus
+   sanctus charitas est. Et ne putetis vilem esse 
+   <lb ed="#PL"/> charitatem. Quomodo autem vilis est, quando omnia 
+   <lb ed="#PL"/> quae dicuntur non vilia, chara dicuntur? Si ergo quae 
+   <lb ed="#PL"/> non sunt vilia, chara sunt ; quid est charius ipsa cba<lb ed="#PL" break="no"/>ritate ? Sic autem commendatur charitas ab Apostolo, 
+   <lb ed="#PL"/> ut dicat: « Supereminentiorem viam vobis demon<lb ed="#PL" break="no"/>stro. Si linguis bominum loquar et Angelorum, cha<lb ed="#PL" break="no"/>ritatcm
+   autem non habeam, factus sum aeramentum 
+   <lb ed="#PL"/> sonans, aut cymbalum tinniens : et si sciero omnia 
+   <lb ed="#PL"/> sacramenta et omnem scientiam, et habuero prophe<lb ed="#PL" break="no"/>tiam
+   et omnem fidem, ita ut montes transferam, cha<lb ed="#PL" break="no"/>ritatem
+   autem non habcam , nihil sum : et si distri<lb ed="#PL" break="no"/>buero
+   omnia mea pauperibus, et tradidero corpus 
+   <lb ed="#PL"/> meum ut ardeam, cbaritatem autem non habeam, ni<lb ed="#PL" break="no"/>hil
+   mihi prodest &gt; (I <hi rend="italic">Cor.</hi> xn, 51, XIII, 1-3). Quanta 
+   <lb ed="#PL"/> est ergo charitas, quae si desit, frustra habentur eas 
+   <lb ed="#PL"/> tera; si adsit, recte1 habentur omnia ? Tamen charita<lb ed="#PL" break="no"/>tem
+   laudans apostolus Paulus copiosissime atque uber<lb ed="#PL" break="no"/>rime, minus de illa dixit quam quod ait breviter apo<lb ed="#PL" break="no"/>stolus
+   Joannes, cujus est hoc Evangelium. Neque enim 
+   <lb ed="#PL"/> dubitavit dicere, <hi rend="italic">Deus charitas est</hi> (I <hi rend="italic">Joan.</hi> IV, 16). 
+   <lb ed="#PL"/> Scriptum est etiam, <hi rend="italic">Quia charitas Dei
+    diffusa</hi> est <hi rend="italic">in cor. 
+   <lb ed="#PL"/> dibus nostris per</hi> Spiritum sanctum qui <hi rend="italic">datus eat nobis 
+   <lb ed="#PL"/> (Rom.</hi> v, 5). Quis ergo nominet Patrem et Filium, et 
+   <lb ed="#PL"/> non ibi intelligat charitatem Patris et Filii ? Quam cum
+   
+   <lb ed="#PL"/> habere coeperit, Spiritum sanctum habebit : quam si 
+   <lb ed="#PL"/> non habuerlt, sine Spiritu sancto crit. Et quomodo ' 
+   <lb ed="#PL"/> corpus tuum sine spiritu, quod est anima tua, si fuerit, 
+   <lb ed="#PL"/> mortuum est; sic anima tua sine Spiritu sancto, id est, 
+   <lb ed="#PL"/> sine charitate si fuerit, mortua dèputabitur. Ergo <hi rend="italic">me­</hi>
+   
+       <lb ed="#PL"/> tretas <hi rend="italic">binas capiebant hydrioe,</hi> quia in omnium tempo<lb ed="#PL" break="no"/>rum
+   prophetia Pater et Filius praedicatur : sed ibi est 
+   <lb ed="#PL"/> et Spiritus sanctus; ideoque adjunctum est, <hi rend="italic">vet ternas. 
+   <lb ed="#PL"/> Ego et</hi> Pater, inquit, unum <hi rend="italic">sumus (Joan.</hi> x, 30) : sed 
+   <lb ed="#PL"/> absit ut desit Spiritus sanctus, ubi audimus, <hi rend="italic">Ego et 
+   <lb ed="#PL"/> Pater</hi> unum sumus. Tamen quia Patrem et Filium 
+   <lb ed="#PL"/> nominavit, capiant <hi rend="italic">hydrioe binas metretas;</hi> sed audi , 
+   <lb ed="#PL"/>
+       <hi rend="italic">vel</hi> ternas : <hi rend="italic">lie, baptizate gentes in nomine
+    Patris ei 
+   <lb ed="#PL"/> Filii et Spirilus sancti (Matth.</hi> XXVIII, 19). Itaque in 
+   <lb ed="#PL"/> eo quod binae, non exprimitur, sed intelligi<lb ed="#PL" break="no"/>tor; in eo vero quod dicuntur vel ternae, etiam expri<lb ed="#PL" break="no"/>mitur
+   Trinitas.</p>
+      <p xml:id="iuy75t-d1e116-d1e820">9. Sed est et atius intellectus non praetermittendus, 
+   <lb ed="#PL"/> et ipsum dicam : eligat quisque quod placet; nos 
+   <lb ed="#PL"/> quod suggeritur non subtrahimus. Mensa enim Do<lb ed="#PL" break="no"/>mini
+   est, et non oportet ministrum fraudare convivas, 
+   <lb ed="#PL"/> praesertim sic esurientes, ut apparcat aviditas vestra I. 
+   <lb ed="#PL"/> Prophetia quae ab antiquis temporibus dispensatur,
+   
+   <lb ed="#PL"/> ad salutem omnium gentium pertinet. Ad solum qui<lb ed="#PL" break="no"/>dem
+   populum Israel missus est Moyses, et ei soli p0- 
+   <lb ed="#PL"/> pulo per cum Lex data est, et ipsi Prophetae ex illo
+    
+   
+   <pb ed="#PL" n="1463"/>
+       <lb ed="#PL"/> populo ficiunt, et ipsa distributio temporum secun<lb ed="#PL" break="no"/>dum
+   cumdem populum distincta est; unde et hydriae 
+   <lb ed="#PL"/> dicuntur <hi rend="italic">secundum
+    purificationem Judceorum</hi> : sed ta<lb ed="#PL" break="no"/>men
+   quod illa prophetia etiam caeteris gentibus annun<lb ed="#PL" break="no"/>tiabatur, manifestum est; quandoquidem Christus in 
+   <lb ed="#PL"/> eo occultus erat, in quo benedicuntur omnes gentes , 
+   <lb ed="#PL"/> sicut promissum est Abrahae dicente Domino, <hi rend="italic">In se<lb ed="#PL" break="no"/>mine
+   tuo</hi> benedicentur <hi rend="italic">omnes gentes (Gen.</hi> xxn, 18). 
+   <lb ed="#PL"/> Nondum autem intelligebatur, quia nondum aqua 
+   <lb ed="#PL"/> conversa erat in vinum. Ergo omnibus £entibus dis<lb ed="#PL" break="no"/>pensabatur
+   prophetia. Quod at emineat jucundius, 
+   <lb ed="#PL"/> de singulis aetatibus, tanquam de singulis hydriis, pro 
+   <lb ed="#PL"/> tempore quaedam commemoremus.</p>
+      <p xml:id="iuy75t-d1e116-d1e880">10. In ipso exordio Adam et Eva parentes omnium 
+   <lb ed="#PL"/> gentium erant, non tantummodo Judaeorum ; et quid<lb ed="#PL" break="no"/>quid
+   figurabatur in Adam de Christo, ad omnes utique 
+   <lb ed="#PL"/> gentes pertinebat , quibus salus est in Christo. Quid 
+   <lb ed="#PL"/> ergo potissimum dicam de aqua primae hydriae, nisi 
+   <lb ed="#PL"/> quod Apostolus ait de Adam et Eva ? Nemo enim me 
+   <lb ed="#PL"/> dicet prave intellexisse, quando intellectum non 
+   <lb ed="#PL"/> meum, sed ApostoH profero. Illud ergo unum quan<lb ed="#PL" break="no"/>tum
+   mysterium de Christo continet, quod commemo<lb ed="#PL" break="no"/>rat
+   Apostolus, dicens, <hi rend="italic">Et erunt duo in carne</hi> una : sa<lb ed="#PL" break="no"/>cramentum
+   <hi rend="italic">hoc magnum est (Ephes.</hi> III , 31 <hi rend="italic">et</hi> 32) ? Et 
+   <lb ed="#PL"/> ne quis magnitudinem istam sacramenti in singulis 
+   <lb ed="#PL"/> quibusque hominibus uxores habentibus intelligeret , 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ego</hi> autem, inquit, <hi rend="italic">dico in Christo et</hi> in
+    <hi rend="italic">Ecclesia.</hi> Quod 
+   <lb ed="#PL"/> est hoc sacramentum magnum, <hi rend="italic">Erunt duo</hi> in <hi rend="italic">carne
+   <lb ed="#PL"/> una</hi> ? Cum de Adam et Eva Scriptura Geneseos lo<lb ed="#PL" break="no"/>queretur, unde ventum est ad haec verba, <hi rend="italic">Propterea 
+   <lb ed="#PL"/> relinquet homo</hi> patrem et <hi rend="italic">matrem,
+    et</hi> adhaerebit <hi rend="italic">uxori</hi>
+   
+       <lb ed="#PL"/> suae ; <hi rend="italic">et erunt</hi> duo <hi rend="italic">in carne una
+    (Gen.</hi> II, 24). Si ergo 
+   <lb ed="#PL"/> Christus adhaesit Ecclesiae, ut essent duo in carne
+   
+   <lb ed="#PL"/> una, quomodo reliquit Patrem ? quomodo matrem ? 
+   <lb ed="#PL"/> Reliquit Patrem, quia cum in forma Dei esset, non 
+   <lb ed="#PL"/> rapinam arbitratus est esse aequatis Deo, sed semet<lb ed="#PL" break="no"/>ipsum
+   exinanivit, formam servi accipiens <hi rend="italic">(Philipp.</hi>
+   
+       <lb ed="#PL"/> II, 6, 7). Hoc est enim, reliquit Patrem, non quia de- . 
+   <lb ed="#PL"/> seruit et recessit a Patre; sed quia non ea in forma 
+   <lb ed="#PL"/> apparuit hominibus in qua aequalis est Patri. Quomodo 
+   <lb ed="#PL"/> reliquit matrem ? Relinquendo synagogam Judaeorum, 
+   <lb ed="#PL"/> de qua secundum carnem natus est; et inhaerendo- 
+   <lb ed="#PL"/> Ecclesiae, quam ex omnibus gentibus cengregavil.
+   
+   <lb ed="#PL"/> Ergo et prima hydria habebat prophetiam de Christo : 
+   <lb ed="#PL"/> sed quando ista quae loquor non praedicabantur in po<lb ed="#PL" break="no"/>pulis, adhuc aqua erat, in vinum mutata nondum
+   
+   <lb ed="#PL"/> erat. Et quia illuminavit nos per Apostolum Domi<lb ed="#PL" break="no"/>nus, ut ostenderet nobis quid ibi quaereremus in ipsa 
+   <lb ed="#PL"/> una sententia, <hi rend="italic">Erunt duo in carne
+    una; sacramentum
+   <lb ed="#PL"/> magnum</hi> in <hi rend="italic">Christo et in Ecclesia ;</hi> jam licet nobis ubique 
+   <lb ed="#PL"/> Christum quaerere, et de omnibus hydriis vinum po<lb ed="#PL" break="no"/>tare.
+   Dormit Adam ut fiat Eva : moritur Christus ut 
+   <lb ed="#PL"/> fiat Ecclesia. Dormienti Adae fit Eva de latere <hi rend="italic">(Gen.</hi>
+   
+       <lb ed="#PL"/> u, 21) : mortuo Christo lancea percutitur latus <hi rend="italic">(Joan.</hi>
+   
+       <lb ed="#PL"/> xix, 34) , ut profluant sacramenta, quibus formetur 
+   <lb ed="#PL"/> Ecclesia. Cui non appareat quia in illis tunc factis fu<lb ed="#PL" break="no"/>tura
+   figurata sunt, quandoquidem dicit Apostolus 
+   <lb ed="#PL"/> ipsum Adam formam futuri csse ? <hi rend="italic">Qui est,</hi> inquit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">forma futuri (Rom.</hi> v, 14). Praefigurabantur omnia 
+   <lb ed="#PL"/> mystice. Neque enim vere non poteM Deus vigilanti 
+   <lb ed="#PL"/> costam educere, feminamque formare. An forte ne 
+   <lb ed="#PL"/> doleret latus quando costa detracta est, propter hoc 
+   <lb ed="#PL"/> oportebat ut ille dormiret ? Quis est qui sic dormiat, 
+   <lb ed="#PL"/> ut ei ossa non evigilanti evellantur ? An quia Deus 
+   <lb ed="#PL"/> evellebat, propterea homo non sentiebat ? Poterat 
+   <lb ed="#PL"/> ergo et vigilanti sine dolore evellere, qui potuit dor<lb ed="#PL" break="no"/>mienti. Sed procul dubio hydria prima implebatur : 
+   <lb ed="#PL"/> prophetia illius temporis de futuro isto tempore dis<lb ed="#PL" break="no"/>pensabatur.
+   </p>
+      <p xml:id="iuy75t-d1e116-d1e1065">ii. Christus etiam figuratus est in Noe, et in ilia 
+   <lb ed="#PL"/> arca orbis terrarum. Quare enim in arca inclusa sunt 
+   <lb ed="#PL"/> omnia animalia <hi rend="italic">(Gen.</hi> VII, 7-9), nisi ut significaren<lb ed="#PL" break="no"/>tur
+   omnes gentes ? Non enim deerat Deo rursus crearo 
+   <lb ed="#PL"/> omne genus animalium. Quando enim omnia nor' 
+   <lb ed="#PL"/> erant, nonne dixit, <hi rend="italic">Producat terra,</hi> et produxit terra 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Id.</hi> I, 24) ? Unde ergo tunc fecit, inde reficeret; verbo 
+   <lb ed="#PL"/> fecit, verbo reficeret: nisi quia mysterium commen<lb ed="#PL" break="no"/>dabat, et secundam hydriam propheticae dispensatio<lb ed="#PL" break="no"/>nis
+   implebat, ut per lignum liberaretur figura orbis
+   
+   <lb ed="#PL"/> terrarum ; quia in ligno figenda erat vita orbis terra<lb ed="#PL" break="no"/>rum?</p>
+      <p xml:id="iuy75t-d1e116-d1e1101">12. Jam in tertia hydria, ipsi Abrahae, quod jam 
+   <lb ed="#PL"/> commemoravi, dictum est, <hi rend="italic">In semine tuo benedicentur
+   <lb ed="#PL"/> omnes gentes.</hi> Et quis non videat cujus habebat figu<lb ed="#PL" break="no"/>ram
+   unicus ejus , qui sibi ad sacrificium , quo ipse 
+   <lb ed="#PL"/> immolandus ducebatur, ligna portabat ? Portavit enim 
+   <lb ed="#PL"/> Dominus crucem suam, sicut Evangelium loquitur 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Joan.</hi> xix, 17). Hoc de tertia hydria commemorasse 
+   <lb ed="#PL"/> suffecerit.</p>
+      <p xml:id="iuy75t-d1e116-d1e1125">13. De David autem , quid dicam quod ad omnes 
+   <lb ed="#PL"/> gentes pertinebat prophetia ejus; quando modo audi<lb ed="#PL" break="no"/>vimus
+   Psalmum , et difficile est ut dicatur psalmus 
+   <lb ed="#PL"/> ubi hoc non sonet ? Sed certe, ut dixi, modo cantavi<lb ed="#PL" break="no"/>mus, <hi rend="italic">Surge,
+    Deus, judica terram; quoniam</hi> tu <hi rend="italic">haeredi­
+   <lb ed="#PL"/> tabis</hi> in <hi rend="italic">omnibus gentibus (Psal.</hi> LXXXI, 8). Et ideo Do<lb ed="#PL" break="no"/>natistae
+   tanquam projecti de nuptiis : sicut ille homo 
+   <lb ed="#PL"/> qui non habebat vestem nuptialem, invitatus est et ve<lb ed="#PL" break="no"/>nit, sed projectus est de numero vocatorum, quia non 
+   <lb ed="#PL"/> habebat vestem ad sponsi gloriam; qui enim suam 
+   <lb ed="#PL"/> gloriam quaerit, non Christi, non habet vestem nu<lb ed="#PL" break="no"/>ptialem : non enim volunt consonare voci illius qui 
+   <lb ed="#PL"/> amicus erat sponsi, et ait, <hi rend="italic">Hic est qui baptizat (Joan.</hi>
+   
+       <lb ed="#PL"/> I, 33). Nec immerito illi qui non habebat vestem nu<lb ed="#PL" break="no"/>ptialem , hoc per increpationem objectum est, quod 
+   <lb ed="#PL"/> non erat : <hi rend="italic">Amice, Quid huc</hi> venisti ? Et sicut ille obmu<lb ed="#PL" break="no"/>tuit <hi rend="italic">(Matth.</hi> xxn, 11-13), ita et isti. Quid enim prodest 
+   <lb ed="#PL"/> strepitus oris, muto corde ? Noverunt quippe intus
+   
+   <lb ed="#PL"/> apud semetipsos non se habere quod dicant. Litus 
+   <lb ed="#PL"/> obmutuerunt, foris perstrepunt. Audiunt, velint no<lb ed="#PL" break="no"/>lint, etiam apud se cantari, <hi rend="italic">Surge, Deus, judica ter­</hi>
+   
+       <lb ed="#PL"/> ram; <hi rend="italic">quoniam</hi> tu <hi rend="italic">haereditabis in
+    omnibus</hi> gentibus : 
+   <lb ed="#PL"/> et non communicando omnibus gentibus r quid aliud 
+   <lb ed="#PL"/> quam se exhaeredatos esse cognoscunt ?</p>
+      <p xml:id="iuy75t-d1e116-d1e1206">14. Quod ergo dicebam, fratres, quia ad omnes 
+   <lb ed="#PL"/> gentes pertinet prophetia : volo enim alium sensum 
+   <lb ed="#PL"/> ostendere in eo quod dictum est, <hi rend="italic">Capientes
+    metreta
+   <lb ed="#PL"/> binas vel ter'las:</hi> ad omnes, inquam, gentes pertinet 
+   <lb ed="#PL"/> prophetia
+   ; muro commemoravimus demonstratum in 
+   <pb ed="#PL" n="1465"/>
+       <lb ed="#PL"/> Adam, <hi rend="italic">qui eat</hi> forma <hi rend="italic">futuri.</hi> Quis autem nesciat quod 
+   <lb ed="#PL"/> de illo exortae sunt omnes gentes: et in ejus voeabulo
+   
+   <lb ed="#PL"/> quatuor liueris, quatuor orbis terrarum partes per 
+   <lb ed="#PL"/> graecas appellationes demonstrantur ? Si enim graece 
+   <lb ed="#PL"/> dicantur, Oriens, Occidens, Aquilo, Meridies, sicut
+   
+   <lb ed="#PL"/> eas plerisque locis sancta Scriptura commemorat; in 
+   <lb ed="#PL"/> capitibus verborum invenis Adam : dicuntur enim 
+   <lb ed="#PL"/> graece quatuor memoratae mundi partes <foreign xml:lang="grc">άνατολὴ, δύσις, 
+   <lb ed="#PL"/> ϰ̓́ρϰτος, μεσημρ</foreign>l<foreign xml:lang="grc">α</foreign>. Ista quatuor nomina si tanquam ver<lb ed="#PL" break="no"/>eris
+   quatuor sub invicem scribas , in eorum capitibus 
+   <lb ed="#PL"/> Adam legitur. Hoc in Noe propter arcam figuratum 
+   <lb ed="#PL"/> est, in qua erant omnia animalia, quae significabant 
+   <lb ed="#PL"/> omnes gentes
+   : boc in Abraham, eui apertius dictum 
+   <lb ed="#PL"/> est , In <hi rend="italic">semine tuo
+    benedicentur</hi> omnes <hi rend="italic">gentes</hi> : hoc in 
+   <lb ed="#PL"/> David, de cujus Psalmis, ut alia omittam, modo can<lb ed="#PL" break="no"/>tavimus, <hi rend="italic">Surge, Deus, judica
+    terram; quoniam</hi> tu <hi rend="italic">hae­</hi>
+   
+       <lb ed="#PL"/> reditabis <hi rend="italic">in omnibus</hi> gentibus. Cui enim Deo dicitur, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Surge,</hi> nisi ei qui dormivit? <hi rend="italic">Surge, Deus,
+    judica ter<lb ed="#PL" break="no"/>ram.</hi> Tanquam diceretur, Dormisti, judicatus a terra ; 
+   <lb ed="#PL"/> surge, ut judices terram. Et quo pertinet illa pro<lb ed="#PL" break="no"/>phetia, <hi rend="italic">Quoniam tu haereditabis in omnibus gentibus?</hi>
+      </p>
+      <p xml:id="iuy75t-d1e116-d1e1307">15. Jam vero in quinta aetate, tanquam in quinta 
+   <lb ed="#PL"/> hydria, Daniel vidit lapidem praecisum de monte sine 
+   <lb ed="#PL"/> manibus, et fregisse omnia regna terrarum; et cre<lb ed="#PL" break="no"/>visse
+   illum lapidem, et factum esse montem magnum, 
+   <lb ed="#PL"/> ita ut impleret universam faciem terrae <hi rend="italic">(Dan.</hi> II, 34, 
+   <lb ed="#PL"/> 35). Quid apertius, fratres mei? Lapis de monte prae<lb ed="#PL" break="no"/>ciditur : ipse est lapis quem reprobavcrunt aedifi<lb ed="#PL" break="no"/>cantes,
+   et factus est in caput anguli <hi rend="italic">(Paal.</hi> CXVII, 22). 
+   <lb ed="#PL"/> De quo monte praeciditur, nisi de regno Judaeorum, 
+   <lb ed="#PL"/> unde Dominus noster Jesus Christus secundum car<lb ed="#PL" break="no"/>nem
+   natus est ? Et praeciditur sine manibus, sine 
+   <lb ed="#PL"/> opere humano; quia sine amplexu maritali de vir<lb ed="#PL" break="no"/>gine
+   exortus est. Mons ille unde praecisus est, non 
+   <lb ed="#PL"/> impleverat universam faciem terrae : non enim tenu<lb ed="#PL" break="no"/>erat
+   regnum Judaeorum omnes gentes. At vero re<lb ed="#PL" break="no"/>gnum
+   Christi , universum orbem terrarum cernimus 
+   <lb ed="#PL"/> occupare.</p>
+      <p xml:id="iuy75t-d1e116-d1e1351">16. Jam ad sextam aetatem pertinet Joannes Ba<lb ed="#PL" break="no"/>p'ista, quo Demo exsurrexit major ill natis mulierum : 
+   <lb ed="#PL"/> de quo dictum est, <hi rend="italic">Major quam propheta
+    (Matth.</hi> XI, 
+   <lb ed="#PL"/> 11, 9). Quomodo et ipse ostendit, quia omnibus gen<lb ed="#PL" break="no"/>tibus
+   missus est Christus? Quando Judaei venerunt ad 
+   <lb ed="#PL"/> eam ut baptizarentur,etne superbirent de nomine 
+   <lb ed="#PL"/> Abraham, Generatio, inquit, <hi rend="italic">viperarum,
+    quis ostendit 
+   <lb ed="#PL"/> vobis fugere ab</hi> ira ventura ? <hi rend="italic">facite ergo
+    fructum dignum 
+   <lb ed="#PL"/> poenitentiae ;</hi> id est, humiles estote : superbis enim 
+   <lb ed="#PL"/> loquebatur. Unde aotem erant superbi? De genere 
+   <lb ed="#PL"/> carnis, non de fructu imitationis patris Abraham. 
+   <lb ed="#PL"/> Quid eis ait ? <hi rend="italic">Nolite dicere, Patrem habemus
+    Abraham: 
+   <lb ed="#PL"/> potens eat enim Deus de lapidibus istis suscitare</hi> filios 
+   <lb ed="#PL"/>
+       <hi rend="italic">Abrahae</hi> (Matth. III, 9.).Lapides dicens omnes gentes, 
+   <lb ed="#PL"/> non propter firmitatem , sicut lapis dictus est quem 
+   <lb ed="#PL"/> reprobaverunt aediOcantes; sed propter stoliditatem 
+   <lb ed="#PL"/> et duritiam stultiliae, quia eis quos adorabaut similes 
+   <lb ed="#PL"/> iacti erant : adorabant enim insensata simulacra, pa<lb ed="#PL" break="no"/>riter
+   insensati. Unde insensati? Quoniam in Psalmo 
+   <lb ed="#PL"/> dicitur, Similes illis <hi rend="italic">fiant qui
+    faciunt ea, et omnes qui</hi>
+   
+       <lb ed="#PL"/> confidunt in eis <hi rend="italic">(Psal.</hi> CXIII, 8). Ideo cum coeperint 
+   <lb ed="#PL"/> homines Deum adorare, quid audiunt ? <hi rend="italic">Ut sitis filii 
+   <lb ed="#PL"/> Patris</hi> vestri qui <hi rend="italic">in caeli, est, qui solem suum facit oriri
+   <lb ed="#PL"/> super bonos
+    et malos, et pluit super justos et injustos 
+   <lb ed="#PL"/> (Matth.</hi> v, 45). Quapropter si ei fil homo similis quem 
+   <lb ed="#PL"/> adorat; quid est, <hi rend="italic">Potens eat Deus de
+    lapidibus</hi> istis 
+   <lb ed="#PL"/>
+       <hi rend="italic">suscitare filios Abrahae?</hi> Nos ipsos interrogemus, et vi<lb ed="#PL" break="no"/>demus
+   quia factum est. Nos enim de gentibGs venimus; 
+   <lb ed="#PL"/> de gentibus autem non veniremus, nisi Deus de lapi<lb ed="#PL" break="no"/>dibus
+   suscitasset filios Abrahae. Facti sumus filii Abra<lb ed="#PL" break="no"/>hae
+   imitando fidem, non nascendo per carnem. Sicut 
+   <lb ed="#PL"/> enim illi degenerando exhaeredali; sic nos imitando 
+   <lb ed="#PL"/> adoptati. Ergo, fratres, ad omnes gentes pertinebat 
+   <lb ed="#PL"/> etiam ista sextae hydriae prophetia ; et ideo de omni. 
+   <lb ed="#PL"/> bus dictum est, <hi rend="italic">Capientes metretas binas vel ternas.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e116-d1e1464">17. Sed quomodo ostendimus omnes gentes perti<lb ed="#PL" break="no"/>nere
+   ad binas vel ternas metretas? aestimantis enim 
+   <lb ed="#PL"/> fuit quodammodo, ut ipsas diceret binas, quas dixe<lb ed="#PL" break="no"/>rat
+   ternas, ad commendandum scilicet sacramentum. 
+   <lb ed="#PL"/> Quomodo sunt binae metretae ? Circumcisio et praepu<lb ed="#PL" break="no"/>tium. Hos duos populos Scriptura commemorat, et 
+   <lb ed="#PL"/> nullum praetermittit bominum genus, quando dicit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Circumcisio et proeputium (Coloss.</hi> In, 44); in duobus 
+   <lb ed="#PL"/> istis nominibus habes omnes gentes: binae metretae 
+   <lb ed="#PL"/> sunt. His duobus parietibus de diverso venientibus ad 
+   <lb ed="#PL"/> pacem in seipso faciendam, lapis angularis factus est 
+   <lb ed="#PL"/> Christus <hi rend="italic">(Ephes.</hi> u, 14-20). Ostendamus et ternas 
+   <lb ed="#PL"/> metretas in eisdem ipsis omnibus gentibus. Tres erant 
+   <lb ed="#PL"/> filii Noe <hi rend="italic">(Gen.
+    V,</hi> 31), per quos reparatum est genus 
+   <lb ed="#PL"/> humanum. Unde Dominus ait : <hi rend="italic">Simile eat</hi> regnum cae­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">lorum fermento, quod accepit</hi> mulier <hi rend="italic">et
+    abscondit in (a- , 
+   <lb ed="#PL"/> rinae</hi> mensuris <hi rend="italic">tribus, quoadusque
+    fermentaretur totum
+   <lb ed="#PL"/> (Luc.</hi> XIII, 21). Qaae est ista mulier, nisi caro Do­
+   
+   <lb ed="#PL"/> mini ? Quod est fermentum, nisi Evangelium? Quae 
+   <lb ed="#PL"/> sunt tres mensurae, nisi omnes gentes, propter tres 
+   <lb ed="#PL"/> filios Noe? Ergo <hi rend="italic">sex hydriae capientes
+    binas vel ternas
+   <lb ed="#PL"/> metretas,</hi> sex sunt aetates temporum, capientes pro<lb ed="#PL" break="no"/>phetiam
+   pertinentem ad omnes gentes, sive in duo<lb ed="#PL" break="no"/>bas
+   generibus hominum, id est, Judaeis et Graecis, 
+   <lb ed="#PL"/> sicut saepe Apostolus commemorat <hi rend="italic">(Rom.</hi> n, 9; I Cor. 
+   <lb ed="#PL"/> i, 24, <hi rend="italic">etc.);</hi> sive in tribus, propter Noe tres filios, 
+   <lb ed="#PL"/> significatas. Figurata est enim prophetia pertingens 
+   <lb ed="#PL"/> usque ad omnes gentes. Nam in eo quod pertingit , 
+   <lb ed="#PL"/> dicta est metreta, sicut dicit Apostolus, <hi rend="italic">Accepimus 
+   <lb ed="#PL"/> mensuram pertingendi</hi> usque <hi rend="italic">ad</hi> vos (II <hi rend="italic">Cor.</hi> x, 13). Gen<lb ed="#PL" break="no"/>tibus
+   enim evangelizans, hoc ait r mensuram <hi rend="italic">per'ill<lb ed="#PL" break="no"/>gend; usque ad
+    vos.</hi>
+      </p>
+    </div>
+   </body>
+  </text>
+</TEI>

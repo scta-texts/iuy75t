@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 101</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 101</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e867"> <!-- iuy75t-t101 -->
+      <head xml:id="iuy75t-d1e867-Hd1e109">Tractatus 101</head>
+      <p xml:id="iuy75t-d1e867-d1e112">
+       <hi rend="italic">De eo quod Dominus dicit,</hi> Modicum et jam non vide<lb ed="#PL" break="no"/>bitis
+   me; <hi rend="italic">usque ad id,</hi> Et in illo die me non rogabi<lb ed="#PL" break="no"/>tis
+   quidquam. <hi rend="italic">Cap.</hi> xvi, f . 16-23.</p>
+      <p xml:id="iuy75t-d1e867-d1e128">i. Haec Demini verba uhi ait, <hi rend="italic">Modicum et jam non 
+   <lb ed="#PL"/> videbitis me,
+    et iterum modicum et videbitis me, quia 
+   <lb ed="#PL"/> vado ad Patrem,</hi> ita obscura erant discipulis, antequam 
+   <lb ed="#PL"/> id quod dicit impletum esset, ut quaerentes inter se 
+   <lb ed="#PL"/> quid esset qnod diceret, omnino se faterentur nescire. 
+   <lb ed="#PL"/> Sequitur enim Evangelium :
+    <hi rend="italic">Dixerunt ergo</hi> ex <hi rend="italic">discipu<lb ed="#PL" break="no"/>lis
+   ejus</hi> ad invicem, <hi rend="italic">Quid eat hoc quod dicit</hi> nobis, Mo­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">dicum et non videbitis me, et iterum modicum et videbitis 
+   <lb ed="#PL"/> me, et
+    quia vado ad Patrem ? Dicebant</hi> ergo t <hi rend="italic">Quid eat 
+   <lb ed="#PL"/> hoc quod
+    dicit, Modicum ? Nescimus quid loquitur.</hi> Hoc 
+   <lb ed="#PL"/> cnim est quod eos movebat, quia dixit, <hi rend="italic">Modicum et 
+   <lb ed="#PL"/> non videbitis me, et</hi> iterum <hi rend="italic">modicum et videbitis</hi> me. Nam 
+   <lb ed="#PL"/> in praecedentibus quia non dixerat, <hi rend="italic">Modicum,</hi> sed 
+   <lb ed="#PL"/> dixerat, <hi rend="italic">Ad Patrem
+    vado. et jam non videbitis me (Joan.</hi>
+   
+       <lb ed="#PL"/> xvi, 10) ; tanquam aperte illis visus est locutus, nec 
+   <lb ed="#PL"/> inter se de hoc aliquid quaesierunt. Nunc ergo quod 
+   <lb ed="#PL"/> illis tunc obscurum fuit, et mox manifestatum est, 
+   <lb ed="#PL"/> jam nobis utique manifestum est: post paululum euim 
+   <lb ed="#PL"/> passus est, et non viderunt eum; rursus v post paulu<lb ed="#PL" break="no"/>lum
+   resurrexit, et viderunt eum. Illud autem quod 
+   <lb ed="#PL"/> ait, <hi rend="italic">Jam non videbitis me,</hi> quia isto verbo, id est, jam, 
+   <lb ed="#PL"/> hoc intelligi voluit quod eum ulterius non viderent, 
+   <lb ed="#PL"/> ibi exposuimus quomodo accipiendum sit, ubi dixit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">De</hi> justitia <hi rend="italic">arguet mundum</hi> Spiritus sanctus
+   , <hi rend="italic">quia ad 
+   <lb ed="#PL"/> Patrem vado, et jam</hi> non <hi rend="italic">videbitis</hi> me <hi rend="italic">(Supra, Tract.</hi>
+   
+       <lb ed="#PL"/> 95) : quia scilicet mortalem Christum ulterius non 
+   <lb ed="#PL"/> viderent.</p>
+      <p xml:id="iuy75t-d1e867-d1e236">i. <hi rend="italic">Cognovit autem Jesus,</hi> sicut sequens Evangelista 
+   <lb ed="#PL"/> dicit,
+    <hi rend="italic">quia volebant eum</hi> interrogare, <hi rend="italic">et dixit eis :
+    De 
+   <lb ed="#PL"/> hoc quaeritis inter</hi> vos, <hi rend="italic">quia dixi, Modicum et non
+    videbi­
+   <lb ed="#PL"/> tis me, et</hi> iterum modicum <hi rend="italic">et videbitis me. Amen,
+    amen 
+   <lb ed="#PL"/> dico vobis,</hi> quia <hi rend="italic">plorabitis et flebitis vos ; mundus
+    autem 
+   <lb ed="#PL"/> gaudebit : vos autem contristabimini, sed tristitia vestra</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">gaudium</hi> erit. Et boc sic accipi potest, quia con<lb ed="#PL" break="no"/>triStati
+   sunt discipuli de morte Domini, et confestim 
+   <lb ed="#PL"/> de resurrectione laetati : mundus autem , quo nomine 
+   
+   <lb ed="#PL"/> significatisunt inimici a quibus Christus oeelsus cst, 
+   <lb ed="#PL"/> tunc utique laetati sunt occiso Christo, quando sunt 
+   <lb ed="#PL"/> discipuli contristati. Mundi quippe nomine, malitia 
+   <lb ed="#PL"/> potest mundi hujus intelligi, id est hominum mundi 
+   <lb ed="#PL"/> hujus amicorum. Unde Jacobus apostolus in Epistola 
+   <lb ed="#PL"/> sua dicit, <hi rend="italic">Quicumque voluerit
+    amicus esse hujus saeculi 
+   <lb ed="#PL"/> inimicus Dei constituitur (Jacobi</hi> iv, 4): quibus inimi<lb ed="#PL" break="no"/>citiis
+   Dei factum est ut nec ejus Unigenito parcerctur.</p>
+      <p xml:id="iuy75t-d1e867-d1e299">3. Deinde subjungit, et dicit : <hi rend="italic">Mulier cum parit , 
+   <lb ed="#PL"/> tristitiam
+    habet, quia rexit hora ejus; cum autem pepe­</hi>
+   
+       <lb ed="#PL"/> rent puerum, <hi rend="italic">jam non</hi> meminit <hi rend="italic">pressurae
+    propter</hi> gau­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">dium, quia natus est homo in mundum</hi> : et vos <hi rend="italic">igitur
+   <lb ed="#PL"/> nunc quidem tristitiam habetis; iterum autem videbo 
+   <lb ed="#PL"/> vos, et
+    gaudebit cor vestrum, et gaudium vestrum nemo 
+   <lb ed="#PL"/> tollet a vobis.</hi> Nec ista similitudo ad intelligendum vi<lb ed="#PL" break="no"/>detur
+   esse difficilis; quoniam comparatio ejus in
+   
+   <lb ed="#PL"/> promptu est, eodem ipso exponente cur dicta sit. Par<lb ed="#PL" break="no"/>turilio
+   quippe tristitiae, partus autem gaudio compa<lb ed="#PL" break="no"/>ratur ; quod tunc majus esse consuevit , quando non 
+   <lb ed="#PL"/> puella, sed puer nascitur. Quod vero ait, <hi rend="italic">Gaudium</hi>
+   
+       <lb ed="#PL"/> vestrum nemo <hi rend="italic">tollet a vobis,</hi> quia gaudium eorum est 
+   <lb ed="#PL"/> ipse Jesus, significatum esi quod ait Apostolus, Chri­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">stus</hi> surgens a <hi rend="italic">mortuis jam</hi> non <hi rend="italic">moritur, et mors ci ultra 
+   <lb ed="#PL"/> non dominabitur (Rom.</hi> VI, 9).</p>
+      <p xml:id="iuy75t-d1e867-d1e365">4. Hueusque in isto Evangelii capitulo, urfde hodie 
+   <lb ed="#PL"/> disputamus, velut facili intellectu omnia cucurrerunt : 
+   <lb ed="#PL"/> acrior necessaria esi in his quae sequuntur intentio. 
+   <lb ed="#PL"/> Quid est enim quod ait, <hi rend="italic">Et in</hi> illo die <hi rend="italic">me non rogabiti. 
+   <lb ed="#PL"/> quidquam?</hi> Hoc verbiun quod est rogare, non solum 
+   <lb ed="#PL"/> petere, verum etiam interrogare significat ; et grecum 
+   <lb ed="#PL"/> Evangelium, uude hoc translatum est, tale babet ver<lb ed="#PL" break="no"/>buM
+   quod utrumque possit intelligi,ut haec ambigui<lb ed="#PL" break="no"/>tas
+   nee inde solvatur (a) : quanquam etsi solveretur, 
+   <lb ed="#PL"/> non ideo nulla quaestio remaneret. Dominum etenim 
+   <lb ed="#PL"/> Christum, postquam resurrexit, et interrogatum le<lb ed="#PL" break="no"/>gimus
+   et rogatum. Nam interrogatus est a discipulis 
+   <lb ed="#PL"/> ascensurus in coelum, quando praesentaretur, et 
+   <lb ed="#PL"/> quando regnum esset israel <hi rend="italic">(Act.</hi> I, 6) : cum vero jam 
+   <lb ed="#PL"/> essol in caelo, rogatus est a sancto Stephano, tit spiri<lb ed="#PL" break="no"/>tum
+   ejus acciperet (Id. VII, 58). Et quis audeat vel
+   
+   <lb ed="#PL"/> cogitare vet dieere, in coelo sedentem Christum ro<lb ed="#PL" break="no"/>gandum
+   non esse, et in terra manentem rogatum 
+   <lb ed="#PL"/> fuisse? rogandum non esse immortalem, rogari dc<lb ed="#PL" break="no"/>buisse
+   mortalem? kno, charissimi, rogemus eum , ut 
+   <lb ed="#PL"/> nodum quaestionis bujus ipse dissolvat, lucendo in cor<lb ed="#PL" break="no"/>dibus
+   nostris ad videnda quae dicit.</p>
+      <p xml:id="iuy75t-d1e867-d1e422">5. Puto enim quod ait, <hi rend="italic">Iterum autem videbo</hi> vos, <hi rend="italic">et
+   <lb ed="#PL"/> gaudebit cor</hi> vestrum, <hi rend="italic">et gaudium vestrum
+    nemo</hi> tollet <hi rend="italic">a
+   <lb ed="#PL"/> vobis,</hi> non ad illud tempus esse referendum quo re<lb ed="#PL" break="no"/>surrexit, eisque suam carnem cernendam tangendam<lb ed="#PL" break="no"/>que
+   moostravit <hi rend="italic">(Joan.</hi> xx, 27) : sed potius ad illud 
+   <lb ed="#PL"/> unde jam dixerat, Qui <hi rend="italic">diligit</hi> me, <hi rend="italic">diligetur a Patre
+    
+   <lb ed="#PL"/> meo ; et</hi> ego <hi rend="italic">diligam eum,</hi> et manifestabo <hi rend="italic">meipsum illi 
+   <lb ed="#PL"/> (Id.</hi> xiv, it). Jam quippe resurrexerat, jam se illis in 
+   <lb ed="#PL"/> carne monstraverat, jam sedebat ad dexteram Patris, 
+   <lb ed="#PL"/> quando dicebat idem ipse apostolus Joannes, cujus 
+   <lb ed="#PL"/> est hoc Evangelium, in Epistola sira : Dilectissimi, 
+   <lb ed="#PL"/>
+       <hi rend="italic">nunc filii Dei sumus,</hi> et nondum <hi rend="italic">manifestatum</hi> eat <hi rend="italic">quid</hi>
+   
+   
+       <lb ed="#PL"/>
+       <pb ed="#PL" n="1895"/> erimus : ,cimus <hi rend="italic">quia cum manifestatum fuerit, similes
+    
+   <lb ed="#PL"/> ei erimus,</hi> quomam <hi rend="italic">videbimus eum sicuti</hi> est (I <hi rend="italic">Joan.</hi> III, 
+   <lb ed="#PL"/> 2). Ista visio non vitae hujus est, sed futurae ; non 
+   <lb ed="#PL"/> temporalis, sed aeterna I. <hi rend="italic">Ilrec est autem vita ceterna,</hi>
+   
+       <lb ed="#PL"/> diceule ipsa vita, <hi rend="italic">ut cognoscant tet</hi> inquit, <hi rend="italic">unum verum 
+   <lb ed="#PL"/> Deum, et quem misisti Jesum Christum (Joan.</hi> XVII, 3), 
+   <lb ed="#PL"/> De hac visione et cognitione dicit Apostolus : <hi rend="italic">Vide­</hi>
+   
+       <lb ed="#PL"/> mus nunc <hi rend="italic">per speculum</hi> in <hi rend="italic">aenigmate,
+    tunc</hi> autem <hi rend="italic">facie 
+   <lb ed="#PL"/> ad faciem : nunc scio ex parte, tunc
+    autem cognoscam 
+   <lb ed="#PL"/> sicut et cognitus</hi> sum (1 <hi rend="italic">Cor.</hi> XIII, 12 <hi rend="italic">et</hi> 13). Hunc totius 
+   <lb ed="#PL"/> laboris sui fructum Ecclesia nunc parturit dcsiderando, 
+   <lb ed="#PL"/> tunc est paritura cernendo; nunc parturit gemendo, 
+   <lb ed="#PL"/> tunc paritura laetando ; nunc parturit orando, tunc 
+   <lb ed="#PL"/> paritura laudando. Et ideo masculum ; quoniam ad 
+   <lb ed="#PL"/> istum fructum contemplationis cuncta officia referun<lb ed="#PL" break="no"/>tur
+   actionis. Solus est enim tiber; quia propter se ap<lb ed="#PL" break="no"/>petitur, et non refertur ad aliud. Huic servit actio : 
+   <lb ed="#PL"/> ad hunc enim refertur quidquid bene agitur, quia
+   
+   <lb ed="#PL"/> propter hunc agitur; ipse autem non propter aliud, 
+   <lb ed="#PL"/> sed propter scmetipsum tenclur et habetur. Ibi ergo 
+   <lb ed="#PL"/> finis qui suflicit nobis. j£ternus igitur erit : ncque 
+   <lb ed="#PL"/> enim nobis suflicit linis, nisi cujus nullus est finis. 
+   <lb ed="#PL"/> Hoc inspiratum erat Philippo quando dixit: <hi rend="italic">Ostende 
+   <lb ed="#PL"/> nobis Patrem , et sufficit
+    nobis.</hi> In Qua ostensione se 
+   <lb ed="#PL"/> promisitetFilius dicens : <hi rend="italic">Non credis</hi> quia <hi rend="italic">ego</hi> in Pa­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tre, et Pater in</hi> me <hi rend="italic">est (Joan.</hi> xiv, 8,10)
+   ? De hoc ita<lb ed="#PL" break="no"/>que
+   quod sufficit nobis, rectissime audimus, <hi rend="italic">Gaudium</hi>
+   
+       <lb ed="#PL"/> vestrum <hi rend="italic">nemo tollet a vobis.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e867-d1e608">6. De hoc etiam quae superius dicta sunt, melius 
+   <lb ed="#PL"/> existimo intelligi, <hi rend="italic">Modicum et jam non videbitis</hi> me, 
+   <lb ed="#PL"/>
+       <hi rend="italic">et iterum modicum et videbitis me.</hi> Modicum est enim 
+   <lb ed="#PL"/> hoc totum spatium quo praesens pervolat saeculum : 
+   <lb ed="#PL"/> unde dicit idem ipse evangelista in Epistola sua, <hi rend="italic">No­</hi>
+   
+       <lb ed="#PL"/> vissima <hi rend="italic">hora eat</hi> (I Jorn. 11,18). Ideo namque addidit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">quia vado ad Patrem</hi> . quod ad priorem sententiam 
+   <lb ed="#PL"/> referendum est, ubi ait, <hi rend="italic">Modicum et jam non</hi> videbitis 
+   <lb ed="#PL"/>
+       <hi rend="italic">me;</hi> non ad posteriorem ubi ait, <hi rend="italic">et iterum
+    modicum et
+   <lb ed="#PL"/> videbitis Me.</hi> Eundo quippe ad Patrem, facturus erat 
+   <lb ed="#PL"/> ut cum non viderent. Ac per hoc non ideo dictum est, 
+   <lb ed="#PL"/> quia fuerat moriturus, et donec resurgeret, ab eorum 
+   <lb ed="#PL"/> aspectibus recessurus; sed quod esset iturus ad Pa<lb ed="#PL" break="no"/>trem,
+   quod fecit posteaquam resurrexit, et cum eis 
+   <lb ed="#PL"/> per quadraginta dies conversatus ascendit in caelum 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Act.</hi> I, 3, 9). Illis ergo ait, <hi rend="italic">Modicum et jam
+    non vide­
+   <lb ed="#PL"/> bitis</hi> me , qui eum corporaliter tunc videbant, quia 
+   <lb ed="#PL"/> iturus erat ad Patrem, et eum deinceps mortalem vi<lb ed="#PL" break="no"/>suri
+   non crant, qualem cum ista loqueretur videbant. 
+   <lb ed="#PL"/> Quod vero addidit, <hi rend="italic">et iterum</hi> modicum
+    <hi rend="italic">et videbitis me,</hi>
+   
+       <lb ed="#PL"/> universae promisit Ecclesiae : sicut universae promisit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ecce ego vobiscum sum usque</hi> in <hi rend="italic">consummationem</hi> sae­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">culi (Matth.</hi> XXVIII , 20). Non tardat Dominus pro<lb ed="#PL" break="no"/>missum : modicum, et videbimus eum, ubi jam nihil 
+   <lb ed="#PL"/> rogcmus, nihil interrogemus ;quia nibil desideran<lb ed="#PL" break="no"/>dum
+   rcmancbit, nihil quaerendum latebit. Hoc mo<lb ed="#PL" break="no"/>dicum
+   longum uobis videtur, quoniam adhuc agitur : 
+   <lb ed="#PL"/> cum finitum fuerit, tunc sentiemus quam modicum 
+   <lb ed="#PL"/> fuerit. Non ergo sit gaudium nostrum quale habet 
+   <lb ed="#PL"/> mundus, de quo dictum est, <hi rend="italic">Mundus autem gaudebit:</hi>
+   
+   
+       <lb ed="#PL"/> nec tamen in hujus desiderii parturitione sine gaudio 
+   <lb ed="#PL"/> tristes simus, sed sicut ait Apostolus, <hi rend="italic">Spe gaudentes,</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">tribulatione patientes (Rom.</hi> xu , 12); quiaetipsa
+   
+   <lb ed="#PL"/> parturiens, cui comparati sumus, plus gaudet de mox 
+   <lb ed="#PL"/> futura prole, quam tristis est de praesenti dolore. Sul 
+   <lb ed="#PL"/> hujus sernaonis iste sit finis: habent enim quaestionem 
+   <lb ed="#PL"/> molestissimam quae sequuntur, nec brevitate coar<lb ed="#PL" break="no"/>ctanda
+   sunt, ut possint commodius , si Dominus vo 
+   <lb ed="#PL"/> luerit, explicari.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

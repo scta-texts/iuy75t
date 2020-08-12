@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 17</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 17</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e181"> <!-- iuy75t-t17 -->
+      <head xml:id="iuy75t-d1e181-Hd1e109">Tractatus 17</head>
+      <p xml:id="iuy75t-d1e181-d1e112">
+       <hi rend="italic">Ab</hi> eo <hi rend="italic">quod scriptum est,</hi> rOM haec erat dies festus Ju<lb ed="#PL" break="no"/>dacorum, et ascendit Jesus Jerosolymam ; <hi rend="italic">usque
+    ad</hi>
+   
+       <lb ed="#PL"/> id, Quaerebant eum Judxi interficere. quia non so<lb ed="#PL" break="no"/>lum
+   solvebat sabbatum, sed et patrem suum dicebat 
+   <lb ed="#PL"/> Deum, xqualem se laciens Deo. <hi rend="italic">Cap.</hi> v, f . i 18.</p>
+      <p xml:id="iuy75t-d1e181-d1e136">i. Mirum non esse debet a Dco factum miraeulum: 
+   <lb ed="#PL"/> miram enim esset si hemo fecisset. Magis gaudere 
+   <lb ed="#PL"/> quam mirari . debemus, quia Dominus noster et sal<lb ed="#PL" break="no"/>vator
+   Jesus Christus homo factus est, quam quod di<lb ed="#PL" break="no"/>vina
+   inter homines Deus fecit. Plus est enim ad salu<lb ed="#PL" break="no"/>tem
+   nostram quod factus est propter homines, quam 
+   <lb ed="#PL"/> quod fecit inter homines: et plus est quod vitia sana<lb ed="#PL" break="no"/>vit
+   animarum, quam quodsanavit languores corporum 
+   <lb ed="#PL"/> moriturorum. Sed quia ipsa anima non eum noverat a
+   
+   <lb ed="#PL"/> quo sananda erat, et oculos habebat in carne unde 
+   <lb ed="#PL"/> facta corporatia videret, nondum habebat sanos in 
+   <lb ed="#PL"/> eorde, unde Deum tateniem cognosceret; fecit quod 
+   <lb ed="#PL"/> videre poterat. ut sanaretur unde videre non poterat. 
+   <lb ed="#PL"/> Ingressus est locum ubi jacebat magna multitudo lan<lb ed="#PL" break="no"/>guentium, caecorum, claudorum, aridorum; et cum 
+   <lb ed="#PL"/> esset medicus et animarum et corporum,etqui venis<lb ed="#PL" break="no"/>set
+   sanare omnes animas crediturorum, de illis lan<lb ed="#PL" break="no"/>guentibus
+   unum elegit quem sanarct, ut unitatem si­
+   
+   <lb ed="#PL"/> gniftcaret. Si mediocri corde, et quasi humano captu 
+   <lb ed="#PL"/> et ingenio consideremus facientem, et quod ad potesta<lb ed="#PL" break="no"/>tem
+   pertinet, noa magnum aliquid perfecit; et quod
+   
+   <lb ed="#PL"/> ad benignitatem, parnm . fecit. Tot jacebant , et unus 
+   <lb ed="#PL"/> curatus est, eam posset ono verbo omnes erigere. 
+   <lb ed="#PL"/> Quid ergo intettigendum est, nisi quia potestas iba et 
+   <lb ed="#PL"/> bonitas itta magis agebat quid animae in factis ejus 
+   <lb ed="#PL"/> pro salute sempiterna intelligerent, quam quid pro 
+   <lb ed="#PL"/> temporati salute corpora mererentur? Corporum enim 
+   <lb ed="#PL"/> salus quae vera exspectatur a Domino, erit in fine in 
+   <lb ed="#PL"/> resurrectione mortuorum : tunc quod vivet, non mo<lb ed="#PL" break="no"/>rietur; tune quod sanabitur, non aegrotabit; tune 
+   <lb ed="#PL"/> quod satiabitur, non esuriet aut sitiet; tunc quod re. 
+   <lb ed="#PL"/> novabitur, non veterascet. Nunc vero in iHis factis 
+   <lb ed="#PL"/> Domini et salvatoris nostn esu Christi, et caecorum 
+   <lb ed="#PL"/> aperti oculi, morte clausi sunt; et paralyticorum 
+   <lb ed="#PL"/> membra constricta, morte dissoluta sunt; et quid<lb ed="#PL" break="no"/>quid
+   sanatum est temporatiter in membris mortalibus, 
+   <lb ed="#PL"/> in fine defecit : anima vero quae credidit; ad vitam 
+   <lb ed="#PL"/> aeternam transitum fecit. Animae ergo crediturae, eu- 
+   
+   <lb ed="#PL"/> jus peccata dimittere venerat, ad cujus languorcs sa<lb ed="#PL" break="no"/>nandos
+   so humiliavcrat, de hoc languido sanato ma<lb ed="#PL" break="no"/>gnum
+   signum dedit. Cujus rei et cujus signi pro<lb ed="#PL" break="no"/>fundum
+   sacramentum, quantum Dominus donare 
+   <lb ed="#PL"/> dignatur, attentis vobis et orando adjuvantibus infir<lb ed="#PL" break="no"/>mitatem
+   nostram, loquar ut potero. Quidquid autcm 
+   <lb ed="#PL"/> non possum, supplebit in vobis ipse, quo adjuvante 
+   <lb ed="#PL"/> facio quod possum.</p>
+      <p xml:id="iuy75t-d1e181-d1e236">i. De hac piscina quae quinquc porticibus cingeba<lb ed="#PL" break="no"/>tur, in quibus jacebat magna multitudo languentium, 
+   <lb ed="#PL"/> assidue nos tractasse memini; et rem dicturus sum 
+   <lb ed="#PL"/> quam mecum plures rccognoscant potius quam co<lb ed="#PL" break="no"/>gnoscant. Verum nihil est ab re, etiam nota re<lb ed="#PL" break="no"/>pctere, ut et qui non noverant instruantur; et qui 
+   <lb ed="#PL"/> noverant confirmentur. Proinde tanquam nota bre<lb ed="#PL" break="no"/>viter
+   perstringenda sunt, non otiose inculcanda. 
+   <lb ed="#PL"/> Piscina illa et aqua illa populum mihi vidctur si<lb ed="#PL" break="no"/>gnificasse
+   Judaeorum. Significari enim populos no<lb ed="#PL" break="no"/>mine
+   aquarum, aperte nobis indicat Apocalypsis 
+   <lb ed="#PL"/> Joannis : ubi ei cum ostenderentur aquae multae, et 
+   <lb ed="#PL"/> interrogasset quid essent, responsum accepit, popu<lb ed="#PL" break="no"/>los
+   esse <hi rend="italic">(Apoc.</hi> XVII, 45). Aqua ergo illa, id est popu<lb ed="#PL" break="no"/>lus
+   ille, quinque libris Moysi, tanquam quinque por<lb ed="#PL" break="no"/>ticibus
+   claudebatur. Sed illi libri prodcbant langui<lb ed="#PL" break="no"/>dos, non sanabant. Lex enim peccatores convincebat, 
+   <lb ed="#PL"/> non absolvebat. Ideo littera sine gratia reos faciebat, 
+   <lb ed="#PL"/> quos confitentes gratia liberabat. Nam hoc dicit Apo<lb ed="#PL" break="no"/>stolus
+   : Si <hi rend="italic">enim data esset lex quae posset vivificare,
+   <lb ed="#PL"/> omnino ex
+    Lege esset justitia.</hi> Quare ergo data est 
+   <lb ed="#PL"/> Lex? Sequitur, et dicit : <hi rend="italic">Sed conclusit Scriptura</hi> ORI<lb ed="#PL" break="no"/>nia <hi rend="italic">sub</hi> peccatO, <hi rend="italic">ut promissio ex fide Jesu Christi dare<lb ed="#PL" break="no"/>tur
+    credentibus</hi> (Galat. Ut, 21, 22). Quid evidentins? 
+   <lb ed="#PL"/> Nonne verba haec exposuerunt nobisetquinque por<lb ed="#PL" break="no"/>ticus, et languentium multitudinem ? Quinque porticus 
+   <lb ed="#PL"/> Lcx est. Quare quinque porticus nan sanabant lan<lb ed="#PL" break="no"/>guentes? Quia <hi rend="italic">si data esset</hi> lex quoe <hi rend="italic">posset</hi> vivificare,
+   
+   <lb ed="#PL"/> omnino <hi rend="italic">cx Lege esset</hi> justitia. Quare ergo concinebant 
+   <lb ed="#PL"/> quos non sanabant? Quia <hi rend="italic">conclusit</hi> Scriptura omnia 
+   <lb ed="#PL"/> sub <hi rend="italic">peccato, ut</hi> promissio <hi rend="italic">ex fide Jesu</hi> Christi daretur 
+   <lb ed="#PL"/>
+       <hi rend="italic">credentibus</hi>
+      </p>
+      <p xml:id="iuy75t-d1e181-d1e344">3. Quid ergo fiebat ut in aqua illa turbata sanaren<lb ed="#PL" break="no"/>tur, qui in porticibus sanari non poterant? Subito 
+   <lb ed="#PL"/> cnim videhatur aqua turbata, et a quo turbabatur,
+   
+   <lb ed="#PL"/> non videbatur. Creas hoc angelica virtute fieri so<lb ed="#PL" break="no"/>lere , non tamen sine significante aliquo sacramento. 
+   <lb ed="#PL"/> Post aquam turbatam mittebat se unus qui poterat,
+   
+   <lb ed="#PL"/> et sanabatur solus : post illum quisquis se mitteret, 
+   <lb ed="#PL"/> frustra faceret. Quid sibi ergo hoc vult, nisi quia 
+   <lb ed="#PL"/> venit unus Christus ad populum Judaeorum; et fa­
+   
+   <lb ed="#PL"/> ciendo magna, docendo utilia, turbavit peccatores, 
+   <lb ed="#PL"/> turbavit aquam presentia sua, et excitavit ad passio<lb ed="#PL" break="no"/>nem
+   suam? Sed latens turbavit. Si enim cognovis­
+   
+   <lb ed="#PL"/> sent, nunquam Dominum gloriae crucifixissent (I <hi rend="italic">Cor.</hi>
+   
+       <lb ed="#PL"/> II, 8). Descendere ergo in aquam turbatam, hoc est 
+   <lb ed="#PL"/> humiliter credere in Domini passionem. Ibi sanaba<lb ed="#PL" break="no"/>tur
+   unus, significans unitatem; postea quisquis veni<lb ed="#PL" break="no"/>ret, non sanabatur : qnia quisquis praeter unitatem 
+   <lb ed="#PL"/> fuerit, sanari non poterit.</p>
+      <p xml:id="iuy75t-d1e181-d1e387">4. Videamus ergo quid voluerit significare in illo 
+   <pb ed="#PL" n="1529"/>
+       <lb ed="#PL"/> uno, quem etiam ipse servans unitatis mysterium, 
+   <lb ed="#PL"/> sicut praelocutus sum, de tot languentibus unum 
+   <lb ed="#PL"/> sanare dignatus est. Invenit in annis ejus numerum
+   
+   <lb ed="#PL"/> quemdam languoris : <hi rend="italic">Triginta octo annos habebat</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">infirmitate.</hi> IIic numerus quomodo magis ad languo<lb ed="#PL" break="no"/>rem
+   perlincat, qnam ad sanitatcm, panlo diligentius 
+   <lb ed="#PL"/> exponendum est. Intentos vos volo; adcril Dominns, 
+   <lb ed="#PL"/> ut congrue loquar, et sufficienter audiatis. Quadra<lb ed="#PL" break="no"/>genarius
+   numerus sacratus nobis in quadam perfe<lb ed="#PL" break="no"/>ctione
+   commendatur. Notum esse arbitror Charitati 
+   <lb ed="#PL"/> vostrae : testantur saepissime divinae Scripturae. Jeju<lb ed="#PL" break="no"/>nium
+   hoc numero consecratum est : bene nostis. 
+   <lb ed="#PL"/> NametMoyses quadraginta dicbus jejunavit <hi rend="italic">(Exod.</hi>
+   
+       <lb ed="#PL"/> xxxiv, 28), et Elias totidem (Ill <hi rend="italic">Reg.</hi> xix, 8), et 
+   <lb ed="#PL"/> ipse Dominus noster et salvator Jesus Christus hunc 
+   <lb ed="#PL"/> jejunii numerum implevit <hi rend="italic">(Matth.</hi> IV, 2). Per Moysen 
+   <lb ed="#PL"/> significatur Lea, per Etiam significantur Prophetae, 
+   <lb ed="#PL"/> per Dominum significatur Evangelium. Ideo in illo 
+   <lb ed="#PL"/> monte tres apparuerunt, ubi se discipulis ostendit 
+   <lb ed="#PL"/> in claritate vultus et vestis suae. Apparuit enim me<lb ed="#PL" break="no"/>dius
+   inter Moysen et Etiam <hi rend="italic">(Id.</hi> xvu, 1-3), tanquam 
+   <lb ed="#PL"/> Evangelium testimonium haberet a Lege et Prophe<lb ed="#PL" break="no"/>tis <hi rend="italic">(Rom.</hi> III, 21). Sive ergo in Lege, sive in Prophe<lb ed="#PL" break="no"/>tis, sive in Evangelio, quadragenarius numerus no<lb ed="#PL" break="no"/>bis
+   in jejunio commendatur. Jejunium autem magnum 
+   <lb ed="#PL"/> et generale est, abstinere ab iniquitatibus et illicitis 
+   <lb ed="#PL"/> voluptatibus saeculi quod est perfectum jejunium : 
+   <lb ed="#PL"/> ut <hi rend="italic">abnegantes
+    impietatem et soeculares cupiditates,
+   <lb ed="#PL"/> temperanter, et juste, et pie vicamus in hoc
+    soeculo.</hi>
+   
+       <lb ed="#PL"/> Huic jejunio quam mercedem addit Apostolus? Se<lb ed="#PL" break="no"/>quitur, et dicit: <hi rend="italic">Exspectantes illam beatam spem, eI 
+   <lb ed="#PL"/> manifestationem glorioe beati
+    Dei, et salvatoris nostri
+   <lb ed="#PL"/> Jesu Christi (Tit.</hi> II, 12, 13). In hoc ergo saeculo
+   
+   <lb ed="#PL"/> quasi Quadragesimam abstinentiae celebramus, cum 
+   <lb ed="#PL"/> bene vivimus, cum ab iniquitatibus et ab illicitis 
+   <lb ed="#PL"/> voluptatibus abstinemus. Sed quia haec abstinentia
+   
+   <lb ed="#PL"/> sine mercede non erit, exspectamus <hi rend="italic">beatam</hi> illam 
+   <lb ed="#PL"/>
+       <hi rend="italic">spem, et revelationem gloriae</hi> magni <hi rend="italic">Dei, et
+    salvatoris 
+   <lb ed="#PL"/> nostri Jesu Christi.</hi> In illa spc, cum fuerit de spe fa<lb ed="#PL" break="no"/>cta
+   res, accepturi sunnis mercedem denarium. Ipsa 
+   <lb ed="#PL"/> enim merces redditur operariis in vinea laborantibus 
+   <lb ed="#PL"/> secundum Evangelium <hi rend="italic">(Matth.</hi> xx, 9, 10), quod vos 
+   <lb ed="#PL"/> credo reminisci : neque enim omnia commemoranda 
+   <lb ed="#PL"/> sunt, tanquam rudibus et imperilis. Dcnarius ergo 
+   <lb ed="#PL"/> qui accepit nornen a numero decem, redditur, et con<lb ed="#PL" break="no"/>junctus
+   quadragenario fit quinquagenarius : unde cum 
+   <lb ed="#PL"/> labore celebramus Quadragesimam ante Pascha ; cum 
+   <lb ed="#PL"/> laetitia vero, tanquam accepta mercede, Quinquage<lb ed="#PL" break="no"/>simam
+   post Pascha. Nam huic tanquam salutari la<lb ed="#PL" break="no"/>bori
+   boni operis, qui pertinet ad quadragenarium 
+   <lb ed="#PL"/> numerum, additur quietis et felicitatis denarius, ut 
+   <lb ed="#PL"/> quinquagcnarius fiat.</p>
+      <p xml:id="iuy75t-d1e181-d1e545">5. Significavit hocetipse Dominus Jesus multo 
+   <lb ed="#PL"/> apertius, quando post resurrectionem quadraginta 
+   <lb ed="#PL"/> diebus conversatus est in terra cum discipulis suis 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Act.</hi> 1. 3); quadragesimo autem die cum ascendisset 
+   <lb ed="#PL"/> in coelum, peractis decem diebus misit mercedem 
+   <lb ed="#PL"/> Spiritus sancti <hi rend="italic">(Id.</hi> II, i 4). Significata sunt ista,et
+   <lb ed="#PL"/> quibusdam significationibus res ipsae praeventae sunt. 
+   <lb ed="#PL"/> Signiflcationibus pascimur, ut ad res ipsas perduran<lb ed="#PL" break="no"/>tes
+   pervenire possimus. Operarii enim sumus,et
+   <lb ed="#PL"/> adhuc in vinca laboramus : finito die, finito opere, 
+   <lb ed="#PL"/> merces restituctur. Sed quis operarius perdurat ad 
+   <lb ed="#PL"/> accipiendam mercedem, nisi qui pascitur cum labo<lb ed="#PL" break="no"/>rat? Non cnim et tu operario tuo mercedem solam 
+   <lb ed="#PL"/> daturus es : non etiam afferes illi unde vires reparet in 
+   <lb ed="#PL"/> labore? Pascis utique cui mercedem daturus es. 
+   <lb ed="#PL"/> Proinde et nos Dominus in istis Scripturarum signi<lb ed="#PL" break="no"/>ficationibus
+   laborantes pascit. Nam si ista intelligen<lb ed="#PL" break="no"/>dorum
+   sacramentorum laetitia subtrahatur a nobis, 
+   <lb ed="#PL"/> deficimus in labore, et non erit qui perveniat ad 
+   <lb ed="#PL"/> mercedem.</p>
+      <p xml:id="iuy75t-d1e181-d1e595">6. Quomodo ergo quadragenario numero perfici<lb ed="#PL" break="no"/>tur
+   opus? Fortasse ideo, quia Lex in decem praece<lb ed="#PL" break="no"/>ptis
+   data est, et per totum mundum praedicanda erat 
+   <lb ed="#PL"/> Lex : qui totus mundus quatuor partibus commen<lb ed="#PL" break="no"/>datur, Oriente et Occidente, Meridie et Aquilone, 
+   <lb ed="#PL"/> unde dcnarius per quatuor multiplicatus, ad quadra<lb ed="#PL" break="no"/>genarium
+   pervenit. Vel quia per Evangelium quod 
+   <lb ed="#PL"/> quatuor libros habct, impletur Lex : quia in Evan<lb ed="#PL" break="no"/>gelio
+   dictum est, <hi rend="italic">Non reni solvere Legem, sed adim­
+    
+   <lb ed="#PL"/> plere (Matth,.</hi> v, 17). Sive ergo illa, sive ista ausa, sive 
+   <lb ed="#PL"/> alia aliqua probabiliore, quae nos latet, doctiores non 
+   <lb ed="#PL"/> latet; certum est tamen quadragenario numero signi<lb ed="#PL" break="no"/>ficari
+   quamdam perfectionem in operibus bonis, quae
+   
+   <lb ed="#PL"/> maxime opera bona exercentur in abstinentia qua<lb ed="#PL" break="no"/>dam
+   ab illicitis cupiditatibus 1 saeculi, hoc est, gene<lb ed="#PL" break="no"/>rali
+   jejunio. Audi et Apostolum dicentem,
+    <hi rend="italic">Plenitudo 
+   <lb ed="#PL"/> Legis charitas</hi> (Rom. xm, 10). Charitas unde ? Per 
+   <lb ed="#PL"/> gratiam Dei, per Spiritum sanctum. Non enim habe<lb ed="#PL" break="no"/>remus
+   illam ex nobis, quasi facienLes illam nobis. 
+   <lb ed="#PL"/> Dei donum est, et magnum donum : <hi rend="italic">Quoniam chari­
+   <lb ed="#PL"/> tas Dei,</hi> inquit, diffusa <hi rend="italic">est</hi> in <hi rend="italic">cordibus</hi> nostris <hi rend="italic">per Spi­
+   <lb ed="#PL"/> ritum sanctum qui
+    datus eat nobis</hi> (Id. v,5). Charitas 
+   <lb ed="#PL"/> ergo implet Legem, et verissime dictum est, Pleni. 
+   <lb ed="#PL"/>
+       <hi rend="italic">tudo Legis charitas.</hi> Quaeramus hanc charitatem, quem • 
+   <lb ed="#PL"/> admodum I commendatur a Domino. Mementote 
+   <lb ed="#PL"/> quid proposuerim : numerum triginta octo annorum 
+   <lb ed="#PL"/> in illo languido volo exponere, quare numerus illo 
+   <lb ed="#PL"/> trigesimus octavus languoris sit potius quam sanita<lb ed="#PL" break="no"/>tis. Ergo, ut dicebam, charitas implet Legem. Ad 
+   <lb ed="#PL"/> plenitudinem Lcgis in omnibus operibus pertinet qua<lb ed="#PL" break="no"/>dragenarius
+   numerus : in charitate autem dno prae<lb ed="#PL" break="no"/>cepta
+   nobis commendantur. Intuemini, obsecro, et 
+   <lb ed="#PL"/> figite memoriae quod dico; ne sitis contemptores 
+   <lb ed="#PL"/> verbi, ne fiat anima vestra via, ubi grana jacta nor 
+   <lb ed="#PL"/> germinent : <hi rend="italic">Et
+    venient,</hi> inquit, <hi rend="italic">volatilia</hi> coeli, <hi rend="italic">et
+    colli<lb ed="#PL" break="no"/>gent
+   ea (Marc.</hi> IV, 4). Percipite, et recondite in cor<lb ed="#PL" break="no"/>dibus
+   vestris. Charitatis praecepta duo sunt a Domi<lb ed="#PL" break="no"/>no
+   commendata : <hi rend="italic">Diliges Dominum Deum tuum</hi> ex 
+   <lb ed="#PL"/>
+       <hi rend="italic">toto corde tuo, et</hi> ex <hi rend="italic">tota anima tua, et ex
+    tota mento 
+   <lb ed="#PL"/> tua;</hi> et, <hi rend="italic">Diliges proximum tuum tanquam
+    teipsum. In
+   <lb ed="#PL"/> his duobus proeceptis tora Lex pendet et Prophetoe, 
+   <lb ed="#PL"/> (Matth.</hi> XXII, 37-.40). Merito et illa vidua omnes fa<lb ed="#PL" break="no"/>cultates
+   suas, duo minuta misit in dona Dei <hi rend="italic">(Luc.</hi>
+   
+       <lb ed="#PL"/> xxi, 2-4) : merito et pro illo languido a latronibus 
+   
+   <pb ed="#PL" n="1531"/>
+       <lb ed="#PL"/> sauciata, stabularius duos nummos accepit unde sa<lb ed="#PL" break="no"/>naretur <hi rend="italic">(Luc.</hi> x, 55) : merito apud Samaritanos bi<lb ed="#PL" break="no"/>duum
+   fecit Jesus, ut eos charitate firmaret <hi rend="italic">(Joan.</hi> iv, 
+   <lb ed="#PL"/> 40). Binario ergo isto numcro cum aliquid boni si<lb ed="#PL" break="no"/>gnificatur
+   maximc bipartita charitas commendatur.
+   
+   <lb ed="#PL"/> Si ergo qnadrageaarius numerus habet perfectionem 
+   <lb ed="#PL"/> Legis et Lex non impletur nisi in gemino praecepto 
+   <lb ed="#PL"/> charitatis; quid miraris quia languebat qui ad qua<lb ed="#PL" break="no"/>draginta,
+   duo minus habebat?</p>
+      <p xml:id="iuy75t-d1e181-d1e765">7. Videamus proinde jam quo sacramento iste 
+   <lb ed="#PL"/> languidus curetur a Domino. Venit enim ipse Domi<lb ed="#PL" break="no"/>nus, charitatis doctor, charitate plenus, <hi rend="italic">brevians,</hi> sicut 
+   <lb ed="#PL"/> de illo praedictum est, <hi rend="italic">verbum super
+    terram(Isai.</hi> x, 
+   <lb ed="#PL"/> 25, <hi rend="italic">et</hi> XXXVIII, 22; Rom. ix, 28) : et ostendit in duo<lb ed="#PL" break="no"/>bus
+   praeceptis charitatis pendere Legem et Prophetas. 
+   <lb ed="#PL"/> Inde ergo pependit Moyscs quadragenario suo, inde 
+   <lb ed="#PL"/> Elias cum. suo, hunc numerum attulit Dominus in 
+   <lb ed="#PL"/> testimonio suo. Curatur iste languidus a praesente 
+   <lb ed="#PL"/> Domino; sed prius quid ei dicit? <hi rend="italic">Via</hi> a..... fieri? Re<lb ed="#PL" break="no"/>spondi
+   ' iNe bominem se non babere, a quo in pisci- , 
+   <lb ed="#PL"/> Bam mittatur. Vere necessarius erat ilii homo ad 
+   <lb ed="#PL"/> sanitatem, sed homo ille qui et Deus est. <hi rend="italic">Unus enim.
+   <lb ed="#PL"/> Deus,</hi> unus <hi rend="italic">et</hi> mediator <hi rend="italic">Dei</hi> et <hi rend="italic">hominum, homo</hi> Christus 
+   <lb ed="#PL"/> Jesus (I Tim. n, 5). Venit ergo homo qui erat neces<lb ed="#PL" break="no"/>sarius : quare sanitas differretur?
+    <hi rend="italic">Surge,</hi> inquit, <hi rend="italic">tolle
+   <lb ed="#PL"/> grabalum</hi> tuum, et aMiMa. Tria dixit, <hi rend="italic">Surge, toUe</hi>
+   
+       <lb ed="#PL"/> grabatum <hi rend="italic">tuum,</hi> et <hi rend="italic">amMa.</hi> Sed <hi rend="italic">Surge,</hi> non operis 
+   <lb ed="#PL"/> imperium fuit, sed operatio sanitalis. Sano autem 
+   <lb ed="#PL"/> duo imperavit, <hi rend="italic">Tolle</hi> grabatum tuum, <hi rend="italic">et ambula.</hi> Rogo 
+   <lb ed="#PL"/> vos, cur noa sufficeret, <hi rend="italic">Ambula?</hi> aut certe cur non 
+   <lb ed="#PL"/> sufficeret, Surge? Neque enim ille cum sanus sur<lb ed="#PL" break="no"/>rexisset,
+   in loco remansisset. Nonne ad hoc surrexisset 
+   <lb ed="#PL"/> ut abiisset? Movet ergo me etiam quod duo praecepit, 
+   <lb ed="#PL"/> qui illum jacentem duobus minus invenit : tanquam 
+   <lb ed="#PL"/> enim, duo quaedamjubendo, quod minus erat implevit.</p>
+      <p xml:id="iuy75t-d1e181-d1e875">8. Quomodo ergo inveniamus in his duobus Domini 
+   <lb ed="#PL"/> jussis, duo iila praecepta significata charitatis ? <hi rend="italic">Tolle,</hi>
+   
+       <lb ed="#PL"/> inquit, grabatum tuum, <hi rend="italic">et</hi> ambula. Quae sunt illa duo 
+   <lb ed="#PL"/> praecepta, fratres, recolite mecum. Notissima enim 
+   <lb ed="#PL"/> esse debent, nec modo tantum venire in mentem cum 
+   <lb ed="#PL"/> commemorantur a nohis, sed dcleri nunquam debent 
+   <lb ed="#PL"/> de cerdibus vestris. Semper omnino cogitate diligcn<lb ed="#PL" break="no"/>dum
+   esse Deum et proximum : <hi rend="italic">Deum ex toto corde, ex
+   <lb ed="#PL"/> tota</hi> anima, <hi rend="italic">ei ex
+    tota mente;</hi> et <hi rend="italic">proximum tanquam se­</hi>
+   
+       <lb ed="#PL"/> ipsum. Haec semper cogitanda, hxc meditanda , haec 
+   <lb ed="#PL"/> retinenda, haec agenda , haec implenda sunt. Dei di<lb ed="#PL" break="no"/>lectio
+   prior est ordine praecipiendi; proximi autem 
+   <lb ed="#PL"/> dilectio prior est ordine faciendi. Neque enim qui libi 
+   <lb ed="#PL"/> praeciperet dilectionem istam in duobus praeceptis, 
+   <lb ed="#PL"/> prius tibi commendarct proximum, et postea Deum; 
+   <lb ed="#PL"/> sed prius Deum, postea proximum. Tu autem quia 
+   <lb ed="#PL"/> Deum nondum vides, diligendo proximum prome<lb ed="#PL" break="no"/>reris
+   quem videas ; diligendo proximum purgas ocu<lb ed="#PL" break="no"/>lum
+   ad videndum Deum, evidenter Joanne dicente, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Si fratrem quem vides</hi> non <hi rend="italic">diligis, Deum quem
+    non</hi> vides 
+   <lb ed="#PL"/>
+       <hi rend="italic">quomodo diligere poteris</hi> (I <hi rend="italic">Joan.</hi> IV, 20)? Ecce dicitur 
+   <lb ed="#PL"/> tibi, Dilige Deum. Si dicas mihi, Ostende mihi qucm 
+   <lb ed="#PL"/> diligam ; quid respondebo, nisi quod ait ipse Joannes, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Deum</hi> nemo <hi rend="italic">vidit unquam (Joan.</hi> i, 18)? Et nc te 
+   <lb ed="#PL"/> alieuum omnino a Deo videndo esse arbitreris : Deus, 
+   <lb ed="#PL"/> inquit, <hi rend="italic">charitas eit; et qui manet in charitate</hi> , iii <hi rend="italic">Deo
+   <lb ed="#PL"/> manet</hi> (I <hi rend="italic">Joan.</hi> iv, 16). Diligo ergo proximum : et in<lb ed="#PL" break="no"/>tuere
+   in te unde diligis proximum ; ibi videbis , ut 
+   <lb ed="#PL"/> poteris, Deum. Incipe ergo diligere proximum. <hi rend="italic">Frange 
+   <lb ed="#PL"/> esurienti panem tuum, et
+    egenum sine tecto induc in do
+   <lb ed="#PL"/> mum tuam : si videris nudunl, vesti, et domesticos
+    se<lb ed="#PL" break="no"/>minis</hi> tui <hi rend="italic">ne despexeris.</hi> Faciens autem isla quid conse<lb ed="#PL" break="no"/>queris ? <hi rend="italic">Tunc erumpet velut malutina lux tua (Isai.</hi> LVIII, 
+   <lb ed="#PL"/> 7, 8). Lux tua Deus tuus est, tibi <hi rend="italic">matutina,</hi> quia post 
+   <lb ed="#PL"/> noctem saeculi tibi veniet : nam ille nec oritur, nee 
+   <lb ed="#PL"/> occidit ; quia semper manet. Erit libi matutinus red<lb ed="#PL" break="no"/>eunti, qui tibi occasum feccrat pereunti. Ergo, <hi rend="italic">Tolle
+   <lb ed="#PL"/> grabatum tuum,</hi> mihi videtur dixisse, Dilige proxi<lb ed="#PL" break="no"/>mum
+   tuum.</p>
+      <p xml:id="iuy75t-d1e181-d1e1020">9. Sed clausum est adhuc, et expositione indiget, 
+   <lb ed="#PL"/> quantum arbitror, quare in tollendo grabato dilectio 
+   <lb ed="#PL"/> proximi commendetur : nisi forte hoc nos offendit, 
+   <lb ed="#PL"/> quod per grabatum, rem quamdam stolidam et insen<lb ed="#PL" break="no"/>satam, proximus commendatur. Non irascatur pron<lb ed="#PL" break="no"/>mus, si commendatur nobis per rem quae sine anima 
+   <lb ed="#PL"/> et sine sensu est. Ipse Dominus et salvator noster Je<lb ed="#PL" break="no"/>sus
+   Christus lapis angularis dictus est, ut duos con<lb ed="#PL" break="no"/>deret
+   in se <hi rend="italic">(Ephes.</hi> 11, 14-20). Dictus est et petra, unde 
+   <lb ed="#PL"/> aqua profluxit: <hi rend="italic">Petra autem erat
+    Christus</hi> (I <hi rend="italic">Cor.</hi> x, 4). 
+   <lb ed="#PL"/> Quid ergo mirum, si Petra Christus, lignum proxi<lb ed="#PL" break="no"/>mus ? Non tamen qualecumque lignum : quomodo nec 
+   <lb ed="#PL"/> illa qualiscumque petra, sed unde aqua profluxerat si<lb ed="#PL" break="no"/>tienLibus; nec qualiscumque lapis, sed angularis, qui 
+   <lb ed="#PL"/> in semetipso copulavit duos parietes e diverso ve<lb ed="#PL" break="no"/>nientes.
+   Sic nec qualecumque lignum proximum ac<lb ed="#PL" break="no"/>ceperis, sed grabatum. Quid ergo in grabato, obsecro 
+   <lb ed="#PL"/> te? quid, nisi quia ille languidus grabato portabatur? 
+   <lb ed="#PL"/> Sanus autem grabatum portat. Quid dictum est ab 
+   <lb ed="#PL"/> Apostolo ? <hi rend="italic">Invicem onera vestra portate, et sic adimple­
+   <lb ed="#PL"/> bitis legem</hi> Christi ( Galat. VI, i). Lex ergo Christi 
+   <lb ed="#PL"/> charitas est, nec charitas impletur nisi invicem onera
+   
+   <lb ed="#PL"/> nostra portemus. <hi rend="italic">Sufferentes,</hi> inquit, <hi rend="italic">invicem in dUe­</hi>
+   
+       <lb ed="#PL"/> ctione, <hi rend="italic">studentes servare unitatem spiritus in vinculo pa­</hi>
+   
+       <lb ed="#PL"/> ria <hi rend="italic">(Ephes.</hi> iv, i, 3). Cum csses languidus, portabat 
+   <lb ed="#PL"/> te proximus tuus ; sanus factus es, porta proximum 
+   <lb ed="#PL"/> tuum : <hi rend="italic">Invicem onera vestra portate, et sic</hi> adimplebitis 
+   <lb ed="#PL"/>
+       <hi rend="italic">legem Christi.</hi> Sic adimplebis, o homo, quod tibi de<lb ed="#PL" break="no"/>erat.
+    <hi rend="italic">Tolle ergo grabatum tuum.</hi> Sed cum tuleris, noli 
+   <lb ed="#PL"/> remanere,
+    <hi rend="italic">ambula.</hi> Diligendo proximum, et curam ha<lb ed="#PL" break="no"/>bendo
+   de proximo tuo, iter agis. Quo iter agis, nisi 
+   <lb ed="#PL"/> ad Dominum Deum, ad eum quem diligere debemus
+   
+   <lb ed="#PL"/> ex toto corde, ex tota anima, ex tota mente? Ad Do<lb ed="#PL" break="no"/>minum
+   enim nondum pervenimus, sed proximum no<lb ed="#PL" break="no"/>biscum
+   habemus. Porta ergo cum, cum quo ambulas;
+   
+   <lb ed="#PL"/> ut ad eum pervenias, cum quo manerc desidcras. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Tolle ergo grabatum tuum, et ambula.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e181-d1e1142">10. Fecit hoc ille, et scandalizati sunt Judaei. Vi<lb ed="#PL" break="no"/>debant
+   enim hominem dic sabbati portantem graba. 
+   <lb ed="#PL"/> tum suum, nec calumniabantur Domino quod sanum 
+   <lb ed="#PL"/> eum fecerat sabbato, ut eis respondere posset quia si 
+   <lb ed="#PL"/> cujusquam eorum jumentum in puteum cecidisset, 
+   <lb ed="#PL"/> utique dic sabbati erueret illud, ctsalvaret jumentum 
+   <lb ed="#PL"/> suum ( Luc. xiv, 5): non itaque jam illi objiciebant 
+   <pb ed="#PL" n="1533"/>
+       <lb ed="#PL"/> quod die sabbali santis factus esset bomo; sed quod 
+   <lb ed="#PL"/> portabat grabatum suunt. Si sanitas non erat differen<lb ed="#PL" break="no"/>da, numquid et opus fuerat imperaodmn? <hi rend="italic">Non licet
+   <lb ed="#PL"/> tibi,</hi> inquiunt, <hi rend="italic">facere quod</hi> facis, <hi rend="italic">tollere grabatum</hi> tuum. 
+   <lb ed="#PL"/> Et iDe auctorem sanitatis suae objiciebat calumniato<lb ed="#PL" break="no"/>ribus: Qui, inquit, me <hi rend="italic">fecit sanum, ipse</hi> mihi <hi rend="italic">dixit,</hi>
+   
+       <lb ed="#PL"/> Tolle grabatum <hi rend="italic">tuum, et ambula.</hi> Non acciperem jus<lb ed="#PL" break="no"/>sionem
+   a quo receperam sanitatem? Et illi : <hi rend="italic">Qui: est
+   <lb ed="#PL"/> ille</hi> homo <hi rend="italic">qui</hi> tibi <hi rend="italic">dixit, Tolle grabalum tuum, et
+    ambula</hi> ?</p>
+      <p xml:id="iuy75t-d1e181-d1e1207">ii. <hi rend="italic">Sed</hi> qvi <hi rend="italic">sanus erat factus nescicbat quis
+    esset,</hi> a 
+   <lb ed="#PL"/> quo hoc audierat. <hi rend="italic">Jesus</hi> autem, cum hoc fecisset, et 
+   <lb ed="#PL"/> jussisset, <hi rend="italic">declinaverat ab</hi> eo <hi rend="italic">in</hi> turba. Videte quemad<lb ed="#PL" break="no"/>modum
+   et boc impleatur. Portamus proximum, et 
+   <lb ed="#PL"/> ambulamus, ad Deum; sed eum ad quem ambula<lb ed="#PL" break="no"/>mus
+   r nondum videmus : ideo et ille nondum nove<lb ed="#PL" break="no"/>rat
+   Jesom. Sacramentum hoc commendatum est,
+   
+   <lb ed="#PL"/> quia ia eum credimus quem nondum videmus : et ut 
+   <lb ed="#PL"/> non videatur, declinat in turba. Difficile est in turba 
+   <lb ed="#PL"/> videre Christum : solitudo quaedam necessaria est
+   
+   <lb ed="#PL"/> menti nostrae ; quadam solitudine intentionis vkletur 
+   <lb ed="#PL"/> Deus. Turba strepitum habet; visio ista secretum de<lb ed="#PL" break="no"/>siderat. <hi rend="italic">Tolle grabatum
+    tuum,</hi> porta potatus proxi<lb ed="#PL" break="no"/>mum
+   tuum; et <hi rend="italic">ambula,</hi> tit pervenias. Noli Jesum 
+   <lb ed="#PL"/> quaerere in turba, non est tanquam unus de turba : 
+   <lb ed="#PL"/> praevenit omnem turbam. Prior ascendit de mari 
+   <lb ed="#PL"/> piscis ille magnus, et in caelis sedet interpellans pro 
+   <lb ed="#PL"/> nobis : tanquam sacerdos magnus, unus intravit in in<lb ed="#PL" break="no"/>teriora
+   veli: turbo Coris stat. Ambula tu, qui portas 
+   <lb ed="#PL"/> proximum tuum; si didicisti portarc, qui solebas por<lb ed="#PL" break="no"/>tari. Denique modo nondum nosti Jesum, nondum 
+   <lb ed="#PL"/> vides Jesum : quid postea sequitur? Quoniam non 
+   <lb ed="#PL"/> destitit ille tollendo grabatum suum , et ambulando, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Vidit eum</hi> postea <hi rend="italic">Jesus in templo.</hi> In turba non eum 
+   <lb ed="#PL"/> vidit, in templo vidit. Dominus quidem Jesus et in 
+   <lb ed="#PL"/> turba eum videbat, et in templo : ille autem langui<lb ed="#PL" break="no"/>dus
+   Jesum in turba non cognoscit, in templo cogno- • 
+   <lb ed="#PL"/> scit. Pervenit ergo ille ad Dominum; vidit eum in 
+   <lb ed="#PL"/> templo, vidit eum in loco sacrato, in loco sancto. Et 
+   <lb ed="#PL"/> quid ab eo audit? <hi rend="italic">Ecce jam sanus factus</hi> es; <hi rend="italic">noli pec<lb ed="#PL" break="no"/>care, ne quid tibi
+    deterius contingat.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e181-d1e1309">12. Tune ille, posteaquam vidit Jesum, et cognovit 
+   <lb ed="#PL"/> Jesum auctorem sanitatis suae, non fuit piger in evan<lb ed="#PL" break="no"/>gelizando
+   quem viderat : <hi rend="italic">Abiit, et
+    nuntiavit Judaeis 
+   <lb ed="#PL"/> quia Jesus esset qui eum sanum</hi> fecerat. Ille annuntia­
+   
+   <lb ed="#PL"/> bat, et illi insaniebanl: ille salutem suam praedica<lb ed="#PL" break="no"/>bat, iUi salutem suam non quaerebant.</p>
+      <p xml:id="iuy75t-d1e181-d1e1325">13. <hi rend="italic">Persequebantur</hi> Judaei <hi rend="italic">Dominum</hi> Jesum,
+    <hi rend="italic">quia 
+   <lb ed="#PL"/> hoec faciebat in sabbato.</hi> Quid ergo Dominus modo re­
+   
+   <lb ed="#PL"/> spondit Judaeis, audiamus. De sanis factis bominibus 
+   <lb ed="#PL"/> sabbato, dixi quid soleat respondere, quia jumenta 
+   <lb ed="#PL"/> sua non contemnebant sabbato, vel liberando vel
+   
+   <lb ed="#PL"/> alendo. Dc portato grabato quid respondit? Manife<lb ed="#PL" break="no"/>stum
+   opus corporale factum erat ante oculos Judaeo<lb ed="#PL" break="no"/>rum : uon sanitas corporis, sed operatio corporis;
+   
+   <lb ed="#PL"/> quae non videbatur ita necessaria, quemadmodum 
+   <lb ed="#PL"/> sanitas. Aperte ergo Dominus dicat sacramentum 
+   <lb ed="#PL"/> sabbati, et signum observandi unius dici ad tempus 
+   <lb ed="#PL"/> datum esse Judaeis; impletionem vero ipsam sacra<lb ed="#PL" break="no"/>menti
+   in illo vcnisse. <hi rend="italic">Pater meus,</hi> inquit , <hi rend="italic">usque modo</hi>
+   
+       <lb ed="#PL"/> i 
+   <lb ed="#PL"/>
+       <hi rend="italic">operatur, et ego operor.</hi> Misit in eos magnum tumul<lb ed="#PL" break="no"/>tum; adventu Domini turbatur aqua , sed qni turbat, 
+   <lb ed="#PL"/> latet. Tamen sanandus est turbata aqua aeger unus ma<lb ed="#PL" break="no"/>gnus, passo Domino totus mundus.</p>
+      <p xml:id="iuy75t-d1e181-d1e1383">14. Videamus ergo responsionem Veritatis : <hi rend="italic">Paier</hi>
+   
+       <lb ed="#PL"/> meus <hi rend="italic">usque modo</hi> operatur, <hi rend="italic">et ego
+    oprror.</hi> Falsum ergo 
+   <lb ed="#PL"/> dixit Scriptura quia <hi rend="italic">Deus requievit
+    ab omnibus operi - 
+   <lb ed="#PL"/> bus</hi> suis in <hi rend="italic">die septimo ( Gen.</hi> n, 2) ? et contra hanc 
+   <lb ed="#PL"/> Scripturam per Moysen ministratam, loquitur Domi<lb ed="#PL" break="no"/>nus
+   Jesus, cum ipse dicat Judaeis, <hi rend="italic">Si crederetis Mogsi,
+   <lb ed="#PL"/> crederetis et
+    mihi : de me enim ille scripsit (Joan.</hi> v, 
+   <lb ed="#PL"/> 46)? Videte ergo ne aliquid voluit significare Moyses, 
+   <lb ed="#PL"/> quod <hi rend="italic">Deus requievit in die
+    septimo.</hi> Non enim defece<lb ed="#PL" break="no"/>rat
+   Deus operando creaturam suam, et indigebat re<lb ed="#PL" break="no"/>quie
+   sicut homo. Quomodo defecerat qui verbo fe<lb ed="#PL" break="no"/>cerat? Tamen et illud vernm est, quia requievit Deus 
+   <lb ed="#PL"/> ab <hi rend="italic">operibus</hi> suis in <hi rend="italic">die septimo;</hi> et hoc verum est quod 
+   <lb ed="#PL"/> ait Jesus, <hi rend="italic">Pater meus usque</hi> modo <hi rend="italic">operatur.</hi> Sed qnis
+   
+   <lb ed="#PL"/> explicet verbis, homo hominibus, infirmus infirmis, 
+   <lb ed="#PL"/> indoctus discere cupientibus, et forte si quid sapit, 
+   <lb ed="#PL"/> promere et explicare non valens hominibus, difficile 
+   <lb ed="#PL"/> forte eapientibus, etiam si explicari possit quod capi<lb ed="#PL" break="no"/>tur? Quis, inquam, fratres mei, explicet verbis quo<lb ed="#PL" break="no"/>modo
+   Deus et quietus operetor, et operans quieseat? 
+   <lb ed="#PL"/> Obsecro vos, ut hoc vobis proficientibus differatis; 
+   <lb ed="#PL"/> visio euim ista templum Dei quaerit, sanctum locum 
+   <lb ed="#PL"/> quaerit : portate proximam et ambulate; ibi cum vi<lb ed="#PL" break="no"/>debitis, ubi verba hominum non quaeratis.</p>
+      <p xml:id="iuy75t-d1e181-d1e1471">i5. Hoc forte potius dicere valemus, quia et in 
+   <lb ed="#PL"/> eo quod Deus <hi rend="italic">in
+    die septima</hi> requievit, ipsam Dominum 
+   <lb ed="#PL"/> et salvatorem nostram Jesum Christum, qui haec lo<lb ed="#PL" break="no"/>quebatar
+   et dicebat, <hi rend="italic">Pater meus</hi> usque <hi rend="italic">modo</hi> operatur, 
+   <lb ed="#PL"/>
+       <hi rend="italic">et ego operor,</hi> magno sacramento significavit. Quia et 
+   <lb ed="#PL"/> Dominus Jesus utique Deus. Ipse est enim Verbum 
+   <lb ed="#PL"/> Dei, et audistis quia <hi rend="italic">in principio erat</hi> Verbum ; et non 
+   <lb ed="#PL"/> qualecumque Verbum, sed <hi rend="italic">Deus erat Verbum,</hi> et 
+   <lb ed="#PL"/>
+       <hi rend="italic">omnia per</hi> ipsum <hi rend="italic">facta</hi> sunt <hi rend="italic">(Id.</hi> I, 1, 3) : forte signi<lb ed="#PL" break="no"/>ficatus
+   est requieturus in die septimo ab omnibus 
+   <lb ed="#PL"/> opcribns suis. Legite enim Evangelium, et videto 
+   <lb ed="#PL"/> quanta operatus sit Jcsus. Operatas est salutem no<lb ed="#PL" break="no"/>stram
+   in cruce, ut implerentur in eo omnia praedicta 
+   <lb ed="#PL"/> Prophetarum : coronatus est spinis, suspensus est 
+   <lb ed="#PL"/> ligno; dixit, Sitio, accepit acetum in spongia, ut 
+   <lb ed="#PL"/> impleretur quod dictum est, <hi rend="italic">Et</hi> in <hi rend="italic">siti mea</hi> potave­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">runt me acelo (Psal.</hi> LXVIII, 22). At ubi impleta sunt 
+   <lb ed="#PL"/> omnia opera ejus, sexta sabbati inclinato capite red<lb ed="#PL" break="no"/>didit
+   spiritum, et in sepulcro sabbato requievit ab 
+   <lb ed="#PL"/> omnibus operibus suis <hi rend="italic">(Joan.</hi> XIX). Ergo tanquam 
+   <lb ed="#PL"/> diceret Judaeis, Quid exspectatis ut non operer sabba<lb ed="#PL" break="no"/>to ? Sabbati dies vobis ad significationem meam prae<lb ed="#PL" break="no"/>ceptus
+   est. Opera Dei attenditis; ego ibi eram cum 
+   <lb ed="#PL"/> fierent, per me facta sunt omnia, ego novi : <hi rend="italic">Pater
+   <lb ed="#PL"/> meus usque modo operatur.</hi> Opcratus est Pater lucem; 
+   <lb ed="#PL"/> sed dixit ut fieret lux <hi rend="italic">(Gen.</hi> I, 3) : si dixit, Verbo 
+   <lb ed="#PL"/> operatus cst; Verbum ejus ego cram, ego sunt : per 
+   <lb ed="#PL"/> me factus est mundus in illis opcribus, per me regitur 
+   <lb ed="#PL"/> mundus in istis op ribus. Pater meus et tunc opera<lb ed="#PL" break="no"/>tns
+   est cum fecit mundum, et usque nunc opera<lb ed="#PL" break="no"/>tur
+   cum rcgit mundum : ergoetper me feeit cum 
+   <pb ed="#PL" n="1535"/>
+       <lb ed="#PL"/> ICCII, et per me regit cnm regit. Dixit haec, sed qui- 
+   <lb ed="#PL"/> Ins? Surdis, csecis, claudis, languidis, medicum non 
+   <lb ed="#PL"/> agnoscentibus, et tanquam in phrenesi mente per<lb ed="#PL" break="no"/>dita
+   occidere volentibus.</p>
+      <p xml:id="iuy75t-d1e181-d1e1597">16. Proinde quid secutus Evangelista dixit? <hi rend="italic">Hinc 
+   <lb ed="#PL"/> ergo magis
+    quaerebant eum Judaei interficere, quia non 
+   <lb ed="#PL"/> solum solvebat sabbatum, sed et patrem
+    suum dicebet 
+   <lb ed="#PL"/> Deum.</hi> Non quomodocumque : sed quid? <hi rend="italic">aequalem
+    se 
+   <lb ed="#PL"/> faciens Deo.</hi> Nam omnes dicimus Deo, <hi rend="italic">Pater noster
+   <lb ed="#PL"/>
+    qui es</hi> in <hi rend="italic">caeli. (Matth.</hi> VI, 9) : legimus et Judaeos 
+   <lb ed="#PL"/> dixisse, <hi rend="italic">Cum tu.sis pater noster (Isai.</hi> LXIII, 16 <hi rend="italic">et</hi> LXIV, 
+   <lb ed="#PL"/> 8). Ergo non hinc irascebantur, quia patrem suum
+   
+   <lb ed="#PL"/> dicebat Deum ; sed quod longe alio modo quam lio<lb ed="#PL" break="no"/>mines. Ecce intelligunt Judaei quod non intelligunt 
+   <lb ed="#PL"/> Ariani. Ariani quippe inaequalem Patri Filium di<lb ed="#PL" break="no"/>cunt,
+   et inde haeresis est pulsa de Ecclesia 1. Ecce 
+   <lb ed="#PL"/> ipsi caeci, ipsi interfectores Christi, intellexerunt ta<lb ed="#PL" break="no"/>men
+   verba Christi. Non eum intellexerunt esse Chri<lb ed="#PL" break="no"/>stum, nec eum intellexerunt Filium Dei: sed tamen 
+   <lb ed="#PL"/> intellexerunt in illis verbis, quia talis commendare<lb ed="#PL" break="no"/>tur
+   Filius Dei, qui aequalis esset Deo. Quis erat ne<lb ed="#PL" break="no"/>sciebant; talem tamen praedicari agnoscebant, quia 
+   <lb ed="#PL"/> patrem suum
+    <hi rend="italic">dicebat Deum,</hi> aequalem <hi rend="italic">se faciens Deo.</hi>
+   
+       <lb ed="#PL"/> Non erat ergo aequalis Deo? Non ipse se faciebat 
+   <lb ed="#PL"/> aequalem, sed ille illum genuerat aequalem. Si se ipse 
+   <lb ed="#PL"/> faceret aequalem Deo, caderet per rapinam. Qui enim
+   
+   <lb ed="#PL"/> se voluit aequalem facere Deo cum non esset, ceci<lb ed="#PL" break="no"/>dit <hi rend="italic">(Isai.</hi> xiv, 14, 15), et ex angelo factus est dia<lb ed="#PL" break="no"/>bolus : et hanc superbiam homini propinavit, unde 
+   <lb ed="#PL"/> ipse dejectus est. Nam hoc dixit homini, cui stanti 
+   <lb ed="#PL"/> lapsus invidit, <hi rend="italic">Gustate, et eritis sicut dii (Gen.</hi> III, 5) : 
+   <lb ed="#PL"/> id est, usurpatione rapite quod facti non estis; quia 
+   <lb ed="#PL"/> et ego rapiendo dejectus sum. Non hoc prodebat, 
+   <lb ed="#PL"/> sed boc suadebat. Christus autem aequalis Patri na<lb ed="#PL" break="no"/>tus
+   erat, non factus : natus de substantia Patris. 
+   <lb ed="#PL"/> Unde illum sic commendat Apostolus : <hi rend="italic">Qui cum in 
+   <lb ed="#PL"/> forma Dei</hi> esset, <hi rend="italic">non</hi> rapinam <hi rend="italic">arbitratus eat esse aequa..
+   <lb ed="#PL"/> lia
+    Deo.</hi> Quid est, <hi rend="italic">non rapinam arbitratus est Non</hi> Non 
+   <lb ed="#PL"/> usurpavit aequalitatem Dei; sed erat in illa, in qua 
+   <lb ed="#PL"/> natus crat. Et nos ad aequalem Dcum quomodo per<lb ed="#PL" break="no"/>veniremus? <hi rend="italic">Semetipsum exinanivit</hi> formam
+    <hi rend="italic">servi acci­</hi>
+   
+       <lb ed="#PL"/> piens <hi rend="italic">(Philipp.</hi> lit 6, 7). Non ergo se exinanivit amit­
+   
+   <lb ed="#PL"/> lens quod erat, sed accipiens quod non erat. Hanc 
+   <lb ed="#PL"/> • formam servi contemnentes Judxi, Dominum Chri<lb ed="#PL" break="no"/>stum
+   aequalem Patri intelligere non poterant; quam<lb ed="#PL" break="no"/>vis
+   eum hoc de se dicere minime dubitabant, et ideo 
+   <lb ed="#PL"/> saeviebant : et adhuc tamen eos ille perferebat, et 
+   <lb ed="#PL"/> sanitatem saevientium requirebat.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

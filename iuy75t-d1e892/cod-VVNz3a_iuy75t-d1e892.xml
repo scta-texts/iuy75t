@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 104</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 104</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e892"> <!-- iuy75t-t104 -->
+      <head xml:id="iuy75t-d1e892-Hd1e109">Tractatus 104</head>
+      <p xml:id="iuy75t-d1e892-d1e112">
+       <hi rend="italic">In</hi> id <hi rend="italic">quod sequitur,</hi> HaM locutus est Jesus, et suble<lb ed="#PL" break="no"/>vatis
+   oculis in coelum dixit: Pater, venit lora, cla<lb ed="#PL" break="no"/>rifica
+   Filium tuum. ut Filius clarificet te. Cap. xvii, 
+   <lb ed="#PL"/> f. 1.</p>
+      <p xml:id="iuy75t-d1e892-d1e127">1. Ante ista quoe nunc sumus adjuvante Domino 
+   <lb ed="#PL"/> tractaturi, dixerat Jesus, Haec <hi rend="italic">locutus</hi> sum vobis, ut <hi rend="italic">in 
+   <lb ed="#PL"/> me pacem</hi> habeatis : quae non recentiora paulo supe<lb ed="#PL" break="no"/>rius
+   ab eo dicta, sed omnia debemus accipere, sive 
+   <lb ed="#PL"/> quaecumque iHis locutus est ex quo eos coepit babere 
+   <lb ed="#PL"/> discipulos, sive certe ex quo post coenam exorsus est 
+   <lb ed="#PL"/> hanc admirabilem prolixumque sermonem. Tatem 
+   <lb ed="#PL"/> quippe commemoravit causam cur cis sit locutus, ut 
+   <lb ed="#PL"/> ad eum fincm rectissime rcferantur vet omnia quae 
+   <lb ed="#PL"/> locutus est eis, vel ea maxime qaae dixit jam pro eis 
+   <lb ed="#PL"/> moriturus, tanquam verba novissima, posteaquam de 
+   <lb ed="#PL"/> convivio sancto ille qui eum fucrat traditurus, egres- - 
+   <lb ed="#PL"/> sus est. Hanc enim commendavit causam sermonis 
+   <lb ed="#PL"/> sui; ut in illo pacem haberent, propter qnod totum 
+   <lb ed="#PL"/> agitur quod christiani sumus. Haec enim pax finem 
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> temporis non habebit, sed omnis piae nostrae intentio<lb ed="#PL" break="no"/>nis
+   actionisquc finis ipsa erit. Propter hancSacramen<lb ed="#PL" break="no"/>tis
+   ejus imbuimur, propter hanc mirabilibus ejas ope<lb ed="#PL" break="no"/>ribus
+   et sermonibus erudimur, propter hanc Spiritus 
+   <lb ed="#PL"/> ejus pignus accepimus, propter hanc in eum credi<lb ed="#PL" break="no"/>mus
+   et speramus, et ejus amore quantum donat ac<lb ed="#PL" break="no"/>cendimur: hac pace in pressuris omnibus consolamur, 
+   <lb ed="#PL"/> hac a pressuris omnibus liberamur : propter hanc 
+   <lb ed="#PL"/> omnem tribulationem fortiter sustinemus, ut in hac 
+   <lb ed="#PL"/> feliciter sinc ulla tribulatione regnemus. Merito ad 
+   <lb ed="#PL"/> cam clausit verba, quae parum intelligentibus disci- 
+   <lb ed="#PL"/> polis erant proverbia; intellecturis ea quando eis de<lb ed="#PL" break="no"/>disset
+   promissum Spiritum sanctum, de quo superius 
+   <lb ed="#PL"/> ait: « Haec locutus sam vobis, apud vos manens. Pa<lb ed="#PL" break="no"/>racletus
+   autem Spiritus sanctas, quem mittet Pater 
+   <lb ed="#PL"/> in nomine <unclear>mee</unclear> ine vos docebit omnia, et suggeret
+   
+   <lb ed="#PL"/> vobis omnia quaecumque dixere vobis » (Joan. XIV, 
+   <lb ed="#PL"/> 25, 26). Haec nitnirum fetura fuerat illa bon, qua se 
+   <lb ed="#PL"/> promiserat non jam in proverbiis locututum, sed pa­
+   
+   <lb ed="#PL"/> lam de Patre annuntiaturum. Eadem quippe ipsius 
+   <lb ed="#PL"/> verba; revelante Spiritu saneto, intelligentibus jam 
+   <lb ed="#PL"/> non erant futura proverbia. Neque enim loquente in
+   
+   <lb ed="#PL"/> eorem cordibus Spiritu sancto, tacituras erat unige<lb ed="#PL" break="no"/>nitus
+   Filius, qni dixit in ea hora <unclear>podam</unclear> se iNis an<lb ed="#PL" break="no"/>nuntiaturum
+   esse de Patre, quod cis utique jam intel<lb ed="#PL" break="no"/>ligentibus
+   non esset proverbium. Sed boc quoque 
+   <lb ed="#PL"/> ipsum, quomodo simul loquantur in suorum spiritua<lb ed="#PL" break="no"/>, llum cordibus et Dei Filius et Spiritus sanatus, imo 
+   <lb ed="#PL"/> ipsa Trinitas quae inseparabiliter operatur, intelligen­
+   
+   <lb ed="#PL"/> tibus estverbum, non inteHigentibus autem proverbium.</p>
+      <p xml:id="iuy75t-d1e892-d1e240">i. Cum ergo dixisset propter quid omnia sit locu<lb ed="#PL" break="no"/>tus, ut in illo scilicet pacem haberent, in mundo ha<lb ed="#PL" break="no"/>bentes
+   pressuram, exhortatusque faisset ut confide<lb ed="#PL" break="no"/>rent,
+   quia ipse vicit mundum; co qui erat ad alos 
+   <lb ed="#PL"/> sermone finito, deinde ad Patrem verbo direxit, et 
+   <lb ed="#PL"/> orare jam coepit. Sic enim Evangelista sequitur, di<lb ed="#PL" break="no"/>cens:
+    <hi rend="italic">Haec locutus est Jesus,</hi> et <hi rend="italic">sublevatis
+    oculis</hi> in coe­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">lum dixit : Pater,</hi> venit <hi rend="italic">hora, clarifica Filium
+    tuum.</hi>
+   
+       <lb ed="#PL"/> Poterat Dominus Unigenitus et coaeternus Patri 
+   <lb ed="#PL"/> in forma servi et ex forma servi, si hoc opus os<lb ed="#PL" break="no"/>set, orare silentio; sed ita s6 Patri exhibere voluit 
+   <lb ed="#PL"/> precatorem, ut meminisset nostrum se esse docto<lb ed="#PL" break="no"/>rem. Proinde eam quam fecit orationem pro no<lb ed="#PL" break="no"/>his, notam fecit et nobis; quoniam tanti magistri 
+   <lb ed="#PL"/> non solum ad ipsos sermocinatio, sed etiam pro ipsis 
+   <lb ed="#PL"/> ad Patrem oratio, discipulorum est aedificatio. Et 
+   <lb ed="#PL"/> si illorom qui haec dicta aderant audituri, prole<lb ed="#PL" break="no"/>cto
+   et nostra qui fueramus conscripta lecturi. Qua<lb ed="#PL" break="no"/>propter
+   hoc quod ait, <hi rend="italic">Pater,</hi>
+       <foreign xml:lang="grc">ν</foreign>enit <hi rend="italic">hom, clarifica Fi­</hi>
+   
+       <lb ed="#PL"/> lium tuum, ostendit omne tempus, et quid quando 
+   <lb ed="#PL"/> faceret vel fieri sineret, ab illo esse dispositum qui 
+   <lb ed="#PL"/> tempori subditus non est; quOniam quae futura erant
+   
+   <lb ed="#PL"/> per singula tempora, in Dei sapientia causas efficien<lb ed="#PL" break="no"/>tes
+   habent, in qua nulla suni tempora. Non ergo cre<lb ed="#PL" break="no"/>datur
+   h.ec hora fato urgente venissc, sed Deo potius 
+   <lb ed="#PL"/> ordinante. Nec siderea necessitas Christi connexuit 
+   <lb ed="#PL"/> passionem : absit enim ut sidera mori cogerent side<lb ed="#PL" break="no"/>rum
+   conditorcm. Non itaque Christum tempus ulmo. 
+   <lb ed="#PL"/> reretur impegit, sed tempus Christus qUo moreretur 
+   <pb ed="#PL" n="1903"/>
+       <lb ed="#PL"/> elegit: qui etiam tempus quo do Virgine natus est, 
+   <lb ed="#PL"/> cum Patre constituit, dc quo siue tempore natus est. 
+   <lb ed="#PL"/> Secundum quam vcram sanamque doctrinam, etiam 
+   <lb ed="#PL"/> Paulus apostolus. «Cum autem venit, » inquit, ple<lb ed="#PL" break="no"/>nitudo
+   temporis, misit Deus Filium suum <hi rend="italic">»(Galat.</hi> IV, 
+   <lb ed="#PL"/> 4); et Dus per Prophetam, « Tempore, &gt; ait, «ac<lb ed="#PL" break="no"/>ceptabili
+   exaudivite, et in die salutis adjuvi te &gt; (Isai. 
+   <lb ed="#PL"/> xus, 8); et rursus Apostolus, c Eccc nunc tempus 
+   <lb ed="#PL"/> acceptabile, ecce nunc dies salutis &gt; ( II <hi rend="italic">Cor.</hi> VI, 2). 
+   <lb ed="#PL"/> Dicat ergo, <hi rend="italic">Pater, <foreign xml:lang="grc">ν</foreign>enit</hi> hora, qui cum Patre dispo<lb ed="#PL" break="no"/>suit
+   omnes horas : tanquam dicens, <hi rend="italic">Pater,</hi> quam 
+   <lb ed="#PL"/> propter homines et apud homines ad me clarifican<lb ed="#PL" break="no"/>dum
+   simul constituimus, <hi rend="italic">
+        <foreign xml:lang="grc">ν</foreign>enii hora,
+    clarifica</hi> Filium 
+   <lb ed="#PL"/> fuum, ut et Filius tuus clarificet <hi rend="italic">te.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e892-d1e384">3. Clarificatam a Patre Filium nonnulli accipiunt, 
+   <lb ed="#PL"/> in hoc quod ei non pepercit, sed pro nobis omnibus 
+   <lb ed="#PL"/> tradiditeum (Rom. VIII, 32). Sed si passioneclarificatus
+   
+   <lb ed="#PL"/> dioitur, quante magis resurrectione! Nam in passione 
+   <lb ed="#PL"/> magis ejus humilitas quam claritas commendatur, Apo<lb ed="#PL" break="no"/>stolo
+   teste, qui dicit, Humiliavit semetipsum, factus 
+   <lb ed="#PL"/> obediens usque ad mortem, mortem autem crucis : » 
+   <lb ed="#PL"/> deinde sequitur, et de ejus clarificatione jam dicit, 
+   <lb ed="#PL"/> 4 Propter quod et Deus illum exaltavit, et donavit ei 
+   <lb ed="#PL"/> nomen quod est super omne nomen, ut in nomine 
+   <lb ed="#PL"/> Jesu emne genu flectatur coelestium, terrostrium, et 
+   <lb ed="#PL"/> infernorum, et omnis lingua confiteatur quia Dominus 
+   <lb ed="#PL"/> Jesus Christus in gloria est Dei Patris. Haec est cla<lb ed="#PL" break="no"/>rificatio
+   Domini nostri Jesu Christi, quae ab ejus resur<lb ed="#PL" break="no"/>rectione
+   sumpsit exordium. Humilitas ergo ejus inci<lb ed="#PL" break="no"/>pit
+   in sermoneApostoli, ab eo loco ubi ait, <hi rend="italic">Semet­</hi>
+   
+       <lb ed="#PL"/> ipsum <hi rend="italic">exinanivit</hi> forman. <hi rend="italic">servi</hi> accipiens; et pervenit 
+   <lb ed="#PL"/> usque, ad <hi rend="italic">mortem crucis.</hi> Claritas vero ejus incipit ab 
+   <lb ed="#PL"/> eo locu ubi ait <hi rend="italic">Propter quod et Deus
+    exaltavit eam;</hi> et 
+   <lb ed="#PL"/> pervenit usque, <hi rend="italic">in gloria est Dei
+    Patris (PhiUpp.</hi> M, 
+   <lb ed="#PL"/> 7 11). Nam et ipsum nomen, si inspiciantur codices 
+   <lb ed="#PL"/> graeci ex . qua lingua Epistolae apostolicae translatae 
+   <lb ed="#PL"/> sunt in latinam, quod hic legitur gloria, ibi legitur 
+   <lb ed="#PL"/>
+       <foreign xml:lang="grc">ξα</foreign>: unde verbum derivatum est in graeco ut dice<lb ed="#PL" break="no"/>retur
+   <foreign xml:lang="grc">ξασον</foreign>, quod interpres latinus ait clarifica, cum
+   
+   <lb ed="#PL"/> posset etiam <hi rend="italic">glorifica</hi> dicere, quod tantumdem valet. 
+   <lb ed="#PL"/> Et ideo posset etiam in Apostoli Epistola, ubi est 
+   <lb ed="#PL"/> gloria, claritas poni quod si fieret tantumdem valo<lb ed="#PL" break="no"/>ret. Utautem non recedatur a verborum sonis, quem<lb ed="#PL" break="no"/>adluodum
+   a claritate clarificatio, sic a gloria glorifi<lb ed="#PL" break="no"/>catio
+   derivatur. Ut ergo mediator Dei et bominum 
+   <lb ed="#PL"/> homo Christus Jesus resurrectione clarificaretur vel 
+   <lb ed="#PL"/> glorificaretur, prius humiliatus est passione : non 
+   <lb ed="#PL"/> enim a mortuis resurrexisset, si mortuus non fuisset. 
+   <lb ed="#PL"/> Humilitas, claritatis est meritum; claritas, humilita­
+   
+   <lb ed="#PL"/> tis est praemium. Sed hoc factum est in forma servi; 
+   <lb ed="#PL"/> in forma vero Dei semper fuit, semper erit claritas : 
+   <lb ed="#PL"/> imo non fuit quasi jam non sit, nee crit quasi non<lb ed="#PL" break="no"/>dum
+   sit; sed sine initio, sine fine semper est claritas. 
+   <lb ed="#PL"/> Quod ergo ait,
+    <hi rend="italic">Paler,</hi>
+       <foreign xml:lang="grc">ν</foreign>enit <hi rend="italic">hora,</hi> clarifica <hi rend="italic">Filium 
+   <lb ed="#PL"/> tuum;</hi> sic intelligendum est, tanquam dixerit, Venit
+   
+   <lb ed="#PL"/> hora seminandae humilitatis, fructum non differas cla<lb ed="#PL" break="no"/>ritatis. Sed quid sibi vult quod sequitur, Ut Filius 
+   <lb ed="#PL"/> tuus <hi rend="italic">clarificet te?</hi> Numquid etiam Deus Pater pertulit 
+   <lb ed="#PL"/> humilitatem carnis sive passionis, ex qua illum clari<lb ed="#PL" break="no"/>ficari
+   oporteret? Quomodo igitur eum clarificaturus 
+   <lb ed="#PL"/> erat Filius, cujus claritas sempiterna nec ex forma 
+   <lb ed="#PL"/> humana potuit videri minor, nec in divina posset esso 
+   <lb ed="#PL"/> amplior? Sed istam quaestionem in hunc sermonem 
+   <lb ed="#PL"/> nolo arctare, aut hinc eum facere longiorem.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

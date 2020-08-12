@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 108</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 108</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e925"> <!-- iuy75t-t108 -->
+      <head xml:id="iuy75t-d1e925-Hd1e109">Tractatus 108</head>
+      <p xml:id="iuy75t-d1e925-d1e112">
+       <hi rend="italic">De eo quod nit Jesus,</hi> Ego dedi eis sermonem tuum; 
+   <lb ed="#PL"/>
+       <hi rend="italic">usque ad id,</hi> Ut sint et ipsi sanctificati in veritate. 
+   <lb ed="#PL"/> , 
+   <lb ed="#PL"/>
+       <hi rend="italic">( Cap.</hi> XVII, f . 14-19).</p>
+      <p xml:id="iuy75t-d1e925-d1e131">i. Loquens adhuc Dominus ad Patrem), et orans 
+   <lb ed="#PL"/> pro-discipulis suis, dicit: <hi rend="italic">Ego dedi eis sermonem tuum,</hi>
+   
+       <lb ed="#PL"/> et <hi rend="italic">mundus eoa odio habuit.</hi> Nondum id experti fucrant 
+   <lb ed="#PL"/> passionibus suis, quae illos postea sunt secutae; sed 
+   <lb ed="#PL"/> more suo dicit ista, verbis praeteriti temporis futura 
+   <lb ed="#PL"/> praenuntians. Deinde causam subjiciens cur cos ode<lb ed="#PL" break="no"/>rit
+   mundus : <hi rend="italic">Quia non sunt,</hi> inquit, <hi rend="italic">de mundo,
+    sicut 
+   <lb ed="#PL"/> et ego non sum de mundo.</hi> Hoc cis regeneratione col<lb ed="#PL" break="no"/>latum
+   est: nam generatione de mundo erant, propter 
+   <lb ed="#PL"/> quod jam eis dixerat, <hi rend="italic">Ego vos de</hi> mundo <hi rend="italic">elegi (Joan.</hi>
+   
+       <lb ed="#PL"/> xv, 19). Donatum est ergo eis ut sicut ipse, nec ipsi 
+   <lb ed="#PL"/> essent de mundo, cos ipso libcrante de mundo. Ipse 
+   <lb ed="#PL"/> . autem de mundo nunquam fuit: quia etiam secun­
+   
+   <lb ed="#PL"/> dum forinam servi de Spiritu sancto ipse natus est, 
+   <lb ed="#PL"/> de quo illi renati. Nam si propterea illi jam non de 
+   <lb ed="#PL"/> mundo, quia ronati sunt de Spiritu sancto; propterea
+   
+   <lb ed="#PL"/> ille nunquam de mundo, quia natus est de Spiriiu 
+   <lb ed="#PL"/> sancto.</p>
+      <p xml:id="iuy75t-d1e925-d1e189">2. Non <hi rend="italic">rogo,</hi> inquit, <hi rend="italic">ut tollas eos de</hi>
+   ,Mundo, <hi rend="italic">acd</hi> ut 
+   <lb ed="#PL"/>
+       <hi rend="italic">serues eos ex malo.</hi> Adhuc enim necessarium habe<lb ed="#PL" break="no"/>baut, quamvis jam non essent de mundo, esse tamen 
+   <lb ed="#PL"/> in mundo. Repetit eamdem sententiam : De <hi rend="italic">mundo,</hi>
+   
+       <lb ed="#PL"/> inquit, non <hi rend="italic">sunt, sicut et ego</hi> non <hi rend="italic">sum de
+    mundo. San<lb ed="#PL" break="no"/>ctifica
+   eos in veritate.</hi> Sic enim servantur ex malo, 
+   <lb ed="#PL"/> quod superius oravit ut fieret. Quaeri autem potest 
+   <lb ed="#PL"/> quomodo de mundo jam non erant, si sanctificati in 
+   <lb ed="#PL"/> veritate nondum erant; aut si jam erant, cur poscat 
+   <lb ed="#PL"/> ut sint. An quia et sanctificati in eadem proficiunt 
+   <lb ed="#PL"/> 'sanctitate, fiuntque sanctiores; neque hoc sine adjn<lb ed="#PL" break="no"/>torio
+   grati e Dei, sed illo eorum sanctificante prove<lb ed="#PL" break="no"/>ctum,
+   qui sanctificavit incoeptum ? Unde et Apostolus, 
+   <lb ed="#PL"/> dicit : Qui in <hi rend="italic">vobis opus bonum</hi> crerit, perficiet <hi rend="italic">usque</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">diem Christi Jesu (Philipp.</hi> I, G). Sanctificantur ita­
+   
+   <lb ed="#PL"/> que iu veritate baeredes Testamenti Novi, cujus veri<lb ed="#PL" break="no"/>tatis
+   umbrae fucrant sanctificationes Veteris Testa<lb ed="#PL" break="no"/>menti : et cnm sanctificantur in veritate, utique san<lb ed="#PL" break="no"/>etificantur
+   in Christo, qui veraciter dixit, <hi rend="italic">Ego sum
+   <lb ed="#PL"/>
+    via, et veritas, et vita (Joan.</hi> xiv, 6). Item quando ait, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Veritas liberabit vos,</hi> paulo post exponens qnid dixe<lb ed="#PL" break="no"/>rit, Si <hi rend="italic">vos,</hi> inquit, <hi rend="italic">Filius liberavent, tunc vere
+    iiberi
+   <lb ed="#PL"/> eritis (Id.</hi> VIII, 32, 56); ut ostenderet hoc se prius 
+   <lb ed="#PL"/> tlixisse veritatem, quod postmodum Filium. Quid ergo 
+   <lb ed="#PL"/> aliud et hoe loco dixit, <hi rend="italic">Sanctipca eos</hi> in <hi rend="italic">veriiate,</hi> nisi, 
+   <lb ed="#PL"/> sanctifica eos in me? .</p>
+      <p xml:id="iuy75t-d1e925-d1e297">3. Denique sequitur, et hoe apertius insinuare non 
+   <lb ed="#PL"/> desinit : <hi rend="italic">Sermo,</hi> inquit, <hi rend="italic">tuus veritas est.</hi> Quid aliud 
+   <lb ed="#PL"/> dixit, quam, <hi rend="italic">Ego veritas sum?</hi> Graecum quippe Evan<lb ed="#PL" break="no"/>gelium <foreign xml:lang="grc">λόγος</foreign> habet, quod etiam ibi legitur, ubi dictum 
+   <lb ed="#PL"/> est,
+    <hi rend="italic">In</hi> principio <hi rend="italic">erat</hi> Verbum,et Verbum <hi rend="italic">erat apudDeum9 
+   <lb ed="#PL"/> et Deus erat Verbum.</hi> Et utique Verbum ipsum novi<lb ed="#PL" break="no"/>mos
+   unigenitum Dei Filium, quod <hi rend="italic">caro</hi> fastum est 
+   <lb ed="#PL"/>
+       <hi rend="italic">et habitavit</hi> in <hi rend="italic">nobis (Id.</hi> i, I, 14). Uade et hic poni 
+   <lb ed="#PL"/> potuit, et in quibusdam codicibus positum est, <hi rend="italic">Vet­
+    
+   <lb ed="#PL"/> bum</hi> tuum <hi rend="italic">veritas est;</hi> sicut in quibusdam codicibus
+   
+   <lb ed="#PL"/> cHam ibi scriptum Cit <hi rend="italic">In</hi> principio <hi rend="italic">erat
+    sermo.</hi> In 
+   <lb ed="#PL"/> graeco autem sine ulla varietate, et ibi et hie <foreign xml:lang="grc">λόγος</foreign>
+   
+       <lb ed="#PL"/> est. Sanctificat itaque Pater in veritate, id est, in 
+   <lb ed="#PL"/> Verbo suo, in Uuigenito suo, suos. haeredes ejusque 
+   <lb ed="#PL"/> cohaeredes.</p>
+      <p xml:id="iuy75t-d1e925-d1e377">x 4. Sed nunc adhuc de Apostolis loquitur; nam 
+   <lb ed="#PL"/> secutus adjungit, <hi rend="italic">Sicut me misisti</hi> in mundum, <hi rend="italic">et ego</hi>
+   
+       <lb ed="#PL"/> misi <hi rend="italic">eoa in mundum.</hi> Quos misit, nisi Apostolos suos ? 
+   <lb ed="#PL"/> Nam et ipsum nomen Apostolorum, quoniam grae<lb ed="#PL" break="no"/>curo
+   est, nihil nisi missos significat in latino. Misit 
+   <lb ed="#PL"/> ergo Deus Filium suum non in carne peccati, sed in
+   
+   <lb ed="#PL"/> similitudine carnis peccati <hi rend="italic">(Rom.</hi> VIII, 5); et misit 
+   <lb ed="#PL"/> Filius ejus eos quos natos in carne peccati sanctifi<lb ed="#PL" break="no"/>cavit
+   a labe peccati.</p>
+      <p xml:id="iuy75t-d1e925-d1e410">5. Sed quoniam per hoc quod mediator Dei et homi<lb ed="#PL" break="no"/>num
+   homo Christus Jesus facetus est caput Ecclesiae, 
+   <lb ed="#PL"/> illi membra sunt ejus; ideo ait quod sequitur, <hi rend="italic">Et pro eia
+   <lb ed="#PL"/> ego sanctifico meipsum.</hi> Quid est enim, <hi rend="italic">Et</hi> pro <hi rend="italic">eia ego san­</hi>
+   
+       <lb ed="#PL"/> ctifico <hi rend="italic">meipsum,</hi> nisi, eos in meipso sanctifico, cum et
+   
+   <lb ed="#PL"/> ipsi sint ego? Quoniam de quibus hoc ait, ut dixit 
+   <lb ed="#PL"/> membra sunt ejus, et unus est Christus caput et cor<lb ed="#PL" break="no"/>pus : docente Apostolo atque dicente de semine Abra­
+   
+   <lb ed="#PL"/> hae, <hi rend="italic">Si autem vos Christi, ergo semen Abrah</hi>ae <hi rend="italic">estis;</hi> cum 
+   <lb ed="#PL"/> dixisset superius, <hi rend="italic">Non dicit, Et
+    seminibus tanquam</hi> in 
+   <lb ed="#PL"/> multis; <hi rend="italic">sed tanquam</hi> in <hi rend="italic">uno, Et semini tuo, quod</hi> eat 
+   <lb ed="#PL"/>
+       <hi rend="italic">Christus (Galat.</hi> in, 29, 16). Si ergo semen Abrahae, 
+   <lb ed="#PL"/> hoc est Christus, quid aliud dictum est quibus dictum 
+   <lb ed="#PL"/> est, <hi rend="italic">Ergo</hi> semen <hi rend="italic">Abrah</hi>ae <hi rend="italic">estis,</hi> nisi, ergo Christus estis ? 
+   <lb ed="#PL"/> Inde est quod alio loco idem ipse apostolus ait: <hi rend="italic">Nunc
+    
+   <lb ed="#PL"/> gaudeo</hi> in passionibus <hi rend="italic">pro vobis, et adimpleo ea quas
+    
+   <lb ed="#PL"/> desunt pressurarum Christi, in carne mea (Coloss.</hi> I, 24). 
+   <lb ed="#PL"/> Non dixit, pressurarum mearum, sed, <hi rend="italic">Christi;</hi> quia 
+   <lb ed="#PL"/> membrum erat Christi; et in persecutionibus suis, 
+   <lb ed="#PL"/> quales Christum in suo toto corpore pati oportebat, 
+   <lb ed="#PL"/> etiam ipse pressuras ejus pro sua portione adimple<lb ed="#PL" break="no"/>bat. Quod ut etiam hoc loco certum sit, attende se<lb ed="#PL" break="no"/>quentia. Cum enim dixisset, <hi rend="italic">Et pro eia ego sanctifico
+   <lb ed="#PL"/> meipsum,</hi> ut intelligeremus hoc eum dixisse, quod 
+   <lb ed="#PL"/> eos sanctificaret in se, mox addidit, <hi rend="italic">Ut sint et
+    ipsi san­
+   <lb ed="#PL"/> clificati in veritate.</hi> Quod quid, est aliud quam, in me, 
+   <lb ed="#PL"/> secundum id quod veritas est Verbum illud in prin<lb ed="#PL" break="no"/>cipio
+   Deus? In quoetipse filius hominis sanctificatus 
+   <lb ed="#PL"/> est ab initio creationis suae, quando Verbum factum
+   
+   <lb ed="#PL"/> est caro; quia una persona facta est Verbum et homo. 
+   <lb ed="#PL"/> Tunc ergo sanctificavit se in se, hoc est, hominem se I 
+   <lb ed="#PL"/> in Verbo se; quia unus Christus Verbum et homo, -
+   
+   <lb ed="#PL"/> sanctificans hominem . in Verbo. Propter sua vero 
+   <lb ed="#PL"/> membra, <hi rend="italic">Et pro eis,</hi> inquit, <hi rend="italic">ego,</hi> id cst, quod prosit 
+   <lb ed="#PL"/> etiam ipsis, quia et ipsi sunt ego; sicut mibi profuit 
+   <lb ed="#PL"/> in me, quia homo sum sine ipsis :
+    <hi rend="italic">Et ego</hi> sanctifico 
+   <lb ed="#PL"/>
+       <hi rend="italic">meipsum,</hi> hoc est, ipsos in me tanquam meipsum sau<lb ed="#PL" break="no"/>ctifico
+   ego, quoniam in me etiam ipsi sunt ego. <hi rend="italic">Ut 
+   <lb ed="#PL"/> sint et ipsi
+    sanctificati</hi> in <hi rend="italic">veritate.</hi> Quid est <hi rend="italic">et</hi> ipsi, nisi, 
+   <lb ed="#PL"/> quemadmodum ego; in <hi rend="italic">veritate,</hi> quod ipse sum ego ? 
+   <lb ed="#PL"/> Deinde jam non solum de Apostolis, sed etiam de 
+   <pb ed="#PL" n="1917"/>
+       <lb ed="#PL"/> suis caeeteris membris incipit dicerc : quod donante 
+   <lb ed="#PL"/> ipso, alio sermone tractandum est.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

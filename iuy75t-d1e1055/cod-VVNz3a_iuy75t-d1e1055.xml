@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 124</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 124</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e1055"> <!-- iuy75t-t124 -->
+      <head xml:id="iuy75t-d1e1055-Hd1e109">Tractatus 124</head>
+      <p xml:id="iuy75t-d1e1055-d1e112">
+       <hi rend="italic">Ab eo loco,</hi> Et cum hoc dixisset, dicit ei : Scquere 
+   <lb ed="#PL"/> me,
+    <hi rend="italic">etc., usque in finem Evangelii. Cap.</hi> xxi, f . i9- 
+   <lb ed="#PL"/> 25).</p>
+      <p xml:id="iuy75t-d1e1055-d1e125">i. Non parva quaestio est, cur apo tolo Petro, 
+   <lb ed="#PL"/> quando se tertio manifestavit discipulis, dixerit Do. 
+   <lb ed="#PL"/> minus, <hi rend="italic">Sequere me;</hi> de apostolo autem Joanne, <hi rend="italic">Sic
+   <lb ed="#PL"/> eum volo manere donec veniam; quid ad te?</hi> IIu c qu ae<lb ed="#PL" break="no"/>stioni, quantum Dominus ipse donaverit, sive per<lb ed="#PL" break="no"/>tractandae, sive solvendae sermonem novissimurn hu<lb ed="#PL" break="no"/>jus
+   operis impendimus. Cum ergo praenuntiasset 
+   <lb ed="#PL"/> Dominus Petro, qua morte clarificaturus esset Deum, 
+   <lb ed="#PL"/>
+       <hi rend="italic">dicit ei: Sequere me. Conversus Petrus vidit illum disci<lb ed="#PL" break="no"/>pulum
+    quem diligebat Jesus, sequentem : qui et recubuit</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">caena super pectus ejus, et dixit, Domine. quis est qui
+   <lb ed="#PL"/>
+    tradet te? Hunc ergo cum vidisset Petrus, dicit Jesu ; 
+   <lb ed="#PL"/> Domine, hic autem quid?
+    Dicit ei</hi> Jesus : <hi rend="italic">Sic eum, volo 
+   <lb ed="#PL"/> manere donec veniam; quid
+    ad te ?</hi> Tu me <hi rend="italic">sequere. 
+   <lb ed="#PL"/> Exiit ergo sermo iste inter
+    fratres, quia discipulus iUs</hi>
+   
+       <lb ed="#PL"/> nen <hi rend="italic">moritur. Et</hi> non <hi rend="italic">dixit ei Jesus,
+    Non</hi> moritur; sed, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Sic eum volo manere donec veniam; quid</hi> ad <hi rend="italic">te
+    ?</hi> Ecce 
+   <lb ed="#PL"/> quousque in hoc Evangelio extenditur quaestio, que 
+   <lb ed="#PL"/> sua profunditate non mediocriter mentem scrutantis 
+   <lb ed="#PL"/> exercet. Cur enim dicilur Petro,
+    <hi rend="italic">Sequere me.</hi> nec 
+   <lb ed="#PL"/> dicitur caeteris qui simul aderant? Et profecto eum 
+   <lb ed="#PL"/> sicut magistrum discipuli sequebantur. Sed si ad 
+   <lb ed="#PL"/> passionem intelligendum est, numquid solus pro chri<lb ed="#PL" break="no"/>stiana
+   veritate passus est Petrus? Nonne ibi erat in 
+   <lb ed="#PL"/> illis septem alius filius Zebedaei frater Joannis, qui 
+   <lb ed="#PL"/> post ejus ascensionem, ab Herode manifestatur occi<lb ed="#PL" break="no"/>sus <hi rend="italic">(Act.</hi> XII, 2)? Verum aliquis dixerit, quoniam Ja<lb ed="#PL" break="no"/>cobus
+   non est crucifixus, merito dictum esse Petro, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Sequere me,</hi> qui non solum mortem, sed etiam mor<lb ed="#PL" break="no"/>tem
+   crucis, sicut Christus, expertus est. Sit hoc, si 
+   <lb ed="#PL"/> nihil aliud quod sit convenientius potuerit inveniri. 
+   <lb ed="#PL"/> Cur ergo de Joanne dictum est, <hi rend="italic">Sic eum volo manere
+   <lb ed="#PL"/> donec veniam; quid ad te?</hi> et repetitum est, Tu <hi rend="italic">mese<lb ed="#PL" break="no"/>quere;</hi> tanquam ille ideo non sequeretur, quoniam 
+   <lb ed="#PL"/> eum manere voluit donec veniat ? Quis facile aliud 
+   <lb ed="#PL"/> dictum esse credat, quam quod fratres crediderant 
+   <lb ed="#PL"/> qui tunc erant, eo quod scilicet non esset discipulus 
+   <lb ed="#PL"/> ille moriturus, sed donec Jesus veniret, ista maneret 
+   <lb ed="#PL"/> in vita ? Sed hanc opinionem Joannes ipse abstulit, 
+   <lb ed="#PL"/> non hoc dixisse Dominum aperta contradictione de<lb ed="#PL" break="no"/>clarans.
+   Cur enim subjungeret, <hi rend="italic">Non</hi> dixit Jesus, <hi rend="italic">No
+   <lb ed="#PL"/> moritur,</hi> nisi ne hominum cordibus quod falsum fue<lb ed="#PL" break="no"/>rat
+   inhaereret?</p>
+      <p xml:id="iuy75t-d1e1055-d1e271">i. Sed cui placet, adhuc resisiat; et dicat verum 
+   <lb ed="#PL"/> esse quod ait Joannes, non dixisse Dominum qnod 
+   <lb ed="#PL"/> discipulus ille non moritur, sod hoc tamen significa<lb ed="#PL" break="no"/>tum
+   esse talibus verbis, qualia eum dixisse narravit; 
+   <lb ed="#PL"/> et asserat apostolum Joannem vivere, atque in illo 
+   <lb ed="#PL"/> sepulcro ejus quod est apud Ephesum, dormire eum 
+   <lb ed="#PL"/> potius quam mortuum jacere contendat. Assumat in 
+   <lb ed="#PL"/> argumentum, quod illic terra sensim scatere, et quasi 
+   <lb ed="#PL"/> ebullire perhibetur; atque boc ejus anhelitu fieri, sive
+   
+   <lb ed="#PL"/> constanter sive pertinaciter asseveret. Non enim pos<lb ed="#PL" break="no"/>sunt
+   deesse qui credant, si non desunt qui etiam 
+   <lb ed="#PL"/> Moysen asserant vivere: quia scriptum est ejus se<lb ed="#PL" break="no"/>pulcrum
+   non inveniri <hi rend="italic">(Deut.</hi> XXXIV, 6), et apparuit
+   
+   <lb ed="#PL"/> cum Domino in monte, ubi et Elias fuit <hi rend="italic">(Matth.</hi> XVII, 
+   <lb ed="#PL"/> 3), quem mortuum legimus non esse, sed raptum 
+   <lb ed="#PL"/> (IV <hi rend="italic">Reg.</hi> u, 11). Quasi Moysi corpus non potuerit 
+   <lb ed="#PL"/> alicubi sic abscondi, ut prorsus homines lateret ubi 
+   <lb ed="#PL"/> esset, atque inde ad horam divinitus excitari, quando 
+   <lb ed="#PL"/> cum Christo Elias et ipse sunt visi : sicut ad horam 
+   <lb ed="#PL"/> multa sanctorum corpora surrexerunt, quando passus 
+   <lb ed="#PL"/> est Christus, et post ejus resurrectionem apparuerunt
+   
+   <lb ed="#PL"/> multis in sancta, sicut scriptum est, civitate <hi rend="italic">(Matth.</hi>
+   
+       <lb ed="#PL"/> XXVII, 52, 53). Sed tamen, ut dicere coeperam, si 
+   <lb ed="#PL"/> qi idam Moysen mortuum negant, quem Scriptura 
+   <lb ed="#PL"/> psa, ubi sepulcrum ejus nusquam inveniri legimus, 
+   <lb ed="#PL"/> mortuum tamen esse sine ulla ambiguitate testatur; 
+   <lb ed="#PL"/> quanto magis Joannes ex istorum occasione verbo<lb ed="#PL" break="no"/>rum
+   ubi Dominus ait, <hi rend="italic">Sic eum volo manere
+    donee</hi>
+   
+       <lb ed="#PL"/> venio, creditur vivus dormire sub terra ? Quem tra<lb ed="#PL" break="no"/>dunt
+   etiam (quod in quibusdam Scripturis quamvis 
+   <lb ed="#PL"/> . 
+   <pb ed="#PL" n="1971"/>
+       <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> apocryphis reperitur), quando sibi fieri jussit sepul<lb ed="#PL" break="no"/>crum, incolumem fuisse praesentem; coquc effosso 
+   <lb ed="#PL"/> et diligentissime praeparato, ibi se tanquam in lectulo 
+   <lb ed="#PL"/> collocasse, statimque cum esse dcfunctum : ut autem 
+   <lb ed="#PL"/> isti putant, qui haec verba Domini sic intelligunt, non 
+   <lb ed="#PL"/> defunctum, sed defuncto similem cubuisse; et cum 
+   <lb ed="#PL"/> mortuus putaretur, sepultum fuisse dormientem; et 
+   <lb ed="#PL"/> donec Christus veniat sic manere, suamque vitam 
+   <lb ed="#PL"/> scaturigine pulveris indicare : qui pulvis creditur,
+   
+   <lb ed="#PL"/> ut ab imo ad superficiem tumuli ascendat, flatu quie<lb ed="#PL" break="no"/>scentis
+   impelli. Huic opinioni snpervacaneum existi<lb ed="#PL" break="no"/>mo
+   reluctari. Viderint enim qui locum sciunt, utrum
+   
+   <lb ed="#PL"/> hoc ibi faciat vel patiatur terra quod dicitur; quia et 
+   <lb ed="#PL"/> revera non a levibus hominibus id audivimus.</p>
+      <p xml:id="iuy75t-d1e1055-d1e390">3. Interim cedamus opinioni, quam certis docu<lb ed="#PL" break="no"/>mentis
+   refellere non valemus, ne rursus aliud quod 
+   <lb ed="#PL"/> a nobis quaeratur exsurgat, Cur super humatum mor<lb ed="#PL" break="no"/>tuum
+   ipsa humus quodammodo vivere ac spirare vi<lb ed="#PL" break="no"/>deatur. Sed numquid hinc tanta ista solvitur quaestio, 
+   <lb ed="#PL"/> si magno miraculo, qualia potest facere Omnipotens, 
+   <lb ed="#PL"/> tamdiu vivum corpus in sopore sub terra est, donec 
+   <lb ed="#PL"/> veniat terminus saeculi? Quin imo fit amplior et diffi<lb ed="#PL" break="no"/>cilior, cur discipulo Jesus, quem diligebat prae cae­
+   
+   <lb ed="#PL"/> teris, in tantum ut super pectus ejus discumbere 
+   <lb ed="#PL"/> mereretur, pro magno munere longum in corpore do<lb ed="#PL" break="no"/>taverit
+   somnum : cum beatum Petrum per ingentem 
+   <lb ed="#PL"/> * martyrii gloriam, ab onere ipsius corporis solverit, 
+   <lb ed="#PL"/> eique eonceaserit quod apostolus Pautus se concu<lb ed="#PL" break="no"/>pisse
+   dixit, et scripsit, <hi rend="italic">Dissolvi el
+    esse cum Christo
+   <lb ed="#PL"/> (Philipp.</hi> i, 23). Si autem quod magis creditur, ideo 
+   <lb ed="#PL"/> sanctus Joannes ait, non dixisse Dominum, <hi rend="italic">Non</hi> mo<lb ed="#PL" break="no"/>ritur, ne illis verbis quae dixit, hoc voluisse intelligi 
+   <lb ed="#PL"/> putaretur; corpusque ejus iir sepulcro ejus exanime 
+   <lb ed="#PL"/> sicut aliorum mortuorum jacet : restat ut si vere ibi 
+   <lb ed="#PL"/> lit quod sparsit fama de terra, quae subinde ablata 
+   <lb ed="#PL"/> succrescit, aut ideo fiat ut co modo commendetur 
+   <lb ed="#PL"/> pretiosa mors ejus, quoniam non eam commendat 
+   <lb ed="#PL"/> martyrium
+   (non enim cum pro fide Christi persecutor 
+   <lb ed="#PL"/> occidit), aut propter aliquid aliud quod nos latet. 
+   <lb ed="#PL"/> Manet tamen quaestio cur dixerit Dominus de homine 
+   <lb ed="#PL"/> morituro, <hi rend="italic">Sic eum volo manere donec veniam.</hi> ( 
+   <lb ed="#PL"/> 4. Illud etiam in his duobus apostolis Petro et 
+   <lb ed="#PL"/> Joanne quem non moveat ad quaerendum, cur Joan<lb ed="#PL" break="no"/>nem
+   plus dilexerit Dominus, cum ipsum Dominum 
+   <lb ed="#PL"/> plus dilexerit Petrus? Ubicumque enim se comme<lb ed="#PL" break="no"/>tnorat
+   Joannes, ut nomine suo tacito ipse possit intel<lb ed="#PL" break="no"/>ligi, hoc addit quod eum diligebat Jesus, quasi solum 
+   <lb ed="#PL"/> diligeret, ut hoc signo discerneretur a caeteris, quos 
+   <lb ed="#PL"/> .'ique omnes diligebat : quid ergo, nisi amplius se 
+   <lb ed="#PL"/> dilectum, cum hoc diceret, volebat intelligi? quod 
+   <lb ed="#PL"/> absit ut mendaciter diceret. Quod autcm majus dare 
+   <lb ed="#PL"/> potuit Jesus majoris erga eum suae dilectionis indi- 
+   <lb ed="#PL"/> ( ium, qnam ut homo cum cseteris condiscipulis suis 
+   <lb ed="#PL"/> socius tantae salutis, solus tamen discubuerit super 
+   <lb ed="#PL"/> pectus ipsius Salvatori,? Porro quod apostolus Petrus
+   
+   <lb ed="#PL"/> plus aliis dilexit Ctiristum, possunt quidem doc..<lb ed="#PL" break="no"/>menta multa proferri: sed ut longe in alia non ca<lb ed="#PL" break="no"/>mus, ipsius tertiae manifestationis Domini paulo supe­
+   
+   <lb ed="#PL"/> riore lectionc, quae istam praecedit, satis evidenter 
+   <lb ed="#PL"/> apparet, ubi interrogans cum, dixit, <hi rend="italic">Diligis me piut
+   <lb ed="#PL"/> his?</hi> Quod utique sciebat, et tamen interrogabat, ut 
+   <lb ed="#PL"/> etiam nos qui legimus Evangelium, amorem Petri 
+   <lb ed="#PL"/> erga Dominum,etillo interrogante et isto respon<lb ed="#PL" break="no"/>dente
+   nossemus. Quod autem in eo quod respondit 
+   <lb ed="#PL"/> Petrus, <hi rend="italic">Amo te,</hi> non addidit, plus his, hoc respondit 
+   <lb ed="#PL"/> quod de seipso sciebat. Non enim quantum ab alio 
+   <lb ed="#PL"/> quolibet diligeretur scire poterat, qui cor alterius 
+   <lb ed="#PL"/> videre non poterat. Sed tamen superioribus verbis 
+   <lb ed="#PL"/> dicendo, <hi rend="italic">Etiam, Domine, tu scis (Joan.</hi> xxi, 15, 16), 
+   <lb ed="#PL"/> satis et ipse declaravit, scientem Domiuum interro<lb ed="#PL" break="no"/>gasse
+   quod interrogavit. Sciebat igitur Dominus non 
+   <lb ed="#PL"/> solum quod diligeret, verum etiam quod plus illis 
+   <lb ed="#PL"/> cum diligcret Petrus. Et tamen si proponamus quae<lb ed="#PL" break="no"/>rentes, quis duorum sit mclinr, utrum qui plus, an 
+   <lb ed="#PL"/> qui minus diligit Christum; quis dubitabit respondere, 
+   <lb ed="#PL"/> eum qui plus diligit esse meliorem? Item si propo<lb ed="#PL" break="no"/>namus
+   quis duorum sit melior, utrum quem minus, 
+   <lb ed="#PL"/> an quem plus diligit Christus; eum qui plus diligitur 
+   <lb ed="#PL"/> a Christo, meliorem procul dubio respondebimus. 
+   <lb ed="#PL"/> In illa ergo comparatione quam prius posui, Petrus 
+   <lb ed="#PL"/> Joanni; in hac vero altera, Joannes anteponi ur Pe<lb ed="#PL" break="no"/>iro. Proinde tertiam sic proponimus : quis est duo<lb ed="#PL" break="no"/>rum
+   discipulorum melior, qui minus quam condisci<lb ed="#PL" break="no"/>pulus
+   ejus diligit Christum, et plus quam condisci<lb ed="#PL" break="no"/>pulus
+   ejus diligitur a Christo? an ille quem minus 
+   <lb ed="#PL"/> quam condiscipulum ejus diligit Christus, cum plus 
+   <lb ed="#PL"/> ipse quam suus condiscipulus diligat Christum? nic 
+   <lb ed="#PL"/> plane cunctatur responsio, et augetur quaestio. Quan<lb ed="#PL" break="no"/>tum
+   autem ipse sapio, meliorem qui plus diligit Chri<lb ed="#PL" break="no"/>stum, feliciorem vero quem plus diligit Christus, facile 
+   <lb ed="#PL"/> responderem; si justitiam Liberatoris nostri minus 
+   <lb ed="#PL"/> eum diligentis a quo plus diligitur, et eum plus a quo 
+   <lb ed="#PL"/> minus diligitur, quemadmodum defenderem, pervi<lb ed="#PL" break="no"/>derem.</p>
+      <p xml:id="iuy75t-d1e1055-d1e582">5. Aggrediar igitur in ejus manifesta misericordia, 
+   <lb ed="#PL"/> cujus est occulta justitia, de solvenda quaestione tam 
+   <lb ed="#PL"/> ingenti, pro viribus quas ipse donaverit, disputare :
+   
+   <lb ed="#PL"/> hucusque enim proposita est, non exposita. Expo<lb ed="#PL" break="no"/>nendae
+   vero ejus hoc sit exordium; ut meminerimus 
+   <lb ed="#PL"/> in hoc corruptibili corpore quod aggravat animam 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Sap.</hi> IX, 15), vitam nos miseram vivere. Sed qui 
+   <lb ed="#PL"/> jam redempti per Mediatorem sumus, et Spiritum 
+   <lb ed="#PL"/> sanctum pignus accepimus, beatam vitam in spe ha<lb ed="#PL" break="no"/>bemus, etsi re ipsa nondum tenemus. Spes autem 
+   <lb ed="#PL"/> quae videtur, non est spes : quod enim vict quis, 
+   <lb ed="#PL"/> quid sperat ? Si autem quod non vidcmus speramus,
+   
+   <lb ed="#PL"/> per patientiam exspectamus <hi rend="italic">(Rom.</hi> VIII, 24, 25). In 
+   <lb ed="#PL"/> malis autem quae quisque patitur, non in bonis quibus 
+   <lb ed="#PL"/> fruitur, opus est patientia. Hanc itaque vitam de qua 
+   <lb ed="#PL"/> scriptum est, <hi rend="italic">Numquid non tentatio est
+    vita humana
+   <lb ed="#PL"/> super terram (Job</hi> VII, i) ? in qua quotidic clamamus 
+   <lb ed="#PL"/> ad Dominum, <hi rend="italic">Libera noa a malo (Matlh.</hi> vi, 13), co<lb ed="#PL" break="no"/>gitur
+   homo tolerare etiam remissis peccatis : quamvis 
+   <lb ed="#PL"/> ut in cam veniret miseriam, primum fuerit causa pec<lb ed="#PL" break="no"/>catum. Productior est enim poena qnam culpa; ne 
+   <lb ed="#PL"/> parva putaretur culpa, si cum illa finirctur et poen\. 
+   <lb ed="#PL"/> Ac per hoc vel ad demonstrationem debitae miseriae, 
+   <lb ed="#PL"/> vcl ad emendationem labilis vitae, vel aJ exercitatio­ 
+   <pb ed="#PL" n="1973"/>
+       <lb ed="#PL"/> nem necessariae patientiae, temporaliter hominem de<lb ed="#PL" break="no"/>tinetl
+   poena et quem jam ad damnationem sempiter<lb ed="#PL" break="no"/>nam
+   reum non detinet culpa. Haec est istorum dierum, 
+   <lb ed="#PL"/> quos in hac mortalitate agimus malos, quamvis in 
+   <lb ed="#PL"/> ea diligamus videre dies bonos, nenda quidem, sed 
+   <lb ed="#PL"/> non reprehendenda conditio. Venit enim dc ira Dei
+   
+   <lb ed="#PL"/> justa, de qua Scriptura loquens, Homo, inquit, <hi rend="italic">natus
+   <lb ed="#PL"/> ex
+    muliere, brevis vitoe, et plenus</hi> irae ( <hi rend="italic">Job</hi> xiv, i) : 
+   <lb ed="#PL"/> cum ira Dei non sit ut hominis, id est perturbatio 
+   <lb ed="#PL"/> concitati animi, sed tranquilla justi suppjicii constitu<lb ed="#PL" break="no"/>tio. In hac ira sua Deus non continens, sieul scriptum
+   
+   <lb ed="#PL"/> est, miserationes suas (Psal.LXXVI, 40), praeter alia 
+   <lb ed="#PL"/> solatia miserorum quae generi humano praebere non 
+   <lb ed="#PL"/> cessat, in plenitudine temporis, quo ipsc sciebat hoc
+   
+   <lb ed="#PL"/> esse faciendum, insit Filium suum unigenitum <hi rend="italic">(Galat.</hi>
+   
+       <lb ed="#PL"/> IV, 4), per quem creavit universa, ut manens Deus 
+   <lb ed="#PL"/> fieret homo, et esset mediator Dei et hominum homo 
+   <lb ed="#PL"/> Christus Jesus (I Tim. II , 5) : in quem credentes, per 
+   <lb ed="#PL"/> lavacrum regenerationis soluto reatu omnium pecca<lb ed="#PL" break="no"/>torum, et originalis videlicet quod generatio trahit, 
+   <lb ed="#PL"/> contra quam maxime regeneratio est instituta, et cae<lb ed="#PL" break="no"/>terorum
+   qnae male agendo contracta sunt, liberaren<lb ed="#PL" break="no"/>tur
+   a damnatione perpetua, et viverent in fide et spe 
+   <lb ed="#PL"/> et charitate, peregrinantes in hoc sacculo, atque in 
+   <lb ed="#PL"/> ejus tentationibus laboriosis et periculosis, consola<lb ed="#PL" break="no"/>tionibus
+   autem Dei et corporalibus et spiritualibus am<lb ed="#PL" break="no"/>bularent
+   ad conspectum ejus, viam tenentes, quod 
+   <lb ed="#PL"/> cis factus est Christus. Et quia in ipso quoque ambo<lb ed="#PL" break="no"/>lantes
+   non sunt sine peccatis, quae de hujus vitae in<lb ed="#PL" break="no"/>firmitate
+   subrepunt, dedit eleemosynarum remedia 
+   <lb ed="#PL"/> salutaria, quibus eorum adjuvaretur oratio, ubi eos 
+   <lb ed="#PL"/> dicere docuit, <hi rend="italic">Dimille nobis debita nostra, sicut et nos 
+   <lb ed="#PL"/>
+    dimittimus debitoribus nostris (Matth.</hi> VI, 12). Hoc agit 
+   <lb ed="#PL"/> Ecclesia spe beata in hac vita aerumnosa : cujus Ec<lb ed="#PL" break="no"/>clesiae
+   Petrus apostolus, propter Apostolatus sui pri<lb ed="#PL" break="no"/>matum, gerebat figurata generalitate personam. Quod 
+   <lb ed="#PL"/> enim ad ipsum proprie pertinet, natura unus homo 
+   <lb ed="#PL"/> erat, gratia unus christianus, abundantiore gratia . 
+   <lb ed="#PL"/> unus idemque primus apostolus : sed quando ei di<lb ed="#PL" break="no"/>ctum
+   est, Tibi
+    <hi rend="italic">dubo claves regni</hi> caelorum, <hi rend="italic">et quod­
+   <lb ed="#PL"/>
+    cumque ligaveris super terram, erit ligatum ci in coelis ;
+   <lb ed="#PL"/> et quodcumque solveris
+    super terram, erit solutum et</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">coelis,</hi> universam significabat Ecclesiam, quae in hoc 
+   <lb ed="#PL"/> saeculo diversis tentationibus velut imbribus, flumi<lb ed="#PL" break="no"/>nibus, tempestatibus quatitur, et non cadit, quoniam 
+   <lb ed="#PL"/> fundata est super petram, unde Petrus nomen acce<lb ed="#PL" break="no"/>pit. Non enim a Petro petra, sed Petrus a petra; sicut 
+   <lb ed="#PL"/> non Christus a christiano, sed christianus a Christo 
+   <lb ed="#PL"/> vocatur. Idco quippc ait. Dominus, <hi rend="italic">Super
+    hanc pelratn 
+   <lb ed="#PL"/> aedificabo</hi> Ecclesiam <hi rend="italic">meam,</hi> quia dixcral Petrus, Tue. 
+   <lb ed="#PL"/> Christus Filius <hi rend="italic">Dei</hi> viii <hi rend="italic">(Id.</hi> xvi, 16-19). Super hanc 
+   <lb ed="#PL"/> ergo, inquit, petram quam confessus es, scdificabo 
+   <lb ed="#PL"/> Ecclesiam meam. Petra enim erat Christus (I <hi rend="italic">Cor.</hi> x, 
+   <lb ed="#PL"/> 4) : super quod fundamentum etiam ipse aedificatus 
+   <lb ed="#PL"/> est Petrus. Fundamentum quippe aliud nemo potest 
+   <lb ed="#PL"/> ponere praeter id quod positum est, quod est Christus
+   
+   <lb ed="#PL"/> Jesus (Id. III, 11). Ecclesia ergo quae fundatur in 
+   <lb ed="#PL"/> Christo, claves ab eo regni coelorum accepit in Petro, 
+   <lb ed="#PL"/> id est potestatem ligandi solvendique peccata. Quoa 
+   <lb ed="#PL"/> est enim pel- propriclatem in Christo Ecclesia, hoc 
+   <lb ed="#PL"/> est por significationem Petrus in petra; qua significa<lb ed="#PL" break="no"/>tione
+   intelligitur Christus petra, Petrus Ecclesia. Haec 
+   <lb ed="#PL"/> igitur Ecclesia quam significabat Petrus, quamdiu de<lb ed="#PL" break="no"/>git
+   in malis, amando et sequendo Christum liberatur 
+   <lb ed="#PL"/> a malis. Magis antem sequitur in eis qui certant pro 
+   <lb ed="#PL"/> veritate usque ad mortem. Sed universitati dicitur, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Sequere me,</hi> pro qua universitate passus est Christus : 
+   <lb ed="#PL"/> de quo dicit idem Petrus, <hi rend="italic">Christus pro nobis passus</hi>
+   
+       <lb ed="#PL"/> eat, <hi rend="italic">relinquens nobis exemplum,</hi> ut <hi rend="italic">sequamur vestigia 
+   <lb ed="#PL"/> ejus</hi> (I <hi rend="italic">Petr.</hi> II, 21). Ecce propter quod ei dictum est, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Sequere me.</hi> Est autcm alia vita immortalis, quae non 
+   <lb ed="#PL"/> est in malis : ibi facie ad faciem videbimus, quod hie 
+   <lb ed="#PL"/> per speculum et in aenigmate videtur (I <hi rend="italic">Cor.</hi> XIII, 12), 
+   <lb ed="#PL"/> quando multum in conspicienda veritate proficitur. 
+   <lb ed="#PL"/> Duas itaque vitas sibi divinitns praedicatas et com<lb ed="#PL" break="no"/>mendatas
+   norit Ecclesia, quarum est una in fide, al. 
+   <lb ed="#PL"/> tera in specie; una in tempore peregrinationis, altera 
+   <lb ed="#PL"/> in aeternitate mansionis; una in labore, altera in re<lb ed="#PL" break="no"/>quie; una in via, altera in patria; una in opere ac<lb ed="#PL" break="no"/>tionis , altera in mercede contemplationis ; una de.. 
+   <lb ed="#PL"/> clinat a malo et tacit bonum, altera nullum hahet a 
+   <lb ed="#PL"/> quo declinet malum, et magnum habet quo fruatur 
+   <lb ed="#PL"/> bonum; una cum hoste pugnat, altera sine hoste 
+   <lb ed="#PL"/> regnat; una fortis est in adversis, altera nihil sentt
+   
+   <lb ed="#PL"/> adversi; una carnales libidines frenat, altera spiritua<lb ed="#PL" break="no"/>libus
+   delectationibus vacat; una est vincendi cura sol<lb ed="#PL" break="no"/>licita, altera victoriae pace secura; una in tentationi 
+   <lb ed="#PL"/> bus adjuvatur, altera sine ulla tentatione in ipso ad­
+   
+   <lb ed="#PL"/> jutore lactatur; una subvenit indigenti, altera ibi est 
+   <lb ed="#PL"/> ubi nullum invenit indigentem ; una aliena peccata ut 
+   <lb ed="#PL"/> sua sibi ignoscantur ignoscit, altera nec patitur quod 
+   <lb ed="#PL"/> ignoscat, nec facit quod sibi poscat ignosci; una fla<lb ed="#PL" break="no"/>gellatur
+   malis, ne extollatur in bonis, altera tanta 
+   <lb ed="#PL"/> plenitudine gratiae caret omni malo, ut sine ulla tcn<lb ed="#PL" break="no"/>tntione
+   superbiae cohaereat summo bono; uIa bonaet
+   <lb ed="#PL"/> mala discernit, altera quae sola bona sunt cernit : ergo 
+   <lb ed="#PL"/> una bona est, sed adhuc misera
+   ; altera metior et 
+   <lb ed="#PL"/> beata. Ista significata est per apostolum Petrum , iila 
+   <lb ed="#PL"/> per Joannem. Tota hic agitur ista usque in hujus sae<lb ed="#PL" break="no"/>culi
+   fineln, et illie invenit finem : diffortur illa com<lb ed="#PL" break="no"/>plenda
+   post hujus saeculi linem, sod in futuro saeculo
+   
+   <lb ed="#PL"/> non habcl finem. Ideo dicitur huic, <hi rend="italic">Sequere me :</hi> de 
+   <lb ed="#PL"/> illo autem, Sic <hi rend="italic">eum volo manere donec veniam ; quid</hi>
+   
+       <lb ed="#PL"/> a <hi rend="italic">te? Tu me sequere.</hi> Quid euim est hoc? Quantum 
+   <lb ed="#PL"/> sapio, quantum capio, quid est hoc, nisi, Tu me se<lb ed="#PL" break="no"/>quere
+   pcr imitationem perferendi temporalia ma!a; 
+   <lb ed="#PL"/> illo maneat donce sempiterna venio redditurus bona? .
+   
+   <lb ed="#PL"/> Quod apertins ita dici potest : Perfecta me sequatur 
+   <lb ed="#PL"/> actio, informata meae passionis exemplo ; inchoata 
+   <lb ed="#PL"/> vero contemplatio maneat donce venio, perficicnda
+   
+   <lb ed="#PL"/> cum vcnero. Sequitur enim Christum, perveniens 
+   <lb ed="#PL"/> usque ad mortem pia plenitudo patienti;e : manet au<lb ed="#PL" break="no"/>tem
+   donec veniat Christus, tunc manifestanda pleni<lb ed="#PL" break="no"/>ludo
+   scientiae. Hic quippe tolerantur mala hujus mundi 
+   <lb ed="#PL"/> in terra morientium, ibi videbuntur bona Domini in 
+   <lb ed="#PL"/> terra viventium. Quod enim ait, <hi rend="italic">Volo
+    eum manere 
+   <lb ed="#PL"/> doncc veniam,</hi> non sic intelligendum est quasi dixerit, 
+   <lb ed="#PL"/> remanere vel permanere ; bcd, exspectare : quoniam 
+   <pb ed="#PL" n="1975"/>
+       <lb ed="#PL"/> quod per eum significatur, non utique nunc, sed cum 
+   <lb ed="#PL"/> venerit Christus, implebitur. Quod autem per hunc 
+   <lb ed="#PL"/> significatur, cui dictum est, <hi rend="italic">Tu me sequere,</hi> nisi nunc 
+   <lb ed="#PL"/> agatur, non pervenietur ad illud quod exspectatur. In 
+   <lb ed="#PL"/> liae autem activa vita quanto magis Christum diligi<lb ed="#PL" break="no"/>mus,
+   tanto facilius liberamur a malo. At ipse nos mi<lb ed="#PL" break="no"/>nus
+   diligit quales nunc sumus ; et hinc ideo liberat , 
+   <lb ed="#PL"/> ne semper tales simus. Ibi vero amplius nos diligit; 
+   <lb ed="#PL"/> quoniam quod ei displiceat, et quod a nobis auferat, 
+   <lb ed="#PL"/> non habcbimus
+   : nec ob aliud nos hic diligit, nisi ut 
+   <lb ed="#PL"/> sanet et transferat ab his quae non diligit. Hic ergo 
+   <lb ed="#PL"/> minus, ubi non vult remaneamus : ibi amplius, quo 
+   <lb ed="#PL"/> vult transeamus, et unde non vult pcreamns. Amet ergo 
+   <lb ed="#PL"/> cum Petrus, ut ab ista mortalitate liberemur : ametur 
+   <lb ed="#PL"/> ab co Joannes, ut in illa immortalitate servemur.</p>
+      <p xml:id="iuy75t-d1e1055-d1e1014">6. Sed ista ratione illud ostenditur, cur amplius 
+   <lb ed="#PL"/> Joannem quam Petrum amaverit Christus, non eur 
+   <lb ed="#PL"/> amplius Petrus quam Joannes amaverit Christum. 
+   <lb ed="#PL"/> Neque enim, si plus nos diligit Christus in futuro sae<lb ed="#PL" break="no"/>culo, ubi cum illo sine fine vivemus, quam in isto 
+   <lb ed="#PL"/> unde eruimur, ut illic semper simus, propterea nos 
+   <lb ed="#PL"/> tunc eum minus dilecturi sumus quando meliores eri<lb ed="#PL" break="no"/>mus; cum meliores utique nisi amplius eum diligendo, 
+   <lb ed="#PL"/> nullo modo esse possimus. Cur ergo Joannes minus 
+   <lb ed="#PL"/> eum diligebat quam Petrus, si eam vitam significa<lb ed="#PL" break="no"/>bat, in qua est multo amplius diligendus , nisi quIa 
+   <lb ed="#PL"/> propterea dictum est, <hi rend="italic">Volo eum
+    manere,</hi> id est exspe<lb ed="#PL" break="no"/>cLare, <hi rend="italic">donec veniam,</hi> quoniam et ipsum amorem qui 
+   <lb ed="#PL"/> tunc multo amplior erit, nondum habemus, sed fu<lb ed="#PL" break="no"/>turum
+   exspectamus, ut cum ipse venerit, habeamus? 
+   <lb ed="#PL"/> Nam sicut in Epistola sua idem dicit apostolus, <hi rend="italic">Non­
+   <lb ed="#PL"/> dum apparuit quod erimus;</hi> scimus <hi rend="italic">quoniam cum appa<lb ed="#PL" break="no"/>ruerit , similes</hi> ei erimus, <hi rend="italic">quoniam videbimus eum sicuti 
+   <lb ed="#PL"/> est</hi> (1 <hi rend="italic">Joan.</hi> III, i). Tunc ergo amplius quod videbi<lb ed="#PL" break="no"/>mus, diligemus. Ipse autem Dominus illam quae fu<lb ed="#PL" break="no"/>tura
+   est vitam nostram, qualis in nobis futura sit 
+   <lb ed="#PL"/> sciens, praedestinatione plus amat, ut ad eam nos 
+   <lb ed="#PL"/> amando perducat. Quocirca quoniam universae vix 
+   <lb ed="#PL"/> Domini misericordia et veritas <hi rend="italic">(Psal.</hi> xxiv, 10), roi<lb ed="#PL" break="no"/>seriam
+   nostram praesentem novimus, quia sentimus; 
+   <lb ed="#PL"/> et ideo misericordiam Domini, quam nobis de miseria 
+   <lb ed="#PL"/> liberandis exhiberi volumus, plus amamus, eamque 
+   <lb ed="#PL"/> quotidie maxime pro peccatorum remissione posci<lb ed="#PL" break="no"/>mus
+   et habemus : hoc per Petrum significatum est 
+   <lb ed="#PL"/> plus amantem, sed minus amatum; quia minus nos 
+   <lb ed="#PL"/> amat Christus miseros quam beatos. Veritatis autem 
+   <lb ed="#PL"/> contemplationem qualis tunc futura est, minus ama<lb ed="#PL" break="no"/>mus, 
+   quia nondum novimus nec habemus : h:ec per
+   <lb ed="#PL"/> Joannem significata est minus amantem , atque ideo 
+   <lb ed="#PL"/> et ad ipsam, et ad ejus in nobis amorem , qualis ei 
+   <lb ed="#PL"/> debetur, implendum, donec veniat Dominus exspe<lb ed="#PL" break="no"/>ctantem
+   sed plus amatum, quia id quod per illum fi<lb ed="#PL" break="no"/>guratam
+   est, hoc efficit beatum.</p>
+      <p xml:id="iuy75t-d1e1055-d1e1118">7. Nemo tamen istos insignes apostolos separet. 
+   <lb ed="#PL"/> Et in eo quod significabat Petrus, ambo erant; et in 
+   <lb ed="#PL"/> co quod significabat Joannes, ambo futuri erant. Si<lb ed="#PL" break="no"/>gnificando 
+   sequebatur iste , manebat ille : credendo 
+   <lb ed="#PL"/> autem ambo mala praesentia hujus miseriae tolera<lb ed="#PL" break="no"/>baut, 
+   ambo futurabona illius beatitudinis exspectabaut. 
+   <lb ed="#PL"/> Nec ipsi soli, sed universa hoc facit sanCIa Ecclesia 
+   <lb ed="#PL"/> sponsa Christi, ab istis tentationibus erucnda, in illa 
+   <lb ed="#PL"/> felicitate servanda. Quas duas vitas Petrus et Joannes 
+   <lb ed="#PL"/> figuraverunt, singuli singulas : verum et in hac tem<lb ed="#PL" break="no"/>poraliter
+   ambulaverunt ambo per fidem, et illa in 
+   <lb ed="#PL"/> aeternum fruentur ambo per speciem. Omnibus igi<lb ed="#PL" break="no"/>tur
+   sanctis ad Christi corpus inseparabiliter pertinen<lb ed="#PL" break="no"/>tibus, 
+   propter hujus vitae procellosissimae gubernacu<lb ed="#PL" break="no"/>lum, 
+   ad liganda et solvenda peccata claves regni coe<lb ed="#PL" break="no"/>lorum primus Apostolorum Petrus accepit: eisdemque 
+   <lb ed="#PL"/> omnibus sanctis propter vitae illius secretissimae quic<lb ed="#PL" break="no"/>tissimum
+   sinum, super pectus Christi Joannes cvao<lb ed="#PL" break="no"/>gclista
+   discubuit. Quoniam nec iste solus, sed universa 
+   <lb ed="#PL"/> Ecclesia ligat solvitque peccata : nec ille in principio 
+   <lb ed="#PL"/> Verbum Deum apud Deum, et caetera de Christi divi- 
+   <lb ed="#PL"/> Dilate, et de totius divinitatis trinitate atque unitate 
+   <lb ed="#PL"/> subliinia, quae in illo regno facie ad faciem contem<lb ed="#PL" break="no"/>planda, 
+   nunc autem donec veniat Dominus, in speculo 
+   <lb ed="#PL"/> atque in aenigmate contuenda sunt, quae praedicando 
+   <lb ed="#PL"/> ructaret, de fonte Dominici pectoris solus bibit; sed 
+   <lb ed="#PL"/> ipse Dominus ipsum Evangelium pro sua cujusque ca<lb ed="#PL" break="no"/>pacitate
+   omnibus suis bibendum toto terrarum orbe 
+   <lb ed="#PL"/> diffudit. Sunt qui senserint, et hi quidem non contem<lb ed="#PL" break="no"/>ptibiles
+   sacri eloquii tractatores, a Christo Joannem 
+   <lb ed="#PL"/> apostolum propterea plus amatum , quod neque uxo<lb ed="#PL" break="no"/>rem
+   duxerit, et ab ineunte pueritia castissimus vise<lb ed="#PL" break="no"/>rit 
+   <hi rend="italic">(Hieron. lib.</hi> i <hi rend="italic">contra Jovinianum).</hi> Hoc quidem in 
+   <lb ed="#PL"/> Scripturis canonicis non evidenter apparet : verumta<lb ed="#PL" break="no"/>men
+   id quoque multum adjuvat congruentiam hujusce
+   <lb ed="#PL"/> sententiae, quod illa vita per eum significata est, ubi 
+   <lb ed="#PL"/> non erunt nuptiae.</p>
+      <p xml:id="iuy75t-d1e1055-d1e1205">8. <hi rend="italic">Hie est discipulus ille qui testimonium perhibet de
+   <lb ed="#PL"/> his,
+    et</hi> scripsit <hi rend="italic">hoec ; et scimus quia</hi> verum <hi rend="italic">est testimo<lb ed="#PL" break="no"/>nium
+   ejus. Sunt autem,</hi> inquit, <hi rend="italic">et alia
+    multa quai fecit</hi>
+   
+       <lb ed="#PL"/> Jesua, <hi rend="italic">quoe si scribantur per singula, nec ipsum</hi> arbitror 
+   <lb ed="#PL"/>
+       <hi rend="italic">mundum capere eos qui scribendi</hi> sunt libros. Non spa<lb ed="#PL" break="no"/>tio
+   iocorum credendum est mundum capere non posse, 
+   <lb ed="#PL"/> quae in eo scribi quomodo possent, si scripta non fer<lb ed="#PL" break="no"/>rcL? 
+   sed capacitate legentium comprehendi fortasse 
+   <lb ed="#PL"/> non possent : quamvis salva rerum fide, plerumque 
+   <lb ed="#PL"/> verba excedere videantur fidem. Quod non fit quando 
+   <lb ed="#PL"/> aliquid quod erat obscurum vel dubium, causa et ra<lb ed="#PL" break="no"/>tione
+   reddita exponitur : sed quando id quod aper<lb ed="#PL" break="no"/>tum
+   est vel augetur, vel extenuatur, nec tamen a 
+   <lb ed="#PL"/> tramite significandie veritatis erratur; quoniam sic 
+   <lb ed="#PL"/> verba rem quae indicatur excedunt, ut voluntas lo<lb ed="#PL" break="no"/>quentis
+   nec fallentis appareat, qui novit quousque 
+   <lb ed="#PL"/> credatur, a quo ultra quam credendum est vel minui<lb ed="#PL" break="no"/>tur 
+   loquendo aliquid, vel augetur. nunc loquendi mo<lb ed="#PL" break="no"/>dum
+   graeco nomine, non solum graecarum, verum 
+   <lb ed="#PL"/> . etiam latinarum litterarum magistri hyperbolen vo<lb ed="#PL" break="no"/>cant. Qui modus, sicut hoc loco, ita in nonnullis aliis 
+   <lb ed="#PL"/> divinis Litteris invenitur : ut est, <hi rend="italic">Posuerunt in caelum</hi>
+   
+       <lb ed="#PL"/> os suum <hi rend="italic">(Psal.</hi> LXXII, 9); et, <hi rend="italic">Verticem
+    capilli peram­</hi>
+   
+       <lb ed="#PL"/> bulantium <hi rend="italic">in delictis</hi> suis <hi rend="italic">(Psal.</hi> LXVII , 22) ; et inulta 
+   <lb ed="#PL"/> hujusmodi, quae Scripturis sanctis non desunt, sicut 
+   <lb ed="#PL"/> alii tropi, hoc est locutionum modi. De quibus ope<lb ed="#PL" break="no"/>rosius
+   disputarem, nisi Evangelista terminante Evan<lb ed="#PL" break="no"/>gelium
+   suum , etiam ipse compellerer meum termi<lb ed="#PL" break="no"/>nare 
+   sermonem.
+  </p>
+    </div>
+   </body>
+  </text>
+</TEI>

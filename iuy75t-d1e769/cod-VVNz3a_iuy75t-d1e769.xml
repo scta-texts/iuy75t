@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 89</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 89</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e769"> <!-- iuy75t-t89 -->
+      <head xml:id="iuy75t-d1e769-Hd1e109">Tractatus 89</head>
+      <p xml:id="iuy75t-d1e769-d1e112">
+       <hi rend="italic">De eo quod dicit Dominus,</hi> Si non venissem, et locu<lb ed="#PL" break="no"/>tus
+   eis fuissem; <hi rend="italic">usque ad id ,</hi> Qui me odit, et t'a- 
+   <lb ed="#PL"/> trem rncum odit. <hi rend="italic">Cap.</hi> xv, ; f . 22, 23.</p>
+      <p xml:id="iuy75t-d1e769-d1e128">i. Superius dixerat Dominus ad discipulos suos : 
+   <lb ed="#PL"/>
+       <hi rend="italic">Si me persecuti sunt, et</hi> vos <hi rend="italic">persequentur; si
+    sermonem</hi>
+   
+       <lb ed="#PL"/> meum servaverunt, <hi rend="italic">et vestrum servabunt: sed haec omnia 
+   <lb ed="#PL"/>
+    facient vobis propter nomen meum, quia nesciunt</hi> eum 
+   <lb ed="#PL"/>
+       <hi rend="italic">qui</hi> misit <hi rend="italic">me.</hi> Dc quibus autem hoc dixcrit si quaera<lb ed="#PL" break="no"/>mus, invenimus eum ad haec verba venisse ab co 
+   <lb ed="#PL"/> quod dixerat, Si <hi rend="italic">mundus vos odit, scilote quia me</hi> prio­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">rem vobis odio habuit:</hi> nunc vero quod addidit, <hi rend="italic">Si non 
+   <lb ed="#PL"/> venissem, et locutus eis fuissem, peccatum non</hi> haberent, 
+   <lb ed="#PL"/> Judaeos Odtendit expressius. De his ergo et illa dice<lb ed="#PL" break="no"/>bat; nam hoc indicat verborum ipsa contextio. Do 
+   <lb ed="#PL"/> his enim dicit, Si <hi rend="italic">non</hi> venissem, <hi rend="italic">et locutus eis fuissem, 
+   <lb ed="#PL"/> peccatum non haberent,</hi> de quibus dicebat, Si <hi rend="italic">me per<lb ed="#PL" break="no"/>secuti
+   sunt, et vos
+    persequentur;</hi> si <hi rend="italic">sermonem meum</hi> ser­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">vaverunt, et vestrum servabunt : sed haec omnia facient 
+   <lb ed="#PL"/> vobis
+    propter nomen meum, quia nesciunt eum qui misit</hi>
+   
+       <lb ed="#PL"/> me; bis enim verbis et ista subjungit, Si nou <hi rend="italic">venissem, 
+   <lb ed="#PL"/> et
+    locutus</hi> eia <hi rend="italic">fuissem, peccatum non haberent.</hi> Judaei 
+   <lb ed="#PL"/> ergo persecuti sunt Christum, quod evidentissime in<lb ed="#PL" break="no"/>dicat
+   Evangelium; Judaeis locutus est Christus, non 
+   <lb ed="#PL"/> aliis gentibus : in eis ergo voluit intelligi mundum,
+   
+   <lb ed="#PL"/> qui odit Christum et discipulos ejus; imo vero non in 
+   <lb ed="#PL"/> eis solis, sed bos quoque ad eumdem mundum perli<lb ed="#PL" break="no"/>nere
+   monstravit. Quid est ergo, <hi rend="italic">Si non</hi> venissem , <hi rend="italic">et
+   <lb ed="#PL"/> locutus eis fuissem, peccatum non
+    haberent ?</hi> Numquid 
+   <lb ed="#PL"/> sine peccato erant Judaei, antequam Christus ad cos 
+   <lb ed="#PL"/> in carne venisset ? Quis hoc vel stultissimus dixerit f 
+   <lb ed="#PL"/> Sed magnum quoddam peccatum, non omne pecca<lb ed="#PL" break="no"/>tum, quasi sub generali nomine vult intelligi. Hoc cst
+   
+   <lb ed="#PL"/> enim peccatum quo tenentur cuncta peccata, quod 
+   <pb ed="#PL" n="1857"/>
+       <lb ed="#PL"/> unusquisque si non habeat, dimittuntur ei cuncta pec<lb ed="#PL" break="no"/>cata : boc est autem, quia non crediderunt in Chri<lb ed="#PL" break="no"/>stum, qui propterea venit ut credatur in cum. Hoc 
+   <lb ed="#PL"/> peccatum, si non venisset, non utique haberent. Ad<lb ed="#PL" break="no"/>ventus
+   quippe ejus quantum credentibus salutaris, 
+   <lb ed="#PL"/> tantum non credentibus exitiabilis factus est
+   : tan<lb ed="#PL" break="no"/>q
+   uam et ipso caput et princeps Apostolorum, quod de 
+   <lb ed="#PL"/> se ipsi dixerunt, exstiterit <hi rend="italic">quibusdam quidem odor
+   <lb ed="#PL"/> vitae</hi> in ritam,
+    <hi rend="italic">quibusdam vero odor</hi> mortis in <hi rend="italic">mortem</hi>
+   
+       <lb ed="#PL"/> (II <hi rend="italic">Cor.</hi> II, 16).</p>
+      <p xml:id="iuy75t-d1e769-d1e282">2. Sed quod adjunxit, atque ait, <hi rend="italic">Nunc autem excu­</hi>
+   
+       <lb ed="#PL"/> sationem <hi rend="italic">non habent de peccato suo,</hi> potest movcre 
+   <lb ed="#PL"/> quaerentes, utrum hi ad quos non venit Christus. nee 
+   <lb ed="#PL"/> loculUS est eis, habeant excusationem de peccato 
+   <lb ed="#PL"/> suo. Si enim non habent, cur hic dictum est propter...
+   
+   <lb ed="#PL"/> ea istos non habere, quia venit et locutus est eis ? Si 
+   <lb ed="#PL"/> autem habent, utrum ad hoc habeant ut a poenis alie<lb ed="#PL" break="no"/>nentur, an ut mitius puniantur? Ad haec inquisita pro 
+   <lb ed="#PL"/> meo captu, Domino donante , respondeo , habere iI<lb ed="#PL" break="no"/>los
+   excusationem , non de omni peccato suo, sed de 
+   <lb ed="#PL"/> hoc peccato quo in Christum non crediderunt, ad
+   
+   <lb ed="#PL"/> quos non venit, et quibus non est locutus Sed non 
+   <lb ed="#PL"/> in eo sunt numero hi ad quos in discipulis venit , et 
+   <lb ed="#PL"/> quibus per discipulos est locutus, quod et nunc facit: 
+   <lb ed="#PL"/> nam per Ecclesiam suam venit ad Gentes, et per Ec<lb ed="#PL" break="no"/>clesiam
+   loquilur Gentibus. Ad hoc enim pertinet quod 
+   <lb ed="#PL"/> ait, <hi rend="italic">Qui vos recipit, me
+    recipit (Matth.</hi> x, 40) : et, <hi rend="italic">Qui 
+   <lb ed="#PL"/> vos spernit, me spernit
+    (Luc. x,</hi> 16). <hi rend="italic">An vultis, inquit</hi>
+   
+       <lb ed="#PL"/> apostolus Paulus, <hi rend="italic">experimentum accipere ejus qui in
+   <lb ed="#PL"/> me
+    loquitur Christus</hi> (II <hi rend="italic">Cor.</hi> XIII, 3) ?</p>
+      <p xml:id="iuy75t-d1e769-d1e349">5. Restat inquirere utrum hi qui priusquam Chri<lb ed="#PL" break="no"/>stus
+   in Ecclesia veniret ad Gentes, et priusquam 
+   <lb ed="#PL"/> Evangelium ejus audirent, vitae hujus fine praeventi 
+   <lb ed="#PL"/> sunt, seu praeveniuntur, possint hahere hanc excusa<lb ed="#PL" break="no"/>tionem? Possunt plane, sed non ideo possunt effu<lb ed="#PL" break="no"/>gere
+   damnationem. <hi rend="italic">Quicumque enim sine Lege
+    peccave<lb ed="#PL" break="no"/>runt, sine Lege et peribunt: et quicumque in Lege pec­
+   <lb ed="#PL"/> caverunt,
+    per Legem judicabuntur (Rom.</hi> II, 12). Quae 
+   <lb ed="#PL"/> quidem Apostoli verba, quoniam id quod ait, <hi rend="italic">peri<lb ed="#PL" break="no"/>bunt,</hi> terribilius sonat quam quod ait , judicabuntur; 
+   <lb ed="#PL"/> uon solum nihil adjuvare hanc excusationem viden<lb ed="#PL" break="no"/>tur
+   ostendere, verum etiam p!us gravare. Qui enim 
+   <lb ed="#PL"/> se quia non audierunt, excusabunt,
+    <hi rend="italic">sine Lege peribunt.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e769-d1e387">A. Sed utrum hi qui cum audirent, contempserunt, 
+   <lb ed="#PL"/> vel etiam restiterunt, nec tantum contradicendo, 
+   <lb ed="#PL"/> sed et eos a quibus audierunt odiis persequendo, in 
+   <lb ed="#PL"/> eis deputandi sunt de quibus aliquid levius vidctur 
+   <lb ed="#PL"/> sonuisse quod dictum est, <hi rend="italic">per Legem judicabuntur,</hi>
+   
+       <lb ed="#PL"/> merito qaeritur. Sed si aliud est perire sine Lege, 
+   <lb ed="#PL"/> aliud judicari per Logem, et illud est gravius, hoc au<lb ed="#PL" break="no"/>tem
+   levius; procul dubio non sunt isti in hac poena
+   
+   <lb ed="#PL"/> leviore ponendi, quia ncque in Lege peccaverunt, 
+   <lb ed="#PL"/> sed omnino Legem Christi acciperc noluerunt, et 
+   <lb ed="#PL"/> eam quantum ad ipsos attinet, omnino nullam esse 
+   <lb ed="#PL"/> voluerunt. Illi autem peccant in Lege, qui sunt in 
+   <lb ed="#PL"/> Lege, id est, qui eam suscipiunt, eamque sanctam, 
+   <lb ed="#PL"/> et mandatum sanctum et justum et bonum fatentur 
+   <lb ed="#PL"/>
+   (ld. VII, 42); sed infirmitate non implent quod ab ea 
+   <lb ed="#PL"/> rectissime praecipi dubitare nou possunt. Hi sunt qui 
+   <lb ed="#PL"/> aliquo modo forsitan possunt ab eorum , qui sine 
+   <lb ed="#PL"/> L ge sunt, perditione discerni : si tamen quod Apo<lb ed="#PL" break="no"/>stolus
+   ait, <hi rend="italic">per Legem judicabuntur,</hi> sic accipiendum 
+   <lb ed="#PL"/> est tanquam dixerit , non peribunt; qnod mirum si 
+   <lb ed="#PL"/> ila est. Neque enim de infidelibusetfidelibis erat 
+   <lb ed="#PL"/> sermo ut hoc diceret, sed de Gentibus et Judaeis : 
+   <lb ed="#PL"/> qui certe utrique nisi in co Salvatore salventur, qui 
+   <lb ed="#PL"/> venit quaerere quod perierat <hi rend="italic">(Luc.</hi> xix , 10), ad per<lb ed="#PL" break="no"/>dilioncm
+   sine dubio pertinebunt. Quamvis dici pos<lb ed="#PL" break="no"/>sit, alios gravius, alios levius pcrituros, id est, alios 
+   <lb ed="#PL"/> graviores, alios leviores poenas in sua perditione pas<lb ed="#PL" break="no"/>suros. Ille enim pcrire Deo dicilur, quisquis ab illa 
+   <lb ed="#PL"/> beatitudine quam dat sanctis suis, per suppliciutu se.. 
+   <lb ed="#PL"/> paratur: tanta est autem suppliciorum, quanta est di<lb ed="#PL" break="no"/>versitas
+   peccator um; quae quomodo se habeat
+   , altius 
+   <lb ed="#PL"/> judicat sapientia divina, quam conjectura scrutatur 
+   <lb ed="#PL"/> aut effatur humana. Isti certe ad quos venit, et qui<lb ed="#PL" break="no"/>bus
+   locutus est Christus, non habent de magno in<lb ed="#PL" break="no"/>fidelitatis
+   peccato illam excusationem, qua possint 
+   <lb ed="#PL"/> dicere, Non vidimus, non audivimus : sive non acce<lb ed="#PL" break="no"/>ptaretur
+   ista excusatio ab illo cujus inscrutabilia 
+   <lb ed="#PL"/> sunt judicia, sive acceptaretur, et si non ut ab omni 
+   <lb ed="#PL"/> damnatione liberarentur, certe ut aliquanto lenius da<lb ed="#PL" break="no"/>mnarentur.</p>
+      <p xml:id="iuy75t-d1e769-d1e484">5. <hi rend="italic">Qui me odit,</hi> inquit, <hi rend="italic">et Patrem</hi> meum
+    <hi rend="italic">ndil.</hi> Hic 
+   <lb ed="#PL"/> nobis fortasse dicatur : Quis potest odissc quem ne<lb ed="#PL" break="no"/>scit? Et utique antequam diceret, <hi rend="italic">Si non venissem, et
+    
+   <lb ed="#PL"/> locutus eis fuissem, peccatum</hi> noi <hi rend="italic">haberent,</hi> dixerat
+   
+   <lb ed="#PL"/> discipulis suis, <hi rend="italic">Haec facient vobis, quia nesciunt eum 
+   <lb ed="#PL"/> qui
+    misit me.</hi> Quomodo ergo nesciunt et oderunt ? Si 
+   <lb ed="#PL"/> enim non quod est ipse, sed nescio quid aliud de illo 
+   <lb ed="#PL"/> opinantur ; non utique ipsum, sed illud inveniuntur
+   
+   <lb ed="#PL"/> odisse quod fingunt, aut errando potius suspicantur. 
+   <lb ed="#PL"/> Et tamen nisi possent homines odisse quod nesciunt, 
+   <lb ed="#PL"/> non veritas utrumque dixisset, quia ejus Palrem et
+   
+   <lb ed="#PL"/> nesciunt et oderunt. Sed quomodo id fieri possit, 
+   <lb ed="#PL"/> si adjuvante Domino per nos demonstrari potest; 
+   <lb ed="#PL"/> quia haec disputatio est jam claudenda, nunc non potest.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

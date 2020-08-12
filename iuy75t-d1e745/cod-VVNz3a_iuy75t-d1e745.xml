@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 86</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 86</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e745"> <!-- iuy75t-t86 -->
+      <head xml:id="iuy75t-d1e745-Hd1e109">Tractatus 86</head>
+      <p xml:id="iuy75t-d1e745-d1e112">
+       <hi rend="italic">De eo quod Dominus ait,</hi> Vos autem dixi amicos; 
+   <lb ed="#PL"/>
+       <hi rend="italic">usque ad id,</hi> Ut quodcumque pcticriLis Patrem in 
+   <lb ed="#PL"/> nomine meo, det vobis. <hi rend="italic">Cap,</hi> xv, f f . 15, 16.</p>
+      <p xml:id="iuy75t-d1e745-d1e128">i. Merito quaeritur quomodo accipiendum sit quod 
+   <lb ed="#PL"/> ait Dominus, <hi rend="italic">Vos autem dixi amicos; quia omnia quai­
+   <lb ed="#PL"/> cumque audivi a Patre meo, nota feci.
+    vobis.</hi> Quis enim 
+   <lb ed="#PL"/> audeat affirmare vel credere ullum hominum scire 
+   <lb ed="#PL"/> omnia quae cumque a Patre audivit unigenitus Filius ; 
+   <lb ed="#PL"/> quando ne hoc quidem quisquam capit, quomodo a 
+   <lb ed="#PL"/> Patre audiat ullum verbum, cum ipse sit Patris uni<lb ed="#PL" break="no"/>cnm
+   Verbum? Quid , quod aliquanto post, in hoc 
+   <lb ed="#PL"/> ipso tamcn sermone, quem post cnenam ante passio<lb ed="#PL" break="no"/>nem
+   ad discipulos habuit, <hi rend="italic">Multa,</hi> inquit, <hi rend="italic">habeo</hi> vo­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">bis dicere; scd non potestis illa portare modo (Joan.</hi> xvi, 
+   <lb ed="#PL"/> 42)? Quo igitur pacto intellecturi sumus omnia eunt 
+   <lb ed="#PL"/> nota fecisse discipulis , quaecumque audivit a Patre, 
+   <lb ed="#PL"/> cum propterea quaedam multa non dicat, quia scit 
+   <lb ed="#PL"/> cns modo portare non posse? Sed nimirum quod fa<lb ed="#PL" break="no"/>cturus
+   est, fecisse se dicit, qui ea quae futura sunt 
+   <lb ed="#PL"/> fecit <hi rend="italic">(Isai.</hi> XLV, 11). Sicut enim dicit per prophetam, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Foderunt</hi> manus <hi rend="italic">meas et pedes</hi> meos <hi rend="italic">(Psal.</hi> XXI, 48); 
+   <lb ed="#PL"/> nec ait, fossuri sunt ; velut praeterita dicens, et ea 
+   <lb ed="#PL"/> tamen futura praedicens : ita et hoc loco ait omnia se 
+   <lb ed="#PL"/> notn fecisse discipulis, quae se novit nota esse factu<lb ed="#PL" break="no"/>rum
+   in illa plenitudine scientiae, de qua dicit Apo<lb ed="#PL" break="no"/>stolus, <hi rend="italic">Cum autem venerit quod
+    perfectum est, quod
+   <lb ed="#PL"/> ex parte est evacuabitur.</hi> Ibi quippe dicit: <hi rend="italic">Nunc scio 
+   <lb ed="#PL"/> ex parte, tunc autem cognoscam sicut et cognitus</hi> sum ; 
+   <lb ed="#PL"/>
+       <hi rend="italic">et nunc per speculum in aenigmate, tunc autem facie ad 
+   <lb ed="#PL"/>
+    faciem</hi> (I <hi rend="italic">Cor.</hi> XIII, 10, 12). Nam et ipse Apostolus 
+   <lb ed="#PL"/> salvos nos dicit esse factos per lavacrum regenera<lb ed="#PL" break="no"/>tionis <hi rend="italic">(Tit.</hi> III, 5): qui tamen alio loco, <hi rend="italic">Spe,</hi> inquit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">salvi facti sumus. Spes autem quae videtur, non eat 
+   <lb ed="#PL"/> spes: quod
+    enitn videt quis, quid sperat ? Si autem quod</hi>
+   
+       <lb ed="#PL"/> non <hi rend="italic">videmus speramus,</hi> per <hi rend="italic">patientiam
+    exspectamus
+   <lb ed="#PL"/> ( Rom.</hi> VIII , 24 <hi rend="italic">et</hi> 25). Unde etiam ejus coapostolis 
+   <lb ed="#PL"/> Petrus : <hi rend="italic">In quem modo,</hi> inquit, <hi rend="italic">non videntes creditis; 
+   <lb ed="#PL"/> quem cum videritis, exsultabitis gaudio
+    inenarrabili et 
+   <lb ed="#PL"/> honorato, percipientes mercedem fidei, salutem anima­</hi>
+   
+       <lb ed="#PL"/> rum <hi rend="italic">vestrarum</hi> (I <hi rend="italic">Petr.</hi> I, 8 et 9). Si ergo nunc tempus 
+   <lb ed="#PL"/> est fidei, salus autem animarum merces est fidei; 
+   <lb ed="#PL"/> quis dubitet in fide, quae per dilectionem operatur 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Gal.</hi> v, 6), peragendum diem, atque in fine dici 
+   <lb ed="#PL"/> recipiendam esse mercedcm , non solum redemption 
+   <lb ed="#PL"/> nem corporis nostri, de qua dicit apostolus Paulus 
+   <pb ed="#PL" n="1851"/>
+       <lb ed="#PL"/>
+       <hi rend="italic">(Rom.</hi> vin, 23); verum etiam salutem animarum no<lb ed="#PL" break="no"/>strarum, de qua dicit Apostolus I'etrus ? Utriusque 
+   <lb ed="#PL"/> enim rei felicitas isto tempore atque in hac mortali<lb ed="#PL" break="no"/>late
+   in spe potius habetur, quam in re tenetur. "e- 
+   <lb ed="#PL"/> rum hoc interest, quod exterior noster homo , id est 
+   <lb ed="#PL"/> corpus, adhuc corrumpitur; interior autem, id est 
+   <lb ed="#PL"/> anima, jain renovatur de die in diem (II <hi rend="italic">Cor.</hi> IV, 16). 
+   <lb ed="#PL"/> Itaque sicut immortalitatem carnis et salutem ani<lb ed="#PL" break="no"/>marum
+   futuram exspectamus, quamvis jam pignore 
+   <lb ed="#PL"/> accepto salvi facti esse dicamur; ita omnium notitiam 
+   <lb ed="#PL"/> quaecumque Unigenitus audivit a Patre, futuram spe<lb ed="#PL" break="no"/>rare
+   dchemus, quamvis boc jam se fecisse dixerit 
+   <lb ed="#PL"/> Christus.</p>
+      <p xml:id="iuy75t-d1e745-d1e328">2. Non <hi rend="italic">vos nil elegistis,</hi> inquit, <hi rend="italic">sed ego vos
+    elegi.</hi>
+   
+       <lb ed="#PL"/> Haec est illa ineffabilis gratia. Quid euim eramus 
+   <lb ed="#PL"/> quando Christum nondum elegemus, et idco non 
+   <lb ed="#PL"/> diligebamus? Nam qui ema non elegii, quomodo di<lb ed="#PL" break="no"/>ligit
+   ? Numquid jam in nobis erat quod in Psalmo ca<lb ed="#PL" break="no"/>nitur : <hi rend="italic">Elegi abjectus esse</hi> in <hi rend="italic">domo Domini, magis quam
+   <lb ed="#PL"/> habitare
+    in tabernaculis peccatorum (Psal.</hi> LXXXIII, 11)? 
+   <lb ed="#PL"/> Non utique. Quid ergo eramus, nisi iuiqui et perditi? 
+   <lb ed="#PL"/> Neque enim jam credideramus in cum, ut eligeret
+   
+   <lb ed="#PL"/> nos : nam si jani credentes elegit, electus elegit 
+   <lb ed="#PL"/> Cur ergo diceret, <hi rend="italic">Non vos me elegistis,</hi> nisi quia mi<lb ed="#PL" break="no"/>sericordia
+   ejus praevenit nos <hi rend="italic">(Psul.</hi> LVIII, 11)? iIic 
+   <lb ed="#PL"/> certe vacat vana illorum ratiocinatio, qui pra<lb ed="#PL" break="no"/>scientiam
+   Dei defendunt contra gratiam Dei, et 
+   <lb ed="#PL"/> idco dicunt nos electos ante mundi constitutionem 
+   <lb ed="#PL"/> { Ephes. i, 4), quia praescivit nos Deus futuros bo<lb ed="#PL" break="no"/>nos, non seipsum nos facturum bonos. Non hoc 
+   <lb ed="#PL"/> dicit, qui dicit, <hi rend="italic">Non vos me elegistis.</hi> Quoniam si 
+   <lb ed="#PL"/> propterea nos elegissel, quia bonos futuros esse nos 
+   <lb ed="#PL"/> praesciverat; simul etiam praescisset qnod eum non 
+   <lb ed="#PL"/> fuissemus prius eJectuM. Non enim aliter esse posse<lb ed="#PL" break="no"/>nius
+   boni : nisi forte dicendus est bonus qui non ele<lb ed="#PL" break="no"/>git
+   bonum. Quid ergo elegit in non bonis? NoM cuiun 
+   <lb ed="#PL"/> electi sunt quia boni fuerant, qui boni non essent 
+   <lb ed="#PL"/> nisi electi essent. Alioquin gratia jam non est gratia, 
+   <lb ed="#PL"/> si praecessisse conlendinuis merita. Hac quippe electio 
+   <lb ed="#PL"/> gratiae est, de qua dicit Apostolus : <hi rend="italic">Sic ergo et in hoc
+   <lb ed="#PL"/> tempore reliquiae per electionem gratiae salvae factae sunt.</hi>
+   
+       <lb ed="#PL"/> Uude subjungit : Si autem <hi rend="italic">gratia , jam non ex operi­</hi>
+   
+       <lb ed="#PL"/> bus; <hi rend="italic">alioquin gratia jam non est gralia (Rom.</hi> XI, 5, 
+   <lb ed="#PL"/> 6). Audi, ingrate, audi : <hi rend="italic">Non</hi> tos me <hi rend="italic">elegistis,
+    aed
+   <lb ed="#PL"/> ego elegi vos.</hi> Non est ut dicas, Ideo eiectus sum, 
+   <lb ed="#PL"/> quia jam credebam. Si enim credebas' in eum, jain 
+   <lb ed="#PL"/> elegeras cum. Sed audi: <hi rend="italic">Non</hi> vos <hi rend="italic">me elegistis.</hi> Non 
+   <lb ed="#PL"/> est ut dicas, Antequam crederem, jam bona opera<lb ed="#PL" break="no"/>bar, ideo electus sum. Quid enim est boni operis ante
+   
+   <lb ed="#PL"/> fidem, cum dicat Apostolus, <hi rend="italic">Omne quod non eat ex
+   <lb ed="#PL"/> fide,
+    peccatum est (Id.</hi> xiv, 23) ? Quid ergo dicturi 
+   <lb ed="#PL"/> sumus audiendo, <hi rend="italic">Non vos</hi> me <hi rend="italic">elegistis;</hi> nisi quia mali 
+   <lb ed="#PL"/> eramus et electi suinus, ut boni per gratiam nos eli<lb ed="#PL" break="no"/>gentis
+   essemus? Non est euim gratia, si praecesserant 
+   <lb ed="#PL"/> merita : est autem gratia ; haec igitur non invenit, 
+   <lb ed="#PL"/> sed effecit merita. 
+  </p>
+      <p xml:id="iuy75t-d1e745-d1e476">3. Et videte, charissimi, quemadmodum non eligat 
+   <lb ed="#PL"/> bonos, sed quos elegit, faciat bonos. <hi rend="italic">Ego,</hi> inquit, <hi rend="italic">elegi 
+   <lb ed="#PL"/> vos, et posui
+    vos ut eatis, et</hi> fructum <hi rend="italic">afferutis, et fructus 
+   <lb ed="#PL"/> vester
+    maneat.</hi> Nonne iste est fructus de quo jam dixe<lb ed="#PL" break="no"/>rat, <hi rend="italic">Sine</hi> me nihil potestis <hi rend="italic">facere (Joan.</hi> xv, 5) ? EIt'giL
+   
+   <lb ed="#PL"/> ergo, et posuit ut eamus, et fructum afferamus: nullun. 
+   <lb ed="#PL"/> itaque fructum unde noscligerct habebamus. <hi rend="italic">Ut eatis,</hi>
+   
+       <lb ed="#PL"/> inquit, <hi rend="italic">et fructum afferatis.</hi> Imus ut afferamus, et ipse
+   
+   <lb ed="#PL"/> ost via qua imus, in qua nos posuit ut eamus. Proinde 
+   <lb ed="#PL"/> in omnibus miscricordia ejus praevenit nus. <hi rend="italic">Et fructus,</hi>
+   
+       <lb ed="#PL"/> inquit, <hi rend="italic">vester maneat :</hi> ut <hi rend="italic">quodcumque</hi> petieritis <hi rend="italic">Patrem 
+   <lb ed="#PL"/> in nomine meo, det
+    vobis.</hi> Mancal ergo dilectio; ipse 
+   <lb ed="#PL"/> est enim fructus noster. QuaD dilectio nunc est in de<lb ed="#PL" break="no"/>siderio, nondum in saturitate : et ipso desiderio quod<lb ed="#PL" break="no"/>cumque
+   petierimus in nomine unigeniti Filii, dat no- 
+   <lb ed="#PL"/> Lis Pater. Quod autem accipere salvandis nou expedit 
+   <lb ed="#PL"/> nobis, non existimemus nos petere in nomine Salva­
+   
+   <lb ed="#PL"/> toris : sed hoc petimus in nomine Salvatoris, quod 
+   <lb ed="#PL"/> pertinet ad rationem salutis.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

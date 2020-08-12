@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 26</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 26</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e255"> <!-- iuy75t-t26 -->
+      <head xml:id="iuy75t-d1e255-Hd1e109">Tractatus 26</head>
+      <p xml:id="iuy75t-d1e255-d1e112">
+       <hi rend="italic">Ab eo quod scriptum est,</hi> Murmurabant ergo Judxi de 
+   <lb ed="#PL"/> illo, quia dixisset, Ego sum panis qui de coelo descen<lb ed="#PL" break="no"/>di ; <hi rend="italic">usque ad
+    id,</hi> Qui manducat hunc panem, vivet 
+   <lb ed="#PL"/> in aeternum. <hi rend="italic">Cap.</hi> VI, f . 41- 59.</p>
+      <p xml:id="iuy75t-d1e255-d1e131">i. Cum Dominus noster Jesus Christus, sicut in 
+   <lb ed="#PL"/> Evangelio cum legeretur, audivimus, panem se esse 
+   <lb ed="#PL"/> dixisset, qui de coelo descendit, murmuraverunt Ju<lb ed="#PL" break="no"/>daei,
+   et dixerunt, <hi rend="italic">Nonne hic est Jesus</hi> filius <hi rend="italic">Joseph, tu<lb ed="#PL" break="no"/>jus
+   nos novimus patrem et matrem ? Quomodo ergo hic 
+   <lb ed="#PL"/> dicit,
+    Quia descendi de</hi> coelo ? Isti a pane de coelo longe 
+   <lb ed="#PL"/> erant, nec eum esurire noverant. Fauces cordis lau<lb ed="#PL" break="no"/>guidas
+   habebant, auribus apertis sardi erant, vide­
+   
+   <lb ed="#PL"/> bant et caeci stabant. Panis quippe iste mlerioris lio. 
+   <lb ed="#PL"/> minis quaerit esuriem
+   : unde alio loco dicit, <hi rend="italic">Beati</hi> qui 
+   <lb ed="#PL"/>
+       <hi rend="italic">esuriunt et sitiunt justitiam , quoniam ipsi saturabuntur</hi>
+   
+       <lb ed="#PL"/>
+       <pb ed="#PL" n="1607"/>
+       <hi rend="italic">(Matth.</hi> v, 8). Justitiam vero nobis esse Christum Pau<lb ed="#PL" break="no"/>lus
+   apostoluS dicit (I <hi rend="italic">Cor,</hi> i, 30). Ac per hoc qui esu<lb ed="#PL" break="no"/>rit
+   hunc panem, esuriat justitiam; sed justitiam quae 
+   <lb ed="#PL"/> de coelo descendit, justitiam quam dat Deus, non 
+   <lb ed="#PL"/> quam sibi facit homo. Si enim nullam sibi homo face<lb ed="#PL" break="no"/>ret
+   justitiam, non diceret idem apostolus de Judaeis: 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ignorantes enim Dei justitiam, et suam volentes</hi> consti­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tuere, justitia Dei non sunt</hi> subjecti <hi rend="italic">(Rom.</hi> x, 5). Inde 
+   <lb ed="#PL"/> erant isti qui panem de coelo descendentem non intel­
+   
+   <lb ed="#PL"/> hgebant, quia sua justitia saturati, justitiam Dei non 
+   <lb ed="#PL"/> esuricbant. Quid est hoc, justitia Dei et justitia homi<lb ed="#PL" break="no"/>nis? Justitia Dei hic dicitur, non qua justus est Deus, 
+   <lb ed="#PL"/> sed quam dat homini Deus, ut justus sit homo per 
+   <lb ed="#PL"/> Deum. Quae autem erat illorum justitia? Qua de suis 
+   <lb ed="#PL"/> viribus praesumebant, ot quasi impletores Legis se<lb ed="#PL" break="no"/>ipsos
+   ex sua virtute diccbanl. Nemo autem implet Lev. 
+   <lb ed="#PL"/> gem, nisi quem adjuverit gratia, id est panis qui de 
+   <lb ed="#PL"/> caelo descendit. <hi rend="italic">Legis</hi> enim <hi rend="italic">plenitudo,</hi> compendio ut 
+   <lb ed="#PL"/> ait Apostolus,
+    <hi rend="italic">charitas</hi> eat <hi rend="italic">(Id.</hi> xm, 10) : charitas non
+   
+   <lb ed="#PL"/> nummi, sed Dei; charitas non terrae, non caeli, sed 
+   <lb ed="#PL"/> ejus qui fecit coelum et terram. Unde ista charitas lio<lb ed="#PL" break="no"/>mini? ipsum audiamus : <hi rend="italic">Charitas,</hi> inquit, <hi rend="italic">Dei diffusa 
+   <lb ed="#PL"/> est</hi> in <hi rend="italic">cordibus nostris per</hi> Spiritum <hi rend="italic">sanctum qui datus
+    
+   <lb ed="#PL"/> est</hi> nobis <hi rend="italic">(Id.</hi> v, 5). Daturus ergo Dominus Spiritum
+   
+   <lb ed="#PL"/> sanctum, dixit se panem qui de coelo descendit, hor<lb ed="#PL" break="no"/>tans
+   ut credamus in eum. Gredcre enim in cum, hoc 
+   <lb ed="#PL"/> est manducare panem vivum. Qui credit, manducat:
+   
+   <lb ed="#PL"/> invisibiliter saginatur, quia invisibiliter renascitur. 
+   <lb ed="#PL"/> Infans intus est, novus intus est: ubi novellatur, ibi 
+   <lb ed="#PL"/> satiatur.</p>
+      <p xml:id="iuy75t-d1e255-d1e279">2. Quid ergo talibus murmurantibus respondit Je<lb ed="#PL" break="no"/>ses ? <hi rend="italic">Nolite
+    murmurare ad</hi> indicem. Tanquam dicens, 
+   <lb ed="#PL"/> Scio quare non esuriatis, et istum panem non inlelli<lb ed="#PL" break="no"/>gatis
+   neque quaeratis. <hi rend="italic">Nolile murmurare
+    ad</hi> invicem : 
+   <lb ed="#PL"/>
+       <hi rend="italic">nemo potest venire ad me,</hi> nisi <hi rend="italic">Pater qui</hi> misit <hi rend="italic">me, tra.
+   <lb ed="#PL"/> xerit</hi> eum. Magna gratiae commendatio! Nemo venit 
+   <lb ed="#PL"/> nisi tractus. Quem trahat et quem non trahat, quare 
+   <lb ed="#PL"/> illum trahat et illum non trahat, noli velle judicare, 
+   <lb ed="#PL"/> si non vis errare. Semel accipe, et intellige : nondum 
+   <lb ed="#PL"/> traheris1 ? ora ut traharis. Quid hic dicimus, fratres? 
+   <lb ed="#PL"/> Si trahimur ad Christum, ergo inviti credimus; ergo 
+   <lb ed="#PL"/> violentia adhibetur, non voluntne excitatur. Intrare 
+   <lb ed="#PL"/> quisquam ecclesiam potest nolens, accedere ad altare
+   
+   <lb ed="#PL"/> potest nolens, accipere Sacramentum potest nolens: 
+   <lb ed="#PL"/> credere non potest nisi volens. Si corpore crederetur, 
+   <lb ed="#PL"/> fieret in nolentibus : sed non corpore creditur. Apo. 
+   <lb ed="#PL"/> stolum audi : <hi rend="italic">Corde creditur ad justitiam.</hi> Et quid se­
+   
+   <lb ed="#PL"/> quitur? <hi rend="italic">Ore autem confessio fit ad salutem (Id.</hi> x, 10).
+   
+   <lb ed="#PL"/> De radice cordis surgit ista confessio. Aliquando au<lb ed="#PL" break="no"/>dis
+   confitentem, et nescis credentem 2. Sed nec debes 
+   <lb ed="#PL"/> vocare confitentem, quem judicas non credentem.
+   
+   <lb ed="#PL"/> Hoc est enim eonfiteri, dicere quod habes in corde: 
+   <lb ed="#PL"/> Ii autem aliud in corde habes, aliud dicis; loqueris , 
+   <lb ed="#PL"/> non confiteris. Cum ergo in Christum corde credatnr, 
+   <lb ed="#PL"/> quod nemo utique facit invitus, qui autem trahitur, 
+   <lb ed="#PL"/> tanquam invitus cogi videtur; quomodo is'am solvi- mus quaestionem, <hi rend="italic">Nemo venit ad</hi> me <hi rend="italic">nisi
+    Pater qui</hi> mi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">sit me, traxerit eum?</hi>
+      </p>
+      <p xml:id="iuy75t-d1e255-d1e370">5. Si trabiiur, ait aliquis, iuvitus venit. Si invitns 
+   <lb ed="#PL"/> venit, nec credit; si non credit, nec venit. Non enim 
+   <lb ed="#PL"/> ad Christum ambulamdo currimus, sed credendo : nec
+   
+   <lb ed="#PL"/> motu corporis, sed voluntate cordis accedimus. Ideo illa 
+   <lb ed="#PL"/> mulier quae fimbriam tetigit, magis tetigit quam .turba 
+   <lb ed="#PL"/> quae pressit. Ideo Dominus dixit, <hi rend="italic">Qui. me tetigit (Luc.</hi>
+   
+       <lb ed="#PL"/> vit, 44-46) ? £t mirantes discipuli, dixerunt: <hi rend="italic">Turbae te</hi>
+   
+       <lb ed="#PL"/> comprimunt, et dicis, <hi rend="italic">Quis me tetigit?</hi> Et ille repetivit: 
+   <lb ed="#PL"/>
+       <hi rend="italic">Tetigit me</hi> aliquis. Illa tangit,, turba premit. Quid est 
+   <lb ed="#PL"/>
+       <hi rend="italic">tetigit,</hi> nisi credidit? Unde et mulieri illi post resurre<lb ed="#PL" break="no"/>ctionem
+   dixit volenti se mittere ad pedes ejus : <hi rend="italic">Noli 
+   <lb ed="#PL"/> me
+    tangere; nondam enim ascendi ad Patrem (Joan.</hi>
+   
+       <lb ed="#PL"/> xx, 47). Quod vides, hoc solum me esse putas; noli 
+   <lb ed="#PL"/> me tangere. Quid est? HoC solum me esse putas quod 
+   <lb ed="#PL"/> tibi appareo, noli sic credere: hoc est, <hi rend="italic">Noti</hi> me <hi rend="italic">tan­
+   <lb ed="#PL"/> gere; nondum enim ascendi ad
+    Patrem;</hi> tibi nod 
+   <lb ed="#PL"/> ascendi, nam hade nunquam recessi. In terra non tan<lb ed="#PL" break="no"/>gebat
+   stantem, quomodo tangeret ad Patrem ascen<lb ed="#PL" break="no"/>dentem? Sic tamen, sic se tangi voluit : sic tangitur 
+   <lb ed="#PL"/> ab eis a quibus bene tangitur, ascendens ad Patrem, 
+   <lb ed="#PL"/> manens cum Patre, requalis Patrie</p>
+      <p xml:id="iuy75t-d1e255-d1e441">4. Indeethie si advertis, <hi rend="italic">Nemo venit ad me, nisi 
+   <lb ed="#PL"/> quem Pater
+    attraxerit.</hi> Noli te cogitare invitum trahi 1 : 
+   <lb ed="#PL"/> trahitur animus et amore. Nec timere debemus ne ab 
+   <lb ed="#PL"/> hominibus qui verba perpendunt, et a rebus maxime 
+   <lb ed="#PL"/> divinis intelligendis longe remoti sunt, in boC Scri<lb ed="#PL" break="no"/>ptorarum
+   sanctarum evangelico verbo forsitan repre<lb ed="#PL" break="no"/>hendamur, et dicatur nobis, Quomodo voluntate cre.. 
+   <lb ed="#PL"/> do, si trahor ? Ego dico : parum est voluntate, etiam 
+   <lb ed="#PL"/> voluptate traheris. Quid est trahi voluptate? <hi rend="italic">Delectare</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">Domino, et dabit tabi petitiones</hi> cordis <hi rend="italic">tui (Psal.</hi> XXXVI, 
+   <lb ed="#PL"/> 4 ). Est quaedam voluptas cordis, cui panis dulcis est 
+   <lb ed="#PL"/> ille coelestis. Porro si poetae dicere licuit, « Trahit sua 
+   <lb ed="#PL"/> &lt; quemque voluptas &gt; <hi rend="italic">(Virg. Eclog.</hi> 2); non necessi<lb ed="#PL" break="no"/>tas, sed voluptas; non obligatio, sed delectatio : 
+   <lb ed="#PL"/> quanto fortius nos dicere debemus trahi hominem ad 
+   <lb ed="#PL"/> Christum, qui delectatur veritate, delectatur beatitu<lb ed="#PL" break="no"/>dine
+   , delectatur justitia, delectatur sempiterna vita, 
+   <lb ed="#PL"/> quod totum Christus est? An vero habent corporis 
+   <lb ed="#PL"/> sensus voluptates suas, et animus deseritur a volupta<lb ed="#PL" break="no"/>tibus
+   suis? Si animus non habet voliiptates suas, unde 
+   <lb ed="#PL"/> dicitur, <hi rend="italic">Filii autem hominum</hi> sub <hi rend="italic">tegmine</hi> alarum <hi rend="italic">tua­
+   <lb ed="#PL"/> tum sperabunt: inebriabuntur ab ubertate domus tuae, et
+   <lb ed="#PL"/> torrente
+    voluptatis tuae potabis eos ; quoniam apud te eat 
+   <lb ed="#PL"/> fons vitae, et</hi> in <hi rend="italic">lumine tuo videbimus lumen (Psal.</hi> XXXV, 
+   <lb ed="#PL"/> 8-10) ? Da amantem , et sentit quod dico. Da deside<lb ed="#PL" break="no"/>rantem, da esurientems, da in ista solitudine peregri<lb ed="#PL" break="no"/>nantem
+   atque sitientem, et fontem aeternae patriae su<lb ed="#PL" break="no"/>spirantem: da talem, et scit quid dicam. Si autem frigido 
+   <lb ed="#PL"/> loquor, nescit quid loquor. Tales erant isti qui invicem 
+   <lb ed="#PL"/> murmurabant. <hi rend="italic">Pater,</hi> inquit, <hi rend="italic">quem traxerit, venit ad me.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e255-d1e541">5. Quid est autem, <hi rend="italic">Pater quem traxerit,</hi> cum ipsd 
+   <lb ed="#PL"/> Christus trahat? Quare voluit dicere, <hi rend="italic">Pater quem tra­</hi>
+   
+   
+       <lb ed="#PL"/>
+       <pb ed="#PL" n="1609"/> serit? Si trahendi sumus, ab illo trahamur cui dicit 
+   <lb ed="#PL"/> quaedam quae diligit, <hi rend="italic">Post odorem unguentorum tuorum
+   <lb ed="#PL"/> curremus (Cant.</hi> I, 5). Sed quid intelligi voluit, adver<lb ed="#PL" break="no"/>tamus, fratres, et quantum possumus capiamus. Tra<lb ed="#PL" break="no"/>hit
+   Pater ad Filium eos qui propterea credunt in Filium, 
+   <lb ed="#PL"/>
+   .,nia eum cogitant Patrem habere Deum : Deus enim 
+   <lb ed="#PL"/> Pater aequalem sibi genuit Filium
+   : ut qui cogitat, at<lb ed="#PL" break="no"/>que
+   in fide sua sentit et ruminat :equalem esse Patri 
+   <lb ed="#PL"/> eum in quem credidit, ipsum trahit Pater ad Filium. 
+   <lb ed="#PL"/> Arius credidit creaturam, non eum traxit Pater; quia 
+   <lb ed="#PL"/> uon considerat Patrem, qui Filium non credit aequa<lb ed="#PL" break="no"/>lem.
+   Quid dicis, o Ari? quid, haeretice, loqueris? quid 
+   <lb ed="#PL"/> est Christus? Non, inquit, Deus verus; sed quem fecit 
+   <lb ed="#PL"/> Deus verus. Non te traxit Pater; non enim intellexi­
+   
+   <lb ed="#PL"/> sti Patrem, cujus Filium negas : aliud cogitas, non est 
+   <lb ed="#PL"/> ipse Filias; nec a Patre traheris, nec ad Filium trahe<lb ed="#PL" break="no"/>ris : aliud est enim Filius, aliud quod tu dicis. Photi<lb ed="#PL" break="no"/>pus <hi rend="underline">dixit:</hi> Homo solum est Christus, non est et Deus. 
+   <lb ed="#PL"/> Qui sic credit, non Patcr eum traxit. Quem Pater 
+   <lb ed="#PL"/> traxit, <hi rend="italic">Tu es,</hi> inquit, <hi rend="italic">Christus Filius</hi> Dei vivi. Non sic<lb ed="#PL" break="no"/>ut
+   propheta, non sicut Joannes, non sicut aliquis ma<lb ed="#PL" break="no"/>guus
+   justus; sed sicut unicus, sicut aequalis, <hi rend="italic">tu es
+   <lb ed="#PL"/> Christus IliUM. Dei</hi> vivi. Vide quia tractus est, et a Pa<lb ed="#PL" break="no"/>tre
+   tractus est. <hi rend="italic">Beatus es</hi> Simon <hi rend="italic">Bar-Jona, quia non 
+   <lb ed="#PL"/> libi revelavit caro et sanguis, sed
+    Pater</hi> meus <hi rend="italic">qui</hi> in <hi rend="italic">caeli.</hi>
+   
+       <lb ed="#PL"/> I <hi rend="italic">est (Matth.</hi> XVI, 16, 17). Ista revelatio, ipsa est attra­
+   
+   <lb ed="#PL"/> ctio. Ramum viridem ostendis ovi,ettradis illam. 
+   <lb ed="#PL"/> Nuces puero demonstrantur, et trahitur : et quo cur<lb ed="#PL" break="no"/>rit
+   1 trahitur, amando trahitur, sine laesione corporis 
+   <lb ed="#PL"/> trahitur, cordis vinculo trahitur. Si ergo ista quae in<lb ed="#PL" break="no"/>ter
+   deiicias et voluptates terrenas revelantur amanti<lb ed="#PL" break="no"/>bus, trahunt; quoniam verum est, t Trahit sua quem<lb ed="#PL" break="no"/>que
+   voluptas; &gt; non trahit revelatus Christus a Patre?
+   
+   <lb ed="#PL"/> Quid enim fortius desiderat anima quam veritatem i 
+   <lb ed="#PL"/> Quo avidas fauces habere debet, unde optare ut sa<lb ed="#PL" break="no"/>num
+   sit intus palatum vera judicandi, nisi ut mandu­
+   
+   <lb ed="#PL"/> cet et bibat sapicntiam, justitiam, vcritatem, aeterni<lb ed="#PL" break="no"/>tatem ?</p>
+      <p xml:id="iuy75t-d1e255-d1e668">6. Ubiautein hoc? Ibi melius, vcrius ibi, plenius 
+   <lb ed="#PL"/> ibi. Nam hic facilius possumus esurire, et hoc si bo<lb ed="#PL" break="no"/>nam
+   spem habemus, quam satiari : <hi rend="italic">Beati</hi> enim, in<lb ed="#PL" break="no"/>quit, <hi rend="italic">qui esuriunt et sitiunt
+    justitiam,</hi> sed hic; <hi rend="italic">quoniam 
+   <lb ed="#PL"/> caturabuntur (ld.</hi> v, 6), sed ibi. Ideo cum dixisset, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Nemo venit ad me,</hi> nisi <hi rend="italic">Pater qui misit me;
+    traxerit eum,</hi>
+   
+       <lb ed="#PL"/> quid subjecit? <hi rend="italic">Et ego</hi> resuscitabo eum in novissimo <hi rend="italic">die.</hi>
+   
+       <lb ed="#PL"/> Reddo illi quod amat, reddo quod sperat : videbit 
+   <lb ed="#PL"/> quod adhuc non videndo credidit; manducabit quod 
+   <lb ed="#PL"/> esurit, saturabitur eo quod sitit. Ubi ? In resurrectione 
+   <lb ed="#PL"/> mortuorum, quia <hi rend="italic">ego resascitabo</hi> eum <hi rend="italic">in novissimo die.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e255-d1e721">7. Scriptum <hi rend="italic">est enim in Prophetis, Et erunt</hi> omnes 
+   <lb ed="#PL"/>
+       <hi rend="italic">docibiles Dei.</hi> Quare hoc dixi, o Judaei ? Pater vos 
+   <lb ed="#PL"/> non docuit; quomodo potestis me agnoscere ? Omnes 
+   <lb ed="#PL"/> regni illius homines docibiles Det crunt, non ab ho<lb ed="#PL" break="no"/>minibus
+   audient. Et si ab hominibus audiunt, tamen 
+   <lb ed="#PL"/> quod intelligunt, intus datur, intus coruscat , intus 
+   <lb ed="#PL"/> revelatur. Quid faciunt homines forinsecus annuntian<lb ed="#PL" break="no"/>tes? quid facio ego modo cum loquor ? Strepitum ver<lb ed="#PL" break="no"/>borum
+   ingero auribus vestris. Nisi ergo revelet ille 
+   
+   <lb ed="#PL"/> qui intus est, quid dico, aut quid loquor ? Exterior 
+   <lb ed="#PL"/> cultor arboris, interior est Creator. Qui plantat et 
+   <lb ed="#PL"/> qui rigat, extrinsecus opcralur : hoc facimus nos. 
+   <lb ed="#PL"/> Sed <hi rend="italic">neque qui plantat</hi> est <hi rend="italic">aliquid,
+    neque qui rigat; sEd</hi>
+   
+       <lb ed="#PL"/> qui <hi rend="italic">incrementum dot Deus</hi> (! <hi rend="italic">Cor.,</hi> III, 7) : hoc est, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Erunt</hi> omnes <hi rend="italic">docibiles Dei.</hi> Qui, <hi rend="italic">omnes? Omnis qui au<lb ed="#PL" break="no"/>divit
+   a Patre et didicit, venit ad me.</hi> Videte quomodo 
+   <lb ed="#PL"/> trahit Pater : docendo delectat, non necessitatem 
+   <lb ed="#PL"/> imponendo. Ecce quomodo trahit. <hi rend="italic">Erunt omnes doct<lb ed="#PL" break="no"/>biles
+   Dei</hi> : trahere Dei est, <hi rend="italic">Omnis qui audivit a Patre 
+   <lb ed="#PL"/> et didicit, venit ad me</hi>
+   : trahere Dci est.</p>
+      <p xml:id="iuy75t-d1e255-d1e799">8. Quid igitur, fratres ? Si omnis qui audivit a Pa<lb ed="#PL" break="no"/>tre
+   et didicit, ipse venit ad Christum , Christos nihil 
+   <lb ed="#PL"/> hic docuit? Quid quod Patrem magistrum homincs 
+   <lb ed="#PL"/> non viderunt, Filium vidcrunt ? Filius dicebat, sed 
+   <lb ed="#PL"/> Pater doccbat. Ego cum homo sim, quem doceo! 
+   <lb ed="#PL"/> quem, fratres, nisi eum, qui audivit verbum meum? 
+   <lb ed="#PL"/> Si ego cum homo sim , illum doceo qui audit verbuli 
+   <lb ed="#PL"/> mcum ; illum docet et Pater, qui audit Verbum cjus: 
+   <lb ed="#PL"/> si illum docet Pater qui audit Verbum ejus ; quaere 
+   <lb ed="#PL"/> quid sit Christus, et invenies Verbum cjus : <hi rend="italic">In prin<lb ed="#PL" break="no"/>cipio
+   erat
+    Verbum.</hi> Non, In principio fecit Deus Vcr<lb ed="#PL" break="no"/>bum; quomodo, <hi rend="italic">In principio fecit Deus coelum et ter<lb ed="#PL" break="no"/>ram (Cen.</hi> I, 1) : ecce quia non est creatura. Disco 
+   <lb ed="#PL"/> trabi ad Filium a Patre ; dnceat te Pater, audi Vcr<lb ed="#PL" break="no"/>bum
+   ejus. Quod Verbum ejus, inquis, audio ? <hi rend="italic">In prin­</hi>
+   
+       <lb ed="#PL"/> cipio <hi rend="italic">erat Verbum ;</hi> non factum est, sed <hi rend="italic">erat : Et Ver­
+   <lb ed="#PL"/> bum erat apud Deum, et Dens erat Verbum.</hi> Quomodo 
+   <lb ed="#PL"/> homines in carne constituti audiant tale Verbum? 
+   <lb ed="#PL"/> Quia <hi rend="italic">Verbum
+    caro factum est, et habitavit in nobis 
+   <lb ed="#PL"/> (Joan.</hi> I, 1, 14).</p>
+      <p xml:id="iuy75t-d1e255-d1e862">9. Exponit hoc et ipse, et ostendit nobis quid dixe<lb ed="#PL" break="no"/>rit, <hi rend="italic">Qui
+    audivit a Patre et didicit, venit ad me.</hi> Con<lb ed="#PL" break="no"/>tinuo
+   subjecit quod cogitare possemus : <hi rend="italic">Non quia</hi> Pa<lb ed="#PL" break="no"/>trem <hi rend="italic">vidit</hi> quisquam , nisi is <hi rend="italic">qui est a Deo, hic vidit 
+   <lb ed="#PL"/> Patrem.</hi> Quid est quod ait? Ego vidi Patrem , vos 
+   <lb ed="#PL"/> non vidistis, Patrem; ; et tamen non venitis ad me, 
+   <lb ed="#PL"/> nisi trahamini a Patre. Quid est autem vos trahi a 
+   <lb ed="#PL"/> Patre, nisi discere a Patre? quid est discere a Patre, 
+   <lb ed="#PL"/> nisi audire a Patre ? quid est audire a Patre , nisi 
+   <lb ed="#PL"/> audire Verbum Patris, id est me ? Ne forte ergo cum 
+   <lb ed="#PL"/> dico vobis
+   , Omnis <hi rend="italic">qui audivit a Patre et didicit,</hi> dica<lb ed="#PL" break="no"/>tis
+   apud vos, Sed nunquam vidimns Patrem ; quomodo 
+   <lb ed="#PL"/> discere potuimus a Patre? a meipso audite :
+    <hi rend="italic">Non quia 
+   <lb ed="#PL"/> Patrenx vidit quisquam, sed qui est a Deo, hic
+    vidit
+   <lb ed="#PL"/> Patrem.</hi> Ego novi Patrem, ab illo sum : sed quomodo 
+   <lb ed="#PL"/> verbum ab illo cujus est verbum; non quod sonat 
+   <lb ed="#PL"/> et transit, sed quod manet cum dicente, et trahit 
+   <lb ed="#PL"/> audicntem.</p>
+      <p xml:id="iuy75t-d1e255-d1e920">10. Admoneat quod sequitur : <hi rend="italic">Amen, amen diEo
+   <lb ed="#PL"/> vobis, qui credit
+    in me, habet vitam aeternam.</hi> Revelare 
+   <lb ed="#PL"/> se voluit quid esset: nam compendio dicere potuit, 
+   <lb ed="#PL"/> Qui credit in me, habet me. Ipse enim Christus verus 
+   <lb ed="#PL"/> Deus est et vita aeterna. Qui ergo credit in me , in<lb ed="#PL" break="no"/>quit, it in me; et qui it in me, habet me '. Quid est 
+   <lb ed="#PL"/> autem habere me ? Habere vitain aeternam. Viia 
+   
+   
+   
+   <pb ed="#PL" n="1611"/>
+       <lb ed="#PL"/> aeterna mortem assumpsit, vita aeterna mori voluit; 
+   <lb ed="#PL"/> aed de tuo, non de suo : accepit a te, ubi moreretur 
+   <lb ed="#PL"/> pro te. Ab bominibus enim carnem assumpsit, sed 
+   <lb ed="#PL"/> non more hominum. Nam Patrem habens in coelo, 
+   <lb ed="#PL"/> matrem elegit in terra : et illic natus sine matre, et 
+   <lb ed="#PL"/> hic sine Patre. Assumpsit ergo vita mortem, ut vita
+   
+   <lb ed="#PL"/> occideret mortem. Nam <hi rend="italic">qui</hi> in me <hi rend="italic">credit,</hi> inquit, <hi rend="italic">ha­
+   <lb ed="#PL"/> bet vitam aeternam</hi> : non quod patet , sed quod latet. 
+   <lb ed="#PL"/> Vita enim aeterna <hi rend="italic">Verbum:</hi> in <hi rend="italic">principio erat apud Deum, 
+   <lb ed="#PL"/> et Deus erat Verbum et</hi> vita <hi rend="italic">erat lux hominum (Ibid.</hi>
+   
+       <lb ed="#PL"/> i, i). Ipse vita aeterna, dedit et carni susceptae vitam 
+   <lb ed="#PL"/> aeternam. Mori venit, sed die tertio resurrexit. luter 
+   <lb ed="#PL"/> ' r Verbum suscipiens, et carnem resurgentem , mors 
+   <lb ed="#PL"/> media consumpta est.</p>
+      <p xml:id="iuy75t-d1e255-d1e990">11. <hi rend="italic">Ego sum,</hi> inquit, <hi rend="italic">panis vitae.</hi> Et unde illi super<lb ed="#PL" break="no"/>biebant? <hi rend="italic">Patres vestri,</hi> inquit, <hi rend="italic">manducaverunt</hi> in <hi rend="italic">de­
+   <lb ed="#PL"/> serto</hi> manna, <hi rend="italic">et mortui sunt.</hi> Quid est unde superbitis ? 
+   <lb ed="#PL"/>
+       <hi rend="italic">Manducaverunt manna, et mortui</hi> sunt. Quare mandu<lb ed="#PL" break="no"/>caverunt, et mortui sunt ? Quia quod videbant, cre<lb ed="#PL" break="no"/>debant : quod non videbant, non intelligebant. Ideo 
+   <lb ed="#PL"/> patres vestri, quia similes estis illorum t. Natu quan<lb ed="#PL" break="no"/>tum
+   pertinet, fratres mei, ad mortem istam visibilem 
+   <lb ed="#PL"/> et corporalem, numquid nos non morimur qui man<lb ed="#PL" break="no"/>ducamus
+   panem de caelo descendentem? Sic sunt 
+   <lb ed="#PL"/> mortuietilli, quemadmodum nos sumus morituri ; 
+   <lb ed="#PL"/> quantum attinet , ut dixi, ad mortem hujus corporis 
+   <lb ed="#PL"/> visibilem atque carnalcm. Quantum autem pertinet 
+   <lb ed="#PL"/> ad illam mortem, de qua terret Dominus, qua mor<lb ed="#PL" break="no"/>tui
+   sunt patres istorum; manducavit manna et Moyses, 
+   <lb ed="#PL"/> manducavit uianna et Aaron , manducavit manna et 
+   <lb ed="#PL"/> Phinces, manducaverunt ibi multi qui Domino pla<lb ed="#PL" break="no"/>cuerunt, et mortui non sunt. Quare ? Quia visibilem 
+   <lb ed="#PL"/> cibnm spiritualiter intellexerunt, spiritualiter esurio<lb ed="#PL" break="no"/>runt, spiritualiter gustaverunt, ut spiritualiter satia<lb ed="#PL" break="no"/>, rentur. Nam et nos bodic accipimus visibilem cibum: 
+   <lb ed="#PL"/> sed aliud est Sacramentum, aliud virtus Sacramenti.
+   
+   <lb ed="#PL"/> I Quam multi de altari accipiunt et moriuntur, et acci<lb ed="#PL" break="no"/>piendo
+   moriuntur? Unde dicit Apostulus, <hi rend="italic">Judicium</hi>
+   
+       <lb ed="#PL"/> sibi <hi rend="italic">manducat et bibit</hi> (I <hi rend="italic">Cor.</hi> XI, 49). Non enim buc<lb ed="#PL" break="no"/>cella
+   Dominica venenum fuit Judae 2. Et tamen acce<lb ed="#PL" break="no"/>pit, et cum accepit, in eum inimicus intravit : non 
+   <lb ed="#PL"/> quia malum accepit, sed quia bonum male malus 
+   <lb ed="#PL"/> accepit. Videte ergo, fratres, panem coelestem spiri<lb ed="#PL" break="no"/>tualiter
+   manducate, innocentiam ad allare apportate. 
+   <lb ed="#PL"/> Peccata etsi sunt quotidiana, vel non sint mortifera. 
+   <lb ed="#PL"/> Antequam ad altare accedatis, attendite quid dicatis : 
+   <lb ed="#PL"/>
+       <hi rend="italic">Dimitte</hi> nobis <hi rend="italic">debita nostra, sicut et</hi> noa
+    <hi rend="italic">dimittimus de­</hi>
+   
+       <lb ed="#PL"/> bitoribus nostris <hi rend="italic">(Matth. VI,</hi> 12). Dimittis , dimittetur
+   
+   <lb ed="#PL"/> libi : securus accede, panis est, non venenum. Sed 
+   <lb ed="#PL"/> vide si dimittis : nam si non dimiuis , mentiris, et 
+   <lb ed="#PL"/> ei mentiris, quem non fallis. Mentiri Dco potes, Deum
+   
+   <lb ed="#PL"/> fallere non potes. Novit ille quid agat 3. Intus tc vi<lb ed="#PL" break="no"/>del, intus te examinai, intus inspicit, intus judicat, 
+   <lb ed="#PL"/> intus aut damnat, aut coronat. Patres autem isto­ rum 1, id est, mali patres malorum, infideles patres 
+   <lb ed="#PL"/> infidelium, murmuratores patres murmuratorum. 
+   <lb ed="#PL"/> Nam de nulla rc magis Dominum offendisse ille popuius 
+   <lb ed="#PL"/> dictus est, quam contra Deum murmurando, l&lt;lco et 
+   <lb ed="#PL"/> Dominus eos volens ostendere talium filios, binc ad 
+   <lb ed="#PL"/> eos coepit : <hi rend="italic">Quid
+    murmuratis in</hi> invicem, murmurato<lb ed="#PL" break="no"/>res, lilii murmuratorum ? <hi rend="italic">Patres vestri manna man­
+   <lb ed="#PL"/> ducaverunt, et mortui sunt:</hi> non quia malum erat 
+   <lb ed="#PL"/> manna, sed quia male manducavcrunt.</p>
+      <p xml:id="iuy75t-d1e255-d1e1145">12. <hi rend="italic">Ilic est panis qui de coelo descendit.</hi> Hunc pa<lb ed="#PL" break="no"/>nem
+   significavit manna, hunc panem significavit [ 
+   <lb ed="#PL"/> altare Dei I. Sacramenta illa fucrunt: in signis di- 1 
+   <lb ed="#PL"/> versa sunt; in re quae significatur paria suut. Apo- I
+   
+   <lb ed="#PL"/> stolum audi : <hi rend="italic">Nolo enim</hi> vos, inquit, ignorare, <hi rend="italic">fratres, 
+   <lb ed="#PL"/> quia patres nostri omnes sub nube fuerunt, et omnes 
+   <lb ed="#PL"/>
+    mare transierunt, et omnes</hi> in <hi rend="italic">Moysen</hi> a <hi rend="italic">baptizati sunt</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">nube et</hi> in <hi rend="italic">mari, et omnes eamdem escam
+    spiritua<lb ed="#PL" break="no"/>lem
+   manducaverunt.</hi> Spiritualem utique eamdem ; nam 
+   <lb ed="#PL"/> corporalem alteram , quia- illi manna , nos aliud : 
+   <lb ed="#PL"/> spiritualem vero , quam nos. Sed patres nostri, non } 
+   <lb ed="#PL"/> patres illorum : quibus nos similes sumus, non qui-
+   <lb ed="#PL"/> bus illi similes fuerunt. Et adjungit : <hi rend="italic">Et omnes cum- 
+   <lb ed="#PL"/> dem potum
+    spiritualem biberunt.</hi> Aliud illi , aliud nos; 
+   <lb ed="#PL"/> sed specie visibili, quod tamen hoc idem significaret 
+   <lb ed="#PL"/> virtute spirituali Quomodo cuim eumdem <hi rend="italic">potum?</hi>
+   
+       <lb ed="#PL"/> Bibebant, inquit, <hi rend="italic">de spirituali sequente petra</hi> : petra 
+   <lb ed="#PL"/>
+       <hi rend="italic">autem erut Christus</hi> (I <hi rend="italic">Cor.</hi> x , 1-4). Inde panis, indc 
+   <lb ed="#PL"/> potus. Petra Christus in signo, vcrus Christus in 
+   <lb ed="#PL"/> Verbo et in carne. Et quomodo biberunt? Percussa 
+   <lb ed="#PL"/> est petra de virga bis <hi rend="italic">(Num.</hi> xx , 11) : gemina per<lb ed="#PL" break="no"/>cussio , duo ligna crucis significat. <hi rend="italic">Hic est</hi> ergo <hi rend="italic">panis 
+   <lb ed="#PL"/> de coelo descendens,
+    ut</hi> si <hi rend="italic">quis manducaverit ex ipso, 
+   <lb ed="#PL"/> non moriatur.</hi> Sed quod pertinet ad virtulem Sacra<lb ed="#PL" break="no"/>menti, non quod pertinct ad visibile Sacramentum
+   : 
+   <lb ed="#PL"/> qui manducat intus, non foris; qui manducat in cordo, j 
+   <lb ed="#PL"/> non qui premit dente.</p>
+      <p xml:id="iuy75t-d1e255-d1e1254">13. <hi rend="italic">Ego</hi> sum <hi rend="italic">panis</hi> vivus, <hi rend="italic">qui de coelo descendi.</hi> Idco 
+   <lb ed="#PL"/> vivus , quia de coelo descendi. De coelo descendit et 
+   <lb ed="#PL"/> manna : sed manna umbra orat, isto veritas est. Si 
+   <lb ed="#PL"/>
+       <hi rend="italic">quis manducaverit ex hoc pane, vivet in aeternum : et 
+   <lb ed="#PL"/> panis quem
+    ego dabo, caro mea est pro mundi vita.</hi> Iloc 
+   <lb ed="#PL"/> quando caperet caro , quod dixit panem, earnem ? 
+   <lb ed="#PL"/> Vocatur caro , quod non capit caro : et ideo magis 
+   <lb ed="#PL"/> non capit caro, quia vocalur caro. Hoc cnim exhor<lb ed="#PL" break="no"/>ruerunt, hoc ad se Inultum esse dixerunt, hoc non 
+   <lb ed="#PL"/> posse fieri putaverunt. <hi rend="italic">Caro mea est,</hi> inquit, pro <hi rend="italic">mundi
+   <lb ed="#PL"/> vita.</hi> Norunt fidelcs corpus Christi, si corpus lhrisli 
+   <lb ed="#PL"/> esse non negligant. Fiant corpus Christi, si vo<lb ed="#PL" break="no"/>lunt
+   vivere de Spiritu Christi. Dc spiritu Christi 
+   <lb ed="#PL"/> non vivii, nisi corpus Christi 5. Intelligilc, fra- 
+   
+   <pb ed="#PL" n="1613"/>
+       <lb ed="#PL"/> tres mei, quid dixerim. Homo es, et spiritum ha<lb ed="#PL" break="no"/>bes, ei corpus habes. Spiritum dico quae anima vo<lb ed="#PL" break="no"/>cator, qua constat quod homo es : constas enim ex 
+   <lb ed="#PL"/> anima et corpore. Habes itaque spiritum invisibilem, 
+   <lb ed="#PL"/> corpus visibile. Dic mihi quid ex quo vivat: spiritus 
+   <lb ed="#PL"/> tuus vivit ex corpore tuo, an corpus tuum ex spiritu, 
+   <lb ed="#PL"/> tuo? Respondet omnis qui vivit : qui autem hoc non 
+   <lb ed="#PL"/> potest respondere, nescio si vivit: quid respondet 
+   <lb ed="#PL"/> omnis qui vivit? Corpus utique meum vivit de spiritu 
+   <lb ed="#PL"/> meo. Vis ergo et tu vivere de Spiritu Christi? In cor<lb ed="#PL" break="no"/>pore
+   esto Chri. Numquid enim corpus meum vivit 
+   <lb ed="#PL"/> de spiritu tuo? Meum vivit de spiritu meo, et tuum 
+   <lb ed="#PL"/> de tuo. Non potest vivere corpus Christi, nisi de 
+   <lb ed="#PL"/> Spiritu Christi. Inde est quod exponens nobis apo<lb ed="#PL" break="no"/>stolus
+   Paulus hunc panem, <hi rend="italic">Unus panis,</hi> inquit, unum 
+   <lb ed="#PL"/>
+       <hi rend="italic">corpus multi</hi> sumus (I <hi rend="italic">Cor.</hi> x, 17). 0 Sacramentum 
+   <lb ed="#PL"/> pietatis ! o signum unitatis ! o vinculum charitatis! 
+   <lb ed="#PL"/> Qui vult vivere , habet ubi vivat, habet unde vivat. 
+   <lb ed="#PL"/> Accedat, credat I; incorporctur, ut vivificetur. Non 
+   <lb ed="#PL"/> abhoreat a compage membrorum, non sit putre mem<lb ed="#PL" break="no"/>brum
+   quod n secari mereatur, non sit distortum de 
+   <lb ed="#PL"/> quo erubescatur : sit pulchrum, sit aptum, sit sanum; 
+   <lb ed="#PL"/> haereat corpori, vivat Deo de Deo : nunc laboret in 
+   <lb ed="#PL"/> terra, ut postea regnet in coelo.</p>
+      <p xml:id="iuy75t-d1e255-d1e1367">14. Litigabant <hi rend="italic">ergo</hi> Judaei <hi rend="italic">ad</hi> invicem, <hi rend="italic">dicentes:
+   <lb ed="#PL"/> Quomodo potest hic carnem suam nobis dare ad mandu­
+   <lb ed="#PL"/>
+    candum?</hi> Litigabant utique ad invicem , quoniam pa<lb ed="#PL" break="no"/>nem
+   concordiae non intelligebant, nee sumere vole<lb ed="#PL" break="no"/>bant: nam qui manducant talem panem, non litigant
+   
+   <lb ed="#PL"/> ad inviccm; quoniam <hi rend="italic">unus panis, unum corpus multi
+   <lb ed="#PL"/>
+    sumus.</hi> Et per hunc <hi rend="italic">facit Deus</hi> unius <hi rend="italic">modi
+    habitare</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">domo (Paal,</hi> LXVII, 7).</p>
+      <p xml:id="iuy75t-d1e255-d1e1407">15. Quod au:em ad invicem litigantes quaerunt, 
+   <lb ed="#PL"/> quomodo possit Dominus carnem suam dare ad man<lb ed="#PL" break="no"/>ducandum , non statim audiunt: sed adhuc eis dici<lb ed="#PL" break="no"/>tur, <hi rend="italic">Amen, amen dico</hi> vobis, nisi <hi rend="italic">manducaveritis carnem
+    
+   <lb ed="#PL"/> Filii</hi> hominis, <hi rend="italic">et biberitis ejus</hi> sanguinem , <hi rend="italic">non habebi­</hi>
+   
+       <lb ed="#PL"/> tis <hi rend="italic">vitam in vobis.</hi> Quomodo quidcm edatur, et quis<lb ed="#PL" break="no"/>nam
+   modus sit manducandi istum panem, ignoratis; 
+   <lb ed="#PL"/> verumtamen nisi <hi rend="italic">manducaveritis carnem Filii homi­</hi>
+   
+       <lb ed="#PL"/> nis, <hi rend="italic">et biberitis ejus sanguinem, non habebitis vitam</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">vobis.</hi> Haec non utique cadaveribus, sed viventi<lb ed="#PL" break="no"/>bus
+   loquebatur. Unde, ne istam vitam intelligentes 
+   <lb ed="#PL"/> et de hac re litigarent, secutus adjunxit, Qui <hi rend="italic">man<lb ed="#PL" break="no"/>ducat
+   meam carnem, el bibit meum
+    sanguinem, habet 
+   <lb ed="#PL"/> vitam aeternam.</hi> Hanc ergo non habet, qui istum panem 
+   <lb ed="#PL"/> non manducat, nec istum sanguinem bibit: nam tempo<lb ed="#PL" break="no"/>ralem
+   vitam sinc illo habere homines possunt, aeternam 
+   <lb ed="#PL"/> vcro omnino non possunt. Qui ergo non manducat 
+   <lb ed="#PL"/> ejus carnem, nec bibit ejus sanguinem, non habet in 
+   <lb ed="#PL"/> se vitam : et qui manducat ejus carnem, et bibit ejus 
+   <lb ed="#PL"/> sanguinem, habet vitam. Ad utrumque autem re<lb ed="#PL" break="no"/>spondet
+   quod dixit, .ternam. Non ita est in hac esca, 
+   <lb ed="#PL"/> quam sustentandae hujus temporalis vitae causa sumi<lb ed="#PL" break="no"/>mus. Nam qui eam non sumpserit, non vivet: nec ta<lb ed="#PL" break="no"/>men
+   qui eam sumpserit, vivet. Fieri enim potest ut se<lb ed="#PL" break="no"/>nio, vel morbo, vel aliquo casu, plurimi et qui eam 
+   
+   <lb ed="#PL"/> sumpserint moriantur. In hoc vero cibo et potu, id est 
+   <lb ed="#PL"/> corpore et sanguine Domini, non ita est. Nametqui 
+   <lb ed="#PL"/> eam non sumit, non babet vitam : et qui cam sumit,
+   
+   <lb ed="#PL"/> habet vitam, ei hanc utique aeternam. Hunc itaque 
+   <lb ed="#PL"/> cibum et potum societatem vult intelligi corporis et 
+   <lb ed="#PL"/> membrorum suorum, quod est sancta Ecclesia in 
+   <lb ed="#PL"/> praedestinatis et vocatis, et justificatis, et glorificatis I 
+   <lb ed="#PL"/> sanctis, et fidelibus ejus. Quorum primum jam faclum 
+   <lb ed="#PL"/> est, id est, praedestinatio : secundum et tertium fa<lb ed="#PL" break="no"/>ctum
+   est, et lit, et fiet, id est, vocatio et justificatio : 
+   <lb ed="#PL"/> quartum vero nwnc in spe est, in re autem futurum 
+   <lb ed="#PL"/> est, id est, glorificatio. Hujus rei Sacramentum, id 
+   <lb ed="#PL"/> est, unitatis corporis et sanguinis Christi alicubi quo<lb ed="#PL" break="no"/>tidie,
+   alicubi certis intervallis dierum in dominica 
+   <lb ed="#PL"/> mensa praeparatur, et de mensa dominica sumitur; 
+   <lb ed="#PL"/> quibusdam ad vitam, quibusdam ad exitium : res vero 
+   <lb ed="#PL"/> ipsa cujus sacramentum est, omni homini ad vitam, , 
+   <lb ed="#PL"/> nulli ad exitium, quicumque ejus particeps fuerit.</p>
+      <p xml:id="iuy75t-d1e255-d1e1529">16. Ne autem putarent sic in isto cibo et potu pro<lb ed="#PL" break="no"/>mitti
+   vitam alternam, ut qui eam sumerent, jam nrc 
+   <lb ed="#PL"/> corpore morerentur ; huic cogitationi dignatus est 
+   <lb ed="#PL"/> occurrere. Nam cum dixisset, <hi rend="italic">Qui manducat meam 
+   <lb ed="#PL"/> carnem, el
+    bibit</hi> meum sanguinem, <hi rend="italic">habet vilam aeter<lb ed="#PL" break="no"/>nam;</hi> continuo sUbjecit, <hi rend="italic">Et ego resuscitabo eum in
+   <lb ed="#PL"/> novissimo die.</hi> Ut habeat interim secundum spiritum 
+   <lb ed="#PL"/> vitam sternam in requie, quoe sanctorum spiritus sus<lb ed="#PL" break="no"/>cipit: quod autem ad corpus attinet, nec ejus vita 
+   <lb ed="#PL"/> aeterna fraudetur, sed in resurrectionc mortuorum 
+   <lb ed="#PL"/> novissimo dic.</p>
+      <p xml:id="iuy75t-d1e255-d1e1562">17. <hi rend="italic">Caro enim mea ,</hi> inquit, <hi rend="italic">vere est cibus, et
+    sanguis</hi>
+   
+       <lb ed="#PL"/> meus <hi rend="italic">vere eat potus.</hi> Cum enim cibo et potu id appe<lb ed="#PL" break="no"/>tant
+   homines, ut non esuriant, neque sitiant; hoc 
+   <lb ed="#PL"/> vcraciter non praestat nisi iste cibus et potns, qui ens 
+   <lb ed="#PL"/> a quibus sumitur, immortales et incorruptibiles facit
+   
+   <lb ed="#PL"/> id est societas ipsa sanctorum, ubi pax erit et unitas 
+   <lb ed="#PL"/> plena atque perfecta. Propterea quippe, sicut etiam 
+   <lb ed="#PL"/> ante nos hoc intellexerunt homines Dei, Dominus
+   
+   <lb ed="#PL"/> noster Jesus Christus corpus et sanguincm suum in 
+   <lb ed="#PL"/> eis rebus commendavit, quae ad unum aliquid redigua- ; 
+   <lb ed="#PL"/> tur ex multis. Namque aliud in unum ex multis granis I 
+   <lb ed="#PL"/> confit : aliud in unum ex multis acinis confluit (a). I</p>
+      <p xml:id="iuy75t-d1e255-d1e1598">18. Denique jam exponit quomodo id fiat quod lo<lb ed="#PL" break="no"/>quitur, et quid sit manducare corpus ejus, et sangui<lb ed="#PL" break="no"/>nem
+   bibere. <hi rend="italic">Qni manducat carnem meam, et
+    bibit</hi>
+   
+       <lb ed="#PL"/> meum <hi rend="italic">sanguinem, in me manet, et ego in illo.</hi> Hoc est 
+   <lb ed="#PL"/> ergo manducare illam escam , et illum bibere potum,* 
+   <lb ed="#PL"/> in Christo manere, et illum manentem in se habere. 
+   <lb ed="#PL"/> Ac per boc qui non manet in Christo, et in quo non 
+   <lb ed="#PL"/> manet Christus, procul dubio nec manducat [spiritua<lb ed="#PL" break="no"/>liter] carnem ejus, nec bibit ejus sanguinem, [licet 
+   <lb ed="#PL"/> carnaliter et visibiliter premat dentibus Sacramentum 
+   <lb ed="#PL"/> eorporis et sanguinis Christi: ] sed magis tantoe rei 
+   <lb ed="#PL"/> Sacramentum ad judicium sibi manducat et bibit, 
+   <lb ed="#PL"/> quia immundus praesumpsit ad Christi accedcre Sa<lb ed="#PL" break="no"/>cramenta,
+   quae aliquis non digne sumit, nisi qui 
+   <lb ed="#PL"/> mundus est; de quibus dicitur, <hi rend="italic">Beati mundo eorde,</hi>
+   
+   
+   
+       <lb ed="#PL"/>
+       <pb ed="#PL" n="1615"/>
+       <hi rend="italic">quoniam ipsi Deum videbunt</hi> I <hi rend="italic">(Mallh.</hi> v, 8).</p>
+      <p xml:id="iuy75t-d1e255-d1e1651">19. <hi rend="italic">Sicut,</hi> inquit, <hi rend="italic">misit me vivens Pater, et
+    ego vivo
+   <lb ed="#PL"/> propter Patrem; et qui manducat me, et ipse vivet pro­</hi>
+   
+       <lb ed="#PL"/> pter tne. Nun ait : Sicut manduco Patrem, et ego vivo 
+   <lb ed="#PL"/> propter Patrem; et qui manducat me, et ipse vivct 
+   <lb ed="#PL"/> propter me. Non enim Filius participatione Patris fit
+   
+   <lb ed="#PL"/> melior, qui est natus aequalis ; sicut participatione Fi<lb ed="#PL" break="no"/>iii
+   per unitatem corporis cjusetsanguinis, quod illa 
+   <lb ed="#PL"/> manducatio potatioque significat, nos efficimur I me- 
+   <lb ed="#PL"/> Ii ores. Vivimus ergo nos propter ipsum, manducan<lb ed="#PL" break="no"/>tes
+   cum ; id est , ipsum accipientes aeternam vitam, 
+   <lb ed="#PL"/> quam non habebamus ex nobis : vivit autem ipse pro<lb ed="#PL" break="no"/>pter
+   Patrem, missus ab eo; quia semetipsum exina<lb ed="#PL" break="no"/>uivit, factus obcdicns usque ad mortem crucis <hi rend="italic">(Phi­
+   <lb ed="#PL"/> lipp.</hi> n, 8). Si enim secundum id accipimus, Vivo 
+   <lb ed="#PL"/>
+       <hi rend="italic">propter Patrem,</hi> quod alibi ait, <hi rend="italic">Pater major me
+    est
+   <lb ed="#PL"/> (Joan.</hi> xiv, 28); sicutetnos vivimus propter ipsum, 
+   <lb ed="#PL"/> qui major est nobis : hoc ex eo quod missus est, fa<lb ed="#PL" break="no"/>ctum
+   est. Missio quippe ejus cxinauhio suimetipsius 
+   <lb ed="#PL"/> est, et formae servilis acceptio : quod recte intelligi<lb ed="#PL" break="no"/>tur, servata etiam Filii cum Patre aequalitate naturae. 
+   <lb ed="#PL"/> Major enim est Pater homine filio, sed aequalem ha<lb ed="#PL" break="no"/>bet
+   Deum Filium : cum idem ipse sit cl Deus et homo, 
+   <lb ed="#PL"/> Dei Filius et hominis filius, unus Christus Jesus. In 
+   <lb ed="#PL"/> quam sententiam si recte accipiuntur haec verba, i:a 
+   <lb ed="#PL"/> dixit, <hi rend="italic">Sicut me</hi> misit <hi rend="italic">vivens Pater, et ego vivo propter 
+   <lb ed="#PL"/> Patrem;etqui manducat rne, et
+    ipse vivet propter me :</hi>
+   
+       <lb ed="#PL"/> ac si , diceret, Ut ego vivam propter Patrem , id est, 
+   <lb ed="#PL"/> ad illum tanquam majorem referam vitam meam, exi<lb ed="#PL" break="no"/>uaniLio
+   mea fecit, in qua me misit; ut autem quisque 
+   <lb ed="#PL"/> vivat propter me, participatio facit qua manducat me. 
+   <lb ed="#PL"/> Ego itaque humiliatus vivo propter Patrem, ille cre<lb ed="#PL" break="no"/>ctusvivit
+   propter me. Si autcm ita dictum est, Vivo 
+   <lb ed="#PL"/>
+       <hi rend="italic">propter Patrem,</hi> quia ipsc de illo, non ille de ipso 
+   <lb ed="#PL"/> cst; sine detrimento aequalitatis dictum est. Nec ta<lb ed="#PL" break="no"/>men
+   dicendo, <hi rend="italic">et</hi> qui <hi rend="italic">manducat me , et ipse vivet pro­</hi>
+   
+       <lb ed="#PL"/> pter me, eamdem suam et nostram aequalitatem signi<lb ed="#PL" break="no"/>ficavit; sed gratiam mcdiatoris ostendit.</p>
+      <p xml:id="iuy75t-d1e255-d1e1763">20. <hi rend="italic">Hic eat</hi> panis <hi rend="italic">qui de coelo descendit :</hi> ut illum 
+   <lb ed="#PL"/> manducando vivamus, quia aeternam vitam ex nobis 
+   <lb ed="#PL"/> habere non possumus. <hi rend="italic">Non sicut,</hi> inquit, manducave­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">runt patres vestri manna, et</hi> mortui <hi rend="italic">sunt :
+    qui</hi> mandu­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">cat</hi> hunc <hi rend="italic">panem,</hi> vivet <hi rend="italic">in
+    aeternum.</hi> Quod ergo illi mor<lb ed="#PL" break="no"/>tui
+   sunt, ita vult intelligi, ut non vivant in aeternum. 
+   <lb ed="#PL"/> Nam temporaliter et hi profecto morientur, qui Chri<lb ed="#PL" break="no"/>stum
+   manducant
+   : sed vivunt in aeternum, quia Chri 
+   <lb ed="#PL"/> stus est vita aeterna.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

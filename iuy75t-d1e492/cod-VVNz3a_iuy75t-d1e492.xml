@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 55</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 55</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e492"> <!-- iuy75t-t55 -->
+      <head xml:id="iuy75t-d1e492-Hd1e109">Tractatus 55</head>
+      <p xml:id="iuy75t-d1e492-d1e112">
+       <hi rend="italic">Ab eo loco,</hi> Anie diem festum Paschae, sciens Jesus 
+   <lb ed="#PL"/> quia venit hora ejus; <hi rend="italic">usque ad</hi> id , Et coepit lavare 
+   <lb ed="#PL"/> pedes discipulorum, et extergere linteo quo erat 
+   <lb ed="#PL"/> praecinctus. <hi rend="italic">Cap.</hi> xiu, f . i -5.</p>
+      <p xml:id="iuy75t-d1e492-d1e131">1. Coena Domini secunduni Joannem, adjuvante 
+   <lb ed="#PL"/> ipso, debitis est explicanda tractatibus , et ut nobis 
+   <lb ed="#PL"/> posse donaverit, explananda. <hi rend="italic">Ante diem
+    autem festum</hi>
+   
+       <lb ed="#PL"/> Paschae, <hi rend="italic">sciens</hi> Jesus <hi rend="italic">quia venit hora
+    ejus ut transeat ex 
+   <lb ed="#PL"/> hoc</hi> mundo <hi rend="italic">ad Patrem, cum dilexisset
+    suos qui erant in
+   <lb ed="#PL"/> mundo, in finem dilexit eos.</hi> Pascha , fratres, non sicut
+   
+   <lb ed="#PL"/> quidam existimant, graecum nomen est, sed hebraeum: 
+   <lb ed="#PL"/> opportunissime tamen occurrit in hoc nomine quae<lb ed="#PL" break="no"/>dam
+   congruentia utrarumque linguarum. Quia enim 
+   <lb ed="#PL"/> pati graece <foreign xml:lang="grc">πάσχειν</foreign> dicitur, ideo Pascha passio putata
+   
+   <lb ed="#PL"/> est, velut hoc nomen a passione sit appellatum : in 
+   
+   <pb ed="#PL" n="1785"/>
+       <lb ed="#PL"/> sua vcro lingua, hoc est in hebraea, Pascha transitus 
+   <lb ed="#PL"/> dicitur : propterea tunc primum Pascha celebravit 
+   <lb ed="#PL"/> populus Dei , quando ex .Egypto fugientes, Rubrum 
+   <lb ed="#PL"/> mare transierunt <hi rend="italic">(Exod.</hi> xiv, 29). Nunc ergo ligura
+   
+   <lb ed="#PL"/> illa prophetica in veritate completa est, cum sicut ovis 
+   <lb ed="#PL"/> ad immolandum ducitur Christus <hi rend="italic">(Isai.</hi> LIII, 7), cujus 
+   <lb ed="#PL"/> sanguine illitis postibus nostris , id est, cujus signo 
+   <lb ed="#PL"/> crucis signatis frontibus nostris, a perditione hujus 
+   <lb ed="#PL"/> saeculi tanquam a captivitate vel interemptione aegy<lb ed="#PL" break="no"/>pHa
+   liberamur <hi rend="italic">(Exod.</hi> XII , 23); et agimus saluberri<lb ed="#PL" break="no"/>mum
+   transitum, cum a diabolo transimus ad Chri<lb ed="#PL" break="no"/>stum, et ab islo instabili saeculo ad ejus fundatissi<lb ed="#PL" break="no"/>mum
+   regnum. Ideo quippe ad Deum permanentem 
+   <lb ed="#PL"/> transimus, ne cum mundo transeunte transeamus. 
+   <lb ed="#PL"/> De hac nobis collata gralia Deum laudans Apostolus 
+   <lb ed="#PL"/> dicit : Qui <hi rend="italic">eruit noa de</hi> potestate tenebrarum ,
+    <hi rend="italic">et trans­
+   <lb ed="#PL"/> tulit</hi> in <hi rend="italic">regnum Filii</hi> charitatis suae <hi rend="italic">(Goloss.</hi> I, 13). Hoc 
+   <lb ed="#PL"/> itaque nomen , id est, Pascha, quod latine, ut dixi, 
+   <lb ed="#PL"/> transitus nuncupatur, velut interpretans nobis beatus 
+   <lb ed="#PL"/> Evangelista, <hi rend="italic">Ante diem,</hi> inquit, <hi rend="italic">festum</hi> Pascha, <hi rend="italic">sciens 
+   <lb ed="#PL"/> Jesus quia venit hcra ejus ut
+    trunseat ex hoc mundo ad
+   <lb ed="#PL"/> Patrem.</hi> Ecce Pascha, ecce transitus. Unde, et quo ? 
+   <lb ed="#PL"/>
+       <hi rend="italic">De hoc</hi> scilicet <hi rend="italic">mundo ad Patrem.</hi> Spes membris in 
+   <lb ed="#PL"/> capite data est, quod essent illo transeunte sine dubio 
+   <lb ed="#PL"/> secutura. Quid ergo infideles, et ab hoc capite atque 
+   <lb ed="#PL"/> ab ejus corpore alieni? nonne et ipsi transeunt, quia 
+   <lb ed="#PL"/> non permanent ? Transeunt plane et ipsi : sed aliud 
+   <lb ed="#PL"/> est transire de mundo, aliud est transire cum mundo; 
+   <lb ed="#PL"/> aliud ad Patrem, aliud ad hostem. Nam et aegyptii 
+   <lb ed="#PL"/> transierunt; non tamen transierunt per mare ad re<lb ed="#PL" break="no"/>gnum, sed in mari ad interitum.</p>
+      <p xml:id="iuy75t-d1e492-d1e278">i. <hi rend="italic">Sciens</hi> ergo <hi rend="italic">Jesus quia venit hora ejus ut
+    transiret 
+   <lb ed="#PL"/> ex hoc mundo ad Patrem, cum dilexisset suos qui erant</hi>
+   
+       <lb ed="#PL"/> in mundo, in <hi rend="italic">finem dilexit eos.</hi> Utique ut et ipsi de hoc
+   
+   <lb ed="#PL"/> mundo ubi erant, ad suum caput, quod hinc transis<lb ed="#PL" break="no"/>set, ejus dilectione transirent. Quid est enim , in fi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">nem,</hi> nisi, in Christum ? Finis <hi rend="italic">enim Legis
+    Christus,</hi>
+   
+       <lb ed="#PL"/> ait Apostolus, <hi rend="italic">ad</hi> justitiam omni <hi rend="italic">credenti
+    (Rom.</hi> x , 4). 
+   <lb ed="#PL"/> Finis perficiens, non interficiens : finis quo usque ea­
+   
+   <lb ed="#PL"/> mus , non ubi pereamus. Sic omnino intelligendum 
+   <lb ed="#PL"/> est, <hi rend="italic">Pascha nostrum immolatus eat Christus</hi> (I Cor. v, 
+   <lb ed="#PL"/> 7). Ipse est finis noster, in illum est transitus noster. 
+   <lb ed="#PL"/> Nam video posse ista verba evangelica quodam hu<lb ed="#PL" break="no"/>mano
+   modo etiam sic accipi, lanquam usque ad mor<lb ed="#PL" break="no"/>tem
+   Christus dilexerit suos, ut hoc videatur esse, in 
+   <lb ed="#PL"/>
+       <hi rend="italic">finem dilexit cos.</hi> Humana est haec sententia , non di<lb ed="#PL" break="no"/>vina: neque cum nos hucusque ille dilexit, qui sem<lb ed="#PL" break="no"/>per
+   et sinc liuc nos diligit. Absit ut dilectionem morte 
+   <lb ed="#PL"/> finierit, qni non est mortc finitus. Etiam post mor<lb ed="#PL" break="no"/>tem
+   , quinquc fratres suos dilexit dives ille superbus 
+   <lb ed="#PL"/> atque impius <hi rend="italic">(Luc.</hi> xvi, 27,28), et usqim ad mortem 
+   <lb ed="#PL"/> nos dilexisse putandus est Christus? Absit, charissimi. 
+   <lb ed="#PL"/> Nequaquam ille nos diligendo usque ad mortem veni<lb ed="#PL" break="no"/>ret, si dilectionem nostram morte finiret. Nisi forte 
+   <lb ed="#PL"/> ita sit intelligendum, <hi rend="italic">in finem dilexit eoa</hi> : Quia tan<lb ed="#PL" break="no"/>tum
+   dilexit eos, ut moreretur propter eos. Hoc enim 
+   <lb ed="#PL"/> testatus est dicens : <hi rend="italic">Majorem hac charitatem nemo Ira­</hi>
+   
+       <lb ed="#PL"/> bet, <hi rend="italic">quam</hi> ut animam <hi rend="italic">suam ponat quis</hi> pro amicis suis 
+   <lb ed="#PL"/> ;Joan. xv, 13). Ita sane non prohibemus intelligi, in 
+   <lb ed="#PL"/>
+       <hi rend="italic">finem dilexit,</hi> id est, usque ad mortem illum dilectio 
+   <lb ed="#PL"/> ipsa perduxit.</p>
+      <p xml:id="iuy75t-d1e492-d1e392">3.« Et coena, inquit, « facta, cum diabolus jam mi<lb ed="#PL" break="no"/>sisset
+   in cor, ut traderet eum Judas Sirnonis Iscario<lb ed="#PL" break="no"/>tes
+   1: sciens quia omnia dedit ei Pater in manus, et
+   
+   <lb ed="#PL"/> quia a Deo exiit, et ad Deum vadit, surgit a coena , et 
+   <lb ed="#PL"/> ponit vestimenta sua; et cum accepisset linteum, prae<lb ed="#PL" break="no"/>cinxit
+   se. Deinde mittit aquam in pelvim, et coepit la<lb ed="#PL" break="no"/>vare
+   pedes discipulorum, et extergere linteo quo erat 
+   <lb ed="#PL"/> praecinctus. I Non ita debemus intelligere coenam 
+   <lb ed="#PL"/> factam veluti jam consummatam atque transactam I : 
+   <lb ed="#PL"/> adhuc enim coenabatur, cum Dominus surrexit et pe<lb ed="#PL" break="no"/>des
+   lavit discipulis suis. Nam postea recubuit, et 
+   <lb ed="#PL"/> buccellam suo traditori postea dedit, utique coena 
+   <lb ed="#PL"/> nondum finita , hoc est, dum adhuc panis esset in 
+   <lb ed="#PL"/> mensa.
+    <hi rend="italic">Caena</hi> ergo <hi rend="italic">facto,</hi> dictum est, jam parata, et 
+   <lb ed="#PL"/> ad convivantium mensam usumque perducta.</p>
+      <p xml:id="iuy75t-d1e492-d1e431">4. Quod autem ait, Cum <hi rend="italic">diabolus jam misisset</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">cor, ut traderet eum Judas Simonis Iscariotes;</hi> si quae<lb ed="#PL" break="no"/>ris
+   quid missum sit in cor Judae : hoc utique, <hi rend="italic">ut trade<lb ed="#PL" break="no"/>ret
+    eum.</hi> Missio ista , spiritualis suggestio est : non fit 
+   <lb ed="#PL"/> per aurem, sed per cogitationem; ac per hoc non cor<lb ed="#PL" break="no"/>poraliter , sed spiritualiter. Neque enim spirituale 
+   <lb ed="#PL"/> quod dicitur, semper in laude accipiendum est. Novit 
+   <lb ed="#PL"/> Apostolus quaedam spiritualia nequitiae in coelestibus, 
+   <lb ed="#PL"/> adversus quae nobis colluctationem esse testatur 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Ephes.</hi> v!, 12) : non autem essent etiam maligna 
+   <lb ed="#PL"/> spiritualia , si non essent etiam maligni spiritus. A 
+   <lb ed="#PL"/> spiritu cnim spiritnalia nominantur. Sed quomodo 
+   <lb ed="#PL"/> ista fiant, ut diabolicae suggestiones immittantur, ct
+   
+   <lb ed="#PL"/> humanis cogitationibus misceantur, ut eas tanquam 
+   <lb ed="#PL"/> suas deputet homo, ande scit homo ? Nec dubitandum 
+   <lb ed="#PL"/> est etiam bonas suggestiones a bono spiritu ita laten­
+   
+   <lb ed="#PL"/> ter ac spiritualiter fieri : sed interest quibusnam ea<lb ed="#PL" break="no"/>rum
+   mens humana consentiat, divino auxilio vel de- 
+   <lb ed="#PL"/> serta per meritum, vel adjuta per gratiam. Factum 
+   <lb ed="#PL"/> ergo jam fuerat in corde Judae per immissionem dia<lb ed="#PL" break="no"/>bolicam, ut tradcret discipulus magistrum, sed quem 
+   <lb ed="#PL"/> non didicerat Deum. Jam talis venerat ad convivium, 
+   <lb ed="#PL"/> explorator Pastoris, insidiator Salvatoris, venditor 
+   <lb ed="#PL"/> Redemptoris; jam talis venerat, et videbatur, et to<lb ed="#PL" break="no"/>lerabatur, et se ignorari arbitrabatur : quia in eo 
+   <lb ed="#PL"/> quem volebat fallere , fallebatur. At ille isto in ipso 
+   <lb ed="#PL"/> corde intus inspecto, nesciente scienter utebatur.</p>
+      <p xml:id="iuy75t-d1e492-d1e502">5. <hi rend="italic">Sciens quia omnia dedit ei Pater</hi> in manus. Ergo 
+   <lb ed="#PL"/> et ipsum traditorem : nam si eum in manibus non 
+   <lb ed="#PL"/> haberct, non utique illo uteretur ut vellet. Proinde 
+   <lb ed="#PL"/> jam traditor traditus erat ei quem tradere cupiebat, 
+   <lb ed="#PL"/> atque ila malum tradendo faciebat, ut de illo tradito 
+   <lb ed="#PL"/> bonum fieret quod nesciebat. Sciebat enim Dominus 
+   <lb ed="#PL"/> quid faceret pro amicis, qui patienter utebatur inimi<lb ed="#PL" break="no"/>cis
+   : ac sic omnia dederat Pater in manus ejus , et in 
+   <lb ed="#PL"/> usum mala, et in effectum bona. <hi rend="italic">Sciens etiam quia</hi> a 
+   <lb ed="#PL"/>
+       <hi rend="italic">Deo exiit, et ad Deum vadit</hi> : nee Deum , cum inde 
+   <lb ed="#PL"/> exiret; nee nos deserens , cum rediret.</p>
+      <p xml:id="iuy75t-d1e492-d1e536">6. Haec ergo sciens, surgit <hi rend="italic">a cana, et ponit</hi> vesti­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">menta</hi> sua; <hi rend="italic">et cum accepisset linteum,
+    praecinxit</hi> se 
+   
+   <pb ed="#PL" n="1787"/>
+       <lb ed="#PL"/>
+       <hi rend="italic">Deinde mittit</hi> aquam in pelvim , <hi rend="italic">et ccepit
+    lavare pedos</hi>
+   
+       <lb ed="#PL"/> discipulorum , <hi rend="italic">et extergere tinteo quo erat praecinctus.</hi>
+   
+       <lb ed="#PL"/> Debemus, di ectissimi, sensum Evangelistae diligen<lb ed="#PL" break="no"/>ter
+   auendero. Locuturus quippe de tanta Domini hu<lb ed="#PL" break="no"/>militate, prius celsitudinem ejus voluit commendare.
+   
+   <lb ed="#PL"/> Ad hoc pertinet quod ait, Sciens <hi rend="italic">quia omnia dedit ei 
+   <lb ed="#PL"/> Pater
+    in manus, et</hi> quia <hi rend="italic">a Deo</hi> exiit, <hi rend="italic">et ad
+    Deum vadit.</hi>
+   
+       <lb ed="#PL"/> Cum illi ergo omnia Pater dedisset in manus, ille di<lb ed="#PL" break="no"/>scipulorum
+   non manus, sed pedes lavit: et cum se 
+   <lb ed="#PL"/> sciret a Deo exiisse, et ad Deum pergere, non Dei 
+   <lb ed="#PL"/> Domini, sed hominis servi implevit officium. Ad hoc 
+   <lb ed="#PL"/> autem pertinet quod etiam de traditore ipsius, qui 
+   <lb ed="#PL"/> jam talis venerat, qui nec ab illo ignorabatur, praelo­
+   
+   <lb ed="#PL"/> qui voluit ; ut hoc quoque ad maximum cumulum hu<lb ed="#PL" break="no"/>militatis
+   accederet, quod etiam illi non dedignatus 
+   <lb ed="#PL"/> est pedes lavare, cujus manus jam praevidebat in sce­
+   
+   <lb ed="#PL"/> lere.</p>
+      <p xml:id="iuy75t-d1e492-d1e608">7. Quid autem mirum si surrexit a coena, et posuit ve<lb ed="#PL" break="no"/>slimenta
+   sua, qui cum in forma Dei esset, semetipsum 
+   <lb ed="#PL"/> exinanivit? Et quid mirum si praecinxit se linteo, qui
+   
+   <lb ed="#PL"/> formam servi accipiens habitu inventus est ut homo 
+   <lb ed="#PL"/> (Philipp. n,6 <hi rend="italic">et</hi> 7.)? Quid mirum si misit aquam in pelvim 
+   <lb ed="#PL"/> unde lavaret pedes discipulorum, qui in terram sangui<lb ed="#PL" break="no"/>nem
+   fudit, quo immunditiam dilueret peccatorum? Quid 
+   <lb ed="#PL"/> mirum si linteo quo erat praecinctus, pedes quos lave<lb ed="#PL" break="no"/>rat, tersit, qui carne qua erat indutus, Evangelista<lb ed="#PL" break="no"/>rum
+   vestigia confirmavii ? Et linteo quidcm ut se prae<lb ed="#PL" break="no"/>cingeret, posuit vestimenta quae habebat: ut autem 
+   <lb ed="#PL"/> formam servi acciperet quando semetipsum exinani<lb ed="#PL" break="no"/>vit, non quod hahebat deposuit, sed quod non habc<lb ed="#PL" break="no"/>bat
+   accepit. Crucifigendus sane suis exspoliatus est 
+   <lb ed="#PL"/> vestimentis, et mortuus involutus est linteis :ettota 
+   <lb ed="#PL"/> illa ejus passio, nostra purgatio est. Passurus igitur 
+   <lb ed="#PL"/> exitia , praemisit obsequia ; non solum eis pro quibus 
+   <lb ed="#PL"/> erat subiturus mortem, sed etiam illi qui eum fuerat 
+   <lb ed="#PL"/> traditurus ad mortem. Tanta est quippe humanae hu<lb ed="#PL" break="no"/>militatis
+   utilitas, ut eam suo commendaret exemplo 
+   <lb ed="#PL"/> etiam divina sublimitas: quia homo superbus in aeter<lb ed="#PL" break="no"/>num
+   periret , nisi illum Deus humilis inveniret. Venit 
+   <lb ed="#PL"/> enim Filius hominis quaerere et salvum facere quod 
+   <lb ed="#PL"/> perierat <hi rend="italic">(Luc.</hi> xix, 40). Perierat autem superbiam 
+   <lb ed="#PL"/> deceptoris seculus, ergo humilitatem Redemptoris 
+   <lb ed="#PL"/> sequatur inventus.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

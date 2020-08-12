@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 110</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 110</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e941"> <!-- iuy75t-t110 -->
+      <head xml:id="iuy75t-d1e941-Hd1e109">Tractatus 110</head>
+      <p xml:id="iuy75t-d1e941-d1e112">
+       <hi rend="italic">De eo quod sequitur,</hi> Ut omnes unum sint, <hi rend="italic">etc.,
+   <lb ed="#PL"/> usque ad id,</hi> Et dilexisti eos, sicut et me dilexisti. 
+   <lb ed="#PL"/> Cap. XVII, f. 21-23.</p>
+      <p xml:id="iuy75t-d1e941-d1e125">i. Cum Dominus Jesus orasset pro discipulis sui. 
+   <lb ed="#PL"/> quos tunc secum habebat, atque adjunxisset suos 
+   <lb ed="#PL"/> alios, dicens, <hi rend="italic">Non pro his autem rogo tantum,
+    sed et 
+   <lb ed="#PL"/> pro</hi> eia <hi rend="italic">qui credituri sunt per verbum eorum</hi> in <hi rend="italic">me ;</hi> ve<lb ed="#PL" break="no"/>tut
+   quaereremus, quid vel quare pro illis rogaret, con<lb ed="#PL" break="no"/>tinuo
+   subintulit, dicens : <hi rend="italic">Ut omnes unum sint,
+    sicut tu, 
+   <lb ed="#PL"/> Pater, in me, et ego</hi> in <hi rend="italic">te, ut et ipsi in nobis
+    unum sint.</hi>
+   
+       <lb ed="#PL"/> Et supcrius cum adhuc pro solis discipulis, quos se<lb ed="#PL" break="no"/>cum
+   habebat, oraret : Pater <hi rend="italic">sancte,</hi> inquit, <hi rend="italic">serva eos</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">nomine tuo quos dedisti mihi, ut</hi> sint <hi rend="italic">unum</hi> sicut <hi rend="italic">et</hi> nos 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Joan.</hi> xvn, 11). Hoc ergo nunc etiam et pro nobis 
+   <lb ed="#PL"/> rogavit, quod tunc pro illis, ut omnes, hoc est et nos 
+   <lb ed="#PL"/> et illi, unum simus. Ubi diligenter advertendum est 
+   <lb ed="#PL"/> non dixisse Dominum, ut omnes uninn simus; sed, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ut omnes</hi> unum <hi rend="italic">siut, sicut tu, Puter,</hi> in
+    <hi rend="italic">me, et ego in te</hi>
+   
+       <lb ed="#PL"/> (subintelligitur, unum sumus; quod apertius dicitur 
+   <lb ed="#PL"/> postea) : quia et prius dixerat de discipulis qui cum 
+   <lb ed="#PL"/> illo erant, <hi rend="italic">Ut sint unum sicut et
+    noa.</hi> Quamobrem ita 
+   <lb ed="#PL"/> est Pater in Filio, et Filius in Patre, ut unum sint,
+   
+   <lb ed="#PL"/> quia unius substantiae sunt: nos vero esse quidem in 
+   <lb ed="#PL"/> eis possumus, unum tamen cum eis esse non possu<lb ed="#PL" break="no"/>mus; quia unius substantiae nos et ipsi non sumus, in
+   
+   <lb ed="#PL"/> quantum Filius cum Patre Deus est. Nam in quantum 
+   <lb ed="#PL"/> homo ast, ejusdem substantiae est cujus et nos sumus. 
+   <lb ed="#PL"/> Sed nunc illud potius voluit commendare, quod alio 
+   <lb ed="#PL"/> loco ait, <hi rend="italic">Ego et Pater unum</hi> sumus <hi rend="italic">(Id.</hi> x, 30); ubi 
+   <lb ed="#PL"/> eamdm Patris et suam significavit esse naturam. Ac 
+   <lb ed="#PL"/> per hoc et cum in nobis sunt Pater et Filius, vel 
+   <lb ed="#PL"/> etiam Spiritus sanctus, non debemus eos putare na<lb ed="#PL" break="no"/>turae
+   unius esse nobiscum. Sic itaque sunt in nobis, 
+   <lb ed="#PL"/> vel nos in illis, ut illi unum sint in natura sua, nos 
+   <lb ed="#PL"/> unum in nostra. Sunt
+   .quippe ipsi in nobis, tanquam 
+   <lb ed="#PL"/> Deus in templo suo : sumus autem nos in illis, tan­
+   
+   <lb ed="#PL"/> quam creatura in Creatore suo.</p>
+      <p xml:id="iuy75t-d1e941-d1e253">i. Deinde cum dixisset, <hi rend="italic">Ut et ipsi</hi> in <hi rend="italic">nobis
+    unum</hi> sint, 
+   <lb ed="#PL"/> adjunxit, <hi rend="italic">Ut mundus credat quia tu me</hi> misisti. Quid est 
+   <lb ed="#PL"/> Loc? Numquidnam tunc crediturusest mundus, quando 
+   <lb ed="#PL"/> in Patre et Filio unum omnes erimus? Nonne ista est 
+   <lb ed="#PL"/> pax illa perpetua, et potius fidei merces quam fides? 
+   <lb ed="#PL"/> Unum enim erimus, non ut credamus, sed quia cre<lb ed="#PL" break="no"/>didimus. Sed etsi in hac vita propter ipsam commu<lb ed="#PL" break="no"/>nem
+   fidcm, omnes qui in unum credimus, unum su<lb ed="#PL" break="no"/>mus, juxta iliud Apostoli, <hi rend="italic">Omnes enim vos unum
+    estis</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">Christo Jesu (Galat.</hi> III, 28) ; etiam sic non ut cre­
+   
+   <lb ed="#PL"/> damus, sed quia credimus, unum sumus. Quid est 
+   <lb ed="#PL"/> ergo, <hi rend="italic">Omnes
+    unum</hi> sint, <hi rend="italic">ut mundus credat</hi> ? Ipsi quippe 
+   <lb ed="#PL"/>
+       <hi rend="italic">omnes</hi> mundus est credeus. Neque enim alii sunt qui 
+   <lb ed="#PL"/> unum erunt, et alius est mundus propterea creditu<lb ed="#PL" break="no"/>rus, quia illi unum erunt; cum procul dubio de his 
+   <lb ed="#PL"/> dicat, <hi rend="italic">Ut omnes unum sint,</hi> de quibus dixerat, <hi rend="italic">Non
+   <lb ed="#PL"/> pro his</hi> autem <hi rend="italic">rogo tantum,
+    sed et pro eis qui credituri</hi>
+   
+       <lb ed="#PL"/>
+       <pb ed="#PL" n="1921"/>
+       <hi rend="italic">sunt per</hi> verbum <hi rend="italic">eorum</hi> in <hi rend="italic">me,</hi> continuo subjungens, <hi rend="italic">Ut 
+   <lb ed="#PL"/> omnes</hi> anum <hi rend="italic">sint.</hi> Isti autem <hi rend="italic">omnes</hi> quid est, nisi 
+   <lb ed="#PL"/> mundus, non hostilis utique, sed fidelis? Nam ecce 
+   <lb ed="#PL"/> qui dixcrat, <hi rend="italic">Non pro mundo rogo (Joan.</hi> XVII, 9), pro 
+   <lb ed="#PL"/> muudo rogat ut credat. Quoniam est mundus de quo 
+   <lb ed="#PL"/> scriptum est: <hi rend="italic">Ne</hi> cum hoc <hi rend="italic">mundo damnemur</hi> (I <hi rend="italic">Cor.</hi> xi, 
+   <lb ed="#PL"/> 32). Pro isto mundo non rogat: neque enim quo sit 
+   <lb ed="#PL"/> praedestinatus, ignorat. Et est mundus de quo scri<lb ed="#PL" break="no"/>ptum
+   est, <hi rend="italic">Non enim venit Filius hominis ut judicet 
+   <lb ed="#PL"/> mundum,
+    sed</hi> ut <hi rend="italic">salvetur mundus per</hi> ipsum <hi rend="italic">(Joan.</hi> III, 
+   <lb ed="#PL"/> 17) : unde et Apostolus, <hi rend="italic">Deus,</hi> inquit,
+    <hi rend="italic">erat</hi> in <hi rend="italic">Christo,</hi>
+   
+       <lb ed="#PL"/> mundum <hi rend="italic">reconcilians sibi</hi> (II <hi rend="italic">Cor.</hi> v, 49). Pro isto 
+   <lb ed="#PL"/> mundo rogat, dicens, Ut <hi rend="italic">mundus credat quia tu
+    me</hi> mi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">sisti.</hi> Per hanc enim fidem mundus reconciliatur Deo, 
+   <lb ed="#PL"/> cum credit in Christum qui est missus a Deo. Quo<lb ed="#PL" break="no"/>modo
+   ergo intellecturi sumus quod ait, <hi rend="italic">Ut et ipsi in 
+   <lb ed="#PL"/> nobis unum sint, ut credat mundus quia</hi> tu <hi rend="italic">me misisti:</hi>
+   
+       <lb ed="#PL"/> nisi quia non in eo causam posuit uC credat mundus, 
+   <lb ed="#PL"/> quia illi unum sunt, tanquam ideo credat quod eos 
+   <lb ed="#PL"/> esse unum videt; cum ipse mundus sint omnes, qui
+   
+   <lb ed="#PL"/> credendo unum fiunt: sed orando dixit, <hi rend="italic">Ut mundus 
+   <lb ed="#PL"/>
+    credat;</hi> sicut orando dixit, <hi rend="italic">Ut omnes unum</hi> sint; orando
+   
+   <lb ed="#PL"/> dixit, <hi rend="italic">Ut et ipsi in nobis unum</hi> sint? Hoc est enim 
+   <lb ed="#PL"/>
+       <hi rend="italic">omnes unum sint,</hi> quod est <hi rend="italic">mundus credat:</hi> quoniam 
+   <lb ed="#PL"/> credendo unum fiunt; perfecte unum, qui cum natura 
+   <lb ed="#PL"/> cssent unum, dissentiendo ab uno non erant unum. 
+   <lb ed="#PL"/> Denique si verbum quod ait, <hi rend="italic">rogo,</hi> tertio subaudia<lb ed="#PL" break="no"/>mus, vel potius quo plenius fiat, ubique ponamus;
+   
+   <lb ed="#PL"/> erit hujus expositio sententiae manifestior : Rogo <hi rend="italic">ut 
+   <lb ed="#PL"/> omnes
+    unum sint, sicut tu Pater in me,etego in te :</hi>
+   
+       <lb ed="#PL"/> rogo <hi rend="italic">ut et ipsi in nobis unum sint:</hi> rogo <hi rend="italic">ut mundus cre<lb ed="#PL" break="no"/>dat
+   quia tu me misisti.</hi> Ideo quippe addidit, quod dixit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">in nobis,</hi> ut quod unum efficimur Gdelissima chari<lb ed="#PL" break="no"/>tate, gratiae Dei noverimus tribuendum esse, non no<lb ed="#PL" break="no"/>bis : sicut Apostolus cum dixisset,
+    <hi rend="italic">Fuistis enim ali­
+   <lb ed="#PL"/> quando tenebrae, nunc autem lux,</hi> inquit; et ne sibi hoc 
+   <lb ed="#PL"/> tribuerent, adjecit, <hi rend="italic">in Domino (Ephes.</hi> v, 8).</p>
+      <p xml:id="iuy75t-d1e941-d1e515">3. Dcindc Salvator noster rogando Patrem, se ho<lb ed="#PL" break="no"/>minem
+   demonstrabat : nunc demonstrans et seipsum, 
+   <lb ed="#PL"/> quoniam cum Patre Deus est, facere quod rogat, Et 
+   <lb ed="#PL"/>
+       <hi rend="italic">ego,</hi> inquit, <hi rend="italic">claritatem quam dedisti</hi> milii, <hi rend="italic">dedi illis.</hi>
+   
+       <lb ed="#PL"/> Quam claritatem, nisi immortalitatem, quam .natura 
+   <lb ed="#PL"/> humana in illo fuerat acceptura? Nam nee ipse adhuc 
+   <lb ed="#PL"/> acceperat eam, sed more suo propter immobilitatem
+   
+   <lb ed="#PL"/> praedestinationis, praeteriti temporis verbis futura si<lb ed="#PL" break="no"/>gnificat, quod nunc clarificandus, hoc est suscitandus 
+   <lb ed="#PL"/> a Patrc, et ipse sit nos ad cam claritatem suscitaturus 
+   <lb ed="#PL"/> in fine. Simile est hoc ei quod alibi dicit, <hi rend="italic">Sicut
+    Pater</hi>
+   
+       <lb ed="#PL"/> suscitat mortuos <hi rend="italic">et vivificat, sic et Filius quos vult vivi­
+    
+   <lb ed="#PL"/> ficat.</hi> Et <hi rend="italic">quos,</hi> nisi eosdem qnos Pater? <hi rend="italic">Quaecumque
+   <lb ed="#PL"/> enim</hi> Pater <hi rend="italic">facit,</hi> non alia, sed <hi rend="italic">haec et Filius;</hi> nec ali<lb ed="#PL" break="no"/>ter, scd <hi rend="italic">similiter</hi> facit <hi rend="italic">(Joan.</hi> v, 21, 49). Ac per lioc 
+   <lb ed="#PL"/> suscitavit et seipsum etiam ipse. Nam inde est, <hi rend="italic">Sol­
+   <lb ed="#PL"/> vite templum
+    hoc,</hi> inquit, <hi rend="italic">et in- triduo resuscitabo illud 
+   <lb ed="#PL"/> (Id.</hi> II, 19). Proinde immortalitatis claritatem, quam 
+   <lb ed="#PL"/> sibi a Patre datam dicit, etiam ipse sibi dedisse ;ntel<lb ed="#PL" break="no"/>ligendus
+   est, etsi non dicit. Ideo quippe saepius solum
+   
+   <lb ed="#PL"/> Patrem facere dicit quod et ipse facit cum Patre, ut 
+   <lb ed="#PL"/> quidquid est ei tribuat de quo est. Sed et aliquando 
+   <lb ed="#PL"/> etiam tacito Patre, se dicit facere quod facit cum Pa<lb ed="#PL" break="no"/>tre : ut intelligamus ita Filium non esse a Patris ope. 
+   <lb ed="#PL"/> re separandum, quando se tacito Patrem dicit ali<lb ed="#PL" break="no"/>quid
+   operari; quemadmodum nec Pater ab opere Fi- 
+   <lb ed="#PL"/> Iii separatur, quando ipso tacito Filius operari dicitur, 
+   <lb ed="#PL"/> quod nihilominus pariter operantur. Cum ergo tacet 
+   <lb ed="#PL"/> Filius in opere Patris operationem suam, humilitatem 
+   <lb ed="#PL"/> commendat, ut sit nobis salubrior : cnm vcro vicissim 
+   <lb ed="#PL"/> in opere suo tacet operationem Patris, parilitatcm 
+   <lb ed="#PL"/> suam commendat, ne credatur inferior. Isto igitur 
+   <lb ed="#PL"/> modo et hoe loco nec se facit alienum a Patris opere, 
+   <lb ed="#PL"/> quamvis dixerit, <hi rend="italic">Claritatem quam dedisti mihi;</hi> quia et 
+   <lb ed="#PL"/> ipse dedit eam sibi : nec Patrem facit alienum ab 
+   <lb ed="#PL"/> opere suo, quamvis dixcrit, <hi rend="italic">dedi eis;</hi> quia et Pater 
+   <lb ed="#PL"/> illam dedit eis. Inseparabilia namque sunt opera non 
+   <lb ed="#PL"/> solum Patris et Filii, vcrum etiam Spiritus sancti. 
+   <lb ed="#PL"/> Sicut autem ex eo quod Patrem pro suis omnibus ro<lb ed="#PL" break="no"/>gavit, hoc fieri voluit, <hi rend="italic">Ut omnes unum sint:</hi> ita ex hoc 
+   <lb ed="#PL"/> etiam suo beneficio quod ait,
+    <hi rend="italic">Claritatem quam dedisti
+   <lb ed="#PL"/> mihi, dedi eis,</hi> id lieri nihilominus voluit; nam con<lb ed="#PL" break="no"/>tinuo
+   subjunxit, <hi rend="italic">Ut</hi> sint <hi rend="italic">unum, sicut et noa unum</hi>
+   
+       <lb ed="#PL"/> sumus.</p>
+      <p xml:id="iuy75t-d1e941-d1e670">4. Deinde addidit : <hi rend="italic">Ego</hi> in <hi rend="italic">eis, et tu in me,
+    ut</hi> sint 
+   <lb ed="#PL"/>
+       <hi rend="italic">consummati in unum.</hi> Ubi se mediatorem inter Deum 
+   <lb ed="#PL"/> et homines breviter intimavit. Neque enim hoc ila 
+   <lb ed="#PL"/> dictum est, tanquam Pater non sit in nobis, aut nos 
+   <lb ed="#PL"/> in Patre non simus; cum et alio loco dixerit , <hi rend="italic">Venie­
+    
+   <lb ed="#PL"/> mus ad eum, et mansionem apud eum faciemus (Joan.</hi>
+   
+       <lb ed="#PL"/> XIV, 23 ) : et hic paulo ante non dixerit, <hi rend="italic">Ego</hi> in eis 
+   <lb ed="#PL"/>
+       <hi rend="italic">et tu in me,</hi> quod dixit modo; aut, Ipsi in me et ego 
+   <lb ed="#PL"/> in te
+   ; sed, <hi rend="italic">Tu in me et ego in te, et ipsi</hi> in <hi rend="italic">nobis.</hi> Qnod 
+   <lb ed="#PL"/> ergo nunc ait, <hi rend="italic">Ego in eis et tu in me,</hi> ita dictum est 
+   <lb ed="#PL"/> ex persona Mediatoris , sicut illud quod Apostolus 
+   <lb ed="#PL"/> ait, <hi rend="italic">Vos Christi, Christus vero Dei</hi> ( I <hi rend="italic">Cor.</hi> III, 23 ). 
+   <lb ed="#PL"/> Quod vero addidit, <hi rend="italic">Ut sint consummati</hi> in <hi rend="italic">unum,</hi> os<lb ed="#PL" break="no"/>tendit
+   eo perduci reconciliationem , quae fit per Me<lb ed="#PL" break="no"/>diatorem, ut perfecta beatitudine, cui jam nihil pos<lb ed="#PL" break="no"/>sit
+   adjici, perfruamur. Unde id quod sequitur, <hi rend="italic">Ut
+   <lb ed="#PL"/> cognoscat mundus quia tu me
+    misisti,</hi> non sic accipicn<lb ed="#PL" break="no"/>dum
+   puto , tanquam iterum dixerit, <hi rend="italic">Ut credat</hi> mun - 
+   <lb ed="#PL"/> dus : aliquando enim et cognoscere pro eo quod est 
+   <lb ed="#PL"/> credere ponitur, ut est quod ait aliquanto superius, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Et cognoverunt vere quia a te exivi, et crediderunt quia 
+   <lb ed="#PL"/> tu me
+    misisti (Joan.</hi> XVII, 8). Hoc dixit posterius 
+   <lb ed="#PL"/>
+       <hi rend="italic">crediderunt,</hi> quod prius dixcrat <hi rend="italic">cognoverunt.</hi> Sed hic 
+   <lb ed="#PL"/> quandoquidem de consummatione loquitur, talis est
+   
+   <lb ed="#PL"/> intelligenda cognitio, qualis erit per speciem, non 
+   <lb ed="#PL"/> qualis nunc est per fidem. Nam videtur ordo esse 
+   <lb ed="#PL"/> servatus in eo quod paulo ante dixit, <hi rend="italic">Ut credat mun­
+   <lb ed="#PL"/> dus;</hi> hic autcm , <hi rend="italic">Ut cognoscat
+    mundus.</hi> Ibi enim 
+   <lb ed="#PL"/> quamvis dixerit , <hi rend="italic">Ut omnes unum
+    sint,</hi> et <hi rend="italic">in nobis</hi>
+   
+       <lb ed="#PL"/> unum <hi rend="italic">sint,</hi> non ait tamen , <hi rend="italic">Sint
+    consummati</hi> in <hi rend="italic">unum</hi> ; 
+   <lb ed="#PL"/> atque ita subnexuit, <hi rend="italic">Ut credat mundns quia tu me 
+   <lb ed="#PL"/> misisti:</hi> hic vcro, <hi rend="italic">Ut sint,</hi> inquit, <hi rend="italic">consummati in unum ;</hi>
+   
+       <lb ed="#PL"/> acdcindc non addidit, <hi rend="italic">Ut credat mundus.</hi> sed, <hi rend="italic">Ut 
+   <lb ed="#PL"/> cognoscat mundus quia tu me misisti.</hi> Quamdiu enim 
+   <lb ed="#PL"/> credimus quod non videmus, nondum sumus ita con. 
+   <lb ed="#PL"/> summati, quemadmodum erimus CUrII meruerimus 
+   <lb ed="#PL"/> videre quod credimus. Rectissime igitur ibi, <hi rend="italic">Ut cre­
+    
+   <lb ed="#PL"/> dat mundus</hi> ; hic, <hi rend="italic">Ut cognoscat mundus</hi> : tamen et iui 
+   <pb ed="#PL" n="1923"/>
+       <lb ed="#PL"/> et hie , quia In me misisti; ut noverimus quantum 
+   <lb ed="#PL"/> pertinet ad Patris tt Filii inseparabilem charitatem , 
+   <lb ed="#PL"/> hoc nos modo credere quod tendimus credendo co<lb ed="#PL" break="no"/>gnoscere. Si autem diceret, Ut cognoscant quia tante 
+   <lb ed="#PL"/> litisisti: tantumdem taleret quantum hoc quod :fit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ut , cognoscat</hi> mundus. Ipsi sunt enim mundus, non 
+   <lb ed="#PL"/> permanens inimicus , qualis est mundus damnationi 
+   <lb ed="#PL"/> praedestinatus ; ded et inimieo amicus effectus, prop<lb ed="#PL" break="no"/>ter
+   quem <hi rend="italic">Deus erat In Christo</hi> mundum <hi rend="italic">reconcilians 
+   <lb ed="#PL"/>
+    
+        <lb ed="#PL"/> sibi.</hi> Ideo dixit, <hi rend="italic">Ego</hi> in <hi rend="italic">eis,et</hi> tu in me i tanquam dice<lb ed="#PL" break="no"/>ret, Ego in eis ad quos misisti me; et tU iit me , mun<lb ed="#PL" break="no"/>dum
+   reconcilians tibi per me.</p>
+      <p xml:id="iuy75t-d1e941-d1e899">5. Propterea scquitut' etiam illud quod hit , Et 
+   <lb ed="#PL"/>
+       <hi rend="italic">dilexisti eos sicut et me</hi> dilexisti. In Filio quippe nos 
+   <lb ed="#PL"/> Pater dihgit, quia in ipso nos elegit ante constitutio<lb ed="#PL" break="no"/>nem
+   mundi <hi rend="italic">(Ephes.</hi> I, 4). Qui enim diligit Unigeni<lb ed="#PL" break="no"/>tum, profecto diligit et membra ejus quae adoptavit 
+   <lb ed="#PL"/> in eum per eum. Nec idco pares sumus unigenito 
+   <lb ed="#PL"/> Filio per quem creati et recreati I sumus ; quia di<lb ed="#PL" break="no"/>ctum
+   est, <hi rend="italic">Dilexisti eob sicut et me.</hi> Neque 6nim sem<lb ed="#PL" break="no"/>per
+   aequalitatem significat, qui didit, SicnE illud, ita 
+   <lb ed="#PL"/>etillud : sed aliquando tantum, Quia est illud , est ei 
+   <lb ed="#PL"/> iliud; ant, Quia est illud , ut sit et illud. Quis ehim 
+   <lb ed="#PL"/> dixcrit eo prorsus modo in mundum a Christo Apo<lb ed="#PL" break="no"/>stolos
+   missos, quomodo est ipse missus a Patte? Ut 
+   <lb ed="#PL"/> enim alias taceam differentias, quas commemorare 
+   <lb ed="#PL"/> longum est, missi sunt certe Uti cum jam homines 
+   <lb ed="#PL"/> essent; missus est autem ipse ut homo esset : et ta<lb ed="#PL" break="no"/>men
+   superius ait, <hi rend="italic">Sicut me</hi> misisti <hi rend="italic">in mundum,</hi> et 
+   <lb ed="#PL"/>
+       <hi rend="italic">rgo</hi> misi <hi rend="italic">eos in mundum (Joan.</hi> intr, 48) ; tanquam 
+   <lb ed="#PL"/> diceret, Qnia misisti me, misi eos. Ita et hoc loco, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Dilexitii</hi> eos, inquit, <hi rend="italic">sicut me dilexisti;</hi> quod nihil 
+   <lb ed="#PL"/> nliud est quam, Dilexisti cos, quoniam et ine dile<lb ed="#PL" break="no"/>xisti. Non enim membra Filii non diligeret qui dili<lb ed="#PL" break="no"/>git
+   Filium ; aut alia causa est dilrgendi membra ejus , 
+   <lb ed="#PL"/> nisi quia diligit cum. Sed diligit Filium secundum 
+   <lb ed="#PL"/> divinitatcm, quia gcnuit ilium aequalem sib!; diligit 
+   <lb ed="#PL"/> eum etiam secundum id quod homo est, quia ipsum 
+   <lb ed="#PL"/> unigenitum Verbum caro factum est, et propter Ver<lb ed="#PL" break="no"/>hum
+   est ei chara Verbi caro : nos autem diligit, 
+   <lb ed="#PL"/> quoniain sumus ejus membra qucm diligit; et 
+   <lb ed="#PL"/> hoc ut essemus , propter hoc nos dilexit antequam 
+   <lb ed="#PL"/> essemus.</p>
+      <p xml:id="iuy75t-d1e941-d1e995">6. Quapropter incomprehensibilis est dilectio qua 
+   <lb ed="#PL"/> diligit Deus, neqnc mutabilis. Non enim ex quo ei 
+   <lb ed="#PL"/> reconcifiati sumus per sanguinem Filii ejus, nos coe<lb ed="#PL" break="no"/>pit
+   diligere; sed ante mundi constitutionem dilexit 
+   <lb ed="#PL"/> nos, ut cum ejus Unigenito etiam nos filii ejus esse<lb ed="#PL" break="no"/>mus, priusquam omnino aliquid cssemus. Quod ergo 
+   <lb ed="#PL"/> reconciliati sumus Deo per mortem Filii ejus, non 
+   <lb ed="#PL"/> sic audiatur, non sic accipiatur, quasi ideo nos recon<lb ed="#PL" break="no"/>ciliaveril
+   ei Filius, ut jam inciperet amare quos ode<lb ed="#PL" break="no"/>rat ; sicut reconciliatur inimicus inimico , ut deinde 
+   <lb ed="#PL"/> sint amici, et invicem diligant qui oderant invicem : 
+   <lb ed="#PL"/> sed jam nos diligenti reconciliati sumus ei , cum quo 
+   <lb ed="#PL"/> propter peccatum inimicitias habebamus. Quod utrum 
+   <lb ed="#PL"/> verum dicam, attestetur Apostolus : <hi rend="italic">Commendat ,</hi>
+   
+   
+       <lb ed="#PL"/> inquit, <hi rend="italic">dilectionem</hi> suam <hi rend="italic">Deus in nobis,
+    quoniam</hi> cum 
+   <lb ed="#PL"/>
+       <hi rend="italic">adhue peccatores essentus, Christus pto</hi> nobis <hi rend="italic">mortuus 
+   <lb ed="#PL"/> eat</hi> ( <hi rend="italic">Rom.</hi> v, 8, 9). Habebat itaque ille erga nos cha<lb ed="#PL" break="no"/>ritatem, etiam cum inimicitias adversum eum exer<lb ed="#PL" break="no"/>centes
+   operaremur iniquitatem : et tamen ei verissime 
+   <lb ed="#PL"/> dictum est, <hi rend="italic">Odisti,</hi> Domine, <hi rend="italic">omnes qui operantur ini­
+   <lb ed="#PL"/> quitatem</hi>
+   (Psal. V, 7 ). Proindre miro et divino mo<lb ed="#PL" break="no"/>do
+   et quando nos Oderat, diligebat : oderat cnim nos, 
+   <lb ed="#PL"/> quales ipse non fecerat ; et quia iniquitas nostra opus 
+   <lb ed="#PL"/> djus non omni ex patw consumpserat, noverat simul 
+   <lb ed="#PL"/> in unoquoque nostrum 6t odisse quod feceramus , 
+   <lb ed="#PL"/> et amare quod fecerat. Et boc quidem in omnibus 
+   <lb ed="#PL"/> intelligi potest de illo, cui veraciter dicitur, <hi rend="italic">Nihil 
+   <lb ed="#PL"/> odisti</hi> eorum
+    <hi rend="italic">quae fecisti</hi> ( Sap. XI, 25). Non enim 
+   <lb ed="#PL"/> quodcumque odisset esse voluisset, aut omnino esset 
+   <lb ed="#PL"/> quod omnipotens esse noluisset, nisi et in eo quod 
+   <lb ed="#PL"/> odit; esset etiam quod amaret. Merito quippe odit, et 
+   <lb ed="#PL"/> volut a regula suae ariis alienum improbat vitium : 
+   <lb ed="#PL"/> amat tamen suum etiam in vitiosis vel sanatione be<lb ed="#PL" break="no"/>neficium, vel damnatione judicium 1. ha Dcus, et ni<lb ed="#PL" break="no"/>hil
+   odH eorum quae fecit : naturarum enim, non vi<lb ed="#PL" break="no"/>tiorum
+   conditor, mala quae odit, ipse non fecit; et de 
+   <lb ed="#PL"/> malis eisdem vel sanando ea per misericordiam, vel 
+   <lb ed="#PL"/> ordinando per judicium, bona sunt ipsa quae facit. 
+   <lb ed="#PL"/> Cum igitur eofum quae fecit nihil oderit, quis digne 
+   <lb ed="#PL"/> possit eloqui , quantum diligat membra Unigeniti sui; 
+   <lb ed="#PL"/> et quanto amplius ipsum Unigenitum, in quo condita 
+   <lb ed="#PL"/> sunt omnia visibilia et Invisibilia, quae in suis gene<lb ed="#PL" break="no"/>ribus
+   ordinata ordinatissime diligit? Membra quippe 
+   <lb ed="#PL"/> Unigeniti ad Angelorum sanctorum aequalitatem gra<lb ed="#PL" break="no"/>tiae
+   suae largitatc perducit : Unigenitus autem cum sit 
+   <lb ed="#PL"/> Dominus omnium , procul dubio est Dominus Ange<lb ed="#PL" break="no"/>lorum , natura qua Deus est, non Angelis, sci Patri 
+   <lb ed="#PL"/> potius aequalis ; gratia vero qua homo est, quomodo 
+   <lb ed="#PL"/> non excedit excellentiam eujuslibet angeli, cum sit 
+   <lb ed="#PL"/> nna persona carnis et Verbi?</p>
+      <p xml:id="iuy75t-d1e941-d1e1135">7. Quanqnam non desint qui etiam nos Angelis 
+   <lb ed="#PL"/> praeferant ; quin pro nobis, inquiunt, non pro Angelis 
+   <lb ed="#PL"/> mortuus est Christus. Id quid est aliud , quam de im­
+   
+   <lb ed="#PL"/> pietate velle gloriari? Etenim <hi rend="italic">Christus,</hi> sicut ait 
+   <lb ed="#PL"/> Apostolus, juxta <hi rend="italic">tempus</hi> pro <hi rend="italic">impiis mortuus est
+    (Rom.</hi>
+   
+       <lb ed="#PL"/> v, 6 ). Hie ergo non meritum nostrum, sed Dei mise. 
+   <lb ed="#PL"/> ricordia commendatur. Nam quale est ideo se velle 
+   <lb ed="#PL"/> laudari, quia vitio suo tam detestabiliter aegrotavit,
+   
+   <lb ed="#PL"/> ut non posset aliter quam medici morte sanari? Non 
+   <lb ed="#PL"/> est haec nostrorum gloria meritorum, sed medicina 
+   <lb ed="#PL"/> morborum. An ideo nos praeferimus Angelis, quia 
+   <lb ed="#PL"/> eum et angeli peccaverint, nihil eis tile unde sana<lb ed="#PL" break="no"/>rentur
+   impensum est? Quasi aJiqnid eis vel parvum 
+   <lb ed="#PL"/> fuerit impensum, et nobis amplius. Quod si et hoc 
+   <lb ed="#PL"/> factum esset, adhuc quaeri posset utrum ideo fuisset 
+   <lb ed="#PL"/> factum , quod Steteramus excellentius, an quod de<lb ed="#PL" break="no"/>speratius
+   jacebamus. Cum vero noverimus bonorum 
+   <lb ed="#PL"/> omnium Creatorem reparandis angelis malis nihil 
+   <lb ed="#PL"/> gratiae contulisse, cur non potius intelligimus quod 
+   <lb ed="#PL"/> tanto damnabilior eorum judicata sit culpa, quanto 
+   <lb ed="#PL"/> erat natura sublimior? Tanto enim minus quam nos 
+   
+   <pb ed="#PL" n="1925"/>
+       <lb ed="#PL"/> peccare deburunt, quanto meliores nobis fuerunt. 
+   <lb ed="#PL"/> Nunce autem in offendendo Creatorem tanto essecra- 
+   <lb ed="#PL"/> Lilius beneficio ejus ingrati exstiterunt, quanto bene<lb ed="#PL" break="no"/>ficentius
+   sunt cresti ; nec eis satis fuit desertores es<lb ed="#PL" break="no"/>se
+   illius, nisi et nostri flerent deceptores. Hoc itaque 
+   <lb ed="#PL"/> nobis magnum bonum conferet, qui dilexit nos sicut 
+   <lb ed="#PL"/> dilexit Christum, tit propter ipsUm Cujus membra nos 
+   <lb ed="#PL"/> esse Voluit, aequales Angelis sanclis simus <hi rend="italic">(Luc.</hi> xx, 
+   <lb ed="#PL"/> 36 ), quibus et natuta inferiores conditi sumus, et 
+   <lb ed="#PL"/> peccato indigniores facti, qui eorum neri qualescum<lb ed="#PL" break="no"/>que
+   socii debctemus.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

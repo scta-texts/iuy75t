@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 119</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 119</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e1014"> <!-- iuy75t-t119 -->
+      <head xml:id="iuy75t-d1e1014-Hd1e109">Tractatus 119</head>
+      <p xml:id="iuy75t-d1e1014-d1e112">
+       <hi rend="italic">Ab eo quod sequitur,</hi> Et milites quidem haec fece<lb ed="#PL" break="no"/>runt;
+    <hi rend="italic">usque ad</hi> id, Et inclinato capite tradidit spi<lb ed="#PL" break="no"/>ritum. <hi rend="italic">Cap.</hi> xix, f . 24-30.</p>
+      <p xml:id="iuy75t-d1e1014-d1e128">i. Crucifixo Domino, posteaquam divisio vestimen<lb ed="#PL" break="no"/>torum
+   ejus etiam sorte missa completa est, quae 
+   <lb ed="#PL"/> deinde narret Joannes evangelista videamus. &lt; Et. 
+   <lb ed="#PL"/> milites quidem, inquit, « haec fecerunt. Stabant au<lb ed="#PL" break="no"/>tem
+   juxta crucem Jesu , mater ejus, et soror matris 
+   <lb ed="#PL"/> ejus Maria Cleophae, et Maria Magdalene. Cum vidis<lb ed="#PL" break="no"/>set
+   ergo Jesus matrem et discipulum stantem quem 
+   <lb ed="#PL"/> diligebat, dicit matri suae, Mulier, ecce filius tuus: 
+   <lb ed="#PL"/> deinde dicit discipulo, Ecce mater tua. Et ex illa hora
+   
+   <lb ed="#PL"/> accepit eam discipulus in sua. &gt; Haec nimirum est illa 
+   <lb ed="#PL"/> hora de qua Jesus aquam conversurus in vinum, 
+   <lb ed="#PL"/> dixerat matri, <hi rend="italic">Quid</hi> mihi <hi rend="italic">et tibi est,</hi> mulier? <hi rend="italic">non­
+   <lb ed="#PL"/> dum venit hora mea
+    (Joan.</hi> II, 4). Hanc itaque horam 
+   <lb ed="#PL"/> praedixerat quae tunc nondum venerat, in qua debe<lb ed="#PL" break="no"/>ret
+   agnoscere moriturus, de qua fuerat mortaliter 
+   <lb ed="#PL"/> natus. Tunc ergo divina facturus, non divinitatis, sed 
+   <lb ed="#PL"/> infirmitatis matrem velut incognitam repellebat: nunc 
+   <lb ed="#PL"/> autem humana jam patiens, ex qua fuerat factus 
+   <lb ed="#PL"/> homo, affectu commendabat humano. Tunc enim qui 
+   <lb ed="#PL"/> Mariam creaverat, innotescebat virtute : nunc vcro 
+   <lb ed="#PL"/> quod Maria pepererat, pendubat in cruce (a).</p>
+      <p xml:id="iuy75t-d1e1014-d1e183">i. Moralis igitur insinnatur locus. Facit quod fa<lb ed="#PL" break="no"/>ciendum
+   admonet, et exemplo suo suos instruxit 
+   <lb ed="#PL"/> praeceptor bonus, ut a filiis piis impendatur cura pa<lb ed="#PL" break="no"/>rentibus
+   : tanquam lignum illud ubi erant fixa mem<lb ed="#PL" break="no"/>bra
+   morientis, etiam cathedra fuerit magistri docen<lb ed="#PL" break="no"/>tis. Ex hac sana doctrina didicerat Paulus apostolus 
+   
+   <pb ed="#PL" n="1951"/>
+       <lb ed="#PL"/> quod docebat, quando dicebat: Si quis <hi rend="italic">autem</hi> suis ,
+    <hi rend="italic">et
+   <lb ed="#PL"/> maxime domesticis non providet, fidem negavit, et eat</hi> infi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">deli deterior</hi>(1 <hi rend="italic">Tim.</hi> v, 8). Quid autem tamcuique dome<lb ed="#PL" break="no"/>sticum
+   quam parentes filiis, aut parentibus filii? Hujus 
+   <lb ed="#PL"/> itaque saluberrimi praeceptiipse magister sanctorum de 
+   <lb ed="#PL"/> seipso constiLuebat exemplum, quando non ut famulae 
+   <lb ed="#PL"/> Deus quam creaverat et regebat, sed ut matri hamo
+   
+   <lb ed="#PL"/> de qua creatus ruerat et qnam relinquebai, alterum 
+   <lb ed="#PL"/> pro se quodammodo filium providebat. Nam cur hoc 
+   <lb ed="#PL"/> fecerit, quod sequitur indicat: ait enim Evangelista, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Et ex illa hora accepit eam discipulus in IUn,</hi> de seipso 
+   <lb ed="#PL"/> dicens. Sic quippe commemorare se solet, quod eum 
+   <lb ed="#PL"/> diligebat Jesus : qui utique omnes, sed ipsum prae 
+   <lb ed="#PL"/> caeteris et familiarius diligebat, ita ut in conviviA 
+   <lb ed="#PL"/> super pectus suum discumbere faceret <hi rend="italic">(Joan.</hi> XIII, 
+   <lb ed="#PL"/> 23) ; credo ut istius Evangelii, quod per eum fuerat 
+   <lb ed="#PL"/> praedicaturus, divinam excellentiam hoc modo altius 
+   <lb ed="#PL"/> commendaret.</p>
+      <p xml:id="iuy75t-d1e1014-d1e257">3. Sed in quoe sua Joannes matrem Domini acce<lb ed="#PL" break="no"/>pit? Neque enim non ex eis erat qui dixerunt ei, <hi rend="italic">Ecce 
+   <lb ed="#PL"/> nos dimisimus omnia, et secuti</hi> sumus
+    <hi rend="italic">te.</hi> Sed ibi quo<lb ed="#PL" break="no"/>que
+   audierat, Quicumque ista dimiserit propter me, 
+   <lb ed="#PL"/> accipiet in hoc saeculo centics tantum <hi rend="italic">(Matth.</hi> xix, 27, 
+   <lb ed="#PL"/> 29). Habebat ergo ille discipulus centupliciter plura 
+   <lb ed="#PL"/> quam dimiserat, in quae susciperet ejus matrem qui 
+   <lb ed="#PL"/> illa donaverat. Sed in ca societate beatus Joannes 
+   <lb ed="#PL"/> receperat centuplum, ubi nemo dicebat aliquid suum, 
+   <lb ed="#PL"/> sed erant illis omnia communia; sicut in Apostolo<lb ed="#PL" break="no"/>rum
+   Actibus scriptum est. Sic enim Apostoli crant, 
+   <lb ed="#PL"/> quasi nihil habentes, et omnia possidentes (II <hi rend="italic">Cor.</hi> VI, 
+   <lb ed="#PL"/> 10). Quomodo ergo matrem magistri et Domini sui 
+   <lb ed="#PL"/> x discipulus et famulus accepit in sua, ubi aliquid suam 
+   <lb ed="#PL"/> nemo dicebat? An quia paulo post in eodem libro 
+   <lb ed="#PL"/> legitur, <hi rend="italic">Quotquot enim possessores
+    prcediorum vel do<lb ed="#PL" break="no"/>morum
+   erant, vendentes afferebant pretia eorum, et</hi> po­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">nebant ad pede. Apostolorum: distribuebatur autem uni<lb ed="#PL" break="no"/>cuique
+    prout opus erat (Act.</hi> iv, 32-35), intelligendum 
+   <lb ed="#PL"/> est sic distributum fuisse huic discipulo quod opus 
+   <lb ed="#PL"/> crat, ut illic etiam beatae Mariae tanquam matris ejus
+   
+   <lb ed="#PL"/> portio poneretur; magisque sic debemus accipere 
+   <lb ed="#PL"/> quod dictum est, Ex <hi rend="italic">illa hora suscepit eam discipulus</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">sua,</hi> ut ad ejus curam quidquid ei esset necessarium
+   
+   <lb ed="#PL"/> pertineret? Suscepit ergo eam in sua, non praedia, 
+   <lb ed="#PL"/> quae nulla propria possidebat; sed officia, quae propria 
+   <lb ed="#PL"/> dispensatione exsequenda curabat.</p>
+      <p xml:id="iuy75t-d1e1014-d1e341">4. Deinde subjungit : i Postea sciens Jesus quia 
+   <lb ed="#PL"/> omnia consummata sunt, ut consummaretur Scriptura, 
+   <lb ed="#PL"/> dicit : Sitio. Vas ergo positum erat aceto plenum; 
+   <lb ed="#PL"/> illi autem spongiam plenam aceto hyssopo circumpo<lb ed="#PL" break="no"/>nentes, obtulerunt ori ejus. Cum ergo accepisset Jesus 
+   <lb ed="#PL"/> acetum, dixit : Consummatum est. Et inclinato ca<lb ed="#PL" break="no"/>pite,
+   tradidit spiritum. » Quis potest quae facit , ita 
+   <lb ed="#PL"/> disponere, quomodo disposuit homo iste quae passus 
+   <lb ed="#PL"/> est ? Sed homo mediator Dei et hominum ; homo de
+   
+   <lb ed="#PL"/> quo praedictum legitur, Et homo est, et quis agnoscet 
+   <lb ed="#PL"/> cum? quoniam homines per quos haec fiebant, non 
+   <lb ed="#PL"/> agnoscebant hominem Deum. Homo namque appare<lb ed="#PL" break="no"/>bat
+   qui Deus latebat; patiebatur haec omnia qui appa<lb ed="#PL" break="no"/>rebat, et idem ipse disponebat hxcoinnia qui latebat. 
+   <lb ed="#PL"/> Vidit ergo quia consummata sunt omnia quae oporte<lb ed="#PL" break="no"/>bat
+   ut fierent autequam acciperet acetum et traderet 
+   <lb ed="#PL"/> spirilum ; atque ut hoc etiam consummaretur quod 
+   <lb ed="#PL"/> Scriptura praedixerat, <hi rend="italic">Et in siti mea
+    potaverunt</hi> me 
+   <lb ed="#PL"/>
+       <hi rend="italic">aceto (Psal.</hi> LXVIII 22) , <hi rend="italic">Sitio,</hi> Inquit: tanquam di<lb ed="#PL" break="no"/>cerel, Hoc minus fecistis, date quod estis. Judaei 
+   <lb ed="#PL"/> qnippe ipsi crant acetum , degenerantes a vino Pa<lb ed="#PL" break="no"/>triarcharum
+   et Prophetarum; et tanquam de pleno 
+   <lb ed="#PL"/> vase, de iniquitate mundi hujus impleti, cor haben<lb ed="#PL" break="no"/>tes
+   velut spongiam, cavernosis quodammodo atque 
+   <lb ed="#PL"/> tortuosis latibulis fraudulentum. Hyssopum autem cui 
+   <lb ed="#PL"/> circumposuerunt spongiam aceto plenam, quoniam 
+   <lb ed="#PL"/> herba est humilis, et pectus purgat, ipsius Christi 
+   <lb ed="#PL"/> humilitatem congruenter accipimus : quam circumde<lb ed="#PL" break="no"/>derunt, et se circumvenisse putaverunt. Unde est 
+   <lb ed="#PL"/> illud in psalmo, Asperget <hi rend="italic">me hyssopo, et mundabor</hi>
+   
+       <lb ed="#PL"/> (<hi rend="italic">Psal.</hi> L, 9). Christ: namque humilitate mundamur ; 
+   <lb ed="#PL"/> quia nisi hUmiliasset semetipsum, factus obediens 
+   <lb ed="#PL"/> usque ad mortem crucis <hi rend="italic">(Philipp.</hi> II, 8). non utique 
+   <lb ed="#PL"/> sanguis ejus in peccatorum remissionem , hoc est in 
+   <lb ed="#PL"/> nostram mundationem fuisset effusus. '</p>
+      <p xml:id="iuy75t-d1e1014-d1e436">5. Nec moveat quomodo spongia ori ejus potuerit 
+   <lb ed="#PL"/> admoveri, qui in cruce fuerat exaltatus a terra. Sicut 
+   <lb ed="#PL"/> enim apud alios evangelistas legitur, quod hic prae­
+   
+   <lb ed="#PL"/> termisit, in arundine est factum (Matth. XXVII,48,et Marc. 
+   <lb ed="#PL"/> xv, 36), ut in spongia talis potus ad crucis sublimia te<lb ed="#PL" break="no"/>varetur. Per arundinem vero Scriptura significabatur 
+   <lb ed="#PL"/> quae implebatur hoc facto. Sicut enim lingua dicitur vel 
+   <lb ed="#PL"/> graeca vel latina, vel alia quaelibet sonum significans, 
+   <lb ed="#PL"/> qui lingua promitur; sic arundo dici potest littera, 
+   <lb ed="#PL"/> quae arundine scribitur. Sed sonos significantes vocis 
+   <lb ed="#PL"/> humanae usitatissime dicimus linguas : Scripturam 
+   <lb ed="#PL"/> vero arundinem dici, quo minus est usitatum, eo ma<lb ed="#PL" break="no"/>gis
+   est mystice figuratum. Faciebat ista populus im<lb ed="#PL" break="no"/>pius,
+   patiebatur ista misericors Christus. Qui facie<lb ed="#PL" break="no"/>,quid faceret nesciebat : qui patiebatur autem , 
+   <lb ed="#PL"/> non solum quid fieret et cur fieret sciebat, verum 
+   <lb ed="#PL"/> etiam de male facientibus bene ipse faciebat.</p>
+      <p xml:id="iuy75t-d1e1014-d1e473">6. <hi rend="italic">Cum ergo accepisset Jesus acetum, dixit: Consum<lb ed="#PL" break="no"/>matum
+    est.</hi> Quid, nisi quod prophetia tanto ante prae<lb ed="#PL" break="no"/>dixerat ? Deinde quia nihil remanserat quod antequam 
+   <lb ed="#PL"/> moreretur fieri adhuc oporteret, tanquam ille qui po­
+   
+   <lb ed="#PL"/> testatem habebat ponendi animam suam, et iterum 
+   <lb ed="#PL"/> sumendi eam <hi rend="italic">(Joan.</hi> x, 18), peractis omnibus quae ut 
+   <lb ed="#PL"/> peragerentur exspectabat, <hi rend="italic">Inclinato capite tradidit
+   <lb ed="#PL"/> tpiritum.</hi> Quis ita dormit quando voluerit, sicut Jesus 
+   <lb ed="#PL"/> mortuus est quando voluit ? Quis ita vestem ponit 
+   <lb ed="#PL"/> quando voluerit, sicut se carne exuit quando voluit 1 
+   <lb ed="#PL"/> Quis ita cum volucrit abit, quomodo cum voluit obiit ? 
+   <lb ed="#PL"/> Quanta speranda vel timenda potestas est judicantis, 
+   <lb ed="#PL"/> si apparuit tanta morientis ?</p>
+    </div>
+   </body>
+  </text>
+</TEI>

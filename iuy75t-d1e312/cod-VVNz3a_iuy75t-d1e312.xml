@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 33</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 33</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e312"> <!-- iuy75t-t33 -->
+      <head xml:id="iuy75t-d1e312-Hd1e109">Tractatus 33</head>
+      <p xml:id="iuy75t-d1e312-d1e112">
+       <hi rend="italic">Ab eo loco Evangelii,</hi> Ex illa ergo turba cum audissent 
+   <lb ed="#PL"/> las sermones ejus, <hi rend="italic">etc., usque ad id,</hi> Nec ego te 
+   <lb ed="#PL"/> condemnabo ; vade, et amplius noli peccare. <hi rend="italic">Cap.</hi>
+   
+       <lb ed="#PL"/> VII, f . 40-53, et cap. VIII, j . 1-11.</p>
+      <p xml:id="iuy75t-d1e312-d1e131">4. Meminit Charitas vestra, sermonc pristino ex 
+   <lb ed="#PL"/> occasione lectiOnis evangelicae locutos nos esse vobis 
+   <lb ed="#PL"/> dc Spiritu sancto. Ad hunc potandum cum Dominus 
+   <lb ed="#PL"/> invilasseL credentes in se, loquens inter eos qui illum 
+   <lb ed="#PL"/> tenere cogitabant, et
+   'nterficerc cupiebant nec vale<lb ed="#PL" break="no"/>bant, quia ille nolcbat : cum ergo haec locutus esset, 
+   <lb ed="#PL"/> nata est de illo in turba dissensio, aliis putantibus 
+   <lb ed="#PL"/> quod ipse esset Christus, aliis dicentibus quia de Ga. 
+   <lb ed="#PL"/> lilaea non exsurget Christus. Qui vero missi fuerant, 
+   <lb ed="#PL"/> ut eum tenerent, redicrunt immunes a crimine, et 
+   <lb ed="#PL"/> pleni admiratione. Nam et testimonium perhibuerunt 
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> divinae doctrinae ejus, cum dicerent a quibus missi 
+   <lb ed="#PL"/> fuerant, <hi rend="italic">Quare non adduxistis eum?</hi> Responderunt 
+   <lb ed="#PL"/> en m nunquam se audisse hominem sic locutum : 
+   <lb ed="#PL"/>
+       <hi rend="italic">Non enim quisquam sic loquitur homo.</hi> Ille autem sic 
+   <lb ed="#PL"/> . locutus est, quia Deus erat et homo. Tamen Pharisai 
+   <lb ed="#PL"/> testimonium eorum repellentes, dixerunt eis : Num<lb ed="#PL" break="no"/>quid <hi rend="italic">et vos seducti ectis?</hi> Videmus enim delectatos vos 
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> esse sermonibus illius. <hi rend="italic">Numquid aliquis de</hi> principibus 
+   <lb ed="#PL"/>
+       <hi rend="italic">credidit in tU,,,, aut ex Pharisaeis?</hi> Sed <hi rend="italic">turba
+    haec quas</hi>
+   
+       <lb ed="#PL"/> non <hi rend="italic">novit Legem, maledicti</hi> sunt. Qui non noverant Le<lb ed="#PL" break="no"/>gem,
+   ipsi credebant in eum qui miserat Legem : et 
+   <lb ed="#PL"/> eum qui miserat Legem, contemnebant illi qui doce<lb ed="#PL" break="no"/>bant
+   Legem : ut implerctur quod dixerat ipse Domi­
+   
+   <lb ed="#PL"/> nus, <hi rend="italic">Ego veni</hi> ut <hi rend="italic">non videntes videant, et
+    videntes caeci
+   <lb ed="#PL"/> fiant (Joan.</hi> ix, 39). Caeci enim facti sunt Pharisaei 
+   <lb ed="#PL"/> doctores, illuminati sunt populi nescientes Legem, et 
+   <lb ed="#PL"/> in auctorem Legis credentes.</p>
+      <p xml:id="iuy75t-d1e312-d1e225">i. <hi rend="italic">Nicodemus</hi> tamen <hi rend="italic">unus ex Pharisaeis, qui ad
+    Do</hi>
+       <lb ed="#PL" break="no"/>minum <hi rend="italic">nocte venerat,</hi> et ipse non quidem incredulus, 
+   <lb ed="#PL"/> sed timidus; nam ideo nocte venerat ad lucem, quia 
+   <lb ed="#PL"/> illuminari volebat, et sciri timebat: respondit Judais 
+   <lb ed="#PL"/>
+       <hi rend="italic">Numquid Lex nostra judicat hominem,</hi> nisi <hi rend="italic">audierit ab</hi>
+   
+       <lb ed="#PL"/> ipso <hi rend="italic">priusetcognoverit</hi> quid <hi rend="italic">faciat?</hi> Volebant Enim 
+   <lb ed="#PL"/> illi perverse ante esse damnatores quam cognitores.
+   
+   <lb ed="#PL"/> Sciebat cnim Nicodemus, vel potius credebat, quia si 
+   <lb ed="#PL"/> tantummodo eum vellent patienter audire, forte si<lb ed="#PL" break="no"/>miles
+   fierent illis qui missi sunt tenere,etmaluerunt 
+   <lb ed="#PL"/> credere. <hi rend="italic">llli</hi> responderunt, ex praejudicio cordis sui, 
+   <lb ed="#PL"/> quod et illis : <hi rend="italic">Numquid et tu Galilaeus es?</hi> Id est, quasi 
+   <lb ed="#PL"/> a Galilaeo seductus. Dominus enim Galilaeus diccba<lb ed="#PL" break="no"/>tur, quoniam de Nazareth civitate orant parentes ejus. 
+   <lb ed="#PL"/> Secundum Mariam dixi parentes, non secundum vi<lb ed="#PL" break="no"/>rile
+   semen : non enim quaesivit in terra nisi matrem, 
+   <lb ed="#PL"/> qui jam habebat desuper Patrem. Nam utraque ejus 
+   <lb ed="#PL"/> nativilas mirabilis fuit; divina sine matre, humana 
+   <lb ed="#PL"/> sine patre. Quid ergo illi quasi Legis doctorcs ad Ni<lb ed="#PL" break="no"/>eudemum
+   dixerunt ? <hi rend="italic">Scrutare Scripturas, et vide quia 
+   <lb ed="#PL"/> propheta a Galilaea
+    non surgit.</hi> Sed Dominus Prophe<lb ed="#PL" break="no"/>tarum
+   inde surrexit. <hi rend="italic">Reversi sunt,</hi> inquit Evangelista, 
+   <lb ed="#PL"/>
+       <hi rend="italic">unusquisque</hi> in <hi rend="italic">domum suam.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e312-d1e317">3. <hi rend="italic">Inde Jesus perrexit in montem</hi> : in montem au- 
+   <lb ed="#PL"/> t m <hi rend="italic">Oliveli,</hi> in montem fructuosum, in montem un<lb ed="#PL" break="no"/>guenti, in montem chrismatis. Ubi enim decebat do<lb ed="#PL" break="no"/>cere
+   Christum, nisi in monte Oliveti ? Christi euim I 
+   <lb ed="#PL"/> nomen a chrismale dictum est : <foreign xml:lang="grc">χρίσμα</foreign> autem graece, 
+   <lb ed="#PL"/> latine unctio nuncupatur. Ideo autem nos unxit, quia 
+   <lb ed="#PL"/> luctatores contra diabolum fecit. <hi rend="italic">Et diluculo iterum 
+   <lb ed="#PL"/>
+    venit</hi> in <hi rend="italic">templum, et</hi> omnis <hi rend="italic">populus venit
+    ad eum, et 
+   <lb ed="#PL"/> sedens docebat eoa.</hi> Et noa tenebatur, quia nondum 
+   <lb ed="#PL"/> pati dignabatur.</p>
+      <p xml:id="iuy75t-d1e312-d1e358">4. Nunc jam auendite, ubi ab inimicis tentata sit 
+   <lb ed="#PL"/> Domini mansuetudo. &lt; Adducunt autem illi Scribx et 
+   <lb ed="#PL"/> Pharisaei mulierem in adulterio deprehensam, et sta­
+   
+   <lb ed="#PL"/> tuerunt eam in medio; et dixerunt ei : Magister, haec 
+   <lb ed="#PL"/> mulier modo deprehensa est in adulterio. In Lege 
+   <lb ed="#PL"/> autem Moyses mandavit nobis hujusmodi lapidare : 
+   <lb ed="#PL"/> tu ergo quid dicis ? Haec autem dicebant tentantes 
+   <lb ed="#PL"/> eum, ut possent accusare eum. * Unde accusare? Num<lb ed="#PL" break="no"/>quid
+   ipsum in aliquo facinore deprehenderant, aut 
+   <lb ed="#PL"/> illa mulier ad eum aliquo modo pertinuisse diceba<lb ed="#PL" break="no"/>tur? Qnid est ergo, <hi rend="italic">tentantes eum,</hi> ut <hi rend="italic">possent accusare
+   <lb ed="#PL"/> eum?</hi> Intelligimus, fratres, admirabilem mansuelu<lb ed="#PL" break="no"/>dinem
+   in Domino praeeminuisse. Animadverterunt 
+   <lb ed="#PL"/> eum nimium esse mitem, nimium esse mansuetnm : 
+   <lb ed="#PL"/> de illo quippe fuerat ante praedictum, <hi rend="italic">Accingere gladio 
+   <lb ed="#PL"/> tuo circa</hi> femur <hi rend="italic">tuum, potentissime; specie</hi> tua <hi rend="italic">et pul­
+    
+   <lb ed="#PL"/> chritudine tua intende, prospere procede, et regna :</hi> I 
+   <lb ed="#PL"/>
+       <hi rend="italic">propter veritatem et mansuetudinem et justitiam. (Psal.</hi> Į 
+   <lb ed="#PL"/> XLIV, 4 et 5). Ergo attulit vcritatem ut doctor, mansue­ 
+   <pb ed="#PL" n="1649"/>
+       <lb ed="#PL"/> tudinem ut liberator, justitiam ut cognilor. Propter 
+   <lb ed="#PL"/> haec cun. esse regnaturum in Spiritu sancto propheta 
+   <lb ed="#PL"/> praedixerat <hi rend="italic">(Isai.</hi> XI). Cum loqueretur, vcritas agno- . 
+   <lb ed="#PL"/> scebatur : cum adversus inimicos non moveretur, 
+   <lb ed="#PL"/> mansuetudo laudabatur. Cum ergo de duobus istis, id 
+   <lb ed="#PL"/> est de veritate et mansuetudine cjus, inimici livore 
+   <lb ed="#PL"/>etinvidia torquerentur; in tertio, it! est justitia, 
+   <lb ed="#PL"/> scandalum posuerunt. Quare? Quia Lex jusserat 
+   <lb ed="#PL"/> adulteros lapidari; et ulique Lex quod injustum erat 
+   <lb ed="#PL"/> jubere non poterat : si quis aliud diceret qnam Lex 
+   <lb ed="#PL"/> jusserat, injustus deprehenderetur. Dixerunt ergo 
+   <lb ed="#PL"/> apud semetipsos: Verax putatur, mansuetus videtur; 
+   <lb ed="#PL"/> de justitia illi quaerenda calumnia est. Offeramus ei 
+   <lb ed="#PL"/> mulierem in adulterio deprehensam, dicamus quid de 
+   <lb ed="#PL"/> i illa in Lcge praeceptum sit: si eam jusserit lapidari, 
+   <lb ed="#PL"/> mansuetudinem non habebit; si cam dimitti censue<lb ed="#PL" break="no"/>f
+   rit, justitiam non tenebit. Ut autem mansuetudinem, 
+   <lb ed="#PL"/> inquiunt, non perdat, in qnn jam populis amabilis 
+   <lb ed="#PL"/> factus est, sine dubio eam dimitti dcbere dicturus est. 
+   <lb ed="#PL"/> Hinc nos invenimus accusandi occasionem, et reum
+   
+   <lb ed="#PL"/> facimus tanquam Lcgis praevaricatorem : dicentes ei, 
+   <lb ed="#PL"/> Hostis es Legis, contra Moysen respondes, imo con<lb ed="#PL" break="no"/>tra
+   eum qui per Moysen Legem dedit; reus es mortis,
+   
+   <lb ed="#PL"/> cum illa et tu ipse lapidandus. Posset his verbis 
+   <lb ed="#PL"/> atquo his sententiis inflammari invidia, fervere accu<lb ed="#PL" break="no"/>satio, flagitari damnatio. Sed cui hoc? Perversitas re<lb ed="#PL" break="no"/>ctitudini, falsitas vcritati, corruptum cor cordi recto, 
+   <lb ed="#PL"/> stultitia sapientiae. Quando illi laqueos praepararent, 
+   <lb ed="#PL"/> in quos non prins ipsi caput injicerent? Ecce Dominus 
+   <lb ed="#PL"/> in respondendo et justitiam servaturus cst, et aman­
+   
+   <lb ed="#PL"/> suetudine non recessurus. Non est captus cui tende<lb ed="#PL" break="no"/>batur, sed potius capti sunt qui tendebant; quia 
+   <lb ed="#PL"/> :n eum qui cos posset de laqueis eruere, non crede<lb ed="#PL" break="no"/>bant.
+   </p>
+      <p xml:id="iuy75t-d1e312-d1e497">5. Quid ergo respondit Dominus Jesus ? quid re<lb ed="#PL" break="no"/>spondit
+   veritas? quid respondit sapientia? quid re<lb ed="#PL" break="no"/>spondit
+   ipsa cui calumnia parabatur justitia ? Non di<lb ed="#PL" break="no"/>xit,
+   Non lapidetur; ne contra Legem dicere videre<lb ed="#PL" break="no"/>tur. Absit antem ut diceret, Lapidetur: venit enim uon 
+   <lb ed="#PL"/> perdere quod invenerat, sed quaerere quod pcr erat 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Luc. XIX,</hi> 10). Quid ergo respondit ? Videte quam 
+   <lb ed="#PL"/> plenum sit justitia, plenum mansuetudine et verita<lb ed="#PL" break="no"/>te ! <hi rend="italic">Qui sine</hi> peccato <hi rend="italic">est vestrum,</hi> inquit, prior <hi rend="italic">in
+    illam
+   <lb ed="#PL"/> lapidem mittat.</hi> 0 responsio sapientiae! Quomrdo eos 
+   <lb ed="#PL"/> intromisit in se? Foris enim calumniabantur, seipsos 
+   <lb ed="#PL"/> intrinsecus non perscrutabantur : adulteram videbant, 
+   <lb ed="#PL"/> se non perspiciebant. Praevaricatores Legis Legem im. 
+   <lb ed="#PL"/> pleri cupiebant, et hoc calumniando ; non vere, lan<lb ed="#PL" break="no"/>quam
+   adulteria castitate damnando. Audistis, Judaei; 
+   <lb ed="#PL"/> audistis, Pharisaei; audistis, Legis doctores, Legis 
+   <lb ed="#PL"/> custodem, sed nondum intellexistis Legislatorem. 
+   <lb ed="#PL"/> Quid vobis aliud significat, cvm digito scribit in terra? 
+   <lb ed="#PL"/> Digito enim Dei Lex scripta est ; sed propter duros 
+   <lb ed="#PL"/> in lapide scripta est ( <hi rend="italic">Exod.</hi> xxxi, 18 ). Nunc jam Do<lb ed="#PL" break="no"/>mimis
+   in terra scribebat, quia fructum quaerebat. An<lb ed="#PL" break="no"/>distis
+   ergo, Impleatur Lex, lapidetur adultera : sed 
+   <lb ed="#PL"/> numquid in illa punienda, Lex implenda est a punien­
+   
+   <lb ed="#PL"/> dis ? Consideret se unusquisque vestrum, intret in se<lb ed="#PL" break="no"/>metipsum, ascendat tribunal mentis suae, constituat 
+   <lb ed="#PL"/> se ante conscientiam suam cogat se coniiteri. Scit 
+   <lb ed="#PL"/> enim qui sit : quia nemo scit hominum quae sunt 
+   <lb ed="#PL"/> hominis, nisi spiritus hominis, qui in ipsoest ( I <hi rend="italic">Cor.</hi>
+   
+       <lb ed="#PL"/> II, 41). Unusquisque in se intendens, peccatorem se 
+   <lb ed="#PL"/> invenit. Ita plane. Ergo ant istam dimittite, ant si<lb ed="#PL" break="no"/>mut
+   cnm illa poenam Legis excipite. Si diceret, Non
+   
+   <lb ed="#PL"/> lapidetur adultera; injustus convinceretur : si diceret, 
+   <lb ed="#PL"/> Lapidetur; mansuetus non videretur : dicat quod di<lb ed="#PL" break="no"/>cere
+   debet, et mansuetus et justus, Qni
+    <hi rend="italic">sine</hi> peccato 
+   <lb ed="#PL"/>
+       <hi rend="italic">est vestrum, prior</hi> in <hi rend="italic">illam lapidem
+    mittat.</hi> Haec vox ju<lb ed="#PL" break="no"/>stitiae
+   est: Punintur peccatrix, sed non a peccatori­
+   
+   <lb ed="#PL"/> bus; impleatur Lex, sed non a praevaricatoribus Le<lb ed="#PL" break="no"/>gis. Haec vox omnino justitiae est : qua justitia illi tan<lb ed="#PL" break="no"/>quam
+   trabali telo percussi, sese inspicientes et rem 
+   <lb ed="#PL"/> invenientes, unus <hi rend="italic">post unum omnes
+    recesserunt.</hi> Relicti f 
+   <lb ed="#PL"/> sunt dno, misera et misericordia. Dominus autem ^
+   
+   <lb ed="#PL"/> cum cos illo telo justitiae percussisset, nec dignatus 
+   <lb ed="#PL"/> est cadentes attendere, sed averso ab eis obtutu, rur<lb ed="#PL" break="no"/>sum <hi rend="italic">digito scribebat
+    in terra.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e312-d1e627">G. Relicta autcm sola illa muliere, omnibusque 
+   <lb ed="#PL"/> abeuntibus, levavit oculos suosad mulierem. Audivi<lb ed="#PL" break="no"/>mus
+   vocem justitiae, audiamus et mansuetudinis. Plus 
+   <lb ed="#PL"/> enim, credo, territa erat illa mulier cum audisset a 
+   <lb ed="#PL"/> Domino dictum, <hi rend="italic">Qui</hi> sine <hi rend="italic">peccato est vestrum, prior</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">illam lapidem mittat.</hi> Illi ergo attendentes se. et abs<lb ed="#PL" break="no"/>cessu
+   ipso confessi de se, reliquerant mulierem cum 
+   <lb ed="#PL"/> grandi peccato, ei qui erat sine peccato. Et quia illa 
+   <lb ed="#PL"/> hoc audierat, <hi rend="italic">Qui sine peccato
+    est,</hi> prior in iliam <hi rend="italic">lapi­
+   <lb ed="#PL"/> dem mittat;</hi> ab illo se sperabat puniendam, in quo 
+   <lb ed="#PL"/> peccatum inveniri non poterat. Illo autem qui advor­
+   
+   <lb ed="#PL"/> sanos ejus repulerat lingua justitic, levans in eam 
+   <lb ed="#PL"/> oculos mansuetudinis, interrogavit eam : <hi rend="italic">Nemo</hi> te 
+   <lb ed="#PL"/>
+       <hi rend="italic">condemnavit</hi> ? Respondit illa : <hi rend="italic">Domine,
+    nemo.</hi> Et ille : 
+   <lb ed="#PL"/>
+       <hi rend="italic">Nec ego te condemnabo;</hi> a quo te forte damnari timui<lb ed="#PL" break="no"/>sti, quia in me peccatum non invenisti. <hi rend="italic">Nec ego te 
+   <lb ed="#PL"/> damnabo.</hi> Quid est, Domine ? Faves ergo peccatis ? 
+   <lb ed="#PL"/> Non plane ita. Attende quod sequitur : <hi rend="italic">Vade, de<unclear>in­</unclear>
+        <lb ed="#PL"/> ceps jam noli peccarc.</hi> Ergo et Dominus damnavit, sed 
+   <lb ed="#PL"/> peccatum, non homincm. Nam si peccatorum fautor 
+   <lb ed="#PL"/> esset, diceret, Nec ego te damnabo; vade, vive ut vis: 
+   <lb ed="#PL"/> de mea liberatione csto secura ; ego quantumcumque 
+   <lb ed="#PL"/> peccaveris, te ab omni poena etiam gehennae et infer<lb ed="#PL" break="no"/>ni
+   tortoribus liberabo. Non hoc dixit.</p>
+      <p xml:id="iuy75t-d1e312-d1e717">7. Intendant ergo qui amant in Domino mansuetu<lb ed="#PL" break="no"/>dinem, et timeant veritatem. Etenim <hi rend="italic">dulcis et reclus 
+   <lb ed="#PL"/> Dominus (Psal.</hi> XXIV, 8). Amas quod dulcis est, time 
+   <lb ed="#PL"/> quod rectus est. Tanquam mansuetus dixit, <hi rend="italic">Tacui:</hi>
+   
+       <lb ed="#PL"/> sed tanquam justus, <hi rend="italic">Numquid semper tacebo ( larii.</hi>
+   
+       <lb ed="#PL"/> XLII, 14, <hi rend="italic">sec.</hi> LXX)? <hi rend="italic">Misericors et
+    miserator</hi> Domitis. 
+   <lb ed="#PL"/> Ita plane. Adhuc adde, <hi rend="italic">longanimis;</hi> adhuc addc, <hi rend="italic">et</hi>
+   
+       <lb ed="#PL"/> multum <hi rend="italic">misericors</hi> : sed time quod est in novissimo, 
+   <lb ed="#PL"/>
+       <hi rend="italic">et verax (Psal.</hi> LXXXV, 45 ). Quos cnim modo susti<lb ed="#PL" break="no"/>net
+   peccantes, judicaturus est contemnentes. <hi rend="italic">Andi<lb ed="#PL" break="no"/>vitias
+    longanimitatis et mansuctudinis ejus contemnis, 
+   <lb ed="#PL"/> ignorans quia patientia Dei ad
+    poenitentiam te adducit ? 
+   <lb ed="#PL"/> Tu autem secundum duritiam cordis tui et cor impoeni­
+    
+   <lb ed="#PL"/> tens, thesaurizas tibi iram in die itae et revelationis</hi> justi 
+   <lb ed="#PL"/>
+       <hi rend="italic">judicii Dei, qui reddet unicuique secundum opera sua</hi>
+   
+       <lb ed="#PL"/> ( <hi rend="italic">Rom.</hi> II, 4-6). Mansuetus Dominus, longanimis Do­ 
+   
+   <pb ed="#PL" n="1651"/>
+       <lb ed="#PL"/> minus, misericors Dominus : sed ,et justus Dominus, 
+   <lb ed="#PL"/> et verax Dominus. Largitur libi spatium correctionis : 
+   <lb ed="#PL"/> sed tu plus amas dilationem quam emendationem. Ma<lb ed="#PL" break="no"/>lus
+   fuisti heri ? bodic bonus esto. Et hodiernum diem 
+   <lb ed="#PL"/> in malitia peregisti? vel cras mutare. Semper exspe<lb ed="#PL" break="no"/>etas, et de misericordia Dei tibi plurimum polliceris : 
+   <lb ed="#PL"/> quasi it .e qui libi per poenitentiam 1 promisit indul­
+   
+   <lb ed="#PL"/> gentiam, promiserit libi etiam prolixiorem vitam. Un<lb ed="#PL" break="no"/>de
+   scis quid pariat crastinus dies? Recte dicis in cor<lb ed="#PL" break="no"/>de
+   tuo : Quando me correxero, Dens mihi omnia pec<lb ed="#PL" break="no"/>cata
+   dimittet. Negare non possumus quod correctis 
+   <lb ed="#PL"/> atque conversis indulgentiam Deus promisit. Nam in 
+   <lb ed="#PL"/> quo propheta mihi legis quia promisit correcto indul<lb ed="#PL" break="no"/>gentiam, non mihi legis quia promisit tibi Deus lon<lb ed="#PL" break="no"/>gam
+   vitam.</p>
+      <p xml:id="iuy75t-d1e312-d1e824">8. Ex utroque igitur homines periclitantur, et spe<lb ed="#PL" break="no"/>rando
+   et desperando, contrariis rebus, contrariis affe<lb ed="#PL" break="no"/>ctionibus. Sperando qui decipitur? Qui dicit I, Bonus 
+   <lb ed="#PL"/> est Dens, misericors est Deus, faciam quod mihi pla<lb ed="#PL" break="no"/>cet, quod libet; laxem habenas cupiditatibus meis, 
+   <lb ed="#PL"/> impleam desideria animae meae. Quare hoc? Quia mi<lb ed="#PL" break="no"/>sericors
+   est Deus. bonus est Deus, mansuetus est Deus. 
+   <lb ed="#PL"/> Spe isti periclitantur. Desperatione autem, qui cuin 
+   <lb ed="#PL"/> inciderint in gravia peccata, putantes sibi non posse 
+   <lb ed="#PL"/> jam ignosci poenilenlibus, et statuentes se ad damna<lb ed="#PL" break="no"/>tionem
+   sine dubio destinatos, dicunt apud seipsos, 
+   <lb ed="#PL"/> Jam damnandi sumus I, quare non quod volumus fa<lb ed="#PL" break="no"/>cimus? animo gladiatorum ferro destinatorum. Ideo 
+   <lb ed="#PL"/> molesti sunt desperati : jam enim quod timeant non 
+   <lb ed="#PL"/> habent, et vehementer timendi sunt. Istos desperatio 
+   <lb ed="#PL"/> necat, spes illos. Inter spem et desperationem flu<lb ed="#PL" break="no"/>fLuat
+   animus. Metuendum est ne te occidat spes, et 
+   <lb ed="#PL"/> cum mullum speras de misericordia, incidas in judi<lb ed="#PL" break="no"/>cium : metuendum est rursus ne te occidat desperatio, 
+   <lb ed="#PL"/> ot cum putas jam tibi non ignos,ci quae gravia commi<lb ed="#PL" break="no"/>sisti, non agas poenitentiam,etincurras in judicem 
+   <lb ed="#PL"/> Sapientiam, quae dicit, <hi rend="italic">Et ego vestras perditioni super­
+    
+   <lb ed="#PL"/> ridebo</hi> ( <hi rend="italic">Prov.</hi> i, 26 ). Quid ergo agit Dominus cum
+   
+   <lb ed="#PL"/> periclitantibus utroque morbo ? Illis qui spe pericli<lb ed="#PL" break="no"/>tantur, hoc dicit:
+    <hi rend="italic">Ne tardes converti ad Dominum, ne<lb ed="#PL" break="no"/>que</hi> differas <hi rend="italic">de die</hi> in diem; subito <hi rend="italic">enim veniet ira illius,
+    
+   <lb ed="#PL"/> et</hi> in <hi rend="italic">tempore vindict</hi>ae <hi rend="italic">disperdet
+    te ( Eccli.</hi> v, 8, 9 ). 
+   <lb ed="#PL"/> Illis qui desperatione periclitantur, quid dicit ?
+    <hi rend="italic">In 
+   <lb ed="#PL"/> quacumque die iniquus conversus fuerit, omnes iniqaita­
+    
+   <lb ed="#PL"/> tes ejus obliviscar</hi> ( <hi rend="italic">Ezech.</hi> XVIII, 21,22, 27). Propter 
+   <lb ed="#PL"/> illos ergo qui desperatione periclitantur, proposuit in<lb ed="#PL" break="no"/>dulgentiae
+   portum : propter illos qui spe periclitantur 
+   <lb ed="#PL"/>etdilationibus illuduntur, fecit diem mortis incertum. 
+   <lb ed="#PL"/> Quando veniat ultimus dies, nescis. Ingratus es, quia 
+   <lb ed="#PL"/> hodiernum habes, in quo corrigaris? Sic ergo ad istam 
+   <lb ed="#PL"/> mulierem, <hi rend="italic">Nec ego te damnabo;</hi> sed facta secura de 
+   <lb ed="#PL"/> i praeterito, cave futura. <hi rend="italic">Nec ego te</hi> damnabo : delevi 
+   <lb ed="#PL"/> ; quod commisisti, observa quod praecepi, ut invenias 
+   <lb ed="#PL"/> quod promisi. 
+  </p>
+    </div>
+   </body>
+  </text>
+</TEI>

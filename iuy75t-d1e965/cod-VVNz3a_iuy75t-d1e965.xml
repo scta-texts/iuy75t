@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 113</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 113</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e965"> <!-- iuy75t-t113 -->
+      <head xml:id="iuy75t-d1e965-Hd1e109">Tractatus 113</head>
+      <p xml:id="iuy75t-d1e965-d1e112">
+       <hi rend="italic">Ab eo quod legitur,</hi> Et adduxerunt eum ad Annam pri<lb ed="#PL" break="no"/>mum ;
+    <hi rend="italic">usque ad id,</hi> Iterum ergo negavit Petrus, et 
+   <lb ed="#PL"/> statim gallus cantavit. <hi rend="italic">Cap.</hi> XVIII, f . 15-27.</p>
+      <p xml:id="iuy75t-d1e965-d1e128">i. Posteaquam persecutores tradente Juda compre<lb ed="#PL" break="no"/>hensum
+   Dominum ligaverunt, qui dilexit nos et tra<lb ed="#PL" break="no"/>didit
+   semetipsum pro nobis <hi rend="italic">(Ephes.</hi> v, 2), et cui Pater 
+   <lb ed="#PL"/> non pepercit, sed pro nobis omnibus tradidit eum 
+   <lb ed="#PL"/> (Romr VIII, 52); ut intelligatur Judas, non laudabilis 
+   <lb ed="#PL"/> utilitate traditionis hujus, sed sceleris voluntate da<lb ed="#PL" break="no"/>mnabilis : <hi rend="italic">Adduxerunt eum,</hi> sicut Joannes evangelista 
+   <lb ed="#PL"/> narrat, <hi rend="italic">ad Annam</hi> primum. Nec iacet causam cur ita fa<lb ed="#PL" break="no"/>ctum
+   sit : <hi rend="italic">Erat enim,</hi> inquit, <hi rend="italic">socer Caiphae, qui erat
+   <lb ed="#PL"/> pontifex anni illius. Erat autem,</hi> inquit, <hi rend="italic">Caipha,</hi> qui 
+   <lb ed="#PL"/>
+       <hi rend="italic">consilium dedit</hi> Judaeis, <hi rend="italic">Quia expedit</hi> unam
+    <hi rend="italic">hominem
+   <lb ed="#PL"/> mori pro populo.</hi> Merito et Matthaeus cum id brevius 
+   <lb ed="#PL"/> narrare voluisset, eum ad Caipham ductum fuisse 
+   <lb ed="#PL"/> commemorat <hi rend="italic">(Matth.XXVI,</hi> 57); quia et ad Annam prius 
+   <lb ed="#PL"/> idco ductus est, quod socer ejus fuerit: ubi intelli<lb ed="#PL" break="no"/>gendum
+   est hoc eumdem Caipham fieri voluisse.</p>
+      <p xml:id="iuy75t-d1e965-d1e194">2. <hi rend="italic">Sequebatur autem,</hi> inquit, <hi rend="italic">Jesum Simon
+    Petrus, 
+   <lb ed="#PL"/> et alius discipulus.</hi> Quisnaln iste sil discipulus, non 
+   <lb ed="#PL"/> temere affirmanduni est, quia tacetur. Solet autem 
+   <lb ed="#PL"/> se idem Joannes ita significare, et addere, <hi rend="italic">quem di­
+   <lb ed="#PL"/> tigebat Jesus (Joan.</hi> XIII, 23, <hi rend="italic">et</hi> xix, 26). Fortassis ergo 
+   <lb ed="#PL"/> et hic ipse est : quisquis tamen sit, sequentia videar 
+   <lb ed="#PL"/> mus. i Discipulus autem ille, » inquit, « erat notus 
+   <lb ed="#PL"/> pontifici, et introivit cum Jesu in atrium pontificis : 
+   <lb ed="#PL"/> Petrus autem stabat ad ostium foris. Exiit ergo aliud 
+   <lb ed="#PL"/> discipulus qui erat notus pontifici, et dixit ostiariac et 
+   <lb ed="#PL"/> introduxit Petrum. Dicit ergo Petro ancilla ostiaria : 
+   <lb ed="#PL"/> NumquidetUt ex discipulis es hominis istius? Dicit 
+   <pb ed="#PL" n="1933"/>
+       <lb ed="#PL"/> ille : Non sum. » Ecce columna firmissima ad unius 
+   <lb ed="#PL"/> aurae impulsum tota contremuit. Ubi est illa promit<lb ed="#PL" break="no"/>tentis
+   audacia, et de se plurimum praefidentis? Ubi 
+   <lb ed="#PL"/> sunt verba illa, quando ait, <hi rend="italic">Quare non</hi> possum <hi rend="italic">te sequi 
+   <lb ed="#PL"/> modo? animam meam pro teponam (Joan.</hi> XIII, 37)? Hoc<lb ed="#PL" break="no"/>cine
+   est sequi magistrum, se negare discipulum? sic<lb ed="#PL" break="no"/>cine
+   pro Domino anima ponitur, ut hoc ne dat, vox 
+   <lb ed="#PL"/> ancillae formidetur? Sed quid mirum si Deus vera prae<lb ed="#PL" break="no"/>dixit, homo autcm falsa praesumpsit? Sane in isia quae 
+   <lb ed="#PL"/> jain coepta est negatione apostoli Petri, debemus ad<lb ed="#PL" break="no"/>vertere
+   non solum ab eo negari Christum, qui dicit 
+   <lb ed="#PL"/> eum non esse Christum; sed ab illo etiam qui cum 
+   <lb ed="#PL"/> sit, negat se esse christianum. Dominus enim non ait 
+   <lb ed="#PL"/> Petro, Discipulum meum te negabis; sed, me <hi rend="italic">negabis
+   <lb ed="#PL"/> (Matth.</hi> xxvi, 34). Negavit ergo ipsum, cum se negavit 
+   <lb ed="#PL"/> ejus esse discipulum. Quid autem aliud isto modo 
+   <lb ed="#PL"/> quam se negavit esse Christianum ? Quamvis enim di<lb ed="#PL" break="no"/>scipuli
+   Christi nondum appellarentur hoc nomine : 
+   <lb ed="#PL"/> post ascensionem quippe ejus in Antiochia primum 
+   <lb ed="#PL"/> coeperunt appellari discipuli Christiani <hi rend="italic">(Act.</hi> XI, 26) : 
+   <lb ed="#PL"/> jam tamen erat res ipsa illo postea vocabulo nuncu<lb ed="#PL" break="no"/>panda, jam erant discipuli qui postea appellati sunt 
+   <lb ed="#PL"/> Christiani; et hoc commune nomen, sicut communem 
+   <lb ed="#PL"/> fidem, etiam ad posteros transmiserunt. Qui ergo se 
+   <lb ed="#PL"/> Christi negavit esse discipulum, ipsam rem negavit, 
+   <lb ed="#PL"/> cujus nomen est vocari christianum. Quam multi 
+   <lb ed="#PL"/> postea, non dico senes et anus, in quibus hujus vitae 
+   <lb ed="#PL"/> satietas facilius potuit mortem pro Christi confessione 
+   <lb ed="#PL"/> contemnere; nec solum juventus utriusque sexus, de 
+   <lb ed="#PL"/> qua aetate convenienter videtur exigi fortitudo; sed 
+   <lb ed="#PL"/> etiam pueri puclhequc potuerunt, et iunumcrabilis 
+   <lb ed="#PL"/> . societas sanctorum martyrum in reguum coelorum for<lb ed="#PL" break="no"/>titer
+   et violenter intravit, quod tunc iste non potuit, 
+   <lb ed="#PL"/> qui claves regni ejus accepit ( <hi rend="italic">Matth.</hi> XVI, i9)? Ecce 
+   <lb ed="#PL"/> unde dictum est, <hi rend="italic">Sinite hos abire,</hi> quando se pro nobis 
+   <lb ed="#PL"/> tradidit, qui suo sanguine nos redenait; ut impleremur 
+   <lb ed="#PL"/> sermo quein dixit, <hi rend="italic">Quia quos dedisti
+    mihi, nou perdidi 
+   <lb ed="#PL"/> ex</hi> eia <hi rend="italic">quemquam.</hi> Utique enim Petrus si negato Chri<lb ed="#PL" break="no"/>sto
+   hinc iret, quid aliud quam periret ?</p>
+      <p xml:id="iuy75t-d1e965-d1e345">3. <hi rend="italic">Stabant autem servi et</hi> ministri <hi rend="italic">ad
+    prunas,</hi> quia fri<lb ed="#PL" break="no"/>gus <hi rend="italic">erat, et calefaciebant at.</hi> Non hiems erat, sed tamen 
+   <lb ed="#PL"/> frigus erat : quod solet etiam aequinoctio verno ali<lb ed="#PL" break="no"/>quando
+   contingere. &lt; Erat autem cum eis et Petrus 
+   <lb ed="#PL"/> stans, et calefaciens se. Pontifex ergo interrogavit 
+   <lb ed="#PL"/> Jesum de discipulis ejus, et de doctrina ejus. Respon­
+   
+   <lb ed="#PL"/> dit ei Jesus: Ego palam locutus sum mundo, ego sem<lb ed="#PL" break="no"/>per
+   docui in synagoga 2 et in templo, quo omnes Ju<lb ed="#PL" break="no"/>daei
+   conveniunt, et in occulto locutus sum nihil: quid
+   
+   <lb ed="#PL"/> me interrogas? Interroga eos qui audierunt quid locu<lb ed="#PL" break="no"/>tus
+   sum ipsis : ecce hi sciunt qua dixerim ego. &gt; Non 
+   <lb ed="#PL"/> . praetereunda nascitur quaestio, quomodo dixerit Do<lb ed="#PL" break="no"/>minus
+   Jesus, <hi rend="italic">Ego palam locutus sum mundo ;</hi> et maxi<lb ed="#PL" break="no"/>me
+   illud quod ait, <hi rend="italic">In occulto locutus</hi> sum nihil. Nonne 
+   <lb ed="#PL"/> in hoc ipso recentiore sermone, quem post coenati 
+   <lb ed="#PL"/> discipulis est locutus, ait illis : <hi rend="italic">Haec</hi> in <hi rend="italic">proverbiis</hi> lo­
+   
+   <lb ed="#PL"/> cutus <hi rend="italic">sum vobis : venit hora</hi> cum <hi rend="italic">jam
+    non</hi> in <hi rend="italic">proverbiis</hi>
+   
+   
+       <lb ed="#PL"/> 2 Mss., ill <hi rend="italic">sytwgogis. 
+   <lb ed="#PL"/> loquar vobis, sed palam de Patre
+    meo annuntiabo vobis 
+   <lb ed="#PL"/> (Joan.</hi> xvi, 25) ? Si ergo ipsis conjunctioribus discipu<lb ed="#PL" break="no"/>lis
+   suis non loquebatur palam, sed horam promittebat 
+   <lb ed="#PL"/> quando palam erat locuturus, quomodo palam Iccu<lb ed="#PL" break="no"/>tus
+   est mundo! Deindc illis ipsis suis, sicut aliorum 
+   <lb ed="#PL"/> quoque evangelistarum testatur auctoritas, in eorum 
+   <lb ed="#PL"/> comparatione qui discipuli ejus non erant, multo uti<lb ed="#PL" break="no"/>que
+   manifestius loquebatur, quando cum solis erat, 
+   <lb ed="#PL"/> remotus a turbis : tunc enim eis et parabolas aperie<lb ed="#PL" break="no"/>bat, quas clausas proferebat ad alios. Quid est ergo, 
+   <lb ed="#PL"/>
+       <hi rend="italic">In occulto locutus sum nihil?</hi> Sed intelligendum est ita 
+   <lb ed="#PL"/> eum dixisse, Palam locutus <hi rend="italic">sum mundo;</hi> ac si dixisset, 
+   <lb ed="#PL"/> Multi me audierunt. Ipsum autem <hi rend="italic">palam</hi> modo quo<lb ed="#PL" break="no"/>dam
+   erat palam, modo autem quodam non erat palam. 
+   <lb ed="#PL"/> Palam quippe erat, quia multi audiebant; et rursuin
+   
+   <lb ed="#PL"/> non erat palam, quia non intelligebant. Et quod se<lb ed="#PL" break="no"/>orsum
+   discipulis loquebatur, non in occulto utique 
+   <lb ed="#PL"/> loquebatur. Quis namque in occulto loquitur, qui co. 
+   <lb ed="#PL"/> ram tot hominibus loquitur; cum scriptum sit, <hi rend="italic">In ore 
+   <lb ed="#PL"/>
+    duorum vel trium testium stabit omne verbum (Deut.</hi> xix, 
+   <lb ed="#PL"/> 15 ): praesertim si hoc loquitur paucis, quod per eos 
+   <lb ed="#PL"/> velit innotescere multis ; sicut ipse Dominus ait illis, 
+   <lb ed="#PL"/> quos adhuc paucos habebat, <hi rend="italic">Quod dico vobis</hi> in
+    <hi rend="italic">tene<lb ed="#PL" break="no"/>bris, dicite in lumine; et quod in aure auditi:,</hi> praedicate 
+   <lb ed="#PL"/>
+       <hi rend="italic">super tecta (Matth.</hi> x, 27)? Ergo et hoc ipsum quod ab 
+   <lb ed="#PL"/> ipso dici videbatur occulte, quodammodo non diceba<lb ed="#PL" break="no"/>tur
+   in occulto : quia non ita dicebatur, ut ab eis qui<lb ed="#PL" break="no"/>bus
+   dictum fuerat, taceretur; sed iia potius, ut usque­
+   
+   <lb ed="#PL"/> quaque praedicaretur. Sic ergo dici potest aliquid et 
+   <lb ed="#PL"/> palam simul et non palam, vel in occulto simul et 
+   <lb ed="#PL"/> non in occulto, quomodo dictum est, <hi rend="italic">Ut videntes</hi> vi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">deant, et non videant (Marc.</hi> IV, 12). Quomodo enim 
+   <lb ed="#PL"/>
+       <hi rend="italic">videant,</hi> nisi quia palam, non in occulto; et quomodo 
+   <lb ed="#PL"/> idem ipsi rursus <hi rend="italic">non videant,</hi> nisi qnia non palam, sed 
+   <lb ed="#PL"/> in occultu? Ea tamen ipsa quae audierant et non intel<lb ed="#PL" break="no"/>lexerant, talia erant, ut non possent juste ac veraci<lb ed="#PL" break="no"/>ter
+   criminari : et quotiescumque interrogando tenta­
+   
+   <lb ed="#PL"/> runt, at invenirent uude accusarent eum, sic eis re<lb ed="#PL" break="no"/>spondit, ut omnes eorum retunderentur doli, et calu - 
+   <lb ed="#PL"/> moise frustrarentur. Ideo dicebat, <hi rend="italic">Quid me interrogas? 
+   <lb ed="#PL"/> Interroga eoa qui audierunt quid loculus sum ipsis : ecce
+    
+   <lb ed="#PL"/> hi sciunt qum dixerim ego.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e965-d1e547">
+       <hi rend="italic">A. Haec autem cum dixisset, unus assistens</hi> ministro- 
+   <lb ed="#PL"/> rum
+    <hi rend="italic">dedit alapam Jesu , dicens : Sic respondes ponti­</hi>
+   
+       <lb ed="#PL"/> fici ? <hi rend="italic">Respondit ei</hi> Jesua : <hi rend="italic">Si male
+    locutus</hi> sum, <hi rend="italic">tu,;.</hi>
+   
+       <lb ed="#PL"/> monium <hi rend="italic">perhibe de malo ; si- autem bene, quid me</hi>
+   
+       <lb ed="#PL"/> caedis? Quid ista responsione verius, mansuetius, 
+   <lb ed="#PL"/> justius ? Ejus est enim de quo prophetica vox praeces<lb ed="#PL" break="no"/>serat, <hi rend="italic">Intende, et prospere procede,
+    et</hi> regna ; <hi rend="italic">propter 
+   <lb ed="#PL"/> veritatem, et mansuetudinem, et
+    justitiam (Psal.</hi> xuv, 
+   <lb ed="#PL"/> 5). Si cogitemus quis acceperit alapam , nonne velle­
+   
+   <lb ed="#PL"/> mus eum qui percussit, aut coelesti igne consumi, 
+   <lb ed="#PL"/> aut terra dehiscente sorberi, aut correptum daemo<lb ed="#PL" break="no"/>nio
+   volutari, aut aliqua hujusmodi qualibet poena, vcl
+   
+   <lb ed="#PL"/> etiam graviore puniri ? Quid enim horum per poten<lb ed="#PL" break="no"/>liam
+   jubere non potuisset per quem factus est mun<lb ed="#PL" break="no"/>dus, nisi patientiam nos docere maluisset qua vinci 
+   <lb ed="#PL"/> tur mundus ? IIic dicet aliquis Cur non fecit quod 
+   <lb ed="#PL"/> ipse praecepit <hi rend="italic">(Matth.</hi> v , 39) ? percutienti enim non 
+   <pb ed="#PL" n="1935"/>
+       <lb ed="#PL"/> sic respondere, sed maxillam debuit alteram prae<lb ed="#PL" break="no"/>here
+   I. Quid quodetveraciter, mansuete, justeque 
+   <lb ed="#PL"/> respondit, et non solum alteram maxillam iterum
+   
+   <lb ed="#PL"/> percussuro, sed totum corpus figendum praeparavit 
+   <lb ed="#PL"/> in ligno? Et hinc potius demonstravit, quod demon<lb ed="#PL" break="no"/>strandum
+   fuit, sua sciliccL magna illa praecepta pa­
+   
+   <lb ed="#PL"/> tientiae non ostentatione corporis , sed cordis prae- 
+   <lb ed="#PL"/> paratione facienda. Fieri enim potest ut alteram 
+   <lb ed="#PL"/> maxillam visibiliter pra beat homo et iratus. Qnanto
+   
+   <lb ed="#PL"/> ergo melius et respondet vera placatus , et ad per<lb ed="#PL" break="no"/>fcrenda
+   graviora tranquillo animo fit paratus? Bea<lb ed="#PL" break="no"/>tus
+   est enim qui in omnibus quae injuste pro justitia 
+   <lb ed="#PL"/> patitur, potest veraciter dicere, <hi rend="italic">Paratum cor meum,
+    
+   <lb ed="#PL"/> Deus, paratum cor</hi> meum : hinc fit quippe quod sequi<lb ed="#PL" break="no"/>tur, <hi rend="italic">Cantabo et psallam (Psal.</hi> LVI, 8); quod Paulus 
+   <lb ed="#PL"/> et Barnabas(a) etiam in vinculis durissimis faccre po<lb ed="#PL" break="no"/>tuerunt.</p>
+      <p xml:id="iuy75t-d1e965-d1e658">5. Sed ad narrationis evangelicx scqucntia redea<lb ed="#PL" break="no"/>mus. <hi rend="italic">Et misit
+    eum Annas ligatum ad Caipham ponlifi<lb ed="#PL" break="no"/>cem.</hi> Ad illum , sicut Matthaeus dicit, ab initio duce<lb ed="#PL" break="no"/>batur, quoniam ipsp erat illius anni princeps sacerdo<lb ed="#PL" break="no"/>tum. Alternos quippe intelligendi sunt agere solere 
+   <lb ed="#PL"/> annos ambo pontifices, id est principes sacerdotum, 
+   <lb ed="#PL"/> qui erant illo tempore Annas et Caiphas, quos Lucas 
+   <lb ed="#PL"/> evangelista commemorat, narrans quo tempore coepe<lb ed="#PL" break="no"/>rit
+   Domini praecursor Joannes praedicare regnum 
+   <lb ed="#PL"/> caelorum , et congregare discipulos. Sic enim dicit: 
+   <lb ed="#PL"/>
+       <hi rend="italic">Sub principibus sacerdotum Anna et Caipha, factum eat</hi>
+   
+       <lb ed="#PL"/> verbum <hi rend="italic">Domini superJoannemZacharice filium in deserto 
+   <lb ed="#PL"/>
+    (Luc.</hi> in, 2), et caetera. Proinde isti ambo pontifices 
+   <lb ed="#PL"/> vicissim suos annos agebant: et erat annus Caiphae 
+   <lb ed="#PL"/> quando passus est Christus. Ideo secundum Matthaeum
+   
+   <lb ed="#PL"/> cum comprehensus esset, ad eum ductus est : sed 
+   <lb ed="#PL"/> prius ad Annam secundum Joannem venerunt cum 
+   <lb ed="#PL"/> illo; non quia collega, sed quia socer ejus erat. 
+   <lb ed="#PL"/> Et credendum est secundum voluntatem Caiphae 
+   <lb ed="#PL"/> id esse factum, vel etiam domos eorum ita fuisse 
+   <lb ed="#PL"/> positas, ut non deberet Annas a transeuntibus prae<lb ed="#PL" break="no"/>teriri.</p>
+      <p xml:id="iuy75t-d1e965-d1e715">6. Sed cum dixisset Evangelista quod eum ligatum 
+   <lb ed="#PL"/> miserit Annas ad Caipham, reversus est ad locum nar<lb ed="#PL" break="no"/>rationis, ubi reliquerat Petrum, ut explicaret quod
+   
+   <lb ed="#PL"/> in domo Ann;e de trina ejus negatione contigerat. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Erat autem,</hi> inquit, <hi rend="italic">Simon Petrus stans et
+    calefaciens</hi>
+   
+       <lb ed="#PL"/> sc. Hoc recapitulat quod ante jam dixerat: deinde 
+   <lb ed="#PL"/> quae secuta sunt jungit.
+    <hi rend="italic">Dixerunt ergo ei: Numquid 
+   <lb ed="#PL"/> et tu ex discipulis ejus es ?
+    Negavit ille , et dixit : Non 
+   <lb ed="#PL"/> sum.</hi> Jam semel negaverat; ecce iterum. Deinde ut 
+   <lb ed="#PL"/> tertia negatio compleatur , <hi rend="italic">Dicit</hi> unus ex <hi rend="italic">servis pontifi­</hi>
+   
+       <lb ed="#PL"/> cia , <hi rend="italic">cognatus ejus cujus abscidit Petrus</hi> auriculam : 
+   <lb ed="#PL"/>
+       <hi rend="italic">Nonne ego te</hi> vidi in <hi rend="italic">horto cum illo ? Iterum
+    ergo nega­
+   <lb ed="#PL"/> vit Petrus, et statim</hi> gallus cantavit. Ecce medici com<lb ed="#PL" break="no"/>pleta
+   est praedictio, aegroti convicta praesumptio. Non 
+   <lb ed="#PL"/> cnim factum est quod iste dixerat, <hi rend="italic">Animam</hi> meam <hi rend="italic">pro</hi>
+   
+       <lb ed="#PL"/> is <hi rend="italic">ponam;</hi> sed factum est quod ille praedixerat, <hi rend="italic">Ter</hi>
+   
+       <lb ed="#PL"/> me <hi rend="italic">negabis (Joan.</hi> XIII, 38). Sed trina Petri negatione
+   
+   <lb ed="#PL"/> completa, jaa et iste sermo compleatur, ut deinceps 
+   
+   
+   <lb ed="#PL"/> qu:c de Domino ap:td Pontum Pilatum praesidem 
+   <lb ed="#PL"/> gesta sunt, ab alio consideremus exordio.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

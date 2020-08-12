@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 115</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 115</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e982"> <!-- iuy75t-t115 -->
+      <head xml:id="iuy75t-d1e982-Hd1e109">Tractatus 115</head>
+      <p xml:id="iuy75t-d1e982-d1e112">
+       <title type="sub">
+        <hi rend="italic">De eo quod dicitur,</hi> Introivit ergo iterum in
+    praetorium Pilatus; <hi rend="italic">usque ad id,</hi> Erat autem Barabbas latro. <hi rend="italic">Cap.</hi> XVIII, f . 53-40.</title>
+      </p>
+      <p xml:id="iuy75t-d1e982-d1e127">i. Quid Pilatus dixerit Christo, quidve Pilato ille 
+   <lb ed="#PL"/> responderit, isto-sermone considerandum atque tra 
+   <lb ed="#PL"/> ctandum est. Cnm enim dictum esset Judaeis, &lt; Acci­
+   
+   <lb ed="#PL"/> pite eum vos, et secundum Legem vestram judicate 
+   <lb ed="#PL"/> eum » atque illi respondissent, c Nobis non licet oc<lb ed="#PL" break="no"/>cidere
+   quemquam; introivit iterum in praetorium Pi<lb ed="#PL" break="no"/>latus, et vocavit Jesum, et dixit ei : Tu es rex Ju<lb ed="#PL" break="no"/>daeorum? Et respondit Jesus : A temetipso hoc dicis, 
+   <lb ed="#PL"/> an alii tibi dixerunt de me? i Sciebat utique Dominus 
+   <lb ed="#PL"/> et quod ipse interrogavit, et quod ille responsurus 
+   <lb ed="#PL"/> fuit; sed tamen dici voluit, non ut ipse sciret, sed ut 
+   <lb ed="#PL"/> scriberetur quod nos voluit ut sciremus. &lt; Respondit . 
+   <lb ed="#PL"/> Pilatus : Numquid ego Judxus sum? Gens tua et pon­
+   
+   <lb ed="#PL"/> tifices tradiderunt te mihi : quid fecisti? Respondit 
+   <lb ed="#PL"/> Jesus : Regnum meum non est de hoc mundo. Si ex 
+   <lb ed="#PL"/> boc mundo esset regnum meum, ministri mei utique 
+   <lb ed="#PL"/> decertarent, ut non traderer Judicis : nunc autem rc<lb ed="#PL" break="no"/>gnum
+   meum non est hinc. i Hoc est quod bonus ma<lb ed="#PL" break="no"/>gister
+   scire nos voluit : sed prius nobis demonstranda
+   
+   <lb ed="#PL"/> fuerat vana hominum de regno ejus opinio, sive Gen<lb ed="#PL" break="no"/>tium, sive Judaeorum, a quibus id Pilatus audierat; 
+   <lb ed="#PL"/> quasi propterea morte fuisset plectendus, quod illici­
+   
+   <lb ed="#PL"/> tum affectaverit regnum; vel quoniam solent regna<lb ed="#PL" break="no"/>turis
+   invidere regnantes, et videlicet cavendum erat 
+   <lb ed="#PL"/> ne ejus regnum sivc Romanis, sive Judxis esset ad­
+   
+   <lb ed="#PL"/> versum. Poterat autem Dominus quod ait, <hi rend="italic">Regnum 
+   <lb ed="#PL"/> meum non
+    est de hoc mundo,</hi> ele., ad primam interro<lb ed="#PL" break="no"/>gationem
+   praesidis respondere, ubi ei dixit, <hi rend="italic">Tu es rex</hi>
+   
+       <lb ed="#PL"/> Judaeorum? sed eum vicissim interrogans utrum hoc 
+   <lb ed="#PL"/> a semetipso diceret, an audisset ab aliis, illo respon<lb ed="#PL" break="no"/>dente
+   ostendere voluit hoc sibi apud illuin fuisse a 
+   <lb ed="#PL"/> Judxis velut crimen objectum : patcfacicns nobis co­ 
+   <pb ed="#PL" n="1939"/>
+       <lb ed="#PL"/> gitationes hominum, quas ipse noverat, quoniam vanae 
+   <lb ed="#PL"/> sunt <hi rend="italic">(Psal.</hi> Icit, 11); eisque post responsionem Pi<lb ed="#PL" break="no"/>lati, jam Judacis et Gentibus opportunius aptiusque 
+   <lb ed="#PL"/> respondens, <hi rend="italic">Regnum
+    meum non eat de hoc mundo.</hi>
+   
+       <lb ed="#PL"/> Quod si interroganti Pilato continuo respondisset ; 
+   <lb ed="#PL"/> non etiam Judxis, sed solis Gentibus hoc de se opi- , 
+   <lb ed="#PL"/> nantibus respondisse videretur. Nunc vero quoniam
+   
+   <lb ed="#PL"/> respondit Pilatus, <hi rend="italic">Numquid ego Judaeus sum? Gens na 
+   <lb ed="#PL"/> et
+    pontifices tradiderunt te mihi ;</hi> abstulit a se suspicio<lb ed="#PL" break="no"/>nem, qua posset putari a semetipso dixisse quod Je<lb ed="#PL" break="no"/>suni
+   regem dixerat esse Judaeorum, id se a Judaeis an<lb ed="#PL" break="no"/>disse
+   demonstrans. Deinde dicendo, <hi rend="italic">Quid fecisti?</hi>
+   
+       <lb ed="#PL"/> salis ostendit illud ei pro crimine objectum : tanquam 
+   <lb ed="#PL"/> diceret, Si regem te negas, quid fecisti ut tradereris 
+   <lb ed="#PL"/> inibi ? Quasi mirum non esset si puniendus judici tra<lb ed="#PL" break="no"/>deretur, qui se diceret regem : si autem hoc non di<lb ed="#PL" break="no"/>ceret, quaerendum ab illo esset quid aliud forte fccis<lb ed="#PL" break="no"/>set, unde tradi judici dignus esset. ;</p>
+      <p xml:id="iuy75t-d1e982-d1e257">i. Audite ergo, Judaei et Gentes; audi, circumci<lb ed="#PL" break="no"/>sio; audi, praeputium ; audite, omnia regna terrena : 
+   <lb ed="#PL"/> Non impedio dominationem vestram in hoc mundo, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Regnum meum non eat de hoc mundo.</hi> Nolite metuere 
+   <lb ed="#PL"/> metu vanissimo quo Herodes ille major, cum Christus 
+   <lb ed="#PL"/> natus nuntiaretur, expavit, et tol infantes ut ad cum 
+   <lb ed="#PL"/> mors perveniret, occidit ( Matth. II, 5,16 ), timendo 
+   <lb ed="#PL"/> magis quam irascendo crudelior, Regnum, inquit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">meum noM est de hoc mundo.</hi> Quid vultis amplius? 
+   <lb ed="#PL"/> Venite ad regnum quod non est de hoc mundo; venite 
+   <lb ed="#PL"/> credendo, et nolite saevire metuendo. Dicit quidem in 
+   <lb ed="#PL"/> prophetia de Deo Patre, <hi rend="italic">Ego autem constitutus
+    sum</hi>
+   
+       <lb ed="#PL"/> rex <hi rend="italic">ab eo super Sion montem sanctum ejus (Psal.</hi> II, 6);
+   
+   <lb ed="#PL"/> sed Sion illa et mons ille non est de hoc mundo. 
+   <lb ed="#PL"/> Quod est enim ejus regnum nisi credentes in eum, 
+   <lb ed="#PL"/> quibus dicit, <hi rend="italic">De mundo non estis, sicut
+    et ego non sum 
+   <lb ed="#PL"/> de</hi> mundo? Quamvis eos esse vellet in mundo : pro<lb ed="#PL" break="no"/>pter
+   quod de illis dixit ad Patrem, <hi rend="italic">Non rogo ut tollas 
+   <lb ed="#PL"/> eoa de mundo,
+    sed ut serves eos ex</hi> malo <hi rend="italic">(Joan.</hi> XVII, f6, 
+   <lb ed="#PL"/> 15). Unde et hic non ait, <hi rend="italic">Regnum meum non est</hi> in 
+   <lb ed="#PL"/> . hoc mundo; sed,
+    <hi rend="italic">non cat de hoc mundo.</hi> Et cum hoc 
+   <lb ed="#PL"/> probaret diceris, <hi rend="italic">Si ex hoc mundo</hi> esset <hi rend="italic">regnum meum, 
+   <lb ed="#PL"/>
+    ministri</hi> mei <hi rend="italic">utique decertarent, ut non traderer</hi> Judaeis
+    <hi rend="italic">:</hi>
+   
+       <lb ed="#PL"/> non ait, <hi rend="italic">Nunc autem</hi> regnum <hi rend="italic">meum</hi> non est hic ; sed, 
+   <lb ed="#PL"/>
+       <hi rend="italic">non</hi> est <hi rend="italic">hinc.</hi> IIic est enim regnum ejus usque in finem 
+   <lb ed="#PL"/> saeculi, habens inter se commixta zizania usque ad 
+   <lb ed="#PL"/> messem ; messis enim finis est saeculi , quando mes<lb ed="#PL" break="no"/>sores
+   venient, id est Angeli, et colligent de regno ejas 
+   <lb ed="#PL"/> omnia scandala <hi rend="italic">(Matth.</hi> XIII, 38-41); quod utique non 
+   <lb ed="#PL"/> fieret, si regnum ejus non esset hic. Sed lamen non 
+   <lb ed="#PL"/> est hinc; quia peregrinatur in mundo : regno suo 
+   <lb ed="#PL"/> Suippe dicit, <hi rend="italic">De mundo non</hi> catis, <hi rend="italic">sed ego vos elegi de
+   <lb ed="#PL"/> mundo
+    (Joan.</hi> xv, 19). Erant ergo de mundo, quando 
+   <lb ed="#PL"/> regnum ejus non erant, sed ad mundi principem per<lb ed="#PL" break="no"/>tinebant. De mundo est ergo quidquid hominum a 
+   <lb ed="#PL"/> vero quidem Deo creatum, sed ex Adam vitiata atque 
+   <lb ed="#PL"/> damnata stirpe generatum est: factum est autem re<lb ed="#PL" break="no"/>gnum
+   non jam de mundo, quidquid inde in Christo 
+   <lb ed="#PL"/> regeneratum est. Sic enim nos Deus eruit de pole<lb ed="#PL" break="no"/>state
+   tenebrarum, et transtulit in regnum Filii chari<lb ed="#PL" break="no"/>latis
+   suae <hi rend="italic">(Coloss.</hi> I, 13) : de quo regno dicit, <hi rend="italic">Regnum</hi>
+   
+       <lb ed="#PL"/> meum <hi rend="italic">non est de hoc</hi> mundo ; vel, <hi rend="italic">Regnum
+    meum non</hi>
+   
+       <lb ed="#PL"/> eat <hi rend="italic">hinc.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e982-d1e430">3. <hi rend="italic">Dixit itaque ei Pilatus : Ergo rex es tu?</hi> Respon­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">dit Jesus : Tu dicisquia rex sum ego.</hi> Non quia regem 
+   <lb ed="#PL"/> se timuit consiteri ; sed <hi rend="italic">Tu dicis</hi> ita libratum est, ut 
+   <lb ed="#PL"/> neque se regem neget (rex est enim cujus regnum noa 
+   <lb ed="#PL"/> est de hoc mundo), neque regem talem se esse fatea<lb ed="#PL" break="no"/>tur, cujus regnum putetur esse de hoc mundo. Ta<lb ed="#PL" break="no"/>lem
+   quippe ille sentiebat qui dixerat, <hi rend="italic">Ergo rex es tu?</hi>
+   
+       <lb ed="#PL"/> cui responsum est, <hi rend="italic">Tu dicis quia rex</hi> sum <hi rend="italic">ego.</hi> Dictum 
+   <lb ed="#PL"/> est enim, <hi rend="italic">Tu dicis,</hi> ac si dictum esset, carnalis carna<lb ed="#PL" break="no"/>liter
+   dicis.</p>
+      <p xml:id="iuy75t-d1e982-d1e474">i 4. Deinde subjungit : <hi rend="italic">Ego</hi> in <hi rend="italic">hoc natus sum,
+    et ad 
+   <lb ed="#PL"/> hoc veni</hi> in munduM, <hi rend="italic">ut testimonium perhibeam
+    veritati.</hi>
+   
+       <lb ed="#PL"/> Non est producenda hujus pronominis syllaba, quod 
+   <lb ed="#PL"/> , ait, In <hi rend="italic">hoc</hi> natus <hi rend="italic">sum</hi>tanquam dixerit, In hac re na­
+   
+   <lb ed="#PL"/> tus sum : sed corripienda, tanquam dixerit, Ad hanc 
+   <lb ed="#PL"/> 1 rem natus sum, vel ad hoc natus sum; sicut ait, <hi rend="italic">Ad 
+   <lb ed="#PL"/> hoc veni in mundum.</hi> In graeco namque Evangelio ni<lb ed="#PL" break="no"/>hil
+   est hujus locutionis ambiguum <hi rend="italic">(a).</hi> Unde manife<lb ed="#PL" break="no"/>stum
+   est eum temporalem nativitatem suam hic com<lb ed="#PL" break="no"/>memorasse, qua incarnatus venit in mundum; nun 
+   <lb ed="#PL"/> illam sine initio qua Deus erat, per quem Pater con<lb ed="#PL" break="no"/>didit
+   mundum. In hoc ergo sc dixit natum, id est 
+   <lb ed="#PL"/> propter hoc natum, et ad hoc venisse in mundum, 
+   <lb ed="#PL"/> utique nascendo de Virgine, ut testimonium perhi<lb ed="#PL" break="no"/>beat
+   veritati. Sed quia non omnium est fides (II 
+   <lb ed="#PL"/>
+       <hi rend="italic">Thess.</hi> III, 2), adjunxit, atque ait : <hi rend="italic">Omnis</hi> qui est <hi rend="italic">ex 
+   <lb ed="#PL"/> veritate, audit meam vocem.</hi> Audit utique interioribus 
+   <lb ed="#PL"/> auribus, id est, obaudit meae voci: quod tantumdem 
+   <lb ed="#PL"/> valeret si diceret, Credit mihi. Cum itaque Christus 
+   <lb ed="#PL"/> testimonium perhibet veritati, profecto testimonium 
+   <lb ed="#PL"/> perhibet sibi : ejus quippe vox est, <hi rend="italic">Ego sum veritas
+   <lb ed="#PL"/> (Joan.</hi> xiv, 6) : et dixit alio quoque loco.
+    <hi rend="italic">Ego testi<lb ed="#PL" break="no"/>monium
+   perhibeo de me ( Id.</hi> VIII, 18), Quod vero ait, 
+   <lb ed="#PL"/> Omnis <hi rend="italic">qui eat ex veritate, audit vocem meam,</hi> gratiani 
+   <lb ed="#PL"/> commendavit qua secundum propositum vocat. De 
+   <lb ed="#PL"/> clun proposito dicit Apostolus, <hi rend="italic">Scimus quia diligenti<lb ed="#PL" break="no"/>bus
+   Deum omnia cooperal
+    tur</hi> in <hi rend="italic">bonum, his</hi> qui <hi rend="italic">secun<lb ed="#PL" break="no"/>dum
+    propositum Dei vocati</hi> sunt <hi rend="italic">(Rom.</hi> VIII, 28); pro<lb ed="#PL" break="no"/>positum
+   scilicet vocantis, non vocatorum : quod alibi 
+   <lb ed="#PL"/> apertius ita positum est,
+    <hi rend="italic">Collabora Evangelio secundum 
+   <lb ed="#PL"/> virtutem Dei, salvos nos
+    facientis et vocantis vocatione</hi>
+   
+       <lb ed="#PL"/> sua <hi rend="italic">sancta; non secundum opera nostra, sed secundum
+   <lb ed="#PL"/> suum
+    propositum et gratiam</hi> ( II <hi rend="italic">Tim.</hi> I, 8, 9). Nam si 
+   <lb ed="#PL"/> naturam cogitemus in qua creati sumus, cum omnes 
+   <lb ed="#PL"/> veritas creaverit, quis non est ex veritate? Sed non 
+   <lb ed="#PL"/> omnes sunt quibus ut audiant veritatcm, hoc est ut 
+   <lb ed="#PL"/> obaudiant veritati, et credant in veritatem, ex ipsa 
+   <lb ed="#PL"/> veritate praestatur ; nullis procul dubio praecedenti<lb ed="#PL" break="no"/>bus
+   meritis, ne gratia non sil gratia. Si enim dixis­
+   
+   <lb ed="#PL"/> set, Omnisqui audit Ineam vocem, ex veritate est: 
+   <lb ed="#PL"/> ideo dictus ex vcritale putaretur, quia obtemperat 
+   <lb ed="#PL"/> veritati : non autem hoc ait; sed ait, <hi rend="italic">Omnis</hi> qui <hi rend="italic">eat
+   <lb ed="#PL"/> ex veritate, audit meam
+    vocem.</hi> Ac per hoc nou ideo 
+   <lb ed="#PL"/> est ex veritate, qnia ejus audit vocem ; sed ideo an<lb ed="#PL" break="no"/>dit, quia ex veritate est, id est, quia hoc ilii donum 
+   <lb ed="#PL"/> ex veritate collatum est. Quod quid est aliud, quam 
+   
+   <pb ed="#PL" n="1941"/>
+       <lb ed="#PL"/> douante Christo credit in Christum?</p>
+      <p xml:id="iuy75t-d1e982-d1e646">5. <hi rend="italic">Dixit ei Pilatus: Quid est veritas?</hi> Nee exspectavit 
+   <lb ed="#PL"/> audire responsum; sed <hi rend="italic">cum hoc dixisset, iterum exivit
+   <lb ed="#PL"/> ad Judaeos,
+    et dixit eia : Ego nullam</hi> invenio in <hi rend="italic">co cau­
+   <lb ed="#PL"/> sam. Est
+    autem</hi> consuetudo <hi rend="italic">vobis</hi> ut <hi rend="italic">unum
+    dimittam</hi> vo­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">bis ira I'ascha; vullis ergo dimittam vobis regem Ju­ 
+   <lb ed="#PL"/>
+    daeorum?</hi> Credo cum dixisset Pilatus, <hi rend="italic">Quid cat veritas?</hi>
+   
+       <lb ed="#PL"/> in mentem illi vonissc continuo consuetudinem Ju<lb ed="#PL" break="no"/>daeorum, qua solebat eis dimitii unus in Pascha :et
+   <lb ed="#PL"/> ideo non exspectavit ut responderet ei Jpsus quid est
+   
+   <lb ed="#PL"/> veritas, ne mora fieret, cum recoluisset morem quo 
+   <lb ed="#PL"/> I posset eis per Pascha dimitti; quod eum valde vo<lb ed="#PL" break="no"/>luisse
+   manifestum est. Avelli tamen ex ejus corde
+   
+   <lb ed="#PL"/> non potuit Jesum regem esse Judaeorum, tanquam 
+   <lb ed="#PL"/> hoc ibi, sicut in titulo, ipsa veritas fixerit, de qua 
+   <lb ed="#PL"/> quid esset interrogavit. Sed hoc audito, <hi rend="italic">Clamaverunt 
+   <lb ed="#PL"/> rursum omnes dicentes : Non hunc, scd Barabbam.
+   <lb ed="#PL"/> Erat autem
+    Barabbas latro.</hi> Non reprehendimus, o 
+   <lb ed="#PL"/> Judaei, quod per Pascha liberalis nocentem, sed quod 
+   <lb ed="#PL"/> occiditis innocentem : quod tamen nisi fieret, verum 
+   <lb ed="#PL"/> Pascha non fieret. Sed umbra veritatis a Judaeis er<lb ed="#PL" break="no"/>rantibus
+   tenebatur, et mirabili dispensatione divinae 
+   <lb ed="#PL"/> sapientiae per homines fallaces ejusdem umbrae veri­
+   
+   <lb ed="#PL"/> tas implebatur ; quia ut verum Pascha fieret, Christus 
+   <lb ed="#PL"/> velut ovis immolabatur. Hinc ea sequuntur quae in<lb ed="#PL" break="no"/>juriosa
+   Christo Pilatus et cohors ejus ingessit; sed 
+   <lb ed="#PL"/> alia disputatione tractanda sunt.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

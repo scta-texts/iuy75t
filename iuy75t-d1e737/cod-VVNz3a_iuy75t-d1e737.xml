@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 85</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 85</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e737"> <!-- iuy75t-t85 -->
+      <head xml:id="iuy75t-d1e737-Hd1e109">Tractatus 85</head>
+      <p xml:id="iuy75t-d1e737-d1e112">
+       <hi rend="italic">De eo quod dicit,</hi> Vos amici mei estis, si feceritis quae 
+   <lb ed="#PL"/> praecipio vobis. Jam non dico vos servos; quia ser<lb ed="#PL" break="no"/>vus
+   nescit quid faciat domiuus ejus. Cap. xv, ℣f. 
+   <lb ed="#PL"/> 14, is.</p>
+      <p xml:id="iuy75t-d1e737-d1e124">1. Cum Dominus Jesus commendasset charitatem 
+   <lb ed="#PL"/> quam exhibuit nobis moriendo pro nohis, atque dixis<lb ed="#PL" break="no"/>set, <hi rend="italic">Majorem hac dilectionem nemo habet, ut
+    animam 
+   <lb ed="#PL"/> suam ponat quis pro amicis suis</hi> : Vos, inquit, <hi rend="italic">amici</hi>
+   
+       <lb ed="#PL"/> tnei <hi rend="italic">estis, si feceritis quae ego praecipio vobis.</hi> Magna
+   
+   <lb ed="#PL"/> dignatio ! cum servus bonus esse non possit, nisi 
+   <lb ed="#PL"/> praecepta domini sui fecerit; hinc amicos suos voluil 
+   <lb ed="#PL"/> intelligi, unde servi boni possunt probari. Sed,
+   , ut 
+   <lb ed="#PL"/> dixi , isia d gnatio est, ut dominus quos novit servos 
+   <lb ed="#PL"/> suns, dignetur dicere amicos suos. Nam ut sciatis ad 
+   <lb ed="#PL"/> servorum officium pertinere praecepta domini sui fa<lb ed="#PL" break="no"/>cere , alio loco servos utiquc ohjurgat dicens : <hi rend="italic">Quid
+   <lb ed="#PL"/> autem vocatis me, Domine, Domine, et non facitis quae 
+   <lb ed="#PL"/> dico (Luc.</hi> vi, 46)? Cum ergo dicitis, inquit, Domine; 
+   <lb ed="#PL"/> jussa faciendo, quid dicatis ostendite. Nonne servo 
+   <lb ed="#PL"/> ohcdicnli ipse dicturus est, <hi rend="italic">Euge, serve bone,
+    quia</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">paucis fuisti fidelis, supra multa te constituam; intra in 
+   <lb ed="#PL"/>
+    gaudium Domini tui (Matth.</hi> xxv, 21) ? Potest igitur 
+   <lb ed="#PL"/> esse servus et amicus, qui servus est bonus.</p>
+      <p xml:id="iuy75t-d1e737-d1e184">i. Sed quod sequitur attendamus. <hi rend="italic">Jam non dico 
+   <lb ed="#PL"/> vos servos; quia
+    servus nescit quid faciat dominus ejus.</hi>
+   
+       <lb ed="#PL"/> Quomodo ergo intellecturi sumus, et servum et ami<lb ed="#PL" break="no"/>cum
+   esse servum bonum, cum dicat, <hi rend="italic">Jam non dico
+   <lb ed="#PL"/> vos servos, quia servus nescit quid
+    faciat dominus ejus ?</hi>
+   
+       <lb ed="#PL"/> Ita nomen constituit amici, ut auferat servi; non ut 
+   <lb ed="#PL"/> in uno utrumque maneat, sed ut alterum allero dece<lb ed="#PL" break="no"/>dente
+   succedat. Quid est hoc ? Itane cum praecepta
+   
+   <lb ed="#PL"/> Domini fecerimus, servi non crimus? Itane tunc servi 
+   <lb ed="#PL"/> non erimus, quando boni servi fuerimus? Et quis 
+   <lb ed="#PL"/> contradicere potest veritati quae ait, <hi rend="italic">Jam non dico vos</hi>
+   
+       <lb ed="#PL"/> serros? Et cur huc dixcrit, docct : <hi rend="italic">Quia</hi> servus, in­ 
+   <pb ed="#PL" n="1849"/>
+       <lb ed="#PL"/> quit, <hi rend="italic">nescit quid faciat</hi> domMim <hi rend="italic">ejus.</hi> Numquidnam 
+   <lb ed="#PL"/> servo bono et probato dominus ejus non etiam se<lb ed="#PL" break="no"/>creta
+   sua commitlil? Quid est ergo quod ait, <hi rend="italic">Servus 
+   <lb ed="#PL"/> nescit quid
+    faciat dominus ejus?</hi> Verum, esto, <hi rend="italic">nescit 
+   <lb ed="#PL"/> quid
+    faciat;</hi> numquid nescit etiam quid praecipiat? 
+   <lb ed="#PL"/> Nam et si hoc nescit , quomodo servit ? Aut quomodo 
+   <lb ed="#PL"/> servus est, qui non servit? Et tamcn Dominus loqui<lb ed="#PL" break="no"/>tur,
+   <hi rend="italic">Vosamici mei estis,</hi> si <hi rend="italic">feceritis quae ego
+    praecipio 
+   <lb ed="#PL"/> vobis.</hi> Jam non <hi rend="italic">dico vos servos.</hi> 0 rem mirabilem! 
+   <lb ed="#PL"/> Cnm servire non possimus, nisi praecepta Domini 
+   <lb ed="#PL"/> fecerimus, quomodo praecepta faciendo servi non 
+   <lb ed="#PL"/> erimus? Si servus non ero praecepta faciendo, et nisi
+   
+   <lb ed="#PL"/> praecepta fecero, servire non potero; ergo serviendo 
+   <lb ed="#PL"/> servus non ero.</p>
+      <p xml:id="iuy75t-d1e737-d1e278">5. Intelligamus, fratres , intelligamus, et hoc in 
+   <lb ed="#PL"/> nobis Dominus faciat ut intelligamus, faciat etiam ut 
+   <lb ed="#PL"/> intellecta faciamus. Hoc antem si scimus, profecto
+   
+   <lb ed="#PL"/> scimus quod facit Dominus, quia nos ipsos tales non 
+   <lb ed="#PL"/> facit nisi Domitius, et per hoc ad cjus amicitiam per<lb ed="#PL" break="no"/>tinemus. Sicut enin duo sunt timores, qui faciunt
+   
+   <lb ed="#PL"/> duo genera timentium; sic duae sunt servitutes, quae 
+   <lb ed="#PL"/> faciunt duo gcnera servorum. Est timor quem per<lb ed="#PL" break="no"/>fecta
+   charitas foras millit (I <hi rend="italic">Joan.</hi> iv, 18), el est 
+   <lb ed="#PL"/> alius timor castus permanens in saeculum saeculi <hi rend="italic">(Psal.</hi>
+   
+       <lb ed="#PL"/> XVIII, 10). Illum timorem qui non est in charitate, at<lb ed="#PL" break="no"/>tendebat
+   Apostolus, cum dicebat : <hi rend="italic">Non</hi> enim <hi rend="italic">ucce<lb ed="#PL" break="no"/>pistis
+    spiritum servitutis</hi> iterum <hi rend="italic">in timore (Rom.</hi> vin , 
+   <lb ed="#PL"/> d5). Illum autem timorem castum atiendebat, cum 
+   <lb ed="#PL"/> dicebat: <hi rend="italic">Noli
+    allum sapere, sed time (Id.</hi> XI, 20). In 
+   <lb ed="#PL"/> illo timore quem foras charitas mittit, est etiam ser<lb ed="#PL" break="no"/>vitus
+   simul foras cum ipso timore mittenda : utrum<lb ed="#PL" break="no"/>que
+   enin junxit Apostolus, hoc est servitulcmetti<lb ed="#PL" break="no"/>morem , dicendo, Non <hi rend="italic">enim accepistis</hi> spiritum <hi rend="italic">servi­
+   <lb ed="#PL"/> tutis
+    iterum</hi> in <hi rend="italic">timore.</hi> Ad hanc servitutem servum 
+   <lb ed="#PL"/> portinentem intuebatur et Dominus dicens, <hi rend="italic">Jam non 
+   <lb ed="#PL"/> dico vos</hi> servos ; <hi rend="italic">quia servus nescit quid faciat dominus</hi>
+   
+       <lb ed="#PL"/> ejus. Non utique ille servus pertinens ad timorem 
+   <lb ed="#PL"/> castum , cui dicitur, <hi rend="italic">Euge,, serre bone, intra in gau­</hi>
+   
+       <lb ed="#PL"/> dium <hi rend="italic">Domini tui</hi> : sed illc servus pertinens ad limo<lb ed="#PL" break="no"/>rem
+   foras a charitate mittendum, de quo alibi dicit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Servus non manet in domo in aeternum; filius autem</hi>
+   
+       <lb ed="#PL"/> manet in <hi rend="italic">aeternum (Joan.</hi> VIII, 55). Quoniam itaque 
+   <lb ed="#PL"/> dedit nobis potestatem filius Dei fieri <hi rend="italic">(Id.</hi> I, 12) , 
+   <lb ed="#PL"/> non servi, sed filii simus: ut miro quoriametinefTabili, 
+   <lb ed="#PL"/> sed tamen vero modo, servi non servi esse possimus; 
+   <lb ed="#PL"/> serVi scilicet timore casto, ad quem pertinet servus
+   
+   <lb ed="#PL"/> intrans in gaudium domini sui; non servi autem ti<lb ed="#PL" break="no"/>more
+   foras mittendo, ad quem pertinet servus non 
+   <lb ed="#PL"/> manens in domo in aeternum. Ut autem tales servi non
+   
+   <lb ed="#PL"/> servi simus, Dominum facere sciamus I. Hoc autem 
+   <lb ed="#PL"/> servus ille nescit, qui nescit I quid faciat Dominus 
+   <lb ed="#PL"/> eju9; et cum aliquid boni facit, sic extollitur quasi
+   
+   <lb ed="#PL"/> hoc ipse faciat, non Dominus ejus; et in se, non in 
+   <lb ed="#PL"/> Dommo gloriatur, cum se ipse deceperit, qnia sic 
+   <lb ed="#PL"/> gloriatur, quasi non acceperit (I <hi rend="italic">Cor.</hi> IV, 7). Nos au<lb ed="#PL" break="no"/>tem, charissimi, ut amici Domini esse possimus, 
+   
+   <lb ed="#PL"/> quid noster Dominus faciat sciamus. Non solum enim 
+   <lb ed="#PL"/> homines, verum etiam justos ipse facit nos, et non 
+   <lb ed="#PL"/> ipsi nos. Ei ut hoc sciamus, quis nisi ipse facit? Non 
+   <lb ed="#PL"/> enim <hi rend="italic">spiritum hujusmundi</hi> accepiMus, <hi rend="italic">sed</hi> Spiritum <hi rend="italic">qui
+   <lb ed="#PL"/> ex Deo est, ut sciamus quae a Deo donata
+    sunt</hi> nobis 
+   <lb ed="#PL"/> (I <hi rend="italic">Cor.</hi> n, 12). Ab ipso quidquid boni est, donamur. 
+   <lb ed="#PL"/> Ergo quia et hoc bonum est, ab ipso utique donatur 
+   <lb ed="#PL"/> ut scialur a quo bonum omne dona tur ; ut omnino de 
+   <lb ed="#PL"/> omniibus bonis, qui gloriatur, in Domino glorietur 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Idl</hi> i, 31). Quod vero sequitur, Vos <hi rend="italic">autem dixi
+    ami<lb ed="#PL" break="no"/>cos; quia omnia quaecumque audivi a Patre meo, nota 
+   <lb ed="#PL"/> feci vobis,</hi> ila est profundum, ut nullo modo sit islo 
+   <lb ed="#PL"/> sermone coarctandum , sed in alium differendum.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 52</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 52</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e467"> <!-- iuy75t-t52 -->
+      <head xml:id="iuy75t-d1e467-Hd1e109">Tractatus 52</head>
+      <p xml:id="iuy75t-d1e467-d1e112">
+       <hi rend="italic">Ab eo quod scriptum est,</hi> Nunc anima mea turbata 
+   <lb ed="#PL"/> est; et quid dicam? <hi rend="italic">usque ad</hi> id, Haec loculus est 
+   <lb ed="#PL"/> Jesus, et abiit, et abscondit se, ab eis. <hi rend="italic">Cap.</hi> XII, 
+   <lb ed="#PL"/> ℣. 27-36.</p>
+      <p xml:id="iuy75t-d1e467-d1e131">i. Postquam Dominus Jesus Christus verbis lectio<lb ed="#PL" break="no"/>nis
+   hesternae ministros suos ut seipsum sequerentur 
+   <lb ed="#PL"/> hortatus est , cum ita praedixisset passionem suam, 
+   <lb ed="#PL"/> qnod nisi granum frumenti cadens in terram mortuum 
+   <lb ed="#PL"/> fuerit, solum manet; si autem mortuum fuerit, mul<lb ed="#PL" break="no"/>tum
+   fructum affert: ubi excitavit eos, qui eum ad 
+   <lb ed="#PL"/> regnum coelorum sequi vellent, ut animam suam odis<lb ed="#PL" break="no"/>sent
+   in hoc mundo, si eam in vitam aeternam custo<lb ed="#PL" break="no"/>dire
+   cogitarent : ad nostram rursus infirmitatem 
+   <lb ed="#PL"/> suum temperavit affectum , et ait, unde lectio coepit 
+   <lb ed="#PL"/> hodierna, <hi rend="italic">Nunc
+    anima mea turbata est.</hi> Unde turbata 
+   <lb ed="#PL"/> est, Domine, anima tua? Nempe paulo ante dixisti, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Qui odit</hi> animam <hi rend="italic">suam</hi> in <hi rend="italic">hoc</hi> mundo, in <hi rend="italic">vitam oeternam</hi>
+   
+       <lb ed="#PL"/> custodit <hi rend="italic">eam.</hi> Ergo anima tua in hoc mundo amatur, 
+   <lb ed="#PL"/> ideo turbatur veniente hora qua ex hoc mundo egre<lb ed="#PL" break="no"/>diatur? Quis hoc de anima Domini audeat affirmare? 
+   <lb ed="#PL"/> Sed nos in se transtulit, nos in se suscepit caput 
+   <lb ed="#PL"/> nostrum , membrorum suorum suscepit affectum : et 
+   <lb ed="#PL"/> ideo non est ab aliquo turbatum; sed sicut de illo di<lb ed="#PL" break="no"/>ctum
+   est, cum Lazarum suscitaret, <hi rend="italic">turbavit
+    semetip­</hi>
+   
+       <lb ed="#PL"/> sum <hi rend="italic">(Joan.</hi> XI, 33). Oportebat enim ut unus mediator. 
+   <lb ed="#PL"/> Dei et hominum homo Christus Jesus, sicut nos 
+   <lb ed="#PL"/> excitavit ad summa, ita nobiscum pateretur et in<lb ed="#PL" break="no"/>tima
+   I.</p>
+      <p xml:id="iuy75t-d1e467-d1e209">i. Audio superius dicentem , <hi rend="italic">Venit hora</hi> ut glorifi<lb ed="#PL" break="no"/>cetur
+    <hi rend="italic">Filius</hi> hominis : si <hi rend="italic">mortificatum</hi> fuerit
+    <hi rend="italic">granum,</hi>
+   
+       <lb ed="#PL"/> multum fructum <hi rend="italic">affert.</hi> Audio, <hi rend="italic">Qui odit
+    animam</hi> suam 
+   <lb ed="#PL"/> in <hi rend="italic">hoc mundo,</hi> in <hi rend="italic">vitam
+    oeternam custodit eam.</hi> Nee 
+   <lb ed="#PL"/> permittor tantummodo mirari, sed jubeor imitari.
+   
+   <lb ed="#PL"/> Deinde sequentibus verbis, Si <hi rend="italic">quis mihi ministrat, 
+   <lb ed="#PL"/> me
+    sequatur; et ubi sum ego, ibi el minister</hi> meus <hi rend="italic">erit ;</hi>
+   
+       <lb ed="#PL"/> mundum contemnere accendor, et in conspectu meo 
+   <lb ed="#PL"/> nihil est vitae hujus totus, quantumlibet fuerit pro<lb ed="#PL" break="no"/>lixus, vapor; prae amore aeternorum temporalia mihi 
+   <lb ed="#PL"/> cuncta vilescunt : et rursus ipsum Dominum meum, 
+   <lb ed="#PL"/> qui me illis verbis ab infirmitate mea rapuit ad firmi<lb ed="#PL" break="no"/>tatem
+   suam, audio dicentem, <hi rend="italic">Nunc anima mea</hi> tur<lb ed="#PL" break="no"/>bata <hi rend="italic">est.</hi> Quid est hoc? Quomodo sequi jubes animam 
+   <lb ed="#PL"/> meam, si turbari video animam tuam? quomodo suf<lb ed="#PL" break="no"/>feram
+   quod grave tanta firmitas sentit? quale funda<lb ed="#PL" break="no"/>mentum
+   quaeram. si petra succumbit? Sed videor 
+   <lb ed="#PL"/> mihi audire in cogitatione mea respondentem mihi 
+   <lb ed="#PL"/> Dominum , et quodammodo dicentem . Magis seque<lb ed="#PL" break="no"/>ris, quia sic me interpono ut sufferas : audisti ad te 
+   <lb ed="#PL"/> vocem fortitudinis meae, audi in me vocem infirmita- 
+   
+   <lb ed="#PL"/> tis tuae : vires suggero ut currus, nee reprimo quod 
+   <lb ed="#PL"/> acceleras; sed transfero in me quod trepidas , et sub<lb ed="#PL" break="no"/>sterno
+   qua transeas. 0 Domine mediator, Deus supra
+   
+   <lb ed="#PL"/> nos, homo propter nos, agnosco miscricordiam 
+   <lb ed="#PL"/> tuam! nam quod tu tantus tuae charitatis voluntate 
+   <lb ed="#PL"/> turbaris, multos in corpore tuo qui suae infirmitatis 
+   <lb ed="#PL"/> necessitate turbantur, ne desperando pereant conso<lb ed="#PL" break="no"/>laris.</p>
+      <p xml:id="iuy75t-d1e467-d1e311">3. Denique homo qui sequi vult, audiat qua sc. 
+   <lb ed="#PL"/> quatur. Accessit forte hora terribilis, proponitur optio 
+   <lb ed="#PL"/> aut faciendae iniquitatis, aut subeundue passionis;
+   
+   <lb ed="#PL"/> turbatur anima infirma , propter quam sponte turbata 
+   <lb ed="#PL"/> est anima invicta : praepone tuae voluntati voluntatem 
+   <lb ed="#PL"/> Dei. Attende enim quid deinde subjungat creator tuus 
+   <lb ed="#PL"/> et magister tuus, qui te fecit, et ut te doceret factus 
+   <lb ed="#PL"/> est et ipse quod fecit: homo enim factus est qui ho<lb ed="#PL" break="no"/>minem
+   fecit; sed Deus incommutabilis mansit, et 
+   <lb ed="#PL"/> hominem in melius commutavit. Audi ergo quid inde 
+   <lb ed="#PL"/> subjungat, cum dixisset, <hi rend="italic">Nunc anima mea turbata
+   <lb ed="#PL"/> est. Et quid dicam,</hi> inquit?
+    <hi rend="italic">Pater, salvifica me ex hac 
+   <lb ed="#PL"/> hora : sed</hi> propterea veni in
+    <hi rend="italic">hanc horam. Pater, clarifica 
+   <lb ed="#PL"/> nomen tuum.</hi> Docuit tc quid cogites, docuit quid dicas, 
+   <lb ed="#PL"/> quem invoces, in quo speres, cujus voluntatem cer­
+   
+   <lb ed="#PL"/> tam atque divinam tuae voluntati humanae infirmaeque 
+   <lb ed="#PL"/> praeponas. Non ideo tibi videatur ex alto deficere, 
+   <lb ed="#PL"/> qnia te vult ab imo proficere. Nam et tentari dignatus
+   
+   <lb ed="#PL"/> est a diabolo, a quo utiqne si nollet non tentaretur, 
+   <lb ed="#PL"/> qucmadmodum si nollet non pateretur: et ea respon<lb ed="#PL" break="no"/>dit
+   diabolo, quoe tu in tentationibus debcas respon­
+   
+   <lb ed="#PL"/> dere <hi rend="italic">(Matth.</hi> IV, 1-10). Et ille quidem teniatus est, 
+   <lb ed="#PL"/> sed non periclitatus; ut duceret te in tentatione 
+   <lb ed="#PL"/> periclitantem tentatori respondere, et post tentato<lb ed="#PL" break="no"/>rem
+   non ire, sed de periculo tentationis exirc. Sicut
+   
+   <lb ed="#PL"/> autem hic dixit, <hi rend="italic">Nunc anima mea turbata est,</hi> ita 
+   <lb ed="#PL"/> etiam ubi dicit, <hi rend="italic">Tristis est anima men usque ad</hi> mor­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tem ;</hi> et, <hi rend="italic">Pater,</hi> si <hi rend="italic">fieri potest, transeat a me calix iste:</hi>
+   
+       <lb ed="#PL"/> hominis suscepit infirmitatcm 1, ut doceat sic contri<lb ed="#PL" break="no"/>statum
+   et conturbatum quod sequitur dicere, Verum­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tamen non quod ego volo, sed quod tu vis, Pater 
+   <lb ed="#PL"/> (Id.</hi> XXVI, 38 <hi rend="italic">et</hi> 39). Sic enim homo ab humanis in 
+   <lb ed="#PL"/> divina dirigitur, cum voluntati humanae voluntas di<lb ed="#PL" break="no"/>vina
+   praeponitur. Quid est autem, <hi rend="italic">Clarifica tuum no­
+   <lb ed="#PL"/> men;</hi> nisi, in sua passione et resurrectione! Quid est 
+   <lb ed="#PL"/> ergo aliud, nisi ut Pater clarificet Filium, qui clari­
+   
+   <lb ed="#PL"/> ficat suum nomen etiam in similibus passionibus ser<lb ed="#PL" break="no"/>vorum
+   suorum ? Unde scriptum est de Petro, quod 
+   <lb ed="#PL"/> ideo de illo dixerit, <hi rend="italic">Alter te
+    cinget, et feret quo tu
+   <lb ed="#PL"/> non</hi> vis; quia significare voluit, <hi rend="italic">qua morte glorificaturus
+   <lb ed="#PL"/> erat Deum (Joan.</hi> xxi, i8, 19). Ergo et in illo Deus 
+   <lb ed="#PL"/> clarificavit nomen suum, quia sic etiam in membris 
+   <lb ed="#PL"/> suis clorificat Christum.</p>
+      <p xml:id="iuy75t-d1e467-d1e448">4. <hi rend="italic">Venit ergo</hi> vox <hi rend="italic">de caelo, Et clarificavi, et
+    iterum 
+   <lb ed="#PL"/> clarificabo. Et</hi> clarificavi, antequam facerem mundum : 
+   <lb ed="#PL"/>
+       <hi rend="italic">et</hi> iterum clarificabo, cum resurget a mortuis, et a,. 
+   <lb ed="#PL"/> cendet in caelum. Et aliter intelligi potest. <hi rend="italic">Et</hi> clarifi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">cavi,</hi> cum de Virgine natus est, cum virtutes opera- 
+   
+   
+   
+   <pb ed="#PL" n="1771"/>
+       <lb ed="#PL"/> tus est, curo coelo indice per stellam a Magis adoratus 
+   <lb ed="#PL"/> cst, cum a sanctis Spiritu sancto plenis agnitus est , 
+   <lb ed="#PL"/> cum descendente Spiritu in specie columbae declara<lb ed="#PL" break="no"/>tus, cum voce de coelo sonante monstratus, cum in 
+   <lb ed="#PL"/> monte transfiguratus, cum miracula multa fecit, cum 
+   <lb ed="#PL"/> multos sanavit atque mundavit, cum de paucissimis 
+   <lb ed="#PL"/> panibus tantam multitudinem pavit, cum ventis et Ou<lb ed="#PL" break="no"/>ctibus
+   imperavit, cum mortuos suscitavit: <hi rend="italic">et iterum 
+   <lb ed="#PL"/> clarificabo,</hi> cum resurget a mortuis, cum mors ei 
+   <lb ed="#PL"/> ultra non dominabitur, cum exaltabitur super coelos 
+   <lb ed="#PL"/> Deus, et super omnem terram gloria ejus.</p>
+      <p xml:id="iuy75t-d1e467-d1e504">5. <hi rend="italic">Turba ergo quat stabat, et audierat, dicebat</hi> toni­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">truum factum</hi> esse : <hi rend="italic">alii dicebant, Angelus ei
+    locutus 
+   <lb ed="#PL"/> est. Respondit Jesus, et dixit: Non propter me haec</hi>
+   
+       <lb ed="#PL"/> vox <hi rend="italic">venit, sed propter</hi> vos. Hic ostendit illa voce non
+   
+   <lb ed="#PL"/> sibi iudicatum quod jam sciebat, sed eis quibus indi<lb ed="#PL" break="no"/>cari
+   pportebat. Sicut autem illa vox non propter eum, 
+   <lb ed="#PL"/> sed propter alios divinitate facta est; sic anima ejus, 
+   <lb ed="#PL"/> non propter eum, sed propter alios voluntate turbata 
+   <lb ed="#PL"/> est.</p>
+      <p xml:id="iuy75t-d1e467-d1e536">6. Attende caetera. <hi rend="italic">Nunc,</hi> inquit, <hi rend="italic">judicium
+    est</hi>
+   
+       <lb ed="#PL"/> mundi. Quid ergo exspectandum est in fine saeculi? 
+   <lb ed="#PL"/> Sed in fine quod exspectatur judicium, erit judican<lb ed="#PL" break="no"/>dorum
+   vivorum et mortuorum, judicium erit prae<lb ed="#PL" break="no"/>miorum
+   poenarumque aeterparum. Quale ergo nunc ju<lb ed="#PL" break="no"/>dicium
+   est? Jam in superioribus lectionibus quantum 
+   <lb ed="#PL"/> potui, commonui Charitatem vestram, dici etiam
+   
+   <lb ed="#PL"/> i judicium non damnationis, sed discretionis : unde 
+   <lb ed="#PL"/> scriptum est, <hi rend="italic">Judica met Deus, et discerne causam</hi>
+   
+       <lb ed="#PL"/> I <hi rend="italic">meam de gente non sancta (Psal.</hi> XLII, i). Multa autem
+   
+   <lb ed="#PL"/> sunt judicia Dei : unde dicitur in Psalmo, <hi rend="italic">Judicia tua</hi>
+   
+       <lb ed="#PL"/> abyssus <hi rend="italic">multa (Psal.</hi> XXXV, 7). Dicit etiam Apostolus, 
+   <lb ed="#PL"/> 0 <hi rend="italic">altitudo divitiarum sapienti</hi>ae <hi rend="italic">et scienti</hi>ae <hi rend="italic">Dei! quam 
+   <lb ed="#PL"/> inscrutabilia sunt judicia ejus
+    (Rom.</hi> xi, 33)! Ex qui<lb ed="#PL" break="no"/>bus
+   judiciis etiam hoc est quod hic ait Dominus, <hi rend="italic">Nunc 
+   <lb ed="#PL"/> judicium est mundi;</hi> servato illo judicio in fine, ubi
+   
+   <lb ed="#PL"/> novissime vivi et mortui judicandi sunt. Possidebat 
+   <lb ed="#PL"/> ergo diabolus genus humanum, et reos suppliciorum 
+   <lb ed="#PL"/> tenebat chirographo peccatorum; dominabatur in 
+   <lb ed="#PL"/> cordibus infidelium, ad creaturam colendam, deserto 
+   <lb ed="#PL"/> Creatore, deceptos captivosque pertrahebat : per 
+   <lb ed="#PL"/> Christi autem fidem, quae morte ejus et resurrectione 
+   <lb ed="#PL"/> firmata est, per ejus sanguinem, qui in remissionem 
+   <lb ed="#PL"/> fusus est peccatorum, millia credentium a dominatu 
+   <lb ed="#PL"/> liberantur diaboli, Christi corpori copulantur, et sub 
+   <lb ed="#PL"/> tanto capite uno ejus Spiritu fidelia membra vegetan<lb ed="#PL" break="no"/>tur. Hoc vocabat judicium, hanc discretionem, hanc 
+   <lb ed="#PL"/> esuis redemptis diaboli expulsionem.</p>
+      <p xml:id="iuy75t-d1e467-d1e628">7. Denique attende quid dicat. Quasi quaereremus 
+   <lb ed="#PL"/> quid esset quod ait, <hi rend="italic">Nunc judicium</hi> eat <hi rend="italic">mundi,</hi> secu<lb ed="#PL" break="no"/>tus
+   exposuit : ait euim , <hi rend="italic">Nunc princeps hujus mundi 
+   <lb ed="#PL"/> ejicietur
+    foras.</hi> Audivimus quale dixerit esse judicium. 
+   <lb ed="#PL"/> Non ergo illud quod in fine venturum est, ubi vivi et 
+   <lb ed="#PL"/> mortui judicandi sunt, aliis ad dexteram , aliis ad si­
+   
+   <lb ed="#PL"/> nistram scparalis; sed judicium quo <hi rend="italic">princeps hujus</hi>
+   
+       <lb ed="#PL"/> nundi <hi rend="italic">ejicietur foras.</hi> Quomodo ergo intus erat, et 
+   <lb ed="#PL"/> quo eum ejicicndun) dixit foras? Numquidnam in 
+   <lb ed="#PL"/> mundo erat, et extra mundum missus est foras? Si 
+   <lb ed="#PL"/> enim de illo judicio diceret, quod in fine venturum 
+   <lb ed="#PL"/> est, posset aliquis opinari ignem aeternum, quo mit. 
+   <lb ed="#PL"/> tendus est diabolus cum angelis suis, et omnibus qui 
+   <lb ed="#PL"/> sunt ex parte ejus ; non natura, sed vitio; non quia 
+   <lb ed="#PL"/> creavit aut genuit, sed quia persuasit et tenuit: posset 
+   <lb ed="#PL"/> ergo aliquis opinari illum ignem aeternum extra mun<lb ed="#PL" break="no"/>dum
+   esse, et hoc esse dictum , <hi rend="italic">ejicietur foras.</hi> Quia 
+   <lb ed="#PL"/> vero ait, <hi rend="italic">Nunc judicium est</hi> mundi; et exponens quid 
+   <lb ed="#PL"/> dixerit, <hi rend="italic">Nunc,</hi> inqnit, <hi rend="italic">princeps hujus</hi> mundi <hi rend="italic">ejicietur
+   <lb ed="#PL"/> foras:</hi> hoc intelligendum est quod nunc fit, non 
+   <lb ed="#PL"/> quod tanto post futurum est in novissimo die. Praedi<lb ed="#PL" break="no"/>cebat
+   ergo Dominus quod sciebat, post passionem 
+   <lb ed="#PL"/> et glorificationem suam per universum mundum mul- . 
+   <lb ed="#PL"/> tos populos credituros, in quorum cordibus diabolus 
+   <lb ed="#PL"/> intus erat; cui quando ex fide renuntiant, ejicitur 
+   <lb ed="#PL"/> foras.</p>
+      <p xml:id="iuy75t-d1e467-d1e716">8. Sed dicit aliquis : Numquid de cordibus Patriar<lb ed="#PL" break="no"/>charum
+   et Prophetarum, veterumque justorum nun 
+   <lb ed="#PL"/> ejectus est foras ? Ejectus est plane. Quomodo .ergo 
+   <lb ed="#PL"/> dictum est, <hi rend="italic">nunc ejicietur</hi> foras ? Quomodo putamus, 
+   <lb ed="#PL"/> nisi quia tunc quod in bominibus paucissimis factum 
+   <lb ed="#PL"/> est, nunc in multis magnisque populis jam mox futu<lb ed="#PL" break="no"/>rum
+   esse praedictum est? Sic et illud quod dictum est, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Spiritus autem nondum erat datus, quia Jesus nondum 
+   <lb ed="#PL"/> fuerat
+    glorificatus (Joan.</hi> vI, 39), potest similem ha<lb ed="#PL" break="no"/>bere
+   quaestionem, et similem solutionem. Non enim 
+   <lb ed="#PL"/> sine Spirltu sancto futura praenuntiaverunt Prophetae
+   ; 
+   <lb ed="#PL"/> aut non etiam Domiuum infantem in Spiritu sancto 
+   <lb ed="#PL"/> Simeon senex et Anna vidua cognoverunt <hi rend="italic">(Luc.</hi> II. 
+   <lb ed="#PL"/> 25-38); et Zacharias et Elizabeth, qui de illo nondum 
+   <lb ed="#PL"/> nato, sed jam concepto, tanta per Spiritum sanctuin
+   
+   <lb ed="#PL"/> praedixerunt <hi rend="italic">(ld.</hi> I, 41-45, 67-79). Sed <hi rend="italic">Spiritus non­
+   <lb ed="#PL"/> dum erat datus;</hi> id est, ilia abundantia gratiae spiri<lb ed="#PL" break="no"/>tualis,
+   qua congregati linguis omnium loquerentur 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Act.</hi> II, 4-6), ac sic in linguis omnium gentium futura 
+   <lb ed="#PL"/> praenuntiaretur Ecclesia : qua gratia spirituali populi 
+   <lb ed="#PL"/> congregarentur, qua longe lateque peccata dimitte<lb ed="#PL" break="no"/>rentur, et millia millium Deo reconciliarentur.</p>
+      <p xml:id="iuy75t-d1e467-d1e784">9. Quid ergo, ait quispiam, quia diabolus de creden<lb ed="#PL" break="no"/>tium
+   cordibus ejicietur foras, jam fidelium neminem 
+   <lb ed="#PL"/> tentat? Imo vero tentare non cessat. Sed aliud est in­
+   
+   <lb ed="#PL"/> trinsecus regnare, aliud forinsecus oppugnare : nam 
+   <lb ed="#PL"/> et munitissimam civitatem aliquando hostis oppugnat, 
+   <lb ed="#PL"/> nec expugnat. Et si aliqua tela ejus missa perveniunt, 
+   <lb ed="#PL"/> admonet Apostolus unde non laedant; commemorat 
+   <lb ed="#PL"/> loricam et scutum fidei (I <hi rend="italic">Thess.</hi> v, 8). Et si aliquando 
+   <lb ed="#PL"/> vulnerat, adest qui sanat, Quia sicut pugnantibus di<lb ed="#PL" break="no"/>ctum
+   est, <hi rend="italic">H</hi>ae<hi rend="italic">c scribo vobis, ut non peccetis :</hi> ita qui 
+   <lb ed="#PL"/> vulnerantur, quod sequitur audiunt, <hi rend="italic">Et</hi> si <hi rend="italic">quis pecca­
+   <lb ed="#PL"/> verit,
+    advocatum habemus apud Patrem, Jesum Chri­
+   <lb ed="#PL"/> stum justum;</hi> ipse <hi rend="italic">est propitiatio peccatorum nostrorum</hi>
+   
+       <lb ed="#PL"/> (I <hi rend="italic">Joan,</hi> II, i, 2). Quid enim oramus cum dicimus, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Dimitte nobis debita</hi> nostra, nisi ut vulnera nostra sa<lb ed="#PL" break="no"/>nentur
+   ? Et quid aliud petimus cum dicimus, <hi rend="italic">Ne</hi> nos 
+   <lb ed="#PL"/>
+       <hi rend="italic">inferas in tentationem (Matth.</hi> VI , i2, 13), nisi ut ille 
+   <lb ed="#PL"/> qui insidiatur, vel certat extrinsecus, nulla irrampat 
+   <lb ed="#PL"/> ex parte, nulla nos fraude, nulla nos possit.virtute 
+   <lb ed="#PL"/> supcrarc? Quantaslibet tamen adversum nos erigat 
+   <lb ed="#PL"/> machinas, quando non tenet locum cordis ubi fidrs 
+   <lb ed="#PL"/> habitat, ejectus est foras. Sed nisi Dominus custodi­ 
+   <pb ed="#PL" n="1773"/>
+       <lb ed="#PL"/> erit civitatem, in vanum vigilabil qui custodit <hi rend="italic">(Psal.</hi>
+   
+       <lb ed="#PL"/> CXXVI, 1). Nolite ergo de vobis ipsis praesumere, si 
+   <lb ed="#PL"/> non vultis foras ejectum diabolum intro iterum re<lb ed="#PL" break="no"/>vocare.</p>
+      <p xml:id="iuy75t-d1e467-d1e877">10. Absit autem ut diabolum mundi principcm ita 
+   <lb ed="#PL"/> dictum existimemus, ut eum coelo et terrae dominari 
+   <lb ed="#PL"/> posse credamus. Sed mundus appellatur in malis lio<lb ed="#PL" break="no"/>minibus,
+   qui toto orbe terrarum diffusi sunt : sicut 
+   <lb ed="#PL"/> appellatur domus in his a quibus habitatur, seeundum 
+   <lb ed="#PL"/> quod dicimus, Bona domos est, vel, mala domus est,
+   
+   <lb ed="#PL"/> non quando reprehendimus sive laudamus aedificium 
+   <lb ed="#PL"/> parietum atque tectorum, sed quando mores vel bo<lb ed="#PL" break="no"/>norum
+   bominum vel malorum. Sic ergo diCtum cst, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Princep.</hi> hujus <hi rend="italic">mundi</hi> : id est, princeps malorum 
+   <lb ed="#PL"/> omnium qui habitant in mundo. Appellatur eUam 
+   <lb ed="#PL"/> mundus in bonis, qui similiter toto terrarum orbe 
+   <lb ed="#PL"/> diffusi sunt: inde dicit Apostolus, <hi rend="italic">Deus erat</hi> in Chri­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">sto,</hi> mundum reconcilians <hi rend="italic">sibi</hi> (II <hi rend="italic">Cor.</hi> v, 19). Hi suiU ex 
+   <lb ed="#PL"/> quorum cordibus princeps hujus mundi ejicitur foras.</p>
+      <p xml:id="iuy75t-d1e467-d1e929">ii. Cum ergo dixisset, <hi rend="italic">Nunc princeps hujus</hi> mundi 
+   <lb ed="#PL"/>
+       <hi rend="italic">ejicietur foras ; Et ego,</hi> inquit,si <hi rend="italic">exaltatus
+    fuero</hi> a <hi rend="italic">terra,
+   <lb ed="#PL"/> omnia traham post</hi> me. Quae <hi rend="italic">omnia,</hi> nisi ex quibus ille 
+   <lb ed="#PL"/> ejicilur foras ? Non autem dixit, omnes, sed, omnia : 
+   <lb ed="#PL"/> non enim omnium est fides (II <hi rend="italic">Thess.</hi> III, 2). Non ita<lb ed="#PL" break="no"/>que
+   hoc ad universitatem hominum rctulit, sed ad 
+   <lb ed="#PL"/> creaturae integritatem; id est, spiritum,etanimam, 
+   <lb ed="#PL"/> et corpus; et illud quo intelligimus, et illud quo vivi<lb ed="#PL" break="no"/>mus, et illud quo visibiles et contrectabiles sumus. 
+   <lb ed="#PL"/> Qui enim dixit, <hi rend="italic">Capillus capitis</hi> vestri non <hi rend="italic">peribit
+    (Luc.</hi>
+   
+       <lb ed="#PL"/> XXI, 48), omnia trahit post se. Aut si <hi rend="italic">omnia</hi> ipsi ho<lb ed="#PL" break="no"/>mines
+   intelligendi sunt, omnia praedestinata ad salu<lb ed="#PL" break="no"/>tem
+   possumus dicere: ex quibus omnibus ait nihil esse, 
+   <lb ed="#PL"/> periturum, cum supra de suis ovibus loqueretur <hi rend="italic">( Joan..</hi>
+   
+       <lb ed="#PL"/> x, 28). Aut certe omnia hominum genera, sive in 
+   <lb ed="#PL"/> linguis omnibus, sive in aetatibus omnibus, sive in 
+   <lb ed="#PL"/> gradibus bonorum omnibus, sive in diversitatibus in­
+   
+   <lb ed="#PL"/> geniorum omnibus, sive in artium licitarum et utilium 
+   <lb ed="#PL"/> professionibus omnibus, et quidquid aliud dici potest 
+   <lb ed="#PL"/> secundum innumerabiles differentias quibus inter se 
+   <lb ed="#PL"/> praeter sola peccata homines distant, ab excelsissimis 
+   <lb ed="#PL"/> usque ad humillimos, a rege usque ad mendicum; 
+   <lb ed="#PL"/> omnia, inquit, <hi rend="italic">traham</hi> post <hi rend="italic">Me</hi> : ut sil caput eorum, et 
+   <lb ed="#PL"/> illi membra ejus. Sed si
+    <hi rend="italic">exaltatus,</hi> inquit, <hi rend="italic">fuero a terra;</hi>
+   
+       <lb ed="#PL"/> hoc est, cum exaltatus fuero : non enim dubitat futu<lb ed="#PL" break="no"/>rum
+   esse quod venit implere. Hoc refertur ad illud 
+   <lb ed="#PL"/> quod superius ait, Si autem mortuum <hi rend="italic">fuerit granum,</hi>
+   
+       <lb ed="#PL"/> multum <hi rend="italic">fructum affert.</hi> Nam exaltationem suam quid 
+   <lb ed="#PL"/> aliud dixit quam in cruce passionem? Quod et ipse 
+   <lb ed="#PL"/> Evangelista non tacuit: subjunxit enim , et ait, <hi rend="italic">Hoc 
+   <lb ed="#PL"/> autem dicebat,</hi> significans <hi rend="italic">qua morte esset</hi> moriturus ?</p>
+      <p xml:id="iuy75t-d1e467-d1e1053">12. Respondit ei <hi rend="italic">turba : Nos audivimus ex Lege quia 
+   <lb ed="#PL"/> Christus
+    manet</hi> in aeternum; <hi rend="italic">et quomodo tu</hi> dicis, Opor­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tet exaltari</hi> Filium <hi rend="italic">hominis? Et</hi> quis <hi rend="italic">eat iste Filius</hi> ho<lb ed="#PL" break="no"/>minis? Memoriter tenuerunt quod Dominus dicebat 
+   <lb ed="#PL"/> assidue se esse Filium hominis. Nam boc loco non 
+   <lb ed="#PL"/> ait, Si exaltatus fuerit a terra Filius hominis : scd 
+   <lb ed="#PL"/> superins dixerat, quod hesterno die lectum atque tra<lb ed="#PL" break="no"/>ctatum
+   est, quando nuntiati sunt Gentiles illi, qui cum 
+   <lb ed="#PL"/> videre cupiebant. <hi rend="italic">Venit hora ut glorificetur, Filius ho­</hi>
+   
+       <lb ed="#PL"/> minis <hi rend="italic">(Joan.</hi> XII, 25,23). Hec itaque isti :nimio reti­
+   
+   <lb ed="#PL"/> nentes, et quod nunc ait, <hi rend="italic">Cum exaltatus., fuero a terra,</hi>
+   
+       <lb ed="#PL"/> mortem crucis intelligentes, quaesierunt ab illo, et 
+   <lb ed="#PL"/> dixerunt: <hi rend="italic">Nos audivimus ex Lege quia</hi> Christus manet 
+   <lb ed="#PL"/> in ae<hi rend="italic">ternum; et quomodo tu dicis, Oportet exaltari</hi> Fi<lb ed="#PL" break="no"/>lium <hi rend="italic">hominis? Quis eat</hi> enim <hi rend="italic">iste Filius</hi> hominis ? Si 
+   <lb ed="#PL"/> enim Christus est, inquiunt, manet in aeternum : si 
+   <lb ed="#PL"/> manet in aeternum, quomodo exaltabitur a terra: id 
+   <lb ed="#PL"/> est, quomodo crucis passione monetur? Hoc enim eum
+   
+   <lb ed="#PL"/> dixisse intelligebant, quod facere cogitabant. Noa ergo 
+   <lb ed="#PL"/> eis verborum istorum obscuritatem aperuit infusa sa<lb ed="#PL" break="no"/>picntia, sed stimulata conscientia.</p>
+      <p xml:id="iuy75t-d1e467-d1e1137">13. <hi rend="italic">Dixit ergo</hi> eis <hi rend="italic">Jesus : Adhuc modicum
+    lumen</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">vobis est.</hi> Hinc est quod intelligitis quia Christus manet 
+   <lb ed="#PL"/> in aeternum. <hi rend="italic">Ergo</hi> ambulate <hi rend="italic">dum lucem
+    habetis,</hi> ut non 
+   <lb ed="#PL"/> tenebrae <hi rend="italic">vos comprehendant.</hi> Ambulate, accedite, to<lb ed="#PL" break="no"/>tum
+   intelligite, et moriturum Christum, et victurum 
+   <lb ed="#PL"/> in aeternum, et sanguinem fusurum quo redimat, et 
+   <lb ed="#PL"/> ascensurum in sublimia quo perducat. Tenebrae autem 
+   <lb ed="#PL"/> vos comprehendent, si eo modo credideritis Christi 
+   <lb ed="#PL"/> aeternitatem, ut negetis in eo mortis humilitatem. <hi rend="italic">Et</hi>
+   
+       <lb ed="#PL"/> qui <hi rend="italic">ambulat</hi> in <hi rend="italic">tenebris, nescit quo
+    vadat.</hi> Sic potest of<lb ed="#PL" break="no"/>fendere
+   in lapidem offensionis, et petram scandali,
+   
+   <lb ed="#PL"/> quod fuit Dominus caecis Judaeis : sicut credentibus 
+   <lb ed="#PL"/> lapis quem reprobavcrunt aedificantes, factus est in 
+   <lb ed="#PL"/> caput anguli (I <hi rend="italic">Petr.</hi> II, 6-8). Hinc dedignati sunt 
+   <lb ed="#PL"/> credere in Christum, quia eorum impietas contempsit 
+   <lb ed="#PL"/> mortuum, risit occisum : et ipsa erat mors grani mul<lb ed="#PL" break="no"/>tiplicandi , et exaltatio trahentis post se omnia. <hi rend="italic">Dum
+   <lb ed="#PL"/> lucem,</hi> inquit, <hi rend="italic">habetis, credite in lucem,</hi> ut <hi rend="italic">filii lucis</hi>
+   
+       <lb ed="#PL"/> sitis. Cum aliquid veri auditum habetis, credite in 
+   <lb ed="#PL"/> vcritalem, ut renascamini in veritate..</p>
+      <p xml:id="iuy75t-d1e467-d1e1222">14. <hi rend="italic">H</hi>ae<hi rend="italic">c locutus eat Jesus, et abiit, et
+    abscondit se ab 
+   <lb ed="#PL"/> eis.</hi> Non ab eis qui credere et diligere coeperant, non
+   
+   <lb ed="#PL"/> ab eis qui cum ramis palmarum et laudibus obviam 
+   <lb ed="#PL"/> venerant: sed ab eis qui videbant et invidebant; quia 
+   <lb ed="#PL"/> nec videbant, sed in lapidem illum caecitate offende­
+   
+   <lb ed="#PL"/> bant. Cum autem abscondit se Jesus ab eis qui eum 
+   <lb ed="#PL"/> occidere cupiebant ( quod saepe propter oblivionem 
+   <lb ed="#PL"/> commonendi estis), nostrae infirmitati consuluit, noa
+   
+   <lb ed="#PL"/> suae potestati derogavit.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

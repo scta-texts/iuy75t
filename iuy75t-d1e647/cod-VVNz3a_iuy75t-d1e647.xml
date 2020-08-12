@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 74</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 74</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e647"> <!-- iuy75t-t74 -->
+      <head xml:id="iuy75t-d1e647-Hd1e109">Tractatus 74</head>
+      <p xml:id="iuy75t-d1e647-d1e112">
+       <hi rend="italic">De eo quod ait,</hi> Si diligitis me, mandata mea servate; 
+   <lb ed="#PL"/>
+       <hi rend="italic">usque ad id,</hi> Apud vos manebit, et in vobis erit. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Cap.,</hi> xiv, i. 15-17.</p>
+      <p xml:id="iuy75t-d1e647-d1e128">i. Audivimus, fratres, cum Evangelium legeretur, 
+   <lb ed="#PL"/> Dominum dicentem : Si diligitis
+    <hi rend="italic">me, mandata mea</hi>
+   
+       <lb ed="#PL"/> servale <hi rend="italic">: et ego rogabo Patrem, et alium</hi> Paracletum 
+   <lb ed="#PL"/>
+       <hi rend="italic">dabit vobis,</hi> ut <hi rend="italic">maneat vobiscum</hi> in aeternum, <hi rend="italic">Spiritum</hi>
+   
+       <lb ed="#PL"/> veritatis, <hi rend="italic">quem mundus non potest accipere; quia non 
+   <lb ed="#PL"/> videt
+    eum, nec scit eum.</hi> Vos <hi rend="italic">autem cognoscetis eum, 
+   <lb ed="#PL"/> quia apud
+    vos</hi> manebit, <hi rend="italic">et in vobis erit.</hi> Multa sunt, 
+   <lb ed="#PL"/> quae in istis paucis verbis Domini requirantur; sed 
+   <lb ed="#PL"/> multum est ad nos vel omnia quae hic quaerenda sunt 
+   <lb ed="#PL"/> quaerere, vel omnia quae hic quaerimus invenire. Ve<lb ed="#PL" break="no"/>rumtamen
+   quantum nobis Dominus donare dignatur, 
+   <lb ed="#PL"/> pro nostra et vestra capacitate, quid dicere debea<lb ed="#PL" break="no"/>mus, et quid audire deLeatis, attendentes, per nos, 
+   <lb ed="#PL"/> charissimi, quod possumus sumite, et ab illo quod 
+   <lb ed="#PL"/> non possumus poscite. Spiritum paracletum Christus 
+   <lb ed="#PL"/> promisit Apostolis; quo autem modo promiserit, 
+   <lb ed="#PL"/> advertamus. <hi rend="italic">Si</hi> diligitis <hi rend="italic">me,</hi> inquit, <hi rend="italic">mandata mea ser<lb ed="#PL" break="no"/>vate : et ego rogabo Patrem, et alium</hi> Paracletum dabit 
+   <lb ed="#PL"/>
+       <hi rend="italic">vobis, ut maneat vobiscum in aetenrum, Spiritum veri<lb ed="#PL" break="no"/>tatis.</hi> IIic est utique in Trinitate Spiritus sanctus, 
+   <lb ed="#PL"/> quem Patri et Filio consubstantialem et coaeternum 
+   <lb ed="#PL"/> fides catholica confitetur : ipse est de quo dicit Apo<lb ed="#PL" break="no"/>stolus, <hi rend="italic">Charitas Dei diffusa eat in cordibus nostris per
+    
+   <lb ed="#PL"/> Spiritum sanctum, qui datus est nobis (Rom.</hi> v, 5). 
+   <lb ed="#PL"/> Quomodo ergo Dominus dicit, St <hi rend="italic">diligitis me, mandata
+   <lb ed="#PL"/> mea servate : et ego
+    rogabo Patrem, et alium Paracle­</hi>
+   
+       <lb ed="#PL"/> tum <hi rend="italic">dabit vobis;</hi> cum hoc dicat de Spiritu sancto, 
+   <lb ed="#PL"/> quem nisi habeamus, nec diligere Deum possumus, 
+   <lb ed="#PL"/> nec ejus mandata servare? Quomodo diligimus ut eum 
+   <lb ed="#PL"/> accipiamus, quem nisi habeamus, diligere non vale­ 
+   <pb ed="#PL" n="1827"/>
+       <lb ed="#PL"/> mus? aut quomodo mandata servabimus ut eum acci<lb ed="#PL" break="no"/>pianlus, qucm nisi habeamus, mandata servare non 
+   <lb ed="#PL"/> possumus? An forte praecedit in nobis charitas, qua
+   
+   <lb ed="#PL"/> diligimus Christum, ut diligendo Christum cjusquc 
+   <lb ed="#PL"/> mandata faciendo, mercamur accipere Spiritum san<lb ed="#PL" break="no"/>ctum, ut charitas non Christi, quae jam praecesserat, 
+   <lb ed="#PL"/> sed Dei Pa!ris diffundatur in cordibus nostris per 
+   <lb ed="#PL"/> Spiritum sanctum qui datus est nobis? Perversa est 
+   <lb ed="#PL"/> ista sententia. Qui enim se Filium diligere credit, et 
+   <lb ed="#PL"/> Patrem non diligit, profecto nec Filium diligit, sed 
+   <lb ed="#PL"/> quod sibi ipse confixit. Deinde apostolica vox est, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Nemo dicit, Dominus Jesus, nisi</hi> in <hi rend="italic">Spiritu
+    sancto (ICor.</hi>
+   
+       <lb ed="#PL"/> XII, 3) : et quis Dominum Jesum, nisi qui eum dili<lb ed="#PL" break="no"/>git, dicit, si eo
+    mod<foreign xml:lang="grc">ό</foreign> dicit quo Apostolus intelligi 
+   <lb ed="#PL"/> voluit? Multi enim voce dicunt, corde autem et factis 
+   <lb ed="#PL"/> negant: sicut de talibus ait, <hi rend="italic">Confitentur enim</hi> se nosse 
+   <lb ed="#PL"/>
+       <hi rend="italic">Deum, factis</hi> autem <hi rend="italic">negant</hi> (Tit. I, 16). Si negatur 
+   <lb ed="#PL"/> factis, procul dubio etiam dicitur factis. <hi rend="italic">Nemo</hi> ita<lb ed="#PL" break="no"/>que <hi rend="italic">dicit, Dominus Jesus,</hi> animo, verbo, facto, corde,
+   
+   <lb ed="#PL"/> ore, opere, <hi rend="italic">nemo dicit,</hi> Dominus <hi rend="italic">Jesus,
+    nisi in Spiritu
+   <lb ed="#PL"/> sancto;</hi> et nemo sic dicit, nisi qui diligit. Jam itaque
+   
+   <lb ed="#PL"/> Apostoli dicebant, <hi rend="italic">Dominus Jesus</hi> : et si eo modo 
+   <lb ed="#PL"/> dicebant, ut non ficte dicerent, ore coufitentes, corde 
+   <lb ed="#PL"/> et factis negantes; prorsus si veraciter hoc dicebant, 
+   <lb ed="#PL"/> procul dubio diligebant. Quomodo igitur diligebant, 
+   <lb ed="#PL"/> nisi in Spiritu sancto? Et tamen tis prius imperatur 
+   <lb ed="#PL"/> ut diligant eum, et ejus mandata conservent, ut acci<lb ed="#PL" break="no"/>piant
+   Spiritum sanctum : quem nisi haberent, pro<lb ed="#PL" break="no"/>recto
+   diligere et mandata servare non possent.</p>
+      <p xml:id="iuy75t-d1e647-d1e340">i. Restat ergo ut intelligamus Spiritum sanctum 
+   <lb ed="#PL"/> babere qui diligit, et habendo mereri ut plus habcat, 
+   <lb ed="#PL"/> et plus habendo plus- diligat. Jam itaque habebant 
+   <lb ed="#PL"/> Spiritum discipuli, quem Dominus promittebat, sine 
+   <lb ed="#PL"/> quo eum Dominum non dicebant : nec tamen eum 
+   <lb ed="#PL"/> alhuc habebant, sicut eum Dominus promittebat. Et 
+   <lb ed="#PL"/> habebant ergo, et non habebant, qui quantum haben<lb ed="#PL" break="no"/>dus
+   fuerat, nondum habebant. Habebant itaque mi<lb ed="#PL" break="no"/>nus, dandus erat cis amplius. Habebant occulte, ac<lb ed="#PL" break="no"/>cepturi
+   fuerant manifesLe; quia et hoc ad majus 
+   <lb ed="#PL"/> donum sancti Spiritus pertinebat, ut eis innotesceret 
+   <lb ed="#PL"/> quod habebant. De quo munere loquens Apostolus 
+   <lb ed="#PL"/> ait : <hi rend="italic">Noa autem non spiritum hujus mundi accepimus, 
+   <lb ed="#PL"/> sed Spiritum</hi> qui <hi rend="italic">ex Deo eat, ut sciamus quas a Deo do­
+   <lb ed="#PL"/> nata sunt nobis</hi> (I
+    <hi rend="italic">Cor.</hi> II, 12). Nam et ipsam manife<lb ed="#PL" break="no"/>stam
+   impertitioncm Spiritus sancti non semel, sed 
+   <lb ed="#PL"/> bis numero Dominus egit. Mox enim ut resurrexit a
+   
+   <lb ed="#PL"/> mortuis, insufllans ait : <hi rend="italic">Accipite Spiritum sanctum
+   <lb ed="#PL"/> (
+    Joan.</hi> xx, 22). Numquid igitur quia tunc dedit, ideo 
+   <lb ed="#PL"/> non misit etiam postea quem promisit? Aut non idem 
+   <lb ed="#PL"/> ipse est Spiritus sanctus, qui et tunc est insufflatus
+   
+   <lb ed="#PL"/> ab ipso, et postea ab ipso missus e coelo <hi rend="italic">(Act.</hi> n, 4)?
+   
+   <lb ed="#PL"/> Quapropter cur ipsa quae facta est evidenter donatio 
+   <lb ed="#PL"/> ejus, bis facta fuerit, alia quaestio est : fortassis enim 
+   <lb ed="#PL"/> propter duo praecepta dilectionis, hoc est proximi 
+   <lb ed="#PL"/> et Dei, ut commendaretur ad Spiritum sanctum per<lb ed="#PL" break="no"/>tinere
+   dilectio, haec ejus gemina est in manifesta<lb ed="#PL" break="no"/>tione
+   facta donatio. Et si alia causa quaerenda est, 
+   <lb ed="#PL"/> non nunc ejus inquisitione in longiorem quam oportet 
+   <lb ed="#PL"/> modum sermo iste mittendus est: dum tamen con- 
+   <lb ed="#PL"/> I 
+   <lb ed="#PL"/> stet, sine Spiritu sancto Christum nos diligereet
+   <lb ed="#PL"/> mandata ejus servare non posse; et id nos posse 
+   <lb ed="#PL"/> atque agcre tanto minus, quanto illum percipimus 
+   <lb ed="#PL"/> minus; tanto autem amplius, quanto illum percipi. 
+   <lb ed="#PL"/> mus amplius. Proinde non solum non habenti, verum 
+   <lb ed="#PL"/> etiam habenti, non incassum promittitur : non ha<lb ed="#PL" break="no"/>benti
+   quidem, ut habeatur ; habenti autem, ut amplius 
+   <lb ed="#PL"/> habeatur. Nam nisi ab alio minus, ab alio amplius 
+   <lb ed="#PL"/> haberetur, sanctus Elisaeus sancto Eliae non diceret: 
+   <lb ed="#PL"/>
+       <hi rend="italic">Spiritus qui eat in te, duplo sit ili me</hi> 1 (IV <hi rend="italic">Reg.</hi> II, 9).</p>
+      <p xml:id="iuy75t-d1e647-d1e452">3. Quando autem ait Joannes Baptista , <hi rend="italic">Non enim
+   <lb ed="#PL"/> ad</hi> mensuram
+    <hi rend="italic">dat Deus Spiritum (Joan.</hi> Ill, 34), de 
+   <lb ed="#PL"/> ipso Dei Filio loquebatur, cui non est datus Spiritus 
+   <lb ed="#PL"/> ad mensuram; quia in illo inhabitat omnis plenitudo 
+   <lb ed="#PL"/> divinitatis <hi rend="italic">(Colou.</hi> II, 9). Ncquc euim sine gratia Spi<lb ed="#PL" break="no"/>ritus
+   sancti est mediator Dei et hominum homo Chri- 
+   <lb ed="#PL"/> MUS Jesus ( I Tim. n, 5) : nam et ipse dicit de se 
+   <lb ed="#PL"/> fuisse propheticum illud impletum , Spiritus <hi rend="italic">Domini 
+   <lb ed="#PL"/> super me ; propter quod unxit me, evangelizare
+    paupe<lb ed="#PL" break="no"/>ribus</hi> misit <hi rend="italic">me (Luc.</hi> IV, l8 21). Quod enim est Unige<lb ed="#PL" break="no"/>nitus
+   aequalis Patri, non est gratiae , sed natura : 
+   <lb ed="#PL"/> quod autem in unitatem personae Unigeniti assumptus 
+   <lb ed="#PL"/> est homo, gratiae est, non natura, confitente Evauge<lb ed="#PL" break="no"/>lio
+   atque dicente, <hi rend="italic">Puer</hi> autem <hi rend="italic">crescebat et confortabatur 
+   <lb ed="#PL"/> plenus sapientia, et gratia Dei erat in
+    illo (I d.</hi> u, 40). 
+   <lb ed="#PL"/> Caeteris autem ad mensuram datur, et datus additur, 
+   <lb ed="#PL"/> donec unicuique pro modo suae perfectionis propria 
+   <lb ed="#PL"/> mensura compleatur. Unde et monet Apostolus, <hi rend="italic">Non</hi>
+   
+       <lb ed="#PL"/> plus <hi rend="italic">sapere quam oportet sapere, sed sapere ad tempe­ 
+   <lb ed="#PL"/>
+    rantiam; unicuique sicut Deus partitus est mensuram 
+   <lb ed="#PL"/> fidei (Rom.</hi> xn , 3). Neque enim ipse dividitur Spiri<lb ed="#PL" break="no"/>tus, sed dona per Spiritum : nam divisiones dona­
+   
+   <lb ed="#PL"/> lionum sunt, idem autem Spiritus (I <hi rend="italic">Cor.</hi> XII, 4).</p>
+      <p xml:id="iuy75t-d1e647-d1e533">4. Quod vero ait, <hi rend="italic">Rogabo Patrem, et alium</hi> Para­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">cletum dabit vobis,</hi> ostendit et seipsum esse paracle<lb ed="#PL" break="no"/>tum. Paracletus enim latine dicitur advocatus : et di<lb ed="#PL" break="no"/>ctum
+   est de Christo, <hi rend="italic">Advocatum habemus ad Patrem, 
+   <lb ed="#PL"/> Jesum</hi> Christum <hi rend="italic">justum</hi> ( I <hi rend="italic">Joan.</hi> II, i ). Sic autem 
+   <lb ed="#PL"/> mundum dixit non posse accipere Spiritum sanctum, 
+   <lb ed="#PL"/> sicut etiam dictum est, <hi rend="italic">Prudentia carnis inimica est in 
+   <lb ed="#PL"/> Deum : legi enim Dei non est subjecta; nec
+    enim</hi> potest 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Rom.</hi> VIII, 7); velut si dicamus , Injustitia justa esse 
+   <lb ed="#PL"/> non potest. Mundum quippe ait hoc loco , mundi si<lb ed="#PL" break="no"/>gnificans
+   dilectores, quae dilectio non est a Patre 
+   <lb ed="#PL"/> (I <hi rend="italic">Joan.</hi> II, 16). Et ideo dilectioni hujus mundi, de 
+   <lb ed="#PL"/> qua satis agimus I ut minuatur et consumatur in no­
+   
+   <lb ed="#PL"/> bis, contraria est dilectio Dei, quae diffunditur in cor. 
+   <lb ed="#PL"/> dibus nosti is per Spiritum sanctum qui datus est no<lb ed="#PL" break="no"/>bis. <hi rend="italic">Mundus</hi> ergo eum <hi rend="italic">accipere non potest, quia non 
+   <lb ed="#PL"/> videt eum, neque scit eum.</hi> Non enim habet invisibiles 
+   <lb ed="#PL"/> oculos mundana dilectio , per quos videri Spiritus 
+   <lb ed="#PL"/> sanctus, nisi invisibiliter noN potest.</p>
+      <p xml:id="iuy75t-d1e647-d1e606">
+       <hi rend="italic">5. Vos autem,</hi> inquit, <hi rend="italic">cognoscetis eum,
+    quia</hi> apud 
+   <lb ed="#PL"/>
+       <hi rend="italic">vos manebit, et</hi> in <hi rend="italic">vobis erit.</hi> Erit in eis ut maneat, non 
+   <lb ed="#PL"/> manebit ut sit : prius est enim esse alicubi, quam 
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> manere. Sed ne putarent quod dictum cst, <hi rend="italic">apud</hi> vos 
+   <lb ed="#PL"/>
+       <hi rend="italic">manebit,</hi> ita dictum quemadmodum apud hominem 
+   
+   <pb ed="#PL" n="1829"/>
+       <lb ed="#PL"/> hospes visibiliter manere consuevit; exposuit quid 
+   <lb ed="#PL"/> dixerit, <hi rend="italic">apud vos manebit,</hi> cum adjunxit et dixit, in 
+   <lb ed="#PL"/>
+       <hi rend="italic">vobis erit.</hi> Ergo invisibiliter videtur: nec si non sit in 
+   <lb ed="#PL"/> nobis, potest esse in nobis ejus scientia. Sic enim a 
+   <lb ed="#PL"/> nobis videtur in nobis et nostra conscientia : nam fa<lb ed="#PL" break="no"/>ciem
+   videmus alterius,nostram vidcre non possumus;
+   
+   <lb ed="#PL"/> conscientiam vero nostramvidemus, alterius non vi<lb ed="#PL" break="no"/>demus. Sed conscientia nunquam est, nisi in nobis: 
+   <lb ed="#PL"/> Spiritus autem sanctus potest esse etiam sine nobis;
+   
+   <lb ed="#PL"/> datur quippe ut sit et in nobis. Sed videri et sciri 
+   <lb ed="#PL"/> quemadmodum videndus et sciendus est, non potest 
+   <lb ed="#PL"/> a nobis, si non sit in nobis.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

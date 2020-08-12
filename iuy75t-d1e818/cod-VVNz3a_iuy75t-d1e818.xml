@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 95</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 95</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e818"> <!-- iuy75t-t95 -->
+      <head xml:id="iuy75t-d1e818-Hd1e109">Tractatus 95</head>
+      <p xml:id="iuy75t-d1e818-d1e112">
+       <hi rend="italic">In</hi>
+       <hi rend="italic">haec verba superioris lectionis,</hi> Cum vcnerit ille, ar<lb ed="#PL" break="no"/>gaet
+   mundum de peccato, et de justitia, <hi rend="italic">etc.
+    Cap.</hi>
+   
+       <lb ed="#PL"/> xvi, ℣. 8-11 .</p>
+      <p xml:id="iuy75t-d1e818-d1e128">1. Promittens Dominus missurum se Spiritum san<lb ed="#PL" break="no"/>ctum, Cum <hi rend="italic">venerit,</hi> inquit, <hi rend="italic">ille arguet</hi> mundum <hi rend="italic">de
+    pec<lb ed="#PL" break="no"/>cato, et de justitia, et de judicio.</hi> Quid est hoc? Num<lb ed="#PL" break="no"/>quidnam
+   Dominus Christus non arguit mundum de 
+   <lb ed="#PL"/> peccato, cum ait: Si <hi rend="italic">neu
+    venissem, et locutus eis</hi> fuis­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">sem, peccatum</hi> non <hi rend="italic">haberent; nunc autem
+    excusationem 
+   <lb ed="#PL"/> non</hi> habent <hi rend="italic">de peccato suo?</hi> Sed ne quis forte dicat hoc 
+   <lb ed="#PL"/> ad Judaeos proprie pertinere, non ad mundum ; nonne 
+   <lb ed="#PL"/> ait alio loco : <hi rend="italic">Si de mundo esseis, mudus quod suum 
+   <lb ed="#PL"/> esset diligeret
+    (ld.</hi> xv, 22, 19)? Numquid non arguit 
+   <lb ed="#PL"/> de justitia, ubi ait : <hi rend="italic">Pater juste, mundus te non cogno.</hi>
+   
+       <lb ed="#PL"/> vit(Joan.XVII, 25) ?Numquid non arguit de judicio, ubi 
+   <lb ed="#PL"/> se ait sinistris esse dictorum : <hi rend="italic">Ite in ignem aeternum,</hi>
+   
+       <lb ed="#PL"/> qur paratu, <hi rend="italic">est diabolo et</hi> angeli. <hi rend="italic">ejus
+    (Matth.</hi> XXV, 41)? 
+   <lb ed="#PL"/> Et multa alia reperiuntur in sancto Evangelio, ubide
+   
+   <lb ed="#PL"/> his Christus arguit mundum. Quid est ergo quod tan<lb ed="#PL" break="no"/>quam
+   proprie tribuit boc Spiritui sancto? An forte, 
+   <lb ed="#PL"/> quia Christus in Judaeorum tantum gente locutus est,
+   
+   <lb ed="#PL"/> mundum non videtur arguisse, ut ille intelligatur ar<lb ed="#PL" break="no"/>gui
+   qui audit arguentem? Spiritus autem sanctus in 
+   <lb ed="#PL"/> discipulis ejus toto orbe diffusis, non unam gentem 
+   <lb ed="#PL"/> intelligitur arguisse, sed mundum. Nam hoc illis ait 
+   <lb ed="#PL"/> ascensurus in caeelum : <hi rend="italic">Non eat vettrum scire</hi> tempora 
+   <lb ed="#PL"/>
+       <hi rend="italic">tel momenta, quae Pater posuit in sua botestate sed</hi>
+   
+       <lb ed="#PL"/>
+       <pb ed="#PL" n="1871"/>
+       <hi rend="italic">accipietis virtutem Spriritus sancti supervenientis</hi> in vos. 
+   <lb ed="#PL"/>
+       <hi rend="italic">et</hi> eritis milii <hi rend="italic">testes</hi> in <hi rend="italic">Jerusalem, et in tota Judcea, et</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">Samaria, et</hi> usque in <hi rend="italic">fines terrae (Act.</hi> i, 7 et 8), Hoc ost 
+   <lb ed="#PL"/> arguere mundum. Sed quis audeat dicere quod per 
+   <lb ed="#PL"/> discipulos Christi arguit mundum Spiritus sanctus, et 
+   <lb ed="#PL"/> non arguat ipse Christos; cum clamet Apostolus, <hi rend="italic">An 
+   <lb ed="#PL"/> vultis experimentum accipere ejus qui</hi> in <hi rend="italic">me loquitur 
+   <lb ed="#PL"/> Christus</hi> (II <hi rend="italic">Cor.</hi> XIII, 5)? Quos itaque arguit Spiritus 
+   <lb ed="#PL"/> sanctus, arguit utique et Christus. Sed quantum mihi 
+   <lb ed="#PL"/> videtur, quia per Spiritum sanctum diffundenda erat 
+   <lb ed="#PL"/> charitas in cordibus eorum (Rom. v, 5), quae foras 
+   <lb ed="#PL"/> mittit timorem ( I <hi rend="italic">Joan.</hi> iv, 18), quo impediri possent 
+   <lb ed="#PL"/> ne arguere 'nundum qui persecutionibus fremebat, 
+   <lb ed="#PL"/> auderent; propterca dixit, <hi rend="italic">Ilte arguet</hi> mundum : tan<lb ed="#PL" break="no"/>quam
+   diceret, Ille diffundet in cordibus vestris chari<lb ed="#PL" break="no"/>tatem ; sic enim timore depulso, arguendi habebitis 
+   <lb ed="#PL"/> libertatem. Saepe autem diximus inseparabilia opera 
+   <lb ed="#PL"/> esse Trinitatis <hi rend="italic">(Supra, Tract.</hi> 20); sed singillatim 
+   <lb ed="#PL"/> commendandas fuisse personas, ut non solum sine 
+   <lb ed="#PL"/> separatione, verum etiam sine confusioneetunitas 
+   <lb ed="#PL"/> intelligatur et Trinitas.</p>
+      <p xml:id="iuy75t-d1e818-d1e310">2. Exponit deinde quid dixerit <hi rend="italic">de peccato, et de ju<lb ed="#PL" break="no"/>stitia
+   et
+    de judicio. De peccato quidem,</hi> inquit, <hi rend="italic">quia non 
+   <lb ed="#PL"/>
+    crediderunt in</hi> me. Hoc enim peccatum quasi solum 
+   <lb ed="#PL"/> sii, prae caeteris posuit ; quia hoc manente caetera de<lb ed="#PL" break="no"/>tinentur, et hoc discedente caetera rcmittuntur. <hi rend="italic">De
+   <lb ed="#PL"/> justitia vero,</hi> inquit, <hi rend="italic">quia ad Patrem
+    vado, et jam</hi> noM 
+   <lb ed="#PL"/>
+       <hi rend="italic">vidcbilil</hi> me. IIic primo videndum est, si recte quisque 
+   <lb ed="#PL"/> arguitur de peccato, quomodo recte arguatur et de 
+   <lb ed="#PL"/> justitia. Numquid enim si arguendus est peccator pro<lb ed="#PL" break="no"/>pterea
+   quia peccator est, arguendum putabit quisquam
+   
+   <lb ed="#PL"/>etjustum propterea quia justus est? Absit. Nam et 
+   <lb ed="#PL"/> si aliquando justus arguitur, idco recte arguitur, quia, 
+   <lb ed="#PL"/> sicut scriptum est, <hi rend="italic">Non
+    est</hi> justus in <hi rend="italic">terra qui faciet bo<lb ed="#PL" break="no"/>uum, et</hi> non <hi rend="italic">peccabit.</hi> Quocirca etiam cum justus ar<lb ed="#PL" break="no"/>guitur, de peccato arguitur, non de justitia. Quoniam 
+   <lb ed="#PL"/> et ,in illo quod legimus divinitus dictum, Noli
+    <hi rend="italic">effici</hi>
+   
+       <lb ed="#PL"/> justus <hi rend="italic">multum (Eccle.</hi> VII, it, 47); non est notata 
+   <lb ed="#PL"/> justitia sapientis, sed superbia praesumentis. Qui ergo 
+   <lb ed="#PL"/> fit multum justus, ipso nimio fit injustus. Multum enim 
+   <lb ed="#PL"/> se facit justum, qui dicit se non habere peccatum
+   ; 
+   <lb ed="#PL"/> ant qui se putat non gratia Dei, sed sua voluntate 
+   <lb ed="#PL"/> sufficiente eflici justum: nec recte vivendo justus est, 
+   <lb ed="#PL"/> aed potius inflatus, putando se esse quod non est. Quo 
+   <lb ed="#PL"/> pacto igitur mundus arguendus est de justitia, nisi de 
+   <lb ed="#PL"/> justitia credentium ? Arguitur itaque de peccato, quia 
+   <lb ed="#PL"/> in Christum non credit; et arguitur de justitia eorum 
+   <lb ed="#PL"/> qui credunt. Ipsa quippe fidelium comparatio, infide<lb ed="#PL" break="no"/>lium
+   est vituperatio. Hoc et ipsa expositio satis in<lb ed="#PL" break="no"/>dicat. Volens enim aperire quid dixerit, <hi rend="italic">De justitia 
+   <lb ed="#PL"/> vero,</hi> inquit, <hi rend="italic">quia
+    ad Patrem vado, et jam</hi> non <hi rend="italic">videbi­</hi>
+   
+       <lb ed="#PL"/> iis <hi rend="italic">me.</hi> Non ait, Et jam non videbunt me; de quibus 
+   <lb ed="#PL"/> dixerat, <hi rend="italic">quia non crediderunt in me.</hi> Sed peccatum quid 
+   <lb ed="#PL"/> vocaret exponens, de illis locutus est dicens, <hi rend="italic">quia non
+   <lb ed="#PL"/>
+    crediderunt</hi> in me : exponens autem quam dictrel ju<lb ed="#PL" break="no"/>stitiam, de qua mundus arguitur, ad ipsos quibus lo<lb ed="#PL" break="no"/>quebatur, se convertit, atque ait, <hi rend="italic">Quia ad Patrem 
+   <lb ed="#PL"/> vado, et jam non videbitis me.</hi> Quapropter mundus de 
+   <lb ed="#PL"/> peccato quidem suo, de justitia vero arguitur aliena, 
+   <lb ed="#PL"/> sicut arguuntur de lumine tenebra : <hi rend="italic">Omnia enim</hi> qua 
+   <lb ed="#PL"/>
+       <hi rend="italic">arguuntur,</hi> ait Apostolus, <hi rend="italic">a</hi> lumine <hi rend="italic">manifestantur (Ephe,.</hi>
+   
+       <lb ed="#PL"/> v, 13). Quantum enim malum sit eonim qui non cre<lb ed="#PL" break="no"/>dunt, non solum per scipsum, verum etiam ex bono 
+   <lb ed="#PL"/> potest eorum apparere qui credunt. Et quoniam ista
+   
+   <lb ed="#PL"/> vox infidelium esse consuevit, Quomodo credimus 
+   <lb ed="#PL"/> quod non videmus? ideo credentium justitiam sie 
+   <lb ed="#PL"/> oportuit definiri, <hi rend="italic">Quia ad Patrem vado,
+    et jam non</hi> vi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">debias</hi> me. Beati enim qui non vident, et credunt <hi rend="italic">(Joan.</hi>
+   
+       <lb ed="#PL"/> xx, 29). Nam et qui viderunt Christum, non in eo lau<lb ed="#PL" break="no"/>data
+   est fides eorum , quia credebant quod videbant, 
+   <lb ed="#PL"/> id est Filium hominis; sed quia credebant, quod non
+   
+   <lb ed="#PL"/> videbant, id est Filium Dei. Cum vero et ipsa forma 
+   <lb ed="#PL"/> servi subtracta eorum esset aspectibus, tum vero ex 
+   <lb ed="#PL"/> omni parte impletum est, ,Justus <hi rend="italic">ex fide vivit</hi> (Rom. I, 
+   <lb ed="#PL"/> 17 ; <hi rend="italic">Habac.</hi> n, 4, <hi rend="italic">et Hebr.</hi> XI, i). <hi rend="italic">Est</hi> enim <hi rend="italic">fides,</hi> sicut 
+   <lb ed="#PL"/> in Epistola quae ad Hebraeos est definitur, <hi rend="italic">sperantium
+   <lb ed="#PL"/> substantia, convictio</hi> rerum <hi rend="italic">quae non
+    videntur.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e818-d1e530">5. Sed quid est, <hi rend="italic">Jam.</hi> non <hi rend="italic">videbitis</hi> me ? Non enim 
+   <lb ed="#PL"/> ait, Ad Patrem vado, et non vidchitis me; ut tempo. 
+   <lb ed="#PL"/> ris intervallum quo non vidcbitur, significasse iuleUi<lb ed="#PL" break="no"/>geretur, sive breve, sive longum, tamen utique ter<lb ed="#PL" break="no"/>minatum : sed dicendo, <hi rend="italic">Jam non videbitis</hi> me, velut 
+   <lb ed="#PL"/> nunquam eos de caetero visuros Christum , veritas 
+   <lb ed="#PL"/> praenuntiavit. Haeccine justitia est nunquam Christum 
+   <lb ed="#PL"/> videre, et in eum tamen credere; cum propterea 
+   <lb ed="#PL"/> laudetur fides ex qua justus vivit, quoniam credit, 
+   <lb ed="#PL"/> quem modo non videt Christum , se aliquando esse 
+   <lb ed="#PL"/> visurum ? Postremo secundum hanc justitiam, num<lb ed="#PL" break="no"/>quid
+   dicturi sumus Paulum apostolum non fuisse jit<lb ed="#PL" break="no"/>stum, confitentem se Christum vidisse post ascensio<lb ed="#PL" break="no"/>nem
+   ejus in coelum (I <hi rend="italic">Cor.</hi> xv, 8), de quo utique jam 
+   <lb ed="#PL"/> tempore dixerat, JanI <hi rend="italic">non videbitis me?</hi> Numquid se<lb ed="#PL" break="no"/>cundum
+   hanc justitiam justus non erat gloriosissimus 
+   <lb ed="#PL"/> Stephanus, qui cum lapidaretur, ait : <hi rend="italic">Ecce video</hi> cae­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">lum apertum, et</hi> Filium hominis <hi rend="italic">stantem ad
+    dexteram 
+   <lb ed="#PL"/> Dei (Act.</hi> VII, 55) ? Quid ergo est, <hi rend="italic">Ad Patrem
+    vado, et
+   <lb ed="#PL"/> jam non videbitis me;</hi> nisi, quomodo sum, cum vobis<lb ed="#PL" break="no"/>cum
+   sum? Tunc enim adhuc erat mortalis in simili<lb ed="#PL" break="no"/>tudine
+   carnis peccati <hi rend="italic">(Rom.</hi> VIII, 5), qui esurire po<lb ed="#PL" break="no"/>terat
+   ac sitire, fatigari atque dormire : hunc ergo 
+   <lb ed="#PL"/> Christum, id est talem Christum, cum transisset de 
+   <lb ed="#PL"/> hoc mundo ad Patrem, non erant jam visuri; et ipsa 
+   <lb ed="#PL"/> est justitia fidei, de qua dicit Apostolus,
+    <hi rend="italic">Etsi nove<lb ed="#PL" break="no"/>ramus
+   Christum secundum carnem, sed nunc jam non
+    
+   <lb ed="#PL"/> novimus</hi> (II <hi rend="italic">Cor.</hi> v, 16). Erit itaque, inquit, vestra
+   
+   <lb ed="#PL"/> justitia, qua mundus arguetur, <hi rend="italic">quia vado ad Patrem, et 
+   <lb ed="#PL"/> jam
+    non videbitis me:</hi> quoniam in eum quem non vide<lb ed="#PL" break="no"/>bitis
+   credetis in me : et quando me videbitis, quod tunc 
+   <lb ed="#PL"/> ero, non videbitis me quod sum vobiscum modo; non
+   
+   <lb ed="#PL"/> videbitis humilem, sed excelsum; non videbitis mor<lb ed="#PL" break="no"/>talem, sed sempiternum; non videbitis judicandum, 
+   <lb ed="#PL"/> sed judicaturum 1: et de hac lide vestra, id est justitia 
+   <lb ed="#PL"/> vestra, arguet Spiritus sanctus incredulum mundum.</p>
+      <p xml:id="iuy75t-d1e818-d1e649">4. Arguet etiam <hi rend="italic">de judicio, quia princeps hujus
+   <lb ed="#PL"/> mundi judicatus
+    est.</hi> Quis est iste, nisi de quo ait alia 
+   <lb ed="#PL"/> loco, <hi rend="italic">Ecce venit
+    princeps mundi, et in me nihil inveniet</hi>
+   
+       <lb ed="#PL"/> (Joan. xiv, 30); id est, nihil juris sui, nihil quod ad 
+   
+   <pb ed="#PL" n="1873"/>
+       <lb ed="#PL"/> eum perlincat, nullum scilicet omnino peccatum? Per 
+   <lb ed="#PL"/> hoc enim est diabolus princci s mundi. Non enim coeli 
+   <lb ed="#PL"/> et terrae et omnium quae in eis sunt, est diabolus 
+   <lb ed="#PL"/> princeps, qua significatione intelligitur mundus, ubi 
+   <lb ed="#PL"/> dictum est,
+    <hi rend="italic">Et mundus per eum</hi> factus <hi rend="italic">est:</hi> sed mundi
+   
+   <lb ed="#PL"/> est diabolus princeps, de quo mundo ibi continuo 
+   <lb ed="#PL"/> subjungit atque ait, <hi rend="italic">Et mundus eum noM cognovit (Joan.</hi>
+   
+       <lb ed="#PL"/> I, 10), hoc est homines infideles, quibus toto orbe 
+   <lb ed="#PL"/> terrarum mundus est plenus : inter quos gemit fidelis 
+   <lb ed="#PL"/> mundus, quem de mundo elegit, per quem factus est 
+   <lb ed="#PL"/> mundus; de quo ipse dicit, <hi rend="italic">Non venit Filius hominis</hi>
+   
+       <lb ed="#PL"/> ut <hi rend="italic">judicet</hi> mundum, <hi rend="italic">sed ut salvetur mundus
+    pcr ipsum 
+   <lb ed="#PL"/> (Id.</hi> III, 17). Mundus eo judicante damnatur, mun<lb ed="#PL" break="no"/>dus
+   eo subveniente salvatur : quoniam sicut arbor 
+   <lb ed="#PL"/> foliis et pomis, sicut area paleis et frumentis, ita 
+   <lb ed="#PL"/> infidclibus et fidelibus plenus est mundus. Princeps 
+   <lb ed="#PL"/> ergo mundi hujus, hoc est princeps tenebrarum ha<lb ed="#PL" break="no"/>rum, id est infidelium; de quibus cruitur mundus , 
+   <lb ed="#PL"/> quibus dicitur, Fuistis <hi rend="italic">aliquando tenebrae; nunc
+    autem
+   <lb ed="#PL"/> lux</hi> in <hi rend="italic">Domino (Ephes.</hi> v, 8) : princeps mundi hujus de 
+   <lb ed="#PL"/> quo alibi dicit, <hi rend="italic">Nunc princeps mundi hujus missus
+    eat
+   <lb ed="#PL"/> foras (Joan.</hi> SII, 31), utique judicatus est; quoniam 
+   <lb ed="#PL"/> judicio ignis aeterni irrevocabiliter destinatus est. Et 
+   <lb ed="#PL"/> de hoc itaque judicio quo princeps judicatus est mun<lb ed="#PL" break="no"/>di, arguitur a Spiritu sancto mundus; quoniam cum 
+   <lb ed="#PL"/> suo principe judicatur, quem superbus atque impius 
+   <lb ed="#PL"/> imitatur Si <hi rend="italic">enim
+    Deus,</hi> sicut dicit apostolus Petrus, 
+   <lb ed="#PL"/>
+       <hi rend="italic">peccantibus angelis non pepercit, sed carceribus caliginis
+   <lb ed="#PL"/> inferi
+    retrudens tradidit in judicio puniendos servari</hi>
+   
+       <lb ed="#PL"/> (II <hi rend="italic">Petr.</hi> II, 4); quomodo non a Spiritu sancto de hoc 
+   <lb ed="#PL"/> judicio mundus arguitur, quando in Spiritu sancto 
+   <lb ed="#PL"/> haec loquitur Aposlolus? Credant itaque homines in 
+   <lb ed="#PL"/> Christum, ne arguantur de peccato infidelitatis suae , 
+   <lb ed="#PL"/> quo peccata omnia detinentur : transeant in numerum 
+   <lb ed="#PL"/> fidelium, ne arguantur de justitia eorum, quos justi<lb ed="#PL" break="no"/>ficatos
+   non imitantur : caveant futurum judicium, ne 
+   <lb ed="#PL"/> cum mundi principe jndicentur, quem judicatum imi<lb ed="#PL" break="no"/>tantur. Etenim ne sibi existimet parci superbia dura 
+   <lb ed="#PL"/> mortalium, de superborum supplicio terrenda est an<lb ed="#PL" break="no"/>gelorum.
+   </p>
+    </div>
+   </body>
+  </text>
+</TEI>

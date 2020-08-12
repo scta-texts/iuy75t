@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 70</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 70</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e614"> <!-- iuy75t-t70 -->
+      <head xml:id="iuy75t-d1e614-Hd1e109">Tractatus 70</head>
+      <p xml:id="iuy75t-d1e614-d1e112">
+       <hi rend="italic">De eo</hi> quod Dominus ait, Si cognovissetis me, ei Pa<lb ed="#PL" break="no"/>trem
+   meum, utique cognovissetis; <hi rend="italic">usque ad id,</hi> Non 
+   <lb ed="#PL"/> credis quia ogo in Patre, et Pater in me est? <hi rend="italic">Cap.</hi>
+   
+       <lb ed="#PL"/> XIV, ℣. 7-10.</p>
+      <p xml:id="iuy75t-d1e614-d1e131">i. Verba sancti Evangelii, fratres, ita recte intel<lb ed="#PL" break="no"/>liguntur, si cum superioribus rcperidntur habere con<lb ed="#PL" break="no"/>cordiam : convenire enim debent praecedentia conse<lb ed="#PL" break="no"/>quentibus, qnando vertas loquitur. Superius dixerat 
+   <lb ed="#PL"/> Dominus, i Et si abiero, et praeparavero vobis locum; 
+   <lb ed="#PL"/> iterum venio, et accipiam vos ad meipsum, ut ubi ego 
+   <lb ed="#PL"/> sum, et vos sitis: » deinde addiderat, r Et qno ego vado 
+   <lb ed="#PL"/> scitis, et viam scitis; r nihilque aliud ostendit esse quod 
+   <lb ed="#PL"/> dixit, nisi quia ipsum sciebant. Quid ergo cssetire ad 
+   <lb ed="#PL"/> seipsum per seipsum, quod etiam discipulis prae<lb ed="#PL" break="no"/>Stat
+   ut eant ad ipsum per ipsum, ut potuimus pristino 
+   <lb ed="#PL"/> sermone jam diximus. Quod itaque ait, <hi rend="italic">Ut ubi ego</hi>
+   
+       <lb ed="#PL"/> ium, <hi rend="italic">et vos sitis,</hi> ubi erant futuri nisi in ipso ? Ac per
+   
+   <lb ed="#PL"/> hoc est etiam ipse in scipso, et ideo ibi illi ubiet
+   <lb ed="#PL"/> ipse, id est, in ipso. Ipse est igitur vita aeterna in 
+   <lb ed="#PL"/> qua futuri sumus, cum acceperit nos ad se : et ip*a
+   
+   <lb ed="#PL"/> fita aeterna quod ipse est in ipso est, ut ubi est ipse, 
+   <lb ed="#PL"/> et nos simus, hoc est, iH ipso. <hi rend="italic">Sicut enim habet Pater
+   <lb ed="#PL"/> vitam</hi> in <hi rend="italic">semetipso,</hi> et utique non aliad est vita quam 
+   <lb ed="#PL"/> kabet, nisi quod est ipse qni hanc habet : sic <hi rend="italic">dedit
+   <lb ed="#PL"/> Filio</hi> kabere vitam in
+    <hi rend="italic">semetipso (Joan.</hi> v, 26), eum ipse 
+   <lb ed="#PL"/> sit eadem vita quom habet in semetipso. Numquid 
+   <lb ed="#PL"/> autem nos vita quod est ipse, hoc erimus, cum in iila
+   
+   <lb ed="#PL"/> vita, hoc est in ipso esse coeperimus? Non utique, 
+   <lb ed="#PL"/> quia ipse existendo vita habet vitam, ei ipse est quod 
+   <lb ed="#PL"/> habet, et quod vita est in ipsa, ipse est in seipso: nos 
+   <lb ed="#PL"/> autem non ipsa vita, sed ipsius vitae participes sumus, 
+   <lb ed="#PL"/> atqoe ita ibi erimus, ut in nobis ipsis non quod ipse 
+   <lb ed="#PL"/> est esse possimus, sed nos ipsi non vita, ipsum habea<lb ed="#PL" break="no"/>mus
+   vitam, qui scipsum habet vitam, eo quod ipse sit 
+   <lb ed="#PL"/> vita. Denique ipse et in seipso est immutabiliter, et 
+   <lb ed="#PL"/> in Patre inseparabiliter : nos vero cum in nobis ipsis 
+   <lb ed="#PL"/> esse voluissemus, ad nos ipsos turbati sumus; unde 
+   <lb ed="#PL"/> illa vox est, <hi rend="italic">Ad</hi> meipsum <hi rend="italic">turbata est anima mea
+    (Psal.</hi>
+   
+       <lb ed="#PL"/> XLI, 7) : atque in dcterius commutati, neque id quod 
+   <lb ed="#PL"/> fmmus, manere potuimus. Cum autem per ipsum ve<lb ed="#PL" break="no"/>nimus
+   ad Patrem, sicut ait, <hi rend="italic">Nemo venit
+    ad Pahrem, 
+   <lb ed="#PL"/> nisi per me;</hi> manentes in illo, nec a Patre nos quis<lb ed="#PL" break="no"/>quam
+   poterit separare, nec ab illo.</p>
+      <p xml:id="iuy75t-d1e614-d1e244">2. Connectens itaque consequentia praecedentibus 
+   <lb ed="#PL"/> Si cognovistis me it inquit, <hi rend="italic">et Patrem meum utique co­</hi>
+   
+   
+       <lb ed="#PL"/>
+       <pb ed="#PL" n="1819"/> gnovistis. Hoc est quod alt : <hi rend="italic">Nemo venit ad
+    Patrem,</hi>
+   
+       <lb ed="#PL"/> nisi <hi rend="italic">per me.</hi> Deinde subjungit: <hi rend="italic">Et amodo
+    cognoscetis
+   <lb ed="#PL"/> eam, et vidistis eum.</hi> Sed Philippus unus ex Aposto<lb ed="#PL" break="no"/>lis, quid audierit non intelligens : <hi rend="italic">Domine,</hi> inquit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">ostende</hi> nobi, <hi rend="italic">Patrem, et sufficit nobis.</hi> Cui Dominus : 
+   <lb ed="#PL"/>
+       <hi rend="italic">Tanto,</hi> inquit, <hi rend="italic">tempore vobiscum sum,</hi> et
+    <hi rend="italic">non cognovi­
+   <lb ed="#PL"/> stis me, Philippe</hi> ? Qui <hi rend="italic">videt me, videt et Patrem.</hi> Ecce 
+   <lb ed="#PL"/> increpat quod tanto tempore cum ipsis erat, et non co<lb ed="#PL" break="no"/>' gnoscebatur. Nonne ipse dixerat, <hi rend="italic">Et quo ego
+    vado scitis,
+   <lb ed="#PL"/> et viam scitis;</hi> et se nescire dicentes, eos haecscire convi­
+   
+   <lb ed="#PL"/> cerat, addendo atquedicendo, Ego <hi rend="italic">sum via, veritas et</hi> vi- 
+   <lb ed="#PL"/>
+       <hi rend="italic">tu</hi> ? Quomodo nunc dicit, <hi rend="italic">Tanto tempore
+    vobiscum</hi> sum, 
+   <lb ed="#PL"/>
+       <hi rend="italic">et non cognovistis</hi> me ? cum profecto, et quo iret, et viam 
+   <lb ed="#PL"/> scirent, non ob aliud nisi quod ipsum utique scirent? 
+   <lb ed="#PL"/> Sed facile ista solvitur quaestio, si dicamus quod eum 
+   <lb ed="#PL"/> aliqui eorum sciebant, aliqui nesciebant, atque in his 
+   <lb ed="#PL"/> qui nesciebant et Philippus erat: ut quod ait, <hi rend="italic">Et quo
+   <lb ed="#PL"/>
+    ego vado scitis, et viam</hi> .cilia, illis dixisse intelligatur 
+   <lb ed="#PL"/> qui sciebant; non Philippo oui dictum est, <hi rend="italic">Tanto 
+   <lb ed="#PL"/> tempore vobiscum sum, et non
+    cognovistis me, Philippe?</hi>
+   
+       <lb ed="#PL"/> His ergo qui Filium jam noverant, etiam illud de Pa<lb ed="#PL" break="no"/>tre
+   dictum est, <hi rend="italic">Et amodo cognoscetis eum, et vidistis
+   <lb ed="#PL"/> eum</hi> : dictum est enim propter omnimodam similitu<lb ed="#PL" break="no"/>dinem
+   quae illi cum Patrc est, ut ideo amodo diceren­
+   
+   <lb ed="#PL"/> tur nosse Patrem, quia noverant similem Filium. 
+   <lb ed="#PL"/> Ergo jam sciebant Filium, etsi non omnes, certe qui<lb ed="#PL" break="no"/>dam
+   eorum quibus dicitur, <hi rend="italic">Et quo vado
+    scitis, et viam
+   <lb ed="#PL"/> scitis</hi> : ipse est enim via. Sed Patrem nesciebant, ideo
+   
+   <lb ed="#PL"/> audiunt, Si <hi rend="italic">cognovistis me, et Patrem meum cognovi­</hi>
+   
+       <lb ed="#PL"/> stis : per me utique et illum. Alius enim ego sum, 
+   <lb ed="#PL"/> alius ille. Sed ne putarent dissimilem, <hi rend="italic">Et amodo,</hi> in<lb ed="#PL" break="no"/>quit, <hi rend="italic">cognoscetis eum, et vidistis eum.</hi> Viderunt enim 
+   <lb ed="#PL"/> ejus simillimum Filium, sed admonendi fuerant ta<lb ed="#PL" break="no"/>lem
+   esse etiam Patrem quem nondum videbant, qua<lb ed="#PL" break="no"/>lis
+   est Filius quem videbant. Et ad hoc valet quod 
+   <lb ed="#PL"/> postea Philippo dicitur, <hi rend="italic">Qui videt me, videt et Patrem.</hi>
+   
+       <lb ed="#PL"/> Non quod ipse esset Pater et Filius, quod in Sabellia<lb ed="#PL" break="no"/>nis, qui vocantur etiam Patripassiani, catholica fides 
+   <lb ed="#PL"/> damnat: sed quod tam similes sint Pater et Filius, 
+   <lb ed="#PL"/> ut qui unum noverit, ambos noverit. Solemus enim 
+   <lb ed="#PL"/> de simillimis duobus ita loqui eis qui unum illorum 
+   <lb ed="#PL"/> vident, et qualis est alius volunt nosse, ut dicamus : 
+   <lb ed="#PL"/> Vidistis istum, illum vidistis. Sic ergo dictum est, Qui 
+   <lb ed="#PL"/> me <hi rend="italic">videt, videt et Patrem :</hi> non utique ut ipse sit Pa<lb ed="#PL" break="no"/>ter
+   qui Filius, sed quod a Patris similitudine in nullo 
+   <lb ed="#PL"/> prorsus discrepet Filius. Nam nisi duo essent Pateret 
+   <lb ed="#PL"/> Filius, non dictum esset, Si <hi rend="italic">cognovistis me,
+    et Patrem
+   <lb ed="#PL"/> meum cognovistis.</hi> Utique enim, quia <hi rend="italic">nemo,</hi> inquit, <hi rend="italic">ne­
+   <lb ed="#PL"/> nit ad Patrem,</hi> nisi <hi rend="italic">per</hi> me; si <hi rend="italic">cognovistis me, et Patrem</hi>
+   
+       <lb ed="#PL"/> meum <hi rend="italic">cognovistis</hi> : quoniam ego per quem venitur ad 
+   <lb ed="#PL"/> Patrem, perducam vos ad eum, ut ipsum etiam cogno- 
+   <lb ed="#PL"/> scaLis. Sed quoniam illi sum omnino simillimus, 
+   <lb ed="#PL"/>
+       <hi rend="italic">amodo cognoscetis eum,</hi> cum cognoscitis me : <hi rend="italic">et
+    vidi­
+   <lb ed="#PL"/> stis eum,</hi> si oculis cordis vidistis me.</p>
+      <p xml:id="iuy75t-d1e614-d1e472">3. Quid ergo est quod dicis, Philippe, <hi rend="italic">Ostende no<lb ed="#PL" break="no"/>bis
+   Patrem,
+    et sufficit</hi> nobis ? <hi rend="italic">Tanto,</hi> inquit, <hi rend="italic">tempore 
+   <lb ed="#PL"/> vobiscum sum, et non cognovistis me, Philippe? Qui</hi> vi<lb ed="#PL" break="no"/>. det me, <hi rend="italic">videt et Patrem.</hi> Quod si ad te multum est 
+   <lb ed="#PL"/> hoc videre, saltem quod non vides hoc crede. <hi rend="italic">Quo<lb ed="#PL" break="no"/>modo</hi> enim <hi rend="italic">dicis,</hi> inquit, <hi rend="italic">Ostende nobis Patrem?</hi> Si me
+   
+   <lb ed="#PL"/> vidisti qui omnimodo similis sum, vidisti illum cui 
+   <lb ed="#PL"/> similis sum. Quod si videre non potes, <hi rend="italic">non</hi> saltem 
+   <lb ed="#PL"/>
+       <hi rend="italic">credis quia ego</hi> in <hi rend="italic">Patre, et Pater in me eat
+    ?</hi> Potcrat hie 
+   <lb ed="#PL"/> dicere Philippus : Video quidem te, et credo similli<lb ed="#PL" break="no"/>mum
+   esse Patri; sed numquid arguendus et objurgan<lb ed="#PL" break="no"/>dus
+   est qui cum similem videt, etiam illum cui similis 
+   <lb ed="#PL"/> est vult videre ? Similem quidem novi, sed adbuc al<lb ed="#PL" break="no"/>terum
+   sine altero novi; non mihi sufficit, nisi et illum, 
+   <lb ed="#PL"/> cujus est iste similis noverim. <hi rend="italic">Ostende</hi> itaque <hi rend="italic">nobis 
+   <lb ed="#PL"/> Patrem, et
+    sufficit nobis.</hi> Sed ideo magister discipulum 
+   <lb ed="#PL"/> arguebat, quoniam cor postulantis videbat. Tanquam 
+   <lb ed="#PL"/> cnim melior esset Pater quam Filius, ita Philippus
+   
+   <lb ed="#PL"/> Patrem nosse cupiebat : et ideo nec Filium scicbat, 
+   <lb ed="#PL"/> quo melius esse aliquid credebat. Ad hunc sensum 
+   <lb ed="#PL"/> corrigendum dictum est, <hi rend="italic">Qui videt me,
+    videt et Patrem. 
+   <lb ed="#PL"/> Quomodo tu dicis, Ostende nobis Patrem ?</hi> Video quo. 
+   <lb ed="#PL"/> modo tu dicas : non alterum quaeris videre similem, 
+   <lb ed="#PL"/> sed illum putas esse meliorem.
+    <hi rend="italic">Non credis quia eqo in
+   <lb ed="#PL"/> Patre, et Pater in me est?</hi> Cur in similibus distantiam 
+   <lb ed="#PL"/> cupis cernere ? cur inseparabiles separatim desideras 
+   <lb ed="#PL"/> nosse? Dcinde non ad solum Philippum, sed ad eos 
+   <lb ed="#PL"/> pluraliter loquitur, quae non sunt in angustias coar<lb ed="#PL" break="no"/>ctanda, ut adjuvante ipso diligentius exponantur.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

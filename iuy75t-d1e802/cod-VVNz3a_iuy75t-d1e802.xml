@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 93</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 93</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e802"> <!-- iuy75t-t93 -->
+      <head xml:id="iuy75t-d1e802-Hd1e109">Tractatus 93</head>
+      <p xml:id="iuy75t-d1e802-d1e112">
+       <hi rend="italic">De eo quod Dominus dicit,</hi> Haec locutus sum vobis, ut 
+   <lb ed="#PL"/> non scandalizemini; <hi rend="italic">usque ad id,</hi> Sed haec locutus 
+   <lb ed="#PL"/> sum vobis, ut, cum venerit hora corum, reminisca<lb ed="#PL" break="no"/>mini, quia ego dixi <hi rend="italic">vohis.
+    Cap.</hi> XVI, ℣. i-4.</p>
+      <p xml:id="iuy75t-d1e802-d1e131">i. In his qn:c praecedunt hoc Evangelii capitulum, 
+   <lb ed="#PL"/> Dominus discipulos suos ad inimicorum odia perfe<lb ed="#PL" break="no"/>renda
+   confirmans, suo qnoque praeparavit exemplo, 
+   <lb ed="#PL"/> ut cum imitando fierent fortiores : addensetpromit<lb ed="#PL" break="no"/>tens
+   eis quod venturus esset Spiritus sanctus, qui de 
+   <lb ed="#PL"/> illo testimonium perhiberet, et adjiciens quod et ipsi
+   
+   <lb ed="#PL"/> fierent testes ejus, hoc utique in eis opcrantc Spiritu 
+   <lb ed="#PL"/> sancto. Sic enim ait
+   : <hi rend="italic">Ille</hi> testimonium <hi rend="italic">perhibebit de
+   <lb ed="#PL"/> me, et
+    ros testimonium perhibebitis.</hi> Utique quia ille 
+   <lb ed="#PL"/> perhibebit, etiam vos perhibebitis : ille in cordibus 
+   <lb ed="#PL"/> vestris, vos in vocibus vcsiris ; illc inspirando, vos 
+   <lb ed="#PL"/> sonando : ut possit impleri, <hi rend="italic">In omnem terrum exivi:
+   <lb ed="#PL"/>
+    sonus</hi> eorum <hi rend="italic">(Psal.</hi> XVIII, 5). Parum quippe fuerat eos
+   
+   <lb ed="#PL"/> adhortari cxemplo suo, nisi impleret Spiritu SilO, De<lb ed="#PL" break="no"/>nique
+   apostolns Petrus cum jain verba ejus audias t, 
+   <lb ed="#PL"/> ubi dixerat, <hi rend="italic">Non est serrus
+    wnjor domino</hi> suo : <hi rend="italic">si</hi> ini 
+   
+   <pb ed="#PL" n="1865"/>
+       <lb ed="#PL"/>
+       <hi rend="italic">persecuti sunt, et vos persequentur ( Joan.</hi> xv, 20); et 
+   <lb ed="#PL"/> hoc in illo jam videret impleri, in quo patientiam Do<lb ed="#PL" break="no"/>mini
+   sui, si exemplum sufficeret, debuit imitari: 
+   <lb ed="#PL"/> succubuit et negavit, non utique ferens quod illum
+   
+   <lb ed="#PL"/> ferre cernebat. Cum vere accepit donum Spiritus 
+   <lb ed="#PL"/> sancti, quem negaverat praedicavit; et quem confiteri 
+   <lb ed="#PL"/> timuerat, non timuit proGteri. Prius enim exemplo
+   
+   <lb ed="#PL"/> quidem fuerat edoctus, ut quod fieri convenerat nos<lb ed="#PL" break="no"/>set; sed nondum fuerat virtute fultus, ut quod nove<lb ed="#PL" break="no"/>rat
+   faceret: instructus erat ut staret, sed non erat fir<lb ed="#PL" break="no"/>luatus
+   ne caderet. Quod posteaquam per Spiritum 
+   <lb ed="#PL"/> sanctum factum est, annuntiavit usque ad mortem, 
+   <lb ed="#PL"/> quem negaverat timens mortem. Ideo Dominus in hoc
+   
+   <lb ed="#PL"/> consequenti capitulo, de quo nunc vobis loquendum 
+   <lb ed="#PL"/> est, <hi rend="italic">Haec,</hi> inquit, <hi rend="italic">locutus tum vobis, ut non scandalize­
+   <lb ed="#PL"/>
+    mini.</hi> Canitur quippe in Psalmo, <hi rend="italic">Pax multa diligenti­</hi>
+   
+       <lb ed="#PL"/> bus <hi rend="italic">legem tuam, et non eat illis</hi> scandalum (Psal. CXVIII,
+   
+   <lb ed="#PL"/> 465). Merito itaque promisso Spiritu sancto, quo in 
+   <lb ed="#PL"/> cis operante fierent testes ejus, subjunxit, <hi rend="italic">Haec locutus</hi>
+   
+       <lb ed="#PL"/> sum vobis, <hi rend="italic">ut</hi> non <hi rend="italic">scandalizemini.</hi> Cum enim charitas 
+   <lb ed="#PL"/> Dei diffunditur in cordibus nostris per Spiritum san<lb ed="#PL" break="no"/>ctum
+   qui datus est nobis <hi rend="italic">(Rom.</hi> v, 5), fit pax multa di<lb ed="#PL" break="no"/>ligentibus
+   legem Dei, ut non sit illis scandalum.</p>
+      <p xml:id="iuy75t-d1e802-d1e265">i. Deinde quid passuri essent, jam exprimens ait: 
+   <lb ed="#PL"/>
+       <hi rend="italic">Extra synagogas</hi> facient <hi rend="italic">vos.</hi> Quid autem mali erat 
+   <lb ed="#PL"/> Apostolis expelli de synagogis Judaicis, quasi non 
+   <lb ed="#PL"/> inde fuerant se separaturi, etiamsi eos nullus expelle<lb ed="#PL" break="no"/>rei? Sed nimirum boc voluit denuntiare, quia Judaei 
+   <lb ed="#PL"/> Christum non fuerant recepturi, a quo isti non fuerant 
+   <lb ed="#PL"/> recessuri; et ideo futurum erat ut foras mitterentur 
+   <lb ed="#PL"/> cum illo, ab eis qui esse nollent in illo, hi qui esse 
+   <lb ed="#PL"/> non possent sine illo. Nam profecto, quia non erat ut<lb ed="#PL" break="no"/>lus
+   alius populus Dei quam illud semen Abrahae, si 
+   <lb ed="#PL"/> agnoscerent et rccipcrent Christum, tanquam rami 
+   <lb ed="#PL"/> naturales in olea permanerent <hi rend="italic">( Id.</hi> XI, 17 ); nec aliae 
+   <lb ed="#PL"/> fierent Ecclesiae Christi, alix Synagogae Judaeorum
+   : 
+   <lb ed="#PL"/> eaedem I quippe essent, si in eodem esse voluissent. 
+   <lb ed="#PL"/> Quod quia noluerunt, quid restabat nisi ut remanentes 
+   <lb ed="#PL"/> extra Christum, extra synagogas facerent eos qui non 
+   <lb ed="#PL"/> relinquerent Christum? Accepto quippe Spiritu sancto 
+   <lb ed="#PL"/> testes ejus enecti, non utique tales essent, de quibus 
+   <lb ed="#PL"/> dicilur: Multi <hi rend="italic">principes</hi> Judaeorum <hi rend="italic">crediderunt</hi> in <hi rend="italic">eum;
+   <lb ed="#PL"/> sed propter
+    metum</hi> Judaeorum, <hi rend="italic">ne pellerentur de syna<lb ed="#PL" break="no"/>gogis, non
+    audebanl confiteri eum : dilexerunt enim
+   <lb ed="#PL"/> gloriam hominum magis quam Dei
+    (Joan.</hi> XII, 42 <hi rend="italic">et</hi> 43). 
+   <lb ed="#PL"/> Crediderunt ergo in eum, sed non sic quomodo eos 
+   <lb ed="#PL"/> volebat credere, qui dicebat : <hi rend="italic">Quomodo
+    potestis cre</hi>• 
+   <lb ed="#PL"/>
+       <hi rend="italic">dere, gloriam ab invicem exspectantes, et gloriam quaea
+   <lb ed="#PL"/> solo Deo
+    eat non quaerentes ( Id.</hi> v, 44) ? Discipulis 
+   <lb ed="#PL"/> ergo sic in eum credentibus, ut impleti Spiritu sancto, 
+   <lb ed="#PL"/> hoc est dono gratiae Dei, non sint de numcro eorum 
+   <lb ed="#PL"/> qui <hi rend="italic">ignorantes Dei</hi> justitiam, <hi rend="italic">et suam
+    volentes</hi> consti­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tuere, justitiae</hi>
+       <hi rend="italic">Dei non sunt subjecti</hi> (Rom. x, 3); nec de 
+   <lb ed="#PL"/> illorum de quibus dictum est, <hi rend="italic">Dilexerunt gloriam
+    ho­
+   <lb ed="#PL"/> minum magis</hi> quam <hi rend="italic">Dei :</hi> illa congruit prophetia, quae 
+   <lb ed="#PL"/> de ipsis invenitur impleta, Domine, <hi rend="italic">in</hi> lumine vultus 
+   <lb ed="#PL"/>
+       <hi rend="italic">tui ambulabunt, et in nomine tuo exsultabunt tota die, et
+   <lb ed="#PL"/> in
+    tua</hi> justitia <hi rend="italic">exaltabuntur;</hi> quoniam <hi rend="italic">gloria virtutis eo­</hi>
+   
+   
+       <lb ed="#PL"/> rum <hi rend="italic">tu es</hi> ( <hi rend="italic">Psal.</hi> LXXXXVIII, 16-18). Merito eis dicitur, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Extra synagogas facient vos :</hi> illi scilicet qui <hi rend="italic">zelum Dei 
+   <lb ed="#PL"/> habent, sed non secundum scientiam;</hi> propter quod 
+   <lb ed="#PL"/>
+       <hi rend="italic">ignorantes Dei justitiam,etsuam</hi> volentes <hi rend="italic">constituere 
+   <lb ed="#PL"/> (Rom. x, 2 et</hi> 3), eos expellunt' qui non in sua, sed in 
+   <lb ed="#PL"/> Dei justitia exaltantur, nec expulsi ab hominibus 
+   <lb ed="#PL"/> crubescunt, quoniam gloria virtutis eorum ipse est.</p>
+      <p xml:id="iuy75t-d1e802-d1e438">3. Denique cum hoc eis dixisset, adjecit : <hi rend="italic">Sed</hi> ve­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">nit hora</hi> ut <hi rend="italic">omnis qui interficit vos,
+    arbitretur obsequium . 
+   <lb ed="#PL"/> se praestare Deo : et haec facient vobis, quia non</hi> cogno­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">verunt Patrem neque</hi> me. Hoc est, mon cognoverunt 
+   <lb ed="#PL"/> Deum nec ejus Filium, cui se in vobis occidendis 
+   <lb ed="#PL"/> praestare arbitrantur obsequium. Quae verba Dominus 
+   <lb ed="#PL"/> ita subjecit, tanquam ex hoc consolaretur suos , qui 
+   <lb ed="#PL"/> de synagogis Judaicis pellerentur. Praenuntians enim 
+   <lb ed="#PL"/> quae mala essent pro cjus testimonio perpessuri, <hi rend="italic">Ex<lb ed="#PL" break="no"/>tra
+   synagogas</hi> , inquit, <hi rend="italic">facient vos.</hi> Nec ait, Et venit 
+   <lb ed="#PL"/> hora ut omnis qui interficit vos, arbitretur obsequium 
+   <lb ed="#PL"/> se praestare Deo. Quid ergo ait ? <hi rend="italic">Sed venit
+    hora:</hi>
+   
+       <lb ed="#PL"/> quemadmodum diceret, si aliquid boni post mala isla 
+   <lb ed="#PL"/> praediceret. Quid sibi ergo vult, <hi rend="italic">Extra synagogas</hi> fa­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">cient vos : sed</hi> venit <hi rend="italic">hora?</hi> Tanquam hoe dicturus fuis<lb ed="#PL" break="no"/>set: Separabunt illi quidem vos , sed ego vos colli<lb ed="#PL" break="no"/>gam; aut, Separabunt quidem illi vos, sed venit hora 
+   <lb ed="#PL"/> laetitias vestrae. Quid ergo ibi facit hoc verbum quod 
+   <lb ed="#PL"/> ait, <hi rend="italic">Sed venit hora,</hi> quasi consolationem eis promitte<lb ed="#PL" break="no"/>ret
+   post tribulationem; cum magis dicere debuisse
+   
+   <lb ed="#PL"/> videatur indicativo modo , Et venit hora ? Sed non 
+   <lb ed="#PL"/> ait, Et venit, cum tribulationem super tribulationem, 
+   <lb ed="#PL"/> non consolationem post tribulationem venturam illis 
+   <lb ed="#PL"/> esse praediceret. An forte sic eos illa de synagogis se<lb ed="#PL" break="no"/>paratio
+   fuerat turbatura , ut mori mallent, quam in 
+   <lb ed="#PL"/> hac vita sine Judaeorum congregationibus immorari ? 
+   <lb ed="#PL"/> Absit ut sic turbarentur, qui Dei, non bominum gloriam
+   
+   <lb ed="#PL"/> requirehant. Quid ergo est, <hi rend="italic">Extra</hi> synogoga. <hi rend="italic">facient 
+   <lb ed="#PL"/> vos : aed venit hora;</hi> cum potius dicere debuisse vi­
+   
+   <lb ed="#PL"/> deatur, Et venit hora, <hi rend="italic">ut omnis qui interficit vos,</hi> arbi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tretur obsequium se</hi> praestare <hi rend="italic">Deo ?</hi> Neque enim saltem 
+   <lb ed="#PL"/> dictum est, Sed venit hora ut interficiant vos, quasi 
+   <lb ed="#PL"/> ut eis mors pro consolatione illius separationis acci<lb ed="#PL" break="no"/>deret'; sed, <hi rend="italic">Venit,</hi> inquit, <hi rend="italic">hora</hi> utomnis <hi rend="italic">qui</hi> interficit 
+   <lb ed="#PL"/>
+       <hi rend="italic">vos, arbitretur obsequium</hi> se <hi rend="italic">praestare Deo.</hi> Prorsus non 
+   <lb ed="#PL"/> mihi videtur aliud significare voluisse, nisi ut intelli<lb ed="#PL" break="no"/>gerent
+   atque gauderent tam multos se Christo acqui- 
+   <lb ed="#PL"/> situros, cum de Judaeorum congregationibus pelleren<lb ed="#PL" break="no"/>tur, ut eos non sufficeret 3pellere, sed non sinerent
+   
+   <lb ed="#PL"/> vivere, ne omnes ad nomen Christi sua praedicatione 
+   <lb ed="#PL"/> converterent, et ab observatione Judaismi, tanquam 
+   <lb ed="#PL"/> divinae veritatis, averterent. Hoc enim de Judaeis di<lb ed="#PL" break="no"/>ctum
+   debemus accipere, de quibus dixerat, <hi rend="italic">Extra syn­
+   <lb ed="#PL"/>
+    agogas facient vos.</hi> Nam testes, id est martyres Chri<lb ed="#PL" break="no"/>sti, etiamsi occisi sunt a Gentilibus; non tamen illi 
+   <lb ed="#PL"/> arbitrati sunt Deo, sed diis suis falsis obsequium se 
+   <lb ed="#PL"/> praestare, cum haec facerent. Judxorum autem omnis 
+   <lb ed="#PL"/> qui occidit praedicatores Christi, Deo se praestare pu- 
+   
+   
+   
+   <pb ed="#PL" n="1867"/>
+       <lb ed="#PL"/> tavit obsequium; credens quod desercrent cum 
+   <lb ed="#PL"/> Israel, quicumque converterentur ad Christum. Ut 
+   <lb ed="#PL"/> euim et ipsum Christum occiderent, ista ratione com<lb ed="#PL" break="no"/>moti
+   sunt : nam eorum de bac re etiam verba con<lb ed="#PL" break="no"/>scripta
+   sunt. Videtis
+    <hi rend="italic">quia totus mundus</hi> post <hi rend="italic">eum abiit 
+   <lb ed="#PL"/>
+    (Joan.</hi> XII, 19) : si dimiserimus <hi rend="italic">eum vivere, venient</hi> Ro­
+   
+   <lb ed="#PL"/> mani, <hi rend="italic">et tollent nobit et</hi> locum <hi rend="italic">et
+    gentem.</hi> Et quod Cai<lb ed="#PL" break="no"/>phas
+   dixit: <hi rend="italic">Expedit</hi> ut unus <hi rend="italic">homo moriatur pro populo, 
+   <lb ed="#PL"/> et non tota gens pereat</hi> (Id. XI, 48,50). Et in hoc ergo 
+   <lb ed="#PL"/> sermone suos discipulos suo erexit exemplo, quibus 
+   <lb ed="#PL"/> lixerat, Si <hi rend="italic">me persecuti sunt, et</hi> vos <hi rend="italic">pertequentur (Id.</hi>
+   
+       <lb ed="#PL"/> XV, 20); ut quemadmodum illum occidendo, Deo 
+   <lb ed="#PL"/> sc praestitisse obsequium putaverunt, sic etiam illos.</p>
+      <p xml:id="iuy75t-d1e802-d1e670">4 Iste itaque sensus est in his illos.verbis : <hi rend="italic">Extra syn­ 
+   <lb ed="#PL"/>
+    agogas facient</hi> vos; sed nolite solitudinem formi<lb ed="#PL" break="no"/>dare : separati quippe a congregatione eorum , tam 
+   <lb ed="#PL"/> multos in nomino mEo congregabitis, ut illi metuen­
+   
+   <lb ed="#PL"/> tes ne templum quod erat apud cos, et omnia Legis 
+   <lb ed="#PL"/> veteris sacramenta deserantur , interficiant vos; sic 
+   <lb ed="#PL"/> fundentes sanguinem vestrum, ut Deo se praestare
+   
+   <lb ed="#PL"/> arbitrentur obsequium. Ecce est illud quod de bis 
+   <lb ed="#PL"/> dixit Apostolus, <hi rend="italic">Zelum Dei habent,, sed</hi> non <hi rend="italic">secundum 
+   <lb ed="#PL"/>
+    scientiam</hi> (Rom. x, i) : obsequium se putant praestare 
+   <lb ed="#PL"/> Deo interficiendo famulos Dei. 0 error borrendus! 
+   <lb ed="#PL"/> Itane ut placeas Deo, percutis placentem Deo; et
+   
+   <lb ed="#PL"/> templum Dei vivum te feriente prosternitur, ne Dei 
+   <lb ed="#PL"/> templum lapideum deseratur ? 0 exsecrabilis caecitas ! 
+   <lb ed="#PL"/> Sed ex parte in Israel facta est, ut plenitudo Gentium 
+   <lb ed="#PL"/> intraret : ex parte, inquam , facta est, non ex toto. 
+   <lb ed="#PL"/> Non cnim omnes, sed aliqui ex ramis fracti sunt, ut 
+   <lb ed="#PL"/> insereretur oleaster <hi rend="italic">(ld.</hi> XI, 25, 17). Nam Spirilu 
+   <lb ed="#PL"/> sancio implente discipulos Christi, cum linguis 
+   <lb ed="#PL"/> omoium gentium loquerentur , cum per eos divina 
+   <lb ed="#PL"/> miracula frequentarentur, et divina eloquia sparge<lb ed="#PL" break="no"/>remur, etiam occisus ita dilectus est Christus, ut 
+   <lb ed="#PL"/> ejus discipuli expulsi a congregationibus Judaeorum,
+   
+   <lb ed="#PL"/> ex ipsis quoque Judaeis ingentem multitudinem con<lb ed="#PL" break="no"/>gregarnt, et nullam solitudinem formidarent <hi rend="italic">(Act.</hi>
+   
+       <lb ed="#PL"/> II-IV). Hinc ergo aecensi caeteri reprobi et caeci, ze<lb ed="#PL" break="no"/>lum
+   Dei habentes, sed non secundum scientiam, et I 
+   <lb ed="#PL"/> obsequium se prestare Deo credentes, occidebant
+   
+   <lb ed="#PL"/> eos. Sed pro illas occisus colligebat eos; qui de his 
+   <lb ed="#PL"/> futuris, autequam occideretur, instruxerat eos , ne 
+   <lb ed="#PL"/> ignaros atque impacatos animos mala inopinata et im<lb ed="#PL" break="no"/>provisa, quamvis cito transitura, turbarent, sed prae<lb ed="#PL" break="no"/>cognita
+   et patienter accepta ad bona sempiterna pcr<lb ed="#PL" break="no"/>ducerent. Hanc enim fuisse causam ut haec eis prae<lb ed="#PL" break="no"/>nuntiaret, etiam ipse demonstravit adjungens : <hi rend="italic">Sed
+    
+   <lb ed="#PL"/> hxc locutus</hi> sum vobi, ut cum <hi rend="italic">veneril hora</hi> eorum, <hi rend="italic">re­</hi>
+   
+       <lb ed="#PL"/> ininiscamini<hi rend="italic">quia ego</hi> dixi <hi rend="italic">vobis.</hi> Hora eorum hora te<lb ed="#PL" break="no"/>nebrosa, hora nocturna. Sed in die mandavit Domi<lb ed="#PL" break="no"/>nus
+   misericordiam suam, et in nocte declaravit <hi rend="italic">(Psal.</hi>
+   
+       <lb ed="#PL"/> xu, 9): quando nox Judaeorum separatum a se diem 
+   <lb ed="#PL"/> Christianorum nulla confusione fuscavit; et quando 
+   <lb ed="#PL"/> carnem occidere potuit , fldem tenebrare non po­
+   
+   <lb ed="#PL"/> tuit.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

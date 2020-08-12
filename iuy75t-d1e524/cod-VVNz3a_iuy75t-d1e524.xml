@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 59</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 59</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e524"> <!-- iuy75t-t59 -->
+      <head xml:id="iuy75t-d1e524-Hd1e109">Tractatus 59</head>
+      <p xml:id="iuy75t-d1e524-d1e112">
+       <hi rend="italic">Ab eo quod Dominus dicit,</hi> Amen, amen dico vobis ; 
+   <lb ed="#PL"/> non est servus major domino suo; <hi rend="italic">usque ad id,</hi> Qui 
+   <lb ed="#PL"/> autem me accipit, accipit eum qui misit me. <hi rend="italic">Cap.</hi>
+   
+       <lb ed="#PL"/> xiii , t • 16-20.</p>
+      <p xml:id="iuy75t-d1e524-d1e131">i. Audivimus in sancto Evangelio loquentem Do<lb ed="#PL" break="no"/>minum
+   atque dicentem, « Amen, amen dico vobis; 
+   <lb ed="#PL"/> non est servus major domino suo, neque apostolus 
+   <lb ed="#PL"/> major eo qui misit illum : si haec scitis, beati eritis si 
+   <lb ed="#PL"/> feceritis ea. Hoc ideo dixit, quia laverat discipulorum 
+   <lb ed="#PL"/> pedes, magister humilitatis et verbo et exemplo : sed 
+   <lb ed="#PL"/> poterimus ea quae sunt operosius disserenda ipso ad<lb ed="#PL" break="no"/>juvante
+   disserere, si non in eis quae manifesta sunt im<lb ed="#PL" break="no"/>moremur. Cum ergo haec Dominus praemisisset, adjun­
+   
+   <lb ed="#PL"/> xit, « Non de omnibus vobis dico : ego scio quos ele<lb ed="#PL" break="no"/>gerim : sed ut impleatur Scriptura, Qui maoducat pa<lb ed="#PL" break="no"/>nem
+   mecum, levabit super me calcaneum suum.
+   » Hoc 
+   <lb ed="#PL"/> quid est aliud nisi, conculcabit me? Notum est de quo 
+   <lb ed="#PL"/> loquatur ; Judas ille traditor ejus attingitur. Ergo 
+   <lb ed="#PL"/> ipsum non elegerat, unde ab eis quos elegit, isto ser<lb ed="#PL" break="no"/>mone
+   secernit. Quod ergo dico, inquit, <hi rend="italic">Beati
+    eritis</hi> si 
+   <lb ed="#PL"/>
+       <hi rend="italic">feceritis</hi> ea, <hi rend="italic">non de omnibus vobis dico :</hi> est inter vos 
+   <lb ed="#PL"/> qui non erit beatus , neque faciet ea. <hi rend="italic">Ego scio
+    quos 
+   <lb ed="#PL"/> elegerim.</hi> Quos, nisi eos qui beati erunt faciendo quae 
+   <lb ed="#PL"/> praecepit, ac facienda monstravit, qui efficere beatos 
+   <lb ed="#PL"/> potest ? Non est, inquit, traditor Judas electus. Quid 
+   <lb ed="#PL"/> est ergo quod alio loco dicit, <hi rend="italic">Nonne ego vos
+    duodecim
+   <lb ed="#PL"/> elegi, et</hi> unus <hi rend="italic">ex</hi> vobis <hi rend="italic">diabolus est (Joan.</hi> VI, 71)? An 
+   <lb ed="#PL"/> et ipse ad aliquid est electus, ad quod utique erat ne<lb ed="#PL" break="no"/>cessarius ; non autem ad beatitudinem, de qua modo 
+   <lb ed="#PL"/> ait, <hi rend="italic">Beati eritis</hi> si feceritis <hi rend="italic">ea ?</hi> Hoc non de omnibus 
+   <lb ed="#PL"/> dicit: scit euim quos ad societatem beatitudinis hujus 
+   <lb ed="#PL"/> elegerit. Non est ex eis iste qui panem illius sic edc<lb ed="#PL" break="no"/>bat, ut super eum levaret calcaneum. Illi manduca<lb ed="#PL" break="no"/>bant
+   panem Dominum, ille panem Domini contra Do<lb ed="#PL" break="no"/>minum : illi vitam, ille poenam. « Qui enim mandu<lb ed="#PL" break="no"/>cat
+   indigne. ait Apostolus, &lt; judicium sibi manducat» 
+   <lb ed="#PL"/> (I <hi rend="italic">Cor.</hi> XI, 29). «Amodo, ) inquit, « dico vobis, prius<lb ed="#PL" break="no"/>quam
+   fiat ; ut cum factum fuerit, credatis quia ego 
+   <lb ed="#PL"/> sum : &gt; id est, ego sum de quo illa Scriptum praeces<lb ed="#PL" break="no"/>sit, ubi dictum est, <hi rend="italic">Qui manducat mecum panem , 
+   <lb ed="#PL"/> levabit super me calcaneum.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e524-d1e246">i. Deinde sequitur, et dicit: <hi rend="italic">Amen, amen dico</hi> vo­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">bia; qui accipit si quem misero, me accipit; qui</hi> autem 
+   <lb ed="#PL"/>
+       <hi rend="italic">me accipit, accipit eum qui me</hi> misit. Tantumne di<lb ed="#PL" break="no"/>stare
+   intelligi voluit inter eum quem mittit et sei, 
+   <lb ed="#PL"/> quantum inter seipsum et Patrem Deum? Hoc si 
+   <lb ed="#PL"/> isto modo acceperimus, nescio quos gradus, quod ab<lb ed="#PL" break="no"/>sit, Arianorum more faciemus. Illi quippe cum ad<lb ed="#PL" break="no"/>diunt
+   haec evangelica verba, seu legunt, statim ad 
+   <lb ed="#PL"/> illos gradus sui dogmatis currunt, quibus non ascen<lb ed="#PL" break="no"/>dunt
+   ad vitam, sed praecipitantur in mortem. Conti<lb ed="#PL" break="no"/>nuo
+   quippe dicunt: Quantum apostolus Filii distat a 
+   <lb ed="#PL"/> Filio , quamvis dixerit, <hi rend="italic">Qui accipit si quem</hi> misero, 
+   <lb ed="#PL"/> me <hi rend="italic">accipit;</hi> tantum et Filius distat a Patre, quamvis 
+   <lb ed="#PL"/> dixerit, Qui autem <hi rend="italic">me accipit, accipit eum qui</hi> me mi<lb ed="#PL" break="no"/>sit. Sed si hoc dicis, oblitus es, haeretice, gradus 
+   <lb ed="#PL"/> tuos. Si enim tanto intervallo propter haec Domini 
+   <lb ed="#PL"/> verba Filium a Patre, quantum apostolum distinguis
+   
+   <lb ed="#PL"/> a Filio, ubi positurus es Spiritum sanctum ? Exci<lb ed="#PL" break="no"/>ditne
+   libi, eum vos ponere solere post Filium? Erit 
+   <lb ed="#PL"/> ergo ipse inter apostolum et Filium ; et multo amplius 
+   <lb ed="#PL"/> distabit Filius ab apostolo quam Pater a Filio. Au 
+   <lb ed="#PL"/> forte, ut, inter Filium et apostolum, atque inter Pa<lb ed="#PL" break="no"/>trem
+   et Filium mancat paribus intervaUis ista disLin- 
+   <lb ed="#PL"/> CLio, aequalis erit Spiritus sanctus Filio ? Sed nec hoc 
+   <lb ed="#PL"/> vultis. Ubi ergo eum posituri estis, si quanta Filium 
+   <lb ed="#PL"/> Patri, tanta apostolum Filio discretione supponitis ? 
+   <lb ed="#PL"/> Cohibete itaque vestrae praesumptionis audaciam; et 
+   <lb ed="#PL"/> in his verbis nolite quaerere quantam Filii et apos<lb ed="#PL" break="no"/>toli, tantam Patris Filiique distantiam. IpsumFilium 
+   <lb ed="#PL"/> audite potius dicentem, <hi rend="italic">Ego et Pater</hi> unum sumus
+   
+   <lb ed="#PL"/> ( Joan. x, 30). Ubi veritas vobis inter Genitoremet
+   <lb ed="#PL"/> Unigenitum nullam distantiae suspicionem reliquit, 
+   <lb ed="#PL"/> ubi gradus vestros Christus elisit, ubi scalas vestras 
+   <lb ed="#PL"/> petra confregit. «</p>
+      <p xml:id="iuy75t-d1e524-d1e343">3. Sed haereticorum calumnia refutata, quonam 
+   <lb ed="#PL"/> modo nos accepturi sumus haec dominica verba, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Qui accipit</hi> si <hi rend="italic">quem</hi> misero, me <hi rend="italic">accipit; qui autem me 
+   <lb ed="#PL"/> accipit, accipit eum qui me</hi> misit ? Si enim voluerimus 
+   <lb ed="#PL"/> intelligere ideo dictum , Qui <hi rend="italic">me accipit,
+    accipit eum 
+   <lb ed="#PL"/> qui me</hi> misit, quod umus naturae sint Pater et Filius; 
+   <lb ed="#PL"/> consequens videbitur ex eorumdem verborum regula, 
+   <lb ed="#PL"/> qua dictuui est, Qui <hi rend="italic">accipit si quem</hi> misero, <hi rend="italic">me accipit,</hi>
+   
+       <lb ed="#PL"/> ut unius naturae siL Filius et apostolus. Posset qui<lb ed="#PL" break="no"/>dem
+   non inconvenienter et hoc intelligi, quoniam 
+   <lb ed="#PL"/> geminae est ille gigas substantiae, qui exsultavit ad
+   
+   <lb ed="#PL"/> currendam viam <hi rend="italic">(Psal.</hi> XVIII, 6): Verbum euim caru 
+   <lb ed="#PL"/> factum est <hi rend="italic">(Joan.</hi> i , 14), hoc est, Deus homo factus 
+   <lb ed="#PL"/> est. Proinde ita dixisse posset videri, <hi rend="italic">Qui accipit</hi> si 
+   <lb ed="#PL"/> quem misero, me <hi rend="italic">accipit</hi> secundum hominem: <hi rend="italic">Qui</hi> au­ 
+   <pb ed="#PL" n="1787"/>
+       <lb ed="#PL"/>
+       <hi rend="italic">tem me</hi> secundum Deum <hi rend="italic">accipit, accipit eum</hi> qui <hi rend="italic">me 
+   <lb ed="#PL"/> misit.</hi> Sed cum ista dicebat, non ab illo naturae uni­
+   
+   <lb ed="#PL"/> tas; sed in eo qui mittitur, mittentis commendabatur 
+   <lb ed="#PL"/> auctoritas. Sic itaque eum qui missus est unusquis<lb ed="#PL" break="no"/>que
+   accipiat, ut in illo eum qui misit attendat. Si
+   
+   <lb ed="#PL"/> ergo attendas Christum in Petro, invenies discipuli 
+   <lb ed="#PL"/> praeceptorem; si autem attendas Patrem in Filio, 
+   <lb ed="#PL"/> invenies Unigeniti Genitorem: ac sic in eo qui missus
+   
+   <lb ed="#PL"/> est, sine ullo accipis errore mittentem. Ea quae se<lb ed="#PL" break="no"/>quuntur
+   in Evangelio , non sunt temporis brevitate 
+   <lb ed="#PL"/> coarctanda. Et ideo sermo iste, charissimi, velut
+   
+   <lb ed="#PL"/> ovium sanctarum cibus, si sufficit, salubriter capia<lb ed="#PL" break="no"/>tur; si exiguus est, desidcrabilitcr ruminetur.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

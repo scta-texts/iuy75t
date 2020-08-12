@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 84</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 84</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e729"> <!-- iuy75t-t84 -->
+      <head xml:id="iuy75t-d1e729-Hd1e109">Tractatus 84</head>
+      <p xml:id="iuy75t-d1e729-d1e112">
+       <hi rend="italic">In illud,</hi> Majorem hac dilectionem nemo habet, ut 
+   <lb ed="#PL"/> animam suam ponat quis pro amicis suis. <hi rend="italic">Cap.</hi>
+   
+       <lb ed="#PL"/> XV, ℣. 13.</p>
+      <p xml:id="iuy75t-d1e729-d1e125">i. Plenitudinem dilectionis qua nos invicem dili<lb ed="#PL" break="no"/>. gcre dcbemus, fratres charissimi, definivit Dominus 
+   <lb ed="#PL"/> dicens : <hi rend="italic">Majorem hac dilectionem
+    nemo habet,</hi> ut ani<lb ed="#PL" break="no"/>mam <hi rend="italic">suam ponat quis pro amicis
+    suis.</hi> Quia ergo supe<lb ed="#PL" break="no"/>rius
+   dixcral, <hi rend="italic">Hoc est mandatum</hi> meum, ut <hi rend="italic">diligatis</hi> in­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">vicem, sicut dilexi vos;</hi> quibus verbis addidit qnod 
+   <lb ed="#PL"/> nunc audistis, <hi rend="italic">Majorem hac dilectionem nemo habet, ut 
+   <lb ed="#PL"/> animam</hi> suam <hi rend="italic">ponat quis pro amicis suis</hi> : fit ex boc 
+   <lb ed="#PL"/> consequcns, quod. idem iste evangelista Joannes in, 
+   <lb ed="#PL"/> Epistola sua dicit, <hi rend="italic">Ut
+    quemadmodum Christus pro
+   <lb ed="#PL"/> nobis animam suam posuit, lie- et nos</hi> debemus <hi rend="italic">pro
+   <lb ed="#PL"/> fratribus animas ponere</hi> (I <hi rend="italic">Joan.</hi> III, 16); diligentes 
+   <lb ed="#PL"/> utique invicem sicut ipse dilexit nos, qui pro nobis 
+   <lb ed="#PL"/> animam suam posuit. Nimirum hoc est quod legitur 
+   <lb ed="#PL"/> in Proverbiis Salomonis: Si <hi rend="italic">sederis camare ad men­</hi>
+   
+       <lb ed="#PL"/> sam <hi rend="italic">potentis, considerans intellige quae apponuntur tibi;
+   <lb ed="#PL"/> et
+    sic mitte manum tuam, sciens quia talia te oportet 
+   <lb ed="#PL"/> praparare(Prov.</hi> XXIII, i
+    <hi rend="italic">et</hi> 2). Nam quae mensa est po<lb ed="#PL" break="no"/>tentis, nisi unde sumitur corpus et sanguis ejus qui 
+   <lb ed="#PL"/> animam suam posuit pro nobis? Et quid est ad eam 
+   <lb ed="#PL"/> sedere, nisi humiliter accedere? Et quid est conside<lb ed="#PL" break="no"/>rare
+   et intelligere quae apponuntur tibi, nisi digne 
+   <lb ed="#PL"/> tantam gratiam cogitare? Et quid est sic mittere ma­
+    
+   
+   <pb ed="#PL" n="1847"/>
+       <lb ed="#PL"/> num, ut scias quia talia te oportet pranpararc, nUi 
+   <lb ed="#PL"/> quod jam dixi, quia sicut pro nobis Christus animam 
+   <lb ed="#PL"/> suam posuit, sic et nos debemus animas pro fratribus 
+   <lb ed="#PL"/> ponerc? Sicut enim ait etiam apostolus Petrus, <hi rend="italic">Chri­</hi>
+   
+       <lb ed="#PL"/> stus <hi rend="italic">pro nobis passus est, relinquens nobis exemplum, ut 
+   <lb ed="#PL"/>
+    sequamur vestigia ejus</hi> (I <hi rend="italic">Petr.</hi> II, 21). Hoc est talia
+   
+   <lb ed="#PL"/> praeparare. Iloc beati martyres ardenti dilectione te<lb ed="#PL" break="no"/>cerunt : quorum si non inaniter memorias celebra<lb ed="#PL" break="no"/>mus, atqne in convivio quo et ipsi saturati sunt, ad
+   
+   <lb ed="#PL"/> mensam Domini accedimus, oportet, ut quemadmo<lb ed="#PL" break="no"/>dum
+   ipsi, et nos talia praeparemus. Ideo quippc ad 
+   <lb ed="#PL"/> ipsam mensam non sic cos commemoramus, quem<lb ed="#PL" break="no"/>admodum
+   alios qui in pace requiescunt, ut etiam 
+   <lb ed="#PL"/> pro eis oremus, sed magis ut ipsi pro nobis, ut corum 
+   <lb ed="#PL"/> vestigiis adhaercamus; quia impleverunt ipsi charila<lb ed="#PL" break="no"/>tem
+   qua Dominus dixit non posse esse majorem. 
+   <lb ed="#PL"/> Talia enim suis fratribus exhibuerunt, qualia de Do<lb ed="#PL" break="no"/>mini
+   mensa pariter accepcrunt.</p>
+      <p xml:id="iuy75t-d1e729-d1e266">i. Neque hoc ita dictum sit, quasi propterea Do<lb ed="#PL" break="no"/>mino
+   Christo pares esse possimus, si pro illo usque 
+   <lb ed="#PL"/> ad sanguinem martyrium duxerimus. IIIc potestatem
+   
+   <lb ed="#PL"/> habuit ponendi animam suam,etiterum sumenli 
+   <lb ed="#PL"/> cam <hi rend="italic">(Joan.</hi> x, 18); nos autem nec quantum volumus 
+   <lb ed="#PL"/> vivimus, et morimur etiamsi nolumus : ille mor iens 
+   <lb ed="#PL"/> mox in se occidit mortem; nos ill ejus morte lihcra<lb ed="#PL" break="no"/>mur
+   a morte : illius caro non vidit corruptionem 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Act.</hi> II, 31); nostra post corruptionem, in fine sae<lb ed="#PL" break="no"/>culi
+   per illum induetur incorruptionem1: illc nohis non 
+   <lb ed="#PL"/> indiguit ut nos salvos faceret; nos sine illo nihil pos<lb ed="#PL" break="no"/>sumus
+   facere : ille se nobis palmitibus praebuit vitcm ;
+   
+   <lb ed="#PL"/> nos habere praeter illum non possumus vitam. Po<lb ed="#PL" break="no"/>stremo
+   etsi fratres pro fratribus moriantur, tamen in 
+   <lb ed="#PL"/> fraternorum peccatorum remissionem nullius sanguis
+   
+   <lb ed="#PL"/> martyris funditur, quod fecit ille pro nobis: ncque in 
+   <lb ed="#PL"/> hoc quid imitaremur, sed quid gratularemur contulit 
+   <lb ed="#PL"/> nobis. Quatenus ergo martyres pro fratribus sangui­
+   
+   <lb ed="#PL"/> nem suum fuderunt, hactenus talia exhibuerunt, qua<lb ed="#PL" break="no"/>lia
+   de mensa dorninica perceperunt 2. In caeteris enim 
+   <lb ed="#PL"/> quae dixi, quamvis nee omnia dicere potui, martyr
+   
+   <lb ed="#PL"/> Christi longe impar est Christo. Quod si quisquam se, 
+   <lb ed="#PL"/> icon dico potentiae Christi, sed innocentiae compara<lb ed="#PL" break="no"/>bit ; non dicametalienum se putando sanare, sed
+   
+   <lb ed="#PL"/> suuin saltem nullum habere peccatum : etiam sic avi<lb ed="#PL" break="no"/>dior
+   est quam ratio salutis exposcit, multum est ad 
+   <lb ed="#PL"/> illum, non capit tantum. Et bene quod ista Proverbio<lb ed="#PL" break="no"/>rum
+   sententia commonetur, quae continuo subjungit 
+   <lb ed="#PL"/> a:que dicit, <hi rend="italic">Quod</hi> si <hi rend="italic">avidior est noli concupiscere cibos 
+   <lb ed="#PL"/>
+    ejus; satius eat enim ut nihil inde sumas, quam ut libi
+   <lb ed="#PL"/> plus quam oportet
+    assumas. Haec enim,</hi> inquit, <hi rend="italic">vitam 
+   <lb ed="#PL"/> habent fallacem,</hi> hoc est hypocrisim. Dicendo enim se 
+   <lb ed="#PL"/> sine peccato esse, justum non potest exhibere, sed 
+   <lb ed="#PL"/> lingere. Ideo dictum est, <hi rend="italic">Haec enin habent vitam fal­ 
+   <lb ed="#PL"/>
+    lacem.</hi> Unus est solus qui et carnem hominis habere, 
+   <lb ed="#PL"/> et peccatum potuit non habere. Merito quod sequitur, 
+   <lb ed="#PL"/> nobis praecipitur, ac tali verbo atque proverbio hu­
+    
+   
+   <lb ed="#PL"/> mana infirmitas convenitur, eique dicitur : <hi rend="italic">Noli ex­
+   <lb ed="#PL"/>
+    tendere te, cnm sis pauper, contra</hi> divitem. Dives est 
+   <lb ed="#PL"/> enim qui nec haereditario nec proprio unquam debito 
+   <lb ed="#PL"/> obnoxius, et ipse justus est, et alios justificat Chri<lb ed="#PL" break="no"/>stus. Noli contra eum te extendere, in tantum pau<lb ed="#PL" break="no"/>por, ut remissionis peccatorum appareas quotidianus 
+   <lb ed="#PL"/> in oratione mendicus. <hi rend="italic">Tuo autem consilio,</hi> inquit, <hi rend="italic">aba­</hi>
+   
+       <lb ed="#PL"/> tine <hi rend="italic">te.</hi> Unde, nisi a praesumptione fallaci? quippe 
+   <lb ed="#PL"/> quia non tantum est homo, sed etiam Deus, idco 
+   <lb ed="#PL"/> nunquam reus. Si <hi rend="italic">enim direxeris oculum tuum ad
+   <lb ed="#PL"/> illum, nusquam parebit Oculum tuum,</hi> oculum videlicet 
+   <lb ed="#PL"/> humanum quo cernis humana, si <hi rend="italic">direxeris ad illum,
+   <lb ed="#PL"/>
+    nusquam part'bil;</hi> quia videri non pttest, qucmadmo<lb ed="#PL" break="no"/>dum
+   videre tu potes. Parabit <hi rend="italic">enim sibi pennas</hi> sicut 
+   <lb ed="#PL"/>
+       <hi rend="italic">aquilae et vadet in domum</hi> praepositi <hi rend="italic">sui
+    (Prov.</hi> XXIII, 
+   <lb ed="#PL"/> 3-5) : unde ad nos utique venit, nec tales qualis ve<lb ed="#PL" break="no"/>nit
+   invenit. Diligamus ergo invicem, sicut et Christus 
+   <lb ed="#PL"/> dilexit nos, et tradidit semetipsum pro nobis <hi rend="italic">(Galal.</hi>
+   
+       <lb ed="#PL"/> II, 20). <hi rend="italic">Majorem quippe hac dilectionem nemo habet,</hi>
+   
+       <lb ed="#PL"/> ut <hi rend="italic">animan: suam ponat quis</hi> pro <hi rend="italic">amicis
+    suis.</hi> Eumque 
+   <lb ed="#PL"/> sic imitemur pia obedientia, ut ei nos comparare 
+   <lb ed="#PL"/> nulla praesumamus audacia.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

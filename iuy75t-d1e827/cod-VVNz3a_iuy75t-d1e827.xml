@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 96</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 96</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e827"> <!-- iuy75t-t96 -->
+      <head xml:id="iuy75t-d1e827-Hd1e109">Tractatus 96</head>
+      <p xml:id="iuy75t-d1e827-d1e112">In <hi rend="italic">haec verba,</hi> Adhuc multa habeo vobis dicere; sed 
+   <lb ed="#PL"/> non potestis portare modo : cum autem venerit ille 
+   <lb ed="#PL"/> Spiritus veritatis, docebit vos omnem veritatem. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Cap.</hi> xvi, j f. 12, 15.</p>
+      <p xml:id="iuy75t-d1e827-d1e127">i. In islo sancti Evangelii capitulo, ubi Dominus 
+   <lb ed="#PL"/> ait discipulis suis, <hi rend="italic">Adhuc multa habeo vobis dicere, sed</hi>
+   
+       <lb ed="#PL"/> non <hi rend="italic">potestis portare modo,</hi> prius qurerendum illud oc­ 
+   <lb ed="#PL"/>
+   . currit, quomodo superius dixerit, <hi rend="italic">Omnia</hi> quae <hi rend="italic">audivi</hi> a 
+   <lb ed="#PL"/>
+       <hi rend="italic">Patre meo, nota feci vobis (Joan.</hi> xv, 15): et hic dicat, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Adhuc multa habeo vobis dicere, sed non potestis portare 
+   <lb ed="#PL"/>
+    modo.</hi> Verum illud quomodo dixerit, quod nondum 
+   <lb ed="#PL"/> fecerat tanquam fecerit, sicut ea quae futura sunt, 
+   <lb ed="#PL"/> Deum fccisse propheta testatur dicens, <hi rend="italic">Qui fecit quae 
+   <lb ed="#PL"/> futura sunt (Isai.</hi> XLV, ii, <hi rend="italic">sec.</hi> LXX), jam cum ipsa 
+   <lb ed="#PL"/> verba tractaremus, ut potuimus, exposuimus. Nunc
+    
+   
+   <lb ed="#PL"/> ergo quai ista sint quae Apostoli tunc portare non 
+   <lb ed="#PL"/> poterant, vultis forsitaiT soirc. Sed qui:; nostrum au<lb ed="#PL" break="no"/>deat
+   corum se dicere jam cipacem quae illi eapere 
+   <lb ed="#PL"/> hon valebant? Ac per hoc nec a me exspectanda suni 
+   <lb ed="#PL"/> ut dicantur, quae forte non capercm, si mihi ab alia 
+   <lb ed="#PL"/> dicerentur; nec vos ea portare possetis, cliamsi ego 
+   <lb ed="#PL"/> tantus essem, ut a me ista quoe vobis altiora sunt 
+   <lb ed="#PL"/> audiretis. Et fieri quidem potest ut sint in vobis aliqui 
+   <lb ed="#PL"/> ad ea capienda jam idonei, quae alii capere nondum 
+   <lb ed="#PL"/> valent; et si non omnia de quibus magister Deus ills 
+   <lb ed="#PL"/> dicebat,
+    <hi rend="italic">Adhuc multa habeo vobis dicere,</hi> tamen eorum 
+   <lb ed="#PL"/> fortasse nonnulla : sed quaenam sint ista qu;e ipse 
+   <lb ed="#PL"/> non dixit, temerarium est velle praesumere ac dicere. 
+   <lb ed="#PL"/> Nam et mori pro Christo nondum erant idonei tunc 
+   <lb ed="#PL"/> Apostoli, quibus dicebat, <hi rend="italic">Non potestis me sequi modo;</hi>
+   
+       <lb ed="#PL"/> unde primus corum Petrus, qui hoc jam se posse 
+   <lb ed="#PL"/> praesumpserat, aliud expertus est quam putabat <hi rend="italic">(Joan.</hi>
+   
+       <lb ed="#PL"/> XIII, 36-38) : et tamen postea et viri et mulieres, pueri 
+   <lb ed="#PL"/> et puellae, juvenes et virgincs, seniores cum juniori<lb ed="#PL" break="no"/>bus
+   innumerabiles martyrio coronati sunt; et posso 
+   <lb ed="#PL"/> inventae sunt oves, quod tunc quando ista Dominus 
+   <lb ed="#PL"/> loqucbalur, nondum poterant portare pastores. Num<lb ed="#PL" break="no"/>quid
+   ergo debuil illis ovibus dici in illo tentationis 
+   <lb ed="#PL"/> articulo, quo certare usque ad mortem pro veritate 
+   <lb ed="#PL"/> oportebat, et pro Christi nomine vel doctrina sangui<lb ed="#PL" break="no"/>nem
+   fundere; numquid, inquam, debuit eis dici, Quis 
+   <lb ed="#PL"/> vestrum audeat idoneum martyrio se putare, cui Pe<lb ed="#PL" break="no"/>trus
+   idoneus nondum fuerat, quando eum os ad os 
+   <lb ed="#PL"/> ipse Dominus instruebat? Sic itaque dixerit aliquis 
+   <lb ed="#PL"/> non debere dici populis christianis, audirc cupienti<lb ed="#PL" break="no"/>bus
+   quae sint de quibus Dominus tunc dicebat, <hi rend="italic">Adhuc</hi>
+   
+       <lb ed="#PL"/> fulla <hi rend="italic">habeo vobis dicere, sed</hi> non <hi rend="italic">potestis portare modo.</hi>
+   
+       <lb ed="#PL"/> Si Apostoli nondum poterant, multo minus vos pote<lb ed="#PL" break="no"/>stis : quia forte sic multi possunt audire, quod tunc 
+   <lb ed="#PL"/> nondum poterat Petrus, sicut multi possunt martyrio 
+   <lb ed="#PL"/> coronari, quod tunc nondum poterat Petrus : praeser<lb ed="#PL" break="no"/>tim
+   jam misso Spiritu sancto, qui tunc nondum erat 
+   <lb ed="#PL"/> missus, de quo continuo subjunxit, atque ait,
+    <hi rend="italic">Cum
+   <lb ed="#PL"/> autem venerit ille Spiritus veritatis, docebit vos</hi> omnem 
+   <lb ed="#PL"/>
+       <hi rend="italic">veritatem;</hi> sic utique demonstrans illos ideo quae ha<lb ed="#PL" break="no"/>bebat
+   dicere, portare non posse, quia nondum ad eos 
+   <lb ed="#PL"/> vcnerat Spiritus sanctus.</p>
+      <p xml:id="iuy75t-d1e827-d1e292">I. Ecce concedamus ut ila sit, multus ea modo 
+   <lb ed="#PL"/> portare posse jam misso Spiritu sancto, quae tunc co 
+   <lb ed="#PL"/> nondum misso non poterant portare discipuli : num<lb ed="#PL" break="no"/>quid
+   ideo scimus quae siut quae dicere noluit, quae 
+   <lb ed="#PL"/> tunc sciremus si ab eo dicta legeremus vel audire<lb ed="#PL" break="no"/>mus? Aliud est enim scire utrum a nobis vel a vobis 
+   <lb ed="#PL"/> portari possint; aliud autem scire quae sint, sive pore 
+   <lb ed="#PL"/> tari possint, sive non possint. Quae cum ipse tacuerit, 
+   <lb ed="#PL"/> quis nostrum dicat, Ista vel illa sunt? Aut si dicere 
+   <lb ed="#PL"/> audcat, unde probat? Quis enim est tam vanus aut 
+   <lb ed="#PL"/> temerarius, qui cum dixerit etiam vera quibus volue<lb ed="#PL" break="no"/>rit, quae voluerit, sine ullo testimonio divino affir<lb ed="#PL" break="no"/>met
+   ea esse quae tunc Dominus dicere noluit? Quis hoc 
+   <lb ed="#PL"/> nostrum faciat, et non maximam culpam temeritatis 
+   <lb ed="#PL"/> incurrat, in quo nec prophetica nec apostolica excel­
+   
+   <lb ed="#PL"/> lit auctoritas? Nam profecto si eorum aliquid legisse<lb ed="#PL" break="no"/>mus
+   in Libris canonica auctoritate firmatis, qui rosa 
+   <pb ed="#PL" n="1875"/>
+       <lb ed="#PL"/> ascensionem Domini scripti sunt, parum fuerat hoc 
+   <lb ed="#PL"/> legisse, nisi illic id etiam legeretur, hoc ex eis esse 
+   <lb ed="#PL"/> quae tunc Dominus noluit discipulis dicere, quia non 
+   <lb ed="#PL"/> poterant illa portare. Tanquam si, verbi gratia , rgo 
+   <lb ed="#PL"/> dicerem, illud quod legimus in hujus Evangelii capite, 
+   <lb ed="#PL"/>
+       <hi rend="italic">In principio erat Verbum, et</hi> Verbum <hi rend="italic">erat apud
+    Deum,</hi>
+   
+       <lb ed="#PL"/> et <hi rend="italic">Deus erat Verbum, hoc erat in principio apud Deum 
+   <lb ed="#PL"/>
+    (Joan.</hi> I, 1,2), et alia quae sequuntur, quoniam postea 
+   <lb ed="#PL"/> scripta sunt, nec ea Dominum Jesum dixisse narra<lb ed="#PL" break="no"/>tum
+   est, cum hic esset in carne, sed haec unus ex
+   
+   <lb ed="#PL"/> Apostolis ejus, nc Spiritu ejus 1sibi revelante con<lb ed="#PL" break="no"/>scripsit, ex his esse quae noluit tunc Dominus dicere, 
+   <lb ed="#PL"/> quia ea discipuli portare non poterant; quis me audiat 
+   <lb ed="#PL"/> tam temere ista dicentem? Si autem ubi hoc legimus, ibi 
+   <lb ed="#PL"/> hocetiam legeremus, quis non tanto apostolo crederet ?</p>
+      <p xml:id="iuy75t-d1e827-d1e374">3. Sed id quoque mihi videtur absurdissimc dici, 
+   <lb ed="#PL"/> ea tunc DOn potuisse portare discipulos, quae de invi<lb ed="#PL" break="no"/>sibilibus
+   et altissimis rebus invenimus in apostolicis
+   
+   <lb ed="#PL"/> Litteris, quae postmodum scriptae sunt, nec ea Domi<lb ed="#PL" break="no"/>num
+   quando cum illis visibiliter erat, dixisse narra. 
+   <lb ed="#PL"/> tur. Cur enim ea tunc ferre non poterant, quae nunc 
+   <lb ed="#PL"/> in eorum Libris quis non legat, quis non ferat, 
+   <lb ed="#PL"/> etiamsi non intelligat
+   ? Nonnulla quidem homines in<lb ed="#PL" break="no"/>fideles
+   in Scripturis sanctis et non intelligunt cum
+   
+   <lb ed="#PL"/> legunt vel audiunt, et lecta vel audita ferre non pos<lb ed="#PL" break="no"/>sunt: sicut Pagani, quod per eum qui crucifixus est, 
+   <lb ed="#PL"/> factus est mundus; sicut Judaei, quod Filius Dei sit, 
+   <lb ed="#PL"/> qui eo modo quo ipsi celebrant sabbatum solvit; sicut 
+   <lb ed="#PL"/> Sabelliani, quia Trinitas est Pater et Filius et Spiri<lb ed="#PL" break="no"/>tus
+   sanctus; sicut Ariani, quia aequalis est Patri Fi<lb ed="#PL" break="no"/>lius , et Patri ac Filio Spiritus sanctus; sicut Photi<lb ed="#PL" break="no"/>niani, quia non homo tantum similis nobis, sed etiam 
+   <lb ed="#PL"/> Dotis Deo Patri aequalis est Christus; sicut Manichaei, 
+   <lb ed="#PL"/> qnod Christus Jesus per quem liberandi I sumus, nasci
+   
+   <lb ed="#PL"/> in carne et de carne dignatus est: et caeteri omnes 
+   <lb ed="#PL"/> perversarum ac diversarum sectarum homines, uti<lb ed="#PL" break="no"/>que
+   ferre non possunt, quidquid in Scripturis sanctis 
+   <lb ed="#PL"/> et in fide catholica. reperitur, quod contra eorum pro<lb ed="#PL" break="no"/>feratur
+   errores; sicut nos ferre non possumus sacri<lb ed="#PL" break="no"/>legas
+   eorum vanitates et insanias mendaces. Quid est 
+   <lb ed="#PL"/> enim ferre non posse, nisi aequo animo non habere? 
+   <lb ed="#PL"/> Sed omnia quae post ascensionem Domini canonica 
+   <lb ed="#PL"/> veritate atque auctoritate conscripta sunt, quis fidelis 
+   <lb ed="#PL"/> vel etiam catechumenus, antequam Spiritum san<lb ed="#PL" break="no"/>cium
+   baptizatus accipiat, non aequo animo legit atque 
+   <lb ed="#PL"/> audit, etiamsi nondum sicut oportet intelligit ? Quo<lb ed="#PL" break="no"/>modo
+   ergo aliquid corum quae post ascensionem Do<lb ed="#PL" break="no"/>mini
+   scripta sunt, non possent ferre discipuli, etiam 
+   <lb ed="#PL"/> nondum sibi misso Spiritu sancto, cumornnia nuncfo<lb ed="#PL" break="no"/>rant
+   catechumeni nondum accepto Spiritu sancto? Quia
+   
+   <lb ed="#PL"/> etsi non eis fidelium sacramenta produntur, non ideo fit 
+   <lb ed="#PL"/> quod ea ferrc non possunt; scd ut ab cis tanto ardentius 
+   <lb ed="#PL"/> concupiscantur, quanto eis honorabilius occultantur.</p>
+      <p xml:id="iuy75t-d1e827-d1e457">4. Quapropter, charissimi, non a nobis exspectetis 
+   <lb ed="#PL"/> audire quae tunc noluit Dominus discipulis dicere, quia 
+   <lb ed="#PL"/> nondum poterant illa portare: sed potius in charitate 
+   <lb ed="#PL"/> proficite, quae diffunditur in cordibus vestris per Spi. 
+   
+   <lb ed="#PL"/> ritum sanctum qui datus est vobis <hi rend="italic">(Rom.</hi> v, 5); ut 
+   <lb ed="#PL"/> spiritu ferventes et spiritualia diligentes, spiritualem 
+   <lb ed="#PL"/> lucem spiritualemque vocem, quam carnales homines 
+   <lb ed="#PL"/> ferre non possunt, non aliquo signo corporalibns
+   
+   <lb ed="#PL"/> oculis apparente , nec aliquo sono corporalibus auri<lb ed="#PL" break="no"/>bus
+   instrepente, sed interiore conspectu et auditu 
+   <lb ed="#PL"/> nosse positis. Non enim diligitur quod penitus igno­
+   
+   <lb ed="#PL"/> ratur. Sed cum diligitur quod ex quantulacumque 
+   <lb ed="#PL"/> parte cognoscitur, ipsa efficitur diLclionc ut melius ut 
+   <lb ed="#PL"/> plenius cognoscatur. Si ergo in charitate proficiatis , 
+   <lb ed="#PL"/> quam diffundit in cordibus Spiritus sanctus, <hi rend="italic">docebit
+   <lb ed="#PL"/> vos omnem veritatem:</hi> vel, sicut alii codices habent, 
+   <lb ed="#PL"/>
+       <hi rend="italic">deducet vos</hi> in <hi rend="italic">omni veritate (a) :</hi> unde dictum est, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Deduc me, Domine, in via tua, et ambulabo in veritate
+   <lb ed="#PL"/> tua
+    (Psal.</hi> LXXXV, 11). Sic fiet ut non a doctoribus 
+   <lb ed="#PL"/> exterioribus illa discatis, quae noluit Dominus tunc 
+   <lb ed="#PL"/> dicere, sed silis omnes docibiles Deo <hi rend="italic">(Joan.</hi> vi, 45); 
+   <lb ed="#PL"/> ut ea ipsa quue per lectiones atque sermones extrin<lb ed="#PL" break="no"/>secus
+   adhibitos didicistis et credidistis de natura Dei 
+   <lb ed="#PL"/> non corporea, nec loco aliquo inclusa, nec per inii<lb ed="#PL" break="no"/>nita
+   spatia locorum quasi mole distenta, sed ubique
+   
+   <lb ed="#PL"/> totaetperfecta et infinita , sine nitoribus colorum , 
+   <lb ed="#PL"/> sine figuris lincamentorum, sine notis litterarum, 
+   <lb ed="#PL"/> sine serie syllabarum, ipsa mente conspicere valeatis. 
+   <lb ed="#PL"/> Ecce dixi aliquid quod forte inde sit, et tamen acce 
+   <lb ed="#PL"/> pistis; et non solnm ferre potuistis, vemm etiam li<lb ed="#PL" break="no"/>benter
+   audistis. Sed ille magister interior, qui cum 
+   <lb ed="#PL"/> adhuc discipulis exterius loqueretur, ait, <hi rend="italic">Adhuc multi 
+   <lb ed="#PL"/> habeo vobis dicere, sed non potestis portare modo,</hi> si 
+   <lb ed="#PL"/> vellet nobis id quod de incorporea Dci natura dixi, 
+   <lb ed="#PL"/> intrinsecus ita dicere, sicut sanctis Angelis dicit, qui 
+   <lb ed="#PL"/> semper vident faciem Patris <hi rend="italic">(Matth.</hi> XVIII, 10); non<lb ed="#PL" break="no"/>dum
+   ea portare possemus. Proinde quod ait, <hi rend="italic">Docebit
+   <lb ed="#PL"/> vos omnem veritatem,</hi> vel, <hi rend="italic">deducet
+    vos</hi> in <hi rend="italic">omni veritate</hi>
+   
+       <lb ed="#PL"/> non arbitror in hac vita in cujusquam mente posse 
+   <lb ed="#PL"/> compleri (quis enim vivens in hoc corpore quod 
+   <lb ed="#PL"/> corrumpitur et aggravat animam <hi rend="italic">[Sap.</hi> IX, 15], possit 
+   <lb ed="#PL"/> omnem cognoscere veritalem; cum dicat Apostolus, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ex parte scimus?);</hi> sed quia per Spiritum sanctum fil , 
+   <lb ed="#PL"/> unde nunc pignus accepimus (II <hi rend="italic">Cor.</hi> I, 22), ut aJ 
+   <lb ed="#PL"/> ipsam quoqne plenitudinem veniamus : de qua idc n 
+   <lb ed="#PL"/> dicit apostulus, <hi rend="italic">Tunc autem
+    facie ad faciem;</hi> et, <hi rend="italic">Nunc 
+   <lb ed="#PL"/> scio ex parte. tunc autem
+    cognoscam sicut et cognitus 
+   <lb ed="#PL"/> sum</hi> (I <hi rend="italic">Cor.</hi> xiu, 9, 42)
+   : non quod in hac vita scit 
+   <lb ed="#PL"/> totum, quod usque ad illam perfectionem futurum 
+   <lb ed="#PL"/> nobis Dominus promisit per charitatem Spiritus, di<lb ed="#PL" break="no"/>cens, <hi rend="italic">Docebit</hi> vos <hi rend="italic">omnem veritatem;</hi> vel, <hi rend="italic">deducet vos 
+   <lb ed="#PL"/> in omni veritate.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e827-d1e632">5. Quae cum ita sint, dilectissimi, moneo vos in 
+   <lb ed="#PL"/> cbarilate Christi, ut seductores caveatis impuros et 
+   <lb ed="#PL"/> obscoenae turpitudinis sectas, de quibus ait Apostolus, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Quae autem occulte fiunt ab</hi> istis, turpe <hi rend="italic">est et
+    diccre 
+   <lb ed="#PL"/> (Ephes.</hi> v, 12): ne. cum horrendas immunditias do<lb ed="#PL" break="no"/>cere
+   coeperint, quas humanae aures qualescumque 
+   <lb ed="#PL"/> sint, portare non possunt, dicant ipsa esse quae Do<lb ed="#PL" break="no"/>minus
+   ait, <hi rend="italic">Adhuc multa habeo vobis dicere, sed
+    noti 
+   <lb ed="#PL"/> potestis portare modo;</hi> et per Spiritum sanctum asse<lb ed="#PL" break="no"/>rant
+   fieri ut possint illa immunda et nefanda portari. 
+   
+   <pb ed="#PL" n="1877"/>
+       <lb ed="#PL"/> Alia sunt mala quae portare non potest qualiscumque 
+   <lb ed="#PL"/> pudor humanus; et alia sunt bona quae portare non 
+   <lb ed="#PL"/> potest parvus sensus humanus: ista fiunt in corpori<lb ed="#PL" break="no"/>bus
+   impudicis, illa remota sunt a corporibus univer<lb ed="#PL" break="no"/>sif.; hoc impura carne committitur, illud pura mente 
+   <lb ed="#PL"/> vix cernitur. &lt; Renovamini ergo spiritu mentis vestrae 
+   <lb ed="#PL"/> &lt; <hi rend="italic">( Ephes.</hi> IV, 23), &lt; et intelligite quae sit voluntas Dei, 
+   <lb ed="#PL"/> quod bonum est et beneplacitum et perfectum
+   &gt; (Rom. 
+   <lb ed="#PL"/> XII, 2): &lt; ut in charitate radicati et fundati, possitis 
+   <lb ed="#PL"/> comprehendere cum omnibus sanctis, qaae sit longi<lb ed="#PL" break="no"/>tudo, latitudo, altitudo et profundum; cognoscere 
+   <lb ed="#PL"/> etiam supereminentem scientiae charitatem Christi, ut 
+   <lb ed="#PL"/> impleamini in omnem plenitudinem Dei &gt; <hi rend="italic">(Ephes.</hi> ut, 
+   <lb ed="#PL"/> 17-19). Isto enim modo vos docebit Spiritus sanctus 
+   <lb ed="#PL"/> omnem veritatem, cum magis magisque diffundet in 
+   <lb ed="#PL"/> cordibus vestris charitatem.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

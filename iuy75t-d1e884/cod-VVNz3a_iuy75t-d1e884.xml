@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 103</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 103</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e884"> <!-- iuy75t-t103 -->
+      <head xml:id="iuy75t-d1e884-Hd1e109">Tractatus 103</head>
+      <p xml:id="iuy75t-d1e884-d1e112">
+       <hi rend="italic">De eo quod sequitur,</hi> Dicunt ci discipuli cjus : Ecce 
+   <lb ed="#PL"/> ' nunc palam toqucris; <hi rend="italic">usque ad id,</hi> Sed confidite,, 
+   <lb ed="#PL"/> ego vici mundum. <hi rend="italic">Cap.</hi> xvi, f . 29-33.</p>
+      <p xml:id="iuy75t-d1e884-d1e128">i. Quales erant discipuli CbrisLi, quando cum eis ante 
+   <lb ed="#PL"/> passionem loquebatur magna cum parvis, sed sicut 
+   <lb ed="#PL"/> oportebat ut magna dicerentur et parvis, quia non<lb ed="#PL" break="no"/>dum
+   accepto Spiritu sancto, qucmadmodum eum post 
+   <lb ed="#PL"/> ejus resurrectionem vel ipso insufflante, vel desuper 
+   <lb ed="#PL"/> acceperunt, humana magis quam divina sapiebant, 
+   <lb ed="#PL"/> multis judiciis per totum Evangelium declaratur : 
+   <lb ed="#PL"/> unde et hoc est quod in ista lectione dixerunt. Ait 
+   <lb ed="#PL"/> enim Evangelista : « Dicunt ei discipuli ejus : Ecce 
+   <lb ed="#PL"/> nunc palam loqueris, et proverbium nullum dicis: 
+   <lb ed="#PL"/> nunc scimus quia nosti omnia, et non opus est tibi ut 
+   <lb ed="#PL"/> quis te interroget; in hoc credimus quia a Deo existi. »
+   
+   <lb ed="#PL"/> Ipse Dominus paulo ante dixerat, &lt; Haec in proverbiis 
+   <lb ed="#PL"/> locutus sumvobis: venithoracum jam non in proverbiis 
+   <lb ed="#PL"/> loquar vobis. Quomodo ergo isti dicunt, <hi rend="italic">Ecce nunc</hi> pa­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">lam loqueris,</hi> et proverbium <hi rend="italic">nullum dicis</hi> ? Numquid hora 
+   <lb ed="#PL"/> jam venerat, qua non jam in proverbiis se promiserat 
+   <lb ed="#PL"/> locuturum
+   ? Pronus quod nondum iUa hora venisset, 
+   <lb ed="#PL"/> continuatio verborum ejus ostendit, quae ita sese ha<lb ed="#PL" break="no"/>. 
+   <lb ed="#PL"/> bet: « Haec, inquit, in proverbiis locutus sum vobis: 
+   <lb ed="#PL"/> venit hora cum jam non in proverbiis loquar vobis, 
+   <lb ed="#PL"/> sed palam de Patre meo annuntiabo vobis. Illo die in 
+   <lb ed="#PL"/> nomine meo petetis : et non dico vobis quia ego ro­
+   
+   <lb ed="#PL"/> gabo Patrem de vobis; ipse enim Pater amat vos, quia 
+   <lb ed="#PL"/> vos me amastis, et credidistis quia ego a Deo exivi. 
+   <lb ed="#PL"/> Exivi a Patre, et veni in mundum : iterum relinquo 
+   <lb ed="#PL"/> mundum, et vado ad Patrem % <hi rend="italic">( Joan.</hi> XVI, 25-28).
+   
+   <lb ed="#PL"/> Cum per haec omnia verba adhuc illam promittat ho<lb ed="#PL" break="no"/>ram
+   qua non jam iti proverbiis loquetur, sed palam 
+   <lb ed="#PL"/> de Patre annuntiabit eis; in qua hora dicit eos in suo 
+   <lb ed="#PL"/> nomine petituros, nee se Patrem de illis rogaturum , 
+   <lb ed="#PL"/> eo quod ipse Pater amet eos, quia et ipsi amaverunt 
+   <lb ed="#PL"/> Cbristum, et crediderunt quod a Patre exierit et re<lb ed="#PL" break="no"/>nerit
+   in mundum, iterum relicturus mundum et iturus 
+   <lb ed="#PL"/> ad Patrem : cum ergo adhuc promittatur hora illa in 
+   <lb ed="#PL"/> qua sine proverbiis locuturus est, cur isti dicunt,
+    <hi rend="italic">Ecce</hi>
+   
+       <lb ed="#PL"/> nunc <hi rend="italic">palam</hi> loqueris <hi rend="italic">et</hi> proverbium nullum dicis; nisi 
+   <lb ed="#PL"/> quia illa quae scit ipse non inteUigentibus esse pro-. 
+   <lb ed="#PL"/> verbia, illi usque adeo non intelligunt, ut nec saltem 
+   <lb ed="#PL"/> non se intelligere intelligant? Parvuli enim crant, et 
+   <lb ed="#PL"/> nondum spiritualiter dijudicabant, quae de rebus non 
+   <lb ed="#PL"/> ad corpus, sed ad spiritum pertinentibus audiebant.</p>
+      <p xml:id="iuy75t-d1e884-d1e244">2, Denique de ipsa eorum aetate adhuc secundum 
+   <lb ed="#PL"/> interiorem hominem parva et infirma eos admonens, 
+   <lb ed="#PL"/> « Respondit eis Jesus : Modo creditis ? Ecce venit 
+   <lb ed="#PL"/> hora, et jam venit, ut dispergamini unusquisque in 
+   <lb ed="#PL"/> propria, et nic solum relinquatis. Et non sum solus, 
+   <lb ed="#PL"/> quia Pater mecum est. » Paulo ante dixerat, « Re­
+   
+   <lb ed="#PL"/> linqoo mundum, et vado ad Patrem; * nune dicit, 
+   <lb ed="#PL"/> « Pater mecum est. » Quis vadit ad euin qui cum illo 
+   <lb ed="#PL"/> est? Sed hoc intelligenti est verbum, non intelligenti
+   
+   <lb ed="#PL"/> proverbium : sic tamen quod modo a parvulis non 
+   <lb ed="#PL"/> intelligitur, utctiinque sugitur; et eis etiam si hon 
+   <lb ed="#PL"/> praebet, quia nondum eum eapiunt, solidum cibum,
+   
+   <lb ed="#PL"/> saltem lacteum non debegat alimentum. Ex hoc ali<lb ed="#PL" break="no"/>mento
+   est, quod sciebant eum nosse omnia, nec opus 
+   <lb ed="#PL"/> ei esse ut eum quis interroget: quod quidem cur dl­
+   
+   <lb ed="#PL"/> xerint, quaeri pOtest. Vidc:ur enim potius fuisse dl- / 
+   <lb ed="#PL"/> cendum, Non opus est tibi ut quemquam interroges; 
+   <lb ed="#PL"/> non, ut quis le <hi rend="italic">interroget.</hi> Dixerunt qulppe, Scintus 
+   <lb ed="#PL"/>
+       <hi rend="italic">quia nosti</hi> omma : et utique qui novit omnia, magis 
+   <lb ed="#PL"/> a nescientibus interrogari solet, ut interrogantes au<lb ed="#PL" break="no"/>diam
+   quod volunt, ab eo qui novit Omnia ; nt1n ipse 
+   <lb ed="#PL"/> interrogare, tanquam volens aliquid scire, qui novil 
+   <lb ed="#PL"/> omnia. Quid sibi ergo vult, quod ei quem sciebant 
+   <lb ed="#PL"/> nosse omnia, cum dicere debuisse videantur, Non opus 
+   <lb ed="#PL"/> est tibi ut quemquam interroges, dicendum potius 
+   <lb ed="#PL"/> putaverunt, <hi rend="italic">Non opus eat tibi</hi> ut <hi rend="italic">qui; te
+    tntetroget ?</hi>
+   
+       <lb ed="#PL"/> Quid quod utrumque legimus factum, 6t interrogasse 
+   <lb ed="#PL"/> scilicet Dominum, et interrogatum fuisse? Sed hoc 
+   <lb ed="#PL"/> cito solvitur : quia hOc noh ei, sed illis potius opus 
+   <lb ed="#PL"/> erat quos interrogabat, vel a quibus interrogabatur. 
+   <lb ed="#PL"/> Neque enim aliquds ille interrogabat, ut ab eis aliquid 
+   <lb ed="#PL"/> disceret, sed eos potius ut doceret. Et qui interroga<lb ed="#PL" break="no"/>bant
+   eum, volentes ab eo aliquid discere, illis profecto 
+   <lb ed="#PL"/> id opus erat, ut scirent aliqua ab illo qui noverat 
+   <lb ed="#PL"/> omnia. Nimirum ergo propterea non opus erat ut eum 
+   <lb ed="#PL"/> quis interrogaret. Quoniam nos quando interrogamur 
+   <lb ed="#PL"/> ab eis qui volunt aliquid a nobis scire, ex ipsis inter<lb ed="#PL" break="no"/>rogationibus
+   eorum cognoscimus quid vclint discere; 
+   <lb ed="#PL"/> opus est ergo nobis ab eis interrogari, quos docere 
+   <lb ed="#PL"/> aliquid volumus, ut inquisitiones eorum quibus re<lb ed="#PL" break="no"/>spondendum
+   est noverimus : illi autem ne id quidem 
+   <lb ed="#PL"/> opus erat, qui omnia noverat; nec opus habebat quod 
+   <lb ed="#PL"/> ab eo quisque scire vellet, per ejus interrogationem 
+   <lb ed="#PL"/> cognoscere, quia prius quam interrogarctur, interro<lb ed="#PL" break="no"/>gaturi
+   noverat voluntatem. Sed ideo se patiebatur in­
+   
+   <lb ed="#PL"/> terrogari, ut vel eis qui tunc aderant, vel qui haec 
+   <lb ed="#PL"/> sive dicta fuerant audituri, sive scripta lecturi, quales 
+   <lb ed="#PL"/> essent, a quibus interrogabatur, ostenderet; eoque 
+   <lb ed="#PL"/> modo nossemus vel quibus non circumveniretur frau<lb ed="#PL" break="no"/>dibus, vel quibus apud eum proficeretur accessibus. 
+   <lb ed="#PL"/> Praevidcre autem cogitationes bominum, et ideo non 
+   <lb ed="#PL"/> opus babere ut eum quis interrogarct, magnum Deo 
+   <lb ed="#PL"/> non erat, sed magnum parvulis erat qni ei dicebant, 
+   <lb ed="#PL"/>
+       <hi rend="italic">In hoc credimus quia a Deo existi</hi> Multo autcm majus 
+   <lb ed="#PL"/> crat, ad quod intclligendum eos volebat extendi et 
+   <lb ed="#PL"/> crescere, quod cum illi dixissent, verumque dixissent, 
+   <lb ed="#PL"/> a <hi rend="italic">Deo existi,</hi> ait ille, <hi rend="italic">Pater</hi> mecum <hi rend="italic">est;</hi> ne sic a Patre 
+   <lb ed="#PL"/> Filium cogitarent exisse, ut putarent etiam recea<lb ed="#PL" break="no"/>sisse.</p>
+      <p xml:id="iuy75t-d1e884-d1e399">S. Deinde sermonem istum magnum prolixumque 
+   <lb ed="#PL"/> concludens : <hi rend="italic">Haec,</hi> inquit, <hi rend="italic">locutus</hi> sum <foreign xml:lang="grc">νο</foreign>bis, <hi rend="italic">ut</hi> in ma 
+   <lb ed="#PL"/>
+       <hi rend="italic">pacem</hi> habentis. <hi rend="italic">In mundo</hi> pressuram <hi rend="italic">habebitis;</hi> sea 
+   <lb ed="#PL"/>
+       <hi rend="italic">confidite, ego</hi> vici mundum. Illud initium fuerat habi­ 
+   <pb ed="#PL" n="1901"/>
+       <lb ed="#PL"/> mura ista prmura, de quo supcrius ut eos ostenderet 
+   <lb ed="#PL"/> parvulos, quibus adhuc non intelligentibus ei aliud 
+   <lb ed="#PL"/> pro alio sentientibus, proverbia quodammodo essent 
+   <lb ed="#PL"/> quaecumque magna et divina dixisset, ait, <hi rend="italic">Modo
+    cre­</hi>
+   
+       <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> ditis ? <hi rend="italic">Ecce venit</hi> hora, <hi rend="italic">el</hi> jam
+    <foreign xml:lang="grc">ν</foreign>enit, ut dispergamini 
+   <lb ed="#PL"/> unusquisque in <hi rend="italic">propria.</hi> Ecce initium pressurae, sed 
+   <lb ed="#PL"/> uon eo modo perseveraturae. Quod enim adjunxit, <hi rend="italic">et</hi>
+   
+       <lb ed="#PL"/> me <hi rend="italic">solum</hi> relinquatis, noR vult eos tales esse in con<lb ed="#PL" break="no"/>sequenti
+   pressura, quam post ejus ascensionem in 
+   <lb ed="#PL"/> mundo fuerant habituri, ut relinquant eum; sed ut in 
+   <lb ed="#PL"/> illo pacem habeant permanentes in eo. Non enim 
+   <lb ed="#PL"/> quando comprehensus est, tantummodo carne sua 
+   <lb ed="#PL"/> ejus carnem, verum etiam mente reliquerunt fidem. 
+   <lb ed="#PL"/> Ad hoc pertinct quod ait, <hi rend="italic">Modo creditis ?
+    Ecce <foreign xml:lang="grc">ν</foreign>enit 
+   <lb ed="#PL"/> hora, ut dispergamini in</hi> propria, et me relinquatis: 
+   <lb ed="#PL"/> tanquam diceret. Tune ita perturbabimini, ut etiam
+   
+   <lb ed="#PL"/> quod modo creditis, relinquatis. Venerint enim ad 
+   <lb ed="#PL"/> tantam desperationem, et sum pristinae fidei, ut ita 
+   <lb ed="#PL"/> dixcrim, mortem, quanta apparuit in illo Cleopha, 
+   <lb ed="#PL"/> qui post ejus resurrectionem cum illo se loqui ne<lb ed="#PL" break="no"/>sciens, et quid ei contigerit narrans, <hi rend="italic">Nos,</hi> inquis, 
+   <lb ed="#PL"/>
+       <hi rend="italic">sperabamus quod ipse</hi> fuerat <hi rend="italic">redempturus
+    Israel</hi> (Luc. 
+   <lb ed="#PL"/> XXIV, 21). Ecce quomodo eum reliquerant, dese<lb ed="#PL" break="no"/>rendo
+   etiam ipsam fidem qua in eam aute crediderant. 
+   <lb ed="#PL"/> In ea vero pressura quam post ejus glorificationem 
+   <lb ed="#PL"/> accepto Spiritu sancto pertulerunt, non eum rełique<lb ed="#PL" break="no"/>runt: et quamvis fugerent de civitate in civitatem, ab 
+   <lb ed="#PL"/> ipso non refugerunt; sed ut babentes pressuram In 
+   <lb ed="#PL"/> mundo, in illo pacem tenerent, non ab ipso rei. 
+   <lb ed="#PL"/> fuerunt, sed ipsum potius refugium habuerunt. Dato 
+   <lb ed="#PL"/> quippe illis Spiritu saneto, factum eat in eis quod 
+   <lb ed="#PL"/> nanc dictum est eis, <hi rend="italic">Confidite,</hi> ego
+    <hi rend="italic">vici</hi> mundum, Con<lb ed="#PL" break="no"/>fidcrunt, et vicerunt. In quo, nisi in illo? Noti enim 
+   <lb ed="#PL"/> vicissot ille mundum, si ejus membra vinceret mun<lb ed="#PL" break="no"/>dus. Unde ait Apostolus, <hi rend="italic">Gratias</hi> Deo, qui <hi rend="italic">dat</hi> nobis
+   
+   <lb ed="#PL"/> victoriam; continuoque subjecit, per <hi rend="italic">Dominum</hi> no­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">strum Jesum Christum</hi> (I <hi rend="italic">Cor.</hi> xv, 57 ) : qui dixerat 
+   <lb ed="#PL"/> suis, <hi rend="italic">Confidite, ego vici</hi> mundum.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

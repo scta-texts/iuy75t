@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 117</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 117</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e998"> <!-- iuy75t-t117 -->
+      <head xml:id="iuy75t-d1e998-Hd1e109">Tractatus 117</head>
+      <p xml:id="iuy75t-d1e998-d1e112">
+       <hi rend="italic">De eo quod sequitur,</hi> Et bajulans sihi crucem, exiit in 
+   <lb ed="#PL"/> eum qui dicitur Calvariae locum ; <hi rend="italic">usque ad id,</hi> Re<lb ed="#PL" break="no"/>spondit
+   Pilatus ; Quod scripsi, scripsi. <hi rend="italic">Cap.</hi> xix , 
+   <lb ed="#PL"/> t 17 22.</p>
+      <p xml:id="iuy75t-d1e998-d1e131">i. Judicante atque damnante Pilato pro tribunali, 
+   <lb ed="#PL"/> Dominum Jesum Christum hora quasi sexta suscepe<lb ed="#PL" break="no"/>runt, et eduxerunt. <hi rend="italic">Et bajulans sibi
+    crucem, exiit in 
+   <lb ed="#PL"/> eum qui dicitur</hi> Calvariae <hi rend="italic">locum, hebraice
+    Golgotha, ubi 
+   <lb ed="#PL"/> crucifixerunt eum.</hi> Quid est ergo quod Marcus evange<lb ed="#PL" break="no"/>lisia
+   dicit, <hi rend="italic">Erat autem hora tertia, et crucifixerunt cum
+   <lb ed="#PL"/>
+    (Marc.</hi> xv, 25); nisi quia hora tertia crucifixus est Do<lb ed="#PL" break="no"/>minus
+   linguis Judaeorum , bora sexta manibus nuli - 
+   <lb ed="#PL"/> tum? Ut intelligamus horam quintam jam fuisse trans<lb ed="#PL" break="no"/>actam, et aliquid de sexta coeptum quando sedit pro 
+   <lb ed="#PL"/> tribunali Pilatus, quae dicta est a Joanne hora quasi 
+   <lb ed="#PL"/> sexta : et cum duceretur, et ligno cum duobus latro<lb ed="#PL" break="no"/>nibus
+   configeretur, et juxta ejus crucem gererentur 
+   <lb ed="#PL"/> quae gesta narrantur, hora sexta integra compleretur; 
+   <lb ed="#PL"/> ex qua hora usque ad nonam sole obscurato, tene<lb ed="#PL" break="no"/>bras
+   factas trium evangelistarum, Matthat, Marci et 
+   <lb ed="#PL"/> Lucae contestatur anctoritas ( <hi rend="italic">Matth.</hi> XXVII, 45; <hi rend="italic">Marc.</hi>
+   
+       <lb ed="#PL"/> xv, 33, <hi rend="italic">et Luc.</hi> XXIII, 44). Sed quoniam Judaei f ci<lb ed="#PL" break="no"/>nus
+   interfecti Christi a se in Romanos, id est, in 
+   <lb ed="#PL"/> Pilatumetejus milites transferre conati sunt; pro<lb ed="#PL" break="no"/>pterca
+   Marcus suppressa ea bura qua Christus a mili­ 
+   <pb ed="#PL" n="1945"/>
+       <lb ed="#PL"/> tibus crucifilus est, quae agi sexta jam coeperat, ter<lb ed="#PL" break="no"/>tiam
+   potius horam recordatus expressit, qua hora in<lb ed="#PL" break="no"/>telliguntur
+   apud Pilatum clamare potuisse, Crucifige, 
+   <lb ed="#PL"/>
+       <hi rend="italic">crucifige ( Joan.</hi> xix, 6 ) : utnon illi tantum repcrian<lb ed="#PL" break="no"/>tur
+   crucifixisse Jesum, idest, milites qui eum ligno 
+   <lb ed="#PL"/> sexta hora suspenderunt; verum etiam Judaei, qui ut 
+   <lb ed="#PL"/> crucifigeretur, hora tertia clamaverunt.</p>
+      <p xml:id="iuy75t-d1e998-d1e216">i. Est et alia hujus solutio quaestionis, ut non hic acci<lb ed="#PL" break="no"/>piatur
+   hora sexta diei, quia ncc Joannesait, Eratautem 
+   <lb ed="#PL"/> hora diei quasi sexta, aut bora quasi sexta;sed ait, <hi rend="italic">Erat
+   <lb ed="#PL"/> autemparaaceve Paschae, hora quasi sexta (Ibid.</hi> 14). Pa<lb ed="#PL" break="no"/>rasceve
+   autem latine Praeparatio est: sed isto verbo 
+   <lb ed="#PL"/> graeco libentius utuntur Judaei in hujusmodi observa<lb ed="#PL" break="no"/>tionibus, etiam qui magis latine quam graece loquun<lb ed="#PL" break="no"/>tur. Erat ergo praeparatio Paschae. <hi rend="italic">Pascha</hi> vero no­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">strum,</hi> sicut dicit Apostolus, immolatus <hi rend="italic">eat
+    Christus</hi>
+   
+       <lb ed="#PL"/> (I <hi rend="italic">Cor.</hi> v, 7): cujus Paschae praeparationem si ab 
+   <lb ed="#PL"/> hora noctis nona computemus ( tunc enim videntur 
+   <lb ed="#PL"/> principes sacerdotum pronuntiasse immolationem Do<lb ed="#PL" break="no"/>mini, dicentes, Reus <hi rend="italic">eat</hi> mortis <hi rend="italic">[Matth.</hi> xxvi, 66]; cum 
+   <lb ed="#PL"/> adhuc in domo pontificis audiretur: unde congruen<lb ed="#PL" break="no"/>ter
+   accipitur inde coepisse praeparationem veri Pa<lb ed="#PL" break="no"/>schae, cujus umbra erat Pascha Judaeorum, id est, im<lb ed="#PL" break="no"/>molationis
+   Christi, ex quo a sacerdotibus pronuntia<lb ed="#PL" break="no"/>tus
+   est immolandus), profecto ab ea noctis hora, quae 
+   <lb ed="#PL"/> tunc nona fuisse conjicitur, usque ad horam diei ter<lb ed="#PL" break="no"/>tiam
+   qua crucifixum esse Christum Marcus evangeli<lb ed="#PL" break="no"/>sta
+   testatur, sex horae sunt, tres nocturnae et tres 
+   <lb ed="#PL"/> diurnae. Unde in hac parasceve Paschae, id est pra<lb ed="#PL" break="no"/>paratione
+   immolationis Christi, quae ab hora noctis 
+   <lb ed="#PL"/> nona coeperat, quasi sexta agebatur hora; id est, 
+   <lb ed="#PL"/> peracta quinta jam sexta currere coeperat, quando 
+   <lb ed="#PL"/> Pilatus tribunal ascendit: adhuc enim erat ipsa prae<lb ed="#PL" break="no"/>paratio, quae ab hora noctis nona coeperat, donec fie<lb ed="#PL" break="no"/>ret
+   quae praeparabatur Christi-immolatio: qaae facta 
+   <lb ed="#PL"/> est hora tertia secundum Marcum, non praeparatio<lb ed="#PL" break="no"/>nis, sed diei; eademque sexta non diei, sed praepara<lb ed="#PL" break="no"/>tionis, sel utique horis a uoctisnona usque ad diei tcr<lb ed="#PL" break="no"/>tiam
+   computatis. Harum duarum solutionum istius dit<lb ed="#PL" break="no"/>ficilis
+   quaestionis , eligat quisque quam volet. Melius
+   
+   <lb ed="#PL"/> autem quid eligat judicabit, qui de Consensu Evange<lb ed="#PL" break="no"/>listarum
+   quae operosissime disputata sunt, legerit 
+   <lb ed="#PL"/> ( <hi rend="italic">Lib.</hi> 5 de Consensu Evangelist., cap. 13, n. 40.50 ). 
+   <lb ed="#PL"/> Qnod si et aliae solutiones ejas potuerint inveniri, cu<lb ed="#PL" break="no"/>mulatius
+   evangelicae veritatis. constantia defendetur 
+   <lb ed="#PL"/> adversus calumnias infidelis atque impiae vanilalis. 
+   <lb ed="#PL"/> Nunc ad narrationem Joannis evangelistae post ista 
+   <lb ed="#PL"/> breviter tractata redeamus.</p>
+      <p xml:id="iuy75t-d1e998-d1e331">3. <hi rend="italic">Susceperunt</hi> autem, inquit, Jesum, <hi rend="italic">et
+    eduxerunt:</hi>
+   
+       <lb ed="#PL"/> et <hi rend="italic">bajulans sibi crucem, exiit</hi> in eum <hi rend="italic">qui</hi> dicitur Calvarioe 
+   <lb ed="#PL"/> locum, <hi rend="italic">hebraice Golgotha, ubi
+    crucifixerunt eunt.</hi> Ibat 
+   <lb ed="#PL"/> ergo ad locum ubi, fuerat cruciligendus, portans cru<lb ed="#PL" break="no"/>cem
+   suam Jesus. Grande spectaculum : sed si spe<lb ed="#PL" break="no"/>ctet
+   impietas, grande ludibrium; si pietas, grande 
+   <lb ed="#PL"/> mysterium : si spectet impietas, grande ignominiae
+   
+   <lb ed="#PL"/> documentum; si pietas , grande fidei munimentum : 
+   <lb ed="#PL"/> si spectet impictas, ridet regem pro virga regni li<lb ed="#PL" break="no"/>gnum
+   aui portare supplicii; si pietas , videt regem
+   
+   <lb ed="#PL"/> bajulantem lignuln ad scmetipsum figendum, quod 
+   <lb ed="#PL"/> fixurus fucrat etiam in frontibus regum : in eo sper<lb ed="#PL" break="no"/>nendus
+   oculis impiorum, in quo crant gloriatura
+   
+   <lb ed="#PL"/> corda sanctorum. Dicturo enim Paulo, <hi rend="italic">Mihi autem
+   <lb ed="#PL"/> absit
+    gloriari, nisi in cruce Domini nostri Jesu Christi
+   <lb ed="#PL"/> (Galat.</hi> vi, 14), ipsam crucem suam suo gestans hu<lb ed="#PL" break="no"/>mero
+   commendabat ; et lucernae arsurae quae sub mo­
+   
+   <lb ed="#PL"/> dio ponenda non era!, candelabrum fcrebal <hi rend="italic">(Matth,</hi>
+   
+       <lb ed="#PL"/> v, 15). <hi rend="italic">Bajulans</hi> ergo <hi rend="italic">sibi crucem, exiit
+    in cum qui
+   <lb ed="#PL"/> dicitur</hi> Calvariae locum , <hi rend="italic">hebraice Golgotha :
+    ubi eum 
+   <lb ed="#PL"/> crucifixerunt; et cnm eo alios duos hinc et hinc, me<lb ed="#PL" break="no"/>dium
+   autem
+    Jesum.</hi> Isti duo latrones erant, sicut alio<lb ed="#PL" break="no"/>rum
+   evangelistarum narratione didicimus, cum qui<lb ed="#PL" break="no"/>bus
+   crucifixusetiutcr quos fixus est Christus (ld. 
+   <lb ed="#PL"/> xx VII, 38, Marc. xv, 27, <hi rend="italic">et Luc.</hi> XXIII, 33) : de quo 
+   <lb ed="#PL"/> praemissa dixerat prophetia , <hi rend="italic">Et inter iniquos deputa­</hi>
+   
+       <lb ed="#PL"/> tua <hi rend="italic">est . (Isai.</hi> LIII, 12).</p>
+      <p xml:id="iuy75t-d1e998-d1e430">4. &lt; Scripsit autem et titulum Pilatus, et posuit 
+   <lb ed="#PL"/> super crucem : erat autem scriptum , Jesus Nazare- 
+   <lb ed="#PL"/> nus Rex Judaeorum. Hunc ergo titulum multi legerunt 
+   <lb ed="#PL"/> Judaeorum, quia prope civitatem erat locus ubi cruci<lb ed="#PL" break="no"/>fixus
+   est Jesus. Et erat scriptum hebraice, graeceet
+   <lb ed="#PL"/> laline : Rex Judaeorum. i Hae quippe tres lingu:c ibi
+   
+   <lb ed="#PL"/> pra caRteris eminebant: hebraca, propter Judaeos in 
+   <lb ed="#PL"/> Dei Lege gloriantes; graeca, propter Gentium sapien<lb ed="#PL" break="no"/>tes; latina, propter Romanos multis ac pene omnibus 
+   <lb ed="#PL"/> jam tunc gentibus imperantes.</p>
+      <p xml:id="iuy75t-d1e998-d1e452">
+       <hi rend="italic">5. Dicebant ergo Pilato pontifices Judaeorum : Nvli 
+   <lb ed="#PL"/> scribere,
+    Rex Judaeorum; sed quia ipse dixit, Rex</hi> sum 
+   <lb ed="#PL"/> Judaeorum. <hi rend="italic">Respondit</hi> Pilatus : <hi rend="italic">Quod scripsi,</hi> scripsi. 
+   <lb ed="#PL"/> O. ineffabilem vim divinae operationis, etiam in cor<lb ed="#PL" break="no"/>dibus
+   ignorantium! Nonne occulta vox quaedam Pi<lb ed="#PL" break="no"/>lato
+   intus quodam, si dici potest, clamoso silentio 
+   <lb ed="#PL"/> personabat, quod tanto ante in Psalmorum litteris 
+   <lb ed="#PL"/> prophetatum est, Ne <hi rend="italic">corrumpas</hi> tituli <hi rend="italic">inscriptionem
+   <lb ed="#PL"/> (Tit.
+    Psal.</hi> LVI, LVII) ? Ecce tituli inscripLionom non 
+   <lb ed="#PL"/> corrumpit; quod scripsit, scripsit. Sed etiam pontifi<lb ed="#PL" break="no"/>ces
+   qui hoc corrumpi volebant, quid dicebant? <hi rend="italic">Noli
+   <lb ed="#PL"/> scribere,</hi> inquiunt, <hi rend="italic">Rex Judoeorum ; sed
+    quia ipse dixit,</hi>
+   
+       <lb ed="#PL"/> Rex sum <hi rend="italic">Judceorum.</hi> Quid loquilnini, insani ? Quid 
+   <lb ed="#PL"/> fieri contradicitis, quod mutare nullo pacto potestis ? 
+   <lb ed="#PL"/> Numquid enim propterea non erit verum, quia Jesus 
+   <lb ed="#PL"/> ait, <hi rend="italic">Rex</hi> sum Judaeorum <hi rend="italic">?</hi> Si corrumpi nos potest quod 
+   <lb ed="#PL"/> Pilatus scripsit, corrumpi potest quod veritas dixit ? 
+   <lb ed="#PL"/> Sed Judaeorum tantum rex est Christus, an et Gentium?
+   
+   <lb ed="#PL"/> Imo et Gentium. Cum enim dixisset in prophetia , 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ego autem constitutus</hi> sum <hi rend="italic">rex ab eo super Sion
+    mon<lb ed="#PL" break="no"/>tem
+   sanctum</hi> ejus, praedicans praeceptum <hi rend="italic">Domini;</hi> no 
+   <lb ed="#PL"/> propter montem Sion solis Juda'is eum regem qnis<lb ed="#PL" break="no"/>quam
+   diceret constitutum , continuo subjecit, <hi rend="italic">Domi­</hi>
+   
+       <lb ed="#PL"/> nus <hi rend="italic">dixit ad me, Filius</hi> meus <hi rend="italic">cs tu, ego
+    hodie genui te :</hi>
+   
+       <lb ed="#PL"/> postula a me, <hi rend="italic">et</hi> dabo <hi rend="italic">tibi gentes
+    haereditatem</hi> tuam , <hi rend="italic">et 
+   <lb ed="#PL"/> possessionem tuam terminos terras
+    (Psal.</hi> II, 6-8). Unde 
+   <lb ed="#PL"/> et ipse jam per os proprium loquens apud Judaeos : 
+   <lb ed="#PL"/>
+       <hi rend="italic">Habeo,</hi> inquit, <hi rend="italic">alias oves quae non sunt de hoc
+    ovili : 
+   <lb ed="#PL"/> oportet me et ipsasadducere, et vocem meam audient, 
+   <lb ed="#PL"/> et erit</hi> unus <hi rend="italic">grex et</hi> unus <hi rend="italic">pastor (Joan.</hi> x, 16). Cur ergo 
+   <lb ed="#PL"/> magnum volumus intelligi in hoc titulo sacramentum, 
+   <lb ed="#PL"/> in quo scriptum erat, <hi rend="italic">Rex</hi> Judaeorum, si rex est Chri<lb ed="#PL" break="no"/>stus
+   et Gentium ? Quia scilicet oleaster factus est par- 
+   <pb ed="#PL" n="1947"/>
+       <lb ed="#PL"/> t:ceps pinguedinis oleae, non olea particeps facta est 
+   <lb ed="#PL"/> amaritudinis oleastri (Rom. XI, 17). Nam in eo quod 
+   <lb ed="#PL"/> de Christo veraciter scriptus est titulus,
+    <hi rend="italic">Rex</hi> Judaeo<lb ed="#PL" break="no"/>rum, qui sunt intelligendi Judaei, nisi semen Abrahae, 
+   <lb ed="#PL"/> filii promissionis, qui sunt etiam filii Dei? Quoniam 
+   <lb ed="#PL"/>
+       <hi rend="italic">non qui filii carnis,</hi> ait Apostolus , <hi rend="italic">hi filii
+    Dei ; sed qui
+   <lb ed="#PL"/> filii promissionis, deputantur</hi> in <hi rend="italic">aemine
+    (Id.</hi> IX, 7, 8). 
+   <lb ed="#PL"/> Et Gentes erant quibus dicebat, Si <hi rend="italic">autem</hi> vos <hi rend="italic">Christi, 
+   <lb ed="#PL"/> ergo Abruhae semen</hi> estis, <hi rend="italic">secundum promissionem hoe<lb ed="#PL" break="no"/>redes (Galat.</hi> III , 29). Rex ergo Judaeorum Christus, 
+   <lb ed="#PL"/> sed Judaeorum circumcisione cordis, spiritu, non lit<lb ed="#PL" break="no"/>tera
+   ; quorum laus non ex hominibus, sed ex Deo 
+   <lb ed="#PL"/> est <hi rend="italic">(Rom.</hi> II, 29); pertinentium ad Jerusalem liberam 
+   <lb ed="#PL"/> matrem nostram aeternam in caelis, Saram spiritua<lb ed="#PL" break="no"/>lem , ancillam et filios ejus I de domo libertatis eji<lb ed="#PL" break="no"/>cientem
+    <hi rend="italic">(Galat.</hi> IV, 22-31). Ideo enim Pilatus quod 
+   <lb ed="#PL"/> scripsit, scripsit; quia ,Dominus quod dixit, dixit.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

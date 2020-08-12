@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 38</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 38</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e353"> <!-- iuy75t-t38 -->
+      <head xml:id="iuy75t-d1e353-Hd1e109">Tractatus 38</head>
+      <p xml:id="iuy75t-d1e353-d1e112">
+       <hi rend="italic">Ab eo quod scriptum est,</hi> Dixit ergo cis iesus : Ego 
+   <lb ed="#PL"/> vado, et quaeretis InC; <hi rend="italic">usque ad</hi> id, Dixit cis Jesus : 
+   <lb ed="#PL"/> Principium, qniaetloquor vobis. <hi rend="italic">Cap.</hi> VIII, <hi rend="italic">y</hi> . 
+   <lb ed="#PL"/> 21 25.</p>
+      <p xml:id="iuy75t-d1e353-d1e134">1. Lectio sancii Evangelii qux praecessit hudicr<lb ed="#PL" break="no"/>nam, ila concluserat, quia <hi rend="italic">locutus est docens in ga­
+   <lb ed="#PL"/> zophylacio Dominus,</hi> quae voluit, et quae audistis : 
+   <lb ed="#PL"/>
+       <hi rend="italic">et nemo apprehendit eum, quia nondum venerat hora ejus
+   <lb ed="#PL"/> (
+    Joan.</hi> VIII, 20). Ilinc disputatum est dominico die, 
+   <lb ed="#PL"/> quod ipse donare dignatus cst. Intimavimus Chari<lb ed="#PL" break="no"/>tau
+   vestrae quarc dictum sit, <hi rend="italic">Nondum venerat hora 
+   <lb ed="#PL"/> ejus ;</hi> ne positum Christum sub aliqua necessitate &lt;
+   
+   <lb ed="#PL"/> fatali ulla impietas auderet improbe suspicari. Non<lb ed="#PL" break="no"/>dum
+   cnim venerat hora qua C'X ordine suo, secun<lb ed="#PL" break="no"/>d
+   nn ca quae praedicta sunt de illo, nou mori cogeretur
+   
+   <lb ed="#PL"/> invitus, sed occideretur paratus.</p>
+      <p xml:id="iuy75t-d1e353-d1e169">2. Modo autem de ipsa passione sua, quae posita 
+   <lb ed="#PL"/> erat nou in ejus neccesitate, seu potestate , locutus 
+   <lb ed="#PL"/> est Judaeis dicens : <hi rend="italic">Ego vado.</hi> Christo cuiun Domino 
+   <lb ed="#PL"/> mors profectio fuit illo unde venerat, et unde non 
+   <lb ed="#PL"/> discesserat.
+    <hi rend="italic">Ego,</hi> inquit, <hi rend="italic">vado, et quaeretis me</hi> : non
+   
+   <lb ed="#PL"/> desiderio, sed odio. Nam illum p steaquam abscessit 
+   <lb ed="#PL"/> ab oculis hominum, inquisierunt et qui oderant et qui 
+   <lb ed="#PL"/> amabant : illi persequendo, ili habere cupendo. In 
+   <lb ed="#PL"/> Psalmis ait ipse Dominus per prophetam, <hi rend="italic">Periit fuga 
+   <lb ed="#PL"/> a
+    me , et non est qui reqniral animam meam (Psal.</hi>
+   
+       <lb ed="#PL"/> cau, 5) :etiterum ait alio loco in Psalmo, <hi rend="italic">Confun­
+   <lb ed="#PL"/> dantur
+    et revereantur requirentes animam meam (Psal.</hi>
+   
+       <lb ed="#PL"/> xxxix, 45). Culpavit qui non requirerent, damnavit 
+   <lb ed="#PL"/> qui requirerent. Malum est cnim non quaerere animam 
+   <lb ed="#PL"/> Christi, sed quomodo earn quaesierunt discipuli; et
+   
+   <lb ed="#PL"/> malum est quaerere animam Chrisii, sed quomodo 
+   <lb ed="#PL"/> eam Judaei quaesierunt : illi enim ut haberent, isti ut 
+   <lb ed="#PL"/> perderent. Denique isti quia sic quaerebant more italo,
+   
+   <lb ed="#PL"/> corde perverso, quid secutus adjunxit ? <hi rend="italic">Quaeretis me</hi> t 
+   <lb ed="#PL"/> et, ne putetis quia bene me quaeretis, in <hi rend="italic">peccato vestro 
+   <lb ed="#PL"/>
+    moriemini.</hi> Iloc est Christum male quaerere, in peccato 
+   <lb ed="#PL"/> suo mori : hoc est illum odisse, pur quem posset so<lb ed="#PL" break="no"/>lum
+   salvus csse. Cum enim homincs quorum spes in
+   
+   <lb ed="#PL"/> Deo est, non debeant mala reddere nec' pro malis, 
+   <lb ed="#PL"/> reddebant isti mala pro bonis. Pranuntiavit ergo illis 
+   <lb ed="#PL"/> Dominus, divitquc sententiam praescius, quod in suo
+   
+   <lb ed="#PL"/> peccato morerentur. Deinde adjungit: <hi rend="italic">Quo ego vado,</hi>
+   
+       <lb ed="#PL"/> vos <hi rend="italic">non potestis venire.</hi> Hoc et discipulis alio loco 
+   <lb ed="#PL"/> dixit ; nec tamen cis dixit, <hi rend="italic">In peccato vestro</hi> morie­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">mini.</hi> Quid autem dixit? Quod ei istis : <hi rend="italic">Quo
+    ego
+   <lb ed="#PL"/> rado. vos venire non potestis (Joan.</hi> XIII, 53). Non 
+   <lb ed="#PL"/> abstulit spem, sed praedixit dilationem. Quando enim 
+   <lb ed="#PL"/> hoc discipulis Dominus loquebatur, tunc non poterant 
+   <lb ed="#PL"/> venire quo ille ibat, stad postea venturi erant : isti 
+   <lb ed="#PL"/> autem nunquam, quibus praescius dixit, <hi rend="italic">In pecculo 
+   <lb ed="#PL"/> vestro
+    moriemini.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e353-d1e289">5. Ilis autem auditis verbis, quomodo solent car<lb ed="#PL" break="no"/>uca
+   cogitantes,etsecunJum carnem judicantes, cl 
+   <lb ed="#PL"/> totum carnaliter audientes atquc sapientes, dixerunt : 
+   <lb ed="#PL"/>
+       <hi rend="italic">Numquid interficiet semetipsum ; quia dixit , Quo ego 
+   <lb ed="#PL"/> t'ado, vos
+    nan potestis</hi> venire ? Stulta verba, et omnino 
+   <lb ed="#PL"/> insipientiae plena. Quid cuim? nun poterant ilio venire 
+   <lb ed="#PL"/> quo ille perrexisset, si interficeret semetipsum? Num­
+   
+   <lb ed="#PL"/> quid ipsi non erant morituri? Quid est ergo, <hi rend="italic">Numquid' 
+   <lb ed="#PL"/>
+    interficiet</hi> semetipsum ; <hi rend="italic">quia dixit, Quo ego vado, vos 
+   <lb ed="#PL"/>
+    nun potes</hi> is <hi rend="italic">venire?</hi> Si de morte hominis diceret, quis
+   
+   <lb ed="#PL"/> homo non moritur? Ergo <hi rend="italic">quo ego vado</hi> dixit, non cum2 
+   <lb ed="#PL"/> itur ad mortem, sed quo ibat ipse post mortem. Illi 
+   <lb ed="#PL"/> itaque non intelligentes, ista responderunt.</p>
+      <p xml:id="iuy75t-d1e353-d1e333">4. Et Dominus ad eos qui terram sapiebant, quid 
+   <lb ed="#PL"/> ait ? <hi rend="italic">Et
+    dicebat</hi> cis : Vos <hi rend="italic">de dcorsum estis.</hi> Ideo terram 
+   <lb ed="#PL"/> sapitis, quia sicut serpentes terram manducatis. Quid 
+   
+   <pb ed="#PL" n="1677"/>
+       <lb ed="#PL"/> est, terram manducatis ? Terrenis pascimini, terrenis 
+   <lb ed="#PL"/> delectamini, terrenis inhiatis , sursum <unclear>cor</unclear> non habe<lb ed="#PL" break="no"/>tis. <hi rend="italic">Vos de deorsum estis : ego de supernis</hi> sum. <hi rend="italic">Vos 
+   <lb ed="#PL"/> de mundo
+    hoc alis :</hi>
+       <unclear/>
+       <hi rend="italic">ego nun sum de hoc mundo.</hi> Quo<lb ed="#PL" break="no"/>modo
+   enim erat de mundo, per qnem factus est 
+   <lb ed="#PL"/> mundus? Omnes de mundo post mundum; quia prius 
+   <lb ed="#PL"/> mundus, et sic homo de mundo : prius autem Chri<lb ed="#PL" break="no"/>stus, deinde mundus; quoniam ante mundum Chri<lb ed="#PL" break="no"/>stus, ante Christum nihil : quia <hi rend="italic">in principio erat
+    Ver­
+   <lb ed="#PL"/> bum; omnia pcr ipsum farta sunt (Joan.</hi> I, 1, 3). Sic 
+   <lb ed="#PL"/> ergoerat ille de supernis. De quibus supernis? De acre? 
+   <lb ed="#PL"/> Absit : ibi et aves voHtant. De coelo quod videmus ? 
+   <lb ed="#PL"/> Et hoc absit; ibi et stellae et sol et luna circumeunt. 
+   <lb ed="#PL"/> De Angelis? Ncquc hoc intelligatis : per ilium et An<lb ed="#PL" break="no"/>geli
+   facti sunt, per quem omnia facta sunt. De quibus 
+   <lb ed="#PL"/> ergo supernis Christus? Ab ipso Patre. Nihil illo Deo
+   
+   <lb ed="#PL"/> superius, qui Verbum genuit aequale sibi, coaeternum 
+   <lb ed="#PL"/> sibi, unigenitum, sine tempore, per quem conderet 
+   <lb ed="#PL"/> tempora. Sic ergo accipc Christum de supernis, ut 
+   <lb ed="#PL"/> cxced <unclear>is</unclear> cogitatione tua omne quod factum est ; uni<lb ed="#PL" break="no"/>versam
+   omnino creaturam R omne curpus , omnem 
+   <lb ed="#PL"/> conditum spiritum, omnem rem quoquo modo mu<lb ed="#PL" break="no"/>tabilem : totum excede, sicut excessit Joannes, ut 
+   <lb ed="#PL"/> contingeret, <hi rend="italic">In principio erat Verbum, et Verbum erat
+   <lb ed="#PL"/> apud Deum, et Deus crat
+    Verbum.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e353-d1e426">a. Ego ergo, inquit, <hi rend="italic">de supernis sum. Vos de hoc</hi>
+   
+       <lb ed="#PL"/> mundo <hi rend="italic">estis : ego non sum de hoe mundo. Dixi ergo 
+   <lb ed="#PL"/> vobis
+    quia moriemini</hi> in <hi rend="italic">paccatis vestris.</hi> Exposuit nobis, 
+   <lb ed="#PL"/> fratres, quid intelligi voluerit, <hi rend="italic">Vos de hoc mundo estis.</hi>
+   
+       <lb ed="#PL"/> Ideo quippe dixit, <hi rend="italic">Vos de hoc mundo</hi> estis, qui:. pec<lb ed="#PL" break="no"/>c
+   tores erant, quia iniqui erant, quia infideles erant, 
+   <lb ed="#PL"/> quia terrena sapiebant. Nain quid vobis videtur de 
+   <lb ed="#PL"/> sanctis Apostolis? Quantum intererat inter Judaeos 
+   <lb ed="#PL"/> et Apostoios ? Quantum inter tenebras et lucem , 
+   <lb ed="#PL"/> quantum inter fidem et infidelitatem, quantum inter 
+   <lb ed="#PL"/> pietatem et impietatem, quantum inter spemetde­
+   
+   <lb ed="#PL"/> sperationem, quantum inter charitatem et cupidita<lb ed="#PL" break="no"/>tom : multum ergo intererat. Quid ergo? quia tantum 
+   <lb ed="#PL"/> intererat, Apostoli de mundo non erant? Si cogites 
+   <lb ed="#PL"/> quomodo nati sint, et unde venerint ; qnia omnes ex 
+   <lb ed="#PL"/> Adam venerant, de hoc mundo erant. Sed quid eis ait 
+   <lb ed="#PL"/> ipse Dominus? <hi rend="italic">Ego vos de
+    mundo elogi ' (Id.</hi> xv, 
+   <lb ed="#PL"/> 19). Qui ergo de mundo erant, facti sul non de 
+   <lb ed="#PL"/> muudo, et pertintc coeperunt ad eum per quem 
+   <lb ed="#PL"/> factus est mundus Isti autem remanserunt esse de 
+   <lb ed="#PL"/> mundo, quibas dictum est, <hi rend="italic">Moriemini in
+    peccatU
+   <lb ed="#PL"/> vestris.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e353-d1e496">6. Nemo ergo dicat, fratres, De hoc mundo non 
+   <lb ed="#PL"/> sum. Quisquis os homo, de boc mundo cs : sed venit 
+   <lb ed="#PL"/> ad te qui fecit mundum,etliberavit te de hoc mundo. 
+   <lb ed="#PL"/> Si delectat te mundus, semper vis esse immundus ; 
+   <lb ed="#PL"/> si autem jam non te dclectat hic mundus , jam tu es 
+   <lb ed="#PL"/> mundus. Verumtamen si per aliquam infirmitatem 
+   <lb ed="#PL"/> adhuc tc delectat mundus, habitet in te qui mundat , 
+   <lb ed="#PL"/>etcris mundus. Si autem fueris mundus, non rema<lb ed="#PL" break="no"/>nebis
+   in mundo, nee audies quod audierunt Judaei , 
+   <lb ed="#PL"/>
+       <hi rend="italic">Moriemini</hi> in , peccatis vestris.Omnes enim com peccato 
+   <lb ed="#PL"/> nati sumus; omnes vivendo ad id qnod nati cramus 
+   
+   <lb ed="#PL"/> addidimus, magisque de mundo facti sumus, quam tunc 1 
+   <lb ed="#PL"/> quando de parentibus nostris nati sumus. Et ubi es<lb ed="#PL" break="no"/>semus, si ille non veniret, qui non habebat omnino
+   
+   <lb ed="#PL"/> peccatum I, ut solveret omnc peccatum ? In quem 
+   <lb ed="#PL"/> Judaei quia nun credebant, merito audierunt, <hi rend="italic">Morie­
+   <lb ed="#PL"/> mini in peccatis vestris</hi> : quia non habcre peccatum 
+   <lb ed="#PL"/> nullo modo potuistis, qui cum peccato nati estis, sed 
+   <lb ed="#PL"/> tamen si in me, inquit, credideritis, cum peccato qui<lb ed="#PL" break="no"/>dein
+   nati estis, sed in peccato vostro morituri non 
+   <lb ed="#PL"/> estis. Tota ergo infelicitas Judaerum ipsa crat, non, 
+   <lb ed="#PL"/> peccatum habere, sed in peccatis mori. Hoc est quod 
+   <lb ed="#PL"/> debct fugere omnis christianus
+   : propter hoc ad 
+   <lb ed="#PL"/> Baptismum curritur; propter hoc qui aegritudine vel 
+   <lb ed="#PL"/> aliunde periclitantur, sibi desiderant subvcuiri; pro<lb ed="#PL" break="no"/>pter
+   hoc etiam sugens parvulus a matre piis inanibus 
+   <lb ed="#PL"/> ad Ecclesiam fertur, ne sine Baptismo cxeat; et in 
+   <lb ed="#PL"/> peccato quo natus est moriatur. Infelicissima con<lb ed="#PL" break="no"/>ditio; misera sors istorum, qui de ore veridioo au<lb ed="#PL" break="no"/>dicrunt, <hi rend="italic">In peccatis vestris moriemini.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e353-d1e571">7. Unde tamen hoc eis contingat, exponit: <hi rend="italic">Si min ! 
+   <lb ed="#PL"/> non
+    credideritis quia ego sum, moriemini in peccatis 
+   <lb ed="#PL"/> vestris.</hi> Crdo, fratres, in illa multitudine quae Domi<lb ed="#PL" break="no"/>num
+   audiebat, et cos fuisse qui credituri erant. Quasi
+   
+   <lb ed="#PL"/> autem in omnes processerat severissima illa sententia, , 
+   <lb ed="#PL"/>
+       <hi rend="italic">In peccato vestro moriemini;</hi> ac per hoc et iliis qui 
+   <lb ed="#PL"/> credituri erant, spes erat ablata : illi saeviebant, illi 
+   <lb ed="#PL"/> timebant; huo non timebant, sed jam desperabant. 
+   <lb ed="#PL"/> Revocavit eos in spem ; adjunxit euim, <hi rend="italic">Si non credi-l 
+   <lb ed="#PL"/> dentis</hi> quia <hi rend="italic">ego</hi> sum, moriemini <hi rend="italic">in peccatis vestris.</hi> I 
+   <lb ed="#PL"/> Ergo si credideritis quia ego sum, non moriemini 
+   <lb ed="#PL"/> in peccatis vestris. Reddita est spes desreramibus, 
+   <lb ed="#PL"/> cxcilatio facta est dormieutibus, cordibu. evigilave<lb ed="#PL" break="no"/>runt: inde plurimi credidei unt, sicut Evangelii ipsius 
+   <lb ed="#PL"/> consequentia testantur. Erant enim illic membra 
+   <lb ed="#PL"/> Christ:, quae nondum adhaeserant corpori Christi : 
+   <lb ed="#PL"/> el in illu populo a quo crucifixus est, a quo in ligai, 
+   <lb ed="#PL"/> suspensus est, a quo pendens irrisus est, a quo lancea 
+   <lb ed="#PL"/> vulneratus est, a quo felle et aceto potatus usi, crant 
+   <lb ed="#PL"/> membra Christi, pro quibus dixit, Pater, <hi rend="italic">ignosce</hi> iilis, 
+   <lb ed="#PL"/>
+       <hi rend="italic">quia nesciunt quid faciunt.</hi> Quid autem converso non 
+   <lb ed="#PL"/> ignoscitur, si fu us Christi sanguis ignoscitur? Quis 
+   <lb ed="#PL"/> homicida desperet, si in spem redditus est a quo etiam 
+   <lb ed="#PL"/> Christus occisus cst? Crediderunt inde multi; donatus 
+   <lb ed="#PL"/> est cis sanguis Christi, ut magis eum biberent quo 
+   <lb ed="#PL"/> libcrareutur, quam rei de illo effuso tenerentur : quis 
+   <lb ed="#PL"/> desperet? Et si in cruce latro salvatIs esi, ame pau<lb ed="#PL" break="no"/>lulum
+   homicida, post paululum accusatus, con<lb ed="#PL" break="no"/>victus, damnatus, suspensus, liberatus; uoti mirari. 
+   <lb ed="#PL"/> Ubi convictus, ibi damnatus : sed ibi liberatus, uhi 
+   <lb ed="#PL"/> mutatus <hi rend="italic">(Luc.</hi> XVIII, 34—43). In hoc ergo populo cui 
+   <lb ed="#PL"/> Dominus loquebatur, erant qui iu peccato suo fuerant 
+   <lb ed="#PL"/> morituri : erant etiam qui in ipsum qui loquebatur , 
+   <lb ed="#PL"/> fuerant credituri,etah omni peccato liberandi.</p>
+      <p xml:id="iuy75t-d1e353-d1e670">8. Tamen hoc attende quod ait Dominus Christus : 
+   <lb ed="#PL"/>
+       <hi rend="italic">Si non credideritis quia ego</hi> sum, - <hi rend="italic">moriemini
+    in pec<lb ed="#PL" break="no"/>catis
+   vestris.</hi> Quid cst, <hi rend="italic">Si non credideritis quia
+    ego
+   <lb ed="#PL"/> sum? Ego sum,</hi> quid? Nihil addidit; cl quia nihil 
+   <lb ed="#PL"/> addidit ; multum est quod commendavit. Exspecta­ 
+   
+   <pb ed="#PL" n="1679"/>
+       <lb ed="#PL"/> baiur enim ut diceret quid esset, noc tamen 
+   <lb ed="#PL"/> dixit. Quid exspectabatur ut diceret? Forte, Nisi <hi rend="italic">cre­</hi>
+   
+       <lb ed="#PL"/> dideritis <hi rend="italic">quia ego</hi> sum Chrislus; <hi rend="italic">nisi
+    credideritis quia 
+   <lb ed="#PL"/> ego</hi> sum Dei Filius; niti credideritis <hi rend="italic">quia ego</hi> tum 
+   <lb ed="#PL"/> Verbum Patris; nisi <hi rend="italic">credideritis quia
+    ego</hi> sum conditor 
+   <lb ed="#PL"/> mundi; nisi <hi rend="italic">credideritis quia ego</hi> tum hominis formator 
+   <lb ed="#PL"/> et reformator, crealor et recreator, factoretrefactor: 
+   <lb ed="#PL"/>
+       <hi rend="italic">nisi</hi> hoC <hi rend="italic">credideritis quia ego sum,
+    moriemini</hi> in <hi rend="italic">pec<lb ed="#PL" break="no"/>catis</hi> vestris. Multum est quod ait ipsum, <hi rend="italic">Ego tum</hi> ' : 
+   <lb ed="#PL"/> quia sic dixcrat et Deus Moysi, <hi rend="italic">Ego</hi> tum <hi rend="italic">qui sum.</hi>
+   
+       <lb ed="#PL"/> Quis digne cloquatur quid sit, tum? Mittebat Deus 
+   <lb ed="#PL"/> per augelum suum, servum suum Moysen ad liberan<lb ed="#PL" break="no"/>dnm
+   ex aegypto populum suum (lcgistis quod au<lb ed="#PL" break="no"/>distis
+   , et nostis; commemoro tamen); mittebat tre<lb ed="#PL" break="no"/>mentem; excusantem , sed obedientem. Cum ergo 
+   <lb ed="#PL"/> excusaret, ait Deo, quem loqui in angelo intelligabat : 
+   <lb ed="#PL"/> Si dixerit mUn populus, Et quis est Deus qui misit 
+   <lb ed="#PL"/> te, quid eis dicam? Et Dominus ad eum, <hi rend="italic">Ego</hi> sum 
+   <lb ed="#PL"/>
+       <hi rend="italic">qui</hi> sum : et repetivit, <hi rend="italic">Dicet</hi> filii. Israel, <hi rend="italic">Qui eat, misit
+   <lb ed="#PL"/> me ad vos.</hi> Non ait et ibi, Ego sum Dens; aut, Ego 
+   <lb ed="#PL"/> sunt mundi fabricator; aut, Ego sum omnium re<lb ed="#PL" break="no"/>rum
+   creator; aut, Ego sum ipsius populi liberandi 
+   <lb ed="#PL"/> propagator : sed hoc tantum, <hi rend="italic">Ego</hi> sum qui <hi rend="italic">sum;</hi> et, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Dicet filiis Israel, Qui est;</hi> non addidit, Qni est Deus 
+   <lb ed="#PL"/> vester, qui ast Deus patrum vestrorum, sed taiHun 
+   <lb ed="#PL"/> hoc dixit, Qui <hi rend="italic">eat,</hi> misit <hi rend="italic">me at! vot.</hi> Forte multum erat 
+   <lb ed="#PL"/> et :,d ipsum Moysn, sicut multum est et ad nos , et 
+   <lb ed="#PL"/> multo magis ad nos, intelligere quid dicium sit, <hi rend="italic">Ego</hi>
+   
+       <lb ed="#PL"/> sum <hi rend="italic">qui</hi> tum; et, Qui est, misil me <hi rend="italic">ad</hi> vos. Et si forte 
+   <lb ed="#PL"/> caperet Moyses , ilii ad quos mittebatur quando 
+   <lb ed="#PL"/> caiernt? Distulit ergo Dominus quod capere homo 
+   <lb ed="#PL"/> non posset, el addidit qnod capere p sset : adjunxit 
+   <lb ed="#PL"/> enimetait, <hi rend="italic">Ego</hi> tum <hi rend="italic">Deus Abraham, et Deus Isaac,
+   <lb ed="#PL"/> ei Deus Jacob (Exod.</hi> III, f3 15). Hoc potes capere : 
+   <lb ed="#PL"/> Nam <hi rend="italic">Ego sum qui tum</hi> , quae mens potest capere?</p>
+      <p xml:id="iuy75t-d1e353-d1e854">9. Quid ergo nos ? audebimusne aliquid dicere cx 
+   <lb ed="#PL"/> huc quod diclum est, <hi rend="italic">Ego</hi> sum <hi rend="italic">qui sum</hi> : vel potins ex 
+   <lb ed="#PL"/> hoc quod Dominum dicere audistis, Nisi <hi rend="italic">credideritis
+   <lb ed="#PL"/> quia cgo</hi> sum, <hi rend="italic">moriemini</hi> in <hi rend="italic">peccatis vestris?</hi> Itane liis 
+   <lb ed="#PL"/> viribus mcis tantillis et pene nullis, audebo disputare 
+   <lb ed="#PL"/> quid sil quod ait Dominus Christus, <hi rend="italic">Nisi</hi> credideritis 
+   <lb ed="#PL"/>
+       <hi rend="italic">quia ego</hi> sum? Audebo ipsum Dominum interrogare : 
+   <lb ed="#PL"/> audite me inter ogantem potius quam disputantem, 
+   <lb ed="#PL"/> magis quaerentem quam praesumentem, potius discen<lb ed="#PL" break="no"/>tem
+   quam docentem,etcerte in me vel per me etiam 
+   <lb ed="#PL"/> vos interrogate. Praesto est etiam ipse Dominus qui 
+   <lb ed="#PL"/> ubique est, audiat interrogandi affectum, et intelli<lb ed="#PL" break="no"/>gendi
+   praestet effectum. Nam ego quibus verbis, et si 
+   <lb ed="#PL"/> forte aliquid capio, perducere possum quod capio ad 
+   <lb ed="#PL"/> corda vestra? Quisnam sufficit sonus? quae suppetit 
+   <lb ed="#PL"/> f'loquentia! quae vires intelligendi? quae facultas pro<lb ed="#PL" break="no"/>ferendi
+   ?</p>
+      <p xml:id="iuy75t-d1e353-d1e913">10. Dicam ergo Domino nostro Jesu Christo, di<lb ed="#PL" break="no"/>cam, et audiat mc I. Credo praesentem, omnino non 
+   <lb ed="#PL"/> dubito; ipse euim dixit, <hi rend="italic">Ecce ego
+    vobiscum</hi> sum <hi rend="italic">usque</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">consummationem saeculi (Matth.</hi> XXVIII. 20). 0 Do­ 
+   
+   <lb ed="#PL"/> mine Deus noster, quid est quod aisti, Nisi credideri­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tia quia ego</hi> sum ? Quid euim non est corum quae fe<lb ed="#PL" break="no"/>cisti ? Numquid coelum non est ? numquid terra non 
+   <lb ed="#PL"/> est ? numquid non sunt ca quae in terra et in coelo 
+   <lb ed="#PL"/> sunt ? numquid homo ipse cui loqueris nun est ? num<lb ed="#PL" break="no"/>quid
+   angelus quem mittis nou est ? Si omnia suut haec 
+   <lb ed="#PL"/> quai per te facta sunt, quid est quod tibi proprium 
+   <lb ed="#PL"/> quiddam tenuisti ipsum esse, quod aliis nun dedisti, 
+   <lb ed="#PL"/> ut tu solus esses ? Nam quomodo audio, <hi rend="italic">Ego</hi> sum <hi rend="italic">qui
+    
+   <lb ed="#PL"/> sum;</hi> quasi alia non siut ? et quomodo audio, <hi rend="italic">Nisi 
+   <lb ed="#PL"/>
+    credideritis quia ego sum ?</hi> Illi enim non erant qui au<lb ed="#PL" break="no"/>diebant? Et si peccatores crant, homines erant. Quid 
+   <lb ed="#PL"/> ergo facio? Quid sit ipsum esse, dicat cordi, intus 
+   <lb ed="#PL"/> dicat, intus loquatur; bomo interior audiat, mens ca<lb ed="#PL" break="no"/>piat
+   vere csse : est enim semper codem modo esse. 
+   <lb ed="#PL"/> (Res euim aliqua, qualibet omnino : quasi coepi dis- .putare, 
+   <lb ed="#PL"/> putarc,etdestiti quaerere; forte quod audivi volo 
+   <lb ed="#PL"/> loqui, auditui mco det exsultationem et vestro cum 
+   <lb ed="#PL"/> loquor) : res enim quaelibet, prorsus qualicumque- 
+   <lb ed="#PL"/> excellentii, si mutabilis est, non vere est; non enim 
+   <lb ed="#PL"/> est ibi verum esse, ubi est et non esse. Quid ,uid enim 
+   <lb ed="#PL"/> mutari potest, mutatum non est quod erat : si non est 
+   <lb ed="#PL"/> quod erat, mors quaedam ibi facta cat ; peremptum 
+   <lb ed="#PL"/> est aliquid ibi quod crat, ci non cst. Nigredo mortua 
+   <lb ed="#PL"/> est in capite albescentis scnis, pulchritudo mortua est 
+   <lb ed="#PL"/> in corpare fessietincurvi senis, mortuae sum vires ill 
+   <lb ed="#PL"/> corpore languentis, mortua est statio in corpore aur<lb ed="#PL" break="no"/>bulantis, mortua est ambulatio in corpore slantis , 
+   <lb ed="#PL"/> monua est ambulatioetstatio in corpore jacentis, 
+   <lb ed="#PL"/> mortua est locutio in lingna tacentis : quidquid mu<lb ed="#PL" break="no"/>tatur
+   et est quod non erat, video ibi quamdam vituM 
+   <lb ed="#PL"/> in eo quod est, et mortem in eo quod fuit. Denique 
+   <lb ed="#PL"/> de mortuo cum dicitur, Ubi est homo ille? responde<lb ed="#PL" break="no"/>tur, Fuit. O vcrilas quae vere es ! Nam in omnibus 
+   <lb ed="#PL"/> actionibusetmotibus nostris, el in o.uui prorsus agi<lb ed="#PL" break="no"/>tationc
+   creaturae duo tempora invenio, praeteritum et 
+   <lb ed="#PL"/> futurum. Praesens quaero. nihil stat : quod dixi, jam 
+   <lb ed="#PL"/> non cst; quod dicturus sum, nondum est
+   : quod feic, 
+   <lb ed="#PL"/> jain non est; quod facturus sum, nondum est: quod 
+   <lb ed="#PL"/> vixi, jani nun est; quod victurus sun!, nondum est. 
+   <lb ed="#PL"/> Praeteritum et futurum invenio in onmi motu rerum : 
+   <lb ed="#PL"/> in veritate quae manet, praeteritum et futurum nun 
+   <lb ed="#PL"/> invenio, sed solum praesens, et hoc incorruptibiliter, 
+   <lb ed="#PL"/> quod in crcatura uon est. Discute rcrum mutationes, 
+   <lb ed="#PL"/> invenies FuitetErit : cogita Deum, invenies IsSI, ubi 
+   <lb ed="#PL"/> Fuit et Erit esse non possit. Ut ergo et tu sis, tran<lb ed="#PL" break="no"/>scende
+   tempus. Sed quis transcendet viribus suis? Le<lb ed="#PL" break="no"/>vel
+   illuc ille qui Patri dixit, <hi rend="italic">Volo ut ubi
+    ego</hi> sum, <hi rend="italic">et
+   <lb ed="#PL"/> ipsi sint mecum.</hi> Hoc itaquc promittens ne moriamur 
+   <lb ed="#PL"/> in peccatis nostris. nihil aliud Dominus Jesus Chri<lb ed="#PL" break="no"/>stus
+   mihi videtur his verhis dixisse, <hi rend="italic">Nisi credideritis 
+   <lb ed="#PL"/> quia ego</hi> sum
+   : prorsus nihil aliud mihi videtur his 
+   <lb ed="#PL"/> verbis dixisse quam hoc, <hi rend="italic">Nisi credideritis qnia ego</hi> Deus 
+   <lb ed="#PL"/>
+       <hi rend="italic">sum,</hi> moriemini in <hi rend="italic">peccatis vestris.</hi> Bene, Deo gratias, 
+   <lb ed="#PL"/> quia dixit, <hi rend="italic">Nisi credideritis</hi> : non dixit, Nisi ceperitis. 
+   <lb ed="#PL"/> Quis enim hoc capiat ? Aut vere, quia ausus sum di<lb ed="#PL" break="no"/>cere, et visi estis intelligerc I, aliquid dc lanta inef­ 
+   
+   <pb ed="#PL" n="1681"/>
+       <lb ed="#PL"/> fabilitate cepistis ? Si ergo non capis, fides te liberat. 
+   <lb ed="#PL"/> IdeoetDominus non ait, Nisi ceperitis quia ego sum; 
+   <lb ed="#PL"/> sed quod poterant dixit, <hi rend="italic">Nisi credideritis quia ego</hi> sum, 
+   <lb ed="#PL"/> moriemini <hi rend="italic">in</hi> peccati. <hi rend="italic">vestris.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e353-d1e1110">ii. Et illi semper terrena sapientes et semper se<lb ed="#PL" break="no"/>cundum
+   carnem audnntes dt respondentes, quid ei 
+   <lb ed="#PL"/> dixerunt ? Tu quis es? Non enim cum dixisti, <hi rend="italic">Nisi 
+   <lb ed="#PL"/> credideritis quia ego</hi> sum, addidisti quid esses. Quis
+   
+   <lb ed="#PL"/> es, ut credamus? Et ille, <hi rend="italic">Principium.</hi> Ecce quod est 
+   <lb ed="#PL"/> esse. Principium mutari non potest: principium in se 
+   <lb ed="#PL"/> manet, et innovat omnia ; principium est, cui dictum 
+   <lb ed="#PL"/> est, <hi rend="italic">Tu</hi> autem <hi rend="italic">idem ipse es, et anni lui non deficient 
+   <lb ed="#PL"/> (Psal.</hi> CI, 28). <hi rend="italic">Principium,</hi> ait, <hi rend="italic">quia 1 et loquor vobis.</hi>
+   
+       <lb ed="#PL"/> Principium me credite, ne moriamini in peccatis ve<lb ed="#PL" break="no"/>stris. Tanquam enim in eo quod dixerunt, <hi rend="italic">Tu quis</hi> es 9 
+   <lb ed="#PL"/> nihil aliud dixerint quam, Quid te esse credimus ? 
+   <lb ed="#PL"/> respondit, <hi rend="italic">Prindpium;</hi> id est, Principium me credite. 
+   <lb ed="#PL"/> In graeco namque eloquio discernitur, quod non po<lb ed="#PL" break="no"/>test
+   in latino. Apud graecos enim feminini generis est 
+   <lb ed="#PL"/> principium, sicut apud nos lex generis feminini est, 
+   <lb ed="#PL"/> quae apud illos est masculini : sicut sapientia et apud
+   
+   <lb ed="#PL"/> nos et apud illos generis feminini est. Consuetudo lo<lb ed="#PL" break="no"/>cutionis
+   ideo per diversas linguas variat genera voca<lb ed="#PL" break="no"/>bulorum, quia in ipsis rebus non invenis sexum. Non 
+   <lb ed="#PL"/> enim sapientia vere femina est, cum Christus sit Dei 
+   <lb ed="#PL"/> Sapientia (I
+    <hi rend="italic">Cor.</hi> i, 24), et Christus appelletur genere 
+   <lb ed="#PL"/> masculino, sapientia feminino. Cum ergo dicerent 
+   <lb ed="#PL"/> Judaei, <hi rend="italic">Tu quis ea ?</hi> ille qui sciebat esse ibi quosdam 
+   <lb ed="#PL"/> credituros, et ideo dixisse, <hi rend="italic">Tu quis</hi> es? ut scirent quid <unclear/>
+       <lb ed="#PL"/> Illum credere deberent, respondit, Principii : non 
+   <lb ed="#PL"/> tanquam diceret, Principium sum; sed tanquam di<lb ed="#PL" break="no"/>teret, Principium me credite. Quod in sermone graeco, 
+   <lb ed="#PL"/> ut dixi, evidenter apparet, uhi feminini generis est 
+   <lb ed="#PL"/> principium (a). Velut si vellet dicere se esse verita. 
+   <lb ed="#PL"/> tem, et dicentibus, <hi rend="italic">Tu quis es?</hi> responderet, Verita 
+   <lb ed="#PL"/> tem ; cnm vidcatur ad id quod dictum est, <hi rend="italic">Tu quis est</hi>
+   
+       <lb ed="#PL"/> respondere debuisse, Vcritas; id est, Veritas sum. 
+   <lb ed="#PL"/> Sed altius respondit, cum videret eos ita dixisse, Tu 
+   <lb ed="#PL"/> quis <hi rend="italic">es ?</hi> ac si dicerent, Quoniam abs te audivimus, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Nisi credideritis quia ego sum,</hi> quid te esse credemus? 
+   <lb ed="#PL"/> ad hoc respondit, <hi rend="italic">Principium :</hi> tanquam diceret, Prin<lb ed="#PL" break="no"/>cipium
+   me credite. Et addidit, <hi rend="italic">quia et loquor vobis</hi> : id 
+   <lb ed="#PL"/> est, quia humilis propter vos factus, ad ista verba 
+   <lb ed="#PL"/> descendi. Nam si principium sicuti est, ita maneret 
+   <lb ed="#PL"/> apud Patrem, ut non acciperet formam servi et homo 
+   <lb ed="#PL"/> loqueretur hominibus; quomodo ei crederent, cum 
+   <lb ed="#PL"/> infirma corda intelligibile Verbum sine voce sensibili 
+   <lb ed="#PL"/> audire non possent? Ergo, inquit, credite me esse 
+   <lb ed="#PL"/> principium ; quia, ut credatis, non solum sum, sed et 
+   <lb ed="#PL"/> loquor vobis. Sed de hac re jam .nullum est loqui 
+   <lb ed="#PL"/> vobis : placeat itaque Charitati vestrae ut quod restat, 
+   <lb ed="#PL"/> illo adjuvante servemus, crastino reddituri.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

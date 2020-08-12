@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 28</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 28</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e271"> <!-- iuy75t-t28 -->
+      <head xml:id="iuy75t-d1e271-Hd1e109">Tractatus 28</head>
+      <p xml:id="iuy75t-d1e271-d1e112">
+       <hi rend="italic">Ab eo ioco Evangelii,</hi> Et post haec ambulabat Jesus in 
+   <lb ed="#PL"/> Galilaeam; <hi rend="italic">usquead id,</hi> Nemo tamen palam loque<lb ed="#PL" break="no"/>batur
+   de eo, propter metum Judaeorum. <hi rend="italic">Cap,</hi> VII, 
+   <lb ed="#PL"/> ℣. 1-43.</p>
+      <p xml:id="iuy75t-d1e271-d1e131">i. In isto Evangelii capitulo, fratres, Dominus 
+   <lb ed="#PL"/> noster Jesus Christus secundum hominem se pluri<lb ed="#PL" break="no"/>mum
+   commendavit fidei nostra. Etenim semper hoc 
+   <lb ed="#PL"/> agit dictis et factis suis, ut Deus credatur et homo : 
+   <lb ed="#PL"/> Deus qui nos fecit, homo qui nos quaesivit; Deus cum 
+   <lb ed="#PL"/> Patre semper, homo nobiscum ex tempore. Non enim 
+   <lb ed="#PL"/> quaereret quem fecerat, nisi fieret ipse quod fecerat. 
+   <lb ed="#PL"/> Verum hoe mementote, et de cordibus vestris nolite 
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> dimittere, sic esse Christum hominem factum, ut 
+   <lb ed="#PL"/> non destiterit Deus esse. Manens Deus accepit homi<lb ed="#PL" break="no"/>nem, qui fecit hominem. Quando ergo latuit ut bomo,
+   
+   <lb ed="#PL"/> non potentiam perdidisse putandus est, sed exem<lb ed="#PL" break="no"/>plum
+   infirmitati praebuisse. lle enim quando voluit 
+   <lb ed="#PL"/> dctentus est, quando voluit occisus est. Sed quoMam 
+   <lb ed="#PL"/> futura erant membra ejus, id est fideles ejus, qui 
+   <lb ed="#PL"/> nou haberent illam potestatem quam habebat ipse 
+   <lb ed="#PL"/> Deus noster; quod latebat, quod se tanquam ne occi. 
+   <lb ed="#PL"/> deretur occultabat, hoc indicabat factura esse mem<lb ed="#PL" break="no"/>bra
+   sua, in quibus utique membris suis ipse erat. 
+   <lb ed="#PL"/> Non enim Christus in capite et non in corpore, sed 
+   <lb ed="#PL"/> Christus totus in capite et in corpore. Quod ergo mem<lb ed="#PL" break="no"/>bra
+   ejus, ipse: quod autem ipse, non continuo membra 
+   <lb ed="#PL"/> ejus. Nam si nou ipse essent membra ejus, non dice­
+   
+   <lb ed="#PL"/> ret: <hi rend="italic">Saule, quid</hi> me <hi rend="italic">persequeris
+    (Act.</hi> IX, 4)? Non 
+   <lb ed="#PL"/> enim Saulus ipsum, sed membra ejus, id est fidelis 
+   <lb ed="#PL"/> ejus, in terra persequebatur. Noluit tamen dicere, 
+   <lb ed="#PL"/> sanctos meos, servos meos; postremo honorabilius, 
+   <lb ed="#PL"/> fratres meos : sed , Me, boc est membra mea, quibus 
+   <lb ed="#PL"/> ego sum caput.</p>
+      <p xml:id="iuy75t-d1e271-d1e203">i. His praedictis, puto nos in boc capitulo quod 
+   <lb ed="#PL"/> modo lectum est, non esse laboraturos : saepe enim 
+   <lb ed="#PL"/> significatum est in capite, quod futurum erat in cor­
+   
+   <lb ed="#PL"/> pore. <hi rend="italic">Post haec,</hi> inquit, <hi rend="italic">ambulabat
+    Jesus</hi> in <hi rend="italic">Galilaeam :</hi>
+   
+       <lb ed="#PL"/> non enim <hi rend="italic">volebat</hi> in <hi rend="italic">Judaam ambulare,</hi> quia <hi rend="italic">quaerebunt 
+   <lb ed="#PL"/> eum</hi> Judaei <hi rend="italic">interficere.</hi> Hoe est quod dixi; infirmitati 
+   <lb ed="#PL"/> nostrae praebebat exemplum. non Ipse perdiderat po<lb ed="#PL" break="no"/>testatem, sed nostram consolabatur fragilitatem. Fu<lb ed="#PL" break="no"/>uirum
+   enim erat, ut dixi, ut aliquis fidelis ejus abs<lb ed="#PL" break="no"/>conderet
+   se, ne a persecutoribus inveniretur; et ne 
+   <lb ed="#PL"/> illi pro crimine objiceretur latibulum, praecessit in 
+   <lb ed="#PL"/> capitc quod in membro confirmaretur. Sie enim di<lb ed="#PL" break="no"/>ctum
+   est, <hi rend="italic">Nolebat ambulare</hi> in <hi rend="italic">Judaeam, quia</hi> quaere­
+   
+   <lb ed="#PL"/> bant <hi rend="italic">eum Judaei occidere :</hi> quasi non posset Christus et
+   
+   <lb ed="#PL"/> ambulare inter Judaeos, et non occidi a Judaeis. Hanc 
+   <lb ed="#PL"/> enim potentiam, quando voluit, demonstravit: nam 
+   <lb ed="#PL"/> cum eum jam passurum tenere vellent, <hi rend="italic">ait illis,</hi> Quem 
+   <lb ed="#PL"/> quaeritis ? <hi rend="italic">Responderunt : Jesum. Et ille
+    : Ego sum;</hi>
+   
+       <lb ed="#PL"/> non se occultans, sed manifestans. Ad eam tamen 
+   <lb ed="#PL"/> manifestationem illi non substiterant, sed <hi rend="italic">redeuntes
+   <lb ed="#PL"/> retro ceciderunt (Joan</hi> ivm, 4-6). Et tamen quia pati 
+   <lb ed="#PL"/> venerat, surrexerunt, tenuerunt, ad judicem adduxe<lb ed="#PL" break="no"/>runt,
+   et occiderunt. Sed quid fecerunt? Quod ait 
+   <lb ed="#PL"/> quaedam Scriptura, Terra <hi rend="italic">tradita est in</hi> manus impii 
+   <pb ed="#PL" n="1623"/>
+       <lb ed="#PL"/>
+       <hi rend="italic">(Job</hi> IX, 24) : caro data cat in potestatem Judaeis. Et 
+   <lb ed="#PL"/> boc propterca , ut quasi sacculus conscinderetur, un<lb ed="#PL" break="no"/>de
+   nostrum prelium manaret.</p>
+      <p xml:id="iuy75t-d1e271-d1e312">3. <hi rend="italic">Erat autem</hi> in proximo <hi rend="italic">dies festus Judaeorum
+    
+   <lb ed="#PL"/> Scenopegia.</hi> Quid sit Scenopegia, Scripturas qui le<lb ed="#PL" break="no"/>g'runt, noverunt. Faciebant die festo tabernacula, 
+   <lb ed="#PL"/> ad similitudinem tabernaculorum in quibus habitave<lb ed="#PL" break="no"/>rant
+   cum ex aegypto educti peregrinarentur in eremo. 
+   <lb ed="#PL"/> Iste erat dies festus, magna solemnitas. Celebrabant 
+   <lb ed="#PL"/> . hoc Judxi, velut reminiscentes beneficia Domini, qui 
+   <lb ed="#PL"/> oecisuri erant Dominum. Hoc ergo die festo (quia 
+   <lb ed="#PL"/> plures erant dies festi; sic enim appellabatur apud 
+   <lb ed="#PL"/> Judaeos dies festus, ut non esset dies unus, sed plu<lb ed="#PL" break="no"/>res) loculi sunt <hi rend="italic">fratres ejus</hi> ad Dominum Christum. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Fratres ejus</hi> sic accipite, sicut nostis : non enim no<lb ed="#PL" break="no"/>vum
+   est quod auditis Consanguinei virginis Mariic, 
+   <lb ed="#PL"/> fi atres Domini dicebantur. Erat enim consuetudinis 
+   <lb ed="#PL"/> Scripturarum, appellare fratres quoslibet cousangui<lb ed="#PL" break="no"/>neos
+   et cognationis propinquos, el extra usum no<lb ed="#PL" break="no"/>strum , non quo more nos loquimur. Nam quis dicat 
+   <lb ed="#PL"/> fratres, avunculum et filium sororis? Scriptura tamen 
+   <lb ed="#PL"/> etiam hujusmodi cognationes fratres appellat. Nam 
+   <lb ed="#PL"/> Abrabam et Lot fratres sunt dicti, cum esset Abraham 
+   <lb ed="#PL"/> patruus Lot (Gen. XI 27, 31, XIII, 8, <hi rend="italic">et</hi> xiv, 14) : et Laban 
+   <lb ed="#PL"/> et Jacob fratres sunt dicti, cum esset Laban avuncu<lb ed="#PL" break="no"/>lus
+   Jacob <hi rend="italic">(Id.</hi> XXVIII, 2, <hi rend="italic">et</hi> xxix, 10, 15). Cum ergo 
+   <lb ed="#PL"/> auditis fratres Domini, Mariae cogitate consanguini<lb ed="#PL" break="no"/>tatem , non iterum parientis ullam propaginem. Sicut 
+   <lb ed="#PL"/> t enim in sepulcro ubi positum est corpus Domini, nec 
+   <lb ed="#PL"/> anlca nec postea mortuus jacuit; sic uterus Mariae 
+   <lb ed="#PL"/> ; nec antea nec postea quidquam mortale concepit.</p>
+      <p xml:id="iuy75t-d1e271-d1e395">4. Diximus fratres qui fuerint; audiamus quid 
+   <lb ed="#PL"/> dixerint. <hi rend="italic">Transi
+    hinc,</hi> et <hi rend="italic">vade in Juduam,</hi> ut <hi rend="italic">et
+    disci­
+   <lb ed="#PL"/> puli tui videant opera tua, quae tu facis.</hi> Opera Do<lb ed="#PL" break="no"/>mini
+   discipulos non latebant, sed istos latebant. Isti 
+   <lb ed="#PL"/> enim fratres, id est consanguinei, Christum consan<lb ed="#PL" break="no"/>guineum
+   habere potuerunt, credercautem in cum ipsa
+   
+   <lb ed="#PL"/> propinquitate fastidierunt. Dictum est in Evangelio : 
+   <lb ed="#PL"/> non enim hoc nos audemus opinari, modo audistis. 
+   <lb ed="#PL"/> Addunt, et monent : Nemo enim in <hi rend="italic">occulto quid facit, 
+   <lb ed="#PL"/> et quaerit ipse in palam esse</hi> : si <hi rend="italic">haec facis, manifesta 
+   <lb ed="#PL"/> teipsum mundo.</hi> Et continuo : <hi rend="italic">Neque
+    enim fratres ejus 
+   <lb ed="#PL"/> credebant in eum.</hi> Quare in eum non credebant? Quia 
+   <lb ed="#PL"/> humanam gloriam requirebant. Nam et quod cum 
+   <lb ed="#PL"/> videntur monere fratres, gloriae ipsius consulunt: 
+   <lb ed="#PL"/> Facis mirabilia, innotesce; id est, appare omnibus, ut 
+   <lb ed="#PL"/> laudari possis ab omnibus. Loquebatur caro carni: 
+   <lb ed="#PL"/> sed caro sine Deo, carni cum Deo. Loquebatur cnint 
+   <lb ed="#PL"/> prudentia carnis Verbo quod caro lactum est et habi<lb ed="#PL" break="no"/>tavit
+   in nobis <hi rend="italic">(Joan.</hi> I, 14).</p>
+      <p xml:id="iuy75t-d1e271-d1e458">5. Quid ad haec, Dominus? <hi rend="italic">Dicit ergo eis Jesus: Tempus</hi>
+   
+       <lb ed="#PL"/> meum <hi rend="italic">nondum venit, tempus autem</hi> vestrum semper est pa­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">ratum.</hi> Quid est hoc? Nondum venerat tempus Christi ? 
+   <lb ed="#PL"/> Quare ergo Christus venerat, si tempus ejus nondum 
+   <lb ed="#PL"/> venerat? Nonne audivimus Apostolum dicentem, Cum 
+   <lb ed="#PL"/>
+       <hi rend="italic">autem venit plenitudo temporis, misit Deus Filium</hi> saum 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Galat.</hi> IV, 4)? Si ergo in plenitudine temporis missus 
+   <lb ed="#PL"/> est; quando debuit missus est, quando oportuit venit: 
+   <lb ed="#PL"/> quid est, <hi rend="italic">Tempus meum nondum venit?</hi> Intelligite, 
+   <lb ed="#PL"/> fratres, quo animo illi loquebantur, qui quasi fratrem 
+   <lb ed="#PL"/> suum inonere videbantur. Dabant ei consilium conse­
+   
+   <lb ed="#PL"/> quendae gloriae, veluti saeculariter et terreno affectu 
+   <lb ed="#PL"/> monentes, ne esset ignobilis et latitaret: quod ergo 
+   <lb ed="#PL"/> ait Dominus, <hi rend="italic">Tempus</hi> meum
+    <hi rend="italic">nondum venit,</hi> illis re<lb ed="#PL" break="no"/>spondit
+   qui ei consilium de gloria dabant, Tenipns 
+   <lb ed="#PL"/> gloriae meae nondum venit. Videte qnam profunduin 
+   <lb ed="#PL"/> sit
+   : de gloria illi admonebant, sed ille voluit altitu<lb ed="#PL" break="no"/>dinem
+   humilitate praecedere, et ad ipsam celsitudinem 
+   <lb ed="#PL"/> per humilitatem viam sternere. Nam et illi discipuli
+   
+   <lb ed="#PL"/> utique gloriam requirebant, qui volebant sedere unus 
+   <lb ed="#PL"/> ad dexteram ejus, et alter ad sinistram : attendebant 
+   <lb ed="#PL"/> quo, et non videbant qua; Dominus eos, ut ordinate ve<lb ed="#PL" break="no"/>nirent
+   ad patriam, revocavit ad viam. Excelsa est 
+   <lb ed="#PL"/> enim patria, humilis via. Patria est vita Christi, via 
+   <lb ed="#PL"/> est mors Christi : patria est mansio Christi, via est 
+   <lb ed="#PL"/> passio Christi. Qui recusat viam, quid quaerit patriam ? 
+   <lb ed="#PL"/> Dcnique et illis hoc respondit, quaerentibus altitu<lb ed="#PL" break="no"/>dinem : <hi rend="italic">Potestis bibere calicem quem ego bibiturus</hi> sum 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Matth.</hi> xx, 21, 22)? Ecce qua venitur ad celsitudi<lb ed="#PL" break="no"/>nem
+   quam desideratis. Calicem quippe comtnemora<lb ed="#PL" break="no"/>bat
+   humilitatis atque passionis.</p>
+      <p xml:id="iuy75t-d1e271-d1e557">G. Ergo et hic, <hi rend="italic">Tempus</hi> meum <hi rend="italic">nondum venit; tem­
+    
+   <lb ed="#PL"/> pus autem vestrum,</hi> id est, mundi gloria, <hi rend="italic">semper eat
+   <lb ed="#PL"/>
+    paratum.</hi> Hoc est tempus de quo in prophetia I lo<lb ed="#PL" break="no"/>quitur
+   Christus, id est, corpus Christi: <hi rend="italic">Cum accepero 
+   <lb ed="#PL"/> tempus, ego justitias judicabo
+    (Psal.</hi> LXXIV, 5). Modo 
+   <lb ed="#PL"/> euim non est tempus judicandi, sed iniquos tolerandi. 
+   <lb ed="#PL"/> Ferat igitur modo corpus Christi, et toleret iniquita<lb ed="#PL" break="no"/>tem
+   male viventium. Habeat tamen justitiam modi, 
+   <lb ed="#PL"/> antequam habeat judicium : per justitiam enim pcr<lb ed="#PL" break="no"/>veniet
+   ad judicium. Tolerantibus quippe membris 
+   <lb ed="#PL"/> iniquitatem sxculi hujus quid Scriptura sancta dicit 
+   <lb ed="#PL"/> in Psalmo ? <hi rend="italic">Non repellet
+    Dominus plebem suam.</hi> Labo<lb ed="#PL" break="no"/>rat
+   quippe plebs cjus inter indignos, inter iniquos, 
+   <lb ed="#PL"/> inter blasphemantes, inter murmurantes, detrahentes, 
+   <lb ed="#PL"/> insectantes, et si liceat, perimentes. Laborat quidem ; 
+   <lb ed="#PL"/> sed non- <hi rend="italic">repellet
+    Dominus plebem</hi> suam, <hi rend="italic">et haere<lb ed="#PL" break="no"/>ditatem
+   suam non
+    derelinquet, quoadusque justitia COli - I 
+   <lb ed="#PL"/> vertatur in</hi> judicium I <hi rend="italic">(Psal.</hi> XCIII, 14, 45). <hi rend="italic">Quoad­
+   <lb ed="#PL"/> usque
+    justitia</hi> quae modo eSt in sanctis ejus, converta­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tur in judicium;</hi> cum implebitur quod eis dictum est, 
+   <lb ed="#PL"/> Sedebitis <hi rend="italic">super duodecim sedes, judicantes duodecim 
+   <lb ed="#PL"/> tribus
+    Israel (Matth.</hi> xix, 28). Habebat justitiam 
+   <lb ed="#PL"/> Apostolus, sed nondum illud judicium de quo dicit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Nescitis quoniam angelos judicabimus</hi> (I <hi rend="italic">Cor.</hi> VI, 5)? SiL 
+   <lb ed="#PL"/> ergo modo tempus juste vivendi, postea erit tempus 
+   <lb ed="#PL"/> eos qui male vixerint, judicandi. <hi rend="italic">Quoadusque justitia,</hi>
+   
+       <lb ed="#PL"/> inquit, <hi rend="italic">convertatur in judicium.</hi> Hoc erit tempus ju<lb ed="#PL" break="no"/>dicii,
+   de quo Dominus modo dixit, <hi rend="italic">Tempus meum</hi> non­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">dum venit.</hi> Erit enim tempus gloriae, ut qui venit 
+   <lb ed="#PL"/> in humilitate, veniat in altitudine. Qui venit judican<lb ed="#PL" break="no"/>dus, venict judicaturus : qui venit occidi a mortuis , 
+   <lb ed="#PL"/> veniet judicare de vivisetmortuis. <hi rend="italic">Deus,</hi> inquit Psal<lb ed="#PL" break="no"/>mus, <hi rend="italic">manifestus</hi> veniet, <hi rend="italic">Deus noster et non silebit (Psal.</hi>
+   
+       <lb ed="#PL"/> XLIX, 5). Quid est, <hi rend="italic">manifestus veniet?</hi> Quia venit oc<lb ed="#PL" break="no"/>cultus.
+   Tunc non silebit: nam quando venit occuhus 
+   
+   <pb ed="#PL" n="1625"/>
+       <lb ed="#PL"/> sicut ovis ad immolandum ductus est, et sicut agnas 
+   <lb ed="#PL"/> coram tondente se non aperuit os suum <hi rend="italic">(Isai.</hi> LIII, 
+   <lb ed="#PL"/> 7). Veniet et non silebit. <hi rend="italic">Tacui,</hi> inquit, numquid 
+   <lb ed="#PL"/>
+       <hi rend="italic">semper tacebo (Id.</hi> XLII, <hi rend="italic">14, sec.</hi> LXX)?</p>
+      <p xml:id="iuy75t-d1e271-d1e722">i. Modo autem quid necessarium est eis qui habent 
+   <lb ed="#PL"/> justitiam? Quod iti illo ipso psalmo legitur, <hi rend="italic">Quoad<lb ed="#PL" break="no"/>usque</hi> justitia convertatur <hi rend="italic">in judicium; et qui habent</hi> eam, 
+   <lb ed="#PL"/>
+       <hi rend="italic">omnes recH corde.</hi> Quaeritis fortasse qui sunt recti 
+   <lb ed="#PL"/> corde? Illos invenimus in Scriptura rectos corde, 
+   <lb ed="#PL"/> qui mala saeculi tolerant, et non accusant Deum. 
+   <lb ed="#PL"/> Videte, fratres; rara avis est ista quam loquor t. Ne<lb ed="#PL" break="no"/>scio
+   quo enim modo quando evenit homini aliquid 
+   <lb ed="#PL"/> mali, Deum currit accusare, qui deberet se. Quando 
+   <lb ed="#PL"/> boni aliquid agis, te laudas : quando mali aliquid pa<lb ed="#PL" break="no"/>teris, Deum a&lt;cusas. Hoc est ergo cor tortum, non 
+   <lb ed="#PL"/> rectum. Ab ista distortione et pravitate si corrigaris, 
+   <lb ed="#PL"/> convertetur in contrarium quod faciebas. Antea enim 
+   <lb ed="#PL"/> quid faciebas ? Laudabas te in bonis Dei, accusabas 
+   <lb ed="#PL"/> Deum in malis tuis : converso corde et directo, lau<lb ed="#PL" break="no"/>dabis
+   Deum in bonis suis, accusabis te in malis tuis. 
+   <lb ed="#PL"/> Isti sunt recti corde. Denique ille nondum recto corde, 
+   <lb ed="#PL"/> cui displicebat felicitas malorum et labor bonorum, 
+   <lb ed="#PL"/> ait correctus : Quam <hi rend="italic">bonus Deus Israel
+    rectis corde! 
+   <lb ed="#PL"/> Mei autem,</hi> quando non eram recto corde, <hi rend="italic">pene com<lb ed="#PL" break="no"/>moti
+   sunt pedes, paulo MMM effusi sunt gressus mei.</hi>
+   
+       <lb ed="#PL"/> Quare ? <hi rend="italic">Quia zelavi in peccatoribus, pacem peccatorum
+   <lb ed="#PL"/>
+    intuens (Psal</hi> LXXII, 1-3). Vidi, inquit, malos felices, 
+   <lb ed="#PL"/> et displicuit mihi Deus: hoc enim volebam, ut non 
+   <lb ed="#PL"/> permitteret Deus malos esse felices. Intelligat homo: 
+   <lb ed="#PL"/> numquam hoc permittit Deus; sed ideo malus felix 
+   <lb ed="#PL"/> putatur, quia quid sit felicitas ignoratur. Simus ergo 
+   <lb ed="#PL"/> recti corde : tempus gloriae nostrae nondum venit. 
+   <lb ed="#PL"/> Dicatur amatoribus hujus saeculi, quales erant fratres 
+   <lb ed="#PL"/> Domini, <hi rend="italic">Tempus vestrum semper eat paratum; tempus</hi>
+   
+       <lb ed="#PL"/> nostrum <hi rend="italic">nondum venit.</hi> Audeamus euim hoc dicere ei 
+   <lb ed="#PL"/> nos. Et quoniam corpus Domini nostri Jesu Christi 
+   <lb ed="#PL"/> sumus, quoniam membra ejus sumus, quoniam caput 
+   <lb ed="#PL"/> nostrum gratanter agnoscimus, dicamus prorsus; 
+   <lb ed="#PL"/> quoniam propter nos et ipse hoc dignatus est dicere. 
+   <lb ed="#PL"/> Quando nobis insultant amatores hujus saeculi, dica<lb ed="#PL" break="no"/>mus
+   eis, <hi rend="italic">Tempus vestrum semper est paratum ;
+    tempus</hi>
+   
+       <lb ed="#PL"/> nostrum <hi rend="italic">nondum venit.</hi> Nobis enim dixit Apostolus, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Mortui enim estis, et vita vestra abscondita eat cum 
+   <lb ed="#PL"/> Christo in
+    Deo.</hi> Quando veniet tempus nostrum ? <hi rend="italic">Cum</hi>
+   
+       <lb ed="#PL"/> Chrisus, inquit, <hi rend="italic">apparuerit</hi> vita vestra, <hi rend="italic">tunc et vos</hi> ap­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">parebitis cum ipso in gloria (Colou.</hi> III, 3, 4).</p>
+      <p xml:id="iuy75t-d1e271-d1e860">8. Quid deinde addil? <hi rend="italic">Non potest mundus odisse
+   <lb ed="#PL"/> vos.</hi> Quid est hoc, nisi, Non potest mundus odisse 
+   <lb ed="#PL"/> amatores suos, falsos testes? Bona enim dicitis quae 
+   <lb ed="#PL"/> mala sunt,etmala quae bona sunt. <hi rend="italic">Me autem</hi> odii, 
+   <lb ed="#PL"/>
+       <hi rend="italic">quia ego testimonium perhibeo de illo, quia opera
+   <lb ed="#PL"/> ejus mala sunt.
+    Vos ascendite ad diem festum hunc.</hi>
+   
+       <lb ed="#PL"/> Quid est <hi rend="italic">hunc?</hi> Ubi gloriam humanam quaeritis. Quid 
+   <lb ed="#PL"/> est <hi rend="italic">hunc</hi> ? Ubi extendere vultis carnalia gaudia, non 
+   <lb ed="#PL"/> aeterna cogitare. <hi rend="italic">Ego</hi> non <hi rend="italic">ascendo ad
+     di<unclear>m</unclear> festum 
+   <lb ed="#PL"/> hunc, quia</hi> meum <hi rend="italic">tempus
+    nondum impletum est.</hi> In die 
+   <lb ed="#PL"/> festo hoc gloriam vos humanam quaeritis; meum vero 
+   
+   <lb ed="#PL"/> tempus, id est gloriae meae, nondum venit. Ipse erit 
+   <lb ed="#PL"/> dies festus meus, non dicbus istis praecurrens et trans. 
+   <lb ed="#PL"/> iens, sed permanens in aeternum : ipsa erit festivitas, 
+   <lb ed="#PL"/> gaudium sine fine, aeternitas sine labe, serenitas sine 
+   <lb ed="#PL"/> nube.
+    <hi rend="italic">Haec</hi> cum <hi rend="italic">dixisset, ipse mansit</hi> in <hi rend="italic">Galilaea. Ut 
+   <lb ed="#PL"/> autem ascenderunt fratres ejus, tunc et ipse ascendit
+    ad 
+   <lb ed="#PL"/> ditm festum ; non manifeste, sed quasi</hi> in <hi rend="italic">occulto.</hi> Ideo 
+   <lb ed="#PL"/>
+       <hi rend="italic">non ad diem</hi> festum <hi rend="italic">hunc,</hi> quia non gloriari temporali<lb ed="#PL" break="no"/>ter, sed aliquid docere salubriter, corrigere homines, 
+   <lb ed="#PL"/> de die festo aeterno admonere, amorem ab hoc sae<lb ed="#PL" break="no"/>culo
+   avertere, et in Deum convertere cupiebat. Quid 
+   <lb ed="#PL"/> est autem, <hi rend="italic">quasi latenter ascendit ad diem
+    festum?</hi> Non 
+   <lb ed="#PL"/> vacat et hoc Domini t. Videtur mihi, fralres, etiam 
+   <lb ed="#PL"/> hinc, quod quasi latenter ascendit, aliquid significare 
+   <lb ed="#PL"/> voluisse : nam consequentia docebunt sic eum ascen<lb ed="#PL" break="no"/>dissc
+   mediato die festo, id est mediatis illis diebus,
+   
+   <lb ed="#PL"/> ut etiam palam doceret. Sed <hi rend="italic">quasi latenter</hi> dixit, ne se
+   
+   <lb ed="#PL"/> ostenderet hominibus. Non vacat quodlatenterascen<lb ed="#PL" break="no"/>dit
+   Christus ad diem festum, quia ipse latebat in illo 
+   <lb ed="#PL"/> die festo. Adhuc etiam ego quod dixi, in latibulo est. 
+   <lb ed="#PL"/> Manifestetur ergo, tollatur velum , et appareat quod 
+   <lb ed="#PL"/> eratsecretum.</p>
+      <p xml:id="iuy75t-d1e271-d1e986">U. Omnia quae dicta sunt antiquo populo Israel in 
+   <lb ed="#PL"/> multiplici scriptura sanctae Legis, quae agerent sive in 
+   <lb ed="#PL"/> sacrificiis, sive in sacerdotiis, sive in diebus festis, et 
+   <lb ed="#PL"/> omnino in quibuslibet rebus quibus Deum colebant, 
+   <lb ed="#PL"/> quaecumque illis dicta et praecepta sunt, umbrae fue<lb ed="#PL" break="no"/>runt
+   futurorum. Quorum futurorum? Quae implentur 
+   <lb ed="#PL"/> in Christo. Unde dicit Apostolus, <hi rend="italic">Quotquot</hi> enim pro<lb ed="#PL" break="no"/>missiones <hi rend="italic">Dei,</hi> in <hi rend="italic">illo etiam</hi> ( II <hi rend="italic">Cor.</hi> I, 20) : id est, 
+   <lb ed="#PL"/> in illo impletae sunt. Deinde dicit alio loco : <hi rend="italic">Omnia 
+   <lb ed="#PL"/> in figura contingebant illis; scripta sunt
+    autem propter 
+   <lb ed="#PL"/> nos,</hi> in <hi rend="italic">quos finis saeculorum obvenit</hi> ( I <hi rend="italic">Cor.</hi> x , i I ). 
+   <lb ed="#PL"/> Dixit et alibi : <hi rend="italic">Finis
+    enim Legis</hi> Christus est ( <hi rend="italic">Rom.,</hi>
+   
+       <lb ed="#PL"/> x, 4 ). Item alio loco: <hi rend="italic">Nemo vos judicet in cibo, aut 
+   <lb ed="#PL"/> in
+    potu, aut</hi> in <hi rend="italic">parte diei festi, aut neomeniae,</hi> aut sab­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">batorum, quod eat umbra futurorum (Coloss.</hi> II, 16,17). 
+   <lb ed="#PL"/> Si ergo omnia illa umbra fnerunt futurorum; et Sce<lb ed="#PL" break="no"/>nopegia
+   umbra erat futurorum. Hic ergo dies festus, 
+   <lb ed="#PL"/> quaeramus cujus futuri umbra erat. Exposui quid erat 
+   <lb ed="#PL"/> Scenopegia : celebratio erat tabernaculorum, pro<lb ed="#PL" break="no"/>plerea
+   quia populus de aegypto liberatus tendens per 
+   <lb ed="#PL"/> desertum ad terram promissionis, in tabernaculis ha<lb ed="#PL" break="no"/>bitavit.
+   Quid sit animadvertamus, et nos erimus; nos, 
+   <lb ed="#PL"/> inquam, qui membra Christi sumus, si sumus I: illo 
+   <lb ed="#PL"/> autem dignante sumus, non nobis promerentibus. 
+   <lb ed="#PL"/> Attendamus ergo nos, fratres : educti sumus de 
+   <lb ed="#PL"/> aegypto, ubi diabolo tanquam Pharaoni serviebamus : 
+   <lb ed="#PL"/> ubi lutea opera in terrenis desideriis agebamus, et in
+   
+   <lb ed="#PL"/> cis inultum laborabamus. Etenim nobis Christus quasi 
+   <lb ed="#PL"/> lateres facientibus clamavit: <hi rend="italic">Venite ad</hi> me, <hi rend="italic">omnes</hi> qni 
+   <lb ed="#PL"/>
+       <hi rend="italic">laboratis, et onerati estis</hi> ( <hi rend="italic">Matth.</hi> XI, 28). Hinc educti 
+   <lb ed="#PL"/> per Baptismum Linquam per mare Rubrum, ideo ru 
+   <lb ed="#PL"/> brum, quia Christi sanguine consecratum, mortuis 
+   <lb ed="#PL"/> omnibus inimicis nostris qui nos insectabantur, id 
+   
+   <pb ed="#PL" n="1627"/>
+       <lb ed="#PL"/> est, deletis omnibus peccatis nostris, transjecti sti<lb ed="#PL" break="no"/>mus. Modo ergo antequam ad patriam promissionis, 
+   <lb ed="#PL"/> id est, aeteruum regnum veniamus, in deserto in ta<lb ed="#PL" break="no"/>bernaculis
+   sumus. Qui ista agnoscunt, in tabernacu<lb ed="#PL" break="no"/>lis
+   sunt
+   : futurum enim erat ut quidam hoc agno<lb ed="#PL" break="no"/>scerent. Ille euim est in tabernaculis, qui se esse in 
+   <lb ed="#PL"/> mundo intelligit peregrinum. Ille se intelligit peregri<lb ed="#PL" break="no"/>nantem,
+   qui se videt patriae suspirantem. Cum autem 
+   <lb ed="#PL"/> corpus Christi est in tabernaculis, Christus est in ta<lb ed="#PL" break="no"/>bernaculis. Sed tunc non evidenter, sed latenter. 
+   <lb ed="#PL"/> Adhuc enim umbra locem obscurabat: veniente luce, 
+   <lb ed="#PL"/> umbra remota est. Christus erat in occulto, in Sce<lb ed="#PL" break="no"/>nopegia
+   Christus erat, sed latens Christus. Modo jam 
+   <lb ed="#PL"/> cum manifestata sunt ista, agnoscimus nos iter agere 
+   <lb ed="#PL"/> in eremo: si enim agnoscamus, in eremo sumus. 
+   <lb ed="#PL"/> Quid est i.. eremo? In deserto. Quare in deserto?
+   
+   <lb ed="#PL"/> Quia in isto mundo, ubi sititur in via inaquosa. Sed 
+   <lb ed="#PL"/> sitiamus, ut saturemur. Beati enim qui esuriunt et si.. 
+   <lb ed="#PL"/> Hunt justitiam, quoniam ipsi saturabuntur (Matth. v, 6). 
+   <lb ed="#PL"/> £t sitis nostra de petra impletur in eremo: <hi rend="italic">Petra</hi> enim 
+   <lb ed="#PL"/>
+       <hi rend="italic">erai Christus,</hi> et virga percussa est, ut aqua manaret. 
+   <lb ed="#PL"/> N Utautem manarct, bis percussa est (I <hi rend="italic">Cor.</hi> x, 4; <hi rend="italic">Num.</hi>
+   
+       <lb ed="#PL"/> xx. i I ), quia duo ligna sunt crucis. Omnia ergo haec 
+   <lb ed="#PL"/> quae fiebant in ligura, manifestanturin nobis. Et non va<lb ed="#PL" break="no"/>cat
+   quod de Domino dictum est, <hi rend="italic">Ascendit ad diem 
+   <lb ed="#PL"/> festum,</hi> non <hi rend="italic">manifeste, sed</hi> tanquam in occulto. Figura<lb ed="#PL" break="no"/>tum
+   enim erat ipsum in occulto, quia in ipso die festo 
+   <lb ed="#PL"/> Christus latebat ; quia ipse dies festus, Cl)risti mem<lb ed="#PL" break="no"/>bra
+   peregrinatura significabat.</p>
+      <p xml:id="iuy75t-d1e271-d1e1192">10. <hi rend="italic">Jud</hi>ae<hi rend="italic">i ergo</hi> quaerebant eum ix <hi rend="italic">die festo :</hi> ante<lb ed="#PL" break="no"/>quam
+   ascenderet. Priores enim fratres ascenderunt, 
+   <lb ed="#PL"/> et non tunc ascendit ille, quando illi putabant et vo<lb ed="#PL" break="no"/>lebant : ut etiam hoc impleretur quod ait , <hi rend="italic">Non ad
+   <lb ed="#PL"/> hunc,</hi> id est, ad quem vos vultis, primum vel secun<lb ed="#PL" break="no"/>, dnm diem. Ascendit autem postca, ut Evangelium 
+   <lb ed="#PL"/> I loquitur, <hi rend="italic">mediato die festo;</hi> id est, cum jam illius diei 
+   <lb ed="#PL"/> festi tot dies praeteriissent quod remansissent. Ipsam 
+   <lb ed="#PL"/> cnim festivitatem, quantum intelligendum est, diebus 
+   <lb ed="#PL"/> pluribus celebrabant.</p>
+      <p xml:id="iuy75t-d1e271-d1e1230">11. <hi rend="italic">Dicebant</hi> ergo : <hi rend="italic">Ubi est iUe? Et</hi> murmur multum 
+   <lb ed="#PL"/>
+       <hi rend="italic">de eo erat in turba.</hi> Unde murmur? De contentione. 
+   <lb ed="#PL"/> Qua: fuit contentio? <hi rend="italic">Quidam enim dicebant, Quia</hi> bonus 
+   <lb ed="#PL"/>
+       <hi rend="italic">eat;, alii autem,</hi> Non, <hi rend="italic">sed seducit turbas.</hi> De omnibus 
+   <lb ed="#PL"/> servis ejus intelligendum : hoc dicitur modo. Quicum<lb ed="#PL" break="no"/>que
+   enim eminuerit in aliqua gratia spirituali, profecto 
+   <lb ed="#PL"/> alii dicunt 1, <hi rend="italic">Bonus eat;</hi> alii, Non, <hi rend="italic">sed seducit turbas.</hi>
+   
+       <lb ed="#PL"/> Unde hoc? Quia <hi rend="italic">vita nostra abscondita eat cum Christo
+   <lb ed="#PL"/> in
+    Deo (Coloss.</hi> III. 5). Ideo licet dicere hominibus per 
+   <lb ed="#PL"/> hiemem, Mortua est ista arbor, verbi gratia, arbor 
+   <lb ed="#PL"/> fici, arbor piri, et hujusmodi pomorum, similis est 
+   <lb ed="#PL"/> aridae ; et quamdiu hiems est, non apparet. aestas 
+   <lb ed="#PL"/> probat, judicium probat. aestas nostra, revelatio Chri<lb ed="#PL" break="no"/>sti
+   est : <hi rend="italic">Deus manifestus
+    veniet, Deus nosteretnon</hi> sile­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">bit (Psal.</hi> XLIX , 3) ; <hi rend="italic">ignis ante eum</hi> praeibit : iste ignis 
+   <lb ed="#PL"/> inflammabit inimicos <hi rend="italic">ejus (PsaL</hi> XCVI, 5); aridas 
+   <lb ed="#PL"/> arbores iguis comprehendet. Tunc enim aridae appa- 
+   <lb ed="#PL"/> Tebunt, quando eis dicetur, <hi rend="italic">Esurivi, et non dedistis</hi>
+   
+   
+       <lb ed="#PL"/>
+       <hi rend="italic">mihi manducare</hi> : in alia vero parte, boc est in dex<lb ed="#PL" break="no"/>tera, apparebit fecunditas fructuum, dignitasque fo- 
+   <lb ed="#PL"/> Horum; viriditas, aeternitas erit. Illis ergo tanquam 
+   <lb ed="#PL"/> aridis dicctur, <hi rend="italic">Ite</hi> in <hi rend="italic">ignem</hi> oeternum <hi rend="italic">(Matth.</hi> XXV, 
+   <lb ed="#PL"/> 42, 41). <hi rend="italic">Ecce enim,</hi> inquit, <hi rend="italic">securis ad radicem
+    arborum</hi>
+   
+       <lb ed="#PL"/> posita <hi rend="italic">eat. Omnis ergo arbor quoe non facit fructum</hi> bo­
+   
+   <lb ed="#PL"/> num, <hi rend="italic">excidetur, et</hi> in <hi rend="italic">ignem mittetur (Id.
+    III,</hi> 10). Di<lb ed="#PL" break="no"/>cant
+   ergo de te, si proficis in Christo, dicant homines, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Seducit turbas.</hi> De ipso, de toto corpore Christi hoc 
+   <lb ed="#PL"/> dicitur. Cogita corpus Christi adhuc in mundo, cogita 
+   <lb ed="#PL"/> corpus Christi adbuc in area; vide quemadmodum 
+   <lb ed="#PL"/> blasphemetur a palea. Simui quidem triturantur; sed 
+   <lb ed="#PL"/> paleae conteruntur, frumenta purgantur. Quod dictum 
+   <lb ed="#PL"/> est ergo de Domino, valet ad consolationem, de quo<lb ed="#PL" break="no"/>cumque
+   hoc dictum ruerit christiano.</p>
+      <p xml:id="iuy75t-d1e271-d1e1378">12. <hi rend="italic">Nemo tamen palam loquebatur de illo, propter 
+   <lb ed="#PL"/> metum</hi> Judaeorum. Scd qui non loquebantur de illo 
+   <lb ed="#PL"/> propter metum Jud;corum ? Utique qui dicebant, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Bonus est:</hi> non qui dicebant, <hi rend="italic">Seducit
+    turbas.</hi> Qui dice<lb ed="#PL" break="no"/>bant, <hi rend="italic">Seducit turbas,</hi> sonilus eorum audiebatur tan<lb ed="#PL" break="no"/>quam
+   aridorum foliorum. <hi rend="italic">Seducit
+    turbas,</hi> clarins so<lb ed="#PL" break="no"/>nabant; <hi rend="italic">Bonus est,</hi> pressius susurrabant. Modo autem, 
+   <lb ed="#PL"/> fratres, quamvis nondum venerit illa gloria Christi,
+   
+   <lb ed="#PL"/> quae nos aeternos factura est; modo tamen ita crescit 
+   <lb ed="#PL"/> Ecclesia ejus, ita eam dignatus est per cuncta diffun<lb ed="#PL" break="no"/>dere, ut jam susurretur, <hi rend="italic">Seducit</hi> turbas;ct clarius per<lb ed="#PL" break="no"/>sonet, <hi rend="italic">Bonus</hi> est.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

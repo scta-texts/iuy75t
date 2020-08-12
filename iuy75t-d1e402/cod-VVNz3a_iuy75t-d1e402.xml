@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 44</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 44</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e402"> <!-- iuy75t-t44 -->
+      <head xml:id="iuy75t-d1e402-Hd1e109">Tractatus 44</head>
+      <p xml:id="iuy75t-d1e402-d1e112">
+       <hi rend="italic">Ab</hi> eo <hi rend="italic">quod</hi> scriptum <hi rend="italic">est,</hi> Et praeteriens vidit bominem 
+   <lb ed="#PL"/> Mecum a nalivitale; usque ad id, Nunc vero dicitis, 
+   <lb ed="#PL"/> Quia videmus : peccatum vestrum manet. Cap. II.</p>
+      <p xml:id="iuy75t-d1e402-d1e128">i. De homine quem Dominus Jesus illuminavit, qui 
+   <lb ed="#PL"/> caecus natos fuit, prolixa lectio recitala est: quam si 
+   <lb ed="#PL"/> universam pertractare conemur, pro sui dignitate, 
+   <lb ed="#PL"/> sicut valemus, singula considerantes, DOn sufficit dies. 
+   <lb ed="#PL"/> Proinde peto et admoneo Charitatem veslranl, ut in iis 
+   <lb ed="#PL"/> quae aperta sunt, sermonem nostrum non requiratis :
+   
+   <lb ed="#PL"/> nam nimis longum erit in singulis immorari. Breviter 
+   <lb ed="#PL"/> ergo caeci hujus illuminati commendo mysteriuDl. Ea 
+   <lb ed="#PL"/> quippc qu:e feeit Dominus noster Jesus Christus stu<lb ed="#PL" break="no"/>penda
+   atque miranda, et opera et verba sunt : opera, 
+   <lb ed="#PL"/> quia facta sunt; verba, quia signa sunt. Si ergo quid 
+   <lb ed="#PL"/> significet hoc quod tactum est cogitemus, genus huma<lb ed="#PL" break="no"/>num
+   est iste caecus : haec enim caecitas contigit in 
+   <lb ed="#PL"/> primo homine per peccatum, de quo omnes originem 
+   <lb ed="#PL"/> duximus, non solam mortis, sed etiam iniquitatis. Si 
+   <lb ed="#PL"/> enim caecitas est infidelitas, et illuminatio fides; quem 
+   <lb ed="#PL"/> fidelem quando venit Christus invenit ? Quandoquidem 
+   <lb ed="#PL"/> Apostolus iratus in gente Prophetarum dicit: Fuimus 
+   <lb ed="#PL"/>
+       <hi rend="italic">et</hi> nos aliquando natura filii irae, sicut et caeteri (Eplaes. 
+   <lb ed="#PL"/> I, 3). Si filii irae, filii vindictae, filii poenae, filii gc. 
+   <lb ed="#PL"/> hennae. Quomodo natura, nisi quia peccante primo 
+   <lb ed="#PL"/> pro natura inolevit? Si vitium pro 
+   <lb ed="#PL"/> homine , vitium 
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> natura inolevit, secundum mentem omnis homo caecus 
+   <lb ed="#PL"/> natus est. Si enim videt, non opus habet ductore; si 
+   <lb ed="#PL"/> opus habet ductore et illuminatore, caecus est ergo- a
+   
+   <lb ed="#PL"/> nativitate.</p>
+      <p xml:id="iuy75t-d1e402-d1e192">2. Venit Dominus : quid fecit ? Magnum mysterium 
+   <lb ed="#PL"/> commendavit. Exspuit in terram, de saliva sua lutum 
+   <lb ed="#PL"/> fecit : quia Verbum caro factum est (loan. I, 14). Et 
+   <lb ed="#PL"/> inunxit oCulos caeci. Inunctus erat,etnodum videbat. 
+   <lb ed="#PL"/> Misit illum ad piscinam qua? vocatur Siloc. Pertinuit 
+   <lb ed="#PL"/> autem ad Evangelistam commendare nobis nomen 
+   <lb ed="#PL"/> hujus piscinae; et ait, Quod <hi rend="italic">interpretatur</hi> MissUB. Jam 
+   <lb ed="#PL"/> quis sit missus agnoscitis : nisi enim ille fuisset missus, 
+   <lb ed="#PL"/> nemo nostrum esset ab iniquitate dimissus. Lavit ergo 
+   <lb ed="#PL"/> oculos ill ea piscina quae interpretatur Missus , bapti- 
+   <lb ed="#PL"/> latus est in Christo. Si ergo quando eum in seipso 
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> quodammodo baptizavit, tunc illuminavit; quando 
+   <lb ed="#PL"/> inunxit, fortasse catechumenum fecit. Potest quidem 
+   <lb ed="#PL"/> aliter atque aliter tanti sacramenti exponi profunditas 
+   <lb ed="#PL"/> et pertractari ! : sed hoc suMciat Charitati vestrae; 
+   <lb ed="#PL"/> audistis grande mysterium. interroga hominem, Chri<lb ed="#PL" break="no"/>stianus
+   es? Respondet tibi, Non sum, si Paganus est 
+   <lb ed="#PL"/> aut Judaeus. Si autem dixerit, Sum; adhuc quaeris ab 
+   <lb ed="#PL"/> eo , Catechumenus, an fidelis? Si respullderit, Oate- 
+   <lb ed="#PL"/> chumenus; inunctus est, nondum totus. Sed unde 
+   <lb ed="#PL"/> inunctus? Quaere, et respondet ; quaere ab illo in quem 
+   <lb ed="#PL"/> credat
+   : eo ipso quo catechumenus est, dicit, In Chri- 
+   <lb ed="#PL"/> smm. Ecce modo loquor et fidelibus et catechumenis. 
+   <lb ed="#PL"/> Quid dixi de sputo et lato? Quia Verbum caro factum 
+   <lb ed="#PL"/> est. Hoc et catechumeni audiunt : sed non eis suflicit 
+   <lb ed="#PL"/> ad quod inuncti sunt; festinent ad lavaerum, si lumen 
+   <lb ed="#PL"/> inquirunt.</p>
+      <p xml:id="iuy75t-d1e402-d1e257">3. Jam ergo propter quasdam in hac ipsa lectione 
+   <lb ed="#PL"/> quaestiones, verba Uomini et ipsius universae lectionis 
+   <lb ed="#PL"/> percurramus potius quam tractemus. Exiens <hi rend="italic">vidit</hi> Ac- 
+   <lb ed="#PL"/> minem caecum : non utcumque caecum, sed, a nativi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tate.</hi> Et interrogaverunt eum <hi rend="italic">discipuli
+    ejus</hi> : Rabbi. 
+   <lb ed="#PL"/> Scitis Rabbi quin magister est. Magistrum appella- 
+   <lb ed="#PL"/> bant, quia discere desiderabant : quaestionem quippe 
+   <lb ed="#PL"/> Domino proposuerunt tanquam magistro, Quis peccavit, 
+   <lb ed="#PL"/> hic, an <hi rend="italic">parentes ejus,</hi> ut caecus nasceretur? Respondit 
+   <lb ed="#PL"/> Jesus : Nēque hic <hi rend="italic">peecnril, neque
+    parentes</hi> ejus, lit 
+   <lb ed="#PL"/> caecus nasceretur. Quid est quod dixit? SI nullus homo
+   
+   <lb ed="#PL"/> sine peccato, numqaid parentes hujus caeci sine pec! 
+   <lb ed="#PL"/> cato erant? Numquid ipse vel sine originali peccato 
+   <lb ed="#PL"/> natus erat, vel vivendo nihil addiderat? An qnia 
+   <lb ed="#PL"/> oculos clausos habehat, concupiscentiae minime vigi- 
+   <lb ed="#PL"/> labant 2? Quanta mala committunt caeci !A quo malo 
+   <lb ed="#PL"/> abstinet mens mala, etiam clausis oculis ? Non pote rot 
+   <lb ed="#PL"/> videre, sed noverat cogitare, et forte concupiscere 
+   <lb ed="#PL"/> aliquid quod caecus non posset implere, Bed in corda 
+   <lb ed="#PL"/> judicari a eordis perscrutatore. Si ergo et parentes 
+   <lb ed="#PL"/> ejus habuerunt peccatum, et iste habuit peccatum; 
+   <lb ed="#PL"/> quare Dominus dixit, <hi rend="italic">Neque</hi> lae peccavit, <hi rend="italic">neque</hi> pa­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">rentes</hi> ejus : nisi ad rem de qua interrogatus est, tel 
+   <lb ed="#PL"/>
+       <hi rend="italic">caecus</hi> nasceretur ? Habebant enim peccatum parentes 
+   
+   <pb ed="#PL" n="1715"/>
+       <lb ed="#PL"/> ejus, sed non ipso peccato factum est ut caecus nasce<lb ed="#PL" break="no"/>retur. Si ergo non peccato factum est parentum ut
+   <lb ed="#PL"/> caecus nasceretur, quare natus est ? Audi magi-
+   <lb ed="#PL"/> strum docentem : quaerit credentem, ut faciat intelli- 
+   <lb ed="#PL"/> gentem. Ipse causam dicit quare ille caecus sit natus : 
+   <lb ed="#PL"/>
+       <hi rend="italic">Neque hic peccavit, inquit, neque parentes ejus : sed ut 
+   <lb ed="#PL"/>
+    manifestentur opera Dei in illo.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e402-d1e358">4. Deinde quid sequitur? <hi rend="italic">Me oportet operari opera</hi>
+   
+       <lb ed="#PL"/> ejus qui misit me. Ecce est ille missus in quo faciem 
+   <lb ed="#PL"/> lavit caecus. Et videte quid dixerit, <hi rend="italic">Me oportet</hi> opernri 
+   <lb ed="#PL"/>
+       <hi rend="italic">opera ejus</hi>gui misit me, donee <hi rend="italic">dies est.</hi> Memento te quo<lb ed="#PL" break="no"/>modo
+   universam gloriam illi dat de quo est: quia ille 
+   <lb ed="#PL"/> habet flium qui de illu sit, ipse non habet de quo sit. 
+   <lb ed="#PL"/> Sed quare dixisti, Domine, <hi rend="italic">donec</hi> dita est? Audi quare. 
+   <lb ed="#PL"/> Venit I nox quando nemo potest
+    <hi rend="italic">operari.</hi> Nec tu, Do<lb ed="#PL" break="no"/>mine? Itane tantum valebit not illa, lit noc tu possis 
+   <lb ed="#PL"/> in ea operari, cujus opus nox est? Puto enim, Domine 
+   <lb ed="#PL"/> Jesu, imo non poto, sed credo atque confirmo te iui 
+   <lb ed="#PL"/> fuisse, quando dixit Deus, Fiat lux;
+    <hi rend="italic">et</hi> jacta <hi rend="italic">eat lux</hi>
+   
+       <lb ed="#PL"/> (Gen.<unclear/>, 3). Si enim Verbo fecit, per te fecit: et idco 
+   <lb ed="#PL"/> dictum est, Omnia per ipsum jacta sunt, <hi rend="italic">et</hi> sine <hi rend="italic">ipso</hi>
+   
+       <lb ed="#PL"/> jactum eat nihil (loan. I, 3). Divisit <hi rend="italic">Della inter</hi> lucem et 
+   <lb ed="#PL"/>
+       <hi rend="italic">tenebras</hi> ; lucem vocavit<hi rend="italic">dima, et tenebras</hi> vocavit noctem 
+   <lb ed="#PL"/> (Gen. I, 4, 5).</p>
+      <p xml:id="iuy75t-d1e402-d1e439">5. Quae est illa nox, quae cum venerit, nemo pote<lb ed="#PL" break="no"/>rit
+   operari? Audi quid sit dies, et tunc intelliges quae 
+   <lb ed="#PL"/> sit nex. Unde sumus audituri quisnam sit dies iste?
+   
+   <lb ed="#PL"/> Ipse dicat: Quamdiu in <hi rend="italic">hoc mundo</hi> sum, lux sum mundi. 
+   <lb ed="#PL"/> Ecce ipse est dies. Lavet oculos caecus in die, ut vi<lb ed="#PL" break="no"/>deat
+   diem. Quamdiu,. inquit, in mundo sum, lux sum 
+   <lb ed="#PL"/> mundi. Ergo nescio quae nox erit, quando ibi Chri- 
+   <lb ed="#PL"/>
+   .tus non crit; ideo nemo poterit operari. Restat in- 
+   <lb ed="#PL"/> quirere, fratres mei, patienter accipite inquirentem 
+   <lb ed="#PL"/> me: vobiscum quaero, vobiscum inveniam a quo quaero.
+   
+   <lb ed="#PL"/> Constat, exprossum ac definitum est, diem comlnemo- 
+   <lb ed="#PL"/> rasse Dominum boc loco scipsum, id est lumen mundi : 
+   <lb ed="#PL"/> Qurndiu, inquit, sum itE hoc mundo, lux luna mundi.
+   
+   <lb ed="#PL"/> Ergo ipse opemlUP. Quamdiu est autem in boc 
+   <lb ed="#PL"/> mundo? Putamus euro, fratres, luisse hic tunc, et 
+   <lb ed="#PL"/> modo non hic esse? Si ergo hoc putamus, jam ergo 
+   <lb ed="#PL"/> post ascensum Domini facta est nox ista metuenda, 
+   <lb ed="#PL"/> ubi nemo possit operari : si post ascensum Donnini fa<lb ed="#PL" break="no"/>cta
+   est nox ista, unde Apostoli tanta operati sum? 
+   <lb ed="#PL"/> Numquid ista nox erat, quando Spiritus sanctus ve<lb ed="#PL" break="no"/>niens, et omnes qui in uno loco erant adimplens, dc<lb ed="#PL" break="no"/>dit
+   eis loqui omnium gentium linguis <hi rend="italic">(Act.</hi> II, 1-6) ? 
+   <lb ed="#PL"/> Numquid nox erat quando claudus ille ad verbum Ne- 
+   <lb ed="#PL"/> tri salvus eHectus est, into ad verbum Domini habi- 
+   <lb ed="#PL"/> tantis in Petro (Id. III, 6-8)
+   ? Numquid nox eral quando 
+   <lb ed="#PL"/> transeuntibus discipulis aegri cum lectulis ponebantur,
+   
+   <lb ed="#PL"/> utvel umbra transeuntium tangerentur (Id. v, 15)? 
+   <lb ed="#PL"/> Dommus autem cum hic esset, nerninem transiens 
+   <lb ed="#PL"/> umbra sua salvum fecit: sed ipse discipulis dixerat, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Majora</hi> horum facietis <hi rend="italic">(Joan.</hi> XIV, 12). Dixerat quidcm 
+   <lb ed="#PL"/> Dominus, Majora <hi rend="italic">horum</hi> facietis: sed nun se extollat 
+   <lb ed="#PL"/> caro et sanguis; audiat dicentem, Sine me nihil <hi rend="italic">pole-</hi>
+       <unclear/>
+       <lb ed="#PL"/> stis <hi rend="italic">jacere</hi> (Id. xv, 5).</p>
+      <p xml:id="iuy75t-d1e402-d1e535">6. Quid igitur ? quid dicemus de nocte ista ? Quando 
+   
+   <lb ed="#PL"/> erit, quando nemo potcrit operari? Nox ista impio<lb ed="#PL" break="no"/>rum
+   erit : nox ista eorum crit quibus in line dicetur, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ile</hi> n ignem aeternum, gui paratus eat diabulo <hi rend="italic">ct
+    ange/is</hi>
+   
+       <lb ed="#PL"/> ejus. Sed nox dicta est, non flamma, non ignis. Andi 
+   <lb ed="#PL"/> quia et nox est. De quodam servo dicit, <hi rend="italic">Ligute</hi> illi ma- 
+   <lb ed="#PL"/>
+       <hi rend="italic">tus et pedes, et projicile</hi> eum ill tenebras <hi rend="italic">exteriores</hi>
+   
+       <lb ed="#PL"/> (Matth. XXII, 13), Operetur ergo homo dum vivit, lie 
+   <lb ed="#PL"/> illa noctc praeveniatur, ubi nemu possit operari. Modo 
+   <lb ed="#PL"/> est ut operetur fides per dilectionem : et si modo
+   
+   <lb ed="#PL"/> operamur, hic est dies, hic est Christus. Audi prolllit- 
+   <lb ed="#PL"/> tentem, et ne arbitreris absentem. Ipse dixit, <hi rend="italic">Ecce</hi>
+   
+       <lb ed="#PL"/> ego vobiscum sum. Quamdiu? Non sit in nobis sollici. 
+   <lb ed="#PL"/> tudo qui vivimus : si fieri posset, de hac etiam voce 
+   <lb ed="#PL"/> posteros qui futuri sunt, securissimos faceremus. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ecce,</hi> inquit, ego vobiscum sum usque in consummatio- 
+   <lb ed="#PL"/> Rem saeculi (Id. XXVIII, 20). Dies iste qui circuitu solia 
+   <lb ed="#PL"/> hujus impletur, paucas horas habet, dies praesentiae 
+   <lb ed="#PL"/> Christi usque in consummationem saeculi extenditur. 
+   <lb ed="#PL"/> Post resurrectionem vero vivorum et morutorum, 
+   <lb ed="#PL"/> cum positis ad dexteram dixerit, Venite, <hi rend="italic">benedicti</hi>
+   
+       <lb ed="#PL"/> Patris mei, percipite regnum, positis aciem ad sini- 
+   <lb ed="#PL"/> sLram dixerit, Ite in
+    <hi rend="italic">ignem</hi> aeternum, gui <hi rend="italic">paratus esc 
+   <lb ed="#PL"/> diabolo
+    et</hi> atlgeli, ejus (Id. xxv, 34, 41) : ibi erit nox 
+   <lb ed="#PL"/> ubi nemo potest operari, sed recipere quod operatus 
+   <lb ed="#PL"/> est. Aliudest tempus operationis, aliud receptionis:
+   
+   <lb ed="#PL"/> cnim Dominus unicuique secundum opera sua 
+   <lb ed="#PL"/> reddet 
+   <lb ed="#PL"/> ( <hi rend="italic">Id.</hi> XVI, i7 ). Cum vivis, fac, si facturus cs : erit 
+   <lb ed="#PL"/> euim tunc nox valida, quae involvat impios. Sed et 
+   <lb ed="#PL"/> modo omnis infidelis, quando moriMur, illa nocte sus-
+   
+   <lb ed="#PL"/> cipttur : non est ut illic aliquid operetur. In illa no<lb ed="#PL" break="no"/>cle
+   dives ardebat, et stillam aquae de digito pauperis 
+   <lb ed="#PL"/> requirebat : dolebat, angebatur, fatebatur, nee ei 
+   <lb ed="#PL"/> subveniebaLur; et conatus est benefacere. Ait cnim 
+   <lb ed="#PL"/> Abrahae : Pater Abraham, mille Lazarum ad fratres 
+   <lb ed="#PL"/> meos, ut <hi rend="italic">dicat</hi> illis quid
+    <hi rend="italic">hic agalur, ne et</hi> ipsi veniant in 
+   <lb ed="#PL"/>
+       <hi rend="italic">hunc</hi> locutis <hi rend="italic">tormentorum (Luc.</hi> xvi, 24-28). 0 infelix! 
+   <lb ed="#PL"/> quando vivebas, tunc erat tempus operandi; modo 
+   <lb ed="#PL"/> jam in nocte es, in qna nemo possit operari.</p>
+      <p xml:id="iuy75t-d1e402-d1e669">7. « Haec cum dixisset, exspuit in terram, et fecit 
+   <lb ed="#PL"/> lutum ex sputo, et linivit lutum super oculus ejus,et
+   <lb ed="#PL"/> dixit ei: Vade, et lava in natatoria Siloe » (quod inter<lb ed="#PL" break="no"/>pretatur
+   Missus). « Abiit ergo, et lavit, et venit vi<lb ed="#PL" break="no"/>dens. » Haec quia manifesta sunt, transeamus.</p>
+      <p xml:id="iuy75t-d1e402-d1e680">8. « Itaque vicini, et qui videbant eum prius quia 
+   <lb ed="#PL"/> mendicus erat, dicebant : Nonne hic est qui sedebat, 
+   <lb ed="#PL"/> et mendicabat? Alii dicebant, Quia hie est : alii, Ne­
+   
+   <lb ed="#PL"/> quaquam, sed similis est ejus. v Aperti oculi vultum 
+   <lb ed="#PL"/> mutaverant. « Ille dicebat, Quia ego sum. » Vox 
+   <lb ed="#PL"/> grata, ne damnarolur ingrata. « Dicebant ergo ei :
+   
+   <lb ed="#PL"/> Quomodo aperti sunt oculi tui ? Respondit : Ille homo 
+   <lb ed="#PL"/> qui dicitur Jesus, lutum fecit, et unxit oculos meos, et 
+   <lb ed="#PL"/> dixit mihi, Vade ad natatoriam Siloe, et lava. Et abii, 
+   <lb ed="#PL"/> et lavi, et vidi. » Ecce annuntiator factus est gratiae ; 
+   <lb ed="#PL"/> ccce evangelizat, confitetur villeRs. Caecus ille confi- 
+   <lb ed="#PL"/> lebalur, et cor impiorum frangebatur1 ; quia non ha<lb ed="#PL" break="no"/>bebant
+   in corde, quod jam ille habebat in facie. Dixe­
+   
+   <lb ed="#PL"/> runt ei : <hi rend="italic">Ubi eat</hi> illequi tibi <hi rend="italic">aper</hi>uit oculos? Ait: <hi rend="italic">Nescio.</hi>
+   
+       <lb ed="#PL"/> In bis verbis animus ipsius adhuc inuncto similis 
+   
+   <pb ed="#PL" n="1717"/>
+       <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> erat, nondum videnti. Sic ponamus, fratres, Praedicat, et
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> illam inunctionem in animo habuerit. tanquam
+   <lb ed="#PL"/> nescit quem praedicat.</p>
+      <p xml:id="iuy75t-d1e402-d1e736">9. « Adducunt cum ad Pharisaeos, qui caecus fuerat.
+   <lb ed="#PL"/> Erat autem sabbatum quando lutum fecit Jesus, et 
+   <lb ed="#PL"/> aperuit oculus ejus. Iterum ergo interrogabant eum
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> Pharisaei quomodo vidisset. Ille autem dixit eis : Lu-
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> tum posuit mihi super oculos, et lavi, et video. Dice-
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> bant ergo ex Pharisaeis quidam. » Non omnes, 
+   <lb ed="#PL"/> quidam : jam enim inungebantur quidam. Quid ergo
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> dicebant, nec videntes, nec inuncti? <hi rend="italic">Non est <hi rend="italic">hic homo</hi>
+        <lb ed="#PL"/> a Deo, qui sabbatum enim custodit.</hi> Ipse potius custo-
+   <lb ed="#PL"/> diebat, qui sine peccato erat. Sabbatum enim spirituale1
+   <lb ed="#PL"/> hoc est, non habere peccatum. Denique, fratres, hoc
+   <lb ed="#PL"/> admonet Deus, quando commendat sabbatum : <hi rend="italic">Omne
+   <lb ed="#PL"/>
+    
+        <lb ed="#PL"/> opus servile non facietis</hi> (<hi rend="italic">Levit.</hi> XXIII, 8). Haec sunt 
+   <lb ed="#PL"/> verba Dei sabbatum commendantis : Omne opus ser-
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> vile non facietis. Jam superiores lectiones interrogate,
+   <lb ed="#PL"/> quid sit opus servile (Tract. 20, n. 2); et Dominum 
+   <lb ed="#PL"/> audite, Omnis <hi rend="italic">qui</hi> facit peccatum, servus est <hi rend="italic">peccati</hi>
+   
+       <lb ed="#PL"/> (Joan. VIII, 34). Sed isti nec videntes, ut dixi, nec in-
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> uncti, sabbatum carnaliter observabant, spiritualiter
+   <lb ed="#PL"/> violabant. Alii <hi rend="italic">dicebant</hi> : Quomodo potest <hi rend="italic">homo pecça-
+   <lb ed="#PL"/>
+    tor</hi> haec signa facere? Ecce sunt inuncti. Et schisma
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/>
+       <hi rend="italic">erat in eis.</hi> Dies ille diviserat inter lucem et tenebras. 
+   <lb ed="#PL"/> Dicunt <hi rend="italic">ergo</hi> caeco iterum : Tu quid <hi rend="italic">dicis de</hi> eo gui <hi rend="italic">ape­</hi>
+   
+       <lb ed="#PL"/> ruit oculos tuos? Quid de illo sentis? quid existimas? 
+   <lb ed="#PL"/> quid judicas? Quaerebant quemadmodum homini ca-
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> lumniarentur, ut de synagoga pelleretur, sed a Christo
+   <lb ed="#PL"/> inveniretur. Sed ille constanter quod sentiebat ex<lb ed="#PL" break="no"/>pressit. Ait enim : Quia <hi rend="italic">proplleta</hi> eat. Adhuc quidem 
+   <lb ed="#PL"/> inunctus in corde, nondum Dei Filium conOLetur, nec 
+   <lb ed="#PL"/> mentitur tamen. Ipse enim Dominus de seipso ait: 
+   <lb ed="#PL"/> Non eat propheta sine hOllors, nisi in <hi rend="italic">patria</hi> aua 
+   <lb ed="#PL"/> (Matth. XIII, 5i).ergo Judaei de illo quia cae-</p>
+      <p xml:id="iuy75t-d1e402-d1e869">10. c Non crediderunt 
+   <lb ed="#PL"/> cus fuisset et vidisset, donec vocarent parentes ejus 
+   <lb ed="#PL"/> qui viderat : » ill est, qui caecus fuerat, et viderat. 
+   <lb ed="#PL"/> « Et intcrrogaverunt eos, dicentes : Hic est filius re- 
+   <lb ed="#PL"/> sLer, quem vos dicitis qnia caecus natus est? quomodo
+   
+   <lb ed="#PL"/> ergo nunc videt? Responderunt eis parentes ejus, et 
+   <lb ed="#PL"/> dixerunt : Scimus quia Inc est filius noster, et quia 
+   <lb ed="#PL"/> caecus natus ast : quomodo autem nunc videat nesci­
+   
+   <lb ed="#PL"/> mus ; aut quis ejus aperuit oculos, nos nescimus. Et 
+   <lb ed="#PL"/> dixerunt : Ipsum interrogate, aetatem habet, ipse de 
+   <lb ed="#PL"/> se loquatur. » Filius quidem noster est, sed juste co- 
+   <lb ed="#PL"/> geremur loqui pro infante, quia ipse pro se loqui non 
+   <lb ed="#PL"/> posset : olim loquitur, modo videt; caecum a nativi<lb ed="#PL" break="no"/>tate
+   novimus, loquentem olim scimus, videntem modo 
+   <lb ed="#PL"/> videmus : ipsum interrogate, ut instruamini ; quid 
+   <lb ed="#PL"/> nobis calumniamini? Haec dixerunt parenlea <hi rend="italic">ejus,</hi> quia 
+   <lb ed="#PL"/> limebant Judaeos. <hi rend="italic">Jam</hi> enim conspiravernt Judaei, ut si 
+   <lb ed="#PL"/> quis eum confiteretur Christum, <hi rend="italic">extra</hi> synagogam <hi rend="italic">fierel.</hi>
+   
+       <lb ed="#PL"/> Jam non erat malum fieri extra synagogam. Illi ex- 
+   <lb ed="#PL"/> pellebant, sed Christus excipiebat. Propterea <hi rend="italic">paren­</hi>
+   
+       <lb ed="#PL"/> tes cjus dixerunt, Quia aetatem habet, ipsum interrogate.</p>
+      <p xml:id="iuy75t-d1e402-d1e931">11. Vocaverunt <hi rend="italic">ergo</hi> rursum hominem qui fuerat <hi rend="italic">cae­</hi>
+   
+       <lb ed="#PL"/> cus, et dixerunt ei : Da gloriam Deo. Quid cst, Da gloriam 
+   
+   <lb ed="#PL"/> Deo? Nega quod accepisti. Hoc, plane non est gloriam
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> Deo dare, sed Deum potius blasphemare Da, inquiunt,
+   <lb ed="#PL"/> gloriam Deo. Nos scimus quia <hi rend="italic">hic homo peccator est.</hi> Dixit 
+   <lb ed="#PL"/> ergo ille : Si <hi rend="italic">peccator est,</hi> nescio ; uram <hi rend="italic">scio,</hi> quia caecus
+   
+   <lb ed="#PL"/> ClUn <hi rend="italic">essenJ,</hi> modo video. Dixerunt erga illi : Quid feci:
+   
+   <lb ed="#PL"/> tibi? quomodo aperuit tibi oculos? Et ille jam stoma 
+   <lb ed="#PL"/> chans adversus duritiam Judaeorum , et ex caeco vi- 
+   <lb ed="#PL"/> deus, non ferens caecos, respondit eis : Dixi jam vobis.
+   
+   <lb ed="#PL"/> et alldislis; quid iterum vultis audire? Numquid et <hi rend="italic">vos
+   <lb ed="#PL"/>
+    valtis</hi> discipuli <hi rend="italic">eju.</hi> fieri? Quid est , Numquid et vos,
+   
+   <lb ed="#PL"/> nisi, quia ego jam sum? Numquid et noa vultis ? Jam ' 
+   <lb ed="#PL"/> video, sed non invideo.</p>
+      <p xml:id="iuy75t-d1e402-d1e989">i 12. <hi rend="italic">Maledixerunt ei, et dixerunt</hi> : Tu discipulus ejus 
+   <lb ed="#PL"/> sis. Tale malcdictum super nos, et super filios no<lb ed="#PL" break="no"/>stros, Maledictum enim est, si cor discutias, non si 
+   <lb ed="#PL"/> verba perpendas. Noa autem Moysi discipuli sumus : 
+   <lb ed="#PL"/> noa scimus quia <hi rend="italic">Moysi</hi> loculu. eat Deul, istum autem ne<lb ed="#PL" break="no"/>scimus
+    <hi rend="italic">unde ait.</hi> Utinam sciretis quia Moysi locutus eat 
+   <lb ed="#PL"/>
+       <hi rend="italic">Deus;</hi> sciretis quia per Moysen praedicatus est Deus. 
+   <lb ed="#PL"/> Habetis enim Dominum dicentem, Si credereti. Moysi, 
+   <lb ed="#PL"/>
+       <hi rend="italic">crederetis</hi> et mihi ; <hi rend="italic">de me</hi> enim <hi rend="italic">ille</hi> scripsit (Joan. v, 46). 
+   <lb ed="#PL"/> hane sequimini servum, et dorsum ponitis contr 
+   <lb ed="#PL"/> Dominum? Sed nec servum sequimini; nam per il<lb ed="#PL" break="no"/>lum
+   ad Dominum duceremini.</p>
+      <p xml:id="iuy75t-d1e402-d1e1038">i 3. Respondit <hi rend="italic">ille</hi> homo, <hi rend="italic">et dixit</hi> eis : In hoc mira­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">bile eat,</hi> quia vos neaciti, unde sit, <hi rend="italic">et</hi> aperuit oculos meos. 
+   <lb ed="#PL"/> Scimus autem quia <hi rend="italic">peccatores Deus</hi> non audit; <hi rend="italic">sed</hi> si 
+   <lb ed="#PL"/> quis <hi rend="italic">Dei</hi> cultor est, et voluntatem ejus facit, <hi rend="italic">hunc</hi> exau. 
+   <lb ed="#PL"/>
+       <hi rend="italic">dit.</hi> Adhuc inunctus loquitur. Nam et peccatores 
+   <lb ed="#PL"/> exaudit Deus. Si enim peccatores Deus non exandi- 
+   <lb ed="#PL"/> ret, frustra ille Publicanus oculos in terram demittens 
+   <lb ed="#PL"/> et pectus suum percutiens diceret, Domine: propitias 
+   <lb ed="#PL"/> esto mihi peccatori. Et ista confessio meruit justifica<lb ed="#PL" break="no"/>tionem, quomodo iste caecus illuminationem. A saeculo 
+   <lb ed="#PL"/> non eat auditum quia aperuit quia <hi rend="italic">oculos</hi> ceci nati. Nisi 
+   <lb ed="#PL"/> esset hic a Deo, non poterat <hi rend="italic">facere</hi> quidquam. Libere, 
+   <lb ed="#PL"/> constanter, veraciter. Haec enim quae facta sunt a Do<lb ed="#PL" break="no"/>mino, a quo fierent nisi a Deo? Aut quando a dixi- 
+   <lb ed="#PL"/> pulis talia fierent, nisi in eis Dominus habitaret?</p>
+      <p xml:id="iuy75t-d1e402-d1e1106">14. Responderunt, et dixerunt ei : In peccatis natus. 
+   <lb ed="#PL"/> es totus. Totus quid est? Cum oculis clausis. Sed qui 
+   <lb ed="#PL"/> aperuit oculos, salvat et totum : ipse dabit ad dexLe.
+   
+   <lb ed="#PL"/> ram resurrectionem, qui in facie dedit illumillatio- 
+   <lb ed="#PL"/> nem 1. In peccatis totus nata es, <hi rend="italic">et</hi> tu doces nos? Et
+   <lb ed="#PL"/> ejecerunt eum foras. Ipsi illum magistrum fecerunt, 
+   <lb ed="#PL"/> ipsi ut discerent toties interrogaverunt, et ingrati do-
+   
+   <lb ed="#PL"/> centem projecerunt.</p>
+      <p xml:id="iuy75t-d1e402-d1e1128">15. Sed quod dixi jam dudum, fratres, pellunt, 
+   <lb ed="#PL"/> excipit Dominus : magis enim quia expulsus est, 
+   <lb ed="#PL"/> christianus factus est. Audivit <hi rend="italic">Jesus</hi> quia
+    <hi rend="italic">ejecerua,</hi> cum 
+   <lb ed="#PL"/> foras, <hi rend="italic">et</hi> cum invenisset eum dixit ei : Tu credis in Fi- 
+   <lb ed="#PL"/> tium <hi rend="italic">Dei</hi> 1 Modo lavat faciem cordis. Respondit ille, <hi rend="italic">et</hi>
+   
+       <lb ed="#PL"/> ait, quasi adhuc inunctus, Quia est, Domine, ut credam 
+   <lb ed="#PL"/> in eum 1 Et dixit <hi rend="italic">ti Jesus</hi> : Et vidisti eum, et gui loqui<lb ed="#PL" break="no"/>tur
+   tecuJJI, ipse eat. Missus eat ille, iste lavans faciem 
+   <lb ed="#PL"/> in Siloe, quod interpretatur Missus. Denique jam facie 
+   <lb ed="#PL"/> lota cordis et mundata conscientia, agnoscens eum non 
+   <lb ed="#PL"/> filium hominis lanlulo, quod ante crediderat, sed jam 
+   
+   <pb ed="#PL" n="1719"/>
+       <lb ed="#PL"/> Filium Dei qui carnem susceperat, ait : Credo , <hi rend="italic">Do­</hi>
+   
+       <lb ed="#PL"/> mine. Parum est, <hi rend="italic">Credo;</hi> vis videre qualem credat? 
+   <lb ed="#PL"/> Procidens adoravit eun.</p>
+      <p xml:id="iuy75t-d1e402-d1e1186">6. Et dixit ei Jesus. Modo dies ille est, inter lucem 
+   <lb ed="#PL"/> et tenebras discernens. In judicium <hi rend="italic">ego in</hi> hunc mun<lb ed="#PL" break="no"/>dum
+   veni, ut qui non vident , videant ; et qui vident, 
+   <lb ed="#PL"/> caeci fiant. Quid est hoe, Domine? Magnam quaestionem 
+   <lb ed="#PL"/> fessis intulisti : sed erige vires nostras, ut possimus 
+   <lb ed="#PL"/> intelligere quod dixisti. Venisti <hi rend="italic">ut qui non vident, vi­</hi>
+   
+       <lb ed="#PL"/> deant : recte, quia lumen es; recte, quia dies es; 
+   <lb ed="#PL"/> recte, quia de tenebris liberas : hoc omnis anima ac<lb ed="#PL" break="no"/>cipit, omnis intelligit. Quid est hoc quod sequitur, Et 
+   <lb ed="#PL"/> qui vident, caeci fiant ? Ergone Quia venisti, caeci fient
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> qui videbant? Audi quid sequitur, et fortassis intel-
+   <lb ed="#PL"/> liges.</p>
+      <p xml:id="iuy75t-d1e402-d1e1221">17. Commoti sunt ergo verbis istis quidam <hi rend="italic">ex</hi> Pha-
+   <lb ed="#PL"/> risaeis , et dixerunt ei : Numquid et noa <hi rend="italic">caeci</hi> sumus ? 
+   <lb ed="#PL"/> Audi jam haberetisquid est quod movebat, Et qui vident, caeci 
+   <lb ed="#PL"/> fiant. Dixit eis Jesus : <hi rend="italic">Si caeci essetis,</hi> non ipsa peccatum. Si caeci 
+   <lb ed="#PL"/> peccatum. Cum sit caecitas 
+   <lb ed="#PL"/> essetis, id est, si vos caecos adverteretis, si vos caecos 
+   <lb ed="#PL"/> diceretis, e1 ad medicum curreretis ; Ii ergo ita caeci 
+   <lb ed="#PL"/> essetis, nan <hi rend="italic">haberetis</hi> peccatum : quia veni ego auferre ' 
+   <lb ed="#PL"/> peccatum. Nanc "ro dicitis, Quia videmus : peccatum , 
+   <lb ed="#PL"/> vestrum manet. Quare? Quia dicendo, Videmus, me- 
+   <lb ed="#PL"/> dicam DOli quaeritis, in caecitate vestra remanetis. Hoc 
+   <lb ed="#PL"/> est ergo quod paulo ante non intellexeramus quod ait, 
+   <lb ed="#PL"/> Ego veni, III qui nou rident, videant : quid est, ut gui 
+   <lb ed="#PL"/> non lident, videant ? Qui se non videre oonfitentur, et 
+   <lb ed="#PL"/> medicum quaerunt, ut videant. Et qui uident, caeci fiant : 
+   <lb ed="#PL"/> quid est, qui vident, caeci fiant 1 Qui se putant videte, 
+   <lb ed="#PL"/> et medicum non quaerunt, in sua caecitate perma- 
+   <lb ed="#PL"/> neaot. Ergo istam discretionem vocavit judicium, cum 
+   <lb ed="#PL"/> ait , In judicium veni in hunc mundum , quo discernit 
+   <lb ed="#PL"/> eausam credentium et confitentium a superbis, ae vi­
+   
+   <lb ed="#PL"/> dere putantibus, et ideo gravius excaecatis ; tabquam 
+   <lb ed="#PL"/> dixerit ei peccator confitens et medicum quaerens, 
+   <lb ed="#PL"/> Judica me, Deus, et <hi rend="italic">discerne</hi> causam <hi rend="italic">meam de gente</hi> non 
+   <lb ed="#PL"/> sancta (Psal. XLII, i) : illorum scilicet qui dicent, 
+   <lb ed="#PL"/> Videmus, et eorum peccatum manet. Non autem illud 
+   <lb ed="#PL"/> judicium jam intulit mundo, quo de vivis et mortuis
+   <lb ed="#PL"/> in fine saeculi judicabit. Secundum hoc enim dixerat, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ego</hi> non <hi rend="italic">judico</hi> quemquam (Joan. VIII, 15) : quomiam 
+   <lb ed="#PL"/> prins venit, nen utjudicet mundum, sed ut salvetur mun<lb ed="#PL" break="no"/>dus
+   pet ipsum (Id. III, i7).</p>
+    </div>
+   </body>
+  </text>
+</TEI>

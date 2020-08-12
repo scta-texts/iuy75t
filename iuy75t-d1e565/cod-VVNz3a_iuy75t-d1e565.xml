@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 64</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 64</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e565"> <!-- iuy75t-t64 -->
+      <head xml:id="iuy75t-d1e565-Hd1e109">Tractatus 64</head>
+      <p xml:id="iuy75t-d1e565-d1e112">
+       <hi rend="italic">In id quod Dominus dicit,</hi> Filioli, adhuc modicum 
+   <lb ed="#PL"/> vobiscum sum : quaeretis me, et sicut dixi Judaeis, 
+   
+   <lb ed="#PL"/> quo ego vado, vos non potestis venire; et vobis dico 
+   <lb ed="#PL"/> modo. <hi rend="italic">Cap.</hi> XIII, f 35.</p>
+      <p xml:id="iuy75t-d1e565-d1e127">1. Advertenda est, charissimi, dominicorum vcf<lb ed="#PL" break="no"/>borum
+   ordinata connexio. Cum cin superius dixis<lb ed="#PL" break="no"/>set, posteaquam Judas egressus est, ei ab illa san<lb ed="#PL" break="no"/>ctorum
+   etiam corporali conversatione sejunetus est, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Nunc clarificatus est Filius hominis, et Deus clarifica­
+   <lb ed="#PL"/> tus est
+    in eo :</hi> quod sive futurum regnum significans 
+   <lb ed="#PL"/> dixit, quando mali separabuntur a bonis, sive quod 
+   <lb ed="#PL"/> ejus resurrectio tunc futura esset, id est, differenda 
+   <lb ed="#PL"/> non esset, sicut in sinem sacculi nostra differtur : ac 
+   <lb ed="#PL"/> deinde addidisset, <hi rend="italic">Si Deus clarificatus eat</hi> in <hi rend="italic">eo, et
+    
+   <lb ed="#PL"/> Deus clarificabit eum in semetipso, et continuo clarifi-</hi>
+   
+       <lb ed="#PL"/> cabi, <hi rend="italic">eum,</hi> quod sine ulla ambiguitate de sua resur. 
+   <lb ed="#PL"/> rectione continuo futura testatus est : adjecit, atque 
+   <lb ed="#PL"/> ait, <hi rend="italic">Filioli, adhuc modicum vobiscum sum.</hi> Ne puta. 
+   <lb ed="#PL"/> rent ergo qaod sic cum clarificaturus esset Deus, ut 
+   <lb ed="#PL"/> non cis conjungeretur ulterius ca conversatione qua
+   
+   <lb ed="#PL"/> in terra cst; <hi rend="italic">Adhuc modicum,</hi> inquit, vobiscum sum <hi rend="italic">:</hi>
+   
+       <lb ed="#PL"/> tanquam diceret, Continuo quidcm resurrectione cla<lb ed="#PL" break="no"/>rificabor; non tamen continuo ascensurus in coelum, 
+   <lb ed="#PL"/>
+       <hi rend="italic">sed adhuc modicum vobiscum sum.</hi> Sicut enim scriptum 
+   <lb ed="#PL"/> est in Actibus Apostolorum, fecit cum eis post resur. 
+   <lb ed="#PL"/> rectionem quadraginta dies intrans et exiens, man<lb ed="#PL" break="no"/>ducans
+   et bibens (Act. I, 3) : non quidcm habens 
+   <lb ed="#PL"/> esuriendi ac siticndi egestatem, sed usque ad isti 
+   <lb ed="#PL"/> carnis insinuans vcritatem, quae cibandi ac potandi 
+   <lb ed="#PL"/> jam non habebat nccessitatem, sed potestatem. Hos 
+   <lb ed="#PL"/> ergo quadraginta dies significavit dicendo, <hi rend="italic">Adhuc
+   <lb ed="#PL"/> modicum vobiscum
+    sum,</hi> an aliquid aliud ? Potest enim 
+   <lb ed="#PL"/> et sic intelligi, <hi rend="italic">Adhuc modicum vobiscum</hi> sum, Adhuc, 
+   <lb ed="#PL"/> sicut vos, in hac infirmitate carRis etiam ipse sum, 
+   <lb ed="#PL"/> donec scilicet moreretur atque resurgeret : quia post<lb ed="#PL" break="no"/>eaquam
+   resurrexit, cum illis quidem fuit dicbus, 
+   <lb ed="#PL"/> ut dictum est, quadraginta cxhibitione corporalis 
+   <lb ed="#PL"/> prarsentiae ; sed non cum illis fuit consortio infirmi­
+   
+   <lb ed="#PL"/> tatis humanae.</p>
+      <p xml:id="iuy75t-d1e565-d1e234">2. Est et alia divina praesentia sensibus ignota 
+   <lb ed="#PL"/> mortalibus, de qua item dicit :
+    <hi rend="italic">Ecce ego vobiscum 
+   <lb ed="#PL"/> sum usque ad consummationem saeculi
+    (Matth.</hi> XXVIII, 
+   <lb ed="#PL"/> 20). Hoc certe non est, <hi rend="italic">Adhuc modicum
+    vobiscum</hi>
+   
+       <lb ed="#PL"/> sum : non enim modicum est usque ad consumma<lb ed="#PL" break="no"/>tionem
+   saeculi. Aut si et hoc modicum est (volat enim 
+   <lb ed="#PL"/> aetas, et in oculis Dei mille anni sicut dies unus, ant
+   
+   <lb ed="#PL"/> sicut vigilia in nocte <hi rend="italic">[Psal.</hi> LXXXIX, 4], non tarnen hoc
+   
+   <lb ed="#PL"/> significare voluisse credendus est nunc, quandoqui<lb ed="#PL" break="no"/>dem
+   scculus adjunxit, Quaeretis <hi rend="italic">met et sicut dixi Ju<lb ed="#PL" break="no"/>daeis, quo ego vado,</hi> vos <hi rend="italic">non potestis venire.</hi> Utique 
+   <lb ed="#PL"/> post hoc modiculn quo vobiscum sum, Quaeretis <hi rend="italic">me ,
+   <lb ed="#PL"/> et quo ego vado, vos</hi> non <hi rend="italic">potestis venire.</hi> Numquid post 
+   <lb ed="#PL"/> consummationem saeculi, quo ipse vadit, vcuire non 
+   <lb ed="#PL"/> poterunt? Et ubi est quod aliquanto post in hoe ipso 
+   <lb ed="#PL"/> sermone dicturus est: <hi rend="italic">Pater, volo</hi> ut <hi rend="italic">ubi ego
+    sum, et
+   <lb ed="#PL"/> ipsi sint mecum (Joan.</hi> XVII, 24) ? Non ergo de illa 
+   <lb ed="#PL"/> sua cum suis praesentia, qua cum illis est usque 
+   <lb ed="#PL"/> ad consummationem saeculi, nunc locutus est, uhi 
+   <lb ed="#PL"/> ait, <hi rend="italic">Adhuc modicum vobiscum sum :</hi> sed vel de 
+   <lb ed="#PL"/> infirmitate mortali, qua cuin illis erat usque ad pas. 
+   <lb ed="#PL"/> sionem suam; ant de praesentia corporali, qua 
+   <pb ed="#PL" n="1807"/>
+       <lb ed="#PL"/> rum illis futurus erat usque ad ascensionem suam. 
+   <lb ed="#PL"/> Quodlibet horum quis eligat, cum fitlc non litigat.</p>
+      <p xml:id="iuy75t-d1e565-d1e321">5. Ne cui aulcm videatur abhorrere iste sensus a 
+   <lb ed="#PL"/> 'cro, quo dicimus Dominum mortalis carnis commu<lb ed="#PL" break="no"/>nionem, in qua cum discipulis usque ad passionem 
+   <lb ed="#PL"/> fuit, significare potuisse dicendo, <hi rend="italic">Adhuc modicum</hi> vo­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">biscum sum;</hi> apud alium quoque evangelistam post 
+   <lb ed="#PL"/> resurrectionem verba cjus attendat, ubi ait, <hi rend="italic">Hoec</hi> lo<lb ed="#PL" break="no"/>cutus
+    <hi rend="italic">sum vobis, cum</hi> adhuc <hi rend="italic">essem vobiscum
+    (Luc.</hi> xxiv, 
+   <lb ed="#PL"/> 44): quasi tunc non erat cum ipsis simul assistenti<lb ed="#PL" break="no"/>bus, videntibus, tangentibus, colloqucnlibus. Quid 
+   <lb ed="#PL"/> csi ergo, <hi rend="italic">cum
+    adhuc essem vobiscum,</hi> nisi, cum adhuc 
+   <lb ed="#PL"/> essem in carne mortali, in qua estis et vos? Tunc 
+   <lb ed="#PL"/> cnim quidem in cadem carne resuscitatas erat; sed 
+   <lb ed="#PL"/> cum illis in cadem mortalitate jam non erat. Qua<lb ed="#PL" break="no"/>propter
+   sicut ibi jam immortalitate carnis indutusve<lb ed="#PL" break="no"/>raciter
+   ait, <hi rend="italic">cum adhuc essem vobiscum;</hi> ubi nihil aliud 
+   <lb ed="#PL"/> iutelligere possumus, nisi, cum adhuc essem in carnis 
+   <lb ed="#PL"/> mortalitate vobiscum : ita et hic non absurde dixisse 
+   <lb ed="#PL"/> intelligitur, <hi rend="italic">Adhuc
+    modicum vobiscum sum,</hi> tanquam 
+   <lb ed="#PL"/> diceret, adhuc modicum sicut vos estis, mortalis sum 
+   <lb ed="#PL"/> ego. Ergo scquentia videamus.</p>
+      <p xml:id="iuy75t-d1e565-d1e390">4. <hi rend="italic">Quoeretis</hi> me, <hi rend="italic">et sicut dixi Judoeis, quo ego
+    vado, 
+   <lb ed="#PL"/> vos non potestis venire, et vobis dico modo.</hi> Hoc est, 
+   <lb ed="#PL"/> modo non potestis Judaeis autem cum hoc diceret, 
+   <lb ed="#PL"/> nox addidit <hi rend="italic">modo.</hi> Isti itaque veniro non polcrant tunc 
+   <lb ed="#PL"/> quo ille ibat, sed poterant postea : nam hoc apostolo 
+   <lb ed="#PL"/> Petro apertissime paulo post ait. Cum enim dixisset 
+   <lb ed="#PL"/> illc, <hi rend="italic">Domine, quo vadis?</hi> respondit ei, <hi rend="italic">Quo ego vado,
+    
+   <lb ed="#PL"/> non potes me modo sequi; sequeris autem postea(Joan.</hi>
+   
+       <lb ed="#PL"/> XIII, 36). Sed hoc quid sit, non negligenter est prae<lb ed="#PL" break="no"/>tereundum. Quo enim sequi tunc non poterant disci<lb ed="#PL" break="no"/>puli
+   Dominum, sed postea poterant? Si dixerimus ad
+   
+   <lb ed="#PL"/> mortem : homini nato quod invenitur tempus, quo 
+   <lb ed="#PL"/> ad moriendum non sit idoneus; quandoquidem talis 
+   <lb ed="#PL"/> est in corpore corruptibili hominum sors, ut non sit
+   
+   <lb ed="#PL"/> in ea facilior vita quam mors ? Non igitur adhuc mi<lb ed="#PL" break="no"/>nus
+   idonei erant sequi Dominum ad mortem, sed 
+   <lb ed="#PL"/> minus idonei erant sequi Dominum ad vitam quae non 
+   <lb ed="#PL"/> liabct mortem. Illo quippe ibat Dominus, ut surgens 
+   <lb ed="#PL"/> a mortuis jam non moreretur, et mors ei ultra non 
+   <lb ed="#PL"/> dominaretur (Rom. vit 9). Moriturum quippe Domi<lb ed="#PL" break="no"/>num
+   pro justitia quomodo jam fucrant secuturi, 
+   <lb ed="#PL"/> adhuc martyrio non maturi? Aut iturum Dominum 
+   <lb ed="#PL"/> ad immortalitatem carnis, quomodo jam fuerant se<lb ed="#PL" break="no"/>cUturi, quandolibet morituri, sed in saeculi fine resur<lb ed="#PL" break="no"/>tecturi? Autiturum Dominum adsinum Patris, nec re<lb ed="#PL" break="no"/>licturum
+   eos, uude nec recessit cum vcnisset ad eos, 
+   <lb ed="#PL"/> quomodo jam fuerant secuturi; cum esse nemo pos<lb ed="#PL" break="no"/>sit
+   in illa felicitate nisi perfectus in charitate? Ideoque 
+   <lb ed="#PL"/> docens quomodo idonci esse possint pergere quo ille 
+   <lb ed="#PL"/> antecedebat, <hi rend="italic">Mandatum,</hi> inquit, <hi rend="italic">novum do</hi> vobis, <hi rend="italic">ut 
+   <lb ed="#PL"/> diligatis invicem (Joan.</hi> XIII, 54). IIi suut gressus qui<lb ed="#PL" break="no"/>bus
+   sequendus est Christus : sed de his sermo uberior 
+   <lb ed="#PL"/> in aliud tempus est differendus.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 87</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 87</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e753"> <!-- iuy75t-t87 -->
+      <head xml:id="iuy75t-d1e753-Hd1e109">Tractatus 87</head>
+      <p xml:id="iuy75t-d1e753-d1e112">
+       <hi rend="italic">De eo quod dicit Jesus,</hi> Haec mando vobis, ut diligatis 
+   <lb ed="#PL"/> invicem; <hi rend="italic">usque ad id ,</hi> Sed ego elcgi vos de mundo; 
+   <lb ed="#PL"/> propterea odit vos mundus. <hi rend="italic">Cap.</hi> xv, f 17-19.</p>
+      <p xml:id="iuy75t-d1e753-d1e128">1. In lectione evangelica quae hanc antecedit, dixcrat 
+   <lb ed="#PL"/> Dominus : <hi rend="italic">Non vos me elegistis ; sed ego elegi vos, et posut 
+   <lb ed="#PL"/> vos, ut eatis et fructum
+    afferatis, et fructus vester maneat:</hi>
+   
+       <lb ed="#PL"/> ut <hi rend="italic">quodcumque petieritis Patrem in nomine meo,</hi> det DO­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">bis.</hi> De quibus verbis jam nos quod Dominus dedit, 
+   <lb ed="#PL"/> disseruisse meministis. Hic autem dicit, sequenti 
+   <lb ed="#PL"/> scilicet lectione, quam modo cum recitaretur, audi<lb ed="#PL" break="no"/>stis : <hi rend="italic">Haec mando vobis, ut diligatis
+    invicem.</hi> Ac per 
+   <lb ed="#PL"/> hoc intelligere debemus hunc esse fructum nostrum 
+   <lb ed="#PL"/> de quo ait, <hi rend="italic">Ego vos elegi ut eatis, et fructum afferatis,
+   <lb ed="#PL"/> et fructus
+    vester maneat.</hi> Et quod adjunxit, <hi rend="italic">Ut quodcum<lb ed="#PL" break="no"/>que
+    petieritis Patrem in nomine meo, det vobis</hi> : tunc 
+   <lb ed="#PL"/> uiique dabit nobis, si diligamus invicem; cum et hoc 
+   <lb ed="#PL"/> ipsum ipse dederit nobis, qui nos elegit non habentes 
+   <lb ed="#PL"/> fructum, quia non eum nos elegeramus; et posuit nos 
+   <lb ed="#PL"/> ut fructum alTeramus, boc est, invicem diligamus : 
+   <lb ed="#PL"/> quem fi uctuni siue illo habere non possumus , sicut 
+   <lb ed="#PL"/> palmites facere siue vite nihil possunt. Charitas ccgo 
+   <lb ed="#PL"/> est fructus noster, quam definit Apostolus, <hi rend="italic">de corde 
+   <lb ed="#PL"/> puro et
+    conscientia bona, et fide non ficta</hi> (l <hi rend="italic">Tim.</hi> i, 5). 
+   <lb ed="#PL"/> Hac diligiinus invicem, hac diligimus Deum. Neque 
+   <lb ed="#PL"/> enim vera dilectione diligeremus invicem, nisi dili<lb ed="#PL" break="no"/>gentes
+   Deum. Diligit enim unusquisque proximum 
+   <lb ed="#PL"/> tanquam seipsum, si diligit Deum : nam si non diligit 
+   <lb ed="#PL"/> Deum, uon diligit seipsum. In his enim duobus prae-- 
+   <lb ed="#PL"/> ceptis charitatis tota Lex pendet et Prophetae <hi rend="italic">(Matth.</hi>
+   
+       <lb ed="#PL"/> XXII, 40): hic est fructus noster. De fructu itaque 
+   <lb ed="#PL"/> nobis mandans, <hi rend="italic">Haec mando,</hi> inquit, <hi rend="italic">vobis, ut diligatis 
+   <lb ed="#PL"/>
+    invicem.</hi> Undeetapostolus Paulus, cum contra opera 
+   <lb ed="#PL"/> carnis commendare fructum spiritus vellet, a capite 
+   <lb ed="#PL"/> hoc posuit, <hi rend="italic">Fructus,</hi> inquit, spiritus charitas <hi rend="italic">est :</hi> ac 
+   <lb ed="#PL"/> deinde caetera tanquam ex isto capite exorta et rcli<lb ed="#PL" break="no"/>gata
+   contexuit, quae sunt, <hi rend="italic">gaudium,
+    pax, longanimitas, 
+   <lb ed="#PL"/> benignitas, bonitas, fides, mansuetudo, continentia
+    (Galat.</hi>
+   
+       <lb ed="#PL"/> v, 22). Quis autem bene gaudet, qui bonum non diligit 
+   <lb ed="#PL"/> unde gaudct? Quis pacem veram, nisi cum illo potest 
+   <pb ed="#PL" n="1853"/>
+       <lb ed="#PL"/> habere quem veraciter diligit? Quis est longanimis in 
+   <lb ed="#PL"/> bono perseveranter manendo *, nisi ferveat diligen<lb ed="#PL" break="no"/>do? Quis est benignus, nisi diligat cui opitulatur? Quis 
+   <lb ed="#PL"/> honus, nisi diligendo efficiatur? Quis salubriter fide<lb ed="#PL" break="no"/>lis,
+   nisi ea fide quae per dilectionem opcratur? Quis 
+   <lb ed="#PL"/> militer mansuetus, cui non dilectio moderetur? Quis 
+   <lb ed="#PL"/> ab eo continet ande turpatnr, nisi diligat unde ho<lb ed="#PL" break="no"/>nestatur
+   ? Merito itaque magister bonus dilectionem 
+   <lb ed="#PL"/> sic saepe commendat, tanquam sola praecipienda sit, 
+   <lb ed="#PL"/> sine qua non possunt prodesse caetera borna, et quae 
+   <lb ed="#PL"/> non potest haberi sinc caeteris bonis, quibus homo 
+   <lb ed="#PL"/> effecitur bonus.</p>
+      <p xml:id="iuy75t-d1e753-d1e278">2. Pro hac autem dilectione patienler debemus 
+   <lb ed="#PL"/> etiam mundi odia sustinere. Necesse est enim ut nos 
+   <lb ed="#PL"/> oderit, quos cernit nolle quod diligit. Sud plurimum 
+   <lb ed="#PL"/> nos de scipso Dominus consolatur, qui cum diXisset, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Haec mando vobis, ut diligatis invicem</hi> ; adjecit, atque 
+   <lb ed="#PL"/> nit,
+    <hi rend="italic">Si mundus</hi> vos <hi rend="italic">odit, scitote quoniam me</hi> priorem 
+   <lb ed="#PL"/>
+       <hi rend="italic">vobis odio habuit.</hi> Cur ergo se membrum supra verti<lb ed="#PL" break="no"/>Cem
+   extollit ? Rccusas esse in corpore si non vis 
+   <lb ed="#PL"/> odium mundi sustinere cum capite.
+    <hi rend="italic">Si de mundo,</hi> in<lb ed="#PL" break="no"/>qnit, <hi rend="italic">essetis, mundus
+    quod</hi> suum <hi rend="italic">erat diligeret.</hi> Universae 
+   <lb ed="#PL"/> utique hoc dicit Ecclesiae, quam plerumque etiam 
+   <lb ed="#PL"/> ipsam mundi nomine appellat : sicut est illud ,
+    <hi rend="italic">Deus 
+   <lb ed="#PL"/> erat</hi> in <hi rend="italic">Christo,</hi> mundum <hi rend="italic">reconcilians sibi</hi> (II <hi rend="italic">Cor.</hi> v, 19). 
+   <lb ed="#PL"/> Itemque illud: <hi rend="italic">Non venit</hi> Filius hominis <hi rend="italic">ut
+    judicet</hi> mun­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">dum, sed ut salvetur mundus per ipsum (Joan.</hi> III, 1G). 
+   <lb ed="#PL"/> Et in Epistola sua Joannes ait: <hi rend="italic">Advocatum habemus
+   <lb ed="#PL"/> ad</hi> PatreM, Jesum Christum <hi rend="italic">justum, et</hi> ipse <hi rend="italic">propitiator</hi>
+   
+       <lb ed="#PL"/> est <hi rend="italic">peccatorum nostrorum; non tantum nostrorum, sed 
+   <lb ed="#PL"/> etiam
+    totius</hi> mundi (I <hi rend="italic">Joan.</hi> II, 1 <hi rend="italic">et 2).</hi> Totus ergo mun<lb ed="#PL" break="no"/>dus
+   Ecclesia est, et lotus mundus odit Ecclesiam. Mun<lb ed="#PL" break="no"/>dns
+   igitur odit mundum, inimicus reconciliatum, da<lb ed="#PL" break="no"/>mnatus
+   salvatum, inquinatus mundatum.</p>
+      <p xml:id="iuy75t-d1e753-d1e390">3. Sed iste mundus quem Deus in Christo recon<lb ed="#PL" break="no"/>ciliat
+   sibi, et qui per Christum salvatur, et cui per 
+   <lb ed="#PL"/> Christum peccatum omne donatur, de mundo electus 
+   <lb ed="#PL"/> est inimico, damnato, contaminato. Ex ea quippe 
+   <lb ed="#PL"/> massa quae tota in Adam periit, fiunt vasa miseri<lb ed="#PL" break="no"/>cordiae, in quibus est mundus pertinens ad reconcilia<lb ed="#PL" break="no"/>tionem: quem mundus odit, ex eadem massa pertinens 
+   <lb ed="#PL"/> ad vasa ir.c, quae perfecta sunt ad perditionem <hi rend="italic">(Rom.</hi>
+   
+       <lb ed="#PL"/> IX , 21-23). Denique cum dixisset, <hi rend="italic">Si de mundo esse­
+   <lb ed="#PL"/>
+    tis,</hi> mundus <hi rend="italic">quod suum erat diligeret;</hi> continuo subje­
+   
+   <lb ed="#PL"/> cit, <hi rend="italic">Quia vero de mundo non estis, sed ego elegi vos de 
+   <lb ed="#PL"/>
+    mundo, propterea odit vos mundus.</hi> Ergo et ipsi inde 
+   <lb ed="#PL"/> erant, unde ut non essent, electi sunt inde, non nieri<lb ed="#PL" break="no"/>tis
+   suis, quorum nulla bona praecesserant opera ; non 
+   <lb ed="#PL"/> natura, quae tota fuerat per liberum arbitrium in ipsa 
+   <lb ed="#PL"/> radice vitiata : sed gratuita, hoc est vera gratia. Qui 
+   <lb ed="#PL"/> enim de mundo mundum elegit, fecit quod eligcret, 
+   <lb ed="#PL"/> non invenit: quia <hi rend="italic">reliquiae</hi> per <hi rend="italic">electionem gratiae saU</hi>
+   
+       <lb ed="#PL"/> vae <hi rend="italic">factae</hi> sunt. Si autem <hi rend="italic">gratia,</hi> inquit, <hi rend="italic">jam non ex
+   <lb ed="#PL"/> operibus; alioquin gracia jam</hi> non <hi rend="italic">eat gratia (Rom.</hi>
+   
+       <lb ed="#PL"/> xi, 5 et 6).</p>
+      <p xml:id="iuy75t-d1e753-d1e467">4. Si autem quaeratur quomodo se diligat mundus 
+   <lb ed="#PL"/> perditionis, qui odit mundum redemptionis; drligil se 
+   <lb ed="#PL"/> utique falsa dilectione, nun vera. Proinde falso se di­
+    
+   
+   <lb ed="#PL"/> ligit, et vere odit. Qui enim diligit iniquitatem, odit 
+   <lb ed="#PL"/> animam suam <hi rend="italic">(Psal.</hi> x , 6). Sed diligere se dicitur, 
+   <lb ed="#PL"/> quoniam iniquitatem qua iniquus est diligit: et rursus 
+   <lb ed="#PL"/> odisse se dicitur, quoniam quod ei nocet, hoc diligit. 
+   <lb ed="#PL"/> Odit ergo in se naturam, diligit vitium : odit quod 
+   <lb ed="#PL"/> factus est per Dei bonitatem, diligit quod in eo factum 
+   <lb ed="#PL"/> est per liberam voluntatem. Uude nos quoque illum 
+   <lb ed="#PL"/> diligcre et prohibemur, si recte intelligimus, et ju<lb ed="#PL" break="no"/>bemur : prohibemur scilicct, ubi nobis dicitur, <hi rend="italic">Nolite
+   <lb ed="#PL"/> diligere
+    mundum</hi> (1 <hi rend="italic">Joan.</hi> II, 15); jubemur autem, ubi 
+   <lb ed="#PL"/> nobis dicitur, <hi rend="italic">Diligite inimicos vestros (Luc.</hi> vi, 27). 
+   <lb ed="#PL"/> Ipsi sunt mundius qui nos odit. Ergoetprohibemur 
+   <lb ed="#PL"/> diligere in illo quod ipse diligit in scipso; et jubemur 
+   <lb ed="#PL"/> diligere in illo quod ipse odit in seipso, Dei scilicct 
+   <lb ed="#PL"/> opificium, et diversas bonitalis suae consolationes. 
+   <lb ed="#PL"/> Vitium quippe in illo diligere prohibemur, jubemur<lb ed="#PL" break="no"/>que
+   diligere naturam , cum ipse in se diligat vitium, 
+   <lb ed="#PL"/> oderitque naturam : ut nos eum et diligamus et ode<lb ed="#PL" break="no"/>rimus
+   recte, cum se ipse diligat oderitque perverse-</p>
+    </div>
+   </body>
+  </text>
+</TEI>

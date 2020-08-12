@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 92</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 92</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e794"> <!-- iuy75t-t92 -->
+      <head xml:id="iuy75t-d1e794-Hd1e109">Tractatus 92</head>
+      <p xml:id="iuy75t-d1e794-d1e112">
+       <hi rend="italic">In haec verba,</hi> Cum autem venerit Paracletus quem ego 
+   <lb ed="#PL"/> mittam vobis a Patre, Spiritum veritatis, <hi rend="italic">etc. Cap.</hi> XV, 
+   <lb ed="#PL"/> f ℣. 26, 27.</p>
+      <p xml:id="iuy75t-d1e794-d1e125">i. Dominus Jesus in sermone quem locutus est di<lb ed="#PL" break="no"/>scipulis
+   suis post coenam, proximus passioni, tan<lb ed="#PL" break="no"/>quam
+   iturus et relicturus eos praesentia corporali, 
+   <lb ed="#PL"/> cum omnibus aulcm suis usque in consummationem 
+   <lb ed="#PL"/> saeculi futurus praesentia spirituali, exhortatus est eos 
+   <lb ed="#PL"/> ad perferendas persecutiones impiorum, quos mundi
+   
+   <lb ed="#PL"/> nomine nuncupavit : ex quo tamen mundo etiam 
+   <lb ed="#PL"/> ipsos discipulos se elegisse dixit, ut scirent se Dci 
+   <lb ed="#PL"/> gratia esse quod sunt, suis autem viliis fuisse quod
+   
+   <lb ed="#PL"/> fuerunt. Dcindc persecutores et suos et ipsorum Ju<lb ed="#PL" break="no"/>danos
+   evidenter expressit, ut omnino appareret etiam 
+   <lb ed="#PL"/> ipsos mundi damnabilis appellatione conclusos, qui 
+   <lb ed="#PL"/> persequitur sanctos 1. Cumque de illis diceret quod 
+   <lb ed="#PL"/> ignorarent eum a quo missus est, et tamen odissent 
+   
+   <pb ed="#PL" n="1863"/>
+       <lb ed="#PL"/> ci Filium et Patrem, hoc Cit, cl cum qui missus est, 
+   <lb ed="#PL"/> et eum a quomissus cst, de quibus omnibus in aliis 
+   <lb ed="#PL"/> sermonibus jam disseruimus; ad hoc pervenit ubi ait, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ut adimpleatur sermo qui in Lege eorum</hi> scriptus <hi rend="italic">est,
+   <lb ed="#PL"/> Quia odio habuerunt me gratis.</hi> Deinde tanquam con<lb ed="#PL" break="no"/>sequenter
+   adjunxit, undc mudo disputare suscepi<lb ed="#PL" break="no"/>mus : &lt; Cum autcm venerit Paracletus quem ego mit<lb ed="#PL" break="no"/>tam
+   vobis a Patrc, Spiritum vcritatis qui a Patre pro<lb ed="#PL" break="no"/>cedit, ille testimonium perhibebit de me;etvos testi<lb ed="#PL" break="no"/>monium
+   perhibebitis, quia ab initio mecum estis. 
+   <lb ed="#PL"/> Quid hoc pertinet ad illud quod dixcrat, &lt; Nunc au<lb ed="#PL" break="no"/>tem
+   'et viderunt, et oderunt et me et Patrem meum : 
+   <lb ed="#PL"/> sed ut impleatur sermo qui in Lege eorum scriptus 
+   <lb ed="#PL"/> est, Quia odio habuerunt me gratis? » An qum Para<lb ed="#PL" break="no"/>cletus
+   quando venit, Spiritus veritalis, eos qui vide<lb ed="#PL" break="no"/>runtetoderunt, testimonio manifestiore convicit f Imo 
+   <lb ed="#PL"/> vero etiam aliquos ex illis qui viderunt, et adhuc od­
+   
+   <lb ed="#PL"/> crant, ad fidem quae <hi rend="italic">per dilectionem operatur (Galat.</hi> v,
+   
+   <lb ed="#PL"/> 6),sui manifestatione convertit. Hoc ut ita intelligamus, 
+   <lb ed="#PL"/> ita factum esse recolimus. Venit enim die Pentecostes 
+   <lb ed="#PL"/> Spiritus sanctus in centum viginti homines congrega<lb ed="#PL" break="no"/>tos, in quibusetApostoli omnes erant, qui illo adim<lb ed="#PL" break="no"/>pleti
+   cum linguis omnium gentium loquerentur, pla.. 
+   <lb ed="#PL"/> res ex his qui oderant 1, tanto miraculo stupefacti 
+   <lb ed="#PL"/> (quandoquidem viderunt loquente Petro tam magnum 
+   <lb ed="#PL"/> atque divinum testimonium perhiberi de Christo, ut 
+   <lb ed="#PL"/> ille qui occisus ab eis inter mortuos deputabatur, re<lb ed="#PL" break="no"/>surrexisse
+   etviverc probaretur), compuncti corde 
+   <lb ed="#PL"/> conversi sunt; et tanti sanguinis tam impie atque im<lb ed="#PL" break="no"/>maniter
+   fusi indulgentiam perceperunt, ipso redem<lb ed="#PL" break="no"/>pii
+   sanguine qucm fudcrunL <hi rend="italic">(Act.</hi> II, 2). Christi enim 
+   <lb ed="#PL"/> sanguis sic in remissionem peccatorum omnium fu<lb ed="#PL" break="no"/>sus
+   est, ut ipsum etiam peccatum posset delere quo 
+   <lb ed="#PL"/> fusus cst. Hoc ergo intuens Dominus dicebat, <hi rend="italic">Odio 
+   <lb ed="#PL"/> habuerunt me gratis : cum autem venerit
+    Paracletus,
+   <lb ed="#PL"/> ille testimonium perhibebit de</hi> me: tanquam diceret, 
+   <lb ed="#PL"/> Odio IDe habuerunt, et occiderunt vidcutcs; sed tale 
+   <lb ed="#PL"/> de me Paracletus testimonium perhibebit, uteos fa<lb ed="#PL" break="no"/>ciat
+   in me credere non videntes.</p>
+      <p xml:id="iuy75t-d1e794-d1e258">2. <hi rend="italic">Et vos,</hi> inquit, <hi rend="italic">testimonium
+     <unclear>perhibebi</unclear> a ab 
+   <lb ed="#PL"/> initio mecum estis.</hi> Perhibebit Spiritus sanctus, perhi<lb ed="#PL" break="no"/>bebitis
+   etvos. Quia eni:n ab initio mecum estis, po<lb ed="#PL" break="no"/>testis
+   praedicare quod nostis : quod ut modo non fa<lb ed="#PL" break="no"/>ciatis, illius Spiritus plenitudo nondum adest vobis. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ille ergo testimonium perhibebit de me, et vos</hi> perhibebi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tis</hi> : dabit cnim vob.s fiduciam testimonium perhi<lb ed="#PL" break="no"/>bendi
+   charitas Dci diffusa in cordibus vestris per Spi<lb ed="#PL" break="no"/>ritum
+   sanctum qui dabitur vobis
+   ( <hi rend="italic">Rom.</hi> v, 5 ). Quae 
+   <lb ed="#PL"/> utique Petro adhuc defuit, quando mulieris ancillae 
+   <lb ed="#PL"/> interrogatione perterritus, non potuit verum testimo<lb ed="#PL" break="no"/>nium
+   perhibere; sed contra suam pollicitationem ti<lb ed="#PL" break="no"/>more
+   magno compulsus est ter ncgare
+   ( <hi rend="italic">Matth.</hi> XXVI, 
+   <lb ed="#PL"/> 69-74 ). Timor antem iste non est in charitate, sed 
+   <lb ed="#PL"/> perfecta charitas foras mittit timorem (I <hi rend="italic">Joan.</hi> IV, 48). 
+   <lb ed="#PL"/> Denique antc passionem Domini, servilis timor ejus 
+   <lb ed="#PL"/> interrogatus est a femina servitutis; post resurrectio<lb ed="#PL" break="no"/>nem
+   vcro Domini liberalis ejus amor ab ipso Principe 
+   <lb ed="#PL"/> libertatis <hi rend="italic">(Joan.</hi> xxi, 13) : et ideo ibi turbabatur, hic 
+   
+   <lb ed="#PL"/> tranquillabatur; ibi quem dilexerat negabat, hic quem 
+   <lb ed="#PL"/> negaverat diligebat. Sed adhuc etiam tunc amor ipse 
+   <lb ed="#PL"/> infirmus fucrat et angustus, donec cum roboraret et
+   
+   <lb ed="#PL"/> dilataret Spiritus sanctus. Qui posteaquam illi est 
+   <lb ed="#PL"/> ahundantia gratiae largioris infusus, sic ad perhiben<lb ed="#PL" break="no"/>dum
+   de Christo testimonium quondam ejus frigidu:n 
+   <lb ed="#PL"/> pectus accendit, atque illa prius trepida quae verita<lb ed="#PL" break="no"/>tem
+   suppresserant, ora reseravit, ut cum omnes in 
+   <lb ed="#PL"/> quos venerat Spiritus sanctus, linguis omnium gen<lb ed="#PL" break="no"/>tium
+   loquerentur, Judaeorum circumstantibus turbis, 
+   <lb ed="#PL"/> solus ad testimonium de Christo perhibendum prae 
+   <lb ed="#PL"/> caeteris promptius emicaret, cjusque interfectores dc 
+   <lb ed="#PL"/> illius resurrectione confunderet. Si quem delectat 
+   <lb ed="#PL"/> tam suaviter sanctum tale spectaculum intueri, Actus 
+   <lb ed="#PL"/> Apostolorum legat <hi rend="italic">( Act.</hi> II-V.) : ibi beatum Petrum 
+   <lb ed="#PL"/> quem negantem doluerat, stupeat praedicantem; ilii 
+   <lb ed="#PL"/> linguam illam videat ad fiduciam a diffidentia , et aj
+   
+   <lb ed="#PL"/> libertatem a servitute translatam, tot linguas inimico<lb ed="#PL" break="no"/>rum
+   convertere ad Christi confessionem, quarum non 
+   <lb ed="#PL"/> valendo unam ferre; versa fuerat in negationem. Quid 
+   <lb ed="#PL"/> plura? Tantus in illo fulgor gratiae, tanta Spiritus 
+   <lb ed="#PL"/> sancti plenitudo apparebat, tanta de ore praedicantis 
+   <lb ed="#PL"/> pretiosissimae veritatis pondera procedcbant, ut in<lb ed="#PL" break="no"/>gentis
+   multitudinis adversarios interfectores Christi 
+   <lb ed="#PL"/> Judaeos faceret pro illo paratos mori, a quibus cum 
+   <lb ed="#PL"/> illo formidabat occidi. Hoc fecit Spiritus sanctus tunc 
+   <lb ed="#PL"/> missus, ante promissus. Ista Dominus magna atquo 
+   <lb ed="#PL"/> miranda sua beneficia pra videbat, quando dicebat, 
+   <lb ed="#PL"/> « Et vidcrunt, et oderuntetme et Patrem nieum : ut 
+   <lb ed="#PL"/> adimpleatur sermo qui in Lege corum scriptus est, 
+   <lb ed="#PL"/> quia odio habucrunt me gratis. Cum autem venerit 
+   <lb ed="#PL"/> Paracletus quem ego mittam vobis a Palre, Spiritum 
+   <lb ed="#PL"/> veritatis qui a Patre procedit, ille testimonium perhi<lb ed="#PL" break="no"/>bebit
+   de me; et vos testimonium perhibebitis. &gt; Ille 
+   <lb ed="#PL"/> quippe testimonium perhibensettestes fortissimos 
+   <lb ed="#PL"/> faciens, abstulit Christi amicis timorem,etiuilnico<lb ed="#PL" break="no"/>rum
+   odium convertit in amorem.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

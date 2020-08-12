@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 29</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 29</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e279"> <!-- iuy75t-t29 -->
+      <head xml:id="iuy75t-d1e279-Hd1e109">Tractatus 29</head>
+      <p xml:id="iuy75t-d1e279-d1e112">
+       <hi rend="italic">1 n illud Evangelii,</hi> Jam autem die festo mediante, 
+   <lb ed="#PL"/> ascendit Jesus in templum ; <hi rend="italic">usque ad id,</hi> Qui misit 
+   <lb ed="#PL"/> illum, hic verax est, et injustitia in illo non est. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Cap.</hi> VII, f . 14-18.</p>
+      <p xml:id="iuy75t-d1e279-d1e131">i. Quod sequitur de Evangelio et hodie lectum est, 
+   <lb ed="#PL"/> consequenter et nos videamus ; et quod Dominus do<lb ed="#PL" break="no"/>naverit, hinc dicamus. Hesterno die buc usque le<lb ed="#PL" break="no"/>ctum
+   erat, quia licet non vidissent Dominum Jesum 
+   <lb ed="#PL"/> in templo per diem festum, loquebantur tamen de 
+   <lb ed="#PL"/> illo : <hi rend="italic">Et</hi> alii <hi rend="italic">dicebant, Bonus est; alit autem, Non,
+   <lb ed="#PL"/> sed seducit turbas (Joan.</hi> vn , 12). Dictum enim boc 
+   <lb ed="#PL"/> est ad eorum solatium, qui postea praedicantes ver- ' 
+   <lb ed="#PL"/> bum Dei, futuri erant ut seductores et veraces (II Cor. I 
+   <lb ed="#PL"/> VI, 8). Si enim seducere decipere est; nec Cbrisius 
+   <lb ed="#PL"/> seductor, nec Apostoli ejus ; nee quisquam seductor
+   
+   <lb ed="#PL"/> debet esse chiristianus : si autem seducere, aliunde 
+   <lb ed="#PL"/> aliqucm ad aliud persuadendo ducere est, quaeren<lb ed="#PL" break="no"/>dum
+   est unde ei quo : si a malo ad bonum, bonus
+   
+   <lb ed="#PL"/> scductor est; si a bono ad malum, malus seductor 
+   <lb ed="#PL"/> est. In hanc ergo partem qua seducuntur homines de 
+   <lb ed="#PL"/> malo ad bonum, utinam omnes seductores et vocemur 
+   <lb ed="#PL"/>etsimus 1</p>
+      <p xml:id="iuy75t-d1e279-d1e177">2. <hi rend="italic">Ascendit</hi> ergo postea Dominus ad diem festum, <hi rend="italic">me­</hi>
+   
+       <lb ed="#PL"/> diante <hi rend="italic">die</hi> festo, <hi rend="italic">et docebat. Et
+    mirabantur Judoei</hi> di­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">centes : Quomodo hic litteras scit, cum non didicerit ?</hi>
+   
+       <lb ed="#PL"/> Ille qui latebat, docebat; et palam loquebatur, et 
+   <lb ed="#PL"/> nun tenebatur. Illud enim ut lateret, erat causa 
+   <lb ed="#PL"/> exempli, boc potestatis. Sed cum doceret, miraban­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tur Judcei.</hi> Omnes quidem, quantum arbitror, mira<lb ed="#PL" break="no"/>bantur ; sed non omnes convertebantur. Et unde 
+   <lb ed="#PL"/> admiratio? Quia multi noverant ubi natus, quemad­ 
+   <pb ed="#PL" n="1629"/>
+       <lb ed="#PL"/> modum fuerit educatus ; nunquam eum viderant lit<lb ed="#PL" break="no"/>toras
+   discentem . audiebant autem de Lege disputan<lb ed="#PL" break="no"/>tem, Legis testimonia proferentem, quae nemo posset 
+   <lb ed="#PL"/> proferre nisi legisset, nemo legere nisi litteras didi<lb ed="#PL" break="no"/>cisset: et ideo mirabantur. Eorum autem admiratio 
+   <lb ed="#PL"/> Magistro facta est insinuandae altius veritatis occasio. 
+   <lb ed="#PL"/> Ex eornm quippe admiratione et verbis, dixit Domi<lb ed="#PL" break="no"/>nns
+   profundum aliqnid, et diligentius inspici et dis<lb ed="#PL" break="no"/>euti
+   dignum. Propter quod intentam facio CHaritatem 
+   <lb ed="#PL"/> vestram, non solum ad audiendum pro vobts, sed 
+   <lb ed="#PL"/> etiam ad orandum pro nobis.</p>
+      <p xml:id="iuy75t-d1e279-d1e243">3. Quid ergo Domiuus respondit eis admirantibus 
+   <lb ed="#PL"/> quomodo sciret litteras quas noa didicerat? <hi rend="italic">Mea,</hi> - 
+   <lb ed="#PL"/> inquit, <hi rend="italic">doctrina non
+    est</hi> mea, <hi rend="italic">sed</hi> ejus qui <hi rend="italic">misit me.</hi> Haec
+   
+   <lb ed="#PL"/> est profunditas prima : videtur euim paucis verbis 
+   <lb ed="#PL"/> quasi contraria locutus. Non enim ait, Ista doctrina 
+   <lb ed="#PL"/> uon est mea ; aed , <hi rend="italic">Mea doctrina nox
+    eat mea.</hi> Si non 
+   <lb ed="#PL"/> tua, quomodo tua ? Si tua, quomodo non tua ? Tu 
+   <lb ed="#PL"/> cnim dicis utrumque : et, <hi rend="italic">mea doctrina;</hi> et, <hi rend="italic">non
+    mea.</hi>
+   
+       <lb ed="#PL"/> Nam si dixisset, Ista doctrina non est mea, nulla esset 
+   <lb ed="#PL"/> quaestio. Nunc vero, fratres, primitus intendite quoe<lb ed="#PL" break="no"/>siionem, et sic ordine exspectate solutionem. Nam 
+   <lb ed="#PL"/> qui non videt quaestionem quae proponitur, quomodo 
+   <lb ed="#PL"/> intelligit Quod exponitur ? Hoc est ergo in quaestione, 
+   <lb ed="#PL"/> qnod ait, <hi rend="italic">mea non mea
+    :</hi> hoc videtur esse contrarium, 
+   <lb ed="#PL"/> quomodo <hi rend="italic">mea,</hi> quomodo
+    <hi rend="italic">non</hi> mea. Si ergo intueamur 
+   <lb ed="#PL"/> diligenter quod ipse in exordio dicit sanctus Evange<lb ed="#PL" break="no"/>lista, In <hi rend="italic">principio</hi> erat <hi rend="italic">Verbum, et Verbum erat apud 
+   <lb ed="#PL"/> Deum , et Deus erat verbum (loan.</hi> I,1); inde pendet 
+   <lb ed="#PL"/> hujus solutio quaestionis. Quae est ergo doctrina Pa<lb ed="#PL" break="no"/>tris, nisi Verbum Patris ? Ipse ergo Christus doctriua 
+   <lb ed="#PL"/> Patris, si Verbum Patris. Sed quia Verbum non po<lb ed="#PL" break="no"/>test
+   esse nullius, sed alieujus : et suam doctrinam 
+   <lb ed="#PL"/> dixit, seipsum ; et non snam, quia Patris est Verbum. 
+   <lb ed="#PL"/> Quid enim tam tuum quam tu ? et quid tam non tuum 
+   <lb ed="#PL"/> quam tu, si alicujus est quod es ?</p>
+      <p xml:id="iuy75t-d1e279-d1e335">4. Verbum ergo et Deus est, et doctrinae stabilis 
+   <lb ed="#PL"/> Verbum est, non sonabilis per syllabas et volatilis, 
+   <lb ed="#PL"/> sed manentis cum Patre, ad quam I convertamur ma<lb ed="#PL" break="no"/>nentem,
+   sonis transeuntibus admoniti. Non enim nos 
+   <lb ed="#PL"/> ita admonet quod transit, ut ad transitoria vocet. Ad<lb ed="#PL" break="no"/>monemur
+   ut diligamus Deum. Totum hoc qnod dixi, 
+   <lb ed="#PL"/> syllabae fuerunt ; percussum aerem verberaverunt, nt 
+   <lb ed="#PL"/> ad sensum' vestrarum aurium pervenirent, sonando 
+   <lb ed="#PL"/> transierunt : non tamen illud quod vos admonui, trans<lb ed="#PL" break="no"/>ire
+   debet; quia ille quem vos diligere admonui, non 
+   <lb ed="#PL"/> transit; et cum transeuntibus syllabis admoniti, con<lb ed="#PL" break="no"/>versi
+   ad cum fucritis, nec vos transibitis, sed cum 
+   <lb ed="#PL"/> manente manebitis. Hoc est ergo indoctrina magnum, 
+   <lb ed="#PL"/> altum et aternum quod manet; quo vocant' omnia 
+   <lb ed="#PL"/> quae temporaliter transeunt, quando benc significant, 
+   <lb ed="#PL"/> j nec mendaciter proferuntur. Omnia quippe signa quae 
+   <lb ed="#PL"/> proferimus sonis, aliquid significant quod non est 
+   <lb ed="#PL"/> sonus. Non enim duae breves syllabae Deus est, et 
+   <lb ed="#PL"/> duas breves syllabas colimus, et duas breves syllabas 
+   
+   <lb ed="#PL"/> adoramus, et ad duas broves syllabas pervenire desi j 
+   <lb ed="#PL"/> deramus : quae pene ante desinunt sonare, qnam coepe- 
+   <lb ed="#PL"/> rint ; nee in eis secundae locus est, nisi prima trans<lb ed="#PL" break="no"/>ierit
+   Manet ergo aliquid magnum quod dicitur Deus, 
+   <lb ed="#PL"/> quamvis non maneat sonus cum dicitur Deus. Sic in<lb ed="#PL" break="no"/>tendite
+   doctrinam Christi, et pervenietis ad Verbum 
+   <lb ed="#PL"/> Ici : cum autem perveneritis ad Verbum Dei, inten<lb ed="#PL" break="no"/>dite, <hi rend="italic">Deut erat Verbum;</hi> et videbitis verum dictum 
+   <lb ed="#PL"/> esse, <hi rend="italic">mea doctrina :</hi> intendite etiam cujus est Verbum; 
+   <lb ed="#PL"/> et videbitis recte dictum esse, <hi rend="italic">non est mea.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e279-d1e408">5. Breviter ergo dico Charitati vestrae ; hoc videmur 
+   <lb ed="#PL"/> mihi dixisse Dominus Jesus Christus, <hi rend="italic">Mea doctrina 
+   <lb ed="#PL"/> non est mea,</hi> ac si diceret, Ego non sum a meipso. 
+   <lb ed="#PL"/> Quamvis enim Filium Patri dicamus et credamus aequa<lb ed="#PL" break="no"/>lem, nec ullam in eis esse naturae substantiaeque distan<lb ed="#PL" break="no"/>tiam , nec inter generantem atque generatam aliquod 
+   <lb ed="#PL"/> interfuinse temporis intervallum ; tamen hoc servato 
+   <lb ed="#PL"/> et custodito ista dicimus, quod ille Pater Nit , ille 
+   <lb ed="#PL"/> Filius. Pater autem non est, si non habeat Filium ; 
+   <lb ed="#PL"/> et Filius non est, si non habeat Patrem : sed tamen 
+   <lb ed="#PL"/> Filius Deus de Patre ; Pater autem Deus, sed non de 
+   <lb ed="#PL"/> Filio. Pater Filii, non Deus de Filio : ille autem Fi<lb ed="#PL" break="no"/>lius
+   Patris, et Deus de Patre. Dominus enim Christus
+   
+   <lb ed="#PL"/> dicitur Lumen ex Lumine. Lumen ergo quod non ex 
+   <lb ed="#PL"/> lumine, et Lumcn aequale quod ex Lumine, simul 
+   <lb ed="#PL"/> unum Lumen, non duo lumina.</p>
+      <p xml:id="iuy75t-d1e279-d1e446">6. Si intelieximus, Deo gratias : si quis autem pa<lb ed="#PL" break="no"/>rum
+   intellexit, fecit homo quo usque potuit, caentera 
+   <lb ed="#PL"/> videat unde speret. Forinsecus ut operarii possumus
+   
+   <lb ed="#PL"/> plantare et rigare, sed Dei est incrementum dare 
+   <lb ed="#PL"/> (1 <hi rend="italic">Cor:</hi> in, 6). <hi rend="italic">Meat</hi> inquit, <hi rend="italic">doctrina non
+    est mea,</hi>
+   
+       <lb ed="#PL"/> sed ejus qui misit <hi rend="italic">me.</hi> Audiat consilium, qui dicit, Non­
+   
+   <lb ed="#PL"/> dum intellexi. Magna quippe res et profunda cum fuis<lb ed="#PL" break="no"/>set
+   dicta, vidit utique ipse Dominus Christus hoc tam, 
+   <lb ed="#PL"/> profundum non omnes intellecturos, et conse quenti 
+   <lb ed="#PL"/> dedit consilium. Intelligere vis ? crede. Deus enim per 
+   <lb ed="#PL"/> prophetam dixit : <hi rend="italic">Nisi credideritis, non intelligetis.
+   <lb ed="#PL"/> (Isai.</hi> VII , 9, sec. LXX). Ad hoc pertinet quod etiarn 
+   <lb ed="#PL"/> hic Dominus secutus adjunxit : Si <hi rend="italic">quis voluerit volun­
+   <lb ed="#PL"/> tatem ejus facere, cognoscet de doctrina,
+    utrum ex Deo</hi>
+   
+       <lb ed="#PL"/> sit , <hi rend="italic">an ego a</hi> meipso <hi rend="italic">loquar.</hi> Quid est hoc , <hi rend="italic">Si quis vo<lb ed="#PL" break="no"/>luerit
+   voluntatem ejus</hi> facere ? Sed ego dixeram, Sk 
+   <lb ed="#PL"/> quis crediderit; et hoc consilium dederam. Si non in... 
+   <lb ed="#PL"/> tellexisti, inquam, crede. Intellectus enim merces esl 
+   <lb ed="#PL"/> fidei. Ergo noli quaerere intelligere ut credas, sed 
+   <lb ed="#PL"/> crede ut iutelligas; quoniam <hi rend="italic">nisi
+    credideritis,</hi> non in­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">telligetis.</hi> Cum ergo ad possibilitatem intelligendi con<lb ed="#PL" break="no"/>silium
+   dederim obedientiam credendi, et dixerim Do<lb ed="#PL" break="no"/>minum
+   Jesum Christum hoc ipsum adjunxisse in con<lb ed="#PL" break="no"/>sequenti
+   sententia , invenimus eum dixisse , <hi rend="italic">Si quis 
+   <lb ed="#PL"/> voluerit voluntatem ejus facere, cognoscet de doctrina,</hi>
+   
+       <lb ed="#PL"/> Quid est, cognoscet ? Hoc est intelligct. Quod est au<lb ed="#PL" break="no"/>tem , Si <hi rend="italic">quis voluerit voluntatem ejus facere,</hi> hoc est 
+   <lb ed="#PL"/> credere. Sed quia <hi rend="italic">cognoscet,</hi> hoc est intelliget , omnes 
+   <lb ed="#PL"/> inteliigunt: quia vero quod ait, Si quis <hi rend="italic">voluerit volun<lb ed="#PL" break="no"/>tatem
+   ejus
+    facere,</hi> hoc pertinet ad credere, ut diligen<lb ed="#PL" break="no"/>tius
+   intelligatur, opus est nobis ipso Domino nostro 
+   <lb ed="#PL"/> expositore, ut indieet nobis utrum revera ad credere
+   
+   <lb ed="#PL"/> pertineat faccre voluntatem Patris ejus. Quis nesciat 
+   <pb ed="#PL" n="1631"/>
+       <lb ed="#PL"/> hoc esse facere voluntatem Dei, operari opus ejus, 
+   <lb ed="#PL"/> id est. quod illi placet? Ipse autem Dominus aperte 
+   <lb ed="#PL"/> alio loco dicit : <hi rend="italic">Uoc eat
+    opus Dei, ut</hi> credatis in <hi rend="italic">eum
+   <lb ed="#PL"/> t quem ille</hi> misit <hi rend="italic">(Joan.</hi> VI, 29). <hi rend="italic">Ut credatis in eum;</hi> non,
+   
+   <lb ed="#PL"/> ut credatis ci. Sed si creditis in cum, creditis ei : non 
+   <lb ed="#PL"/> autem continuo qui credit ei, credit in eum. Nam et 
+   <lb ed="#PL"/> daemones credebant ei, et non credebant in eum.
+   
+   <lb ed="#PL"/> Rursus etiam de Apostolis ipsius possumus dicere, 
+   <lb ed="#PL"/> Credimus Paulo; sed non, Credimus in Paulum : 
+   <lb ed="#PL"/> Credimus Petro; sed non, Credimus in Petrum. <hi rend="italic">Cre<lb ed="#PL" break="no"/>denti</hi> enim in eum <hi rend="italic">qui justificat</hi> impium, <hi rend="italic">deputatur fides
+   <lb ed="#PL"/> ejus od justitiam (Rom.</hi> IV, 5). Quid est ergo credere 
+   <lb ed="#PL"/> in eum? Credendo amare, credendo diligere, cre<lb ed="#PL" break="no"/>, dendo iti eum ire, et ejus membris incorporari. Ipsa 
+   <lb ed="#PL"/> est ergo fides quant de nobis exigit Dens : et non in<lb ed="#PL" break="no"/>venit
+   quod exigat, nisi donaverit quod inveniat. Quae 
+   <lb ed="#PL"/> fides, nisi quam definivit alio loco Apostolus plenis<lb ed="#PL" break="no"/>sime
+   dicens : <hi rend="italic">Neque circumcisio aliquid valet, neque
+   <lb ed="#PL"/> proeputium, sed fides
+    quae</hi> per <hi rend="italic">dilectionem operatur
+   <lb ed="#PL"/> (Galat.</hi> v, G) ? Non qualiscumque fides , sed <hi rend="italic">fides quae
+   <lb ed="#PL"/> per dilectionem operatur:</hi> haec in te sit , et inlelliges de 
+   <lb ed="#PL"/> doctrina. Quid enim intelliges? Quia <hi rend="italic">doctrina</hi> ista non 
+   <lb ed="#PL"/>
+       <hi rend="italic">est mea, sed ejus</hi> qui misit me : id est. intelliges quia 
+   <lb ed="#PL"/> Christus Filius Dei, qui est doctrina Patris, non est 
+   <lb ed="#PL"/> ex scipso, sed Filius est Patris.</p>
+      <p xml:id="iuy75t-d1e279-d1e658">i. Sabellianam haeresim sententia ista dissolvit. 
+   <lb ed="#PL"/> Sabelliani enim dicere ausi sunt ipsum esse Filium 
+   <lb ed="#PL"/> qui estetPater ; duo esse nomina, sed unam rem, Si 
+   <lb ed="#PL"/> dno essent nomina, et res una, non diceretur, <hi rend="italic">Alea
+   <lb ed="#PL"/> doctrina</hi> non
+    <hi rend="italic">eat mea.</hi> Utiquc si Ilia doctrina non est 
+   <lb ed="#PL"/> tua, o Domine, cujus est, nisi alkis sit cujus sit? Quod 
+   <lb ed="#PL"/> dixisti, Sabelliani non intelligunt : non enim Trini<lb ed="#PL" break="no"/>talem
+   vidcrunt, sed sui cordis errorcm scculi sunt. 
+   <lb ed="#PL"/> Nos cultores Trinitatis et unitatis Patris et Filii et 
+   <lb ed="#PL"/> Spiritus sancti, et unius Dei, intelligamus de doctrina 
+   <lb ed="#PL"/> Christi, quoniam non est cjus Et ideo dixit non se 
+   <lb ed="#PL"/> a scipso loqui, quoniam Christus Patris csl Filius, et 
+   <lb ed="#PL"/> Pater Christi est Pater, et Filius de Dco Patre Deus 
+   <lb ed="#PL"/> est: Pater autem Deus, non de Filio Deo Deus est.</p>
+      <p xml:id="iuy75t-d1e279-d1e695">8. <hi rend="italic">Qui a semetipso loquitur, gloriam propriam</hi> quaerit. 
+   <lb ed="#PL"/> Hoc crit ille qui vocalur Antichristus, extollens <hi rend="italic">se,</hi> sic<lb ed="#PL" break="no"/>ut
+   Apostolus ait, <hi rend="italic">supra omne quod dicitur Deus, et
+   <lb ed="#PL"/> quod colitur</hi>
+   (II <hi rend="italic">Thess.</hi> II, 4). Ipsum quippe annuntians 
+   <lb ed="#PL"/> Dontinus gloriam suam quaesiturum, non gloriam Pa<lb ed="#PL" break="no"/>tris, ait ad Judaeos : <hi rend="italic">Ego
+    veni</hi> in <hi rend="italic">nomine Patris mei, et 
+   <lb ed="#PL"/> non suscepistis</hi> me :
+    <hi rend="italic">alius veniet in nomine afro , hunc 
+   <lb ed="#PL"/> suscipietis (Joan.</hi> v, 45). Significavit eus Antichristum 
+   <lb ed="#PL"/> suscepturos, qni gloriam nominis sui quaesiturus cst, 
+   <lb ed="#PL"/> inflatus, non solidus; et ideo non stabilis, sed utique 
+   <lb ed="#PL"/> ruinosus. Dominus autem noster Jesus Christus Ina<lb ed="#PL" break="no"/>gnum
+   exemplum nobis praebuit humilitatis : nempe 
+   <lb ed="#PL"/> aequalis est Patri, nempe in <hi rend="italic">principio erat</hi> Verbum,
+    <hi rend="italic">et
+   <lb ed="#PL"/> Verbum erat apud Deum, et Deus erat Verbum;</hi> nempe 
+   <lb ed="#PL"/> ipsc dixit, et verissime dixit, <hi rend="italic">Tanto tempore vobiscum</hi>
+   
+       <lb ed="#PL"/> sum, <hi rend="italic">et non cognovistis me ? Philippe,</hi> qui <hi rend="italic">vidit me, 
+   <lb ed="#PL"/> viditetPatrem (Id.</hi> xiv, 9); nempe ipse dixit, et veris<lb ed="#PL" break="no"/>sime
+   dixit, <hi rend="italic">Ego et Pater</hi> unum <hi rend="italic">sumus (ld.</hi> x, 50). Si 
+   <lb ed="#PL"/> ergo ille cum Patre unum , aequalis Patri, Deus de
+    
+   
+   <lb ed="#PL"/> Deo, Deus apud Deum, coaeternus, immortalis, pari. 
+   <lb ed="#PL"/> ter incommutabilis , pariter sine tempore, pariter 
+   <lb ed="#PL"/> creator et dispositor temporum; tamen quia venit in
+   
+   <lb ed="#PL"/> tempore, et formam servi accepit, et habitu est in<lb ed="#PL" break="no"/>ventus
+   ut horno <hi rend="italic">(Philipp.</hi> II, 7), quaerit gloriam Patris, 
+   <lb ed="#PL"/> non suam : quid tu, homo, facere debes, qui quando 
+   <lb ed="#PL"/> aliquid boni facis, gloriam tuam quaeris; qnando an<lb ed="#PL" break="no"/>tem
+   aliquid mali facis, Deo calumniam meditaris? In<lb ed="#PL" break="no"/>tende
+   tibi; creatura es, agnosce Creatorem : servus 
+   <lb ed="#PL"/> es, ne contemnas Dominum : adoptatus es, sed non 
+   <lb ed="#PL"/> meritis tuis; quaere ejus gloriam , a quo habes hanc 
+   <lb ed="#PL"/> gratiam, homo adoptatus, cujus gloriam quaesivit qui 
+   <lb ed="#PL"/> est ab illo unicus natus. <hi rend="italic">Qui autem quaerit gloriam ejus 
+   <lb ed="#PL"/> qni</hi> misit <hi rend="italic">illum, hic verax
+    est, et injustitia in illo non est.</hi>
+   
+       <lb ed="#PL"/> In Antichristo autem injustitia est, et verax non est; 
+   <lb ed="#PL"/> quia gloriam suam quaesiturus est, non cius a quo 
+   <lb ed="#PL"/> missus est: non euim est missus, sed venire permis­
+   
+   <lb ed="#PL"/> sus. Omnes ergo pertinentes ad corpus Christi, ne 
+   <lb ed="#PL"/> inducamur in laqueos Antichristi, non quaeramus glo<lb ed="#PL" break="no"/>riam
+   nostram. Sed si ille quaesivit gloriam ejus qui
+   
+   <lb ed="#PL"/> eum misit, quanto magis nos ejus qui nos fecit?</p>
+    </div>
+   </body>
+  </text>
+</TEI>

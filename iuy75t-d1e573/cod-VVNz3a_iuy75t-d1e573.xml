@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 65</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 65</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e573"> <!-- iuy75t-t65 -->
+      <head xml:id="iuy75t-d1e573-Hd1e109">Tractatus 65</head>
+      <p xml:id="iuy75t-d1e573-d1e112">In <hi rend="italic">id quod Dominus ait,</hi> Mandatum novum do vobis, 
+   <lb ed="#PL"/> ut diligatis invicem, sicut dilexi vos, ut et vos in<lb ed="#PL" break="no"/>vicem
+   diligatis : in hoc cognoscent omnes quia mei 
+   <lb ed="#PL"/> discipuli estis, si dilectionem habueritis in invicem. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Cap.</hi> XIII, f f . 34, 55.</p>
+      <p xml:id="iuy75t-d1e573-d1e130">i. Dominus Jesus mandatum novum se discipulis 
+   <lb ed="#PL"/> suis dare testatur, ut diligant invicem : <hi rend="italic">Mandatum,</hi>
+   
+       <lb ed="#PL"/> inquit, <hi rend="italic">novum do vobis, ut diligatis invicem.</hi> Nonno 
+   <lb ed="#PL"/> jao erat hoc mandatum in antiqua Bet lege, ubi scri<lb ed="#PL" break="no"/>ptum
+   est, <hi rend="italic">Diliges proximum tuum tanquam teipsum
+   <lb ed="#PL"/> (Levit.</hi> xix, 18)? Cur ergo novum appellatur a Domino, 
+   <lb ed="#PL"/> quod tam vctus esse convincitur? An ideo est manda<lb ed="#PL" break="no"/>lum
+   novum, quia exuto vctere induit nos hominem 
+   <lb ed="#PL"/> novum ? Innovat quippe audientem, vcl potius obe<lb ed="#PL" break="no"/>dientem, non omnis, sed ista dilectio quam Dominus 
+   <lb ed="#PL"/> ut a carnali dilectione distingueret, addidit, <hi rend="italic">sicut</hi> di<lb ed="#PL" break="no"/>lexi <hi rend="italic">vos.</hi> Nam diligunt invicem maritietuxores, pa<lb ed="#PL" break="no"/>rentes
+   et filii, et quaecumque alia inter se homincs 
+   <lb ed="#PL"/> necessitudo humana devinxerit: ut taceamus dc di<lb ed="#PL" break="no"/>lectione
+   culpabili atque damnabili, qua diligunt invi<lb ed="#PL" break="no"/>cem
+   adulteri et adulterae, scortatores et meretrices, 
+   <lb ed="#PL"/> et quoscumque alios non humana necessitudo, sed 
+   <lb ed="#PL"/> humanae vitae noxia turpitudo conjungit. Mandatum 
+   <lb ed="#PL"/> ergo novum dedit nobis Christus, ut diligamus invi<lb ed="#PL" break="no"/>cem, sicut et ipse dilexit nos. Dilectio ista nos inno<lb ed="#PL" break="no"/>vat, ut simus homines novi, hxredes Testamcnii 
+   <lb ed="#PL"/> Novi, cantatores cantici novi. Hac dilectio, fratres 
+   <lb ed="#PL"/> charissimi, antiquos etiam tunc justos, tunc Patriar<lb ed="#PL" break="no"/>chas
+   et Prophetas, sicut postea beatos Apostolos in<lb ed="#PL" break="no"/>novavit
+   : Ipsa et nunc innovat gentes, et ex universo 
+   <lb ed="#PL"/> genere humano quod diffunditur toto orbe terrarum, 
+   <lb ed="#PL"/> facit et colligit populum novum, corpus novae nuptae
+   
+   <lb ed="#PL"/> Filii Dei unigeniti sponsae, de qua dicitur in Cantico 
+   <lb ed="#PL"/> canticorum, <hi rend="italic">Quae est ista quae ascendit dealbata (Cant.</hi>
+   
+       <lb ed="#PL"/> VIII, 5, <hi rend="italic">sec.</hi> LXX)? utique dealbata, quia innovata; 
+   <lb ed="#PL"/> unde nisi mandato novo? Propter quod pro invicem 
+   <lb ed="#PL"/> sollicita sunt membra in ea ; et si patitur unum mem<lb ed="#PL" break="no"/>brum, compatiuntur omnia membra, et si glorifica<lb ed="#PL" break="no"/>tur
+   unum membrum, congaudent omnia membra 
+   <lb ed="#PL"/>
+       <hi rend="italic">(I Cor.</hi> XII, 25, 26). Audiunt enim, atque custodiunt, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Mandatum novum do</hi> vobis, ut <hi rend="italic">vos invicem
+    diligatis :</hi>
+   
+       <lb ed="#PL"/> non sicut se diligunt qui corrumpunt, nee sicut se 
+   <lb ed="#PL"/> diligunt homincs, quoniam homines sunt; sed sicut 
+   <lb ed="#PL"/> se diligunt, quoniam dii sunt et filii Allissimi omnes,
+   
+   <lb ed="#PL"/> ut sint Filio cjus unico fratres, ea dilectione invicem 
+   <lb ed="#PL"/> diligentes, qua ipse dilexit eos, perducturus cos ad 
+   <lb ed="#PL"/> illum finem qui sufficiat eis, uhi salietur in bonis de<lb ed="#PL" break="no"/>sidorium
+   eorum <hi rend="italic">(Psal.</hi> CII, 5). Tunc cnim aliquid de<lb ed="#PL" break="no"/>siderio
+   non deerit, quando omnia in omnibus Dcus 
+   <lb ed="#PL"/> erit (I <hi rend="italic">Cor.</hi> xv, 28). Talis finis non habet finem. Nemo 
+   <lb ed="#PL"/> ibi moritur, qdo nemo pervenit, nisi huic sacculo nro<lb ed="#PL" break="no"/>riatur, non morte omnium, qua corpus ab anima de. 
+   <lb ed="#PL"/> seritur; sed morte electorum, qua etiam cum in carne 
+   <lb ed="#PL"/> mortali adhuc manetur, cor sursum ponitur. De quali 
+   <lb ed="#PL"/> mOrte dicebat Apostolus, <hi rend="italic">Mortui enim</hi> estis, <hi rend="italic">et vita 
+   <lb ed="#PL"/> vestra abscondita eat cum
+    Christo in Deo (Coloss.</hi> III, 
+   <lb ed="#PL"/> 3). Mine fortasse dictum est, <hi rend="italic">Valida est sicut mors</hi> di­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">lectio (Cant.</hi> vin; 6). Hac enim dilectione fit ut in isto 
+   <lb ed="#PL"/> adhuc corruptibili corpore constituti moriamur huic 
+   <lb ed="#PL"/> saeculo, et vita nostra abscondatur cam Christo in 
+   <lb ed="#PL"/> Deo imo ipsa dilectio est mors nostra saeculo, et 
+   <pb ed="#PL" n="1809"/>
+       <lb ed="#PL"/> vita cum Deo. Si enim nvors est quando de corpore 
+   <lb ed="#PL"/> anma exit, quomodo non est mors quando de mundo 
+   <lb ed="#PL"/> amor noster exit? Valida est ergo sicut mors djleclia 
+   <lb ed="#PL"/> Quid ea validius, qua vincitur mundus?</p>
+      <p xml:id="iuy75t-d1e573-d1e313">i. Nolite itaque , fratres mei, putare in hoc quod 
+   <lb ed="#PL"/> ait Dominus, <hi rend="italic">Mandutum novum</hi> do <hi rend="italic">vobis,</hi> ut <hi rend="italic">vos
+    invi­
+   <lb ed="#PL"/> cem diligatis,</hi> illud majus praetermissum esse manda<lb ed="#PL" break="no"/>tum, quo praecipitur ut diligamus Dominum Deum. 
+   <lb ed="#PL"/> nostrum ex toto corde, ex iota anima, et ex tota 
+   <lb ed="#PL"/> mente : tanquam eniin hoc praetermisso vidctur di<lb ed="#PL" break="no"/>ctum, ut <hi rend="italic">diligatis invicem,</hi> velut hoc ad illud alterunl 
+   <lb ed="#PL"/> HoR pertincat, quo dictum est, <hi rend="italic">Diliges proximum</hi>
+   
+       <lb ed="#PL"/> mum <hi rend="italic">tanquam teipsum.</hi> In <hi rend="italic">his</hi> euim <hi rend="italic">duobus</hi> praeceptis, 
+   <lb ed="#PL"/> inquit, <hi rend="italic">tota Lex pendet,
+    et Prophetae (Matth.</hi> XXII, 37- 
+   <lb ed="#PL"/> 40). Sed bene intelligentibus utrumque invenitur in 
+   <lb ed="#PL"/> singulis. Nam et qui diligit Dcum, non cum potest 
+   <lb ed="#PL"/> contemnere praecipientem ut diligat proximum; et 
+   <lb ed="#PL"/> qui sancte ac spiritualiter diligit proximum, quid in 
+   <lb ed="#PL"/> eo diligit nisi Deum ? Ipsa est dilectio ab omni mun<lb ed="#PL" break="no"/>dana
+   dilectione discreta, quam dislingucndo addidit 
+   <lb ed="#PL"/> Dominus , <hi rend="italic">sicut</hi> dilexi <hi rend="italic">vos.</hi> Quid enim nisi Deum di<lb ed="#PL" break="no"/>lexit
+   in nobis? Non quod habcbamus, sed ut habere<lb ed="#PL" break="no"/>mus : ut perducat nos, sicut paulo ante dixi, ubi sit 
+   <lb ed="#PL"/> Deus omnia in omnibus. Sic etiam medicus recte dici. 
+   <lb ed="#PL"/> tur aegros diligere : et quid in eis nisi salutem diligit, 
+   <lb ed="#PL"/> quaro cupit utique revocare, non morbum, quem ve<lb ed="#PL" break="no"/>nit
+   expellere ? Sic ergo et nos invicem diligamus, ut 
+   <lb ed="#PL"/> quantum possumus, invicem ad habendum in nobis 
+   <lb ed="#PL"/> Deum cura dilectionis attrahamus. Hanc dilectionem 
+   <lb ed="#PL"/> polis donat ipse qui ait, <hi rend="italic">Sicut
+    dilexi</hi> vos, <hi rend="italic">ut et</hi> vos 
+   <lb ed="#PL"/> diligalis <hi rend="italic">invicem.</hi> Ad hoc ergo nos dilexit, ut et nos 
+   <lb ed="#PL"/> diligamus invicem; hoc nobis conferens diligendo 
+   <lb ed="#PL"/> nos, ut mutua dilectione constringamur inter uos, et 
+   <lb ed="#PL"/> lam dulci vinculo connexis membris corpus tanti ca<lb ed="#PL" break="no"/>piti3
+   simus.</p>
+      <p xml:id="iuy75t-d1e573-d1e426">3. <hi rend="italic">Jn hoc</hi> cognoscent, inquit, <hi rend="italic">omnes quia mei
+    disci<lb ed="#PL" break="no"/>puli
+   estis, si dilectionem</hi> habueritis <hi rend="italic">in
+    invicem</hi> : tanquam 
+   <lb ed="#PL"/> diceret, Alia munera mea habent vobiscum etiam non 
+   <lb ed="#PL"/> mei, nou solum naturam, vitam, sensum, rationem, 
+   <lb ed="#PL"/> et eam salutem quae hominibus pecoribusque commu,<lb ed="#PL" break="no"/>nis est; vcrum etiam linguas, Sacramenta , prophe<lb ed="#PL" break="no"/>tiam,
+   scientiam , fidem, distributionem rerum sna<lb ed="#PL" break="no"/>rum
+   pauperibus, et traditionem corporis sui ut ar<lb ed="#PL" break="no"/>deant: sed quoniam charitatem non habent, ut cym<lb ed="#PL" break="no"/>bala
+   concrepaui, nihil sunt, nihil illis prodest (I <hi rend="italic">Cor.</hi>
+   
+       <lb ed="#PL"/> XIII , 1-3). Non ergo in illis quamvis bonis muneribus 
+   <lb ed="#PL"/> meis, quae habere possuut etiam non discipuli mei; 
+   <lb ed="#PL"/> sed in <hi rend="italic">hoc cognoscent omnes
+    quia mei discipuli</hi> estis, si 
+   <lb ed="#PL"/>
+       <hi rend="italic">dilectionem habueritis in invicem.</hi> 0 sponsa Christi put<lb ed="#PL" break="no"/>chra
+   inter mulieres! o dealbata ascendens, et incum<lb ed="#PL" break="no"/>bens
+   super fralruelcm tuum ! quoniain cujus lumine 
+   <lb ed="#PL"/> illustraris ut candeas, ejus adjutorio fulciris ne cadas :
+   
+   <lb ed="#PL"/> o quam bene cantatur libi in illo Cantico canticorum 
+   <lb ed="#PL"/> vclut epithalamio tuo,
+    <hi rend="italic">Quia charitas in deliciis tuis
+   <lb ed="#PL"/> (Cant. VII</hi>, 6, <hi rend="italic">sec.</hi> LXX)! Ipsa non comperdiL cum 
+   <lb ed="#PL"/> impiis animam tuam; ipsa discernit causam tuam, et 
+   <lb ed="#PL"/> sicut mors valida est, et in deliciis tuis est. Quam mi­
+   
+   <lb ed="#PL"/> randi generis mors est, cui paruo fuit uon esse in 
+   <lb ed="#PL"/> poenis, nisi esset insupcr in deliciis ! Sed hic jam iste 
+   <lb ed="#PL"/> sermo elaudatur : ab aio exordio tractanda suart quae 
+   <lb ed="#PL"/> sequuntur.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

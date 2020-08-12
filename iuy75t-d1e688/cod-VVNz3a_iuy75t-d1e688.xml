@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 79</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 79</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e688"> <!-- iuy75t-t79 -->
+      <head xml:id="iuy75t-d1e688-Hd1e109">Tractatus 79</head>
+      <p xml:id="iuy75t-d1e688-d1e112">
+       <hi rend="italic">De eo quod ait,</hi> Et nunc dixi vobis priusquam fiat, <hi rend="italic">etc., 
+   <lb ed="#PL"/> usquead id,</hi> Surgite, eamus hinc. <hi rend="italic">Cap.</hi> XIV, f ℣ 29-31.</p>
+      <p xml:id="iuy75t-d1e688-d1e126">i. Dominus et salvator noster Jesus Christus dixe<lb ed="#PL" break="no"/>rat
+   discipulis suis : <hi rend="italic">Si diligeretis me, gauderetis utique,
+   <lb ed="#PL"/> quia vado ad Putrem; quia
+    Pater</hi> major <hi rend="italic">me est,</hi> Quod 
+   <lb ed="#PL"/> ex forma servi eum dixisse, non ex forma Dei in qua 
+   <lb ed="#PL"/> aequalis est Patri, novit fides quae rdigiosis est menti­
+   
+   <lb ed="#PL"/> bus fixa, non calumniosis et dementibus ficta. Deinde 
+   <lb ed="#PL"/> subjunxit: <hi rend="italic">Et</hi> Hunc <hi rend="italic">dixi vobis priusquam fiat</hi> ut cum 
+   <lb ed="#PL"/>
+       <hi rend="italic">factum fuerit, credatis.</hi> Quid est hoc, cum magis homo 
+   <lb ed="#PL"/> eredere debeat antequam fiat id quod credendum est? 
+   <lb ed="#PL"/> Haec est enim laus fidei, si quod creditur non videtur. 
+   <lb ed="#PL"/> Nam quid magnum est si creditor quod videtur, se<lb ed="#PL" break="no"/>cundum
+   illam ejusdem Domini sentetiam, quando 
+   <lb ed="#PL"/> discipulum arguit dicens : <hi rend="italic">Quia vidisti,</hi> credidisti, <hi rend="italic">beati</hi>
+   
+       <lb ed="#PL"/> qui <hi rend="italic">non vident tt credunt (Joan.</hi> xx, 29)? Et nescio 
+   <lb ed="#PL"/> utrum credere dicendus est quisque quod videt; nam 
+   <lb ed="#PL"/> ipsa fides in Epistola quae scribitur ad Hebraeos, ita 
+   <lb ed="#PL"/> est definita : <hi rend="italic">Est autem fides</hi> sperantium1 <hi rend="italic">substantia,
+   <lb ed="#PL"/> convictio rerum quae non videntur
+    (Hebr.</hi> XI, 1). Quapro<lb ed="#PL" break="no"/>pter
+   si fides est rerum quae creduntur, eademque fi­
+   
+   <lb ed="#PL"/> des carum est quae non videntur; quid sibi vult quod 
+   <lb ed="#PL"/> Dominus ait, <hi rend="italic">Et nunc dixi</hi> vobis priusquam fiat, <hi rend="italic">ut</hi> cum 
+   <lb ed="#PL"/>
+       <hi rend="italic">factum fuerit, credatis?</hi> Nonne. potius dicendum init, 
+   <lb ed="#PL"/> Et nunc dixi vobis priusquam fiat, ut credatis, quod 
+   <lb ed="#PL"/> cum tactum fuerit, videatis? Nam et ille cui dictum 
+   <lb ed="#PL"/> est, Quia <hi rend="italic">vidisti, credidisti,</hi> non boc credidit quod vi<lb ed="#PL" break="no"/>. dit; sed aliud vidit, aliud credidit : vidit enim homi<lb ed="#PL" break="no"/>nem,
+   credidit Deum. Cernebat quippe atque tangebat 
+   <lb ed="#PL"/> earnem viventem, quam viderat morientem; et cre 
+   <lb ed="#PL"/> debat. Deum in carne ipsa latentem. Credebat ergo 
+   <lb ed="#PL"/> mente quod non videbat, per hoc quod sensibus cor<lb ed="#PL" break="no"/>poris
+   apparebat. Sed etsi dicuntur credi quae videu<lb ed="#PL" break="no"/>twr, sicut dicit unu:quisque oculis suis se credidisse : 
+   <lb ed="#PL"/> non tamen ipsa est quae in nobis aedificatur fides; sed 
+   <lb ed="#PL"/> ex rebus quae videntur, agitur in nobis ut ea credan<lb ed="#PL" break="no"/>tur
+   quae non videntur. Quocirca, dilectissimi, unde
+   
+   <lb ed="#PL"/> nune mihi sermo est, quod Dominus ait, <hi rend="italic">Et nunc dixi 
+   <lb ed="#PL"/> vobis
+    priusquam fiat,</hi> ut cum <hi rend="italic">factum (uerit, credatis;</hi> il<lb ed="#PL" break="no"/>lud
+   utique dicit, cum <hi rend="italic">factum fuerit,</hi> quod eum visnri 
+   <lb ed="#PL"/> erant post mortem viventem, et ad Patrem ascenden­ 
+   
+   <lb ed="#PL"/> tem : quo viso illud fuerant credituri, quod :pec esset 
+   <lb ed="#PL"/> Christus Filius Dci viri, qui potuit boc facere cum, 
+   <lb ed="#PL"/> praedixisset, et praedicere ante quam faceret: credi<lb ed="#PL" break="no"/>turi
+   antem hoc non fide nova, sed aucta; ant certe 
+   <lb ed="#PL"/> cum mortuus esset defecta, cum resurrexisset refectr. 
+   <lb ed="#PL"/> Ncquc cnim cum Dei Filium non et ante credebant ; sed 
+   <lb ed="#PL"/> cum in illo factum esset quod ante praedixit, fides 
+   <lb ed="#PL"/> illa quae tunc quando illis loquebatur fuit parva, et 
+   <lb ed="#PL"/> cum moreretur pene jam nulla,etrevixit et crevit.</p>
+      <p xml:id="iuy75t-d1e688-d1e284">2. Deinde quid dicit? <hi rend="italic">Jam</hi> non <hi rend="italic">multa loquar
+    vobiscum:
+   <lb ed="#PL"/> venit enim princeps mundi hujus : quis,</hi> nisi diabolus? <hi rend="italic">Et 
+   <lb ed="#PL"/> in me non habet quidquam:</hi> nullum scilicet omnino pecca­
+   
+   <lb ed="#PL"/> tum. Sic enin. ostendit non creaturarum, sed peccato<lb ed="#PL" break="no"/>rum, principem diabolum, quos nunc nomine mundi bu. 
+   <lb ed="#PL"/> jas appellat. Et quotiescumque mundi nomen in mali si<lb ed="#PL" break="no"/>gnilicationc
+   ponitur, non ostendit nisi mundi istius 
+   <lb ed="#PL"/> amatores; de quibus alibi scriptum est, <hi rend="italic">Quicumque</hi>
+   
+       <lb ed="#PL"/> voluerit <hi rend="italic">amicus esse saeculi hujus, inimicus, Dei consti­ 
+   <lb ed="#PL"/>
+    tuetur (Jacobi</hi> IV, 4). Absit ergo ut sic intelligatur dia<lb ed="#PL" break="no"/>bulus
+   princeps mundi, tanquam gerat universi mundi, 
+   <lb ed="#PL"/> id est, caelietterrae, atque omnium quae in eis sunt 
+   <lb ed="#PL"/> principatum : de quali mundo.dictum est, cum do 
+   <lb ed="#PL"/> Christo Verbo sermo esset, <hi rend="italic">Et</hi> munus <hi rend="italic">per eum factus
+   <lb ed="#PL"/> eat
+    (Joan.</hi> I, 10). Universus itaqise mundus a sununis 
+   <lb ed="#PL"/> caelis usque ad infimam terram creatori ost subditus, 
+   <lb ed="#PL"/> non desertori; redemptori, non interemptori ; libcra
+   - 
+   <lb ed="#PL"/> tori, non captivatori; doctori, non deceptori. Quem<lb ed="#PL" break="no"/>admodum
+   autem sit intelligendus princeps mundi dia<lb ed="#PL" break="no"/>bolus, evidentius aperuit Paulus apostolus, qui cuni 
+   <lb ed="#PL"/> dixisset, <hi rend="italic">Non eat nobis colluctatio adversus cantem et
+   <lb ed="#PL"/>
+    sanguinem,</hi> id est, adversus homines; subjecit, atque 
+   <lb ed="#PL"/> ait, <hi rend="italic">sed adversus</hi> principes <hi rend="italic">et potestates et rectores</hi> mundi 
+   <lb ed="#PL"/>
+       <hi rend="italic">tenebrarum harum (Ephes.</hi> vi, 12). Sequenti enim verbo 
+   <lb ed="#PL"/> exposuit quid dixisset, mundi, cum subjecit, tenebra<lb ed="#PL" break="no"/>rum <hi rend="italic">harum</hi> : ne quisquam mundi nomine intelligeret 
+   <lb ed="#PL"/> universam creaturam, cujus nullo modo sunt rectores 
+   <lb ed="#PL"/> angeli desertores. <hi rend="italic">Tenebrarum,</hi> inquit, harum, id est, 
+   <lb ed="#PL"/> mundi istius amatorum: ex quibas tamen electi sunt, 
+   <lb ed="#PL"/> non per suum meritum, sed per Dei gratiam, quibus 
+   <lb ed="#PL"/> dicit, Fuistis <hi rend="italic">enim aliquaudo tenebra;</hi> nunc <hi rend="italic">autem tux</hi>
+   
+       <lb ed="#PL"/> i. <hi rend="italic">Domino (Id.</hi> v, 8). Omnes enim fuerunt sub re<lb ed="#PL" break="no"/>ctoribus
+   tenebrarum harum, id est, bominum impio 
+   <lb ed="#PL"/> rum, tanquam tenebrae sub tenebris
+   : sed <hi rend="italic">gratias Dso,</hi>
+   
+       <lb ed="#PL"/> qui <hi rend="italic">eruit nos,</hi> sicut dicit idem apostolus, <hi rend="italic">de potestate
+   <lb ed="#PL"/> tenebrarum,</hi> et <hi rend="italic">transtulit</hi> in <hi rend="italic">regnum Filii</hi> charitatis suae 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Coloss.</hi> i, 12,13). In quo princeps hujus mundi, 
+   <lb ed="#PL"/> hoc est tenebrarum harim, non habebat quidquam; 
+   <lb ed="#PL"/> quia neque cum peccato Deus venerat, nec ejus car<lb ed="#PL" break="no"/>ncin
+   de peccati propagine Virgo pepererat. Et tan<lb ed="#PL" break="no"/>quam
+   ci diceretur, Cur ergo moreris, si non habes 
+   <lb ed="#PL"/> peccatum cui dcbeatur mortis suppiiciam i continuo 
+   <lb ed="#PL"/> subjecit, <hi rend="italic">Sed ut cognoscat</hi> mundus <hi rend="italic">qum diligo Patrem, 
+   <lb ed="#PL"/> et sicut mandatum dedit mihi Pater, sic facio;
+    surgite, 
+   <lb ed="#PL"/> eamus hinc.</hi> Discumbens enim discumbentibus loque<lb ed="#PL" break="no"/>batur. <hi rend="italic">Eamus</hi> autem dixit, quo, nisi ad ilium locum 
+   <lb ed="#PL"/> unde fuerat tradendus ad mortem, qui nullum habe<lb ed="#PL" break="no"/>bat
+   meritum mortis? Sed habebat ut moreretur man<lb ed="#PL" break="no"/>datum
+   Patris, tanquam ille de quo praedictum erat, 
+   <lb ed="#PL"/> Quae <hi rend="italic">nou rapui, tunc exsolvebam (Psal.</hi> LXVIII, 5) : 
+   <pb ed="#PL" n="1839"/>
+       <lb ed="#PL"/> mortem sinc debito soluturus, et nos a morte debita 
+   <lb ed="#PL"/> rcdenipturus. Rapuoratautcin Adam peccatum, quando 
+   <lb ed="#PL"/> manum in arborem praesumptione deceptus extendit, 
+   <lb ed="#PL"/> ut incommunicabile nomen inconcessae divinitatis in<lb ed="#PL" break="no"/>vadcret, quam Filio Dei natura contulcrat, non ra<lb ed="#PL" break="no"/>pina.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

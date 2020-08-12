@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 10</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 10</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e124"> <!-- iuy75t-t10 -->
+      <head xml:id="iuy75t-d1e124-Hd1e109">Tractatus 10</head>
+      <p xml:id="iuy75t-d1e124-d1e112">
+       <hi rend="italic">Ab eo Evangelii loco,</hi> Post haec descendit ad Caphar<lb ed="#PL" break="no"/>naum
+   ipse et mater ejus, <hi rend="italic">etc., usque ad id,</hi> Ille au<lb ed="#PL" break="no"/>temdicebatde
+   templocorporis sui. <hi rend="italic">Cap.</hi> II, f. 12-21.</p>
+      <p xml:id="iuy75t-d1e124-d1e128">1. In Psalmo audistis gemitum pauperis, cujus 
+   <lb ed="#PL"/> membra per totam terram tribulationes patiuntur 
+   <lb ed="#PL"/> usque in finem saeculi. Satis agite, fratres mei, esse
+   
+   <lb ed="#PL"/> in his membris et de his membris : nam tribulatio 
+   <lb ed="#PL"/> tota transitura est. Vae gaudentibus <hi rend="italic">(Luc.</hi> VI, 25)! Ve<lb ed="#PL" break="no"/>ritas
+   dicit: <hi rend="italic">Beati lugentes, quoniam ipsi consolabuntur
+   <lb ed="#PL"/> ( Matth.</hi> v, 5). Deus homo factus est: quid futurus est 
+   <lb ed="#PL"/> homo, propter quem Deus factus est homo? Haec spe* 
+   <pb ed="#PL" n="1467"/>
+       <lb ed="#PL"/> consoletur nos in omni tribulatione et tentatione hujus 
+   <lb ed="#PL"/> vitae. Non enim cessat inimicus persequi; et si non 
+   <lb ed="#PL"/> perte saevit, insidiis agit. Quid enim agit1? El super iram 
+   <lb ed="#PL"/>
+       <hi rend="italic">dolose agebant (Psat.</hi> xxxiv, 20). Inde dictus est leo et 
+   <lb ed="#PL"/> draco. Sed quid dicitur Chrislo? <hi rend="italic">Et conculcabis leonem</hi>
+   
+       <lb ed="#PL"/> et <hi rend="italic">draconem (Psat.</hi> xc, 13). Leo proplerapertam iram, 
+   <lb ed="#PL"/> draco propter occultas insidias. Draco ejecit Adam 
+   <lb ed="#PL"/> de paradiso, idem ipse leo persecutus est Ecclesiam, 
+   <lb ed="#PL"/> dicente Petro, <hi rend="italic">Quia adversarius vester
+    diabolus sicut
+   <lb ed="#PL"/> leo rugiens circirit, quaerens quem devoret</hi> (1 <hi rend="italic">Petr.</hi> v, 8). 
+   <lb ed="#PL"/> Non libi saevitiam suam perdidisse diabolus videatur: 
+   <lb ed="#PL"/> quando blanditur, tunc magis cavendus est. Sed inter 
+   <lb ed="#PL"/> has omnes insidias et ejus tentationes, quid faciemus, 
+   <lb ed="#PL"/> nisi quod ibi audivimus, <hi rend="italic">Ego autem, cum</hi> mihi <hi rend="italic">molesti</hi>
+   
+       <lb ed="#PL"/> essent, <hi rend="italic">induebam mecilicio, et humiliabam</hi> injejunio ani­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">mam meam.</hi> Est qui exaudiat, ne dubitetis orare : qui 
+   <lb ed="#PL"/> autem exaudit, intus manet. Non in montem aliquem 
+   <lb ed="#PL"/> oculos dirigatis, non faciem in stellas aut solern 
+   <lb ed="#PL"/> aut lunam levetis. Non tunc exaudiri vos arbitremini, 
+   <lb ed="#PL"/> quando super mare oratis : imo detestamini tales 
+   <lb ed="#PL"/> orationes. Munda tantum cubiculum cordis: ubi foerls, 
+   <lb ed="#PL"/> ubicumque oraveris, intus est qui exaudiat, intus in 
+   <lb ed="#PL"/> secreto, quem sinum vocat cum ait, <hi rend="italic">Et orario mea</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">sinu meo convertetur (Psal.</hi> xxxiv, 13). Qui te exaudit, 
+   <lb ed="#PL"/> non est praeter te. Non longe vadas , nec te extollas, 
+   <lb ed="#PL"/> ut quasi attingas illum manibus. Magis si te extuleris, 
+   <lb ed="#PL"/> rades : si te humiliaveris, ipse appropinquabit. Hic 
+   <lb ed="#PL"/> Dominus Deus noster Verbum Dei, Verbum caro 
+   <lb ed="#PL"/> factunl, Filius Patris, Filius Dei, Filius hominis : 
+   <lb ed="#PL"/> cxcelsus ut nos faceret, humilis ut nos rcficerct, 
+   <lb ed="#PL"/> ambulans inter homines, patiens humana, abscon<lb ed="#PL" break="no"/>dens
+   divina.</p>
+      <p xml:id="iuy75t-d1e124-d1e258">t. <hi rend="italic">Descendit,</hi> ut dicit Evangelista, in <hi rend="italic">Capharnaum,</hi>
+   
+       <lb ed="#PL"/> ipse <hi rend="italic">et mater ejus, et fratres</hi> ejus, <hi rend="italic">et
+    discipuli ejus, et</hi>
+   
+       <lb ed="#PL"/> ibi <hi rend="italic">manserunt non multis diebus.</hi> Ecce habet matrem, 
+   <lb ed="#PL"/> habet fratres, habet et discipulos : inde fratres, unde 
+   <lb ed="#PL"/> matrem. Fratres enim Scriptura nostra, non eos solos 
+   <lb ed="#PL"/> appellare consuevit, qui nascuntur ex eodem viro et 
+   <lb ed="#PL"/> femina, aut ex eodem utero, aut ex eodem patro, quam<lb ed="#PL" break="no"/>vis
+   diversis matribus; aut certe ex eodem gradu, vclut 
+   <lb ed="#PL"/> compatrueles aut consobrinos : non solum hos fratres 
+   <lb ed="#PL"/> novit dicere Scriptura nostra. Quomodo loquitur, sic 
+   <lb ed="#PL"/> intelligenda est. Habet linguam suam : quicunque 
+   <lb ed="#PL"/> hanc linguam nescit, turbatur, et dicit, Unde fratres 
+   <lb ed="#PL"/> Domino? Num enim Maria iterum peperit? Absit. Inde 
+   <lb ed="#PL"/> coepit dignitas virginum. Illa femina mater esse po<lb ed="#PL" break="no"/>tuit, mulier esse non potuit. Dicta est autem mulier 
+   <lb ed="#PL"/> secundum femineum sexum, non secundum corruptio<lb ed="#PL" break="no"/>nem
+   integritatis : et hoc ex lingua ipsius Scripturae. 
+   <lb ed="#PL"/> Nam et Eva statim facta de latere viri sui, nondum 
+   <lb ed="#PL"/> contacta a viro suo, nostis quia mulier appellata est: 
+   <lb ed="#PL"/>
+       <hi rend="italic">Et</hi> formavit <hi rend="italic">eam</hi> in <hi rend="italic">mulierem (Cen.</hi> II, 22). Unde ergo 
+   <lb ed="#PL"/> fratres? Cognati Mariae fratres Domini, de quolibet 
+   <lb ed="#PL"/> gradu cognati. Unde probamus ? Ex ipsa Scriptura. 
+   <lb ed="#PL"/> Fratsr Abrahae dictus est Lot <hi rend="italic">(Id.</hi> XIII, 8,etxiv, 14); 
+   <lb ed="#PL"/> filius erat fratris ipsius. Lege, et invenies quia Abra<lb ed="#PL" break="no"/>ham
+   patruus erat Lot (Id. xi, 27,31), et dicti sunt fra- 
+   
+   <lb ed="#PL"/> tres. Unde, nisi quia cognati ? Item Jacob Laban Syrum 
+   <lb ed="#PL"/> habebat avunculum : frater enim erat Laban matris 
+   <lb ed="#PL"/> Jacob, id est Rebeccae uxoris Isaac <hi rend="italic">(Id.</hi> XXVIII, 2). Lege 
+   <lb ed="#PL"/> Scripturam, et invenies quia fratres dicuntur avuncu- 
+   <lb ed="#PL"/> Ius et sororis filius <hi rend="italic">(Id.</hi> XXIX, 12-15). Qua regula co<lb ed="#PL" break="no"/>gnita, invenies omnes consanguineos Mariae fratres 
+   <lb ed="#PL"/> esse Christi.</p>
+      <p xml:id="iuy75t-d1e124-d1e364">3. Sed illi discipuli magis erant fratres; quia et 
+   <lb ed="#PL"/> illi cognati fratres non essent, si discipuli non essent: 
+   <lb ed="#PL"/> et sine causa fratres, si magistrum non agnoscerent 
+   <lb ed="#PL"/> fratrem. Nam quodam loco cum ei nuntiati essent ma<lb ed="#PL" break="no"/>ter
+   et fratres ejns foris stantes, ille autem cum disci<lb ed="#PL" break="no"/>pulis
+   suis loquebatur, ait: <hi rend="italic">Quae</hi> mihi <hi rend="italic">mater, vel qui
+   <lb ed="#PL"/> fratres? Et
+    extendens</hi> manum super discipulos <hi rend="italic">suos, di­</hi>
+   
+       <lb ed="#PL"/> xit, <hi rend="italic">Hi sunt fratres mei :</hi> et, <hi rend="italic">Quicumque
+    fecerit volunta<lb ed="#PL" break="no"/>tem
+   Patris</hi> mei, <hi rend="italic">itle mihi mater, et</hi> frater, et soror <hi rend="italic">est
+   <lb ed="#PL"/> (Matth.</hi> XII, 46-50). Ergo et Maria, quia fecil volunta<lb ed="#PL" break="no"/>tem
+   Patris. Hoc in ea magnificavit Dominus, quia fecit 
+   <lb ed="#PL"/> voluntatem Patris, non quia caro genuit carnem. In<lb ed="#PL" break="no"/>tendant
+   Charitas vestra. Propterea cum Dominus in 
+   <lb ed="#PL"/> turba admirabilis videretur, faciens signa et prodigia,
+   
+   <lb ed="#PL"/> et ostendens quid lalerct in carne, admiratae quaedam 
+   <lb ed="#PL"/> animae dixerunt : <hi rend="italic">Felix venter qui te portavit.</hi> Et ille : 
+   <lb ed="#PL"/>
+       <hi rend="italic">Imo felices qui audiunt verbum Dei, et custodiunt (Luc.</hi>
+   
+       <lb ed="#PL"/> XI, 27, i8). Hoc est dicere, Et mater mea qnam ap<lb ed="#PL" break="no"/>pellastis
+   felicem, inde felix quia verbum Dci custodit: 
+   <lb ed="#PL"/> non quia in illa Verbum caro factum est, et habitavit 
+   <lb ed="#PL"/> in nobis <hi rend="italic">(Joan.</hi> I, 14) ; sed quia custodit ipsum Ver<lb ed="#PL" break="no"/>bum
+   Dei per quod facta est, et qtfod in illa caro fa<lb ed="#PL" break="no"/>ctum
+   est, Homines non gaudeant prole temporali, ex<lb ed="#PL" break="no"/>sultent
+   si spiritu junguntur Deo. Hac diximus propter 
+   <lb ed="#PL"/> id quod ait Evangelista, quia cum matre suaet
+   <lb ed="#PL"/> fratribus suis et discipulis habitavit iA Capharnaum 
+   <lb ed="#PL"/> paucis diebus.</p>
+      <p xml:id="iuy75t-d1e124-d1e454">4. Inde quid sequitur? <hi rend="italic">Et prope erat Pascha Judaeo<lb ed="#PL" break="no"/>rum, et
+    ascendit Jerosolymam.</hi> Aliam rem narrat, sicut 
+   <lb ed="#PL"/> se habcbat recordatio annuntiantis. &lt; Et inVenit in 
+   <lb ed="#PL"/> templo vendentes boves et oves et columbas,etnum<lb ed="#PL" break="no"/>mularios
+   sedentes : et cum fecisset quasi flagellum de 
+   <lb ed="#PL"/> resticulis, omnes ejccil de templo; boves quoque et 
+   <lb ed="#PL"/> oves,etnummularionim effodit aes, et mensas suhver<lb ed="#PL" break="no"/>tit; et his qai columbas vendebant, dixit, Auferte ista 
+   <lb ed="#PL"/> hinc, et nolite facere domum Patris mci domum ne<lb ed="#PL" break="no"/>gotiationis. » Qnid audivimus, fratres
+   ? Ecce templum 
+   <lb ed="#PL"/> illud figura adhuc erat,etejicit inde Dominus omnes 
+   <lb ed="#PL"/> qui sua quaerebant, qui ad nundinas venerant. Et quae 
+   <lb ed="#PL"/> ibi vendebant illi ? Qnan opus babcbant homines in sa<lb ed="#PL" break="no"/>crificiis
+   illius temporis. Novit enim Charitas vestra
+   
+   <lb ed="#PL"/> quod sacrificia illi populo pro ejus carnalitate et corde 
+   <lb ed="#PL"/> adhuc lapideo talia data sunt, quibus teneretur ne in 
+   <lb ed="#PL"/> idola deflucret ; et immolabant ibi sacrificia , boves, 
+   <lb ed="#PL"/> oves et columbas : nostis, quia legistis. Non ergo ma<lb ed="#PL" break="no"/>gnum
+   peccatum, si hoc vendebant in templo, quod 
+   <lb ed="#PL"/> emcbatur ut offerretur in templo; et tamen ejecit inde , 
+   <lb ed="#PL"/> illos. Quid, si ibi ebriosos inveniret, quid faceret Do­
+   
+   <lb ed="#PL"/> minus; si vendentes ea quae licita sunt, et contra ju<lb ed="#PL" break="no"/>stitiam
+   non sant (quae enim honeste emuntur, non i!<lb ed="#PL" break="no"/>licite venduntur), expulit tamen, et non est passus
+   
+   <lb ed="#PL"/> domum orationis fieri domum negotiationis?Si nego­ 
+   <pb ed="#PL" n="1469"/>
+       <lb ed="#PL"/> tiationis domus non debet fleri domus Dei, potationis 
+   <lb ed="#PL"/> debet fieri ? Nos autem quando ista dicimus, stridunt 
+   <lb ed="#PL"/> dentibus suis adversus nos : et consolatur nos psal<lb ed="#PL" break="no"/>mus
+   quem audistis, <hi rend="italic">Striderunt</hi> super <hi rend="italic">me dentibus suis.</hi>
+   
+       <lb ed="#PL"/> Novimus et nos audire unde curemur, etsi ingeminan<lb ed="#PL" break="no"/>tur
+   flagella Christo, quia flagellatur sermo ipsius : 
+   <lb ed="#PL"/> Coagregata sunt, inquit, in me <hi rend="italic">flagella,</hi> et <hi rend="italic">nescierunt1.</hi>
+   
+       <lb ed="#PL"/> Flagellatus est flagellisJudaeorum, flagellatur blasphe<lb ed="#PL" break="no"/>miis
+   falsorum christianorum : multiplicant flagella Do<lb ed="#PL" break="no"/>mino
+   suo, ei nesciunt. Faciamus nos, quantum ipse 
+   <lb ed="#PL"/> adjuvat, <hi rend="italic">Ege</hi> autem, eum mihi <hi rend="italic">molesti essent, induebam</hi>
+   
+       <lb ed="#PL"/> me <hi rend="italic">cilicio, et</hi> humiliabam <hi rend="italic">in jejunio</hi> animam meam 
+   <lb ed="#PL"/> (Psal. XXXIV, 13-16).</p>
+      <p xml:id="iuy75t-d1e124-d1e567">5. Dicimus tamen, fratres (non enim et ipse peper<lb ed="#PL" break="no"/>eit
+   illis : qui flagellandus erat ab eis, prior illos fla<lb ed="#PL" break="no"/>gellavit), signum quoddam nobis ostendit, quod fecit
+   
+   <lb ed="#PL"/> flagellum de resticulis, et inde indisciplinatos, nego<lb ed="#PL" break="no"/>tiationem
+   de Dei templo facientes, flagellavit. Etenim 
+   <lb ed="#PL"/> unusquisque in peccatis suis restem sibi texit. Propheta 
+   <lb ed="#PL"/> dicit, Vce <hi rend="italic">his qui trahunt peccata sicut restem
+    longam</hi> / 
+   <lb ed="#PL"/> (Isai. V, 18, <hi rend="italic">sec.</hi> LXX). Quis facit restem longam? 
+   <lb ed="#PL"/> Qui peccaio addit peccatum. Quomodo adduntur pec<lb ed="#PL" break="no"/>cata
+   peccatis? Cum peccata quae facta sunt, coope<lb ed="#PL" break="no"/>riuntur
+   aliis peccatis. Furtum fecit, ne inveniatur
+   
+   <lb ed="#PL"/> quia I fecit, quaerit mathematicum. Sufficeret fur<lb ed="#PL" break="no"/>tum
+   fecisse; quare vis adjungere p ccatura peccato? 
+   <lb ed="#PL"/> ecce duo peccata. Cum ad mathematicum prohiberis
+   
+   <lb ed="#PL"/> accedere, blasphemas episcopum : ecce tria peccata. 
+   <lb ed="#PL"/> Cum audis, Mitte illum foras de Ecclesia ; dicis, Duco 
+   <lb ed="#PL"/> me ad partem Donati : ecce addis quartum. Crescit
+   
+   <lb ed="#PL"/> restis : time restem. Bonum est tibi ut hic inde cum 
+   <lb ed="#PL"/> flagellaris, corrigaris; nc in fine dicatur, <hi rend="italic">Ligate illi
+   <lb ed="#PL"/> pedes et manus, et
+    projicite eum</hi> in <hi rend="italic">tenebras exteriores
+   <lb ed="#PL"/> (Matth.</hi> xxu, 13). <hi rend="italic">Criniculis</hi> enim <hi rend="italic">peccatorum</hi> suorum 
+   <lb ed="#PL"/>
+       <hi rend="italic">unusquisque constringitur (Prov. V, 22).</hi> Illud Dominus 
+   <lb ed="#PL"/> dicit, illud alia Scriptura dicit; sed utrumque Domi<lb ed="#PL" break="no"/>nus
+   dicit. De peccatis suis ligantur homines, et mit<lb ed="#PL" break="no"/>tuntur
+   in tenebras exteriores.</p>
+      <p xml:id="iuy75t-d1e124-d1e643">6. Qui sunt tamen qui vendunt boves? ut in figura 
+   <lb ed="#PL"/> quaeramus mysterium facti. Qui sunt qui oves vendunt 
+   <lb ed="#PL"/> et columbas? Ipsi sunt qui sua quaerunt in Ecclesia, 
+   <lb ed="#PL"/> non quae Jesu Christi <hi rend="italic">(Philipp.</hi> II, 21). Venale habent 
+   <lb ed="#PL"/> totum, qui nolunt redimi . : emi nolunt, et vendere 
+   <lb ed="#PL"/> volunt. Bonum est enim eis ut redimantur sanguine 
+   <lb ed="#PL"/> Christi, ut perveniant ad pacem Christi. Quid enim 
+   <lb ed="#PL"/> prodest acquirere in hoc saeculo quodlibet temporale 
+   <lb ed="#PL"/> et transitorium, sive sit pecunia, sive sit voluptas ven<lb ed="#PL" break="no"/>tris
+   et gutturis, sive sit honor in laude humana? Nonne 
+   <lb ed="#PL"/> omnia fumus et ventus? nonne omnia transeunt, cur<lb ed="#PL" break="no"/>runt? Et vae bis qui haeserint transeuntibus, quia si<lb ed="#PL" break="no"/>mul
+   transeunt. Nonne omnia fluvius preceps currens 
+   <lb ed="#PL"/> in mare ? Et vae qui ceciderit, quia in mare trahetur. 
+   <lb ed="#PL"/> Ergo tenere debemus omnes affectus a talibus concu<lb ed="#PL" break="no"/>piscentiis. Fratres mei, qui talia quaerunt, vendunt. 
+   <lb ed="#PL"/> Nam et Simon ille idco volebat emere Spiritum san<lb ed="#PL" break="no"/>ctum, quia vendere volebat Spiritum sanctum <hi rend="italic">(Act.</hi> v III 
+   
+   <lb ed="#PL"/> 18,19); et putabat Apostolos mercatores tales esse, 
+   <lb ed="#PL"/> quales Dominus de templo flagello ejecit. Talis enim 
+   <lb ed="#PL"/> ipse erat, et quod venderet emere volebat: de iliis
+   
+   <lb ed="#PL"/> erat qui columbas vendunt. Etenim in columba appa<lb ed="#PL" break="no"/>rait
+   Spiritus sanctus
+   (Matth. m, 16). Qui ergo vendunt 
+   <lb ed="#PL"/> columbas, fratres, qui sunt, nisi qui dicunt, Nos damus 
+   <lb ed="#PL"/> Spiritum sanctum? Quare enim hoe dicunt, et quo 
+   <lb ed="#PL"/> pretio vendunt ? Pretio honoris sui. Accipiunt pretium 
+   <lb ed="#PL"/> cathedras temporales, ut videantur ipsi vendere co<lb ed="#PL" break="no"/>lumbas. Caveant a flagello de resticulis. Columba non 
+   <lb ed="#PL"/> est venalis : gratis datur, quia gratia vocatur. Ideo, 
+   <lb ed="#PL"/> fratres mei, quomodo videtis eos qui vendunt, propo<lb ed="#PL" break="no"/>larios
+   1, quisque quod vendit laudat: quot propo<lb ed="#PL" break="no"/>sita
+   fecerunt? Alterum propositum habet Carthagine 
+   <lb ed="#PL"/> Primianus, alterum babet Maximianus, alterum ba<lb ed="#PL" break="no"/>bet
+   in Mauritania Rogatas, alterum habent in No<lb ed="#PL" break="no"/>midia
+   illi et illi, quos jam nec nominare sufficimus (a). 
+   <lb ed="#PL"/> Circuit ergo aliquis emere columbam, unusquisque 
+   <lb ed="#PL"/> ad propositum suum laudat quod vendit. Avertatur 
+   <lb ed="#PL"/> illius cor ab omni vendente, veniat ubi gratis ac<lb ed="#PL" break="no"/>cipitur. Nec sic erubescunt, fratres, quia per ipsas 
+   <lb ed="#PL"/> dissensiones suas amaras et malitiosas, cum sibi tri­
+   
+   <lb ed="#PL"/> buunt quod non sunt, cum extolluntur putantes se 
+   <lb ed="#PL"/> aliquid esse cum nihil sint
+    <hi rend="italic">(Galat.</hi> VI, 3), tot partes de 
+   <lb ed="#PL"/> se fecerunt. Sed quid in eis impletum est quod nolunt 
+   <lb ed="#PL"/> corrigi, nisi quod audistis in Psalmo, <hi rend="italic">Discissi sunt,</hi> nec 
+   <lb ed="#PL"/> compuncti <hi rend="italic">sunt 1</hi>
+      </p>
+      <p xml:id="iuy75t-d1e124-d1e757">7. Qui ergo boves vendunt? Bores intelliguntur 
+   <lb ed="#PL"/> qui nobis Scripturas sanctas dispensaverunt. Boves 
+   <lb ed="#PL"/> erant Apostoli, boves erant Prophetae. Unde dicit Apo<lb ed="#PL" break="no"/>stolus
+   : &lt; Bovi trituranti os non iofrenabis. Numquid 
+   <lb ed="#PL"/> de bobus pertinet ad Deum
+   ? An propter nos dicit ? 
+   <lb ed="#PL"/> Propter nos enim dicit; quia debet in spe qui arat 
+   <lb ed="#PL"/> arare, et triturans in spe participandi &gt; (I <hi rend="italic">eo,.</hi> IX, 9,10).
+   
+   <lb ed="#PL"/> Ergo illi boves reliquerunt nobis memoriam Scriptu<lb ed="#PL" break="no"/>rarum. NoR enim de suo dispensaverunt, quia glo<lb ed="#PL" break="no"/>riam
+   Domini quaesierunt. Quid enim audistis in ipso
+   
+   <lb ed="#PL"/> Psalmo ? <hi rend="italic">Et</hi> dicant <hi rend="italic">semper,</hi> Magnificetur Dominus, qui 
+   <lb ed="#PL"/>
+       <hi rend="italic">volunt</hi> pacem servi <hi rend="italic">ejus</hi> (Psal. XXXIV, 16, 27). Servas 
+   <lb ed="#PL"/> Dei, populus Dei, Ecclesia Dei. Qui volum pacem Ee<lb ed="#PL" break="no"/>clesiae
+   ipsius, magnifieent Dominum, non servum; et 
+   <lb ed="#PL"/>
+       <hi rend="italic">dicant</hi> semper, <hi rend="italic">Magnificetur Dommus.</hi> Qui
+    <hi rend="italic">dicant?</hi> Qni 
+   <lb ed="#PL"/>
+       <hi rend="italic">volunt pacem</hi> servi <hi rend="italic">ejus.</hi> Ipsius populi, ipsius servi vox 
+   <lb ed="#PL"/> est illa evidens, quam in lamentationibus audistIs in 
+   <lb ed="#PL"/> Psalmo, etmovebamini cum audiretis, quia inde estis. 
+   <lb ed="#PL"/> Quod cantabatur ab uno, de omnibus cordibus resona<lb ed="#PL" break="no"/>bat. Felices qui se in illis vocibus tanquam in speculo
+    
+   
+   <pb ed="#PL" n="1471"/>
+       <lb ed="#PL"/> cognoscebant. Qui ergo volunt pacem servi cjus, pa<lb ed="#PL" break="no"/>cem
+   populi ejus, pacem unius quam dicit <hi rend="italic">unicam,</hi> et 
+   <lb ed="#PL"/> quam vult erui a leone, <hi rend="italic">Erue de manu canis unicam
+   <lb ed="#PL"/> meam (Psal.</hi> xxi, 21 et22)?Qui dicunt semper, Ma<lb ed="#PL" break="no"/>gnificetur <hi rend="italic">Dominus.</hi> Ergo boves illi Dominum magniQ<lb ed="#PL" break="no"/>caverunt, non se. Videte bovem magnificantem Do<lb ed="#PL" break="no"/>minum
+   suum, quia agnovit bos possessorem suum 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Isai.</hi> I, 3) : attendite bovem timentem ne deseratur 
+   <lb ed="#PL"/> possessor bovis, et in bove praesumatur; quomodo 
+   <lb ed="#PL"/> expavescit eos qui volunt in illo ponere spem: * Num<lb ed="#PL" break="no"/>quid
+   Paulus pro vobis crucifixus est? aut in nomine 
+   <lb ed="#PL"/> Pauli baptizati estis &gt; (I Cor. I, 43) ? Quod dedi, non 
+   <lb ed="#PL"/> ego dedi: gratis accepistis, columba de coelo descen<lb ed="#PL" break="no"/>dit. &lt; Ego, » inquit, « plantavi, Apollo rigavit ; sed 
+   <lb ed="#PL"/> Deus incrementum dedit: neque qui plantat est ali<lb ed="#PL" break="no"/>quid, neque qui rigat, sed qui incrementum dat 
+   <lb ed="#PL"/> Deus <hi rend="italic">(Id.</hi> III, 6, 7). Et dicant semper, Magnificetur 
+   <lb ed="#PL"/> Dominus, qui volunt pacem servi ejus. »</p>
+      <p xml:id="iuy75t-d1e124-d1e889">8. Isti autem de Scripturis ipsis fallunt populos, ut 
+   <lb ed="#PL"/> accipiant ab ipsis honores et landes, et non conver<lb ed="#PL" break="no"/>tantur
+   homines ad veritatem. Quia vero ipsis Scriptu­
+   
+   <lb ed="#PL"/> ris fallunt populos, a quibus quaerunt honores; ven<lb ed="#PL" break="no"/>dunt
+   boves, vendunt et oves, id est ipsas plebes. Et 
+   <lb ed="#PL"/> cui vendunt, nisi diabolo? Namque, fratres mei, si
+   
+   <lb ed="#PL"/> Christi unica Ecclesia est, et una est; quidquid inde 
+   <lb ed="#PL"/> praeciditur, quis tollit, nisi leo ille rugiens et circum<lb ed="#PL" break="no"/>iens, quaerens quem devoret (I <hi rend="italic">Petr.</hi> v, 8)? Vae his 
+   <lb ed="#PL"/> qui praeciduntur ! nam illa integra permanebit. Novit 
+   <lb ed="#PL"/> enim Dominus qui sunt ejus (II <hi rend="italic">Tim.</hi> n, 19). Tamen 
+   <lb ed="#PL"/> quantum in ipsis est, vendunt boves et oves, vendunt 
+   <lb ed="#PL"/> et columbas: observent flagellum peccatorum suo<lb ed="#PL" break="no"/>rom. Certe quando aliquid tale patiuntur propter 
+   <lb ed="#PL"/> istas iniquitates suas, agnoscant quia Dominus fecit 
+   <lb ed="#PL"/> flagellum de resticulis, et ad hoc admonet eos ut mu<lb ed="#PL" break="no"/>tent
+   se, ut non sint negotiatores: nam si se npn mu. 
+   <lb ed="#PL"/> taverint, audient in fine, <hi rend="italic">Ligate</hi> illis <hi rend="italic">manus et pedes, 
+   <lb ed="#PL"/> et projicite</hi> in <hi rend="italic">tenebras
+    exteriores.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e124-d1e947">
+       <hi rend="italic">9. Tunc scriptum esae, Zelus domus tuoe comedit me, 
+   <lb ed="#PL"/> recordati
+    sunt discipuli:</hi> quia zelo domus Dei ejecit 
+   <lb ed="#PL"/> istos de templo Dominus. Fratres, unusquisque chri<lb ed="#PL" break="no"/>stianus
+   in membris Christi zelo domus Dei comeda<lb ed="#PL" break="no"/>tur.
+   Quis comeditur zelo domus Dei? Qui omnia quae 
+   <lb ed="#PL"/> forte ibi videt perversa, satagit corrigi, cupit emen<lb ed="#PL" break="no"/>dari', non quiescit: si emendare non potest, tolerat,
+   
+   <lb ed="#PL"/> gemit. Non excutitur de area granum, sustinet pa<lb ed="#PL" break="no"/>leam; ut intret in horreum, cum palea fuerit separata. 
+   <lb ed="#PL"/> Tu antehorreum, si granum es, noli excuti de area; 
+   <lb ed="#PL"/> ne prius ab avibus colligaris, quam in horreum con<lb ed="#PL" break="no"/>gregeris. Aves enim caeli aeriae potestates exspectant 
+   <lb ed="#PL"/> aliquid rapere de area, et non rapiunt nisi quod inde 
+   <lb ed="#PL"/> fuerit excussum. Ergo zelus domus Dei comedat te : 
+   <lb ed="#PL"/> unumquemque christianum zelus domus Dei com<lb ed="#PL" break="no"/>edat, in qua domo Dei membrum est. Non enim magis 
+   <lb ed="#PL"/> est domus tua, quam domus ubi habes salutem sem<lb ed="#PL" break="no"/>piternam. Domum tuam intras propter requiem tem<lb ed="#PL" break="no"/>poralem; domum Dei intras propter requiem sempi<lb ed="#PL" break="no"/>ternam. Si ergo in domo tua ne quid perversum 
+   <lb ed="#PL"/> Cat satagis; in domo Dei ubi salus proposita est et re­ quios sine line, debes pati quantum in te est, si quid 
+   <lb ed="#PL"/> forte perversum videris? Verbi gratia, vides fratrem 
+   <lb ed="#PL"/> currere ad theatrum ? prohibe, mone, contristare, si 
+   <lb ed="#PL"/> zelus domus Dei comedit te. Vides alios currere et 
+   <lb ed="#PL"/> inebriari velle, et hoc velle in locis sanctis, quod nus<lb ed="#PL" break="no"/>quam
+   decet? prohibe quos potes, tene quos potes, 
+   <lb ed="#PL"/> terre quos potes, quibus potes blandire; noli tamen 
+   <lb ed="#PL"/> quiescere. Amicus est? admoneatur leniter. Uxor est? 
+   <lb ed="#PL"/> severissime refrenetur. Ancilla est? etiam verberibus 
+   <lb ed="#PL"/> compescatur. Fac quidquid potes, pro persona quam
+   
+   <lb ed="#PL"/> portas; et perficis, <hi rend="italic">Zelus domus tuce comedit me.</hi> Si 
+   <lb ed="#PL"/> autem fueris frigidus, marcidus, ad te solum spectans, 
+   <lb ed="#PL"/> et quasi tibi sufficiens, et dicens in corde tuo, Quid 
+   <lb ed="#PL"/> mibi est curare aliena peccata 9 sufficit milii anima
+   
+   <lb ed="#PL"/> mea; ipsam integram servem Deo : eia, non tibi ve. 
+   <lb ed="#PL"/> nit in mentem servus ille qui abscondit talentum, et 
+   <lb ed="#PL"/> noluit erogare? Numquid enim accusatus ost quia 
+   <lb ed="#PL"/> perdidit, et non quia sine lucro servavit <hi rend="italic">(Matth.</hi> xxv, 
+   <lb ed="#PL"/> 25-30) ? Sic ergo audite, fratres mei, ut non quiesca<lb ed="#PL" break="no"/>tis. Ego vobis consilium daturus sum : det ille qui in<lb ed="#PL" break="no"/>tus
+   est; quia etsi per me dederit, ille dat. Nostis quid 
+   <lb ed="#PL"/> agatis unusquisque in domo sua cum amico, cum in<lb ed="#PL" break="no"/>quilino, cum cliente suo, cum majore, cum minore : 
+   <lb ed="#PL"/> quomodo dat Deus aditum, quomodo aperit januam 
+   <lb ed="#PL"/> verbo suo, nolite quiescere lucrari Christo; quia lu<lb ed="#PL" break="no"/>* Crati estis a Christo.</p>
+      <p xml:id="iuy75t-d1e124-d1e1056">10. « Dixerunt illi Judaei: Quod signum ostendis 
+   <lb ed="#PL"/> nobis, quia haec facis? » Et Dominus : « Solvite tem<lb ed="#PL" break="no"/>plum
+   hoc, et in tribus diebus excitabo illud. Dixerunt
+   
+   <lb ed="#PL"/> ergo Judaei: Quadraginta et sex annis aedificatum eat 
+   <lb ed="#PL"/> templum hoc, et tu dicis, In tribus diebus excitabo 
+   <lb ed="#PL"/> illud ? » Caro erant, carnalia sapiebanl: ille vero lo<lb ed="#PL" break="no"/>quebatur
+   spiritualiter. Quis autem posset intelligere 
+   <lb ed="#PL"/> de quo templo dicebat? Sed non multum quaerimus; 
+   <lb ed="#PL"/> per Evangelistam nobis aperuit, dixit de quo templo 
+   <lb ed="#PL"/> diceret : <hi rend="italic">Solvite templum hoc, et</hi> in <hi rend="italic">tribus diebus</hi> exci­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tabo illud. Quadraginta et sex annis</hi> aedificatum <hi rend="italic">est 
+   <lb ed="#PL"/> templum, et triduo suscitabis illud? Dicebat autem,</hi> ait 
+   <lb ed="#PL"/> Evangelista, <hi rend="italic">de templo corporis sui.</hi> Et manifestum 
+   <lb ed="#PL"/> est, occisum Dominum post triduum resurrexisse. 
+   <lb ed="#PL"/> Hoc modo omnibus nobis notum est : et si Judaeis 
+   <lb ed="#PL"/> clausum est, quia foris stant; nobis tamen apertum 
+   <lb ed="#PL"/> est, quia novimus in quem credimus. Ipsius templi so<lb ed="#PL" break="no"/>lutionem
+   et reaedificationem, anniversaria solemnitate 
+   <lb ed="#PL"/> celebraturi sumus : ad quam vos exhortamur, ut prae­
+   
+   <lb ed="#PL"/> paretis vos, si qui estis catechumeni, ut accipiatis 
+   <lb ed="#PL"/> gratiam; jam nunc tempus est, jam nunc parLuriatur 
+   <lb ed="#PL"/> quod tunc nascatur. Ergo illud novimus.</p>
+      <p xml:id="iuy75t-d1e124-d1e1120">11. Sed forte hoc exigitur a nobis, utrum habeat 
+   <lb ed="#PL"/> aliquod sacramentum quadraginta sex annis aedifica<lb ed="#PL" break="no"/>tum
+   templum. Sunt quidem multa quae hinc dici pos<lb ed="#PL" break="no"/>sint; sed quod breviter dici potest et facile intelligi, 
+   <lb ed="#PL"/> hoc interim dicimus. Fratres, diximus jam, nisi fallor, 
+   <lb ed="#PL"/> hesterno die, Adam unum hominem fuisse, et ipsum 
+   <lb ed="#PL"/> esse totum genus humanum. Nam ita diximus, si mo<lb ed="#PL" break="no"/>ministis <hi rend="italic">(In
+    superiori Tractatu).</hi> Quasi fractus est, et 
+   <lb ed="#PL"/> sparsus colligitur, et quasi conflatur in unum so<lb ed="#PL" break="no"/>cietate
+   atque concordia spiriluali1. Et gemit unus 
+   
+   <pb ed="#PL" n="1473"/>
+       <lb ed="#PL"/> pauper modo ipse Adam, sed in Christo innovatur : 
+   <lb ed="#PL"/> qnia sine peccato venit Adam, ut peccatum Adam sol<lb ed="#PL" break="no"/>veret
+   in carne sua, et ut redintegraret sibi Adam ima<lb ed="#PL" break="no"/>g 'nem Dei. De Adam ergo caro Christi : de Adam 
+   <lb ed="#PL"/> ergo templum quod destruxerunt Judaei, et resuscita<lb ed="#PL" break="no"/>vit
+   Dominus triduo. Rcsuscitavit enim carnem suam: 
+   <lb ed="#PL"/> videte, quia Deus erat aequalis Patri. Fratres mei, di<lb ed="#PL" break="no"/>cit
+   Apostolus,
+    <hi rend="italic">Qui eum</hi> excitavit <hi rend="italic">a mortuis.</hi> De quo di­
+   
+   <lb ed="#PL"/> cil? De Patre : c Factus, » inquit, c obediens usque ad 
+   <lb ed="#PL"/> mortem, mortem autem crucis : propter quod et Deus 
+   <lb ed="#PL"/> illum excitavit a mortuis1,etdedit ei nomen quod est 
+   <lb ed="#PL"/> super omne nomen i <hi rend="italic">(Philipp.</hi> II, 8, 9). Resuscitatus
+   
+   <lb ed="#PL"/> et exaltatus est Dominus. Resuscitavit eum, quis? Pa<lb ed="#PL" break="no"/>ter, cui dixit in Psalmis, <hi rend="italic">Excita me, et reddam illis.
+   <lb ed="#PL"/> (Psal.</hi> XL, 11). Ergo Pater eum resuscitavit. Non se 
+   <lb ed="#PL"/> ipse? Quid autem facit Pater sine Verbo? quid facit
+   
+   <lb ed="#PL"/> Pater sine Unico suo? Nam audi quia et ipse Deus 
+   <lb ed="#PL"/> erat : <hi rend="italic">Solvite iemplum hoc, et</hi> in tribus <hi rend="italic">diebus excitabo</hi>
+   
+       <lb ed="#PL"/> illud. Numquid dixit, Solvite templum, quod triduo Pa<lb ed="#PL" break="no"/>ter
+   resuscitet? Sed quomodo cum Pater suscitat, et Fi<lb ed="#PL" break="no"/>lius
+   suscitat; sic cum Filius suscitat, et Pater suscitat: 
+   <lb ed="#PL"/> quia Filiusdixit, <hi rend="italic">Ego et Pater unum sumus
+    (Joano</hi> x,30).</p>
+      <p xml:id="iuy75t-d1e124-d1e1217">12. Quid ergo sibi vult numerus quadragenarius 
+   <lb ed="#PL"/> senarius ? Interim ipse Adam quia per totum orbem 
+   <lb ed="#PL"/> terrarum est, audistis jam hesterno die in quatuor lit<lb ed="#PL" break="no"/>teris
+   graecis quatuor verborum graecorum. Si enim 
+   <lb ed="#PL"/> ista verba quatuor scribas sub invicem, id est, nomina 
+   <lb ed="#PL"/> quatuor partium mundi, Orientis, Occidentis, Aquilo<lb ed="#PL" break="no"/>nis
+   et Meridiani, quod est totus orbis; unde dicit Do<lb ed="#PL" break="no"/>minus
+   a quatuor ventis collecturum se electos suos, 
+   <lb ed="#PL"/> cum venerit ad judicium <hi rend="italic">(Marc.</hi> XIII, 27) : si enim fa<lb ed="#PL" break="no"/>cias
+   ista quatuor nomina graeca, <foreign xml:lang="grc">ἀνατολὴ</foreign>, quod est 
+   <lb ed="#PL"/> Oriens; <foreign xml:lang="grc">δύσις</foreign>, quod est Occidens; <foreign xml:lang="grc">ἂρϰτος</foreign>, quod est 
+   <lb ed="#PL"/> Septentrio ;
+    <foreign xml:lang="grc">μεσημρια</foreign>, quod est Meridics : Anatole, 
+   <lb ed="#PL"/> dysis, arctos, mesembria, capita verborum Adam ha<lb ed="#PL" break="no"/>bent. Quomodo ergo ibi invenimus et quadragena<lb ed="#PL" break="no"/>rium
+   senarium numerum? Quia caro Christi de Adam 
+   <lb ed="#PL"/> erat. Ad litteras numeros computant Graeci. Quod nos 
+   <lb ed="#PL"/> facimus <hi rend="italic">a</hi> litteram, ipsi lingua sua ponunt alpha IX, et 
+   <lb ed="#PL"/> vocatur alpha IX unum. Ubi autem in numeris scri<lb ed="#PL" break="no"/>bunt
+   beta <foreign xml:lang="grc">β</foreign>, quod est <hi rend="italic">b</hi> ipsorum, vocatur in numeris 
+   <lb ed="#PL"/> duo. Ubi scribunt gamma y, vocatur in numeris ipso<lb ed="#PL" break="no"/>rum
+   tria. Ubi scribunt delta <foreign xml:lang="grc">δ</foreign>, vocatur in numeris 
+   <lb ed="#PL"/> ipsorum quatuor : et sic per omnes litteras numeros 
+   <lb ed="#PL"/> habent. M, quod nos dicimus, et illi dicunt my <foreign xml:lang="grc">μ</foreign>, qua<lb ed="#PL" break="no"/>draginta
+   significat: dicunt enim my <foreign xml:lang="grc">μ
+    τεσσαράϰοντα</foreign>. 
+   <lb ed="#PL"/> Jam videte istae litterae quem numerum habeant; et 
+   <lb ed="#PL"/> ibi invenietis quadraginta sex annis aedificatum tem<lb ed="#PL" break="no"/>plum. Habet enim Adam alpha a, quod est unum : ha<lb ed="#PL" break="no"/>bet
+   delta i, quod sunt quatuor; habes quinque : habet 
+   <lb ed="#PL"/> iterum alpha «, quod est unum; habes sex : habet et 
+   <lb ed="#PL"/> my <foreign xml:lang="grc">μ</foreign> ,quod est quadraginta; habes quadraginta sex .Haec, 
+   <lb ed="#PL"/> fratres mei, etiam ab anterioribus majoribus nostris di<lb ed="#PL" break="no"/>cta
+   sunt, et inventus est iste numerus in litteris quadra<lb ed="#PL" break="no"/>genarius
+   senarius <hi rend="italic">(a).</hi> Et quia Dominus noster Jesus 
+   
+   
+   <lb ed="#PL"/> Christus de Adam corpus accepit, non de Adam pec<lb ed="#PL" break="no"/>catum
+   traxit; templum corporeum indo sumpsit, non 
+   <lb ed="#PL"/> iniquitatem quaede templo pellenda est: ipsam autem
+   
+   <lb ed="#PL"/> carnem quam traxit de Adam (Maria enim de Adam, 
+   <lb ed="#PL"/> et Domini caro de Maria), Judaei cruciJlxerunt; et ille 
+   <lb ed="#PL"/> resuscitaturus erat ipsam carnem in triduo, quam
+   
+   <lb ed="#PL"/> illi in cruce erant occisuri: illi solverunt templum 
+   <lb ed="#PL"/> quadraginta sex annis aedificatum, et ille in triduo 
+   <lb ed="#PL"/> resuscitavit illud.</p>
+      <p xml:id="iuy75t-d1e124-d1e1350">13. Benedicimus Domino Deo nostro, qui ad laeti<lb ed="#PL" break="no"/>tiam
+   spiritualem congregavit nos. Simus in humilitate 
+   <lb ed="#PL"/> cordis semper, et gaudium nostrum penes ipsum sit. 
+   <lb ed="#PL"/> Non de prosperitate aliqua hujus saeculi inflemur, sed 
+   <lb ed="#PL"/> . noverimus felicitatem nostram non esse nisi cum ista 
+   <lb ed="#PL"/> transierint. Modo gaudium nostrum, fratres mei, in
+   
+   <lb ed="#PL"/> spe sit: nemo gaudeat quasi in re praesenti, ne haereat 
+   <lb ed="#PL"/> in via. Totum gaudium de spe futura sit, totum desi<lb ed="#PL" break="no"/>derium
+   vitae aeternae sit. Omnia suspiria Christo anhe<lb ed="#PL" break="no"/>lent: ille unus pulcherrimus, qui et foedos dilexit ut 
+   <lb ed="#PL"/> pulchros faceret, desideretur; ad illum unum curra<lb ed="#PL" break="no"/>tur, illi ingemiscatur; <hi rend="italic">et dicunt semper,</hi> Magnificetur 
+   <lb ed="#PL"/>
+       <hi rend="italic">Dominus, qui volunt pacem servi ejus.</hi>
+      </p>
+    </div>
+   </body>
+  </text>
+</TEI>

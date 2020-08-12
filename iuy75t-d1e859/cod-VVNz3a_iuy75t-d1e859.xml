@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 100</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 100</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e859"> <!-- iuy75t-t100 -->
+      <head xml:id="iuy75t-d1e859-Hd1e109">Tractatus 100</head>
+      <p xml:id="iuy75t-d1e859-d1e112">
+       <title type="sub">
+        <hi rend="italic">In ejusdem lectionis verba postrema. Cap.</hi> xvi,
+    f. 13-15.</title>
+      </p>
+      <p xml:id="iuy75t-d1e859-d1e121">4. Cum promitteret Dominus venturum Spiritum 
+   <lb ed="#PL"/> sanctum, <hi rend="italic">Docebit
+    vos,</hi> inquit, <hi rend="italic">omnem veritatem ;</hi> vel, 
+   <lb ed="#PL"/> quod in nonnullis codicibus legitur, <hi rend="italic">Deducet vos</hi> in <hi rend="italic">omni 
+   <lb ed="#PL"/> veritate. Non enim loquetur a semetipso, sed quaecumque 
+   <lb ed="#PL"/> audiet,
+    loquetur.</hi> De quibus evangelicis verbis jam 
+   <lb ed="#PL"/> quod donavit Dominus disputavimus : nunc ea quae 
+   <lb ed="#PL"/> sequuntur attendite. <hi rend="italic">Et quos ventura
+    sunt,</hi>inquit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">annuntiabit vobis.</hi> Neque hic est, quoniam planum est, 
+   <lb ed="#PL"/> Immorandum : nihil enim habet quaestionis, cujus a 
+   <lb ed="#PL"/> nobis expositio llagitetur. Sed quod adjungit, <hi rend="italic">llle me
+   <lb ed="#PL"/> clarificabit, quia de</hi> meo <hi rend="italic">accipiet, et annuntiabit vobis,</hi>
+   
+       <lb ed="#PL"/> non negligenter est transeundum. Quod enim ait, <hi rend="italic">Ille
+   <lb ed="#PL"/> me
+    clarificabit,</hi> potest intelligi, quia diffundendo in 
+   
+   <pb ed="#PL" n="1891"/>
+       <lb ed="#PL"/> cordibus credentium charitatem, spiritualesque facien<lb ed="#PL" break="no"/>do, declaravit eis quomodo Filius Patri esset aequalis, 
+   <lb ed="#PL"/> quem secundum carnem prius tantummodo noverant, 
+   <lb ed="#PL"/> et hominem sicut hommes cogitabant. Vel certe, quia 
+   <lb ed="#PL"/> per ipsam charitatem fiducia repleti I, et timere depul- 
+   <lb ed="#PL"/> 80, annuntiaverunt hominibus Christum ; ac sic fama 
+   <lb ed="#PL"/> ejus diffusa est toto orbe terrarum. Ut sic dixerit, <hi rend="italic">llle</hi>
+   
+       <lb ed="#PL"/> me <hi rend="italic">clarificubitt</hi> tanquam diceret: Ille vobis auferet ti­
+   
+   <lb ed="#PL"/> morem, et dabit amorem, quo me ardentius praedi<lb ed="#PL" break="no"/>cantes, gloriae mene per totum mundum dabitis odorem, 
+   <lb ed="#PL"/> commendabitis honorem. Quod euim facturi fuerant
+   
+   <lb ed="#PL"/> in Spiritu sancto, lae eumdem Spiritnm dixit esse fa<lb ed="#PL" break="no"/>cturum : quale est etiam illud, <hi rend="italic">Non euim vos estis qui</hi>
+   
+       <lb ed="#PL"/> loquimini, <hi rend="italic">ted</hi> Spiritus <hi rend="italic">Patris
+    vestri</hi> qui <hi rend="italic">loquitur in vo­
+   <lb ed="#PL"/> bis( Matth.</hi> x, 20). Verbum quippe grrecum quod est 
+   <lb ed="#PL"/>
+       <foreign xml:lang="grc">δοξάϭει</foreign>, alius clarificabit, alius glorificabit, latini inter<lb ed="#PL" break="no"/>pretes
+   in sua quisque translatione posuerunt : quo<lb ed="#PL" break="no"/>niam
+   ipsa quae graeco dicimur <foreign xml:lang="grc">διξα</foreign>, uude dictum est 
+   <lb ed="#PL"/> verbum
+    <foreign xml:lang="grc">δοξάϭει</foreign>, et claritas interpretatur et gloria. Glo­
+   
+   <lb ed="#PL"/> ria namque fit quisque clarus, et claritate gloriosus ; 
+   <lb ed="#PL"/> ac per hoc quod utroque verbo significatur, idipsum 
+   <lb ed="#PL"/> est. Sicut autem definierunt antiqui latinae lingu:e cla<lb ed="#PL" break="no"/>rissimi
+   auctores, gloria est frequens de aliquo fama 
+   <lb ed="#PL"/> cum laude. Quae cum est in hoc mundo facta de Chri<lb ed="#PL" break="no"/>sto, non Christo credenda est magnum aliquid. contu<lb ed="#PL" break="no"/>lisse, sed mundo. Bonum enim laudare,. non laudato, 
+   <lb ed="#PL"/> sed laudantibus prodest.</p>
+      <p xml:id="iuy75t-d1e859-d1e266">i. Est autem etiam falsa gloria, quando laudantes 
+   <lb ed="#PL"/> errore falluntur, sive in rebus, sive in hominibus, si<lb ed="#PL" break="no"/>ve
+   in utrisque. Nam in rebus falluntur, quando putant 
+   <lb ed="#PL"/> id bonum esse quod malum est: in hominibus autem, 
+   <lb ed="#PL"/> quando putant eum bonum esse qui maluS est: in 
+   <lb ed="#PL"/> utrisque vero, quando et id quod est vitium, virtus pu<lb ed="#PL" break="no"/>tatur; et ipse qui propter hoc laudatur, non habet 
+   <lb ed="#PL"/> quod putatur, sive sit bonus, sive sit malus. Donare 
+   <lb ed="#PL"/> quippe res suas histrionibus, vitium est immane, non 
+   <lb ed="#PL"/> virtus : et scitis de talibus quam sit frequens fama 
+   <lb ed="#PL"/> cum laude; quia, sicut scriptum est, <hi rend="italic">Laudatur pecca<lb ed="#PL" break="no"/>tor</hi> in <hi rend="italic">desideriis animae</hi> suae, <hi rend="italic">et</hi> qui iniqua <hi rend="italic">gerit, benedi­
+   <lb ed="#PL"/> citur (Psal.</hi> IX, 5). Hic laudatores uon failuntur in ho<lb ed="#PL" break="no"/>minibus, sed in rcbus : malum est enim quod bonum 
+   <lb ed="#PL"/> esse credunt. Illi autem qui hoc malo largitionis vitio<lb ed="#PL" break="no"/>si
+   sunt, tales utique sunt, quales eos hi qui laudant 
+   <lb ed="#PL"/> non suspicantur esse, sed cernunt. Porro si se quis­
+   
+   <lb ed="#PL"/> quam justum fingat, et non sit, sed totum quidquid 
+   <lb ed="#PL"/> coram hominibus laudabilitcr agere videtur, non agat 
+   <lb ed="#PL"/> propter Deum, boc est propter veram justitiam, sed 
+   <lb ed="#PL"/> solam quaerat et diligat ab hominibus gloriam; illi 
+   <lb ed="#PL"/> autem apud quos frequens est ejus fama cum laude, 
+   <lb ed="#PL"/> non cum putent nisi propter Deum laudabiliter vive<lb ed="#PL" break="no"/>re, non falluntur in re, sed falluntur in homine. Quod 
+   <lb ed="#PL"/> enim bonum esse credunt, est bonum ; sed quem bo<lb ed="#PL" break="no"/>num
+   esse credunt, non est bonus. Quod si putetur, 
+   <lb ed="#PL"/> verbi gratia, bonum artium peritia magicarum, et dum 
+   <lb ed="#PL"/> quisque patriam liberasse eisdem quas omnino nescit 
+   <lb ed="#PL"/> :'ribus creditur, frequcntem cum laude famam, quae 
+   <lb ed="#PL"/> goria definita est, apud homines impios consequatur; 
+   
+   <lb ed="#PL"/> errant in utroque qui laudant: et in re scilicet, quia 
+   <lb ed="#PL"/> id quod malum est, bonum putant; et in homine, quia 
+   <lb ed="#PL"/> non est quod putant. Quapropter falsa est in his tri<lb ed="#PL" break="no"/>bus
+   generibus gloria. Cum autem de aliquo per Deum 
+   <lb ed="#PL"/> et propter Deum justo, boc est veraciter justo, causa 
+   <lb ed="#PL"/> ipsius justitiae frequens est Cama cum laude; vera 
+   <lb ed="#PL"/> quidem gloria est; non tamen ea credendum est bea- 
+   <lb ed="#PL"/> tificari justum, sed laudantibus gratulandum est, quia 
+   <lb ed="#PL"/> recte judicant, et diligunt justum. Quanto magis ergo 
+   <lb ed="#PL"/> Dominus Christus, non sibi, sed eis profuit gloria sua, 
+   <lb ed="#PL"/> quibus profuit morte sua ?</p>
+      <p xml:id="iuy75t-d1e859-d1e369">3. Sed non est vera ejus apud haerelicos gloria, 
+   <lb ed="#PL"/> apud quos tamen frequentem famam videtur habere 
+   <lb ed="#PL"/> cum laude. Non est haec vera gloria, quia in utroque 
+   <lb ed="#PL"/> falluntur
+   : nam et bonum putant esse quod bonutn 
+   <lb ed="#PL"/> non est, et Christum putant esse quod Christus non 
+   <lb ed="#PL"/> est. Unigenitum enim Filium aequalem non esse gi<lb ed="#PL" break="no"/>gnenti, non est bonum : unigenitum Dei Filium homi<lb ed="#PL" break="no"/>ncm
+   tantum esse, non Deum, non est bonum : Verita<lb ed="#PL" break="no"/>tis
+   carnem non esse veram carnem, non est bonum. 
+   <lb ed="#PL"/> Horum trium quae dixi,primum sentiuntAriani, secun<lb ed="#PL" break="no"/>dum
+   Pboliniani, tertium Manichaei. Sed quia et eorurn 
+   <lb ed="#PL"/> nihil est bonum, et Christus nihil est eorum, in utro. 
+   <lb ed="#PL"/> que falluntur
+   : nec dant veramgloriam Christo, quam<lb ed="#PL" break="no"/>vis
+   apud eos esse videatur cum laude frequens fa<lb ed="#PL" break="no"/>ma
+   de Christo. Et omnes prorsus haeretici, quos com<lb ed="#PL" break="no"/>memorare
+   nimis longum est, qui de Christo non re<lb ed="#PL" break="no"/>cae
+   sentiunt, ideoerrant, quia et de bonis rebus ac malis 
+   <lb ed="#PL"/> non verum sentiunt. Pagani etiam quoniam sunt CUri<lb ed="#PL" break="no"/>sti
+   plurimi laudatores, et ipsi in utroque falluntur, 
+   <lb ed="#PL"/> qui non secundum veritatem Dei,sed potius secundum 
+   <lb ed="#PL"/> luam suspicionem dicunt eum fuisse hominem magum. 
+   <lb ed="#PL"/> Christianos quippe velut imperitos vituperant, Chri<lb ed="#PL" break="no"/>stum
+   autem velut magum laudatu, ac sic produnt 
+   <lb ed="#PL"/> quod amant: Christum vcro non amant; quoniam 
+   <lb ed="#PL"/> quod non erat Christus, hoc amant. Ideo ergo in 
+   <lb ed="#PL"/> utroque falluntur, quiaetmagum esse malum est; 
+   <lb ed="#PL"/> et magus non fuit Christus, quia bonus est. Quapro<lb ed="#PL" break="no"/>pter
+   quoniam de his nihil hoc loco dicendum est, qui 
+   <lb ed="#PL"/> Christum vituperant atque blasphemant ; quia de glo<lb ed="#PL" break="no"/>ria
+   ejus loquimur, qua est glorificatus in mundo : 
+   <lb ed="#PL"/> non eum glorificavit Spiritus sanctus vera gloria, nisi 
+   <lb ed="#PL"/> in Ecclesia sancta catholica. Alibi enim, id est, vel 
+   <lb ed="#PL"/> apud haereticos, vel :pud quosdam paganos, vera 
+   <lb ed="#PL"/> ejus in terris gloria non potest esse, et ubi videtur 
+   <lb ed="#PL"/> esse frequens de illo fama cum laude. Vera ergo ejus 
+   <lb ed="#PL"/> gloria in Ecclesia catholica sic a propheta cantatur : 
+   <lb ed="#PL"/>
+       <hi rend="italic">Exaltare super coelos, Deus, et super omnem terram glo<lb ed="#PL" break="no"/>ria
+    tua</hi> ( <hi rend="italic">Psal.</hi> cvu, 6 ). Quia itaque post ejus exalta<lb ed="#PL" break="no"/>tioncm
+   venturus erat Spiritus sanctus, et eum giori<lb ed="#PL" break="no"/>ficaturus, hoc sacer Psalmus, hoc ipse Unigeuints 
+   <lb ed="#PL"/> promisit futurum, quod videmus impletum.</p>
+      <p xml:id="iuy75t-d1e859-d1e464">4. Quod autem ait, <hi rend="italic">De meo accipiet, ei annuntiabit 
+   <lb ed="#PL"/> vobis,</hi> catholicis audite auribus, catholicis percipite 
+   <lb ed="#PL"/> mentibus. Non enim propterea, sicut quidam haeretici 
+   <lb ed="#PL"/> putaverunt, minor est Filio Spiritus sanctus : quasi 
+   <lb ed="#PL"/> Filius accipiat a Patre, et Spiritus sanctus a Filio 
+   <lb ed="#PL"/> quibusdam gradibus naturarum. Absit hoc credere, 
+   <lb ed="#PL"/> absit hoc dicere, absit a christianis cordibus cogitare. 
+   <pb ed="#PL" n="1893"/>
+       <lb ed="#PL"/> Denique continuo solvit ipse quaestionem,eteur hoc 
+   <lb ed="#PL"/> dixerit, explanavit. Omnia, inquit, quaecumque <hi rend="italic">habet</hi>
+   
+       <lb ed="#PL"/> Pater, mea <hi rend="italic">sunt: propterea dixi</hi> quia <hi rend="italic">de</hi> meo <hi rend="italic">accipiet,</hi>
+   
+       <lb ed="#PL"/> et annuntiabit <hi rend="italic">vobis.</hi> Quid vultis amplius! Ergo de 
+   <lb ed="#PL"/> Patre accipit Spiritus sanctus, unde accipit Filius ; 
+   <lb ed="#PL"/> quia in hac Trinitate de Patre natus cai Filius, de 
+   <lb ed="#PL"/> Patre procedit Spiritus sanctus. Qui autem de nullo
+   
+   <lb ed="#PL"/> natus sit, de nullo procedat, Pater sokis est. Quo<lb ed="#PL" break="no"/>modo
+   autem dixerit unigenitus Filius, <hi rend="italic">Omnia</hi> quae <hi rend="italic">ha-
+   <lb ed="#PL"/> 6ct
+    Puter, mea sunt</hi> (quia utique non sic quemadmo<lb ed="#PL" break="no"/>dum
+   dictum est illi Filio nen unigeniio, sed ex duobus 
+   <lb ed="#PL"/> majori, Tu mecum es <hi rend="italic">semper, et
+    omnia</hi> mea <hi rend="italic">tua sunt
+   <lb ed="#PL"/> [Luc.</hi> xv, 31]); eo loco, si Dominus voluerit, diligenti 
+   <lb ed="#PL"/> consideratione tractabitur, ubi dicit Unigenitus Patri, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Et</hi> mea <hi rend="italic">omnia tua</hi> sunt, et <hi rend="italic">tua mea sunt (Joan.</hi> XVII, 10): 
+   <lb ed="#PL"/> ut hic iste sermo claudatur; quoniamquae sequuntur, 
+   <lb ed="#PL"/> aliud poscunt, quo disserantur, exordium.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 68</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 68</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e598"> <!-- iuy75t-t68 -->
+      <head xml:id="iuy75t-d1e598-Hd1e109">Tractatus 68</head>
+      <!--<ab>
+   <title type="sub">
+    <hi rend="italic">In eamdem lectionem.</hi>
+   </title>
+  </ab>-->
+      <p xml:id="iuy75t-d1e598-d1e114">1. Deberi vobis, fratres charissimi, jamque esse 
+   <lb ed="#PL"/> reddendum quod distuleramus, agnoscimus, quo<lb ed="#PL" break="no"/>modo
+   intelligi possint non esse inter se ista duo con<lb ed="#PL" break="no"/>lraria,
+   quod cum dixisset Dominus, <hi rend="italic">In domo Patris</hi>
+   
+       <lb ed="#PL"/> met <hi rend="italic">mansiones multae sunt:</hi> si <hi rend="italic">quo minus,
+    dixissem vo<lb ed="#PL" break="no"/>bia
+   quia vado parare vobis locum ;</hi> ubi salis ostendit 
+   <lb ed="#PL"/> ideo se hoc illis dixisse, quia jam ibi sunt mansiones 
+   <lb ed="#PL"/> multae, et non est opus aliquam pracparare : rursus 
+   <lb ed="#PL"/> dicit : <hi rend="italic">Et</hi> si <hi rend="italic">abiero, et praeparavero vobis locum; ite­</hi>
+   
+       <lb ed="#PL"/> rum ten o, <hi rend="italic">et accipiam vos ad</hi> me <hi rend="italic">ipsum,
+    ut ubi ego 
+   <lb ed="#PL"/> sum et vos</hi> sitis. Quomodo vadit, et parat locum, si 
+   <lb ed="#PL"/> jam inultae mansiones sunt? Si quo minus, dixisset, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Vado parare.</hi> Aut si adhuc parandus eft, cur non me<lb ed="#PL" break="no"/>rito
+   dixisset, <hi rend="italic">Vado parare?</hi> An istae mansiones et 
+   <lb ed="#PL"/> sunt, et parandae sunt? Si quo minus enim essent, 
+   <lb ed="#PL"/> dixisset, <hi rend="italic">Vado
+    parare.</hi> Et tamen quia ita suntutpa<lb ed="#PL" break="no"/>randae
+   sint, non eas vadit pararc sicut sunt : sco 
+   <lb ed="#PL"/> si abierit et paraverit sicut futurae sunt, iterum ve<lb ed="#PL" break="no"/>niens
+   accipiet suos ad seipsum, ul ubi est ipse, sint 
+   <lb ed="#PL"/> aHiam ipsi. Quomodo ergo mansiones in domo Patris 
+   <lb ed="#PL"/> non aliae, sed ipsae , et sine dubio jam sunt sicut pa<lb ed="#PL" break="no"/>randae
+   non sunt,etnondum sunt sicut parandae suut? 
+   <lb ed="#PL"/> Quomodo putamus, nisi quomodo cHam propheta 
+   <lb ed="#PL"/> praedicat Deum, quia fecit quai futura sunt ? Noh 
+   <lb ed="#PL"/> enim ait, Qui facturus est quae futura sunt, sed. Qui 
+   <lb ed="#PL"/>
+       <hi rend="italic">fecit quae futura sunt (Isa.</hi> XLV, ii , <hi rend="italic">sec.</hi> LXX). Ergo 
+   <lb ed="#PL"/> et fecit ea , et facturus est ca. Nam neque facta sunt, 
+   <lb ed="#PL"/> si ipse non fecit : neque futura sunt, si ipse non fe<lb ed="#PL" break="no"/>cerit. Fecit ergo ea praedeslinando, facturus est opc<lb ed="#PL" break="no"/>rando. Sicut discipulos quando elegerit, salis indicat 
+   <lb ed="#PL"/> Evangelium ; tunc utique quando eos vocavit <hi rend="italic">(Luc.</hi>
+   
+       <lb ed="#PL"/> v, 13) : et tamen ait Apostolus, <hi rend="italic">Elegit nos ante 
+   <lb ed="#PL"/> mundi
+    constitutionem (Ephes.</hi> I, 4) : praedestinando 
+   <lb ed="#PL"/> utique, non vocando. <hi rend="italic">Quos autem praedestinavit, illos
+   <lb ed="#PL"/> et vocavit (Rom.</hi> vin, 50) : elegit praedestinando ante 
+   <lb ed="#PL"/> mundi constitutionem, elegit vocando antc mundi con­
+   
+   <lb ed="#PL"/> summationem. Sic et mansioncs praeparavitetprae<lb ed="#PL" break="no"/>parat; nec alias, sod quas praeparavit, has praeparat, 
+   <lb ed="#PL"/> qui fecit quae futura sunt : quas praeparavit praedesti<lb ed="#PL" break="no"/>nando, praeparat operando. Jam ergo sunt in prae<lb ed="#PL" break="no"/>destinatione : si quo minus, dixisset, Ibo et parabo , 
+   <lb ed="#PL"/> id est, praedestinabo. Sed quia nondum sunt in ope<lb ed="#PL" break="no"/>ratione, <hi rend="italic">Et si abiero,</hi> inquit, <hi rend="italic">et</hi> praeparavero <hi rend="italic">vobis 
+   <lb ed="#PL"/> locum; iterum venio, et
+    accipiam</hi> vos <hi rend="italic">ad mcipsum.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e598-d1e269">i. Parat autcm quodammodo mansiones, mansio<lb ed="#PL" break="no"/>nibus
+   parando mansorcs. Qu:ppe cum dixerit, <hi rend="italic">In do.</hi>
+   
+       <lb ed="#PL"/> mo <hi rend="italic">Patris met mansiones multae</hi> sunt; quid putamus 
+   <lb ed="#PL"/> esse domum Dei, nisi templum Dei? Quod autcm sit, 
+   <lb ed="#PL"/> interrogetur Apostolus, et respondeat: <hi rend="italic">Templum cnim 
+   <lb ed="#PL"/> Dei sanctum est, quod estis</hi> vos (! Cor. III, 17). Hoc est 
+   <lb ed="#PL"/> etiam regnum Dci, quod Filius traditurus est Palri: 
+   <lb ed="#PL"/> unde dicit idem apostolus, <hi rend="italic">Initium</hi> Christus , <hi rend="italic">deinde</hi>
+   
+       <lb ed="#PL"/> qui <hi rend="italic">sunt Christi in proesentia ejus : deinde finis , cum 
+   <lb ed="#PL"/>
+    tradiderit regnum Deo et Patri (Id.</hi> xv, 23 et 24); id 
+   <lb ed="#PL"/> est, quos redemit sanguine suo , tradiderit contem<lb ed="#PL" break="no"/>plando
+   etiam Patri suo. Hoc est regnum coelorum,
+   
+   <lb ed="#PL"/> de quo dicitur, <hi rend="italic">Simile est regnum</hi> caelorum <hi rend="italic">homini semi<lb ed="#PL" break="no"/>nanti
+   bonum semen</hi> in <hi rend="italic">agro suo. Bonum
+    autem</hi> semen , 
+   <lb ed="#PL"/> hi <hi rend="italic">sunt filii regni:</hi> qui etsi nunc habent permixta zi<lb ed="#PL" break="no"/>zania , mittet in fine rex ipse Angelos suos , <hi rend="italic">et colli­
+   <lb ed="#PL"/> gent de regno ejus omnia scandala. Tunc justi fulge­
+    
+   <lb ed="#PL"/> bunt sicut sol in regno Patris sui (Matth.</hi> XIII, 24, 
+   <lb ed="#PL"/> 38 43). Regnum fulgebit in regno, cum regno vene. 
+   <lb ed="#PL"/> rit regnum, quod nunc oramus, et dicimus, <hi rend="italic">Veniat
+   <lb ed="#PL"/> fegnum tuum (Id.</hi> VI, 10). Nunc ergo jam regnum 
+   <lb ed="#PL"/> vocatur, sed adhuc convocatur : si enim regnum non 
+   <lb ed="#PL"/> vocaretur, <hi rend="italic">Colligent de regno ejus omnia scandula,</hi> nop 
+   <lb ed="#PL"/> dicerctur. Sed nondum regnat hoc regnum. Proinde 
+   <lb ed="#PL"/> sic jam est regnum, ut cum de illo collecta fuerint 
+   <lb ed="#PL"/> omnia scaidala, tunc perveniat ad regnum; ut non 
+   <lb ed="#PL"/> solum regni nomen , sed etiam regnandi habeat po<lb ed="#PL" break="no"/>testatem. Huic quippo regno ad dexteram stanti, in 
+   <lb ed="#PL"/> fine dicetur, <hi rend="italic">Venite, benedicti Patris</hi> mei, <hi rend="italic">percipite</hi>
+   
+       <lb ed="#PL"/>
+       <pb ed="#PL" n="1815"/>
+       <hi rend="italic">regnum (Matth.</hi> XXV, 34) : id cst, qui regnum cratis cl 
+   <lb ed="#PL"/> non regnabatis, venite , regnate; ut quod in spe fue<lb ed="#PL" break="no"/>ratis, cliam in re esse possitis. Haec ergo domus Dci, 
+   <lb ed="#PL"/> huc templum Dei, hoc regnum Oei . regnumque cae­
+   
+   <lb ed="#PL"/> lorum adhuc ardificatur, adhuc fabricatur I, adhuc pa<lb ed="#PL" break="no"/>ratur, adhuc congregatur. In illo erunt mansiones, 
+   <lb ed="#PL"/> sicut eas adhuc paral Dominus : in illo jam sunt, 
+   <lb ed="#PL"/> sicut praedestinavit jam Dominus.</p>
+      <p xml:id="iuy75t-d1e598-d1e402">3. Sed quid est quod ut praepararet abiit, cum pro<lb ed="#PL" break="no"/>fecto
+   nos ipsos praepararet 2, quod non faciet si reli<lb ed="#PL" break="no"/>querit? Agnosco, Domine, ut posSum : nimirum illud 
+   <lb ed="#PL"/> significas, quia ut parentur istac mansiones , vivere 
+   <lb ed="#PL"/> debet justus ex fide <hi rend="italic">(Rom.</hi> I, 17). Qui enim a DominO 
+   <lb ed="#PL"/> peregrinamur, opus habet ex fide vivere; quia per 
+   <lb ed="#PL"/> hanc ad speciem contemplandam paratur (II <hi rend="italic">Cor.</hi> v, 
+   <lb ed="#PL"/> 6-8). <hi rend="italic">Beati</hi> enim <hi rend="italic">mundo
+    corde, quia ipsi Deum vide<lb ed="#PL" break="no"/>bunt (Matth.</hi> v, 8): et, <hi rend="italic">Fide
+    mundal corda eorum (Act.</hi>
+   
+       <lb ed="#PL"/> xv, 9). Illud in Evangelio, hoc in Apostolorum Acti<lb ed="#PL" break="no"/>bus
+   legitur. Fides autem , qua corum qui Deum 
+   <lb ed="#PL"/> visuri sunt, quamdin peregrlantur, corda mundan<lb ed="#PL" break="no"/>tur,
+   quod non videt credit: nam si vides, non est 
+   <lb ed="#PL"/> fides. Credenti colligitur meritum, videnii redditur 
+   <lb ed="#PL"/> praemium. Eat ergo Dominus ci paret locum; eat ue 
+   <lb ed="#PL"/> videatur, lateat ut credatur. Tunc enim locus pa<lb ed="#PL" break="no"/>ratur, si ex fide vivatur. Creditus desideretur, ut 
+   <lb ed="#PL"/> desideratus habeatur : desidcrinm dilectionis, praepa­
+   
+   <lb ed="#PL"/> ratio est mansionis. Ita , Domine, para quod paras: 
+   <lb ed="#PL"/> nos enim tibi paras, et te nobis paras; quoniam lo<lb ed="#PL" break="no"/>cum
+   paras, et tibi in nobis, et in te nobis. Tu cnim
+   
+   <lb ed="#PL"/> dixisti, <hi rend="italic">Manete</hi> in <hi rend="italic">me, et ego</hi> in <hi rend="italic">vobis (Joan.</hi> xv, 4). 
+   <lb ed="#PL"/> Qnantum quisque fuerit particeps tui, alius minus, 
+   <lb ed="#PL"/> alius amplius, haec erit diversitas praemiorum pro di<lb ed="#PL" break="no"/>versitate
+   meritorum : haec crit multitudo m.in ionum 
+   <lb ed="#PL"/> pro disparilitate mansorum; sed tamen omnium in 
+   <lb ed="#PL"/> aeternitate vivorum , et sine fine beatorum. Quid est 
+   <lb ed="#PL"/> quod vadis? quid est quod venis ? Si bcno te intelligo, 
+   <lb ed="#PL"/> nec unde vadis nec unde venis, recedis
+   : vadis la<lb ed="#PL" break="no"/>tendo, venis apparendo. Sed nisi mancas regendo, 
+   <lb ed="#PL"/> ut proficiamus bene vivendo; quomodo parabitur lo<lb ed="#PL" break="no"/>cus
+   ubi possimus manere perfruendo? Haec de verbis 
+   <lb ed="#PL"/> quae recitata sunt evangelicis, satis dicta sint, quo 
+   <lb ed="#PL"/> usque ait Dominus, Iterum <hi rend="italic">venio, et accipiam vos ad
+   <lb ed="#PL"/> meipsum.</hi> Quid autem sit quod sequitur, <hi rend="italic">Ut ubi ego</hi>
+   
+       <lb ed="#PL"/> sum, <hi rend="italic">et vos</hi> sitis. <hi rend="italic">Et quo ego vado scitis
+    , et viam scitis;</hi>
+   
+       <lb ed="#PL"/> post interrogationem qua; sequitur a discipulo factam, 
+   <lb ed="#PL"/> tanquam per eum et nos interrogemus, melius au<lb ed="#PL" break="no"/>diemus
+   opportuniusque tractabimus.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 32</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 32</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e304"> <!-- iuy75t-t32 -->
+      <head xml:id="iuy75t-d1e304-Hd1e109">Tractatus 32</head>
+      <p xml:id="iuy75t-d1e304-d1e112">
+       <hi rend="italic">Ab eo loco,</hi> In novissimo autem die festivitatis stabat 
+   <lb ed="#PL"/> Jesus et clamabat, dicens, Si quis sitit, veniat ad 
+   <lb ed="#PL"/> me, et bibat; <hi rend="italic">usque ad id,</hi> Nondum enim erat Spi<lb ed="#PL" break="no"/>ritus
+   datus, quia Jesus nondum fuerat glorificatus. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Cap.</hi> VII, f . 37-59,</p>
+      <p xml:id="iuy75t-d1e304-d1e133">1. Inter dissensiones et dubitationes Judaeorum de 
+   <lb ed="#PL"/> Domino Jesu Christo, inter caetera quue dixit, quibus 
+   <lb ed="#PL"/> alii confunderentur, alii docerentur; novissimo illius 
+   <lb ed="#PL"/>
+       <hi rend="italic">festivitatis die</hi> (tunc eniin ista agebantur), quae appel<lb ed="#PL" break="no"/>latur
+   Scenopegia, id est tabernaculorum constructio, 
+   <lb ed="#PL"/> de qua festivitate jam antea meminit Charitas vestra 
+   <lb ed="#PL"/> fuisse dissertum, vocat Dominus Jesus Christus, et 
+   <lb ed="#PL"/> hoc non utcumque loquendo v sed clamando, ut qui 
+   <lb ed="#PL"/> 3itit veniat ad eum. Si sitimus, veniamus; et non pe 
+   <lb ed="#PL"/> dibus, sed affectibus; nec migrando, sed amando 
+   <lb ed="#PL"/> veniamus. Quanquam secundum iuteriorem hominem. 
+   <lb ed="#PL"/> et qui amat migrat. Et aliud est migrare corpore, aliud ! 
+   <lb ed="#PL"/> corde : migrat corpore qui motu corporis mutat lu-
+   <lb ed="#PL"/> cum; migrat corde, qui motu cordis mutat affectum 
+   <lb ed="#PL"/> Si aliud amas, aliud amabas, non ibi es ubi eras.</p>
+      <p xml:id="iuy75t-d1e304-d1e169">i. Clamat ergo nobis Dominus : <hi rend="italic">Stabat</hi> enim, <hi rend="italic">et
+    
+   <lb ed="#PL"/> clamabat,</hi> Si <hi rend="italic">quis sitit, veniat ad me , et bibat. Qui
+    
+   <lb ed="#PL"/> credit</hi> in me, sicut <hi rend="italic">dicit Scriptura, flumina de ventre
+    
+   <lb ed="#PL"/> ejus fluent aquae</hi> vivae. Quid hoc esset, quando Evan<lb ed="#PL" break="no"/>gelista
+   exposuit, immorari non debemus. Unde enim 
+   <lb ed="#PL"/> dixerit Domiuus, Si <hi rend="italic">quis sitit,
+    veniat ad me, et bibat,</hi>
+   
+       <lb ed="#PL"/> et, <hi rend="italic">Qui credit in me, flumina de ventre ejus fluent aqua 
+   <lb ed="#PL"/>
+    vivae;</hi> consequenter exposuit Evangelista, dicens : Hoc 
+   <lb ed="#PL"/> autem <hi rend="italic">dixit de Spiritu quem accepturi erant credentes</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">eum.</hi> Nondum <hi rend="italic">enim erat Spiritus</hi> datus , <hi rend="italic">quia</hi> Jesus 
+   <lb ed="#PL"/> nondum <hi rend="italic">erat
+    glorificatus.</hi> Est ergo sitis interior et veu- 
+   
+   
+   <pb ed="#PL" n="1643"/>
+       <lb ed="#PL"/> ter interior, quia est homo interior. Et itle quidem 
+   <lb ed="#PL"/> interior invisibilis, exterior autem visibilis : sed me- 
+   <lb ed="#PL"/> Hor interlor quam exterior. Et quod non videtur, hoc 
+   <lb ed="#PL"/> I lus amatur: constat enim plus amari hominem in<lb ed="#PL" break="no"/>teriorem
+   quam exteriorem. Unde hoe constat ? Unus<lb ed="#PL" break="no"/>quisque
+   in seipso probet. Qoamvis enim qui male vi<lb ed="#PL" break="no"/>vunt , animos suos corpori addicant; yivere tamen 
+   <lb ed="#PL"/> volunt, quod non est nisi animi, magisque seipsos 
+   <lb ed="#PL"/> indicant qui regunt, quam illa quae reguntur. Regunt 
+   <lb ed="#PL"/> enim animi, reguntur corpora. Gaudet quisque volu<lb ed="#PL" break="no"/>ptate,
+   et capit de corpore voluptatem : sed separa ani<lb ed="#PL" break="no"/>mum, nihil restat in corpore quod gaudeat; et si de 
+   <lb ed="#PL"/> corpore gaudet, animus gaudet. Si gaudet de domo
+   
+   <lb ed="#PL"/> sua, de se non debet gaudere? et si habet animus 
+   <lb ed="#PL"/> unde oblectetur extrinsecus, sine deliciis manet in<lb ed="#PL" break="no"/>. trinsecus ? Omnino constat plus amare hominem ani<lb ed="#PL" break="no"/>mam
+   suam quam corpus suum. Sed et in alio Immine 
+   <lb ed="#PL"/> plus amat homo animam quam corpus. Quid enim 
+   <lb ed="#PL"/> amatur in amico, ubi est amor sincerior et castior?
+   
+   <lb ed="#PL"/> Quid amatur in amico; animus, an corpus? £ i fides 
+   <lb ed="#PL"/> amator, animus amatur : si benevolentia amatur, be<lb ed="#PL" break="no"/>nevolentiae
+   sedes animus est: si hoc amas in altero,
+   
+   <lb ed="#PL"/> quia et ipse amat te, animum amas ; quia neD caro, 
+   <lb ed="#PL"/> sed animus amat. Ideo enim amas, quia te amat: 
+   <lb ed="#PL"/> quaere unde te amet, et vide quid ames. Phis ergo 
+   <lb ed="#PL"/> amatur, et non videtur.</p>
+      <p xml:id="iuy75t-d1e304-d1e287">3. Aliquid etiam velo dicere, ubi magis appareat 
+   <lb ed="#PL"/> Dilectioni vestrae quantum ametur animus, et quem<lb ed="#PL" break="no"/>admodum
+   corpori praeponatur. Illi ipsi lascivi ama<lb ed="#PL" break="no"/>tores, qui pulchritudine corporum delectantur, et 
+   <lb ed="#PL"/> forma membrorum accenduntur, tunc amaut amplius 
+   <lb ed="#PL"/> quando amantur. Nam si amet et sentiat quia odio 
+   <lb ed="#PL"/> babetur, magis irascitur quam diligit. Quare magis 
+   <lb ed="#PL"/> irascitur quam diligit? Quia non ei redditur quod 
+   <lb ed="#PL"/> impendit. 8i ergo ipsi corporum amatores redamari 
+   <lb ed="#PL"/> se volunt, et hoc eos magis delectat si amentur; 
+   <lb ed="#PL"/> quales sunt amatores animonim ? fit si magni sunt 
+   <lb ed="#PL"/> amatores animorum, qnalee sunt amatores Dei, qui 
+   <lb ed="#PL"/> pulchros ammos fach? SiCut enim animus facit decus 
+   <lb ed="#PL"/> in corpore, sic Deus in animo. Non enim facit Cor<lb ed="#PL" break="no"/>pori
+   unde ametur nisi anlmus : qui com migraverit, 
+   <lb ed="#PL"/> cadaver horrescis; et quantumcumque pulchra illa 
+   <lb ed="#PL"/> ntembra dilexeris, sepelire festinas. Decus ergo cor<lb ed="#PL" break="no"/>poris, animus : decus animi, De..</p>
+      <p xml:id="iuy75t-d1e304-d1e326">4. Clamat ergo Deminus ut veniamus et bibamis, 
+   <lb ed="#PL"/> si intus sitiamus; et dicit quia owa biberimus, flumi<lb ed="#PL" break="no"/>na
+   aquae vivae fluent de ventre nostro. Venter ime- 
+   <lb ed="#PL"/> a ioiis hominis conscientia cordis est. Bibito ergo isto 
+   <lb ed="#PL"/> liquore viveseit purgata conscientia; et bauriens, 
+   <lb ed="#PL"/> fontem bnbebit; etiam ipsa fons erit. Quid est fons,
+   
+   <lb ed="#PL"/> et quid est fluvius qui manat de ventre interioris 
+   <lb ed="#PL"/> hominis Benevolentia, qua vult consulere proximo. 
+   <lb ed="#PL"/> Si enim putot qaM quod bibit edi ipsi debet suffi<lb ed="#PL" break="no"/>cere
+   ; neo fluit aqua viva de ventre ejus : si autem 
+   <lb ed="#PL"/> proximo festinat consulere; idco nen siscat, quia 
+   <lb ed="#PL"/> manat. Videbimus nunc quid eit qnod bibunt, qui 
+   <lb ed="#PL"/> ereduut in Domino; quia utique Christiani sumus, et 
+   <lb ed="#PL"/> si credimus, bibimus. Et unusquisque in seipso debeł 
+   <lb ed="#PL"/> agnoscere si bibit, et si vivitex eo quod bibit : non
+   
+   <lb ed="#PL"/> enim nos deserit fons, si non deseramus fontem.</p>
+      <p xml:id="iuy75t-d1e304-d1e361">8. Exposuit Evangelista, ot dixit unde Dominus 
+   <lb ed="#PL"/> clamasset, ad qualem potum invitasset, quid bibenti<lb ed="#PL" break="no"/>bus
+   propinasset, dicens, <hi rend="italic">Hoc
+    autem</hi> aicebat de <hi rend="italic">Spiriitu 
+   <lb ed="#PL"/> quem accepturi</hi> erant <hi rend="italic">credentes in</hi> eum. <hi rend="italic">Nondum enim
+   <lb ed="#PL"/> erat Spiritus
+    datus, quia Jesus</hi> nondum <hi rend="italic">erat glorifica­</hi>
+   
+       <lb ed="#PL"/> tus. Quem dicit Spiritum, nisi sanctum Spirtum ? Nam 
+   <lb ed="#PL"/> unusquisque homo habet in se preprium spiritum, 
+   <lb ed="#PL"/> de quo loquebar eum animum commendarem. Animus 
+   <lb ed="#PL"/> enim cujusque, proprias est spiritus ejus : de quo 
+   <lb ed="#PL"/> dicit . Paulus apostolus , Quis enim scit hominum <hi rend="italic">quae</hi>
+   
+       <lb ed="#PL"/> sunt <hi rend="italic">hominis,</hi> nisi <hi rend="italic">spiritus hominis,</hi> qui in ipso est? 
+   <lb ed="#PL"/> deinde adjunxit, <hi rend="italic">Sie et qum</hi> Dei <hi rend="italic">sunt,</hi> nemo <hi rend="italic">scit,</hi> nisi 
+   <lb ed="#PL"/> Spiritus Dei (i
+    <hi rend="italic">Cor.</hi> n, 11). Nostra nemo scit, nisi 
+   <lb ed="#PL"/> spiritus noster. Non enim novi qaid cogitas, aut tu 
+   <lb ed="#PL"/> quid cogito : ipsa enim sunt propria nostra, quae in<lb ed="#PL" break="no"/>terius
+   cogitamus; et cogitationum uniuscujusque lio<lb ed="#PL" break="no"/>minis
+   ipsius spiritus testis est. Sia et quae <hi rend="italic">Dei sunt,</hi>
+   
+       <lb ed="#PL"/> nemo scit, nisi <hi rend="italic">Spiritus</hi> Dei. -Nos cum epititu nostro,
+   
+   <lb ed="#PL"/> Deus eum suo : ita tamen ut Deus cum sue Spiritu 
+   <lb ed="#PL"/> sciat etiam quid agatur in nobis; nos autem sine ejus 
+   <lb ed="#PL"/> Spiritu Mire non possumus quid agatur in Deo. Deus
+   
+   <lb ed="#PL"/> autem scit in nobis et quod ipsi nescimus in nobis. 
+   <lb ed="#PL"/> Nam infirmitatem Suam Petrus nesciebat, quando a 
+   <lb ed="#PL"/> Domino quod ter esset negaturus audiebat <hi rend="italic">(Matth.</hi>
+   
+       <lb ed="#PL"/> xxvi, 33-35), et aeger se ignorabat; medicus aegrum 
+   <lb ed="#PL"/> sciebat. Sunt ergo quaedam quae Deus novit in nobis, 
+   <lb ed="#PL"/> nescientibus nobis. Tamen quantum ad homines per<lb ed="#PL" break="no"/>tinet,
+   nemo sic se novit quomodo ipse homo : alius 
+   <lb ed="#PL"/> noscit quid in illo agatur, sed spiritus ejus novit. 
+   <lb ed="#PL"/> Acceplo autem Spiritu Oei, discimus et quid agatur 
+   <lb ed="#PL"/> in Beo : non totum, quia non accepimus totum. Do 
+   <lb ed="#PL"/> pignore multa novimus : pignus enim accepimus, et 
+   <lb ed="#PL"/> hujus pignoris plenitudo postea dabitur. Interim in 
+   <lb ed="#PL"/> hac peregrinatione pignus nos consoletur, quia qui 
+   <lb ed="#PL"/> nos dignatus est oppignerare, multum paratus est 
+   <lb ed="#PL"/> dare. Si talis est arrha, quid est cujus est arrba ?</p>
+      <p xml:id="iuy75t-d1e304-d1e487">6.Sed quid est quod ait, <hi rend="italic">Non</hi> enim erat <hi rend="italic">Spiritus</hi>
+   
+       <lb ed="#PL"/> datus, <hi rend="italic">quia</hi> Jesus <hi rend="italic">nondum erat
+    glorificates?</hi> la evidenti 
+   <lb ed="#PL"/> est intellectus. Non enim non erat Spiritus Dei, qni 
+   <lb ed="#PL"/> erat apud Deum ; sed nondum erat in eis qui credi<lb ed="#PL" break="no"/>derant
+   in Josum. Ita enim disposuit Dominus Jesus 
+   <lb ed="#PL"/> non eis dare Spiritum istum 4e quo loquimur, nisi
+   
+   <lb ed="#PL"/> post resurrectionem suam; et hec non sme causa. 
+   <lb ed="#PL"/> Et forte si quaeramus, annuet ut inveniamus; at si 
+   <lb ed="#PL"/> pulcemus, aperiet ut 'intremus. Pietas pulsat, non 
+   <lb ed="#PL"/> manu
+   : quanquam pulsat et manus, si ab eperibus j 
+   <lb ed="#PL"/> misericordiae non cesset monus. Quae igitur ea.. 
+   <lb ed="#PL"/> est cur Dominus Jesus Christus statuerit nonnisi 
+   <lb ed="#PL"/> cum esset glorificatus, dare Spiritum sanctum? Quod 
+   <lb ed="#PL"/> antequam dicamus ut possumus, prius quaerendum 
+   <lb ed="#PL"/> est, ne quem forte moveat, quomodo nondum erat 
+   <lb ed="#PL"/> Spiritus in hominibus sanctis, cum de ipso Domino 
+   <lb ed="#PL"/> recens nato legatur in Evangelio, quod eam in Spi<lb ed="#PL" break="no"/>ritu
+   sancto agnoverit Simeon, agnoverit etiam Anna 
+   <lb ed="#PL"/> vidua prophetissa
+    <hi rend="italic">(Luc.</hi> II, 25-38); agnoverit Joannes 
+   <lb ed="#PL"/> ipse, qui eum baptizavit <hi rend="italic">(Joan.</hi> I, 16-34) : impletus 
+   <lb ed="#PL"/> Spiritu sancto Zacharias multa dixit (Luc. l, 67-79); 
+   <lb ed="#PL"/> Spiritum sanctum ipsa ,lara, ut Dominum concipe­ 
+   <pb ed="#PL" n="1645"/>
+       <lb ed="#PL"/> ret, accepit <hi rend="italic">(Luc.</hi> 35). Multa ergo indicia praece­
+   
+   <lb ed="#PL"/> dentia Spiritus sancti habemus, antequam Dominus 
+   <lb ed="#PL"/> glorificaretur resurrectione carnis suae. Non enim 
+   <lb ed="#PL"/> alium spiritum etiam Prophetae habuerunt, qui Chri<lb ed="#PL" break="no"/>i
+   stum venturum praenuntiaverunt. Sed modus quidam 
+   <lb ed="#PL"/> futurus erat dationis hujus, qui omnino antea non 
+   <lb ed="#PL"/> apparuerat: de ipso hic dicitur. Nusquam enim legi<lb ed="#PL" break="no"/>mus
+   antea congregatos homines accepto Spiritu san<lb ed="#PL" break="no"/>cto, linguis omnium gentium locutos fuisse. Post 
+   <lb ed="#PL"/> resurrectionem autem suam, primum quando appa<lb ed="#PL" break="no"/>ruit
+   discipulis suis, dixit illis : Accipite <hi rend="italic">Spiritum</hi> san­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">ctum.</hi> De hoc ergo dictum est, <hi rend="italic">Non erat Spiritus
+    datus, 
+   <lb ed="#PL"/> quia Jesus nondum erat glorificatus.</hi> Et <hi rend="italic">insufflavit in
+   <lb ed="#PL"/> faciem</hi> eorum <hi rend="italic">(Joan.</hi> xx, 22), qui flatu primum homi<lb ed="#PL" break="no"/>nem
+   vivificavit, et de limo erexit, quo flatu animam 
+   <lb ed="#PL"/> membris dedit <hi rend="italic">(Gen.</hi> II, 7); significans eum se esse 
+   <lb ed="#PL"/> qui insufflavit in faciem corum, ut a luto exsurge- 
+   <lb ed="#PL"/> rent, et luteis operibus renuntiarent. Tunc primum 
+   <lb ed="#PL"/> post resurrectionem suam Dominos, quam dicit Evan<lb ed="#PL" break="no"/>gelista
+   glorificationem, dedit discipulis suis Spiritum 
+   <lb ed="#PL"/> sanctum. Deinde commoratus cum eis quadraginta 
+   <lb ed="#PL"/> dies, ut liber Actuum Apostolorum demonstrat, ipsis 
+   <lb ed="#PL"/> videntibus, et videodo deducentibus, ascendit in cae<lb ed="#PL" break="no"/>lum <hi rend="italic">(Act.</hi> I, 3 et 9). Ibi peractis decem diebus, die 
+   <lb ed="#PL"/> Pentecostes misit desuper Spiritum sanctum. Quo, 
+   <lb ed="#PL"/> sicut dixi, qui fuerant in uno loco congregati, acce<lb ed="#PL" break="no"/>pto
+   impleti, omnium gentium linguis locuti sunt <hi rend="italic">(Id.</hi>
+   
+       <lb ed="#PL"/> II, 1-6).</p>
+      <p xml:id="iuy75t-d1e304-d1e645">7. Quid ergo, fratres, quia modo qui baptizatur in 
+   <lb ed="#PL"/> Christo, et credit in Christum, non loquitur omnium 
+   <lb ed="#PL"/> gentium linguis, non est credcudus accepisse Spiri­
+   
+   <lb ed="#PL"/> tum sanctum? Absit ut ista perfidia tentetur cor no<lb ed="#PL" break="no"/>strum. Certi sumus omnem hominem accipere : sed 
+   <lb ed="#PL"/> quantum vas fidei attulerit ad fontem, tantum im­
+   
+   <lb ed="#PL"/> piet. Cum ergo et modo accipiatur, dixerit aliquis, 
+   <lb ed="#PL"/> quare nemo loquitur linguis omnium gentium? Quia 
+   <lb ed="#PL"/> jam ipsa Ecclesia linguis omnium gentium loquitur.
+   
+   <lb ed="#PL"/> Antea in una gente erat Ecclesia, ubi omnium linguis 
+   <lb ed="#PL"/> loquebatur. Loquendo linguis omnium, significabat 
+   <lb ed="#PL"/> futurum ut crescendo per gentes, loqueretur linguis
+   
+   <lb ed="#PL"/> omnium. In bac Ecclesia qui non est, nee modo ac<lb ed="#PL" break="no"/>cipit
+   Spiritum sanctum. Praecisus enim et divisus ab 
+   <lb ed="#PL"/> unitate membrorum, quae unitas linguis omnium lo­
+   
+   <lb ed="#PL"/> quitur, renuntiet sibi; nou habet1. Nam si habet, 
+   <lb ed="#PL"/> det signum quod tunc dabatur. Quid est, det signum 
+   <lb ed="#PL"/> quod tunc dabatur? Loquamur omnibus linguis. lie­
+   
+   <lb ed="#PL"/> spondet mihi : Quid enim, tu loqueris omnibus Un<lb ed="#PL" break="no"/>guis' Loquor plane, quia omnis lingua mea est, id 
+   <lb ed="#PL"/> est, ejus corporis cujus membrum sum. Diffusa Ec<lb ed="#PL" break="no"/>clesia
+   per gentes loquitur omnibus linguis; Ecclesia 
+   <lb ed="#PL"/> est corpus Christi, in hoc corpore membrum es : cum 
+   <lb ed="#PL"/> ergo membrum sis ejus corporis quod loquitur omni<lb ed="#PL" break="no"/>bus
+   linguis, crede te loqui omnibus linguis. Unitas 
+   <lb ed="#PL"/> enim membrorum charitate concordat; et ipsa unitas 
+   <lb ed="#PL"/> loquitur quomodo tunc unus homo loquebatur.</p>
+      <p xml:id="iuy75t-d1e304-d1e704">8. Accipimus ergo et nos Spiritum sanctum, si 
+   <lb ed="#PL"/> amamus Ecclesiam, si charitate compaginamur, si 
+   <lb ed="#PL"/> catholico nomine et fide gaudemus. Credamus, fra- 
+   
+   <lb ed="#PL"/> tres; quantum quisque amat Ecclesiam Christi, tan<lb ed="#PL" break="no"/>tum
+   habet Spiritum sanctum. Datus est enim Spiri<lb ed="#PL" break="no"/>tus, sicut Apostolus dicit, <hi rend="italic">ad
+    manifestationem.</hi> Quam 
+   <lb ed="#PL"/> manifestationem? Sicut ipse idem dicit, Quia <hi rend="italic">alii da<lb ed="#PL" break="no"/>tar</hi> per Spiritum sermo sapientia, alii <hi rend="italic">sermo scien­</hi>
+   
+       <lb ed="#PL"/> tiae <hi rend="italic">secundum eumdem</hi> Spiritum, <hi rend="italic">alii
+    fides</hi> in <hi rend="italic">eodem 
+   <lb ed="#PL"/> Spiritu, alii donatio</hi> curationum in uno <hi rend="italic">Spiritu, alii
+   <lb ed="#PL"/> operatio virtutum in eodem Spiritu.</hi> Multa enim dan<lb ed="#PL" break="no"/>tur
+   ad manifestationem, sed tu forsitan corum 
+   <lb ed="#PL"/> omnium quae dixi nihil habes. Si amas, non nihil 
+   <lb ed="#PL"/> habes : si enim amas unitatem, etiam libi habet quis<lb ed="#PL" break="no"/>quis
+   in illa habet aliquid. Tolle iuvidiam, et tuum est 
+   <lb ed="#PL"/> quod habeo : tollam invidiam,etmeum est quod ha<lb ed="#PL" break="no"/>bes. Livor separat, sanitas jungit. Oculus solus videt 
+   <lb ed="#PL"/> in corpore : sed numquid soli sibi oculus videt? Et 
+   <lb ed="#PL"/> manui vidcl, et pedi videt, et caeteris membris videt : 
+   <lb ed="#PL"/> non enim si aliquis ictus in pedem veniat, avertit se 
+   <lb ed="#PL"/> oculus inde ut non praecaveat. Rursus sola manus 
+   <lb ed="#PL"/> operatur in corpore; sed numquid sibi soli operatur? 
+   <lb ed="#PL"/> Et oculo operatur : nam si ictus aliquis veniens non 
+   <lb ed="#PL"/> eat in manum, sed tantum in faciem, numquid dicit 
+   <lb ed="#PL"/> manus, Non me moveo, quia non tendit ad me? Sic 
+   <lb ed="#PL"/> pes ambulando omnibus membris militat : membra 
+   <lb ed="#PL"/> caetera tacent, et lingua omnibus loquitur. Habemus 
+   <lb ed="#PL"/> ergo Spiritum sanctum, si amamus Ecclesiam : ama<lb ed="#PL" break="no"/>mus
+   autem, si in ejus compage et charitate consi<lb ed="#PL" break="no"/>stimus. Nam ipse Apostolus cum dixisset diversa do<lb ed="#PL" break="no"/>na
+   dari diversis hominibus, tanquam ofticia quorum<lb ed="#PL" break="no"/>que
+   membrorum, <hi rend="italic">Adhuc,</hi> inquit, <hi rend="italic">supereminentiorem 
+   <lb ed="#PL"/> viam vobis demonstro;</hi> et coepit loqui de charitate. 
+   <lb ed="#PL"/> Praeposuit eam linguis hominum et Angelorum, prae<lb ed="#PL" break="no"/>posuit
+   miraculis fulci, praeposuit scientiae et prophe<lb ed="#PL" break="no"/>tiae, praeposuit etiam illi magno opcri misericordiae, 
+   <lb ed="#PL"/> quo sua quae possidet distribuit quisque paupcribus; 
+   <lb ed="#PL"/> et ad extremum praeposuit eam etiam corporis pas<lb ed="#PL" break="no"/>sioni : his omnibus tam magnis rebus praeposuit cha<lb ed="#PL" break="no"/>ritatem (I <hi rend="italic">Cor.</hi> XII, 7-XIII, 3). Ipsam habeto, et cun-. 
+   <lb ed="#PL"/> cta habebis : quia sine illa nihil proderit, quidquid 
+   <lb ed="#PL"/> habere potueris. Quia vero ad Spiritum sanctum per<lb ed="#PL" break="no"/>tinet
+   charitas de qua loquimur
+   (quaestio enim modo in 
+   <lb ed="#PL"/> Evangelio de Spiritu sancto retractatur), audi Apo<lb ed="#PL" break="no"/>stolum
+   dicentem, <hi rend="italic">Charitas Dei diffusa est in cordibus 
+   <lb ed="#PL"/> nostris
+    per</hi> Spiritum <hi rend="italic">sanctum, qui datus est nobis ( Rom.</hi>
+   
+       <lb ed="#PL"/> v, 5).</p>
+      <p xml:id="iuy75t-d1e304-d1e844">9. Quare ergo Dominus Spiritum, cujus maxima 
+   <lb ed="#PL"/> beneficia sunt in nobis, quia charitas Dei per ipsum 
+   <lb ed="#PL"/> diffusa est in cordibus nostris, post resurrectionem 
+   <lb ed="#PL"/> suam dare voluit? quid significavit? Ut in resurre<lb ed="#PL" break="no"/>ctione
+   nostra charitas nostra flagret, et ab amore 
+   <lb ed="#PL"/> saeculi separet, ut tota currat in Deum. Hic enim 
+   <lb ed="#PL"/> nascimur et morimur, hoc non amemus : charitate 
+   <lb ed="#PL"/> migremus, charitate sursum habitemus, charitate illa 
+   <lb ed="#PL"/> qua diligimus Deum. Nihil aliud in hac vitae nostrae
+   
+   <lb ed="#PL"/> peregrinatione meditcmur, nisi quia et hic non sem<lb ed="#PL" break="no"/>per
+   crimus, et ibi nobis locum bene vivendo praepa- 
+   <lb ed="#PL"/> rabimus, unde nunquam migremus. Dominus enim 
+   <lb ed="#PL"/> noster Jesus Christus, posteaquam resurrexit, <hi rend="italic">jam 
+   <lb ed="#PL"/> non</hi> moritur; mora <hi rend="italic">illi</hi> ultra, sicut Apostolus dicit, 
+   <lb ed="#PL"/> non dominabitur (Id. VI, 9). Eccequod arDemus. Si vi­ 
+   <pb ed="#PL" n="1647"/>
+       <lb ed="#PL"/> vimus, si in ipsum credimus qui resurrexit; dabit 
+   <lb ed="#PL"/> nobis, non quod hic amant homiues qui Deum non 
+   <lb ed="#PL"/> amant, aut tanto plus amant, quanto illum minus
+   
+   <lb ed="#PL"/> amant: tanto autem hoc minus amant, quanto illum 
+   <lb ed="#PL"/> plus amant. Sed videamus quid nobis promisit: non 
+   <lb ed="#PL"/> divitias terrenas et temporales, non honores et pote­
+   
+   <lb ed="#PL"/> states in sacculo isto; videtis enim omnia haec dari 
+   <lb ed="#PL"/> et hominibus malis, ne magnipendanlur a bonis. Non 
+   <lb ed="#PL"/> ipsam postremo corporis sanitatem : non quia ipse
+   
+   <lb ed="#PL"/> iliam non dat, sed quia, ut videtis, et pecoribus dat. 
+   <lb ed="#PL"/> Non vitam longam. Quid est enim longum quod ali<lb ed="#PL" break="no"/>quando
+   finitur? Non pro magno nobis credentibus
+   
+   <lb ed="#PL"/> promisit longaevitatem, aut decrepitam senectutem; 
+   <lb ed="#PL"/> quam omnes optant antequam veniat, omnes de illa 
+   <lb ed="#PL"/> cnm venerit murmurant. Non pulchritudinem corpo<lb ed="#PL" break="no"/>ris, quam vel corporis morbus, vel ipsa senectus quae 
+   <lb ed="#PL"/> oplatur exterminat. Vult
+   <unclear/>'esse pulcher, et vult csso 
+   <lb ed="#PL"/> senex : ista duo desideria sibi invicem concordare 
+   <lb ed="#PL"/> non possunt : si senex eris, pulcher non eris : quando 
+   <lb ed="#PL"/> senectus venerit, pulchritudo fugiet; et in uno habi<lb ed="#PL" break="no"/>tare
+   non possunt vigor pulchritudinis, et gemitus se<lb ed="#PL" break="no"/>nectutis. Omnia ergo ista non nobis promisit, qui
+   
+   <lb ed="#PL"/> dixit, <hi rend="italic">Qui credit</hi> in me, <hi rend="italic">veniat, et
+    bibat; et flumina de 
+   <lb ed="#PL"/> ventre ejus fluent aquae</hi> vivat. Vitam aeternam promisit,
+   
+   <lb ed="#PL"/> ubi nihil timeamus, ubi non conturbemur, unde nou 
+   <lb ed="#PL"/> migremus, ubi non moriamur; ubi Acc dccessor plan<lb ed="#PL" break="no"/>gatur, nee successor speretur. Quia ergo tale est
+   
+   <lb ed="#PL"/> quod nobis promisit amantibus, et Spiritus sancti 
+   <lb ed="#PL"/> charitate ferventibus; ideo ipsum Spirituln noluit 
+   <lb ed="#PL"/> dare, nisi cum csset glorificatus : ut in suo corporc
+   
+   <lb ed="#PL"/> ostenderet vitam, quam modo non habcmus, sed in 
+   <lb ed="#PL"/> resurrectione speramus.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

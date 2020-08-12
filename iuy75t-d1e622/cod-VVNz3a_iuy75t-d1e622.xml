@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 71</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 71</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e622"> <!-- iuy75t-t71 -->
+      <head xml:id="iuy75t-d1e622-Hd1e109">Tractatus 71</head>
+      <p xml:id="iuy75t-d1e622-d1e112">
+       <hi rend="italic">In id quod Dominus dicit,</hi> Verba quae ego loquor vobis, 
+   <lb ed="#PL"/> a meipso non loquor; <hi rend="italic">usque ad id,</hi> Si quid petieri<lb ed="#PL" break="no"/>tis
+   Patrem in nomine meo, hoc faciam. <hi rend="italic">Cap.</hi> XIV, 
+   <lb ed="#PL"/> f 10-14.</p>
+      <p xml:id="iuy75t-d1e622-d1e131">1. Audite auribus, accipite mentibus, dilectissimi, 
+   <lb ed="#PL"/> loquentibus quidem nobis, sed ipso docente qui non 
+   <lb ed="#PL"/> recedit a nobis. Dominus dicit, quod modo cum lege<lb ed="#PL" break="no"/>retur
+   audistis, Verba <hi rend="italic">quae ego loquor vobis, a meipso 
+   <lb ed="#PL"/> non loquor:
+    Pater autem in me manens ipse facit opera.</hi>
+   
+       <lb ed="#PL"/> Ergo et verba opera sunt ? Plane ita est. Nam profecto 
+   <lb ed="#PL"/> qui proximum loquendo aedificat, bonum opus ope<lb ed="#PL" break="no"/>ratur. Sed quid est, a <hi rend="italic">meipso non
+    toquor,</hi> nisi, a meipso 
+   <lb ed="#PL"/> non sum qui loquor? Ei quippe tribuit quod facit, de
+   
+   <lb ed="#PL"/> quo est ipse qui facit. Pater enini Deus non est de ali<lb ed="#PL" break="no"/>quo, Filius autem Deus est quidem Patri aequalis, sed 
+   <lb ed="#PL"/> de Patre Deo. Ideo ille Deus, sed non de Deo; et lu<lb ed="#PL" break="no"/>men, sed non de lumine: iste vero Deus de Deo, lu<lb ed="#PL" break="no"/>men
+   de lumine.</p>
+      <p xml:id="iuy75t-d1e622-d1e168">2. Nam in his duabus sententiis, una qua dictum 
+   <lb ed="#PL"/> est, <hi rend="italic">Non a
+    meipso loquor:</hi> alia qua dictum est, <hi rend="italic">Pater 
+   <lb ed="#PL"/> autem in me
+    manens, ipse facit</hi> opera : singulas tenen<lb ed="#PL" break="no"/>tes, diversi nobis adversantur haeretici, qui non ex 
+   <lb ed="#PL"/> una parte , sed in contraria conantes, a via veritatis 
+   <lb ed="#PL"/> exorbitant. Ariani quippe dicunt : Ecce inaequalis est 
+   <lb ed="#PL"/> Patri Filius, a seipso non loquitur. Dicunt Sabelliani 
+   <lb ed="#PL"/> contra, id est Patripassiani: Ecce qui Pater est ipse
+   
+   <lb ed="#PL"/> et Filius; quid enim est, <hi rend="italic">Pater in me manens, ipse (a- 
+   <lb ed="#PL"/> cit
+    opera,</hi> nisi, in me maneo ego qui facio? Contraria 
+   <lb ed="#PL"/> dicitis : sed non eo modo sicut est falsum contrarium 
+   <lb ed="#PL"/> vero, sed sicut sunt inter se duo falsa contraria. Er­
+   
+   <lb ed="#PL"/> rando in diversa istis, in medio est via quam reliqui<lb ed="#PL" break="no"/>stis ł. Inter vos ipsos longiore intervallo separati 
+   
+   <pb ed="#PL" n="1821"/>
+       <lb ed="#PL"/> estis, qnam ab ipsa via cujus desertores estis. Vos 
+   <lb ed="#PL"/> hinc, vos autem illinc, huc venite : alteri ad alteros 
+   <lb ed="#PL"/> transire nolite, sed hinc atque illinc ad nos veniendo, 
+   <lb ed="#PL"/> invicem vos invenite. Sabelliani, agnoscite quem prae<lb ed="#PL" break="no"/>termillitis
+   ; Ariant, aequale quem subditis, et in via 
+   <lb ed="#PL"/> vcra nobisc lm anibulabitis. Est enim quod invicem ex 
+   <lb ed="#PL"/> vobis alteri ex alteris admoneri utrique debeatis. 
+   <lb ed="#PL"/> Audi, sabelliane : usque ad eo non ipse Pater, sed al<lb ed="#PL" break="no"/>ter
+   est Filius, ut eum arianus inaequalem asserat Patri. 
+   <lb ed="#PL"/> Audi, ariane : usque adeo Filius aequalis est Patri, ut 
+   <lb ed="#PL"/> sabellianus eumdem esse dicat et Patrem. Tu adde 
+   <lb ed="#PL"/> quem tollis, tu adimple quem minuis, et nobiscum 
+   <lb ed="#PL"/> ambo eonsistilis: quia nec tu tollis, nec tu minuis 
+   <lb ed="#PL"/> eum quietaller est a Patre, ut convincas sabellia<lb ed="#PL" break="no"/>num, et aequalis Patri, ut convincas arianum. Utrisque 
+   <lb ed="#PL"/> enim clamat, <hi rend="italic">Ego et Pater
+    unum</hi> sumus <hi rend="italic">(Joan.</hi> x, 30). 
+   <lb ed="#PL"/> Quod ait, unum, audiant Ariani; quod ait, <hi rend="italic">sumus,</hi> au<lb ed="#PL" break="no"/>diant
+   Sabelliani: et nec illi aequalem, nec illi altorum 
+   <lb ed="#PL"/> negando sint vani. Si ergo quoniam dixit, <hi rend="italic">Verba quas 
+   <lb ed="#PL"/> ego</hi> loquor <hi rend="italic">vobis,</hi> a <hi rend="italic">meipso non loquor,</hi> propterea puta<lb ed="#PL" break="no"/>tur
+   usque adeo imparis potestatis, ut non quod ipse 
+   <lb ed="#PL"/> vult faciat; audiatur quod dixit, <hi rend="italic">Sicut Pater suscitat</hi>
+   
+       <lb ed="#PL"/> mortuos <hi rend="italic">et</hi> vivificat, <hi rend="italic">sic et Filius quos
+    vult vivificat</hi>
+   
+       <lb ed="#PL"/> Item si quoniam dixit, <hi rend="italic">Pater in me manent, ipse fucji 
+   <lb ed="#PL"/>
+    opera,</hi> propterea putatur non alius esse Pater, aliu.4 
+   <lb ed="#PL"/> ipse; audiatur quod dixit, <hi rend="italic">Quascumque Pater facit, haec
+   <lb ed="#PL"/> et Filius similiter facit (
+    Id.</hi> v, it, 19 ); et intelligatur 
+   <lb ed="#PL"/> non bis unus, sed duo unum. Verum quia sic aqualis 
+   <lb ed="#PL"/> alter alteri, ut tamen alter ex altero, ideo non loqui<lb ed="#PL" break="no"/>tur
+   a semetipso, quia non est a seipso : et ideo Pater 
+   <lb ed="#PL"/> in illo manens facit opera ipse, quia per quem et cum 
+   <lb ed="#PL"/> quo facit, non est nisi ab ipso. Denique adjungit, et 
+   <lb ed="#PL"/> dicit: <hi rend="italic">Non creditis quia ego in Patre, et Pater in me
+   <lb ed="#PL"/> est ?
+    Alioquin propter opera ipsa credite.</hi> Antea solus 
+   <lb ed="#PL"/> Philippus arguebatur, nunc autem non ibi eum solum 
+   <lb ed="#PL"/> fuisse qui esset arguendus ostenditur. <hi rend="italic">Propter opera,</hi>
+   
+       <lb ed="#PL"/> inquit, ipsa <hi rend="italic">credite</hi> quia <hi rend="italic">ego</hi> in <hi rend="italic">Patre, et Parer in me 
+   <lb ed="#PL"/> est :</hi> neque enim si separati essemus, inseparabiliter 
+   <lb ed="#PL"/> operari ulla ratione possemus.</p>
+      <p xml:id="iuy75t-d1e622-d1e345">3. Sed quid est quod sequitur, c Amen, amen dico 
+   <lb ed="#PL"/> vobis, qui credit in me, opera quae ego facio, et ipse 
+   <lb ed="#PL"/> faciet ,et majora horum taciet; quia ego ad Patrem 
+   <lb ed="#PL"/> vado : et quaecumque petieritis in nomine meo, haec 
+   <lb ed="#PL"/> faciam. Ut glorificetur Pater in Filio, si quid pelieriLis 
+   <lb ed="#PL"/> in nomine meo, hoc faciam. &gt; Ergo et illa majora
+   
+   <lb ed="#PL"/> opera seipsum facturum esse promisit. Non se extollat 
+   <lb ed="#PL"/> servus supra Dominum, et discipulus supra magi<lb ed="#PL" break="no"/>strum <hi rend="italic">(Id.</hi> XIII, 16): majora quam ipse facit, dicit eos 
+   <lb ed="#PL"/> esse facturos; sed in eis vel per eos se faciente, non 
+   <lb ed="#PL"/> ipsis tanquam ex seipsis, Ei quippe cantatur, <hi rend="italic">Diligam 
+   <lb ed="#PL"/> te,
+    Domine,</hi> virtus <hi rend="italic">mea (Psal.</hi> XVII, 2). Sed quae sunt 
+   <lb ed="#PL"/> tandem ista majora? An forte quod aegros ipsis trans<lb ed="#PL" break="no"/>euntibus, etiam eorum umbra sanabat <hi rend="italic">( Act.</hi> v, 15) ? 
+   <lb ed="#PL"/> Majus est enim ut sanet umbra quam fimbria <hi rend="italic">(Matth.</hi>
+   
+       <lb ed="#PL"/> xiv, 36). Illud per se, hoc per ipsos; sed tamen 
+   <lb ed="#PL"/> utrumque ipse. Verumtamen quando ista dicebat, ver<lb ed="#PL" break="no"/>borum
+   suorum opera commendabat : sic enim dixe<lb ed="#PL" break="no"/>rat,
+   <hi rend="italic">Verba quae ego loquor</hi> vobis, <hi rend="italic">a meipso non
+    loquor; 
+   <lb ed="#PL"/> Poter autem in me</hi> manens, <hi rend="italic">ipse facit opera.</hi> Quae opera 
+   <lb ed="#PL"/> tunc dicebat, nisi verba quae loquebatur? Audiebant 
+   <lb ed="#PL"/> et credebant illi, et eorumdem verborum fructus erat 
+   <lb ed="#PL"/> fides illorum : verumtamen evangelizantibus discipu<lb ed="#PL" break="no"/>lis, non tam pauci quam illi erant, sed gentes etiam
+   
+   <lb ed="#PL"/> clediderunt; haec sunt sine dubitatione majora. Nee 
+   <lb ed="#PL"/> tamen ait, Majora honim facietis, ut solos Apostolos 
+   <lb ed="#PL"/> ea putaremus esse facturos; sed, <hi rend="italic">Qui credit in me,</hi> in<lb ed="#PL" break="no"/>quit, <hi rend="italic">opera quae ego facio, et ipse
+    faciet, et majora ho­</hi>
+   
+       <lb ed="#PL"/> . rurn <hi rend="italic">faciet.</hi> Itane quicumque credit in Christum, facit
+   
+   <lb ed="#PL"/> quaeChristus, vel majora quam Christus? Non praeter<lb ed="#PL" break="no"/>eunter
+   ista tractanda sunt, nee debent festinatione 
+   <lb ed="#PL"/> praecipitari; sed ea cogit concludendus jam sermo
+   
+   <lb ed="#PL"/> iste differri.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

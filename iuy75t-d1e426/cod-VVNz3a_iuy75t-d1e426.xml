@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 47</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 47</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e426"> <!-- iuy75t-t47 -->
+      <head xml:id="iuy75t-d1e426-Hd1e109">Tractatus 47</head>
+      <p xml:id="iuy75t-d1e426-d1e112">
+       <hi rend="italic">Ab</hi> eo <hi rend="italic">quod</hi> scriptum <hi rend="italic">est,</hi> Ego sum pastor bonus, et co<lb ed="#PL" break="no"/>gnosco
+   oves meas, <hi rend="italic">etc., usquead id,</hi> Numquid dae<lb ed="#PL" break="no"/>monium
+   potest caecorum oculos aperire ? <hi rend="italic">Cap.</hi> x, 
+   <lb ed="#PL"/> i . 14-21.</p>
+      <p xml:id="iuy75t-d1e426-d1e137">i. Qui sermonem Dei nostri non solum libenter, 
+   <lb ed="#PL"/> sed etiam diligenter auditis, promissionis nostrae pro<lb ed="#PL" break="no"/>cui
+   dubio meministis. Ipsa quippe lectio evangelica 
+   <lb ed="#PL"/> et hodie lecta est, quae lecta fuerat proximo domi<lb ed="#PL" break="no"/>nico
+   die : propterea quoniam in quibusdam necessita<lb ed="#PL" break="no"/>tibus
+   immorati, non patuimus omnia discutere quae 
+   <lb ed="#PL"/> vestris sensibus debebamus. Proinde quae jam dicta 
+   <lb ed="#PL"/> atque tractata sunt, hodie nou quaerimus; ne adhuc 
+   <lb ed="#PL"/> eadem repetendo, ad illa quae nondum dicta sunt per<lb ed="#PL" break="no"/>venire
+   minime permittamur. Nostis jam in nomme 
+   <lb ed="#PL"/> Domini qui sit bonus pastor, et quemadmodum pasto<lb ed="#PL" break="no"/>res
+   boni membra sint ejus, et ideo pastor sit unus : 
+   
+   <pb ed="#PL" n="1733"/>
+       <lb ed="#PL"/> nostis qui sil mercenarius ferendus ; quis lupus, et <unclear/>
+       <lb ed="#PL"/> fures, et latrones cavendi; quoe sint oves, quod sit 
+   <lb ed="#PL"/> ostium quo et oves ingrediuntur et pastor; quomodo 
+   <lb ed="#PL"/> sit intelligendus ostiarius : nostis etiam quoniam quis<lb ed="#PL" break="no"/>quis
+   non per ostium intraverit, fur est et latro, nec 
+   <lb ed="#PL"/> venit nist ut furetur, cL occidat,etperdat. Hxc omnia 
+   <lb ed="#PL"/> dicta, sufficienter, quantum existimo , pertractata 
+   <lb ed="#PL"/> sunt. Hodie debemus dicere, quantum adjuvat Domi<lb ed="#PL" break="no"/>uus (quoniam ipse Jesus, Christus salvator nosteret
+   <lb ed="#PL"/> pastorem se esse dixit, et ostium, et pastorem bonum 
+   <lb ed="#PL"/> dixit intrare per ostium), quomodo ipseper seijsum 
+   <lb ed="#PL"/> iniret. Si enim nemo pastor bonus est, nisi qui per 
+   <lb ed="#PL"/> ostium intrat,etipse est praecipue pastor bonus,et
+   <lb ed="#PL"/> ipse est ostium ; intelligere non possum, nisi et ipsum 
+   <lb ed="#PL"/> per seipsum ad oves suas intrare, ctvocem suam illis 
+   <lb ed="#PL"/> dare ut scqunntur cuti, easque intrantes et exeunles 
+   <lb ed="#PL"/> pascua invenire, quod est vita aeterna.</p>
+      <p xml:id="iuy75t-d1e426-d1e205">i, Cito ergo dico. Ego quaerens intrare ad vos, id 
+   <lb ed="#PL"/> est ad cor vestrum, Christuin praedico : si aliud prae<lb ed="#PL" break="no"/>dicem, per aliam partem conabor ascendere. Christus 
+   <lb ed="#PL"/> itaque milii janua est ad vos; per Christum intro, non 
+   <lb ed="#PL"/> ad parietes veslros, sed ad corda vestra. Per Chri<lb ed="#PL" break="no"/>stum
+   intro, Christum in me libenter audistis. Quarc 
+   <lb ed="#PL"/> Christum in me libeuter audistis? Quia oves Christi 
+   <lb ed="#PL"/> estis, sanguine Cbristi comparati estis. Agnoscitis prc<lb ed="#PL" break="no"/>lium
+   vestrum : quod non a me datur, sed p&lt; r me 
+   <lb ed="#PL"/> praedicatur. Ille quippe emit, qui pretiosum sangui<lb ed="#PL" break="no"/>nem
+   fudit : pretiosus sanguis est illius sine peccata. 
+   <lb ed="#PL"/> Fecit tamen ipse etiam suorum sanguinem pretiosum, 
+   <lb ed="#PL"/> pro quibus dedit sanguinis pretium : nam si suorum 
+   <lb ed="#PL"/> sanguinem non faceret pretiosum, non diceretur, 
+   <lb ed="#PL"/> Pretiosa <hi rend="italic">in</hi> conspectu <hi rend="italic">Domini</hi> mors <hi rend="italic">sanctorum cjus ( I'sul.</hi>
+   
+       <lb ed="#PL"/> cxv, i5). Itaque etiam quod ait, <hi rend="italic">Pastor bonus animam
+   <lb ed="#PL"/> suam
+    ponit pro ovibus,</hi> non ipse unus hoc fecit : et 
+   <lb ed="#PL"/> tamen si illi qui fecerunt membra ejus sunt, idem ipse 
+   <lb ed="#PL"/> unus hoc fecit. Ipse enim potuit facere sine illis; ipsi 
+   <lb ed="#PL"/> sine illo unde potuerunt, cum ipse dixerit, <hi rend="italic">Sine me 
+   <lb ed="#PL"/>
+    nihil potestis facere ( Joan.</hi> xv, 5)? Hinc autem osten<lb ed="#PL" break="no"/>dimus
+   quod et alii fecerint, quia ipse apostolus Joan<lb ed="#PL" break="no"/>nIs, qui hoc quod audistis Evangelium praedicavit, in 
+   <lb ed="#PL"/> Epistola sua dixit: <hi rend="italic">Sicut Christus</hi> pro <hi rend="italic">nobis animam 
+   <lb ed="#PL"/> suam posuit, sic et nos debemus</hi> animas pro <hi rend="italic">(ratribu, 
+   <lb ed="#PL"/> ponere</hi> ( I <hi rend="italic">Joan.</hi> III, 16).
+    <hi rend="italic">Debemus,</hi> dixit; debitores nos 
+   <lb ed="#PL"/> fecit qui primus exhibuit. Ideo quodam loco scriptum 
+   <lb ed="#PL"/> est : Si <hi rend="italic">sederis coenare ad mensam
+    potentis, sapienter</hi>
+   
+       <lb ed="#PL"/> I <hi rend="italic">intellige</hi> quae <hi rend="italic">apponuntur tibi : et
+    mitte manum tuam,
+   <lb ed="#PL"/> sciens quia talia te oportet praeparare (Prov.</hi> XXIII, 1, 2, 
+   <lb ed="#PL"/>
+       <hi rend="italic">sec.</hi> LXX). Mensa potentis quae sit, nostis; ibi est cor<lb ed="#PL" break="no"/>pus
+   et sanguis Christi : qui accedit ad talem mensamy 
+   <lb ed="#PL"/> praeparet talia. Et quid est, praeparet talia ? <hi rend="italic">Quo<lb ed="#PL" break="no"/>modo
+   ipse pro nobis animam</hi> suam <hi rend="italic">posuit, sic et noa de­</hi>
+   
+       <lb ed="#PL"/> bemus, ad aedificandam plebem et asserendam iidem 1, 
+   <lb ed="#PL"/>
+       <hi rend="italic">animas pro</hi> fratribus <hi rend="italic">ponere.</hi> Idco Petro quem facere 
+   <lb ed="#PL"/> volebat pastorem bonum, non in ipso Petro, sed in 
+   <lb ed="#PL"/> corpore suo ait : <hi rend="italic">Petre, amas me? pasce oves meas.</hi> Hoc 
+   <lb ed="#PL"/> semel, hoc Herum, hoc tertio usque ad ejus tristitiam. 
+   <lb ed="#PL"/> Et cum tautum interrogasset Dominus, quantum iD­ 
+   
+   <lb ed="#PL"/> terrogandum esse judicavit, ut ter confiteretur qui ter 
+   <lb ed="#PL"/> negaverat, et ei suas oves pascendas tertio comraen<lb ed="#PL" break="no"/>dasset; ait illi, <hi rend="italic">Cum junior
+    esses, cingebas te, et</hi> ambu­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">labas ubi volebas</hi> : cum <hi rend="italic">autem</hi> senueris,
+    <hi rend="italic">extendes manus
+   <lb ed="#PL"/> tuas, et alter te cinget, et ducet quo tu non
+    vis.</hi> Et expo<lb ed="#PL" break="no"/>suit
+   Evangelista quid Dominus dixerit : <hi rend="italic">Hoc
+    autem</hi>
+   
+       <lb ed="#PL"/> inquit, <hi rend="italic">dixit, significans qua morte clarificaturus esset 
+   <lb ed="#PL"/>
+    Deum (Joan.</hi> xxi, 15-19). Ad hoc ergo pertinet, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Pasce oves meas</hi> : ut ponas animam tuam pro ovibus 
+   <lb ed="#PL"/> meis.</p>
+      <p xml:id="iuy75t-d1e426-d1e396">i. Jam illud quod ait, <hi rend="italic">Sicut novit me Pater, et ego</hi>
+   
+       <lb ed="#PL"/> agnosco <hi rend="italic">Patrem,</hi> quis nescit ? Ipse enim agnoscit Pa<lb ed="#PL" break="no"/>trem
+   per se, nos per illum. Quia ipse per se agnoscit, 
+   <lb ed="#PL"/> novimus : quia et nos per illum, etiam hoc novimus; 
+   <lb ed="#PL"/> quia et hoc p er illum novimus. Ipse enim dixit: <hi rend="italic">Deum 
+   <lb ed="#PL"/> nemo vidit unquam, nisi unigenitus Filius qui est in sinu
+    
+   <lb ed="#PL"/> Patris; ipse</hi> enarravit <hi rend="italic">(Id.</hi> I, 18). Ergo it nos per
+   
+   <lb ed="#PL"/> ipsum, quibus cnarravil. Item alibi ait : <hi rend="italic">Nemo novit 
+   <lb ed="#PL"/>
+    bilium, nisi Pater; neque Patrem quisquam novit, nisi 
+   <lb ed="#PL"/> Filius, et cui</hi> voluerit Filius <hi rend="italic">revelare</hi> ( <hi rend="italic">Matth.</hi> xi, 27
+   ). 
+   <lb ed="#PL"/> Sicut ergo ipse per se novit Patrem, nos autem pcr 
+   <lb ed="#PL"/> illum novimus Patrem; sic intrat in ovile per semet<lb ed="#PL" break="no"/>ipsum, et nos per ipsum Ostium dicebamus per. Chri­
+   
+   <lb ed="#PL"/> stum nos habere ad vos; quare? Quia Cbristum prae<lb ed="#PL" break="no"/>dicamus. Nos Christum praedicamus ; et idco per 
+   <lb ed="#PL"/> ostium intramus. Christus autem Christum praedicat, 
+   <lb ed="#PL"/> quia scipsum praedicat ; et ideo pastor per seipsum 
+   <lb ed="#PL"/> intrat. Lumen cum alia monstrat quai videnrur in in<lb ed="#PL" break="no"/>mine, numquid aliquo alio indiget ut monstretur? 
+   <lb ed="#PL"/> Lumen ergo et alia demonstrat et seipsum. Quaecum<lb ed="#PL" break="no"/>quc
+   intelligimus, intellectu intelligimus; ipsum in<lb ed="#PL" break="no"/>tellectum
+   unde, nisi intellectu, intelligimus? Numqu d
+   
+   <lb ed="#PL"/> sic oculo carnis et alia vides et ipsum ? Quamvis enim 
+   <lb ed="#PL"/> videant homines oculis . suis, non tamen vident oculos 
+   <lb ed="#PL"/> suos. Oculus carnis alia vidct, se non potest: inte!<lb ed="#PL" break="no"/>lectus autcm et alia intelligit, et seipsum. Quomodo 
+   <lb ed="#PL"/> intellectus videt se, sic et Christus praedicat se. 
+   <lb ed="#PL"/> Si praedicat se, et praedicando intrat ad te, per se J 
+   <lb ed="#PL"/> intrat ad te. Et ad Patrem ipse est ostium ; quia { 
+   <lb ed="#PL"/> non est qua veniatur ad Patrem, nisi per ipsum. 
+   <lb ed="#PL"/> Unus enim l eus et unus mcdiator Dei et hominum, 
+   <lb ed="#PL"/> homo Christus Jesus <hi rend="italic">(ITim.</hi> II, 5). Verbo multa dicun. 
+   <lb ed="#PL"/> tur : haec ipsa quae dixi, utique verbo dixi. Si velim 
+   <lb ed="#PL"/> dicere et ipsum verbum, unde dico, nisi verbo ? Ac 
+   <lb ed="#PL"/> per boc per verbum et alia dicuntur, qu.c non sunt 
+   <lb ed="#PL"/> quod verbum; et ipsum verbum dici non potest, nisi 
+   <lb ed="#PL"/> per verbum. Adjuvante Domino exemplis abundavi<lb ed="#PL" break="no"/>mus. Tenete ergo quomodo Dominus Jesus Christus 
+   <lb ed="#PL"/> et ostium sil, et pastor : os:ium pandendo se, pastor 
+   <lb ed="#PL"/> intrando per se. Et quidem, fratres, quod pastor est, 
+   <lb ed="#PL"/> dedit et membris suis ; nam et Petrus pastor, et Pau<lb ed="#PL" break="no"/>lus
+   pastor, et caeteri Apostoli pastores, et boni epi<lb ed="#PL" break="no"/>scopi
+   pastores. Ostium vero ncmo nostrum sc dicit ; 
+   <lb ed="#PL"/> hoc sibi ipse proprium tenuit, qua intrent oves, De<lb ed="#PL" break="no"/>nique
+   Paulus apostolus boni pastoris implebat offi<lb ed="#PL" break="no"/>cium, quando Christum praedicabat, quia per ostium 
+   <lb ed="#PL"/> intrabat. At ubi oves indisciplinate coepcrunt facere I 
+   <lb ed="#PL"/> schismata, et alia ostia sibi ponere, non qua intrarent iI
+   
+   <lb ed="#PL"/> ut congregarentur, sed qua errarent ut dividerentur, 
+   <pb ed="#PL" n="1733"/>
+       <lb ed="#PL"/> dicentes, alii, <hi rend="italic">Ego</hi> sum <hi rend="italic">Pauli;</hi> alii, <hi rend="italic">Ego</hi> sum <hi rend="italic">Cephae ;</hi>
+   
+       <lb ed="#PL"/> alii, <hi rend="italic">Ego Apello;</hi> alii, <hi rend="italic">Ego Chritli</hi>
+   : expavescens ad 
+   <lb ed="#PL"/> eos qui dixerunt, <hi rend="italic">Ego sum Pauli,</hi> tanquam clamans 
+   <lb ed="#PL"/> ad oves, Miserae, qua itis? non sum ostium : <hi rend="italic">Num­ 
+   <lb ed="#PL"/>
+    quid Paulus,</hi> inquit, <hi rend="italic">pro vobis crucifixus est ? aut</hi> in no­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">minc Pauli</hi> baptizati <hi rend="italic">eatis</hi> ( I Cor. I, 12,13)? Qui vcro 
+   <lb ed="#PL"/> dicebant, <hi rend="italic">Ego</hi> sum Christi, invenerant ostium.</p>
+      <p xml:id="iuy75t-d1e426-d1e582">v 4. De uno antem ovili et uno pastore, jam quidcm 
+   <lb ed="#PL"/> assidue soletis audire : multum enim commendavimus 
+   <lb ed="#PL"/> unum ovile, praedicantes unitatem, ut per Christum 
+   <lb ed="#PL"/> omnes oves ingrederentur, et Donatum nulla seque<lb ed="#PL" break="no"/>retur. Verumtamen unde hoc proprie dixerit Dominus, 
+   <lb ed="#PL"/> salis apparet. Loquebatur enim apud Judicos, missus 
+   <lb ed="#PL"/> autem fuerat ad ipsos Judxos, non propter quosdam 
+   <lb ed="#PL"/> immani odio pertinaces et perseverantes in tenebris, 
+   <lb ed="#PL"/> sed propter quosdam in ipsa gente quas dicit oves 
+   <lb ed="#PL"/> suas : de quibas ait, <hi rend="italic">Non sum</hi> missus nisi <hi rend="italic">ad
+    oves quat 
+   <lb ed="#PL"/> perierunt domus Israel (Matth,</hi> xv, 24). Noverat etiam 
+   <lb ed="#PL"/> eos in turba furentium, et praevidebat in pace creden<lb ed="#PL" break="no"/>tium. Quid est ergo, <hi rend="italic">Son</hi> sum missus nisi <hi rend="italic">ad oves quae 
+   <lb ed="#PL"/> perierunt
+    domus Israel;</hi> nisi quia praesentiam suam 
+   <lb ed="#PL"/> corporalem non exhibuit nisi populo Israel? Ad Gen<lb ed="#PL" break="no"/>tes
+   non perrexit ipse, sed misit: ad populum vero 
+   <lb ed="#PL"/> Israel et misit, et venit ipse; ut qui contemnebant, 
+   <lb ed="#PL"/> majus judicium sumerent, quia et praesentia est illis 
+   <lb ed="#PL"/> exhibita. Ipse Dominus ibi fuit, ibi matrem elegit; 
+   <lb ed="#PL"/> ibi concipi, ibi nasci, ibi sanguinem fundere voluit; 
+   <lb ed="#PL"/> ibi sunt 1 vestigia ejus, modo adorantur, ubi novissi<lb ed="#PL" break="no"/>me
+   stelit, unde ascendit in caelum : ad Gentes autem
+   
+   <lb ed="#PL"/> misit.</p>
+      <p xml:id="iuy75t-d1e426-d1e645">5. Sed forte aliquis arbitratur, quoniam non ipse ad 
+   <lb ed="#PL"/> nos venit, sed misit ad nos, non nos audisse vocem 
+   <lb ed="#PL"/> ipsius, sed vocem eorum quos misit. Absit; pellatur 
+   <lb ed="#PL"/> ista cogitatio de cordibus vestris : et in his quos misit 
+   <lb ed="#PL"/> ipse erat. Ipsum Paulum audi quem misit; ad Gentes 
+   <lb ed="#PL"/> enim prircipne Paulum misit apostolum : et ait ipse
+   
+   <lb ed="#PL"/> Pautus terrens non de se, sed de illo, <hi rend="italic">An vultis accipere
+   <lb ed="#PL"/>
+    experimentum ejus qui</hi> in <hi rend="italic">me loquitur</hi> Christi (II Cor.
+   
+   <lb ed="#PL"/> XIII, 3)? Auditeetipsum Dominum. <hi rend="italic">Et alias oves ha­
+   <lb ed="#PL"/>
+    bco,</hi> id est, in Gentibus : <hi rend="italic">quae non sunt de hoc ovili,</hi> id
+   
+   <lb ed="#PL"/> est de populo Israel: <hi rend="italic">oportet</hi> me <hi rend="italic">et</hi> illas <hi rend="italic">adducere.</hi> Ergo 
+   <lb ed="#PL"/> et per suos non alter adducit. Adhuc audi : <hi rend="italic">Vocem 
+   <lb ed="#PL"/> meam audient.</hi> Ecce et per suos ipse loquitur, et per 
+   <lb ed="#PL"/> eos quos mittit vox ejus auditur. <hi rend="italic">Ut sit unum ovile
+    el</hi>
+   
+       <lb ed="#PL"/> unus <hi rend="italic">pastor.</hi> Duobus istis gregibus tanquam duobus 
+   <lb ed="#PL"/> parietibus, factus est lapis angularis ( <hi rend="italic">Ephes.</hi> II, 11- 
+   <lb ed="#PL"/> 22). Ergo et ostium est, cl lupis angularis : omnia 
+   <lb ed="#PL"/> per similitudinem, nihil horum proprie.</p>
+      <p xml:id="iuy75t-d1e426-d1e719">6. Jam enim dixi, et commendavi vehementer, ei 
+   <lb ed="#PL"/> qui capiunt sapiunt, imo qui sapiunt capiunt; et qui 
+   <lb ed="#PL"/> nondum intenfectu sapiunt, fide teneant quod intelli­
+   
+   <lb ed="#PL"/> gere nondum possunt. Per similitudinem Christus 
+   <lb ed="#PL"/> multa est quae pcr proprietatem non est. Per similitu<lb ed="#PL" break="no"/>dinem
+   et petra est Christus, et ostium est Christus, 
+   
+   <lb ed="#PL"/> et lapis angularis est Chiistus,etpastor est Christus, 
+   <lb ed="#PL"/> et agnus est Christus, ot leo est Christus. Quam multa 
+   <lb ed="#PL"/> per similitudines, et alia, quae commemorare longum 
+   <lb ed="#PL"/> est! Si antem propriet nes discutias rerum qnas videre 
+   <lb ed="#PL"/> consuesti; nec petra est, quia durus et sine sensu non 
+   <lb ed="#PL"/> est; nec ostium est, quia faber eum non fecit; nee 
+   <lb ed="#PL"/> lapis angularis est, quia noN est ab structore confbo­
+   
+   <lb ed="#PL"/> situs; nec pastor est, quia custos ovium quadtupe<lb ed="#PL" break="no"/>dum
+   non est; nec leo est, quia fera non est; nec 
+   <lb ed="#PL"/> agnus cst, quia 'pecus non est. Omnia ergo ista pet 
+   <lb ed="#PL"/> similitudinem. Quid ergo proprie ? <hi rend="italic">In</hi> principio erat 
+   <lb ed="#PL"/>
+       <hi rend="italic">Verbum, et Verbum erat apud Deum, et Deus erat Ver<lb ed="#PL" break="no"/>bum.</hi> Quid de homine qui apparuit? Et <hi rend="italic">Verbum caro 
+   <lb ed="#PL"/> factum est, et
+    habitavit</hi> in <hi rend="italic">nobis (Joan.</hi> I, i, 14).</p>
+      <p xml:id="iuy75t-d1e426-d1e775">7. Audi et extera. <hi rend="italic">Propterea me Pater</hi> diligit, inquit; 
+   <lb ed="#PL"/>
+       <hi rend="italic">qnia ego pono animam meam,</hi> ut <hi rend="italic">iterum sumam
+    eam.</hi>
+   
+       <lb ed="#PL"/> Quid ait? <hi rend="italic">Propterea me Pater diligit :</hi> quia morior ut 
+   <lb ed="#PL"/> resurgam (a). Cum magno enim pondere dictum est, 
+   <lb ed="#PL"/>
+       <hi rend="italic">ego: Quia ego</hi> pono , inquit, <hi rend="italic">pono animnm</hi> meam , ego 
+   <lb ed="#PL"/>
+       <hi rend="italic">pono.</hi> Quid est, <hi rend="italic">ego</hi> pono ? Ego illam pono
+   : non gio<lb ed="#PL" break="no"/>ricntur
+   Judaei ; saevire potuerunt, potestatem hahere 
+   <lb ed="#PL"/> non potuerunt: saeviant quantum possunt; si ego no<lb ed="#PL" break="no"/>luero
+   animam meam ponere, quid sxvicndo facturi 
+   <lb ed="#PL"/> sunt ? Una responsione prostrati sunt: quando cis 
+   <lb ed="#PL"/> dictum est, <hi rend="italic">Quem</hi> quaeritis ? dixerunt, <hi rend="italic">Jesum;</hi> et ait 
+   <lb ed="#PL"/> cis, <hi rend="italic">Ego</hi> sum: <hi rend="italic">redierunt retro, et
+    ceciderunt (Id.</hi> XVIII, 
+   <lb ed="#PL"/> 4-6). Qui ceciderunt ad unam vocem Christi morituriL
+    <hi rend="underline">
+        <lb ed="#PL"/> quid</hi> facient sub voce judicaturi ? <hi rend="italic">Ego, ego,</hi> inquam, 
+   <lb ed="#PL"/>
+       <hi rend="italic">pono animam meam, ut iterum sumam eam.</hi> Non gio<lb ed="#PL" break="no"/>ricntur
+   Judaei, quasi praevaluerint: ipse posuit animam 
+   <lb ed="#PL"/> suam. <hi rend="italic">Ego</hi> dormivi, dicit. Nostis Psalmum : <hi rend="italic">Ego dor­</hi>
+   
+       <lb ed="#PL"/> mivi, <hi rend="italic">et</hi> somnum <hi rend="italic">cepi ; et exsurrexi,
+    quoniam Dominus 
+   <lb ed="#PL"/> suscipiet me (Psal.</hi> III , 6). <hi rend="underline">Modo</hi> Psalmus ipse Icctus 
+   <lb ed="#PL"/> est, modo audivimus : <hi rend="italic">Ego
+    dormivi, et</hi> somnum <hi rend="italic">cepi;
+   <lb ed="#PL"/> et exsurrexi, quoniam Dominus
+    suscipiet me.</hi> Quid est, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ego dormivi?</hi> Quia volui, dormivi. Quid est, <hi rend="italic">dormivi?</hi>
+   
+       <lb ed="#PL"/> Mortuus sum. Nonne dormivit, qui quando voluit, de 
+   <lb ed="#PL"/> sepulcro tanquam de lecto surrexit ? Scd amat dare 
+   <lb ed="#PL"/> gloriam Patri, ut nos aedificet gloriam dare Creatori.
+   
+   <lb ed="#PL"/> Nam quod addidit, exsurrexi, <hi rend="italic">quoniam Dominus</hi> sus­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">cipiet</hi> me ; putatis hic quasi virtutem ejus defecisse, 
+   <lb ed="#PL"/> ut per potestatem suam mori potuerit, per potestatem 
+   <lb ed="#PL"/> suam resurgere non potuerit? Sic enim videntur sonare 
+   <lb ed="#PL"/> verba non intentius intellecta , <hi rend="italic">Ego
+    dormivi;</hi> id est, 
+   <lb ed="#PL"/> quia volui, dormivi. <hi rend="italic">Et exsurrexi:</hi> quare ? <hi rend="italic">Quia Domi­
+   <lb ed="#PL"/> nus suscipiet</hi> me. Quid enim, tu a teipso resurgere no n 
+   <lb ed="#PL"/> valeres ? Si non valeres, non diccres, <hi rend="italic">Potestatem</hi> ha­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">beo ponendi animan meam, et potestatem habeo iterum 
+   <lb ed="#PL"/>
+    
+        <lb ed="#PL"/> sumendi eam.</hi> Audi alio loco in Evangelio, quia non 
+   <lb ed="#PL"/> solum Pater suscitavit Filium, sed etiam Filius scip<lb ed="#PL" break="no"/>sum. <hi rend="italic">Solvite,</hi> inquit, <hi rend="italic">templum hoc, et</hi> in <hi rend="italic">triduo
+    suscitabo
+   <lb ed="#PL"/> illud.</hi> Et Evangelista : <hi rend="italic">Hoc autem ,</hi> inquit,
+    <hi rend="italic">dicebct de 
+   <lb ed="#PL"/> templo corporis sui (Joan.</hi> 11,19, 21). Hoc enirn sus<lb ed="#PL" break="no"/>citabatur
+   quod moriebatur. Nam Verbum non est mor<lb ed="#PL" break="no"/>luum, anima illa non est mortua. Si nec tua morimur, 
+   <lb ed="#PL"/> Domini moreretur ?</p>
+      <p xml:id="iuy75t-d1e426-d1e981">8. Unde scio , inquis, si mea non moritur? A le 
+   <lb ed="#PL"/> non occidatur, et non moritur. Quomodo, inquis, cgo 
+   
+   <pb ed="#PL" n="1737"/>
+       <lb ed="#PL"/> possum occidere animam meam? Ut alia peccata in<lb ed="#PL" break="no"/>terim
+   lacoam, Os
+    <hi rend="italic">quod mentitur, occidit animam (Sap.</hi>
+   
+       <lb ed="#PL"/> I, 11). Quomodo, inquis, securus sum, quia non mo<lb ed="#PL" break="no"/>ritur ? Ipsum Dominum audi dantem servo securita<lb ed="#PL" break="no"/>tem : <hi rend="italic">Nolite timere eos</hi> qui <hi rend="italic">occidunt corpus, et postea
+   <lb ed="#PL"/> non habent quid faciant.</hi> Sed plane quid ait ? <hi rend="italic">Eum ti­
+   <lb ed="#PL"/> nu te qui habet potestatem et corpus et animam
+    occidere 
+   <lb ed="#PL"/> in gehenna (Matth.</hi> x.28, <hi rend="italic">et Luc.</hi> XII,4, 5). Ecce quia 
+   <lb ed="#PL"/> moritur, ecce quia non moritur. Quid est mori ipsius? 
+   <lb ed="#PL"/> j quid est mori carni tuae? Mori carni tuae, est amittere 
+   <lb ed="#PL"/> vitam suam : mori animae tuae, est amittere vitam 
+   <lb ed="#PL"/> suam. Vita carnis tuae, anima tua: vita animae tuae, 
+   <lb ed="#PL"/> Deus tuus. Quomodo moritur caro amissa anima, qnae 
+   <lb ed="#PL"/> vita est cjus; sic moritur anima amisso Deo, qui vita 
+   <lb ed="#PL"/> i est ejus. Certe ergo immortalis est anima. Plane im<lb ed="#PL" break="no"/>mortalis,
+   quia vivit et mortua. Quod enim de vidua 
+   <lb ed="#PL"/> dcliciosa dixit Apostolus , etiam de anima, si Deum 
+   <lb ed="#PL"/> suum amiserit, dici potest, <hi rend="italic">Vivent
+    mortua est (I Tim.</hi>
+   
+       <lb ed="#PL"/> v.6).</p>
+      <p xml:id="iuy75t-d1e426-d1e1049">9. Quomodo ergo ponit animam suam Dominus ? 
+   <lb ed="#PL"/> Fratres, quaeramus hoc paulo attentius. Non nos ar<lb ed="#PL" break="no"/>ctit
+   hora quae solet die dominico I : vacat nobis , hoc
+   
+   <lb ed="#PL"/> lucrentur qui ad verbum Dei etiam die hodierna con<lb ed="#PL" break="no"/>veniunt. Pono , inquit,
+    <hi rend="italic">animam meam.</hi> Quis ponit ? 
+   <lb ed="#PL"/> quam ponit I ? Quid est Christus ? Verbum et homo. 
+   <lb ed="#PL"/> Nee sic homo ut sola caro : sed quia horno, constat ex
+   
+   <lb ed="#PL"/> carne et anima , totus autem homo in Christo. Non 
+   <lb ed="#PL"/> enim partem deteriorem suscepisset, et partem melio<lb ed="#PL" break="no"/>rem
+   deseruisset : pars quippe hominis melior est ani<lb ed="#PL" break="no"/>ma
+   quam corpus. Quia ergo totus homo in Christo, 
+   <lb ed="#PL"/> quid est Christus ? Verbum, inquam , et homo. Quid 
+   <lb ed="#PL"/> est Verbum et homo? Verbum, anima et caro, Tenete
+   
+   <lb ed="#PL"/> hoc, quia non defuerunt 'haeretici et in ista sententia, 
+   <lb ed="#PL"/> pulsi quidem jam olim a veritate catholica : sed tamen 
+   <lb ed="#PL"/> ut fures et latrones non intrantes per ostium, insidiari 
+   <lb ed="#PL"/> ] ovili non desinunt. Apollinaristae haeretici dicti sunt, 
+   <lb ed="#PL"/> qui ausi sunt dogmatizare quod Christus non sit nisi 
+   <lb ed="#PL"/> Verbum et caro : animam humanam non eum as- 
+   <lb ed="#PL"/> 1 sumpsisse contendunt. Nam et aliqui eorum fuisse in 
+   <lb ed="#PL"/> Christo animam, negare non potuerunt. Videte absur<lb ed="#PL" break="no"/>dilatem
+   et insaniam non ferendam. Animam irraLio<lb ed="#PL" break="no"/>nalem
+   eum habere voluerunt, rationalem negaverunt: 
+   <lb ed="#PL"/> dederunt ei animam pecoris, subtraxerunt hominis. 
+   <lb ed="#PL"/> Sed illi abstulerunt Christo rationem, non tenendo ra<lb ed="#PL" break="no"/>tionem. Absit hoc a nobis , in lide catholica nutritis
+   
+   <lb ed="#PL"/> atque fundatis. Ex hac ergo occasione admonuerim 
+   <lb ed="#PL"/> Charitatem vestram, ut quomodo superioribus lectio<lb ed="#PL" break="no"/>nibus
+   satis vos instruximus adversus Sabellianos et
+   
+   <lb ed="#PL"/> Arianos; Sabellianos qui dicunt, Ipse est Pater qui 
+   <lb ed="#PL"/> Filius; Arianos qui dicunt, Aliud est Pater, aliud est 
+   <lb ed="#PL"/> Filius, quasi non sint ejusdem substantiae Pater et Fi<lb ed="#PL" break="no"/>lips : instruximus etiam, quantum meministis, et me<lb ed="#PL" break="no"/>mioisse
+   debetis, contra haereticos Photinianos, qui 
+   
+   <lb ed="#PL"/> solum hominem Christum sine Doo esse dixerunt I ; 
+   <lb ed="#PL"/> contra Manich;eos, qui solum sine homine Deum : ex 
+   <lb ed="#PL"/> hac occasione de anima instruamus vos et contra 
+   <lb ed="#PL"/> Apollinaristas, qui dicunt Dominum nostrum Jesum 
+   <lb ed="#PL"/> Christum non habuisse animam humanam, id est ani<lb ed="#PL" break="no"/>mam
+   rationalem, animam intelligentem, animam, in<lb ed="#PL" break="no"/>quam, in qua distamus a pecore, quod homines sumus.</p>
+      <p xml:id="iuy75t-d1e426-d1e1141">10. Quomodo ergo hic dixit Dominus , <hi rend="italic">Potestatem
+   <lb ed="#PL"/> habeo ponendi
+    animam meam</hi> ? Quis ponit animam , et 
+   <lb ed="#PL"/> iurum sumit eam ? Christus ex eo quod Verbum est, 
+   <lb ed="#PL"/> ponit animam, et sumit eam iterum ? An ex eo quod 
+   <lb ed="#PL"/> anima humana est, ipsa se ponit,etiterum ipsa se 
+   <lb ed="#PL"/> sumit ? An ex eo quod caro est, caro animam ponit, 
+   <lb ed="#PL"/> et iterum sumit ? Tria proposui, omnia pertractemus, 
+   <lb ed="#PL"/> et hoc eligamus quod conveniat regulae veritatis. Si 
+   <lb ed="#PL"/> enim dixerimus, quia Verbum Dei posuit animam
+   
+   <lb ed="#PL"/> suam, et iterum sumpsit eam; metuendum est ne suh<lb ed="#PL" break="no"/>intret
+   prava cogitatio, et dicatur nobis: Ergo aliquando 
+   <lb ed="#PL"/> anima illa separata est a Verbo, et aliquando Verbum 
+   <lb ed="#PL"/> illud, ex quo suscepit animam illam, fuit sine anhna. 
+   <lb ed="#PL"/> Video enim fuisse sine anima humana Verbum, sed 
+   <lb ed="#PL"/> cum in principio erat Verbum, et Verbum erat apud 
+   <lb ed="#PL"/> Deum, et Deus erat Verbum. Ex quo enim Verbum 
+   <lb ed="#PL"/> caro factum est, ut habitaret in nobis <hi rend="italic">(Joan.</hi> I, 1,14), 
+   <lb ed="#PL"/> et susceptus est a Verbo homo , id est totus homo, 
+   <lb ed="#PL"/> anima et caro; quid fecit passio, quid fecit mors, nisi 
+   <lb ed="#PL"/> corpus ab anima separavit ? Animam vero a Verbo 
+   <lb ed="#PL"/> non separavit. Si enim mortuus est Dominus, imo quia 
+   <lb ed="#PL"/> mortuus est Dominus ; mortuus est enim pro nobis
+   
+   <lb ed="#PL"/> in cruce; sine dubio caro ipsius exspiravit animam: 
+   <lb ed="#PL"/> ad tempus exiguum anima deseruit carnem, sed re<lb ed="#PL" break="no"/>deunte
+   anima resurfecturam. A Verbo autem animam 
+   <lb ed="#PL"/> separatam esse non dico. Latronis animae dixit: <hi rend="italic">Hodie 
+   <lb ed="#PL"/> mecum eris
+    in paradiso (Luc.</hi> XlIII, 43). Fidelem la<lb ed="#PL" break="no"/>tronis
+   animam non deserebat, et deserebat suam ? 
+   <lb ed="#PL"/> Absit : sed illius ut Dominus custodivit, suam vero 
+   <lb ed="#PL"/> inseparabiliter habuit. Si autem dixerimus quia ipsa 
+   <lb ed="#PL"/> se anima posuit,etitcrum ipsa se sumpsit, absurdissi<lb ed="#PL" break="no"/>mus
+   sensus est : non enim quae a Verbo non erat 
+   <lb ed="#PL"/> separata, a seipsa poterat separari.</p>
+      <p xml:id="iuy75t-d1e426-d1e1222">it. Dicamus ergo et quod verum est, et quod facile 
+   <lb ed="#PL"/> intelligi potest. Ecce homo quilibet non constans ex 
+   <lb ed="#PL"/> Verbo et anima et carne, sed ex anima et carne : de 
+   <lb ed="#PL"/> iSlo homine interrogemus quomodo ponat animam 
+   <lb ed="#PL"/> suam quicumque homo. An forte nullus homo ponit 
+   <lb ed="#PL"/> animam suam ? Potes mihi dicere : Nullus homo ha<lb ed="#PL" break="no"/>bet
+   potestatem ponere animam suam, et iterum 
+   <lb ed="#PL"/> sumere eam. Ponere animam suam nisi posset horno,
+   
+   <lb ed="#PL"/> non diceret Joannes apostolus, <hi rend="italic">Sicut Christus</hi> pro no- 
+   <lb ed="#PL"/>
+       <hi rend="italic">bia</hi> animan <hi rend="italic">suam posuit, sic et nos debemus
+    animas</hi> pro 
+   <lb ed="#PL"/>
+       <hi rend="italic">fratribus ponere</hi> (I <hi rend="italic">Joan.</hi> III, 16). Ergo et nobis licet (si 
+   <lb ed="#PL"/> et nos impleamur virine ipsius, quia sine illo nihil fa<lb ed="#PL" break="no"/>cere
+   possumus) ponere pro fratnbus animas nostras. 
+   <lb ed="#PL"/> Quando martyr quilibet sanctus posuit pro fratribus 
+   <lb ed="#PL"/> animam suam, quis posuit, et quam posuit i Hoc si 
+   <lb ed="#PL"/> intellexerimus, ibi videbimus quemadmodum a Christo 
+   <lb ed="#PL"/> dictum sit, <hi rend="italic">Potestatem habeo ponendi aniriam meam.</hi>
+   
+   
+   
+   
+       <lb ed="#PL"/>
+       <pb ed="#PL" n="1739"/> 0 homo, paratus cs pro Christo mori ? Paratus. in<lb ed="#PL" break="no"/>quit. Dicam hoc aliis vorbis. Paratus cs pro Christo 
+   <lb ed="#PL"/> animam luam ponere ? Et ad ista verba sic milii re<lb ed="#PL" break="no"/>spondet, Paratus sum; quomodo mihi responderat 
+   <lb ed="#PL"/> cnm dicercm, Paratus es mori. noc ergo est ponere 
+   <lb ed="#PL"/> animam, quod est mori. Sed pro quo ibi est certamen ? 
+   <lb ed="#PL"/> Omnes enim homines quando moriuntur, ponunt ani<lb ed="#PL" break="no"/>mam ; sed non omnes pro Christo ponunt. Et nemo 
+   <lb ed="#PL"/> habet potestatem sumere quod posuerit: Christus au<lb ed="#PL" break="no"/>tcm
+   etpro nobis posuit.etquando voluit, posuit ; et 
+   <lb ed="#PL"/> quando voluit, sumpsit. Ponere ergo animam, mori 
+   <lb ed="#PL"/> cst. Sicetapostolus Petrus Domino dixit, <hi rend="italic">Animam</hi>
+   
+       <lb ed="#PL"/> meam <hi rend="italic">pro te ponam (Joan.</hi> XIII, 37): id est, pro te 
+   <lb ed="#PL"/> moriar. Carni hoc tribue : caro ponit animam suam, 
+   <lb ed="#PL"/>etcaro iterum sumit cam ; non tamen sua potestate 
+   <lb ed="#PL"/> caro, sed potestate inhabitantis carnem : caro ergo 
+   <lb ed="#PL"/> ponit animam suam exspirando. Vide ipsum Domi<lb ed="#PL" break="no"/>mun
+   in cruce; <hi rend="italic">Sitio</hi> dixit : illi qui aderant tinxerunt 
+   <lb ed="#PL"/> spongiam in aceto, alligaverunt arundini, et apposue<lb ed="#PL" break="no"/>runt
+   ori ejus; quod cum accepisset, ait, Perfectum <hi rend="italic">est:</hi>
+   
+       <lb ed="#PL"/> quid cst, Perfectum <hi rend="italic">est</hi> ? Impleta sant omnia quaeante 
+   <lb ed="#PL"/> mortem futura de me fuerant prophetata. Et quia po<lb ed="#PL" break="no"/>testatem
+   habebat quando vellet ponendi animam suam; 
+   <lb ed="#PL"/> posteaquam dixit, <hi rend="italic">Perfeclum est,</hi> quid ait Evangelista? 
+   <lb ed="#PL"/>
+       <hi rend="italic">Et inclinato capite tradidit spiritum (Id.</hi> xix, 28-30). 
+   <lb ed="#PL"/> Hoc est ponere animam. Modo hic allendat Chantas 
+   <lb ed="#PL"/> vestra. <hi rend="italic">Inclinato
+    capite tradidit spiritum.</hi> Quis tradidit? 
+   <lb ed="#PL"/> quem tradidit? Spiritum tradidit, caro illum tradidit. 
+   <lb ed="#PL"/> Quid est, caro illum tradidit ? Caro illum emisit, caro 
+   <lb ed="#PL"/> illum exspiravit. Ideo enim dicitur exspirare, extra 
+   <lb ed="#PL"/> spiritum fieri. Quomodo est exsulare, extra solum 
+   <lb ed="#PL"/> fieri ; exorbitare, extra orbitam fieri : sic exspirare,
+   
+   <lb ed="#PL"/> extra spiiitum fieri; qui spiritus anima est. Cum ergo 
+   <lb ed="#PL"/> exit anima a carne, et remanet caro sine anima, tunc 
+   <lb ed="#PL"/> homo ponere animam dicitur. Quando Christus ani­
+   
+   <lb ed="#PL"/> mam posuit? Quando Verbum voluit. Principatus 
+   <lb ed="#PL"/> enim in Ycrbo erat; ibi potestas erat quando poneret 
+   <lb ed="#PL"/> caro animam, et quando sumeret.</p>
+      <p xml:id="iuy75t-d1e426-d1e1388">* i i. Si ergo caro animam posuit, quomodo Chri<lb ed="#PL" break="no"/>stus
+   animam posuit? Non enim caro Christus? Ita 
+   <lb ed="#PL"/> plane, et caro Christus, et anima Christus, et Verburn 
+   <lb ed="#PL"/> Christus : nee tamen tria haec tres Christi, sed unus 
+   <lb ed="#PL"/> Christus. Hominem interroga, et, de teipso fac gra<lb ed="#PL" break="no"/>, dum ad ea qum supra te sunt, et si nondum inlelli<lb ed="#PL" break="no"/>genda,
+   saltem credenda. Quomodo est enim unus 
+   <lb ed="#PL"/> homo anima et corpus ; sic unus Christus Verbum et 
+   <lb ed="#PL"/> homo. Videte quid dixerim, et intelligite. Anima et 
+   <lb ed="#PL"/> corpus dua res sunt, sed unus homo : Verbum et 
+   <lb ed="#PL"/> homo duae res sunt, sed unus Christus. Ergo de ho<lb ed="#PL" break="no"/>mine
+   quaere. Ubi est Paulus apostolus modo? Si quis 
+   <lb ed="#PL"/> respondeat, In requie cum Christo; verum dicit. Item 
+   <lb ed="#PL"/> si quis respondeat, Romae in sepulro ; et ipse verum 
+   <lb ed="#PL"/> dicit. Illud mihi de anima, hoc de ejus carne respon­
+   
+   <lb ed="#PL"/> det. Nec tamen ideo duos dicimus apostolos Paulos; 
+   <lb ed="#PL"/> mum. qui requiescit in Christo, alium qui positus est 
+   <lb ed="#PL"/> in sepulcro ! quamvis apostolum Paulum dicamus
+   
+   <lb ed="#PL"/> vivere in Christo, cumdemquc apostolum Paulum di<lb ed="#PL" break="no"/>camus
+   mortuum jacere in sepulcro. Moritur aliquis, 
+   <lb ed="#PL"/> dicinms, Bonus homo, fidelis. homo, in pace est cum
+   
+   <lb ed="#PL"/> Domino :etcontinuo, Eamus ad exsequias ipsius, ei 
+   <lb ed="#PL"/> sepeliamus illium. Eum sepulturus es quem jam dixc<lb ed="#PL" break="no"/>ras
+   tu pace esse cum Dco : cum aliud sit anima quae
+   
+   <lb ed="#PL"/> immortaliter viget, aliud corpus quod corrui tibiliter 
+   <lb ed="#PL"/> jacet. Sed ex quo consortium camisetanimuae homi<lb ed="#PL" break="no"/>nis
+   nomen accepit, jam et singulum atque separatum, 
+   <lb ed="#PL"/> utrumlibet eorum nomen hominis tenuit.</p>
+      <p xml:id="iuy75t-d1e426-d1e1449">13. Nemo ergo titubet, quando audit Dominum 
+   <lb ed="#PL"/> dixisse, <hi rend="italic">Pono
+    animam meam, et iterum sumo eam.</hi> Ponit 
+   <lb ed="#PL"/> eam caro, sed ex potestate Verbi : sumit cam cam, 
+   <lb ed="#PL"/> sed ex potestate Verbi. Et ipse Dominus Christus 
+   <lb ed="#PL"/> dictus cat sola caro. Quomodo, inquit, probas ? Audeo 
+   <lb ed="#PL"/> dicere, et sola caro Cbrisli dictus est Cbrislus. Cre<lb ed="#PL" break="no"/>dimus
+   certe non in solum Deum Patrem, sed et in 
+   <lb ed="#PL"/> Jcsum Chritum Filium ejus unicum Dominum no<lb ed="#PL" break="no"/>strum : modo totuin dixi, in Jesum Christum Filium
+   
+   <lb ed="#PL"/> ejus unicum Dominum nostrum. Totum ibi intelligo, 
+   <lb ed="#PL"/> et Verbum, et animam, et carnem. Sed utiquc con<lb ed="#PL" break="no"/>fiteris
+   etiam illud qnod habet eadem fides, in eum 
+   <lb ed="#PL"/> Christum te credere qui crucifixus est et sepultus. 
+   <lb ed="#PL"/> Ergo ctinm sepultum Christum esse non nogas : et 
+   <lb ed="#PL"/> tamen sola caro sepulta est. Si enim ciat ibi anima , 
+   <lb ed="#PL"/> non erat mortuus : si autem vera mors erat, ut ejus 
+   <lb ed="#PL"/> vera sit resurrectio, sine anima fuerat in sepulero; 
+   <lb ed="#PL"/> et tamen sepultus est Christus. Ergo Christus erat 
+   <lb ed="#PL"/> etiam sine anima caro, quia non est sepulta nisi caro. 
+   <lb ed="#PL"/> Disce hoc etiam in apostolicis verbis. <hi rend="italic">Hoc sentite,</hi> in<lb ed="#PL" break="no"/>quit, in <hi rend="italic">vobis, quod et</hi> in <hi rend="italic">Christo Jesu : qui cum in forma
+    
+   <lb ed="#PL"/> Dei esset, non rapinam arbitratus est esse aequalis Deo.</hi>
+   
+       <lb ed="#PL"/> Quis, nibi Christus Jesus, quantum atlinet ad id quod 
+   <lb ed="#PL"/> est Verbum. Deus apud Deum ? Vide autem quod se<lb ed="#PL" break="no"/>quitur : <hi rend="italic">Sed semetipsum exinanivit
+    formam serv acci<lb ed="#PL" break="no"/>piens ; in similitudine hominum factus, et habitu inventus
+    
+   <lb ed="#PL"/> ut homo.</hi> Et hoc qnis, nisi idem ipse Christus Jesus ? 
+   <lb ed="#PL"/> Sed hic jam omnia sunt, et Verbum in forma Dei , 
+   <lb ed="#PL"/> quae accepit formam servi;etanimaetcaro in forma 
+   <lb ed="#PL"/> servi, qua; accepta est a forina Dei. <hi rend="italic">Humiliavit semet­
+    
+   <lb ed="#PL"/> ipsum, factus obediens usque ad mortem (Philipp.</hi> II, 
+   <lb ed="#PL"/> 6-8). Jam in morte sola caro est a Judaeis occisa. Si 
+   <lb ed="#PL"/> enim discipulis dixit, <hi rend="italic">Nolite timere cos qui occidunt 
+   <lb ed="#PL"/> corpus, animam autem</hi> non <hi rend="italic">possunt occidere (Matth.</hi> x, 
+   <lb ed="#PL"/> 28); numquid in ipso potucrunt plus quam corpus 
+   <lb ed="#PL"/> occidere ? Et tamen carne occisa Christus occisus 
+   <lb ed="#PL"/> est. Ita cum caro animam posuit, Christus anirnam 
+   <lb ed="#PL"/> posuit; et cum caro, ut resurgerct, animam sumpsit, 
+   <lb ed="#PL"/> Christus animam sumpsit. Nec tamen potestate carnis 
+   <lb ed="#PL"/> hoc factum est
+   ; sed ejus qui et animam et carnem , 
+   <lb ed="#PL"/> ubi haec adimplerentur, assumpsit.</p>
+      <p xml:id="iuy75t-d1e426-d1e1563">
+       <hi rend="italic">14. Hoc,</hi> inquit, <hi rend="italic">mandatum accepi a Patre
+    meo.</hi> Ver<lb ed="#PL" break="no"/>bum
+   non verbo I accepit mandatum, sed in Verbo 
+   <lb ed="#PL"/> unigenito Patris est omne mandatum. Cum autem di<lb ed="#PL" break="no"/>citur
+   Filius a Patre accipere quod substantialilcr ha<lb ed="#PL" break="no"/>bet, quomodo dictum est, <hi rend="italic">Sicut habet Pater
+    vitam</hi> in 
+   <lb ed="#PL"/> semetipso, <hi rend="italic">sic dedit Filio habere vitam in
+    semetipso 
+   <lb ed="#PL"/> (Joan.</hi> v, 23), cum Filius ipse sit vita; non potestas 
+   <lb ed="#PL"/> minuitur, sed gencralio ejus ostenditur. Quoniam 'Pa<lb ed="#PL" break="no"/>ter
+   non quasi ei filio qui imperfectus est natus, ali<lb ed="#PL" break="no"/>quid
+   addidit; sed ei quem perfectum genuit, omnia
+    
+   
+   <lb ed="#PL"/> ,. 
+   <pb ed="#PL" n="1741"/>
+       <lb ed="#PL"/> gignendo dedit. Ita illi dedit suam aequalitatem, quem 
+   <lb ed="#PL"/> non genuit inaequalem. Sed haec loquente Domino, 
+   <lb ed="#PL"/> quoniam lux lucchal in tenebris, et tenebra cam non 
+   <lb ed="#PL"/> comprehendebant(Joan.I, 5), <hi rend="italic">Dissensio iterum facta
+    est
+   <lb ed="#PL"/> inter Judaeos propter sermones hos, Dicebant autem multi 
+   <lb ed="#PL"/> ex ipsis:
+    Daemonium habel, et</hi> insanit; <hi rend="italic">quid eum auditis ?</hi>
+   
+       <lb ed="#PL"/> Istae fuerunt densissimae tenebrae. <hi rend="italic">Alii dicebant: Haec 
+   <lb ed="#PL"/>
+    verba</hi> non <hi rend="italic">sunt daemonium</hi>
+       <hi rend="italic">habentis ;
+    numquid daemonium 
+   <lb ed="#PL"/> potest caecorum oculos aperire ?</hi> Jam istorum oculi eae­
+   
+   <lb ed="#PL"/> perant aperiri.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

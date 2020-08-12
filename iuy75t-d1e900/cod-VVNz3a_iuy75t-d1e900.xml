@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 105</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 105</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e900"> <!-- iuy75t-t105 -->
+      <head xml:id="iuy75t-d1e900-Hd1e109">Tractatus 105</head>
+      <p xml:id="iuy75t-d1e900-d1e112">
+       <hi rend="italic">Ab eo quod Dominus alt,</hi> Ut Filius tuns clarificet te; 
+   <lb ed="#PL"/>
+       <hi rend="italic">usque ad</hi> id, Claritate quam habui, priusquam mon<lb ed="#PL" break="no"/>dus
+   esset, apud te. <hi rend="italic">Cap.</hi> XVII, f . 1-5.</p>
+      <p xml:id="iuy75t-d1e900-d1e128">i. Glorificatum a Patre Filium secundum formam 
+   <lb ed="#PL"/> servi, quam Pater suscitavit a mortuis, et ad suam 
+   <lb ed="#PL"/> dexteram collocavit, res ipsa indicat, et nullus am<lb ed="#PL" break="no"/>bigit
+   christianus. Sed quoniam non tantum dixit, Pa<lb ed="#PL" break="no"/>ter, <hi rend="italic">clarifica Filium</hi> luum, sed addidit etiam, <hi rend="italic">ut</hi> Filius 
+   <lb ed="#PL"/> tuus <hi rend="italic">clarificet te;</hi> merito quaeritur quomodo Patrem 
+   <lb ed="#PL"/> clarificaverit Filius, cum sempiterna claritas Patris 
+   <lb ed="#PL"/> nec diminuta fuerit in forma humana, nec augeri po<lb ed="#PL" break="no"/>tuerit
+   in sua perfectione divina. Sed in seipsa clariUs
+   
+   <lb ed="#PL"/> Patris nec minui nec augeri potest; apud homines au<lb ed="#PL" break="no"/>tem
+   procul dubio minor erat, quando in Judxa tantum<lb ed="#PL" break="no"/>modo
+   Deus notus erat <hi rend="italic">(Psal.</hi> LXXV, i) : nondum a 
+   <lb ed="#PL"/> solis ortu usque ad occasum laudabant pueri nomes 
+   <lb ed="#PL"/> Domini
+    <hi rend="italic">(Psal.</hi> exii, 5,1). Hoc autem quia per Evan<lb ed="#PL" break="no"/>gelium
+   Christi factum est, ut per Filium Pater innote<lb ed="#PL" break="no"/>sceret
+   gentibus; profecto Patrem clarificavit et Filius. 
+   <lb ed="#PL"/> Si autem tantummodo mortuus fuisset Filius, nec re<lb ed="#PL" break="no"/>surrexisset,
+   procul dubio nee a Patre clarificatus es. 
+   <lb ed="#PL"/> set, nee Patrem clarificasset: nunc autem resurre<lb ed="#PL" break="no"/>ctione
+   clarificatus a Patre, resurrectionis suae praedi<lb ed="#PL" break="no"/>catione
+   clarificat Patrem. Hoc quippe aperit ordo 
+   <lb ed="#PL"/> ipse verborum :
+    <hi rend="italic">Clarifica,</hi> inquit, Filium <hi rend="italic">tuum,</hi> ut <hi rend="italic">F;­
+   <lb ed="#PL"/> lius tuus</hi>clarificet <hi rend="italic">te;</hi> tanquam diceret, Resuscita me, 
+   <lb ed="#PL"/> ut innotescas toti orbi per me.</p>
+      <p xml:id="iuy75t-d1e900-d1e209">I. Deinde magis magisque pandens quomodo cLari<lb ed="#PL" break="no"/>ficet
+   Patrem Filius : <hi rend="italic">Sicut dedisti,</hi> inquit, ei <hi rend="italic">potesta<lb ed="#PL" break="no"/>tem</hi> omnis Markis, ut omne <hi rend="italic">quod dedisti ei, det</hi> eia <foreign xml:lang="grc">νι</foreign>­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tam aeternam.</hi> Omnem carnem dixit omnem hominem, 
+   <lb ed="#PL"/> a parte totum significans; quemadmodum rursus a 
+   <lb ed="#PL"/> parte superiore signifiealus est homo tolus, ubi :tit 
+   <lb ed="#PL"/> Apostolus, <hi rend="italic">Omnis anima</hi> potestatibus sublimioribus <hi rend="italic">sub<lb ed="#PL" break="no"/>dita
+   sit</hi>
+       <hi rend="italic">(Rom.</hi> XIII, 1). Quid enim dixit, <hi rend="italic">Omnis ani­</hi>
+   
+       <lb ed="#PL"/> ma, nisi, omnis homo? Et hoc autem quod potestas 
+   <lb ed="#PL"/> Christo a Patre data est omnis carnis, secundum ho<lb ed="#PL" break="no"/>minem
+   intelligendum est : nam secundum Deum om<lb ed="#PL" break="no"/>nia
+   per ipsum facta sint <hi rend="italic">(Joan,</hi> I, 3), et in ipso con<lb ed="#PL" break="no"/>dita
+   sunt omnia in coelo et in terra, visibilia et invi<lb ed="#PL" break="no"/>sibilia <hi rend="italic">(Coloss.</hi> I, 16). Sicut ergo <hi rend="italic">dedisti</hi> ei <hi rend="italic">potestatem,</hi>
+   
+       <lb ed="#PL"/> inquit, <hi rend="italic">omnis carnis,</hi> ita te glorificet Filius tuus, id
+   
+   <lb ed="#PL"/> est, notum te faciat omni carni quam dedisti ei. Sic enim 
+   <lb ed="#PL"/> dedisti, ut <hi rend="italic">omne quod dedisti ei, det eia <foreign xml:lang="grc">νι</foreign>tam</hi> aeternvi.</p>
+      <p xml:id="iuy75t-d1e900-d1e297">3. <hi rend="italic">Haec est</hi> autem, inquit, <hi rend="italic">vita</hi> aeterna,
+    <hi rend="italic">ut cognoscant 
+   <lb ed="#PL"/> te</hi> solum <foreign xml:lang="grc">ν</foreign>erum <hi rend="italic">Deum, et quem</hi> misisti Jesum <hi rend="italic">Christum.</hi>
+   
+       <lb ed="#PL"/> Ordo verborum est, ut <hi rend="italic">te et quem</hi> misisti <hi rend="italic">Jesum Chri­</hi>
+   
+       <lb ed="#PL"/> stum <hi rend="italic">cognoscant</hi> solum <foreign xml:lang="grc">ν</foreign>erum <hi rend="italic">Deum.</hi> Consequenter 
+   <lb ed="#PL"/> enim et Spiritus sanctus intelligitur, quia Spiritus est 
+   <lb ed="#PL"/> Patris et Filii, tanquam charitas substantialis et con<lb ed="#PL" break="no"/>substantialis
+   amborum. Quoniam non duo dii Patcr 
+   <lb ed="#PL"/> et Filius, ore tres dii Pater et Filius et Spiritus san<lb ed="#PL" break="no"/>ctus; sed ipsa Trinitas solus verus Iscus. Nec 
+   <pb ed="#PL" n="1905"/>
+       <lb ed="#PL"/> idem tamen Pater qui Filius, nec idem Filius qui 
+   <lb ed="#PL"/> Pater, nec idem Spiritus sanctus qui Pater et Filius; 
+   <lb ed="#PL"/> quoniam Ires sunt Pater et Filius et Spiritus sanctus; 
+   <lb ed="#PL"/> sed ipsa Trinitas unus est Deus. Si ergo co modo te 
+   <lb ed="#PL"/> glorificat Filius <hi rend="italic">sicut dedisti ei potestatem</hi> omnis carnis, 
+   <lb ed="#PL"/> et sic dedisti, <hi rend="italic">ut omne quoS dedisti ei, det eia vitam aeter­ 
+   <lb ed="#PL"/>
+    nam,</hi> ct, <hi rend="italic">haec eat vita aeterna,</hi> ut <hi rend="italic">cognoscant te;</hi> sic te 
+   <lb ed="#PL"/> igitur Filius glorificat, ut omnibus quos dedisti ei, te 
+   <lb ed="#PL"/> cognitum faciat. Porro si cognitio Dei est vita aeterna, 
+   <lb ed="#PL"/> tanto magis vivere tendimus, quanto magis in hac 
+   <lb ed="#PL"/> cognitione proficiinus. Non autem moriemur in vita 
+   <lb ed="#PL"/> aeterna : tunc ergo Dei cognitio perfecta erit, quando 
+   <lb ed="#PL"/> nulla mors crit. Summa tunc Dei clarificatio; quia 
+   <lb ed="#PL"/> summa alona, quae graece dicitur <foreign xml:lang="grc">δόξα</foreign>. Unde di<lb ed="#PL" break="no"/>ctum
+   est <foreign xml:lang="grc">δόξασον</foreign> , quod Latini quidam interpretati 
+   <lb ed="#PL"/> sunt, clarifica; quidam, glorifica. A veteribus autem 
+   <lb ed="#PL"/> gloria, qua gloriosi homines dicuntur, ita est defi­
+   
+   <lb ed="#PL"/> nita : Gloria est frequens de aliquo fama cum laude. 
+   <lb ed="#PL"/> Al si homo laudatur cum famae creditur, quomodo 
+   <lb ed="#PL"/> Deus laudabitur quando ipse videbitur? Propter quod 
+   <lb ed="#PL"/> scriptum est, <hi rend="italic">Beati qui habitant</hi> in <hi rend="italic">domo
+    tua;</hi> in saecula 
+   <lb ed="#PL"/>
+       <hi rend="italic">saeculorum laudabunt te (Psal.</hi> LXXXIII, 5). Ibi erit Dei 
+   <lb ed="#PL"/> sine fine laudatio, ubi erit Dei plena cognitio; et quia 
+   <lb ed="#PL"/> plena cognitio, ideo summa clarificatio vel glorifi<lb ed="#PL" break="no"/>catio.</p>
+      <p xml:id="iuy75t-d1e900-d1e436">4. Sed prins hic clarificatur Deus, dum annuntiatus 
+   <lb ed="#PL"/> bominibus innotescit, et per fidem credentium praedi<lb ed="#PL" break="no"/>catur. Propter quod dicit, <hi rend="italic">Ego te
+    clarificavi super ter<lb ed="#PL" break="no"/>ram, opus consummavi quod dedisti mihi</hi> ut fa ciam.
+   
+   <lb ed="#PL"/> Non ait, jussisti; sed, <hi rend="italic">dedisti:</hi> ubi commendatur evi. 
+   <lb ed="#PL"/> dens gratia. Quid enim habet quod non accepit, etiam 
+   <lb ed="#PL"/> in Unigenito humana natura? An non accepit, ut nihil 
+   <lb ed="#PL"/> mali, sed bona faceret omnia , quando in unitatem 
+   <lb ed="#PL"/> personae suscepta est a Verbo, per quod facta sunt 
+   <lb ed="#PL"/> omnia? Sed quomodo consummavit opus quod acce<lb ed="#PL" break="no"/>pit
+   ut faciat, cum restit adhuc passionis experimen<lb ed="#PL" break="no"/>lum, ubi martyribus suis maxime praebuit quod se<lb ed="#PL" break="no"/>querentur
+   exemplum ; unde ait apostolus Petrus, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Christus passus eat pro nobis relinquens nobis exemplum, 
+   <lb ed="#PL"/> ut
+    sequamur vestigia ejus</hi> (I <hi rend="italic">Petr.</hi> II, 21) : nisi quia 
+   <lb ed="#PL"/> consummasse se dicit quod se consummaturum esse 
+   <lb ed="#PL"/> certissime novit? Sicut longe ante in prophetia prae<lb ed="#PL" break="no"/>tenti
+   temporis usus est verbis, quando post annos 
+   <lb ed="#PL"/> plurimos futurum fuerat quod dicebat : <hi rend="italic">Foderunt,</hi>
+   
+       <lb ed="#PL"/> inquit, manus <hi rend="italic">meas el pedes, dinumeraverunt omnia
+   <lb ed="#PL"/> ossa mea
+    (Psal.</hi> XXI, 17, 18); non ait, Fodient et di<lb ed="#PL" break="no"/>numerabunt. Et in hoc ipso Evangelio, <hi rend="italic">Omnia,</hi> inquit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">quae audivi a Patre meo, nota feci vobis (Joan.</hi> xv, 15): 
+   <lb ed="#PL"/> quibus ait postea, <hi rend="italic">Adhuc multa habeo vobis dicere; sed
+   <lb ed="#PL"/> non
+    potestis illa portare modo (Id.</hi> xvi, 12). Qui roim 
+   <lb ed="#PL"/> certis et immutabilibus cnusis omnia futura praedesti<lb ed="#PL" break="no"/>navit, quidquid facturus ess fecit : nam et per pro­
+   
+   <lb ed="#PL"/> phetam dictum de illo est , <hi rend="italic">Qui fecit quae futura sunt 
+   <lb ed="#PL"/>
+    (Isai.</hi> XLV, ii, <hi rend="italic">sec.</hi> LXX).</p>
+      <p xml:id="iuy75t-d1e900-d1e533">5. Secundum hoc etiam quod sequitur dicit : <hi rend="italic">Et</hi>
+   
+       <lb ed="#PL"/> nunc <hi rend="italic">clarifica me tu, Pater, apud temetipsum,</hi> claritate 
+   <lb ed="#PL"/>
+       <hi rend="italic">quam habui, priusquam mundus esset, apud te.</hi> Nam 
+   <lb ed="#PL"/> supra dixerat, <hi rend="italic">Pater, venit hora, clarifica Filium</hi> tuum, 
+   <lb ed="#PL"/>
+       <hi rend="italic">ut Filius tuus clarificet te :</hi> in quo verborum ordine 
+   <lb ed="#PL"/> ostenderat prius a Patre clarificandum Tilium , ut Pa<lb ed="#PL" break="no"/>trem
+   clariffcarct Filius. Modo autem dixit, <hi rend="italic">Ego te
+   <lb ed="#PL"/> clarificavi super terram , opus
+    consummavi quod dedisti
+   <lb ed="#PL"/> mihi ut faciam : et nunc clarifica me;</hi> tanquam prior
+   
+   <lb ed="#PL"/> ipse Patrem clarificaverit, a quo deinde ut clarificetur 
+   <lb ed="#PL"/> cxposcit. Ergo intelligendum est utroque verbo supe<lb ed="#PL" break="no"/>rius
+   usum secundum id quod futurum erat, eoque or<lb ed="#PL" break="no"/>dine
+   quo futurum erat, <hi rend="italic">Clarifica Filium,</hi> ut <hi rend="italic">te</hi> clarifi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">cet</hi> Filius : modo vero usum fuisse verbo praeteriti 
+   <lb ed="#PL"/> temporis de re futura, ubi ait, <hi rend="italic">Ego te clarificavi super</hi>
+   
+       <lb ed="#PL"/> terram , <hi rend="italic">opus consummavi quod dedisti mihi ut faciam.</hi>
+   
+       <lb ed="#PL"/> Deinde dicendo, <hi rend="italic">Et nunc clarifica me tu, Pater, apud
+   <lb ed="#PL"/>
+    temetipsum,</hi> quasi posterius esset clarificandus a Pa<lb ed="#PL" break="no"/>tre, quem prius ipse clarificaverat; quid ostendit, nisi 
+   <lb ed="#PL"/> superius ubi ait , <hi rend="italic">Ego te
+    clarificavi super terram,</hi> ita 
+   <lb ed="#PL"/> locutum se fuisse, tanquam fecisset quod facturus es<lb ed="#PL" break="no"/>set; hic autem poposcisse ut Pater faceret, per quod 
+   <lb ed="#PL"/> illud Filius facturus esset, id est, ut Pater clarificaret 
+   <lb ed="#PL"/> Filium, per quam Filii clarificationem etiam Filius 
+   <lb ed="#PL"/> clarificaturus esset Patrem? Denique si de re quae fu<lb ed="#PL" break="no"/>tura
+   erat, ponamus etiam futuri temporis verbum , 
+   <lb ed="#PL"/> ubi pro tempore futuro posuit ipse praeteritum, nulla 
+   <lb ed="#PL"/> sententiae remanebit obscuritas : veluti si dixisset, 
+   <lb ed="#PL"/> Ego te clarificabo super terram, opus consummabo 
+   <lb ed="#PL"/> quod dedisti mihi ut faciam : et nunc clarifica me tu, 
+   <lb ed="#PL"/> Pater, apud temetipsum. Nempe ita planum est, sic<lb ed="#PL" break="no"/>ut
+   illud ubi ait. <hi rend="italic">Clarifica</hi> Filium tuum, <hi rend="italic">ut</hi> Filius 
+   <lb ed="#PL"/>
+       <hi rend="italic">tuus clarificet te :</hi> et ipsa est omnino sententia , nisi 
+   <lb ed="#PL"/> quia et hic dictus est ejusdem clarificationis modus, 
+   <lb ed="#PL"/> ibi autem tacitus ; tanquam illud isto exponeretur eis 
+   <lb ed="#PL"/> quos poterat permovere, quomodo Pater Filium, et 
+   <lb ed="#PL"/> maxime quomodo Patrem clarificaret et Filius. Di<lb ed="#PL" break="no"/>cendo
+   enim clarificari a se Patrem super terram , se 
+   <lb ed="#PL"/> autem a Patre apud eamdem Patrem, modum pro<lb ed="#PL" break="no"/>recto
+   utriusque clarificationis ostendit. Ipse quippe 
+   <lb ed="#PL"/> Patrem clarificavit super terram, eum gentibus prae<lb ed="#PL" break="no"/>dicando; Pater vero ipsum apud semetipsum, ad suani 
+   <lb ed="#PL"/> dexteram collocando. Sed-ideo postea de clarificando 
+   <lb ed="#PL"/> Patre ubi ait, <hi rend="italic">Ego te clarificavi,</hi> verbum praeteriti lem<lb ed="#PL" break="no"/>poris
+   ponere maluit, ut monstraret in praedestinatione 
+   <lb ed="#PL"/> jam factum , et pro jam Iacto habendum quod certis<lb ed="#PL" break="no"/>sime
+   fuerat futurum ; id est, ut a Patre apud Patrem 
+   <lb ed="#PL"/> glorificatus, Patrem super terram gtoriftcarct et 
+   <lb ed="#PL"/> Filius.</p>
+      <p xml:id="iuy75t-d1e900-d1e693">6. Sed hanc praedestinationem in sua clarificatione 
+   <lb ed="#PL"/> manifestius aperuit, qua eum clarificavit Pater, in eo 
+   <lb ed="#PL"/> quod adjunxit, <hi rend="italic">Claritate quam habui,
+    priusquam</hi> mun­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">dus</hi> esset, <hi rend="italic">apud te.</hi> Ordo verborum cst, <hi rend="italic">quam habui
+   <lb ed="#PL"/> apud te , priusquam mundus esset.</hi> Ad hoc valet quod
+   
+   <lb ed="#PL"/> ait, <hi rend="italic">Et nunc clarifica me;</hi> hoc est, sicut tunc ; ita et
+   
+   <lb ed="#PL"/> nunc ; sicut tunc praedestinatione , ita et nunc perfe<lb ed="#PL" break="no"/>ctione : fae in mundo, quod apud te jam fuerat ante 
+   <lb ed="#PL"/> mundum; fac in suo tempore, quod ante omnia tem<lb ed="#PL" break="no"/>pora
+   statuisti. Hoc quidam sic intelligendum puta<lb ed="#PL" break="no"/>runt, tanquam natura humana quae suscepta est a 
+   <lb ed="#PL"/> Verbo, converteretur in Verbum,ethomo mutaretur 
+   <lb ed="#PL"/> in Deum ; imo , si diligentius quod opinati sunt cogi<lb ed="#PL" break="no"/>temus, homo peri reI in Dco. Non cnim quisquam ex 
+   <lb ed="#PL"/> ista mutatione hominis vEl duplicari Dei Verbum di­ 
+   <pb ed="#PL" n="1907"/>
+       <lb ed="#PL"/> cturus est, vel augeri, ut aut duo sint quod unum 
+   <lb ed="#PL"/> fuit, aut amplius sit quod annus fuit. Porro si natura 
+   <lb ed="#PL"/> humana in Verbum mutata atque conversa, Verbum 
+   <lb ed="#PL"/> Dei quantum erat et quod erat boc erit, ubi est homo 
+   <lb ed="#PL"/> si non perit?</p>
+      <p xml:id="iuy75t-d1e900-d1e755">7. Sed ad hanc opinionem, quam veritati prorsus 
+   <lb ed="#PL"/> non vjdeo con venire, nibil nos urget, si Filio dicente, 
+   <lb ed="#PL"/> Et <hi rend="italic">nunc clarifica</hi> me tu, Pater,
+    <hi rend="italic">apud temetipsum,</hi> clari­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tate quam habui,</hi> priusquam mundus <hi rend="italic">eaet, apud
+    te</hi> , in<lb ed="#PL" break="no"/>telligamus
+   praedestinationem claritatis humanae quae 
+   <lb ed="#PL"/> in illo est naturae, ex mortali immortalis apud Patrem 
+   <lb ed="#PL"/> futurae; et boc jam praedestinando factum fuisse ante<lb ed="#PL" break="no"/>quam
+   mundus esset, quod in mundo etiam suo tcm<lb ed="#PL" break="no"/>pore
+   fieret. Si enim do nobis dixit Apostolus , <hi rend="italic">Sicut 
+   <lb ed="#PL"/> elegit nos</hi> in ipso <hi rend="italic">ante mundi constitutionem</hi> (Ephes. I , 
+   <lb ed="#PL"/> 4); cur abhorrere putatur a vero, si tunc Pater caput 
+   <lb ed="#PL"/> nostrum glorificavit, quando noa in ipso, ut membra 
+   <lb ed="#PL"/> ejus essemus, elegit? Sic enim nos electi, quomodo 
+   <lb ed="#PL"/> ipse clarificatus; quia priusquam mundus esset, nec 
+   <lb ed="#PL"/> noa eramus, nec ipse mediator Dei et hominum bomo 
+   <lb ed="#PL"/> Christus Jesus (1 <hi rend="italic">Tim,</hi> u, 5). Sed ille qui per ipsum 
+   <lb ed="#PL"/> in quantum Verbum ejus est, etiam <hi rend="italic">quae</hi> futura <hi rend="italic">sunt 
+   <lb ed="#PL"/> fecit,</hi> et <hi rend="italic">vocat</hi> ea <hi rend="italic">quae non</hi> sunt, <hi rend="italic">tanquam sint (Rom.</hi>
+   
+       <lb ed="#PL"/> iv, 47); profecto secundum id quod mediator Dei et 
+   <lb ed="#PL"/> bominum homo est, ante mundi constitutionem pro 
+   <lb ed="#PL"/> nobis Deus Pater glorificavit ipsum , si tunc elegit
+   
+   <lb ed="#PL"/> etiam nos in ipso. Quid enim dicit Apostolus? &lt; Sci. 
+   <lb ed="#PL"/> mus autem quoniam diligentibus Deum omnia coope<lb ed="#PL" break="no"/>rantur
+   in bonum, his qui secundum propositum vo­
+   
+   <lb ed="#PL"/> cati sunt. Quos enim praescivit, et praedestinavit con<lb ed="#PL" break="no"/>formes
+   fieri imaginis Filii ejus, ut sit ipse primoge<lb ed="#PL" break="no"/>nitus
+   in multis fratribus: quos autem praedestinavit, 
+   <lb ed="#PL"/> illos et vocavit » <hi rend="italic">(Id.</hi> VIM , 28-30).</p>
+      <p xml:id="iuy75t-d1e900-d1e857">8. Nisi forte ipsum praedestinatum dicere formida<lb ed="#PL" break="no"/>bimus, quia de nobis tantum ut efficiamur coaformes 
+   <lb ed="#PL"/> imaginis ejus, boc dixisse videtur Apostolus. Quasi 
+   <lb ed="#PL"/> vero quisquam regulam fidei fideliter intuens, Filium 
+   <lb ed="#PL"/> Dei negaturus est praedestinatum, qui eum negare 
+   <lb ed="#PL"/> bominem non potest. Recte quippe dicitur non prae­
+   
+   <lb ed="#PL"/> destinatus secundum id quod est Verbum Dei, Deus 
+   <lb ed="#PL"/> apud Deum. Utquid enim praedestinaretur, cum jam 
+   <lb ed="#PL"/> esset quod erat, sine initio, sine termino sempiternus?
+   
+   <lb ed="#PL"/> lllud autem praedestinandum erat, quod nondum 
+   <lb ed="#PL"/> erat, ut sic suo tempore fieret, quemadmodum ante 
+   <lb ed="#PL"/> omnia tempora praedestinatum erat ut fieret. Quis<lb ed="#PL" break="no"/>quis
+   igitur Dei Filium praedestinatum negat, hunc 
+   <lb ed="#PL"/> eumdem Milium bominis negat. Sed propter conten<lb ed="#PL" break="no"/>tiosos
+   etiam binc audiamus Apostolum in suarum 
+   <lb ed="#PL"/> exordio Litterarum. Nam et in prima Epistolarum 
+   <lb ed="#PL"/> ejus, quae est ad Romanos, et ipsius Epistole prin<lb ed="#PL" break="no"/>cipium
+   est, uhi legitur; <hi rend="italic">Paulus</hi> servus <hi rend="italic">Jesu Christi ,</hi>
+   
+       <lb ed="#PL"/> uocatus <hi rend="italic">Apostolus, segregatus in</hi> Evangelium <hi rend="italic">Dei, quod</hi>
+   
+       <lb ed="#PL"/> ante promiserat <hi rend="italic">per Prophetas</hi> suos in Scripturis sanctis 
+   <lb ed="#PL"/>
+       <hi rend="italic">de</hi> Filio suo, qui factus <hi rend="italic">eat ei ex</hi> semine
+    <hi rend="italic">David secundum</hi>
+   
+       <lb ed="#PL"/> carnem, <hi rend="italic">qui praedestinatus eat Filius Dei in</hi> virtute <hi rend="italic">se­</hi>
+   
+       <lb ed="#PL"/> eundum <hi rend="italic">Spiritum sanctificationis ex resurrectione mor­</hi>
+   
+       <lb ed="#PL"/> tuorum <hi rend="italic">(Id,</hi> I, 1-4). Secundum bane ergo praedesti<lb ed="#PL" break="no"/>nationem
+   etiam clarificatus est antequam mundus 
+   <lb ed="#PL"/> esset, ut esset claritas cjus ex resurrECtione mortuo<lb ed="#PL" break="no"/>rum
+   apud Patrem, ad cujus dexteram sedet. Cum 
+   <lb ed="#PL"/> ergo videret illius praedestinatae suae clarificationis 
+   <lb ed="#PL"/> venisse jam tempus, ut et nunc fieret in redditione, 
+   <lb ed="#PL"/> quod fuerat in praedestinatione jam factum, oravit di<lb ed="#PL" break="no"/>cens,
+   <hi rend="italic">Et nunc</hi> clarifica <hi rend="italic">me tu, Pater, apud
+    temetipsum,</hi>
+   
+       <lb ed="#PL"/> claritate <hi rend="italic">quam habui,</hi> priusquam mundus <hi rend="italic">esset, apud</hi>
+   
+       <lb ed="#PL"/> le : tanquam dicerct, Claritatem quam habui apud to, 
+   <lb ed="#PL"/> id est, illam claritatem quam habui apud le in pr:c- 
+   <lb ed="#PL"/> destinatione tua, tempus est ut apud te habeam etiam 
+   <lb ed="#PL"/> vivens in dextera tua. Sed quoniam diu noe tenuit 
+   <lb ed="#PL"/> hujus discussio quapstionis, alio quae sequuntur scr<lb ed="#PL" break="no"/>mone
+   tractauda sunt.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

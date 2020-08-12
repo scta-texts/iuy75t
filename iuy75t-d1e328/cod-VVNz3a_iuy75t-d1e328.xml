@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 35</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 35</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e328"> <!-- iuy75t-t35 -->
+      <head xml:id="iuy75t-d1e328-Hd1e109">Tractatus 35</head>
+      <p xml:id="iuy75t-d1e328-d1e112">
+       <hi rend="italic">Ab eo quod legitur,</hi> Dixerunt ergo Pharisaei, Tu de te<lb ed="#PL" break="no"/>ipso
+   testimonium perhibes, <hi rend="italic">etc., usque ad id,</hi> Ve<lb ed="#PL" break="no"/>rum
+   est testimonium meum, quia scio unde veni, 
+   <lb ed="#PL"/> et quo vado. <hi rend="italic">Cap.</hi> vin, f . 13, 14.</p>
+      <p xml:id="iuy75t-d1e328-d1e131">1. De verbis Domini nostri Jesu Christi, ubi ait, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ego</hi> sum <hi rend="italic">lux mundi: qui</hi> me sequitur, <hi rend="italic">non ambulabit in 
+   <lb ed="#PL"/> . tenebris; sed</hi> habebit lumen <hi rend="italic">vitae (Joan.</hi> vm, 12), he<lb ed="#PL" break="no"/>sterno
+   die qui adfuistis, diu disputatum esse mem!<lb ed="#PL" break="no"/>nislis : et si adhuc velimus de illo lumine disputare, 
+   <lb ed="#PL"/> diu loqui possumus; nam non possumus explicare 
+   <lb ed="#PL"/> compendio. Itaque, fratres mei, sequamur Christum 
+   <lb ed="#PL"/> lumen mundi, ne ambulemus in tenebris. Tenebrae 
+   <lb ed="#PL"/> metuendae sunt, morum, non oculorum : et si oculo<lb ed="#PL" break="no"/>rum, non exteriorum, sed interiorum, unde discerni<lb ed="#PL" break="no"/>tur
+   non album et nigrum, sed justum et injustum.</p>
+      <p xml:id="iuy75t-d1e328-d1e168">i. Cum haec ergo dixisset Dominus noster Jesus 
+   <lb ed="#PL"/> Christus, responderunt Judaei : Tu
+    <hi rend="italic">de te testimonium 
+   <lb ed="#PL"/> dicis;</hi> testimonium <hi rend="italic">tuum noM cat verum.</hi> Antequam ve<lb ed="#PL" break="no"/>niret
+   Dominus noster Jesus Christus, multas ante se 
+   <lb ed="#PL"/> lucernas propheticas accendit et misit. De his etiam 
+   <lb ed="#PL"/> erat Joannes Baptista, cui tam magnum ipsum lumen, 
+   <lb ed="#PL"/> quod cat Dominus Christus, perhibuit testimonium, 
+   <lb ed="#PL"/> quale nulli hominum : ait enim, <hi rend="italic">In natis mulierum
+    non 
+   <lb ed="#PL"/> surrexit</hi> major <hi rend="italic">Joanne Baptista (Matth.</hi> XI, 11). Hic ta<lb ed="#PL" break="no"/>men, quo nemo erat major in natis mulierum, dicit 
+   <lb ed="#PL"/> de Domino Jesu Christo: <hi rend="italic">Ego quidem baptizo vos</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">aqua;</hi> qui <hi rend="italic">autem venit, fortior</hi> me <hi rend="italic">eat, cujus non</hi> sum 
+   <lb ed="#PL"/>
+       <hi rend="italic">dignus calceamentum solvere (loan.</hi> I, 26, 27). Videte 
+   <lb ed="#PL"/> quemadmodum se lucerna diei submittat. Lucernam 
+   <lb ed="#PL"/> vero ipsum Joannem fuisse Dominus ipse testatur: 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ille erat,</hi> inquit, <hi rend="italic">lucerna ardens et lucens; et
+    vos volui­</hi>
+   
+       <lb ed="#PL"/> stis <hi rend="italic">ad horam exsultare</hi> in <hi rend="italic">lumine ejus
+    (Id.</hi> v, 55). 
+   <lb ed="#PL"/> Quando autem dixerunt Judaei Domino, <hi rend="italic">Dic
+    nobis,</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">qua potestate</hi> ista <hi rend="italic">facis?</hi> sciens Dominus quia Joannem 
+   <lb ed="#PL"/> Baptistam pro magno haberent, et quod ipse quem 
+   <lb ed="#PL"/> pro magno habebant, cis de Domine testimonium per<lb ed="#PL" break="no"/>hibuisset, respondit eis - Interrogabo et ego vos ununi 
+   <lb ed="#PL"/> sermonem : dicite mihi, Baptismus Joannis unde est? 
+   <lb ed="#PL"/> de coelo, an ex hominibus? Turbati illi intra sernet<lb ed="#PL" break="no"/>ipsos
+   cogitabant, quia si dicerent, Ab hominibus, la<lb ed="#PL" break="no"/>pidari
+   po sent a turba, quae Joannem prophetam esse 
+   <lb ed="#PL"/> credebat: si dicerent, De coelo, responderet eis, ille 
+   <lb ed="#PL"/> quem conflemini de coelo habuisse prophetiam, milii 
+   <lb ed="#PL"/> testimonium perhibuit, et ab illo audistis in qua ego 
+   <lb ed="#PL"/> ista faciam potestate. Viderunt ergo, quodlibet ho<lb ed="#PL" break="no"/>rum
+   respondissent, in laqueum se casuros; et dixe<lb ed="#PL" break="no"/>runt, <hi rend="italic">Nescimus.</hi> Et Dominus eis: <hi rend="italic">Nec ego dico vobis,</hi> ' 
+   <lb ed="#PL"/> in <hi rend="italic">qua potestate ista
+    facio (Matth.</hi> xxi, 23-27). Non vo<lb ed="#PL" break="no"/>bis
+   dico quod scio, quia non vultis fateri quod scitis. 
+   <lb ed="#PL"/> Justissime utique repulsi, confusi abscessenmt: et im<lb ed="#PL" break="no"/>pletum
+   est quod iti Psalmo per Prophetam dicit Deus 
+   <lb ed="#PL"/> Pater, <hi rend="italic">Paravi</hi> lucernam <hi rend="italic">Christo</hi> meo, id est, ipsum 
+   <lb ed="#PL"/> Joannem
+   ; <hi rend="italic">inimicos ejus induam confusione</hi> ( <hi rend="italic">Psal.</hi>
+   
+       <lb ed="#PL"/> CXXXI. 17, 18).</p>
+      <p xml:id="iuy75t-d1e328-d1e326">3. Habebat ergo Dominus Jesus Christus testimo<lb ed="#PL" break="no"/>nium
+   Prophetarum ante se premissorum, praeconum 
+   <lb ed="#PL"/> judicem praecedentium ; habcbat testimonium a Joan<lb ed="#PL" break="no"/>ne
+   : sed ipse majus I testimonium cr t, quod sibi per-. 
+   <lb ed="#PL"/> hibebat. Illi autem infirmis oculis lucernas qu:erebant, 
+   <lb ed="#PL"/> quia diem ferre non poterant : nam Joannes idem ipse
+   
+   <lb ed="#PL"/> apostolus, cujus Evangelium in manibus habemus, in 
+   <lb ed="#PL"/> ipsius Evangelii sui capite nit de Joanne, c Erathomo 
+   <lb ed="#PL"/> ixissus a Deo, cui nomen erat Joannes : hic venit in 
+   <lb ed="#PL"/> testimonium, ut testimonium perhiberet de lumine, 
+   <lb ed="#PL"/> ut omnes crederent per eum. Non erat ille lumen, 
+   <lb ed="#PL"/> sed ut testimonium perhiberet de lumine. Erat lumen
+   
+   <lb ed="#PL"/> verum , quod illuminat omnem hominem venientem 
+   <lb ed="#PL"/> in mundum. t Si <hi rend="italic">omnem,</hi> ergo et Joannem. Unde dicit 
+   <lb ed="#PL"/>etipse Joannes, <hi rend="italic">Nos omnes de plenitudine ejus acce­</hi>
+   
+       <lb ed="#PL"/> pimus <hi rend="italic">(Joan.</hi> i, 6-9, 16). Discernite ergo ista, ut pro­
+   
+   <lb ed="#PL"/> ficiat mens vestra in (ide Christi; ne semper infantes 
+   <lb ed="#PL"/> sitis ubera quaerentes, et a cibo solido resilientes. 
+   <lb ed="#PL"/> Debetis apud matrem sanctam Ecclesiam Christi nu<lb ed="#PL" break="no"/>triri
+   et ablactari, et ad escas solidiores accedere, 
+   <lb ed="#PL"/> mente, non ventre. Hoc ergo discernite, aliud esse 
+   <lb ed="#PL"/> lumen quod illuminat, aliud esse quod illuminatur. 
+   <lb ed="#PL"/> Nam et oculi nostri lumina dicuntur; et unusquisque 
+   <lb ed="#PL"/> ita jurat, tangens oculos suos, per lumina sua, Sic vi<lb ed="#PL" break="no"/>vant
+   lumina mea : usitata juratio est. Quae lumina si 
+   <lb ed="#PL"/> lumina sunt, desit lumen in cubiculo tuo clauso, pa<lb ed="#PL" break="no"/>tcant
+   et luceant libi: non utique possunt. Quomodo 
+   <lb ed="#PL"/> ergo ista in facie quae habemus, et lumina nuncupa<lb ed="#PL" break="no"/>mus, et quando sana sunt,etquando patent, indigent 
+   <lb ed="#PL"/> extrinsecus adjutorio luminis; quo ablato aut non iI<lb ed="#PL" break="no"/>lato, sana sunt, aperta sunt, nec tamen vident: sic 
+   <lb ed="#PL"/> mens nostra, qui est oculus animae, nisi veritatis lu­
+   
+   <lb ed="#PL"/> mine radietur, et ab illo qui illuminat nec illumina<lb ed="#PL" break="no"/>tur, mirabiliter illustretur, nec ad sapientiam nec ad 
+   <lb ed="#PL"/> justitiam poterit pervenire. Ipsa est enim via nostra 
+   <lb ed="#PL"/> juste vivere. Quomodo autem non offendat in via, cui 
+   <lb ed="#PL"/> non lucet lumen ? Ac per hoc in tali via videre opus 
+   <lb ed="#PL"/> est, in tali via videre.magnum est. Nam Tobias in 
+   <lb ed="#PL"/> facie oculos clausos habebat, et filius patri manum 
+   
+   <pb ed="#PL" n="1659"/>
+       <lb ed="#PL"/> dabat; pater filio viam praecipiendo <hi rend="italic">monstrabat(Tob.</hi>
+   
+       <lb ed="#PL"/> II, it, iv).</p>
+      <p xml:id="iuy75t-d1e328-d1e430">4. Responderunt ergo Judaei, <hi rend="italic">Tu dt te testimonium 
+   <lb ed="#PL"/> dicis;
+    testimonium tuum</hi> non <hi rend="italic">eat verum.</hi> Videamus quid 
+   <lb ed="#PL"/> audiant: audiamus et nos, sed non sicut illi. Ulli con<lb ed="#PL" break="no"/>temnentes, nos credentes : illi occidere Christum vo<lb ed="#PL" break="no"/>lentes, nos per Christum vivere cupientes. Interim
+   
+   <lb ed="#PL"/> ista distantia distinguat aures mentesque nostras,et
+   <lb ed="#PL"/> audiamus quid Judaeis responderit Dominus. <hi rend="italic">Respondit
+   <lb ed="#PL"/> Jesus, et dixit eis : Etsi ego
+    de</hi> me <hi rend="italic">testimonium perhibeo, 
+   <lb ed="#PL"/> verum est testimonium</hi> meum; <hi rend="italic">quia scio</hi> uude <hi rend="italic">veni,et
+   <lb ed="#PL"/> quo
+    vado.</hi> Lumen et alia demonstrat et seipsum. Accen<lb ed="#PL" break="no"/>dis
+   lucernam, verbi gratia, ut quaeras tunicam, et prae<lb ed="#PL" break="no"/>£tat tibi ardens lucerita ut invenins tunicam: numquid 
+   <lb ed="#PL"/> accendis lucernam ut videas ardentem lucernam ? Lu<lb ed="#PL" break="no"/>cerna
+   quippe ardens idonea estet alia quae tenebris ope<lb ed="#PL" break="no"/>riebantur
+   nudare , et seipsam tuis oculis demonstrare. 
+   <lb ed="#PL"/> Sic ei Dominus Christus et inter fideles suos, et inimicos
+   
+   <lb ed="#PL"/> Judaeos, tanquam inter lucem et tcnebras distingue<lb ed="#PL" break="no"/>bat; tanquam inter illos quos radio fidei perfundebat, 
+   <lb ed="#PL"/> et illos quorum clausos oculos circumfundebat. Nam
+   
+   <lb ed="#PL"/> etiam sol iste et videntis faciem illustrat, et caeci : 
+   <lb ed="#PL"/> ambo pariter stantes, et faciem ad solem habentes 
+   <lb ed="#PL"/> illustrantur in carne, sed non ambo illuminantur in
+   
+   <lb ed="#PL"/> acie; videt ille, ille non videt; ambobus sol praesens 
+   <lb ed="#PL"/> cst, sed praesenti soli unus est absens. Sic et Sapien<lb ed="#PL" break="no"/>tia
+   Dei, Verbum Dei, Dominus Jesus Christus ubi<lb ed="#PL" break="no"/>que
+   praesens est; quia ubique est veritas, ubique est 
+   <lb ed="#PL"/> sapientia. Intelligit quis in oriente justitiam; intelli<lb ed="#PL" break="no"/>git
+   alius in occidente justitiam : numquid alia est 
+   <lb ed="#PL"/> justitia quam ille intelligit, alia quam iste? Separati 
+   <lb ed="#PL"/> sunt corpore, et in uno habent acics mentium sua<lb ed="#PL" break="no"/>rum. Quam video justitiam hic constitutus, si justitia 
+   <lb ed="#PL"/> est, ipsam videt justus nescio quot mansionibus a me
+   
+   <lb ed="#PL"/> carne sejunctus, et in illius justitiae luce conjunctus. 
+   <lb ed="#PL"/> Ergo tesiimonium sibi perhibet lux : aperit sanos ocu<lb ed="#PL" break="no"/>los, et sibi ipsa testis est, ut cognoscatur lux. Sed 
+   <lb ed="#PL"/> quid agimus de infidelibus? numquid illis non est 
+   <lb ed="#PL"/> praesens? Est praesens et illis : sed quibus eam vi<lb ed="#PL" break="no"/>deant, oculos non habent cordis. Audi de illis ex 
+   <lb ed="#PL"/> Evangelio ipso prolatam sententiam : <hi rend="italic">Et lux lucet</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">tenebris, et tenebrae eam non comprehenderunt (Joan. I,</hi>
+   
+       <lb ed="#PL"/> 5) Ergo ait Dominus, et verum ait, <hi rend="italic">Etsi ego de me 
+   <lb ed="#PL"/>
+    testimonium perhibeo, verum est testimonium meum; 
+   <lb ed="#PL"/> quia</hi> scio <hi rend="italic">unde veni, et quo vado.</hi> Patrem volebat intel<lb ed="#PL" break="no"/>ligi ; Patri gloriam dabat Filius. aequalis glorificat eum 
+   <lb ed="#PL"/> a quo est missus: quantum debet homo glorificare 
+   <lb ed="#PL"/> eum a quo est creatus?</p>
+      <p xml:id="iuy75t-d1e328-d1e561">5. <hi rend="italic">Scio unde veni, et quo vado.</hi> Iste qui in praesen<lb ed="#PL" break="no"/>tia
+   vobis loquitur, habet quod non deseruit, sed tamen 
+   <lb ed="#PL"/> venit: non enim veniendo inde discessit, aut redeundo 
+   <lb ed="#PL"/> nos dereliquit. Quid miramini? Deus est. Non potest 
+   <lb ed="#PL"/> hoc fieri ab homine; non potest hoc fieri ab ipso sole. 
+   <lb ed="#PL"/> Quando pergit ad occidentem, deserit orientem, et 
+   <lb ed="#PL"/> donec oriturus redeat ad orientem, non est in oriente: 
+   <lb ed="#PL"/> Dominus autem noster Jesus Christus et venit, et ibi 
+   <lb ed="#PL"/> est; et redit, et hic est. Audi ipsum Evangelistam 
+   <lb ed="#PL"/> alio loco dicentem, et si potes, cape; si non potes, 
+   <lb ed="#PL"/> crede: Deum, inquit, <hi rend="italic">ncmo vidit unquam, nisi uni­ 
+   <lb ed="#PL"/>
+    genitus Filius, qni cst</hi> iu <hi rend="italic">sinu Patris,</hi> ipse enarrant 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Joan.</hi> It 18). Non dixit, Fuit in sinu Patris, quasi ve<lb ed="#PL" break="no"/>niendo
+   deseruerit sinum Patris. Hic loquebatur, et 
+   <lb ed="#PL"/> ibi se esse dicebat: qui et hinc discessurus, quid 
+   <lb ed="#PL"/> dixit? <hi rend="italic">Ecce ego vobiscum sum usque
+    ad</hi> consummatio<lb ed="#PL" break="no"/>nem <hi rend="italic">saeculi (Matth.</hi> XXVIII, 20).</p>
+      <p xml:id="iuy75t-d1e328-d1e617">6. Ergo verum est testimonium luminis, sive se 
+   <lb ed="#PL"/> ostendat, sive alia; quia sine lumine non potes videre 
+   <lb ed="#PL"/> lumcn, et sine lumine non potes videre quodlibet aliud
+   
+   <lb ed="#PL"/> quod non est lumen. Si idoneum est lumen ad demon<lb ed="#PL" break="no"/>stranda
+   ea quae non sunt lumina, numquid in se de<lb ed="#PL" break="no"/>ficit? numquid se non aperit, sine quo alia patere 
+   <lb ed="#PL"/> nou possunt? Locutus est Propheta verum; sed unde 
+   <lb ed="#PL"/> habcret, nisi de fonte veritatis hauriret? Locutus est 
+   <lb ed="#PL"/> Joannes verum; sed unde locutus est, ipsum inter<lb ed="#PL" break="no"/>roga
+   : <hi rend="italic">Noa omnes,</hi> inquit, <hi rend="italic">de plenitudine ejus
+    accepimus.</hi>
+   
+       <lb ed="#PL"/> Ergo idoneus est Dominus noster Jesus Christus qui 
+   <lb ed="#PL"/> sibi perhibeat testimonium. Sed plane, fratres mei, in 
+   <lb ed="#PL"/> nocte hujus saeculi audiamus et prophetiam intenlC : 
+   <lb ed="#PL"/> modo enim ad fragilitatem nostram nocturnasque 
+   <lb ed="#PL"/> cordis nostri intimas tenebras humilis voluit venire 
+   <lb ed="#PL"/> Dominus noster. Homo venit contemnendus et hono<lb ed="#PL" break="no"/>randus, venit negandus et confitendus; contemnendus 
+   <lb ed="#PL"/> et negandus a Judaeis , honorandus et confitendus a 
+   <lb ed="#PL"/> nobis : judicandus et judicaturus; judicandus injuste, 
+   <lb ed="#PL"/> judicaturus juste. Talis ergo venit, ut oporteret ei lucer­
+   
+   <lb ed="#PL"/> nam testimonium perhibere. Nam quid opus erat ut 
+   <lb ed="#PL"/> Joannes tanquam lucerna perhiberet testimonium dicit 
+   <lb ed="#PL"/> si dies ipse ab infirmitate nostra posset videri ? Scd 
+   <lb ed="#PL"/> nen poteramus : infirmus factus est infirmis, per in<lb ed="#PL" break="no"/>firmitatem
+   sanavit infirmitatcm; per mortalem car<lb ed="#PL" break="no"/>nem, carnis abstulit mortem; de corpore suo colly­
+   
+   <lb ed="#PL"/> rium fecit luminibus nostris. Quia ergo Dominus venit, 
+   <lb ed="#PL"/> et in nocte saeculi adhuc sumus, oportet ut et pro. 
+   <lb ed="#PL"/> phetias audiamus.</p>
+      <p xml:id="iuy75t-d1e328-d1e687">i. Nam de prophetia convincimus contradicentesPa<lb ed="#PL" break="no"/>ganos. Quis est Christus, dicit Paganus ? Cui responde<lb ed="#PL" break="no"/>mus : Quem praenuntiaverunt Prophetae. Et ille : Qui 
+   <lb ed="#PL"/> Prophetae? Recitamus Isaiam, Danielem, Jeremiam, 
+   <lb ed="#PL"/> aliossanctos Prophetas; dicimusquam longe ante illum 
+   <lb ed="#PL"/> venerint, quanto tempore adventum ejus praecesserit.
+   
+   <lb ed="#PL"/> Hoc ergo respondemus: Praevenerunt eum Prophetae, 
+   <lb ed="#PL"/> praedixerunt eum esse venturum. RespondeL aliquis eo<lb ed="#PL" break="no"/>rum: Qui Prophetae? Nos recitamus, qui nobis quotidie 
+   <lb ed="#PL"/> recitantur. Et ille: Qui sunt hi Prophetae ? Nos respon<lb ed="#PL" break="no"/>demus: Qui et praedixerunt ea quae fieri videmus. Et ille: 
+   <lb ed="#PL"/> Vos, inquit, vobis ista finxistis, vidistis ea fieri, et quasi 
+   <lb ed="#PL"/> ventura praedicta essent, in libris quibus voluistis
+   
+   <lb ed="#PL"/> conscripsistis. iIic contra inimicos Paganos occurrit 
+   <lb ed="#PL"/> nobis aliorum testimonium inimicorum. Profcrimus 
+   <lb ed="#PL"/> codices a Judaeis,etrespondemus : Nempe et vos et 
+   <lb ed="#PL"/> illi, fidei nostrae estis inimici. Ideo sparsi sunt per 
+   <lb ed="#PL"/> gentes, ut alios cx aliis convincamus inimicis. Codex ; 
+   <lb ed="#PL"/> Isaiae proferatur a Judaeis, videamus si non ibi lego, 
+   <lb ed="#PL"/> &lt; Sicut ovis ad immolandum ductus est, et sicut agnus 
+   <lb ed="#PL"/> coram tondente fuit sine voce, sic non aperuit os 
+   <lb ed="#PL"/> suum. III humilitate judicium ejus sublatum est; livore 
+   <lb ed="#PL"/> cjus sanati sumus: omnes ut oves crravimus, et ipso
+   
+   <lb ed="#PL"/> traditus est pro peccatis nostris <hi rend="italic">(Isai.</hi> LIII, 5-8). 
+   <pb ed="#PL" n="1661"/>
+       <lb ed="#PL"/> Ecce lucerna una. Alia proferatur, Psalmus aperia<lb ed="#PL" break="no"/>tur, etiam inde praedicta passio Christi recitetur. &lt; Fo<lb ed="#PL" break="no"/>derunt
+   manus meas et pedes meos, dinumeraverunt 
+   <lb ed="#PL"/> omnia ossa mea : ipsi vero consideraverunt et con<lb ed="#PL" break="no"/>spexerunt
+   me, diviserunt sibi vestimenta mea, et 
+   <lb ed="#PL"/> super vestimentum menm miserunt sortem. Apud te 
+   <lb ed="#PL"/> laus mea; in Ecclesia magna confitebor libi. Comme<lb ed="#PL" break="no"/>morabuntur
+   et convertentur ad Dominum universi 
+   <lb ed="#PL"/> fines terrae : et adorabunt in conspectu ejus universae 
+   <lb ed="#PL"/> patrine gentium; quia Domini est regnum, et ipse do<lb ed="#PL" break="no"/>minabitur
+   gehtium &gt; <hi rend="italic">(Psal.</hi> XXI, 17-29). Erubescat 
+   <lb ed="#PL"/> unus inimicus, quia codicem mihi ministrat alius ini<lb ed="#PL" break="no"/>micus. Sed ecce de codicibus prolatis ab uno inimico 
+   <lb ed="#PL"/> alterum vici: et ipse qui mihi codicem protulit, non 
+   <lb ed="#PL"/> relinquatur; ab illo proferatur, unde et ipse vincatur. 
+   <lb ed="#PL"/> Lego alium prophetam, et invenio Dominum loquen<lb ed="#PL" break="no"/>tcm
+   ad Judaeos : <hi rend="italic">Non est</hi> mihi <hi rend="italic">voluntas</hi> in vobis, <hi rend="italic">dicit
+   <lb ed="#PL"/> Donrinul, nee</hi> accipiam <hi rend="italic">sacrificium 1 de manibus vestris:</hi>
+   
+       <lb ed="#PL"/> quoniam <hi rend="italic">ab ortu</hi> solis usque <hi rend="italic">ad occasum,
+    sacrificium</hi>
+   
+       <lb ed="#PL"/> mundum <hi rend="italic">offertur</hi> nomini <hi rend="italic">meo (Malach,</hi> i, 10 <hi rend="italic">et</hi> i i ). Non 
+   <lb ed="#PL"/> venis, Judaee, ad sacrificium mandum; convinco te 
+   <lb ed="#PL"/> immundum.</p>
+      <p xml:id="iuy75t-d1e328-d1e824">8. Ecce et lucernae perhibent testimonium diei 
+   <lb ed="#PL"/> propter infirmitatem nostram, quia diei claritatem 
+   <lb ed="#PL"/> tolerare et videre non possumus. Nam et nos ipsi 
+   <lb ed="#PL"/> Christiani in comparatione quidem infidelium lux jam 
+   <lb ed="#PL"/> sumus; unde dicit Apostolus, <hi rend="italic">Fuistis</hi> enim <hi rend="italic">aliquando
+   <lb ed="#PL"/> tenebrae; nunc autem
+    lux in Domino, sicut filii lucis
+   <lb ed="#PL"/> ambulate (Ephes.</hi> v, 8) : et alibi dixit,
+    <hi rend="italic">Nox praecessit, 
+   <lb ed="#PL"/> dies autem eppropinquavit: abjiciamus ergo
+    opera tene­</hi>
+   
+       <lb ed="#PL"/> brarum, et <hi rend="italic">induamus nos arma</hi> lucis ; <hi rend="italic">sicut in die honeste 
+   <lb ed="#PL"/> ambulemus ( Rom.</hi> XIII, 42, 13). Tamcn quia in com­
+   
+   <lb ed="#PL"/> paratione illius !ocis ad quam venturi sumus, adhuc 
+   <lb ed="#PL"/> nox est etiam dies in quo sumus, audi Petrum aposto<lb ed="#PL" break="no"/>lum : delatam dicit Domino Christo vocem de magni­
+   
+   <lb ed="#PL"/> lira potestate, <hi rend="italic">Tu</hi> es <hi rend="italic">Filius</hi> meus
+    <hi rend="italic">dilectus,</hi> in <hi rend="italic">quo bene
+   <lb ed="#PL"/> sensi. Hanc
+    vocem,</hi> inquit, <hi rend="italic">nos de</hi> ccelo <hi rend="italic">audivimus
+    dela<lb ed="#PL" break="no"/>tam, cum essemus</hi> cum <hi rend="italic">illo in monte sancto.</hi> Sed quia 
+   <lb ed="#PL"/> nos nou ibi fuimus, et istam vocem de coelo tunc non 
+   <lb ed="#PL"/> audivimus; nit ad nos ipse Petrus, <hi rend="italic">Et habemus cer­
+   <lb ed="#PL"/> tiorem propheticum
+    sermonem.</hi> Non audistis vocem de 
+   <lb ed="#PL"/> coelo delatam, sed certiorem habetis propheticum ser<lb ed="#PL" break="no"/>monem. Praevidens enim Dominus Jesus Christus 
+   <lb ed="#PL"/> impios quosdam futuros, qui miraculis ejus calumnia- 
+   <lb ed="#PL"/> rentur, magicis artibus ea tribuendo, Prophetas ante 
+   <lb ed="#PL"/> praemisit. Numquid enim, si magus erat et magicis 
+   <lb ed="#PL"/> artibus fecit ut coleretur et mortuus, magus erat 
+   <lb ed="#PL"/> antequam natus? Prophetas audi, o homo mortue, et 
+   <lb ed="#PL"/> - crmescendo calumniose, Prophetas audi: lego, audi 
+   <lb ed="#PL"/> qui ante Dominum venerunt. Habemus, aquit apo<lb ed="#PL" break="no"/>tolus
+   Petrus, <hi rend="italic">certiorem
+    propheticum sermonem,</hi> cui 
+   <lb ed="#PL"/>
+       <hi rend="italic">bene facitis</hi> attendentes, sicut <hi rend="italic">lucerna</hi> in obscuro <hi rend="italic">loco, 
+   <lb ed="#PL"/> donec dies</hi> lucescat, et lucifer <hi rend="italic">oriatur</hi> in <hi rend="italic">cordibus</hi> vestris 
+   <lb ed="#PL"/> ( I <hi rend="italic">Petr.</hi> I 17-19).</p>
+      <p xml:id="iuy75t-d1e328-d1e957">9. Quando ergo Dominus noster Jesus Christus 
+   <lb ed="#PL"/> venerit, et, sicut dicit etiam apostolus Paulus, ilium!<lb ed="#PL" break="no"/>naverit occulta tenebrarum, et manifestaverit cogita­
+   
+   <lb ed="#PL"/> tiones cordis, ut laus sit unicuique a Deo (I <hi rend="italic">Cor.</hi> iv, 5);
+    
+   
+   <lb ed="#PL"/> tunc praesente tali die lucernae non erunt necessariae: 
+   <lb ed="#PL"/> non legetur nobis Propheta, non aperictur codex Apo<lb ed="#PL" break="no"/>stoli, non requiremus testimonium Joannis, non ipso 
+   <lb ed="#PL"/> indigebimus Evangelio. Ergo omnes Scripturae tol<lb ed="#PL" break="no"/>lentur
+   de medio, quae nobis in hujus saeculi nocte 
+   <lb ed="#PL"/> tanquam lucernae accendebantur, ne in tenebris re­
+   
+   <lb ed="#PL"/> maneremus : istis omnibos sublatis, ne quasi nobis 
+   <lb ed="#PL"/> luceant indigentibus, et ipsis hominibus Dei, per qnos 
+   <lb ed="#PL"/> haec ministrata sunt, nobiscum lumen illud verum
+   
+   <lb ed="#PL"/> clarumque videntibus, remotis ergo his adjumentis 
+   <lb ed="#PL"/> quid videbimus! uude pascetur mens nostra? unde 
+   <lb ed="#PL"/> obtutus ille laetabitur? unde erit illud gaudium quod
+   
+   <lb ed="#PL"/> nec oculus vidit, nee auris audivit, nec in cor hominis 
+   <lb ed="#PL"/> ascendit (I Cor. II, 9)? quid videbimus ? Obsecrovos, ama<lb ed="#PL" break="no"/>te
+   mecum, currite credendo mecum: : patriam supernam 
+   <lb ed="#PL"/> dcsideremns, supernae patriae suspiremus, peregrinos 
+   <lb ed="#PL"/> nos esse hic sentiamus. Quid tunc videbimus ? Dicat 
+   <lb ed="#PL"/> nunc Evangelium : In <hi rend="italic">principio erat Verbum, et Ver­
+   <lb ed="#PL"/> bum erat apud Deum, et</hi> Deus erat <hi rend="italic">Verbum (Joan.</hi> I, 4). 
+   <lb ed="#PL"/> Unde tibi ros iuspersus cst, ad fontem venies : unde 
+   <lb ed="#PL"/> radius per obliqua et per anfractuosa tibi ad cor tene<lb ed="#PL" break="no"/>brosum
+   missus est, nudam ipsam lucem videbis, cui 
+   <lb ed="#PL"/> videndae ferendaeque mundaris. <hi rend="italic">Dilectissimi,</hi> quod et 
+   <lb ed="#PL"/> hesterno commemoravi, Joannes ipse dicit, filii <hi rend="italic">Dei</hi>
+   
+       <lb ed="#PL"/> sumus, <hi rend="italic">et nondum apparuit quid</hi> erimus : <hi rend="italic">scimus quia</hi>
+   
+       <lb ed="#PL"/> cum <hi rend="italic">apparuerit, similes ei erimus, quoniam videbimus</hi>
+   
+       <lb ed="#PL"/> eum <hi rend="italic">sicuti est</hi> (I <hi rend="italic">Joan.</hi> III, 2). Sentio vestros affectus 
+   <lb ed="#PL"/> attolli mecum in superna : sed corpus quod corrum<lb ed="#PL" break="no"/>pitur,
+   aggravat animam ; et deprimit terrena inhabi<lb ed="#PL" break="no"/>tatio
+   sensum multa cogitantem
+    <hi rend="italic">(Sap.</hi> IX, 45). Deposi<lb ed="#PL" break="no"/>torus
+   sum et ego codicem istum, discessuri estis et 
+   <lb ed="#PL"/> vos quisque ad sua. Bene nobis fuit in luce communi, 
+   <lb ed="#PL"/> bene gavisi sumus, bene exsultavimus : sed cum ab 
+   <lb ed="#PL"/> invicem recedimus, ab illo non recedamus.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

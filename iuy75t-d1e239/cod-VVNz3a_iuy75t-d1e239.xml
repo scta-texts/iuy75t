@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 24</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 24</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e239"> <!-- iuy75t-t24 -->
+      <head xml:id="iuy75t-d1e239-Hd1e109">Tractatus 24</head>
+      <p xml:id="iuy75t-d1e239-d1e112">
+       <hi rend="italic">Ab eo quod scriptum est,</hi> Post haec abiit Jesus trans mare 
+   <lb ed="#PL"/> Galilaeae, quod est Tiberiadis; usque ad id, Hic est 
+   <lb ed="#PL"/> vere propheta qui venit iD mundum. <hi rend="italic">Cap.</hi> VI, f . 
+   <lb ed="#PL"/> 1-14.</p>
+      <p xml:id="iuy75t-d1e239-d1e127">i. Miracula quae fecit pominus noster Jesus Chri<lb ed="#PL" break="no"/>stus, sunt quidem divina opera, et ad intelligendum 
+   
+   <pb ed="#PL" n="1593"/>
+       <lb ed="#PL"/> Deum de visibilibus admonent humanam mentem. Quia 
+   <lb ed="#PL"/> cnim tUe non est talis substantia quae videri oculis pos<lb ed="#PL" break="no"/>sit, ei miracula ejus quibus lotum munjdum regit uni<lb ed="#PL" break="no"/>versamque
+   creaturam administrat, assiduitate vilue<lb ed="#PL" break="no"/>runt, ita ut pene nemo dignetur attendere opera Dei 
+   <lb ed="#PL"/> mira et stupenda in quolibet semiois grano; secun<lb ed="#PL" break="no"/>dum
+   ipsam suam misericordiam servavit sibi quae<lb ed="#PL" break="no"/>dam, quae faceret opportuno tempore praeter usitatum 
+   <lb ed="#PL"/> cursum ordinemque naturae, ut non majora, sed iu<lb ed="#PL" break="no"/>Molita
+   videndo stuperent, qnibus quotidiana viluerant. 
+   <lb ed="#PL"/> Majus enim miraculum est guberpatio totius mundi, 
+   <lb ed="#PL"/> a quam saturatio quinque millium hominum de quinque 
+   <lb ed="#PL"/> panibus: et tamen btec nemo miratur : iiM mirantur 
+   <lb ed="#PL"/> homines non quia majus est, sed quia rarum est. Quis 
+   <lb ed="#PL"/> enim et nunc pascit universum mundum, nisi ille qui 
+   <lb ed="#PL"/> de paucis granis segetes creat? Fecit ergo quomodo 
+   <lb ed="#PL"/> jeus. Unde enim multiplicat de paucis granis segetes, 
+   <lb ed="#PL"/> iride in manibus suis multiplicavit quinque panes. Po<lb ed="#PL" break="no"/>testas
+   enim erat in manibus Cbristi : panes autem illi 
+   <lb ed="#PL"/> quinque/quasi semina erant, Mon quidem terrae man<lb ed="#PL" break="no"/>data, sed ab eo qui terram fecit multiplicata. floc 
+   <lb ed="#PL"/> ergo admotum est sensibus, quo erigeretur mens, et 
+   <lb ed="#PL"/> exhibitum oculis ubi exerceretur intellectus, ut invi<lb ed="#PL" break="no"/>sibilem
+   Deum per visibilia opera miraremur, et erecti 
+   <lb ed="#PL"/> ad fidem et purgati per fidem, etiam ipsum invisibili­
+   
+   <lb ed="#PL"/> tcr videre cuperemus, auem de rebus visibilibus invi<lb ed="#PL" break="no"/>sibilem
+   nosceremus.</p>
+      <p xml:id="iuy75t-d1e239-d1e192">i. Nec tamen sufficit haec intueri in miraculis Chri<lb ed="#PL" break="no"/>sti. Interrogemus ipsa miracula, quid nobis loquan<lb ed="#PL" break="no"/>lur
+   de Christo: habent enim si intelligantur, linguam
+   
+   <lb ed="#PL"/> suam. Nam quia ipse Christus Verbum Dei est, etiam 
+   <lb ed="#PL"/> factum Verbi, verbum nobis est. Hoc ergo miraculum, 
+   <lb ed="#PL"/> sicut audivimus quam magnum sit, quaeramus etiam
+   
+   <lb ed="#PL"/> quam profundum sit: non tantum ejus superficie de. 
+   <lb ed="#PL"/> lectemur, sed etiam altitudinem perscrutemur. Ha<lb ed="#PL" break="no"/>bet
+   enim aliquid intus, hoc quod miramur foris. Vidi<lb ed="#PL" break="no"/>mus, spectavimus magnum quidam, praeclarum 
+   <lb ed="#PL"/> quiddam, et omnino divinum, qnod fieri nisi a ico 
+   <lb ed="#PL"/> non possit: laudavimus de facto factorem. Sed quem<lb ed="#PL" break="no"/>admodum
+   si litteras pukbras alieubi inspiceremus, 
+   <lb ed="#PL"/> non nobis sufficeret laudare scriptori. articulum, 
+   <lb ed="#PL"/> quoniam eas pariles, aequales decorasque fecit, niai 
+   <lb ed="#PL"/> etiam legeremus quid nobis per illas indicaverit : iU 
+   <lb ed="#PL"/> factura hoc qui tantum inspicit, delectatur pulchritu<lb ed="#PL" break="no"/>dine
+   facti ut admiretur artificem; qui autem intelli<lb ed="#PL" break="no"/>git, quasi legit. Aliter enim videtur pictura, aliter 
+   <lb ed="#PL"/> videntur litterae. Picturam eun videris, hoc est to<lb ed="#PL" break="no"/>tum
+   vidisse, laudasse : litteras cum videris, noM hoc 
+   <lb ed="#PL"/> est totum; quoniam commoneris et legere. Etenim 
+   <lb ed="#PL"/> dicis, cum videris litteras, si forte non eas nosti le<lb ed="#PL" break="no"/>gere, Quid putamus esse quod hic scriptum eat? Interro<lb ed="#PL" break="no"/>gas
+   quid sit, cum jam videas aliquid. Aliud tibi de<lb ed="#PL" break="no"/>monstraturus
+   est, a qua quaeris agnoscere quod yidi<lb ed="#PL" break="no"/>sti. Alios ille oculos habet, alois. tu. Nonne similiter 
+   <lb ed="#PL"/> apices videtis ? Sed non similiter signa cognoscitis.
+   
+   <lb ed="#PL"/> Tu ergo vides et laudas: lle videt, laudat, legit et inr 
+   <lb ed="#PL"/> telligit. Quia ergo vidimus, quia laudavimus, legamus 
+   <lb ed="#PL"/> et intelligamus.</p>
+      <p xml:id="iuy75t-d1e239-d1e261">3. Dominus in monte : mulio maps intelligamus 
+   <lb ed="#PL"/> quia Dominus in monte Verbum est in alto. Proinde 
+   <lb ed="#PL"/> non quasi bumiliter jacet quod in monte factum est; 
+   <lb ed="#PL"/> nec transeunter praetereundum est, sed suspiciendum. 
+   <lb ed="#PL"/> Turbas vidit, esurientes agnovit, misericorditer pavit: 
+   <lb ed="#PL"/> non solum pro bonitate, verum edant pro potestate. 
+   <lb ed="#PL"/> Quid enim sola prodesset bonitas, ubi non erat panis, 
+   <lb ed="#PL"/> unde turba esuriens pasceretur? Nisi bonitati adesset 
+   <lb ed="#PL"/> potestas, jejuna illa turba et esurieos remaneret. De<lb ed="#PL" break="no"/>nique
+   et discipuli qui erant cum Domino in fame,et
+   <lb ed="#PL"/> ipsi turbas volebant pascere,ut non remanerent inanes, 
+   <lb ed="#PL"/> sed unde pascerent non habebant. Interrogavit Do<lb ed="#PL" break="no"/>minus
+   unde emerentur panes ad turbas pascendas. 
+   <lb ed="#PL"/> Et ait Scriptura, <hi rend="italic">Hoc autem dicebat tentam eum:</hi> di<lb ed="#PL" break="no"/>scipulum
+   scilicet Philippum, quem interrogaverat. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ipse enim sciebat quid esset facturus.</hi> Cui ergo bono 
+   <lb ed="#PL"/> tentabat, nisi quia ignorantiam discipuli demonstra<lb ed="#PL" break="no"/>bat? Et forte in demonstratione ignorantiae discipuli 
+   <lb ed="#PL"/> aliquid significavit. Apparebit ergo, cum ipsum sa<lb ed="#PL" break="no"/>cramentum
+   de quinque panibus coeperit nobis loqui, 
+   <lb ed="#PL"/> et quid significet indicare : ibi enim videbimus quare 
+   <lb ed="#PL"/> Dominus in boc facto ignorantiam discipuli voluit in<lb ed="#PL" break="no"/>terrogando
+   quod sciebat, ostendere. Nam interroga<lb ed="#PL" break="no"/>mus
+   aliquando quod nescimus, audire volentes ut di<lb ed="#PL" break="no"/>scamus; aliquando interrogamus quod scimus, sciro 
+   <lb ed="#PL"/> volentes utrum et ille sciat quem interrogainus: 
+   <lb ed="#PL"/> utrumque hoc noverat Dominus; et quod interroga<lb ed="#PL" break="no"/>bat
+   sciebat, quid enim esset facturus ipse noverat;et
+   <lb ed="#PL"/> hoc nescire Philippum sciebat similiter. Quare itaque 
+   <lb ed="#PL"/> interrogabat, nisi quia illius ignorantiam demon<lb ed="#PL" break="no"/>strabat? Et boc quaro fecerit, ut dixi, postea intelli<lb ed="#PL" break="no"/>gemus.</p>
+      <p xml:id="iuy75t-d1e239-d1e337">4. <hi rend="italic">Andreas ait : Est hic puer quidam qui habet quin<lb ed="#PL" break="no"/>que
+   panes,
+    et</hi> duos <hi rend="italic">pisces; sed haec quid sunt ad</hi> tantost 
+   <lb ed="#PL"/> Cum dixiSset Philippus interrogatus, ducentorum de<lb ed="#PL" break="no"/>nariorum
+   panes non sufficere, quibus tanta illa turba 
+   <lb ed="#PL"/> re£ ceretur, erat ibi quidam puer portans qulnque pa­
+   
+   <lb ed="#PL"/> nes hordeaceos et duos pisces. <hi rend="italic">Et ait Jesus : Facite</hi>
+   
+       <lb ed="#PL"/> homines <hi rend="italic">discumbere. Erat autem</hi> ibi <hi rend="italic">fenum</hi> multum, <hi rend="italic">et
+   <lb ed="#PL"/> discubuerunt ferme quinque millia
+    hominum. Accepit</hi> au­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tem</hi> Dominus Jesus partes, <hi rend="italic">gratias egit,</hi> jussit, fracti 
+   <lb ed="#PL"/> sunt panes, pasiti ante discumbentes. Non jan quin<lb ed="#PL" break="no"/>que
+   paqes, sed quod adjecerat, qni creaverat quod 
+   <lb ed="#PL"/> auctum erat. <hi rend="italic">Et de
+    piscibus quantum</hi> sufficiebat. Pa<lb ed="#PL" break="no"/>rum
+   est turbari illam fuisse satiatam, otiam INt.. 
+   <lb ed="#PL"/> gmenta resederunt : et ipsa colligi jussa sunt, ne pcr<lb ed="#PL" break="no"/>irent;
+    <hi rend="italic">et</hi> impleverunt <hi rend="italic">duodecim</hi> cophinOs fragmento­ 
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> rum.</p>
+      <p xml:id="iuy75t-d1e239-d1e409">$. Breviter ut curramus, quinque panes intelli<lb ed="#PL" break="no"/>guntur
+   quinque libri Moysi : merito non triticei sca 
+   <lb ed="#PL"/> hordeacei; quia ad Yetus Testamentum pertinent. 
+   <lb ed="#PL"/> Nostis autem hordeum ita creatum, ut ad medullam 
+   <lb ed="#PL"/> ejus vix perveniatur : vestitur enim cadem medulla 
+   <lb ed="#PL"/> tegmine paleae, et ipsa palea tenax et inhaerens &gt; ut 
+   <lb ed="#PL"/> cum labore exuatur. Talis est littera Veteris Testa<lb ed="#PL" break="no"/>menti, vestita tegminibus carnalium sacramentorum : 
+   <lb ed="#PL"/> sed si ad ejus medullam perveniatur, pascit et satiat.
+   
+   <lb ed="#PL"/> Ferebat ergo puer quidam quinque panes ot duos 
+   <lb ed="#PL"/> pisces, Si quaeramus quis fuerit puer iste, forte po<lb ed="#PL" break="no"/>pulus
+   Israel erat : sensu puerili portabat nec man­ 
+   <pb ed="#PL" n="1595"/>
+       <lb ed="#PL"/> ducabat. Illa enim quae portabat, clausa oncrabant, 
+   <lb ed="#PL"/> aperta pascebant. Duo autem pisces, videntur nobis 
+   <lb ed="#PL"/> significare duas illas in Veteri Testamento sublimes 
+   <lb ed="#PL"/> personas, quae ungebantur ad populum sanctifican<lb ed="#PL" break="no"/>dum
+   et regendum , sacerdotis et regis. Et ipse in 
+   <lb ed="#PL"/> mysterio venit aiiquando, qui per illas significabatur: 
+   <lb ed="#PL"/> venit aliquando qui per mcdullam hordei ostendeba<lb ed="#PL" break="no"/>tur, per paleam vero hordei occultabatur. Venit ipse 
+   <lb ed="#PL"/> anus utramque personam in se portans, sacerdotis et 
+   <lb ed="#PL"/> regis : sacerdotis per victimam, quam seipsum ob<lb ed="#PL" break="no"/>tulit
+   pro nobis Dco; regis, quia regimur ab eo : et 
+   <lb ed="#PL"/> aperiuntur quae clausa portabantur. Gratias illi ; im<lb ed="#PL" break="no"/>plevit
+   pcr se quod per Vetus Testamentum promitte<lb ed="#PL" break="no"/>batur. Et frangi jussit panes : frangendo multiplicati. 
+   <lb ed="#PL"/> sunt. Nihil verius. Qujnque enim illi libri Moysi, 
+   <lb ed="#PL"/> quam multos libros, cuju, exponunlur, tanquam 
+   <lb ed="#PL"/> frangendo, id est disserendo, <unclear>fecerunt</unclear> ? Sed quia in 
+   <lb ed="#PL"/> ilfo hordeo ignorantia primi populi tegebatur, de quo 
+   <lb ed="#PL"/> priino populo dictum est, Quandiu legitur <hi rend="italic">Moyses,
+   <lb ed="#PL"/> velamen supra corda eorum</hi> positum <hi rend="italic">est</hi> (II <hi rend="italic">Cor.</hi> III, 15): 
+   <lb ed="#PL"/> nondum enim ablatum erat vclamcn, quia nondum 
+   <lb ed="#PL"/> venerat Christus; nondum velum templi fuerat illo 
+   <lb ed="#PL"/> in cruce pendente conscissum : quia ergo ignorantia 
+   <lb ed="#PL"/> populi erat in Lege, propterea illa Domini tentatio 
+   <lb ed="#PL"/> ignorantiam discipuJi demonstrabat.</p>
+      <p xml:id="iuy75t-d1e239-d1e504">6. Nihil igitur vacat, omnia innuunt, sed intelle<lb ed="#PL" break="no"/>ctorem
+   rcquirunt: nam et iste numcrus pasti populi, 
+   <lb ed="#PL"/> populum significabat sub Lege constitutum. Cur enim 
+   <lb ed="#PL"/> quinquc millia crant, nisi quia sub Lege erant, quae 
+   <lb ed="#PL"/> Lex quinquc libris Moysi explicatur? Unde et quinque 
+   <lb ed="#PL"/> illis porticibus languidi prodebantur, non sanabantur.
+   
+   <lb ed="#PL"/> Ille autem ibi curavit languidurn <hi rend="italic">(Joan.</hi> v, 2-9), qui 
+   <lb ed="#PL"/> et hic turbas de quinquc panibus pavit. Nam et super 
+   <lb ed="#PL"/> fenum discumbebant : carnaliter ergo sapiebant , et 
+   <lb ed="#PL"/> in carnalibus quiescebant. Omnis enim caro fenum 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Isa.</hi> XL, G). Quae sunt autem illa fragmenta, nisi 
+   <lb ed="#PL"/> quae populus nun potuit manducare? Intelliguntur 
+   <lb ed="#PL"/> ergo quaedam secretiora intelligentiae, quae multitudo 
+   <lb ed="#PL"/> non potest capere. Quid ergo restat, nisi ut secretiora 
+   <lb ed="#PL"/> intelligentiae, quae non potest capere multitudo, illis 
+   <lb ed="#PL"/> credantur qui idonei suntetalios docere, sicut erant 
+   <lb ed="#PL"/> A postoli? Unde duodecim cophini impleti sunt. Fa­
+   
+   <lb ed="#PL"/> ctum est hoc et mirabiliter, quia magnum factum est; 
+   <lb ed="#PL"/> et utiliter, quia spirituale factum est. Qui tunc vide<lb ed="#PL" break="no"/>runt, admirati sunt: nos autem non miramur cum 
+   <lb ed="#PL"/> audimusJ Factum est enim ut illi viderent, scriptum 
+   <lb ed="#PL"/> est autem ut nos audiremus. Quod in illis oculi value<lb ed="#PL" break="no"/>runt, hoc in nobis fides. Cernimus quippe animo, 
+   <lb ed="#PL"/> quod oculis non potuimus : et praelati sumus illis, 
+   <lb ed="#PL"/> quoniam de nobis dictum est, <hi rend="italic">Beati qui non</hi> vident, 
+   <lb ed="#PL"/>
+       <hi rend="italic">et credunt (Joan.</hi> xx , 59). Addo autem quia forte et 
+   <lb ed="#PL"/> intelleximus quod illa turba non intellexit. Et vere 
+   <lb ed="#PL"/> nos pasti sumus, qui ad medullam hordei pervenire 
+   <lb ed="#PL"/> potuimus.</p>
+      <p xml:id="iuy75t-d1e239-d1e580">7. Denique homines illi qui viderunt hoc, quid 
+   <lb ed="#PL"/> putaverunt? <hi rend="italic">Ill;</hi> , inquit, <hi rend="italic">homines cum vidissent quod
+   <lb ed="#PL"/> fecerat signum,
+    dicebant , Quia hic eat vere propheta.</hi>
+   
+       <lb ed="#PL"/> Forte adhuc idco Christum prophetam putabant, quia 
+   <lb ed="#PL"/> super fenum discubuerant. Erat auicm il:e Dominus 
+   <lb ed="#PL"/> Prophetarum, impletor Prophetarum, sanctificator 
+   <lb ed="#PL"/> Prophetarum, sed et propheta : nam et Moysi dictum 
+   <lb ed="#PL"/> est, <hi rend="italic">Suscitabo</hi> eis <hi rend="italic">prophetam similem</hi> tui. Similem se. 
+   <lb ed="#PL"/> candum carnem, non secundum majestatem. Et de 
+   <lb ed="#PL"/> ipso Christo illam Domini promissionem habere in<lb ed="#PL" break="no"/>tellectum, aperte in Actibus Apostolorum exponitur 
+   <lb ed="#PL"/> et legitur <hi rend="italic">(Deut.</hi> XVIII, 18; <hi rend="italic">Act.</hi> vI, 57). Et ipse Do<lb ed="#PL" break="no"/>* minus de se ait, <hi rend="italic">Non esI propheta sine honore,
+    nisi in 
+   <lb ed="#PL"/> patria sua (Joan.</hi> IV, 44). Propheta Dominus, et Ver<lb ed="#PL" break="no"/>bum
+   Dei Dominus, et nullus propheta sine Verbo Dei 
+   <lb ed="#PL"/> prophetat: cum Prophetis Verbum Dei,etpropheta 
+   <lb ed="#PL"/> Verbum Dei. Meruerunt priora tempora Prophetas 
+   <lb ed="#PL"/> amalos, et impletos Verbo Dei : meruimus nos pro<lb ed="#PL" break="no"/>phetam
+   ipsum Verbum Dei. Sic autem propheta Chri­
+   
+   <lb ed="#PL"/> stus, Dominus Prophetarum ; sicut angelus Christus, 
+   <lb ed="#PL"/> Dominus Angelorum. Nam et ipse dictus est magni 
+   <lb ed="#PL"/> consilii Angelus <hi rend="italic">(Isa.</hi> ix, 6, <hi rend="italic">sec.</hi> LXX). Verumtamen 
+   <lb ed="#PL"/> alibi quid dicit propheta? Quia non lcgatus neque 
+   <lb ed="#PL"/> angelus, sed ipse veniens salvos faciet eos <hi rend="italic">(Id.</hi> XXXV, 
+   <lb ed="#PL"/> 4) : id est, ad salvos cos faciendos non mittet lega. 
+   <lb ed="#PL"/> tum, non mittet angelum , sed veniet ipse. Quis ve<lb ed="#PL" break="no"/>nict ? Ipse angelus. Certe non per angelum, nisi quia 
+   <lb ed="#PL"/> iste sic angelus, ut etiam Dominus Angelorum. Etenim 
+   <lb ed="#PL"/> Angeli latine nuntii sunt. Si Christus nihil annun- 
+   <lb ed="#PL"/> tiarct, angelus non diceretur a si Christus nihil pro<lb ed="#PL" break="no"/>phetaret, propheta non diceretur. Exhortatus est nos
+   
+   <lb ed="#PL"/> ad fidem, et ad capessendam vitam alternam : aliquid 
+   <lb ed="#PL"/> praesens annuntiavit, aliquid futurum praedixit : cx co 
+   <lb ed="#PL"/> quod praesens annuntiavit, angelus erat ; ex eo quod 
+   <lb ed="#PL"/> futurum praedixit, propheta crat: ex eo quod Verbum 
+   <lb ed="#PL"/> Dei caro factum est, et Angelorum et Prophetarum 
+   <lb ed="#PL"/> Dominus erat.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

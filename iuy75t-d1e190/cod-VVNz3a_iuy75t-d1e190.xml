@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 18</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 18</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e190"> <!-- iuy75t-t18 -->
+      <head xml:id="iuy75t-d1e190-Hd1e109">Tractatus 18</head>
+      <p xml:id="iuy75t-d1e190-d1e112">In eum Evangelii <hi rend="italic">locum,</hi> Amen, amen dico vobis, non 
+   <lb ed="#PL"/> potest Filius a se facere quidquam, nisi quod vide<lb ed="#PL" break="no"/>rit
+   Patrem facientem : quaecumque enim ille fecerit, 
+   <lb ed="#PL"/> haecet Filius similiter facit. <hi rend="italic">Cap.</hi> v, f. 19.</p>
+      <p xml:id="iuy75t-d1e190-d1e127">i. Joannes evangelista inter consortes et compar<lb ed="#PL" break="no"/>ticipes
+   suos alios evangelistas, hoc praecipuum et 
+   
+   <lb ed="#PL"/> proprium donum accepit a Domino (super cujus 
+   <lb ed="#PL"/> pectus in convivio discumbebat
+    <hi rend="italic">(Joan.</hi> xm, 25), ut 
+   <lb ed="#PL"/> per hoc significaret quia secreta altiora de intimo 
+   <lb ed="#PL"/> ejus corde potabal), ut ea diceret de Filio Dei quae 
+   <lb ed="#PL"/> parvulorum mentes fortassis intentas excitare pos<lb ed="#PL" break="no"/>sint; implere autem nondum capaces non possint: 
+   <lb ed="#PL"/> grandiusculis autcm quibusque mentibus et ad aeta<lb ed="#PL" break="no"/>tem
+   quamdam interius virilem pervenientibus, dal 
+   <lb ed="#PL"/> aliquid verbis his, quo et exerceantur, et pascantur. 
+   <lb ed="#PL"/> Audistis cum legeretur,etunde sermo iste venerit
+   
+   <lb ed="#PL"/> meministis. Hesterno cnim die lectum est, quod pro­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">pterea volebant Jesum Judaei interficere, quia</hi> non <hi rend="italic">so­
+   <lb ed="#PL"/> lum solvebat sabbatum, sed etiam patrem</hi> suum <hi rend="italic">dicebat 
+   <lb ed="#PL"/> Deum, aequalem se faciens Deo (Id.</hi> v, 18). Quod Ju­
+   
+   <lb ed="#PL"/> daeis displicebat, hoc ipsi Patri placebat. Hoc sine 
+   <lb ed="#PL"/> dubio placet etiam cis qui honorificant Filium, sic<lb ed="#PL" break="no"/>ut
+   honorificant Patrem; quia si eis non placeat,
+   
+   <lb ed="#PL"/> displicebunt. Non enim Deus erit major, quia placet 
+   <lb ed="#PL"/> tibi; sed tu minor, si displicct tibi. Adversus hanc 
+   <lb ed="#PL"/> autem eorum calumniam, venientem vel de ignoran­
+   
+   <lb ed="#PL"/> tia, vel de malitia, loquitur Dominus non omnino 
+   <lb ed="#PL"/> quod capiant, sed unde agitentur et conturbentur, 
+   <lb ed="#PL"/> et fortasse vel conturbati medicum quaerant. Dicebat
+   
+   <lb ed="#PL"/> autem quae scriberentur, ut etiam a nobis postea 
+   <lb ed="#PL"/> legerentur. Vidcrimus ergo quid in Judaeorum cor<lb ed="#PL" break="no"/>dibus
+   factum sit, cum haec audirent: quid in nobis 
+   <lb ed="#PL"/> fiat cum haec audimus, amplius cogitemus. Neque 
+   <lb ed="#PL"/> enim natae sunt haereses, et quaedam dogmata per<lb ed="#PL" break="no"/>versitatis
+   illaqueantia animas et in profundum prae<lb ed="#PL" break="no"/>cipitantia,
+   nisi dum Scripturae bonae intelliguntur non 
+   <lb ed="#PL"/> bene; et quod in eis non bene intelligitur, etiam 
+   <lb ed="#PL"/> temere et audacter asseritur. Itaque, charissimi, 
+   <lb ed="#PL"/> valde caute haec audire debemus, ad quae capienda 
+   <lb ed="#PL"/> parvuli sumus; et corde pio et cum tremore, sicut 
+   <lb ed="#PL"/> scriptum est, hanc tenentes regulam sanitatis, ut 
+   <lb ed="#PL"/> quod secundum fidem qua imbuti sumus, intelligere 
+   <lb ed="#PL"/> valuerimus, tanquam de cibo gaudeamus
+   : quod 
+   <lb ed="#PL"/> autem secundum sanam fidei regulam intelligere non<lb ed="#PL" break="no"/>dum
+   potuerimus, dubitationem auferamus, intelligen<lb ed="#PL" break="no"/>tiam
+   differamus; hoc est, ut etiam si quid sit nescimus, 
+   <lb ed="#PL"/> bonum tamen et verum esse minime dubitemus. Et 
+   <lb ed="#PL"/> ego, fratres, qui suscepi loqui vobis, cogitandus sam a 
+   <lb ed="#PL"/> vobis qui susceperim, et quae susceperim : suscepi enim 
+   <lb ed="#PL"/> tractanda divina homo, spiritualia carnalis, aeterna 
+   <lb ed="#PL"/> mortalis. Etiam a me, charissimi, longe sit vana 
+   <lb ed="#PL"/> praesumptio, si volo sanus in domo Dei conversari, 
+   <lb ed="#PL"/> quae est Ecclesia Dei vivi, columna et firmamentum 
+   <lb ed="#PL"/> veritatis (I
+    <hi rend="italic">Tim.</hi> tu, 15) : pro modulo meo capio quod 
+   <lb ed="#PL"/> vobis appono; ubi aperitur, pascor vobiscum; ubi 
+   <lb ed="#PL"/> clauditur, pulso vobiscum.</p>
+      <p xml:id="iuy75t-d1e190-d1e256">i. Commoti sunt ergo Judxi, et indignati sunt; 
+   <lb ed="#PL"/> merito quidem, quod audebat homo aequalem se fa<lb ed="#PL" break="no"/>cere
+   Deo : sed ideo immerito, quia in homine non 
+   <lb ed="#PL"/> intelligebant Deum. Carnem videbant, Deum nescie<lb ed="#PL" break="no"/>bant : habitaculum cernebant, habitatorem ignora<lb ed="#PL" break="no"/>bant. Caro illa templum erat, Deus inhabitabat in<lb ed="#PL" break="no"/>tus. Non ergo Jesus carnem aequabat Patri, non for 
+   <lb ed="#PL"/> mam servi Domino comparabat; non quod factum 
+   <lb ed="#PL"/> est propter nos, sed quod erat quando fecit nos. 
+   <pb ed="#PL" n="1537"/>
+       <lb ed="#PL"/> Quis namque sit Christus, Catholicis loquor, nostis, 
+   <lb ed="#PL"/> quia bene credidistis: non Verbum tantum, nec caro 
+   <lb ed="#PL"/> tantum; sed Verbum caro factum est, ut habitaret 
+   <lb ed="#PL"/> in nobis. Recenseo de Verbo quod nostis : <hi rend="italic">In
+    prin­
+   <lb ed="#PL"/> cipio erat</hi> Verbum, <hi rend="italic">et</hi> Verbum <hi rend="italic">erat apud Deum, et 
+   <lb ed="#PL"/> Deut</hi> erat Verbum : hic aequalitas cum Patre. Sed 
+   <lb ed="#PL"/> Verbum <hi rend="italic">caro factum est, et habitavit in nobis (Joan. I,</hi>
+   
+       <lb ed="#PL"/> i -14) : hac carne major est Pater. IIa Pater et 
+   <lb ed="#PL"/> aequalis, et major : aequalis Verbo, major carne; 
+   <lb ed="#PL"/> aequalis ei per quem fecit nos, major eo qui factus
+   
+   <lb ed="#PL"/> est propter nos. Ad hanc regulam sanam catholicam, 
+   <lb ed="#PL"/> qnam praecipue nosse debetis, quam tenete qui 
+   <lb ed="#PL"/> nostis, a qua prorsus fides vestra labi non debet, 
+   <lb ed="#PL"/> quae nullis bominum argumentis extorquenda est 
+   <lb ed="#PL"/> cordi vestro, dirigamus ea quae intelligimus; et 
+   <lb ed="#PL"/> quae forte non intelligimus, dirigenda ad hanc regu<lb ed="#PL" break="no"/>lam
+   quandoque differamus, cum idonei fuerimus. 
+   <lb ed="#PL"/> Novimus ergo sequalem Patri Filium Dei, quia novi<lb ed="#PL" break="no"/>mus
+   in principio Deum Verbum. Quid ergo <hi rend="italic">Judcei 
+   <lb ed="#PL"/>
+    volebant eum interficere? Quia non solum solvebat
+   <lb ed="#PL"/> sabbatum, sed et patrem suum
+    dicebat Deum,</hi> aequalem 
+   <lb ed="#PL"/>
+       <hi rend="italic">se faciens Deo :</hi> videntes carnem, non videntes Ver<lb ed="#PL" break="no"/>bum. Loquatur ergo et contra cos Verbum per car<lb ed="#PL" break="no"/>nem, et interior habitator sonet per habitaculum 
+   <lb ed="#PL"/> suum ; ut qui potest. noverit quis intus habitet.</p>
+      <p xml:id="iuy75t-d1e190-d1e352">3. Quid ergo eis dicit? <hi rend="italic">Respondit itaque Jesus, et 
+   <lb ed="#PL"/> dixit
+    eia,</hi> commotis quod aequalem se faceret Deo, 
+   <lb ed="#PL"/> Amen, <hi rend="italic">amen
+    dico vobis, non potest Filius</hi> a <hi rend="italic">se facere
+   <lb ed="#PL"/> quidquam, nisi
+    quod viderit Patrem facientem.</hi> Ad hxc 
+   <lb ed="#PL"/> quid responderint Judaei, scriplum non est: et for<lb ed="#PL" break="no"/>tasse
+   tacuerunt. Quidam tamen, qui christianos se ha<lb ed="#PL" break="no"/>beri
+   volunt, non tacent, et quodammodo ex his ver<lb ed="#PL" break="no"/>bis
+   concipiunt quaedam dicenda contra nos : quae con<lb ed="#PL" break="no"/>temnenda
+   non sunt, et propter ipsos et propter nos. 
+   <lb ed="#PL"/> Ariani quippe haeretici dicentes, non per carnem, sed 
+   <lb ed="#PL"/> ante carnem, Filium ipsum qui suscepit carnem, mi<lb ed="#PL" break="no"/>norem
+   esse quam Pater est, et non esse ejusdem sub<lb ed="#PL" break="no"/>stantiae
+   cujus Pater est, capiunt ex his verhis ansam 
+   <lb ed="#PL"/> calumniae, et respondent nobis : Videtis quia Dominus 
+   <lb ed="#PL"/> Jesus, cum animadverteret Judaeos ex hoc moveri,
+   
+   <lb ed="#PL"/> quod Patri Deo aequalem se faceret, talia verba sub<lb ed="#PL" break="no"/>junxit, ut se aequalem non esse monstraret. Movebat 
+   <lb ed="#PL"/> enim Judaeos, aiunt, adversus Christum, quia aequalem
+   
+   <lb ed="#PL"/> se faciebat Deo; et volens eos corrigere ab hoc motu 
+   <lb ed="#PL"/> Christus, et eis demonstrare Filium non esse aequa<lb ed="#PL" break="no"/>lem
+   Patri, id est, aequalem Deo, ait, quasi dicens, Quid 
+   <lb ed="#PL"/> irascimini? quid indignamini? Non sum aequalis, quia 
+   <lb ed="#PL"/> non <hi rend="italic">potest Filius a se facere quidquam, nisi quod viderit 
+   <lb ed="#PL"/> Patrem
+    facientem.</hi> Qui enim <hi rend="italic">nou potest,</hi> inquiunt, <hi rend="italic">(a- 
+   <lb ed="#PL"/> cere</hi> a se <hi rend="italic">quidquam, nisi quod viderit
+    Patrem facientem,</hi>
+   
+       <lb ed="#PL"/> utique minor cst, non aequalis.</p>
+      <p xml:id="iuy75t-d1e190-d1e430">4. Iti hac regula cordis sui distorta et prava, haere<lb ed="#PL" break="no"/>ticus
+   audiat nos nondum objurgantes, sed adhuc quasi 
+   <lb ed="#PL"/> quaerentes, et explicet nobis quod sentit. Puto enim,
+   
+   <lb ed="#PL"/> o quisquis ille es (faciamus enim eum tanquam prae<lb ed="#PL" break="no"/>sentem
+   adesse). tenes nobiscum quia <hi rend="italic">in principio erat 
+   <lb ed="#PL"/> Verbum.</hi> Teneo, inquit. Et quia <hi rend="italic">Verbum erat apud 
+   <lb ed="#PL"/> Deum?</hi> Et hoc, inquit, teneo. Sequere ergo, et hoc 
+   <lb ed="#PL"/> fortius tene, quia <hi rend="italic">Deus erat Verbum.</hi> Et hoc, inquit, 
+   <lb ed="#PL"/> teneo : sed ille Deus major, ille Deus minor. Jam 
+   <lb ed="#PL"/> nescio quid paganum redolet: cum christiano me lo<lb ed="#PL" break="no"/>qui
+   arbitrabar. Si est Deus major, et est Deus minor; 
+   <lb ed="#PL"/> duos deos colimus, non unum Deum. Quare, inquit? 
+   <lb ed="#PL"/> et tu non duos deos dicis aequales sibi? Hoc ego noa 
+   <lb ed="#PL"/> dico : aequalitatem enim istam sic intelligo, ut ibi in. 
+   <lb ed="#PL"/> telligam etiam individuam charitatem; et si indivi<lb ed="#PL" break="no"/>duam
+   charitatem1, perfectam unitatem. Si enim cha<lb ed="#PL" break="no"/>rins
+   quam misit hominibus Deus, de multis hominum 
+   <lb ed="#PL"/> cordibus facit cor unum, et multas hominum animas 
+   <lb ed="#PL"/> facit animam unam, sicut de credentibus seseque in<lb ed="#PL" break="no"/>vicem
+   diligentibus scriptum est in Actibus Apostolo<lb ed="#PL" break="no"/>rum, <hi rend="italic">Erat illisanima una, et cor unum</hi> in
+    <hi rend="italic">Deum (Act.</hi> IV, 
+   <lb ed="#PL"/> 32): si ergo anima mea et anima tua, cum idem sapimus 
+   <lb ed="#PL"/> nosque diligimus, fit anima una : quanto magis Pater 
+   <lb ed="#PL"/> Dcus et Filius Deus in fonte dilectionis Deus unus est?</p>
+      <p xml:id="iuy75t-d1e190-d1e498">5. Verum ad haec verba, quibus commotum est cor 
+   <lb ed="#PL"/> tuum, intende, et recole mecum quod de Verbo re<lb ed="#PL" break="no"/>quirebamus. Jam tenemus, <hi rend="italic">Deus erat
+    Verbum:</hi> ad<lb ed="#PL" break="no"/>jungo
+   aliud, quia cum dixisset, <hi rend="italic">Hoc erat ill
+    principio 
+   <lb ed="#PL"/> apud Deum,</hi> continuo subjecit Evangelista, <hi rend="italic">Omnia
+    per</hi>
+   
+       <lb ed="#PL"/> ipsum <hi rend="italic">facta sunt.</hi> Nunc te quaerendo exagito, nunc te 
+   <lb ed="#PL"/> contra te moveo, et tc contra te interpello : tene lan<lb ed="#PL" break="no"/>tum
+   memoriter ista de Verbo, quia <hi rend="italic">Deus erat -Verbum,</hi>
+   
+       <lb ed="#PL"/> et omnia per <hi rend="italic">ipsum facta sunt.</hi> Audi jam verba quibus 
+   <lb ed="#PL"/> commotus es, ut minorem diceres Filium, nempe 
+   <lb ed="#PL"/> quia dixit, <hi rend="italic">Non
+    potest Filius a</hi> se <hi rend="italic">facere quidquam, niti
+   <lb ed="#PL"/> quod viderit
+    Patrem facientem.</hi> Ita, inquit. Expone hoc 
+   <lb ed="#PL"/> mihi paululum : sic, quantum opinor, intelligis, quo<lb ed="#PL" break="no"/>niam
+   quacdam facit Pater, Filius autem attendit quem­
+   
+   <lb ed="#PL"/> admodum faciat Pater, ut possit et ipse ea facere 
+   <lb ed="#PL"/> quae viderit Patrem facientem. Duos quasi fabros con<lb ed="#PL" break="no"/>stituisti : ita PatremetFilium, ut etiam magistrum 
+   <lb ed="#PL"/> et discipulum, quomodo solent patres fabri docere 
+   <lb ed="#PL"/> filios suos artem suam. Ecce descendo ad carnalem 
+   <lb ed="#PL"/> sensum tuum, ita interim cogito ut tu : videamus si 
+   <lb ed="#PL"/> cogitatio h,cc nostra inveniat exitum secundum illa 
+   <lb ed="#PL"/> quae jam dc Verbo pariter locuti sumus pariterque 
+   <lb ed="#PL"/> sentimus, quia <hi rend="italic">Deus
+    Verbum,</hi> et <hi rend="italic">omnia per ipsum (a-
+   <lb ed="#PL"/> cta sunt.</hi> Pone igitur Patrem tanquam fabrum, quae<lb ed="#PL" break="no"/>dam
+   opera facientem, Filium autem tanquam discipu­
+   
+   <lb ed="#PL"/> lum, qui non <hi rend="italic">potest facere quidquam, nisi quod viderit
+   <lb ed="#PL"/>
+    Patrem facientem:</hi> iutendiL enim quodammodo in ma<lb ed="#PL" break="no"/>nus
+   Patris, ut quomodo viderit cum fabricare, sic et 
+   <lb ed="#PL"/> ipse tale aliquid fabricet in operibus suis. Sed Patcr 
+   <lb ed="#PL"/> iste omnia illa quae tacit, et vult ut attendat eum Fi<lb ed="#PL" break="no"/>lius
+   et talia et ipse faciat; per quem facit2 ? Eia nunc 
+   <lb ed="#PL"/> est ut adsis sententiae tuae priori, quain mecum recen<lb ed="#PL" break="no"/>suisti
+   mecumque tenuisti, quia <hi rend="italic">in
+    principio</hi> Verbum, et 
+   <lb ed="#PL"/>
+       <hi rend="italic">apud Deum Verbum,</hi> et <hi rend="italic">Deus Verbum ,</hi> et <hi rend="italic">omnia per 
+   <lb ed="#PL"/> ipsum facta sunt.</hi> Tu ergo cum mecum tenueris quia
+   
+   <lb ed="#PL"/> per Verbum facta sunt omnia; rursum carnali sapore 
+   <lb ed="#PL"/> et pucrili motu facis tibi in animo Deum facientem, et 
+   <lb ed="#PL"/> Verbum attendentem, ut cum fecerit Deus, faciat et 
+   <lb ed="#PL"/> Verbum. Quid enim facit Deus praeter Verbum ? Si 
+   <lb ed="#PL"/> enim tacit, non omnia per Verbum facta sunt; perdi­ 
+   
+   <pb ed="#PL" n="1539"/>
+       <lb ed="#PL"/> dist! quod tenebas : si autem omnia per Verbum facta 
+   <lb ed="#PL"/> sunt, corrige quod male intelligebas. Fecit Pater, et 
+   <lb ed="#PL"/> non fecit nisi per Verbum : quomodo attendit Ver<lb ed="#PL" break="no"/>bum, ut videat Patrem facientem sine Verbo, quod si<lb ed="#PL" break="no"/>militer
+   faciat Verbum? Quidquid fecit Pater, per 
+   <lb ed="#PL"/> Verbum fecit: aut falsum est, <hi rend="italic">Omnia per</hi> ipsum <hi rend="italic">facta</hi>
+   
+       <lb ed="#PL"/> sunt. Sed verum est, Omnia per <hi rend="italic">ipsum facta sunt.</hi> Paron
+   
+   <lb ed="#PL"/> fortasse tibi videbatur? <hi rend="italic">Et sine ipso factum est</hi> nihil.</p>
+      <p xml:id="iuy75t-d1e190-d1e664">a. Recede ergo ab ista carnis prudentia, etquxra<lb ed="#PL" break="no"/>mus
+   quemadmodum dictum sit, <hi rend="italic">Non potest Filiut a</hi> te 
+   <lb ed="#PL"/>
+       <hi rend="italic">facere quidquam,</hi> nisi <hi rend="italic">quod</hi> viderit <hi rend="italic">Patrem facientem.</hi>
+   
+       <lb ed="#PL"/> Quaeramus, si digni sumus qui apprehendamus. Fa<lb ed="#PL" break="no"/>teor
+   enim, magna res est, ardua omnino, videre Pa<lb ed="#PL" break="no"/>trem
+   facientem per Filium, non singula opera facien­
+   
+   <lb ed="#PL"/> tem Patrem et Filinm1 sed quodlibet opus Patrem per 
+   <lb ed="#PL"/> Filium, ut nulla opera fiant vel a Patre sine Filio, 
+   <lb ed="#PL"/> vel a Filio sine Patre: quia <hi rend="italic">omnia
+    per ipsum facta 
+   <lb ed="#PL"/> sunt,</hi> et <hi rend="italic">sine ipso factum est nihil.</hi> Quibus in fundamento 
+   <lb ed="#PL"/> fidei firmissime constitutis, jam qnale est viderc, qnia 
+   <lb ed="#PL"/>
+       <hi rend="italic">non potest Filius a se facere</hi> quidquam, <hi rend="italic">nisi
+    quod viderit 
+   <lb ed="#PL"/> Patrem facientem?</hi> Quaeris, ut opinor, nosse Filium fa<lb ed="#PL" break="no"/>cientem
+   ; quaere prius nosse Filium videntem. Certe 
+   <lb ed="#PL"/> cnim quid ait? <hi rend="italic">Non potest Filius a</hi> se <hi rend="italic">facere quidquam,</hi>
+   
+       <lb ed="#PL"/> nisi <hi rend="italic">quod</hi> viderit <hi rend="italic">Patrem facientem.</hi> Intendc quod dixit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">nisi quod viderit Patrem facientem.</hi> Praecedit visio, et 
+   <lb ed="#PL"/> sequitur effectio : videt enim ut faciat. Tu quid quae<lb ed="#PL" break="no"/>ris
+   jam nosse quomodo faciat, dum nondum scias 
+   <lb ed="#PL"/> quomodo videat ? Quid curris ad id quod posterius 
+   <lb ed="#PL"/> est, relicto quod prius est? Videntem se dixit et fa<lb ed="#PL" break="no"/>cientem; non, facientem et videntem : quia <hi rend="italic">non</hi> po­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">test</hi> a se <hi rend="italic">facere quidquam,</hi> nisi <hi rend="italic">quod viderit Patrem</hi> fa­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">cientem.</hi> Vis ut explicem tibi quomodo faciat? Tu mihi 
+   <lb ed="#PL"/> explica quomodo videat. Si hoc tu explicare nou po<lb ed="#PL" break="no"/>tes, nec ego illud : si hoc tu percipere nondum es 
+   <lb ed="#PL"/> idoneus, necego illud. Uterque ergo nostrum quaerat, 
+   <lb ed="#PL"/> uterque pulset, ut uterque accipere mereatur. Quid 
+   <lb ed="#PL"/> quasi doctus calumniaris indocto? Ego ad faciendum, 
+   <lb ed="#PL"/> lu ad Videndum, ambo indocti a magistro quaeramus, 
+   <lb ed="#PL"/> non in schola ejus pueriliter litigemus. Tanien simul 
+   <lb ed="#PL"/> jam didicimus quia omnia per ipsum <hi rend="italic">facta sunt.</hi> Ergo 
+   <lb ed="#PL"/> manifestum est quia non alia opera facit Pater, quae 
+   <lb ed="#PL"/> videat Filius, ut ipse faciat similia : sed eadem opera 
+   <lb ed="#PL"/> facit Pater per Filium, quia omnia per Verbum facta 
+   <lb ed="#PL"/> sunt. Jam quomodo faciat Deus quis novit? Non dico 
+   <lb ed="#PL"/> quomodo fecerit mundum, sed quomodo fecerit ocu<lb ed="#PL" break="no"/>lum
+   tuum, cui carnaliter inhaerens, visibilia invisibi<lb ed="#PL" break="no"/>libus
+   comparas. Talia enim de Deo cogitas, qualia his 
+   <lb ed="#PL"/> oculis videre consuesti. Si autem istis oculis videri pos­
+   
+   <lb ed="#PL"/> sel Deus, non diceret, <hi rend="italic">Beati mundo corde, quia ipsi Deum
+   <lb ed="#PL"/>
+    videbunt (Matth.</hi> v, 8). Ergo habes oculum corporis ad 
+   <lb ed="#PL"/> videndum fabrum, sed nondum habes ocuium cordis ad 
+   <lb ed="#PL"/> v idendum Deum: ideo quod soles viderc in fabro, trans<lb ed="#PL" break="no"/>ferre
+   vis ad Deum. Pone in terra terrena, sursum cor.</p>
+      <p xml:id="iuy75t-d1e190-d1e825">7. Quid ergo, charissimi? explicaturi sumus nos 
+   <lb ed="#PL"/> quod interrogavimus, quomodo videat Verbum, quo<lb ed="#PL" break="no"/>modo
+   Pater videatur a Verbo, quid sit videre Verbi? 
+   <lb ed="#PL"/> Non sum taio audax, tam temerarius, ut hoc explica<lb ed="#PL" break="no"/>re
+   pollicear et me et vos : utcumque suspicor modu- lum vestrum, novi tamen meum. Si ergo placet, non 
+   <lb ed="#PL"/> diutius immoremur, percurramus lectionem, et videa<lb ed="#PL" break="no"/>mus
+   verbis Domini turbari corda carnalia; ad hoc tur 
+   <lb ed="#PL"/> bari, ne in eo quod tenent remaneant. Extorqueatur 
+   <lb ed="#PL"/> tanquam pueris ludicrum nescio quid, quo se malo 
+   <lb ed="#PL"/> avocant, ut possint inseri utiliora grandioribus, ut 
+   <lb ed="#PL"/> possint proficere qui repebant in terra. Surge, quaere, 
+   <lb ed="#PL"/> suspira, anhela desiderio, et ad clausa pulsa. Si au<lb ed="#PL" break="no"/>tem
+   nondum desidcramus, nondum inhiamus, non<lb ed="#PL" break="no"/>dum
+   suspiramus, margaritas quibuscumque projecturi 
+   <lb ed="#PL"/> sumus, aut margaritas qualescumque nos ipsi inven<lb ed="#PL" break="no"/>turi
+   sumus. Moverim ergo, charissimi, desiderium in 
+   <lb ed="#PL"/> corde vestro. Mores perducunt ad intelligentiam : ge­
+   
+   <lb ed="#PL"/> nus vitae perducit ad genus vitae. Alia vita terrena, 
+   <lb ed="#PL"/> alia vita coelestis; alia vita pecorum , alia vita homi<lb ed="#PL" break="no"/>num, alia vita Angelorum. Vita pecorum terrenis vo<lb ed="#PL" break="no"/>luptatibus
+   aestuat, sola terrena conquirit, in ca prona 
+   <lb ed="#PL"/> atque projecta est: vita Angelorum sola coelestis : vita 
+   <lb ed="#PL"/> hominum media est inter Angelorum et pecorum. Si 
+   <lb ed="#PL"/> vivit homo secundum carnem, pecoribus comparatur: 
+   <lb ed="#PL"/> si vivit secundum spiritum, Angelis sociatur. Quando 
+   <lb ed="#PL"/> secundum spiritum vivis, quaere etiam in ipsa ange<lb ed="#PL" break="no"/>lica
+   vita utrum parvus an grandis sis. Si cnim adhuc
+   
+   <lb ed="#PL"/> parvus es, dicunt tibi Angeli : Cresce; nos panem 
+   <lb ed="#PL"/> manducamus, tu lacte nutrire, 1 acte fidei, ut perve<lb ed="#PL" break="no"/>nias
+   ad cibum specici: Si antem adhuc inhiatur sordi<lb ed="#PL" break="no"/>dis
+   voluptatibus, si adhoc fraudes cogitantur, si mcn<lb ed="#PL" break="no"/>dacia
+   non vitantur, si mendacia -perjuriis cumulantur; 
+   <lb ed="#PL"/> tam iinmundum cor audet dicere, Explica mihi quo<lb ed="#PL" break="no"/>modo
+   videt Verbum; etiam si possim , etiam si ego 
+   <lb ed="#PL"/> jam videam? Porro autem si forte ego non sum in his 
+   <lb ed="#PL"/> moribus, et tamen ab ista visione longe sum; quantum 
+   <lb ed="#PL"/> ille qui nondum islo superno desiderio rapitur, terre<lb ed="#PL" break="no"/>nis
+   desideriis praegravatus? Multum interest inter 
+   <lb ed="#PL"/> aversanlem et desiderantem : et iterum multum inter<lb ed="#PL" break="no"/>est
+   inter desiderantem et fruentem. Vivis ut pecora, 
+   <lb ed="#PL"/> aversaris : Angeli perfruuntur. Tu autem si non vivis 
+   <lb ed="#PL"/> ut pecora, jam non aversaris
+   : desideras aliquid, et 
+   <lb ed="#PL"/> non capis; inchoasti ipso desiderio vitam Angelorum. 
+   <lb ed="#PL"/> Crescat in te, et perticiatur in te; et capias hoc non a 
+   <lb ed="#PL"/> me, sed ab illo qui et me fecit et te.</p>
+      <p xml:id="iuy75t-d1e190-d1e923">8. Tamen non utcumque nos dimisit et Dominus, 
+   <lb ed="#PL"/> qui voluit intelligi quia in eo quod dixit, <hi rend="italic">Non potest
+   <lb ed="#PL"/> Filius a se facere quidquam, nisi quod
+    viderit Patrem 
+   <lb ed="#PL"/> facientem,</hi> nun alia opera Pater facit quae videat 
+   <lb ed="#PL"/> Filius, et alia Filius cum viderit Patrem facientem; 
+   <lb ed="#PL"/> sed eadem opera ipseetPateretFilius. Secutus 
+   <lb ed="#PL"/> enim ait : Quaecumque <hi rend="italic">cnim ille fecerit, haec
+    et</hi> Fi<lb ed="#PL" break="no"/>lius <hi rend="italic">similiter facit.</hi> Non cum ille fecerit, alia Filius 
+   <lb ed="#PL"/> similiter facil; sed <hi rend="italic">quaecumque ille fecerit, haec
+    ct</hi> Fi<lb ed="#PL" break="no"/>lius <hi rend="italic">similiter facit.</hi> Si haec facit Filius quae fecerit Pa<lb ed="#PL" break="no"/>ter, per Filium facit Pater : si per Filium facit quae 
+   <lb ed="#PL"/> facit Pater, non alia Pater , alia Filius facit; sed ca<lb ed="#PL" break="no"/>dem
+   opera sunt Patris et Filii. Et quomodo cadcin 
+   <lb ed="#PL"/> facit et Filius ? Et cadem et <hi rend="italic">similiter.</hi> Ne forte cadem 
+   <lb ed="#PL"/> sed dissimiliter: <hi rend="italic">Eadem,</hi> inquit, <hi rend="italic">et similiter.</hi> Et quo<lb ed="#PL" break="no"/>modo
+   posset eadem non similiter! Aocipite exemplum, 
+   <lb ed="#PL"/> quod puto ad vos non sit grande : cum scribimus lit<lb ed="#PL" break="no"/>teras,
+   facit eas primo cor nostrum, et deinde man 
+   <pb ed="#PL" n="1541"/>
+       <lb ed="#PL"/> nostra. Certe unde omnes acciamastis, nisi quia co<lb ed="#PL" break="no"/>gnovistis? Certum est quod dixi, et manifestum omni<lb ed="#PL" break="no"/>bus
+   nobis. Literae
+    <unclear>flunt</unclear> primo a corde nostro, deinde 
+   <lb ed="#PL"/> a corpore nostro; manus scrvit imperanli cordi, eas<lb ed="#PL" break="no"/>dem
+   Hlteras facit et cor et manus : numqnid alas cor,
+   
+   <lb ed="#PL"/> alias manus? Easdem quidem facit manus, sed non si<lb ed="#PL" break="no"/>militer : cor enim nostrum farcit eas intelligibiliter, 
+   <lb ed="#PL"/> manus aotem visibiliter. Ecce quomodo fiunt cadem 
+   <lb ed="#PL"/> dissimiliter. Unde parum fuit Domino dicere, <hi rend="italic">Quae­
+   <lb ed="#PL"/>
+    .</hi> cumque <hi rend="italic">Pater fecerit, haec et Filius facit,</hi> nisi adderet, 
+   <lb ed="#PL"/>
+       <hi rend="italic">et similiter.</hi> Quid si enim hoc modo intelligeres quo<lb ed="#PL" break="no"/>modo
+   quaecumque cor facit, haec et manus facit, sed 
+   <lb ed="#PL"/> non similiter? Hic vero addidit, <hi rend="italic">haec et</hi> Filius similiter 
+   <lb ed="#PL"/>
+       <hi rend="italic">facit.</hi> Si et haec facit, et similiter facit, expergiscere, 
+   <lb ed="#PL"/> stringatur Judxus, credat Christianus, convincatur 
+   <lb ed="#PL"/> haereticus ; requalis est Patri Filius.</p>
+      <p xml:id="iuy75t-d1e190-d1e1044">9. <hi rend="italic">Pater enirn diligit</hi> Filium, <hi rend="italic">et omnia
+    demonstrat ei</hi>
+   
+       <lb ed="#PL"/> quae ipse <hi rend="italic">facit ( Joan,</hi> v, 20). Ecce est illud, <hi rend="italic">denum<lb ed="#PL" break="no"/>stral. Demonstrat</hi> quasi cui? Utique quasi videnti. Re­
+   
+   <lb ed="#PL"/> dimus ad id qnod explicare non possumus, quomodo 
+   <lb ed="#PL"/> Yerbum videat. Ecce homo factus est per Verbum; 
+   <lb ed="#PL"/> sed homo hahet oculos, habet aures, habet manus, 
+   <lb ed="#PL"/> diversa membra in corpore : per oculos potest videre, 
+   <lb ed="#PL"/> per aures potest audire, per manus opcrari; diversa 
+   <lb ed="#PL"/> membra, diversa membrorum officia Non potest illud 
+   <lb ed="#PL"/> membrum quod potest alterum : tamcn propter cor<lb ed="#PL" break="no"/>poris
+   unitatem, ocolus et sibi et auri videt, et auris 
+   <lb ed="#PL"/> sibi et oculo audit. Numquid tale aliquid in Verbo ar<lb ed="#PL" break="no"/>bitrandum
+   est esse; quoniam omnia per ipsum ? Et 
+   <lb ed="#PL"/> dixit Scriptura in Psalmo, <hi rend="italic">lntelligite, qui</hi> insipientes 
+   <lb ed="#PL"/>
+       <hi rend="italic">estis in</hi> populo ; <hi rend="italic">et stulti, aliquando sapite.
+    Qui plantavit 
+   <lb ed="#PL"/> aurem</hi> non audiet ? auc <hi rend="italic">qui finxit</hi> oculum non <hi rend="italic">considerat
+   <lb ed="#PL"/> ( Psal.</hi> XCIII, 8, 9) ? Si ergo finxit oculum Verbum, 
+   <lb ed="#PL"/> quta omnia per Verbum ; si plantavit aurem Verbum, 
+   <lb ed="#PL"/> quia omnia per Verbum : non possumus dicere, Non 
+   <lb ed="#PL"/> audit Verbum, non videt Verbum; ne objurget nes 
+   <lb ed="#PL"/> Psalmus, et dicat, <hi rend="italic">Stulti, aliquando</hi> sapite. Itaque si
+   
+   <lb ed="#PL"/> audit Verbum et videt Verbum, audit Filius et videt 
+   <lb ed="#PL"/> Filius : numquid tamen et in ipso diversis locis quae<lb ed="#PL" break="no"/>situri
+   sumus oculos et aures? Aliunde audit, aliunde 
+   <lb ed="#PL"/> videt; et auris ejus non potest quod oculus, et octies 
+   <lb ed="#PL"/> non potest quod potest auris ? An totus ille visus est, 
+   <lb ed="#PL"/> et totus auditus? Forte ita : imo non forte, sod vere 
+   <lb ed="#PL"/> ita; dum tamen et ipsam ejus videre, et ipsum ejus 
+   <lb ed="#PL"/> audire, longe alio modo quam nostrum sit Et videre 
+   <lb ed="#PL"/> et audire simnl in Verbo est, nec aliud est ibi audire, 
+   <lb ed="#PL"/> et aliud videre; sed auditus visus, et visus auditus.</p>
+      <p xml:id="iuy75t-d1e190-d1e1143">10. Et nos qui aliter audimus, aliter videmus, boc 
+   <lb ed="#PL"/> unde novimus? Redimus forte ad nos, si non sumas 
+   <lb ed="#PL"/> praevaricatores, quibus dictum est, Redite, <hi rend="italic">praevarica<lb ed="#PL" break="no"/>tores, ad cor ( Isai.</hi> XLVI, 8). Redite ad cor: quid itis 
+   <lb ed="#PL"/> a vobis, et peritis ex vobis? quid his solitudinis vias? 
+   <lb ed="#PL"/> Erratis vagando; redite. Quo? Ad Dominum. Cito 
+   <lb ed="#PL"/> est1: primo redi ad cor tuum,exsul a te vagaris fo. 
+   <lb ed="#PL"/> ris; teipsum non nosti, et quaeris a quo factus es ! 
+   <lb ed="#PL"/> Redi, redi ad cor, tolle te a corpore: corpus tuum 
+   <lb ed="#PL"/> habitatio tua est; cor tuum sentit etiam per corpus 
+   
+   <lb ed="#PL"/> tuum : sed. corpus tuum non quod cor tuum ; dimitte 
+   <lb ed="#PL"/> et corpus tuum, rcdi ad cor tuum. In corpore tuo in<lb ed="#PL" break="no"/>veniebas
+   alibi oculus, alibi aures : in corde tuo num<lb ed="#PL" break="no"/>quid
+   hoc invenis ? An ill corde tuo non habes aures ? 
+   <lb ed="#PL"/> De quibus ergo Dominus dicebat, <hi rend="italic">a,,; habet aures au<lb ed="#PL" break="no"/>diendi, audiat (Luc.</hi> vm, 8) ? An in corde non habes 
+   <lb ed="#PL"/> oculos? Unde dicit Apostolus, <hi rend="italic">Illuminatos oculos cor- 
+   <lb ed="#PL"/> dia</hi> vestri <hi rend="italic">(Ephes.</hi> I, 18). Redi ad cor; vide ibi quid 
+   <lb ed="#PL"/> sentias foite de Deo, quia ibi est imago Dei. In inte­
+   
+   <lb ed="#PL"/> riore homine habitat Christus (Id. III, 16, 17), in in<lb ed="#PL" break="no"/>teriore
+   homine renovaris ad imaginem Dei, in imagine 
+   <lb ed="#PL"/> sua cognosce auctorem cjus. Vido quemadmodum
+   
+   <lb ed="#PL"/> omnes corporis sensus cordi intro nuntient quid sen<lb ed="#PL" break="no"/>s'erint foris : vide quam mullos ministros habeat unos 
+   <lb ed="#PL"/> interior imperator, et quid apud se etiam siite his mi<lb ed="#PL" break="no"/>nistris
+   agat. Renuntiant oculi cordi alba et nigra ; re<lb ed="#PL" break="no"/>numianl
+   aures eidem cordi canora et dissona; renun<lb ed="#PL" break="no"/>tiant
+   nares eidem cordi odora et putentia; renuntiat 
+   <lb ed="#PL"/> gustus eidcm cordi amara et dulcia; renuntiat tactus 
+   <lb ed="#PL"/> eidem cordi lenia et aspera : renuntiat et sibi ipsum 
+   <lb ed="#PL"/> cor justa et injusta. Cor tuum et videt et audit, ei 
+   <lb ed="#PL"/> caetera sensibilia dijudicat; et quo non aspirant cor­
+   
+   <lb ed="#PL"/> poris sensus, justa et injusta, mala et bona disceruit. 
+   <lb ed="#PL"/> Ostende mihi oculos, aures, nares cordis tui. Diversa 
+   <lb ed="#PL"/> sunt quae ad cor tuum refcruntur, et diversa ibi mem<lb ed="#PL" break="no"/>bra. non Inveniuntur. In carne tua alibi nidis, alibi vi<lb ed="#PL" break="no"/>des : in corde tuo ibi audis, ubi vides. Si hoc imago, 
+   <lb ed="#PL"/> quanto potentius ille cujus imago? Ergo et audit Fi<lb ed="#PL" break="no"/>lius, et videt Filius, et ipsa visio et auditio Filius: et 
+   <lb ed="#PL"/> boc est iNi audire quod esse, et boc est illi vidcre quod 
+   <lb ed="#PL"/> esse. Tibi non hoc est videre quod esse: quia et si per<lb ed="#PL" break="no"/>das
+   visum, potes esse; et si perdas auditum, potes esse.</p>
+      <p xml:id="iuy75t-d1e190-d1e1247">ii. Putamusne pulsavimus? Erectum est aliquid 
+   <lb ed="#PL"/> in nobis quo vel tenuiter suspicemur unde lumen 
+   <lb ed="#PL"/> vcuiat nobis? Puto, fratres, quia cum loquimur. 
+   <lb ed="#PL"/> ista, et cum meditamur, exercemus nos. Et cuni excr<lb ed="#PL" break="no"/>cemus
+   nos in ipsis,etrursus quasi reflectimur pon<lb ed="#PL" break="no"/>dere
+   nostro at! ista consueta, tales sumus quales lip<lb ed="#PL" break="no"/>pientes,
+   cum producuntur ad videndum lumen, si 
+   <lb ed="#PL"/> forte antea visum omnino non habebant, et incipiunt 
+   <lb ed="#PL"/> cutndem visum per diligentiam medicorum utcumque 
+   <lb ed="#PL"/> reparare. Et cum probare vuit medicus quanam sa<lb ed="#PL" break="no"/>lutis
+   cis accesserit, tentat eis ostendere quod viJerc 
+   <lb ed="#PL"/> desiderabant, et non poterant cum caeci essent: et 
+   <lb ed="#PL"/> redeunte jam utcumque acie oculorum, producuntur 
+   <lb ed="#PL"/> ad lucem; et cum viderint, fulgore ipso reverberan<lb ed="#PL" break="no"/>tur
+   quodainmodo, et respondent medico demonstranti, 
+   <lb ed="#PL"/> Jam jam vidi, sed vidcre non possum. Quid ergo facit 
+   <lb ed="#PL"/> medicus? Revocat ad solita, ot addit collyrium, ut ad 
+   <lb ed="#PL"/> illud quod visum est, et videri non potuit, desiderium
+   
+   <lb ed="#PL"/> nutriat, et ex ipso dcsidcrio curetur plenius; et si 
+   <lb ed="#PL"/> qua mordacia reparandae sanitati adhibentur, fortiter 
+   <lb ed="#PL"/> ferat, ut amore illius lucis accensus dicat sibi : Quando 
+   <lb ed="#PL"/> erit ut illud firmis oculis videam, quod sauciis intfr<lb ed="#PL" break="no"/>misque
+   non potui? Urget medicum, et rogat ut curet. 
+   <lb ed="#PL"/> Ergo, fratres, si forte tale aliquid factum est in cordi<lb ed="#PL" break="no"/>bus
+   vestris, si utcumque erexistis cor vestrum ad 
+   <lb ed="#PL"/> videndum Verbum, et ipsius luce reverberati ad so- 
+   <lb ed="#PL"/> Uta recidistis; rogate medicum ut adbibeat collyria 
+   <pb ed="#PL" n="1543"/>
+       <lb ed="#PL"/> mordacia, praeceptajustitiae. Est quod rideas, sed 
+   <lb ed="#PL"/> non est unde vidcas. Non mihi anea credebas quia 
+   <lb ed="#PL"/> est quod vidcas : duce quadam ratione adductas es : 
+   <lb ed="#PL"/> propinquasti, intcedisti, palpitasli, rcfugisti. Scis 
+   <lb ed="#PL"/> certe esse qu
+   &gt;d videas, sed idoneum non te csse qui 
+   <lb ed="#PL"/> videas. Ergo curare. Quae sunt collyria
+   ? Noli mentiri, 
+   <lb ed="#PL"/> noli perjurare, noli adulterare, noli furari, noli frau<lb ed="#PL" break="no"/>dare.
+   Sed consuesti, et cum aliquo dolore a consuetu<lb ed="#PL" break="no"/>dine
+   revocaris : hoc est quod mordet, sed sanat. Nam 
+   <lb ed="#PL"/> dico tibi liberius, ex timore et meo et tuo : si curari 
+   <lb ed="#PL"/> destiteris, et esse idoncus ad perfruendum hac luce ne<lb ed="#PL" break="no"/>glexeris, valetudine oculorum tuorum; tcnebrasamabis; 
+   <lb ed="#PL"/> et amando tcnebras, in tenebris remanebis; et remanen<lb ed="#PL" break="no"/>do
+   in tenebris, etinm in tcnebras exteriores projicicris :
+   
+   <lb ed="#PL"/> ibi erit fletus et stridor dentium <hi rend="italic">(Matth.</hi> XXII, 13). Si
+   
+   <lb ed="#PL"/> nihil in te faciebat amor lucis, f ciat timor doloris.</p>
+      <p xml:id="iuy75t-d1e190-d1e1346">12. Sufiicienter me locutum arbitror, et lectionem 
+   <lb ed="#PL"/> tamen evangelicam non finivi: si dicam reliqua one- 
+   <lb ed="#PL"/> J'abo vos, et timeo ne etiam quod haustum est effun<lb ed="#PL" break="no"/>datur
+   ; sufficiant ergo ista Cbaritati vestrae. Debitores 
+   <lb ed="#PL"/> sumus, non nunc , sed semper quamdiu vivimus; 
+   <lb ed="#PL"/> quia propter vos vivimus. Verumtamen vitam nostram 
+   <lb ed="#PL"/> istam infirmam, laboriosam, pcriculosam, in hoc 
+   <lb ed="#PL"/> mundo cons lamini bene vivendo, nolite nos contri<lb ed="#PL" break="no"/>stare
+   et atterere malis moribus vestris. Cum enim offen<lb ed="#PL" break="no"/>dimur
+   mala vita vestra, si refugiamus a vobis, ctseparc<lb ed="#PL" break="no"/>mus
+   nos a vobis, et ad vos non accedamus; nonne conque<lb ed="#PL" break="no"/>remini, et dicetis : Et si languebamus, curaretis; et si 
+   <lb ed="#PL"/> infirmabamur, visitaretis? Ecce curamus, ecce visita<lb ed="#PL" break="no"/>mus
+   sed non nobis fiat quomodo audistis ab Apostolo, 
+   <lb ed="#PL"/> Timeo <hi rend="italic">ne sine
+    causa laboraverim in</hi> vos' <hi rend="italic">(Galat.</hi> IV, 11).</p>
+    </div>
+   </body>
+  </text>
+</TEI>

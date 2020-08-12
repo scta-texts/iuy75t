@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 58</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 58</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e516"> <!-- iuy75t-t58 -->
+      <head xml:id="iuy75t-d1e516-Hd1e109">Tractatus 58</head>
+      <p xml:id="iuy75t-d1e516-d1e112">
+       <hi rend="italic">Ab eo quod Dominus dicit,</hi> Et vos mundi estis, sed 
+   <lb ed="#PL"/> non omnes ; <hi rend="italic">usque ad id,</hi> Exemplum dedi vobis, 
+   <lb ed="#PL"/> ut quemadmodum ego feci vobis, ita et vos faciatis. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Cap.</hi> xm , f . 10 45.</p>
+      <p xml:id="iuy75t-d1e516-d1e131">i. Jam illa verba Evangelii, ubi Dominus lavans 
+   <lb ed="#PL"/> pedes discipulis suis, ait, Qui
+    <hi rend="italic">lotus est semel, non 
+   <lb ed="#PL"/> habet necessitatem</hi> nisi <hi rend="italic">pedes lavare , sed est mundus</hi> to­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tua (Joan.</hi> XIII, 10), Dilectioni vestrae, ut Dominus 
+   <lb ed="#PL"/> donare dignatus est, exposuimus: nunc quod sequi<lb ed="#PL" break="no"/>tur
+   videamus. <hi rend="italic">Et</hi> vos, inquit, <hi rend="italic">mundi estis sed non 
+   <lb ed="#PL"/> omnes.</hi> Hoc quid sit ne quaereremus, ipse Evangelista 
+   <lb ed="#PL"/> patefecit , adjungens : <hi rend="italic">Sciebat
+    enim quisnam esset qui</hi>
+   
+       <lb ed="#PL"/>
+       <pb ed="#PL" n="1793"/> traderet eum; <hi rend="italic">propterea dixit : Non estis</hi> mundi omnes. 
+   <lb ed="#PL"/> Quid hoc apertius ? Proinde ad sequentia transeamus.</p>
+      <p xml:id="iuy75t-d1e516-d1e177">2. <hi rend="italic">Postquam ergo lavit pedes eorum , et accepit vesti­ 
+   <lb ed="#PL"/>
+    menta</hi> sua ; <hi rend="italic">cum recubuisset</hi> iterum, <hi rend="italic">dixit eia : Scitis 
+   <lb ed="#PL"/> quid fecerim</hi> vobis ? Nunc est ut bcato Petro reddatur
+   
+   <lb ed="#PL"/> illa promissio : dilatus euim fuerat, quando expave<lb ed="#PL" break="no"/>scenti, et dicenti, <hi rend="italic">Non</hi> lavabis mihi <hi rend="italic">pedes</hi> in aeternum, 
+   <lb ed="#PL"/> responsum est ei, <hi rend="italic">Quod ego facio,</hi> tu <hi rend="italic">nescis
+    modo,</hi>
+   
+       <lb ed="#PL"/> scies <hi rend="italic">autem postea (Ibid.</hi> 8, 7). Ecce est ipsum postea;
+   
+   <lb ed="#PL"/> jam tempus est ut dicatur quod paulo ante dilatum 
+   <lb ed="#PL"/> est. Memor itaque Dominus se promisisse jam dudum 
+   <lb ed="#PL"/> scientiam facti sui tam inopinati , tain mirabilis, tam
+   
+   <lb ed="#PL"/> expavescendi, et nisi ipse vehementer terruisset , 
+   <lb ed="#PL"/> nullo modo sinendi, ut magister non tantum ipsorum, 
+   <lb ed="#PL"/> sed Angelorum, et Dominus non tantum ipsorum, 
+   <lb ed="#PL"/> sed rerum omnium, lavaret pedes discipulorum et 
+   <lb ed="#PL"/> servorum suorum : hujus ergo tanti facti quoniam 
+   <lb ed="#PL"/> promiserat scientiam dicens, <hi rend="italic">Scies autem postea
+    ;</hi>
+   
+       <lb ed="#PL"/> quid sil quod fecit, docere nunc incipit.</p>
+      <p xml:id="iuy75t-d1e516-d1e243">3. Vos, inquit, <hi rend="italic">vocatis me, Magister , et</hi> Domine : 
+   <lb ed="#PL"/>
+       <hi rend="italic">et bene dicitis; sum etenim. Bene dicitis,</hi> quia verum 
+   <lb ed="#PL"/> dicitis; sum quippe quod dicitis. Homini praeceptum 
+   <lb ed="#PL"/> est , Non <hi rend="italic">te
+    laudet</hi> os tuum, <hi rend="italic">sed laudet te os</hi> proximi 
+   <lb ed="#PL"/> tui <hi rend="italic">(Prov.</hi> XXVII, i). Periculosum est enim sibi pla<lb ed="#PL" break="no"/>cere, cui cavendum est superbire. Ille autcm qui su<lb ed="#PL" break="no"/>per
+   omnia est, quantumcumque se laudet, non se ex<lb ed="#PL" break="no"/>tollit
+   excelsus : nec potest recte dici arrogans Deus. 
+   <lb ed="#PL"/> Nobis namque expedit eum nosse, non illi : nec eum 
+   <lb ed="#PL"/> quisque cognoscit, si non se indicet ipse qui novit. Si 
+   <lb ed="#PL"/> ergo non se laudando quasi arrogantiam vitare volue<lb ed="#PL" break="no"/>rit, nobis sapientiam denegabit. Et magistrum qui<lb ed="#PL" break="no"/>dem
+   quod se esse dicit, nemo reprehenderet, etiam 
+   <lb ed="#PL"/> qui cum nihil esse aliud quam hominem crederet; 
+   <lb ed="#PL"/> quoniam id profitetur quod et ipsi homines in quibus<lb ed="#PL" break="no"/>libet
+   artibus usque adeo sine arrogantia profitentur, 
+   <lb ed="#PL"/> ut professores vocentur. Quod vero dominum et ipse 
+   <lb ed="#PL"/> se dicit discipulorum suorum, cum sint illi etiam se<lb ed="#PL" break="no"/>cundum
+   saeculum ingenui, quis ferat in homine ? Sed 
+   <lb ed="#PL"/> Deus loquitur. Nulla est hic elatio tantae celsitudinis,
+   
+   <lb ed="#PL"/> nullum mendacium veritatis : nobis subjacere illi utile 
+   <lb ed="#PL"/> est celsitudini , nobis servire utile est veritati. Quod 
+   <lb ed="#PL"/> se Dominum dicit, non illi vilium est, sed nobis be<lb ed="#PL" break="no"/>neficium. Cujusdam saecularis auctoris verba laudan<lb ed="#PL" break="no"/>tur, quia dixit, I Cum omnis arrogantia odiosa est, 
+   <lb ed="#PL"/> I tum illa ingenii et eloquentiae multo molestissima &gt; 
+   <lb ed="#PL"/> (Cic. in Q. <hi rend="italic">Coecilium)</hi> : et tamen idem ipse cum de 
+   <lb ed="#PL"/> sua eloquentia loqueretur, « Dicerem, inquit, per<lb ed="#PL" break="no"/>f
+   fectam, si ita judicarem; nec in veritate crimen ar<lb ed="#PL" break="no"/>c
+   regantiae pertimescerem » <hi rend="italic">(Id.</hi> in <hi rend="italic">Oratore).</hi> Si igitur 
+   <lb ed="#PL"/> ille homo eloquentissimus in veritate arrogantiam non 
+   <lb ed="#PL"/> timeret, quomodo arrogantiam ipsa veritas timet ? 
+   <lb ed="#PL"/> Dicat se Dominum qui Dominus est, dicat verum qui 
+   <lb ed="#PL"/> vcritas est; ne non discam ego quod utile est, dum ta<lb ed="#PL" break="no"/>cet
+   ille quod est. Beatissimas Paulus, non utique uni<lb ed="#PL" break="no"/>genitus
+   Dei Filius, sed unigeniti Dei Filii servus et
+   
+   <lb ed="#PL"/> apostolus ; non veritas, sed particeps veritatis; ait 
+   <lb ed="#PL"/> libere et constanter,
+    <hi rend="italic">Et</hi> si <hi rend="italic">voluero gloriari ,</hi> non <hi rend="italic">ero</hi>
+   
+       <lb ed="#PL"/> insipiens; <hi rend="italic">veritatem enim dico</hi> (II <hi rend="italic">Cor.</hi> XII, 6). Neque 
+   <lb ed="#PL"/> enin' in seipso, sed in ipsa veritate quae superior est 
+   <lb ed="#PL"/> ipso, et humiliter et veraciter gloriaretur : quoniam et 
+   <lb ed="#PL"/> ipse praecepit ut qui gloriatur in Domino glorictur(ICor. 
+   <lb ed="#PL"/> 1, 31). Itane non timeret insipientiam, si gloriari vellet 
+   <lb ed="#PL"/> amator sapientiae; et in gloria sua timeret insipientiam 
+   <lb ed="#PL"/> ipsa sapientia? Non timuitarrogantiam qui dixit, <hi rend="italic">In Do<lb ed="#PL" break="no"/>mino
+    laudabitur anima</hi> mea <hi rend="italic">(Psal.</hi> XXXIII, 3) ; et ir 
+   <lb ed="#PL"/> laude sua timeret arrogantiam potestas Domini, in qua 
+   <lb ed="#PL"/> laudatur anima servi ? Vos, inquit, <hi rend="italic">vocatis me, Magister, 
+   <lb ed="#PL"/> et</hi> Domine : <hi rend="italic">et bene dicitis;</hi> sum <hi rend="italic">etenim.</hi> Ideo bene dici<lb ed="#PL" break="no"/>tis, quia sum : nam si non essem quod dicitis, male 
+   <lb ed="#PL"/> diceretis , etiamsi me laudaretis. Quomodo ergo ne<lb ed="#PL" break="no"/>garet
+   veritas, quod dicunt discipuli veritatis ? quo<lb ed="#PL" break="no"/>modo
+   quod dicunt qui didicerunt, negaret ipsa unde 
+   <lb ed="#PL"/> didicerunt ? Quomodo fons negat quod bibens prae 
+   <lb ed="#PL"/> dicat? quomodo lux occultat quod videns indicat?</p>
+      <p xml:id="iuy75t-d1e516-d1e419">4. « Si ergo , inquit, ego lavi pedes vestros Domi<lb ed="#PL" break="no"/>nus
+   et Magister, debetis et vos alter alterius lavaro 
+   <lb ed="#PL"/> pedes. Exemplum enim dedi vobis, ut quemadmodum 
+   <lb ed="#PL"/> ego feci vobis, et vos ita faciatis. » Hoc est, beate 
+   <lb ed="#PL"/> Petre, quod nesciebas, quando fieri non sinebas. Hoc 
+   <lb ed="#PL"/> tibi postea sciendum promisit, quando ut sineres ter<lb ed="#PL" break="no"/>ruit
+   te Magister tuus et Dominus tuus, lavans pedes 
+   <lb ed="#PL"/> tuos. Didicimus, fratres , humilitatem ab Excelso; fa<lb ed="#PL" break="no"/>ciamus
+   invicem humiles , quod humiliter fecit Excel<lb ed="#PL" break="no"/>sus. Magna est haec commendatio humilitatis : et fa<lb ed="#PL" break="no"/>ciunt
+   sibi hoc invicem fratres, etiam opere ipso visi<lb ed="#PL" break="no"/>bili, cum se invicem hospitio recipiunt; est enim apud 
+   <lb ed="#PL"/> plerosque consuetudo hujus humilitatis, usque ad 
+   <lb ed="#PL"/> factum quo cernatur expressa. Unde Apostolus cum 
+   <lb ed="#PL"/> viduam bene meritam commendaret, Si hospitio , 
+   <lb ed="#PL"/> inquit, <hi rend="italic">recepit,</hi> si <hi rend="italic">sanctorum pedes lavit</hi> (I <hi rend="italic">Tim.</hi> v, 10). 
+   <lb ed="#PL"/> Et apud sanctos ubicumque hac consuetudo non est, 
+   <lb ed="#PL"/> quod manu non faciunt, corde faciunt, si in illorum 
+   <lb ed="#PL"/> numero sunt quibus dicitur in hymno beatorum trium 
+   <lb ed="#PL"/> virorum, <hi rend="italic">Benedicite, sancti et humiles corde, Domino 
+   <lb ed="#PL"/> ( Dan.</hi> III, 87). Multo aulcm est melius, et sine con<lb ed="#PL" break="no"/>troversia
+   verius, ut etiam manibus fiat; nec dcdilne<lb ed="#PL" break="no"/>tur
+   quod fecit Christus, facere christianus. Cum enim 
+   <lb ed="#PL"/> ad pedes fratris inclinatur corpus, etiam in corde 
+   <lb ed="#PL"/> ipso vel excitatur, vel si jam inerat, confirmatur ip<lb ed="#PL" break="no"/>sius
+   humilitatis affectus.</p>
+      <p xml:id="iuy75t-d1e516-d1e488">5. Sed excepto isto morali intellectu, ita nos hujus 
+   <lb ed="#PL"/> dominici facti altitudinem commendasse meminimus, 
+   <lb ed="#PL"/> quod lavando pedes jam lotornm atque mundorum 
+   <lb ed="#PL"/> discipulorum, significaverit Dominus propter bum:.<lb ed="#PL" break="no"/>nos quibus in terra versamur affectus, ut quamtum<lb ed="#PL" break="no"/>libet
+   profecerimus in apprehensione justitiae, sciamus 
+   <lb ed="#PL"/> nos sine peccato non esse : quod subinde abluit inter<lb ed="#PL" break="no"/>pellando
+   pro nobis, cum oramus Patrem qui in caelis 
+   <lb ed="#PL"/> est, ut debita nostra dimittat nobis, sicut et nos di­
+   
+   <lb ed="#PL"/> mittimus debitoribus nostris <hi rend="italic">(Matth.</hi> VI, 12). Quo<lb ed="#PL" break="no"/>modo
+   ergo ad hunc intellectum poterit pertinere hoc 
+   <lb ed="#PL"/> quod ipse postea docuit, ubi sui facti exposuit ratio<lb ed="#PL" break="no"/>nem
+   dicens, Si ergo ego lavi vestros pedes Dominus 
+   <lb ed="#PL"/> et Magister, debetis et vos alter alterius lavare pedes. 
+   <lb ed="#PL"/> Exemplum enim dedi vobis, ut quemadmodnm ego 
+   <lb ed="#PL"/> vobis feci, ita et vos faciatis! » Numquid dicere possu<lb ed="#PL" break="no"/>mus
+   quod etiam frater fratrem a delicti poterit conta<lb ed="#PL" break="no"/>gione
+   mundare ? Imo vero id etiam nos esse admoni­ 
+   <pb ed="#PL" n="1795"/>
+       <lb ed="#PL"/> tos in hujus dominici operis altitudine noverimus, ut 
+   <lb ed="#PL"/> confessi invicem delicta nostra oremus pro nobis, 
+   <lb ed="#PL"/> sicut et Christus interpellat pro nobis
+    <hi rend="italic">(Rom.</hi> VIII, 34). 
+   <lb ed="#PL"/> Audiamus Apostolum Jacobum hoc ipsum evidentis<lb ed="#PL" break="no"/>sime
+   praecipientem et dicentem, <hi rend="italic">Confitemini invicem
+    
+   <lb ed="#PL"/> delicta vestra, et orate pro</hi> vobis <hi rend="italic">(Jacobi</hi> v, 16). Quia et 
+   <lb ed="#PL"/> ad noc Dominus nobis dedit exemplum. Si enim ille 
+   <lb ed="#PL"/> qui ullum peccatum nec habet, nec babuit, nec habe<lb ed="#PL" break="no"/>bit, orat pro peccatis nostris ; quanto magis nos in<lb ed="#PL" break="no"/>vicem
+   pro nostris orare debemus ? Et si dimittit no<lb ed="#PL" break="no"/>bis
+   ille cui non habemus quod dimittamus ; quanto 
+   <lb ed="#PL"/> magis dimiucre nobis debemus invicem, qui sine
+   
+   <lb ed="#PL"/> peccato hic vivere non valemus ? Quid enim videtur 
+   <lb ed="#PL"/> in hac altitudine sacramenti Dominus significare, cum 
+   <lb ed="#PL"/> dicit, c Exemplum enim dedi vobis, ut quemadmo<lb ed="#PL" break="no"/>dum
+   ego feci vobis, ita et vos faciatis; i nisi quod aper<lb ed="#PL" break="no"/>tissime
+   dicit Apostolus, 4 Donantes vobismetipsis, si 
+   <lb ed="#PL"/> quis adversus aliquem habet querelam
+   , sicut et Do<lb ed="#PL" break="no"/>minus
+   donavit vobis, ita et vos i <hi rend="italic">(Coloss.</hi> III, 13) ! In<lb ed="#PL" break="no"/>vicem
+   itaque nobis delicta donemus , et pro nostris 
+   <lb ed="#PL"/> delictis invicem oremus, atque ita quodammodo in<lb ed="#PL" break="no"/>vicem
+   pedes nostros lavemus. Nostrum est, donante 
+   <lb ed="#PL"/> ipso, ministerium charitatis et humilitatis adhiberc : 
+   <lb ed="#PL"/> illius est exaudire, ac nos ab omni peccatorum con<lb ed="#PL" break="no"/>taminatione
+   mundare per Christum, et in Christo; ut 
+   <lb ed="#PL"/> quod aliis etiam dimittimus, hoc est in terra solvimus, 
+   <lb ed="#PL"/> solvatur in coelo.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 78</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 78</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e680"> <!-- iuy75t-t78 -->
+      <head xml:id="iuy75t-d1e680-Hd1e109">Tractatus 78</head>
+      <p xml:id="iuy75t-d1e680-d1e112">
+       <hi rend="italic">In</hi> id <hi rend="italic">quod Dominus dicit,</hi> Non turbetur cor vestrum , 
+   <lb ed="#PL"/> neque formidet, <hi rend="italic">etc. Cap.</hi> xiv, f i . 27, is.</p>
+      <p xml:id="iuy75t-d1e680-d1e126">i. Accepimus, fratres,verba Domini dicentis ad disci<lb ed="#PL" break="no"/>pulos
+   suos : <hi rend="italic">Non turbetur cor vestrum, neque formidet. 
+   <lb ed="#PL"/> Audistis quia ego dixi
+    vobis, Vado, et venio ad vos</hi> : si 
+   <lb ed="#PL"/> diligeretis <hi rend="italic">me,
+    gauderetis</hi> utique, <hi rend="italic">quia ego vado ad Pa<lb ed="#PL" break="no"/>trem; quia Pater
+    major me est.</hi> Hinc ergo turbari et 
+   <lb ed="#PL"/> formidare poterat cor illorum, quod ibat ab eis, 
+   <lb ed="#PL"/> quamvis venturus ad eos : ne forsitan gregem lupus 
+   <lb ed="#PL"/> hoc intervallo invaderet, pastoris absentia. Sed a 
+   <lb ed="#PL"/> quibUs homo abscedebat, Deus non derelinquebat: et 
+   <lb ed="#PL"/> idem ipse Christus homo et Deus. Ergoetibat per 
+   <lb ed="#PL"/> id quod homo erat, et manebat per id quod Deus 
+   <lb ed="#PL"/> erat: ibat per id quod uno loco erat, manebat per id 
+   <lb ed="#PL"/> quod ubique etat. Cur itaque turbaretur et formidaret 
+   <lb ed="#PL"/> cor , quando ita deserebat oculos, ut non desereret 
+   <lb ed="#PL"/> cor? Quamvis Deus etiam qui nullo cOnlinelur loco, 
+   <lb ed="#PL"/> discedat ab eorum cordibus, qui cum relinquunt mo<lb ed="#PL" break="no"/>ribus, non pedibus; et veniat ad eos qui convertuntur 
+   <lb ed="#PL"/> ad eum non facie t sed fide, et accedunt ad cum 
+   <lb ed="#PL"/> mente, non carne. Ut autem intelligerent secundum id 
+   <lb ed="#PL"/> quod homo erat eum dixisse , <hi rend="italic">Vado et venio ad</hi> vos; 
+   <lb ed="#PL"/> adjecit, atque ait, Si diligeretis me, <hi rend="italic">gauderetis utique,</hi>
+   
+       <lb ed="#PL"/> quia <hi rend="italic">ego vado ad Patrem; qnia Pater major me est.</hi>
+   
+       <lb ed="#PL"/> Per quod ergo Filius non est aequalis Patri, per hoc 
+   <lb ed="#PL"/> iturus erat ad Patrem, a quo venturus est vivos judi<lb ed="#PL" break="no"/>caturus
+   et mortuos : per illud autem in quo aequalis
+   
+   <lb ed="#PL"/> est gignenti Unigenitus, nunquam reccdit a Patre ; 
+   <lb ed="#PL"/> sed cum illo est ubique totus pari divinitate, quam 
+   <lb ed="#PL"/> nullus continet locus. <hi rend="italic">Cum</hi> enim
+    <hi rend="italic">in forma Dei esset,</hi>
+   
+       <lb ed="#PL"/> sicut Apostolus loquitur, <hi rend="italic">non rapinam arbitratus</hi> eat 
+   <lb ed="#PL"/>
+       <hi rend="italic">esse aequalis. Deo.</hi> Quomodo enim rapina posset esse 
+   <lb ed="#PL"/> natura quae non erat usurpata, sed nata? <hi rend="italic">Semetipsum
+   <lb ed="#PL"/> autem</hi> exinanit,
+    <hi rend="italic">formam</hi> servi <hi rend="italic">accipiens (Philipp.</hi> II ,
+   
+   <lb ed="#PL"/> 8, 7) : non ergo amittens illam, scd accipiens istam. 
+   <lb ed="#PL"/> Eo modo se exinaniens, quo hic minor apparebat 
+   <lb ed="#PL"/> quam apud Patrem manebat. Forma quippe servi ac<lb ed="#PL" break="no"/>cessit,
+   non forma Dei recessit : haec estassumpta, non 
+   <lb ed="#PL"/> illa consumpta. Propter hanc dicit, <hi rend="italic">Pater major me
+   <lb ed="#PL"/> est ;</hi> propter illam vcro, <hi rend="italic">Ego et Patcr</hi> unum sumus 
+   <lb ed="#PL"/> , <hi rend="italic">(Joan-</hi> x, 30).</p>
+      <p xml:id="iuy75t-d1e680-d1e261">2. Hoc attendat arianus, et altentione sit sanns : 
+   <lb ed="#PL"/> ne contentione sit vanus, aut, quod est pejus, insanHs. 
+   <lb ed="#PL"/> Haec est enim forma servi, in qna Dei Filius minor 
+   <lb ed="#PL"/> est, non Patre solo, sed etiam Spiritu sancto: neque 
+   <lb ed="#PL"/> id tantum, sed etiam seipso; quia idem ipse in forma 
+   <lb ed="#PL"/> Dei major est seipso. Neque enim homo Christus non 
+   <lb ed="#PL"/> dicitur Filius Dci, quod etiam sola caro ejus in se<lb ed="#PL" break="no"/>pulcro
+   merit appellari. Nam quid aliud confitemur , 
+   <lb ed="#PL"/> cum dicimus credere nos in unigenitum Dei Filium , 
+   <lb ed="#PL"/> qui sub Pontio Pilato crucifixus est et sepultus? Et 
+   <lb ed="#PL"/> quid ejus nisi caro sepulta est sine anima? Ac per 
+   <lb ed="#PL"/> hoc eum credimus in Dei Filium qui sepultus est, 
+   <lb ed="#PL"/> profecto Filium Dei dicimus et carnem quae sola se<lb ed="#PL" break="no"/>pulLa
+   cst. Ipse ergo Christus Filius Dei, aequalis Patri 
+   <lb ed="#PL"/> in forma Dei, quia semetipsum exinanivit, non for<lb ed="#PL" break="no"/>mam
+   Dci amittens, sed formam servi accipiens, major 
+   <lb ed="#PL"/> est et seipso; quia major est forma Dei quae amissa 
+   <lb ed="#PL"/> non est, quam servi quae accepta est. Quid itaque 
+   <lb ed="#PL"/> mirum, vel quid indignum, si secundum hanc formam 
+   <lb ed="#PL"/> servi loquens, ait Dci Filius,
+    <hi rend="italic">Pater</hi> major me <hi rend="italic">est;</hi>et
+   <lb ed="#PL"/> secundum Dei formam loquens, ait idem ipse Dci 
+   <lb ed="#PL"/> Filius, <hi rend="italic">Ego et Pater unum
+    sumus?</hi> Unum sunt enim, 
+   <lb ed="#PL"/> secundum id quod <hi rend="italic">Deus erat</hi> Verbum : major est 
+   <lb ed="#PL"/> Pater, secundum id quod <hi rend="italic">Verbum caro factum
+    est
+   <lb ed="#PL"/> (Id.</hi> I, 1 14). Dicam etiam quod Ariani et Eunomiani 
+   <lb ed="#PL"/> negare non possunt : secundum hanc formam servi 
+   <lb ed="#PL"/> puer Christus etiam parentibus suis minor crat, 
+   <lb ed="#PL"/> quando parvus majoribus, sicut scriptum est, <hi rend="italic">subdi­
+   <lb ed="#PL"/>
+    tus erat (Luc,</hi> II, 51). Quid igitur, haeretice, cum Chri<lb ed="#PL" break="no"/>stus
+   Deus sitethomo, loquitur ut homo, et calum<lb ed="#PL" break="no"/>niaris
+   Deo? Ille in se naturam commendat humanam; 
+   <lb ed="#PL"/> tu in illo audes deformare divinam ? Infidelis, ingrate, 
+   <lb ed="#PL"/> ideone tu minuis eum qui fecit te, quia dicit illc quid 
+   <lb ed="#PL"/> factus sit propter te? aeqnalis enim Patri, Filius per 
+   <lb ed="#PL"/> quem factus est homo, ut minor esset Patre, factus est 
+   <lb ed="#PL"/> homo : quod nisi fieret, quid esset homo ?</p>
+      <p xml:id="iuy75t-d1e680-d1e359">i. Dicat plane Dominus et Magister noster, <hi rend="italic">Si</hi> di<lb ed="#PL" break="no"/>ligeretis
+   <hi rend="italic">me, gauderetis utique, quia vado ad Patrem, 
+   <lb ed="#PL"/> quia Pater
+    major me est.</hi> Cum discipulis audiamus 
+   <lb ed="#PL"/> verba doctoris, non cum alienis sequamur astutiam 
+   <lb ed="#PL"/> deceptoris. Agnoscamus geminam substantiam Chri<lb ed="#PL" break="no"/>sti; divinam scilicet qua aequalis est Patri, humanam 
+   <lb ed="#PL"/> qua major est Pater. Utrumque autem simul non duo, 
+   <lb ed="#PL"/> sed unus est Christus; ne sit quaternitas, non Tri<lb ed="#PL" break="no"/>nitas
+   Deus. Sicut cnim unus est homo anima ratio<lb ed="#PL" break="no"/>natis
+   etcaro, sic unus est Christus Deus et homo : 
+   <lb ed="#PL"/> ac per hoc Christus, est Deus anima rationalis et 
+   <lb ed="#PL"/> caro. Christum in his omnibus, Christum in singulis 
+   <lb ed="#PL"/> confitemur. Quis est ergo per quem factus est mun<lb ed="#PL" break="no"/>dus? Christus Jesus, sed in forma Dei. Quis est sub 
+   <lb ed="#PL"/> Pontio Pilato crucifixus? Christus Jesus, sed in forma 
+   <lb ed="#PL"/> servi. Item de singulis quibus homo constat. Quis non 
+   <lb ed="#PL"/> est derelictus in inferno? Christus Jcsus, sed in
+   
+   <lb ed="#PL"/> anima sola. Quis rcsurieclurus triduo jacuit in se<lb ed="#PL" break="no"/>pulcro? Christus Jesus, sed in carne sola. Dicitur 
+   <lb ed="#PL"/> ergo et in his siDgulis Christus. Verum haec omnia 
+   <lb ed="#PL"/> non duo, vel tres, sed unus est Christus. Ideo ergo 
+   <pb ed="#PL" n="1837"/>
+       <lb ed="#PL"/> dixit, <hi rend="italic">Si diligeretis me, gauderetis utique,</hi> quia
+    <hi rend="italic">vado</hi> ad 
+   <lb ed="#PL"/>
+       <hi rend="italic">Patrem;</hi> quia naturae humanae gratulandum est , eo 
+   <lb ed="#PL"/> quod sic assumpta est a Verbo unigcnito, ut immor<lb ed="#PL" break="no"/>talis
+   Constitueretur in coelo, atque ila fieret terra su<lb ed="#PL" break="no"/>blinais, ut incorruptibilis pulvis sederet ad dexteram 
+   <lb ed="#PL"/> Patris. Hoc enim modo se iturum dixit ad Patrem. 
+   <lb ed="#PL"/> Nam profecto ad illum ibat qui cum illo erat. Sed boc 
+   <lb ed="#PL"/> erat ire ad eum et recedere a nobis, mutare atque im •
+   
+   <lb ed="#PL"/> mortale f cere quod mortale suscepit ex nobis, et le<lb ed="#PL" break="no"/>vare
+   in coelum per quod fuit in terra pro nobis. Quis 
+   <lb ed="#PL"/> non hine gaudeat, qui sie diligit Christum, ut v suam 
+   <lb ed="#PL"/> naturan jam immortalem gratuletur in Christo, atque 
+   <lb ed="#PL"/> id se speret futurum esse per Christum ?</p>
+    </div>
+   </body>
+  </text>
+</TEI>

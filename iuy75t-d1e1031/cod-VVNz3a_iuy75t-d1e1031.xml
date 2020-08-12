@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 121</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 121</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e1031"> <!-- iuy75t-t121 -->
+      <head xml:id="iuy75t-d1e1031-Hd1e109">Tractatus 121</head>
+      <p xml:id="iuy75t-d1e1031-d1e112">
+       <hi rend="italic">De eo</hi> quod <hi rend="italic">sequitur,</hi> Abierunt ergo iterum ad semet<lb ed="#PL" break="no"/>ipsos
+   discipuli; <hi rend="italic">usque ad id,</hi> Beati qui non vide­
+   
+   <lb ed="#PL"/> runt et crediderunt. <hi rend="italic">Cap.</hi> xx, f . 10-29.</p>
+      <p xml:id="iuy75t-d1e1031-d1e132">i. Sublatum esse Dominum de monumento, disci<lb ed="#PL" break="no"/>pulis
+   ejus Petro et Joanni nuntiaverat Maria Magda<lb ed="#PL" break="no"/>lene: quo illi venientes, invenerunt sola linteamina,
+   
+   <lb ed="#PL"/> quibus corpus fuerat involutum ; et quid aliud cre<lb ed="#PL" break="no"/>dere
+   potuerunt, nisi quod dixerat, quod etiam ipsa 
+   <lb ed="#PL"/> crediderat? <hi rend="italic">Abierunt ergo iterum
+    ad semetipsos disci<lb ed="#PL" break="no"/>puli :</hi> id est, ubi habitabant, et unde ad monumen­
+   
+   <lb ed="#PL"/> tum cucurrerant. <hi rend="italic">Maria autem stabat ad monumentum
+   <lb ed="#PL"/>
+    foris</hi> plorans. Viris enim redeuntibus, infirmiorem 
+   <lb ed="#PL"/> sexum in eodem loco fortior figebat affectus. Et oculi . 
+   <lb ed="#PL"/> qui Dominum quaesierant et non invenerant, lacry<lb ed="#PL" break="no"/>mis
+   jam vacabant, amplius dolentes quod fuerat de 
+   <lb ed="#PL"/> monumento ablatus, quam quod fuerat in ligno occi<lb ed="#PL" break="no"/>sus; quoniam magistri tanti, cujus eis vita subtracta 
+   
+   <lb ed="#PL"/> fuerat, nec memoria remanebat. Tenebat itaque ad 
+   <lb ed="#PL"/> monumentum jam dolor iste mulierem. Cum <hi rend="italic">ergo
+   <lb ed="#PL"/> fleret, inclinavit se et prospexit in
+    monumentum.</hi> Cur 
+   <lb ed="#PL"/> hoc fecerit nescio. Non enim nesciebat non ibi esse 
+   <lb ed="#PL"/> jam quem quaerebat; quandoquidem inde sublatum 
+   <lb ed="#PL"/> et discipulis ipsa nuntiaverat; et illi ad monumcn<lb ed="#PL" break="no"/>tum
+   venerant, et non solum intuendo, sed etiam in<lb ed="#PL" break="no"/>trando
+   corpus Domini quaesierant, nec invenerant. 
+   <lb ed="#PL"/> Quid sibi ergo vult quod ista cum fleret, rursum in 
+   <lb ed="#PL"/> monumentum inclinata prospexit? Utrum quod ni 
+   <lb ed="#PL"/> mium dolebat, nec suis nec illorum oculis facile pu<lb ed="#PL" break="no"/>tabat
+   esse credendum? An potius divino instinctu in 
+   <lb ed="#PL"/> animo ejus effectum est ut prospiceret? Prospexit 
+   <lb ed="#PL"/> enim,
+    <hi rend="italic">Et vidit duos angelos in</hi> albis, <hi rend="italic">sedentes,</hi> unum 
+   <lb ed="#PL"/>
+       <hi rend="italic">ad caput, et</hi> unum <hi rend="italic">ad pedes, ubi positum
+    fuerat</hi> corpus 
+   <lb ed="#PL"/>
+       <hi rend="italic">Jesu.</hi> Quid est quod unus ad caput, et ad pedes alter 
+   <lb ed="#PL"/> sedebat ? An, quoniam qui graece Angeli dicuntur, 
+   <lb ed="#PL"/> laiine sunt nuntii, isto modo Christi Evangelium velut 
+   <lb ed="#PL"/> a capite usque ad pedes, ab initio usque in fiuem 
+   <lb ed="#PL"/> significabant esse nuntiandum? <hi rend="italic">Dicunt ei iUi: Mulier, 
+   <lb ed="#PL"/> quid</hi> ploras ? <hi rend="italic">Dicit eis : Quia tulerunt Dominum</hi> meum, 
+   <lb ed="#PL"/>
+       <hi rend="italic">et nescio ubi</hi> poJueruut <hi rend="italic">eum.</hi> Angeli lacrymas probi<lb ed="#PL" break="no"/>bebant : ubi quid aliud quam futurum quodammodo 
+   <lb ed="#PL"/> gaudium nuntiabant? Ita enim dixerunt, <hi rend="italic">Quid ploras ?</hi>
+   
+       <lb ed="#PL"/> ac si dicerent, Noli plorare. At illa eos putans inter<lb ed="#PL" break="no"/>rogasse
+   nescientes, causas prodit lacrymarum. Quia 
+   <lb ed="#PL"/>
+       <hi rend="italic">tulerunt,</hi> inquit, <hi rend="italic">Dominum</hi> meum : Dominum suum 
+   <lb ed="#PL"/> vocans corpus exanime Domini sui, a toto partem 
+   <lb ed="#PL"/> significans; sicut omnes confitemur Jesum Christum 
+   <lb ed="#PL"/> Filium Dei unicum Dominum nostrum, quod utique
+   
+   <lb ed="#PL"/> simul est et Verbum et anima et caro, crucifixum ta<lb ed="#PL" break="no"/>men
+   et sepultum, cum sola ejus sepulta sit caro. <hi rend="italic">Et
+   <lb ed="#PL"/> nescio,</hi> inquit, ubi <hi rend="italic">posuerunt eum.</hi> Haec erat causa ma<lb ed="#PL" break="no"/>jor
+   doloris, quia nesciebat quo iret ad consolandum 
+   <lb ed="#PL"/> dolorem. Sed hora jani venerat qua id quod nuntia<lb ed="#PL" break="no"/>tum
+   quodammodo fuerat ab angelis flere prohibenti<lb ed="#PL" break="no"/>bus, gaudium succederet fletibus.</p>
+      <p xml:id="iuy75t-d1e1031-d1e296">i. Denique « haec cum dixisset, conversa est re<lb ed="#PL" break="no"/>trorsum, et vidit Jesum stantem, et non sciebat quia 
+   <lb ed="#PL"/> Jesus est. Dicit ei Jesus : Mulier, quid ploras? Quem 
+   <lb ed="#PL"/> quaeris? Illa existimans quia hortulanus esset, dicit 
+   <lb ed="#PL"/> ei : Domine, si tu sustulisti eum, dicito mihi ubi po<lb ed="#PL" break="no"/>suisti
+   eum, et ego eum tollam. Dicit ei Jesus
+   : Maria. 
+   <lb ed="#PL"/> Conversa illa dicit ei, Rabboni; quod dicitur Magi<lb ed="#PL" break="no"/>ster. i Nemo calumnietur mulieri quod hortulanum 
+   <lb ed="#PL"/> dixerit dominum, et Jesum Magistrum. Ibi enun ro<lb ed="#PL" break="no"/>gabat, hic agnoscebat: ibi honorabat hominem a quo 
+   <lb ed="#PL"/> beneficium postulabat; hic recolebat doctorem a quo 
+   <lb ed="#PL"/> discernere humana et divina discebat. Appellabat do<lb ed="#PL" break="no"/>minum
+   cujus ancilla non erat, ut per eum perve<lb ed="#PL" break="no"/>niret
+   ad Dominum cujus erat. Aliter ergo Dominum 
+   <lb ed="#PL"/> dixit, <hi rend="italic">Sustulerunt
+    Dominum meum;</hi> aliter autem , 
+   <lb ed="#PL"/>
+       <hi rend="italic">Domine, si</hi> tu <hi rend="italic">sustulisti eum.</hi> Nam et Prophetae ap<lb ed="#PL" break="no"/>pellaverunt
+   dominos eos qui homines grant; sed 
+   <lb ed="#PL"/> aliter illum de quo scriptum est, <hi rend="italic">Dominus nomen</hi> ei 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Psal.</hi> LXVII, 5). Sed ista mulier quae jam fuerat con<lb ed="#PL" break="no"/>versa
+   retrorsum ut videret Jesum, quando eum puta<lb ed="#PL" break="no"/>vit
+   esse hortulanum, et cum illo utique loquehatur, 
+   <lb ed="#PL"/> quomodo rursus conversa dicitur, ut ci diceret, <hi rend="italic">Rab­</hi>
+   
+       <lb ed="#PL"/>
+       <pb ed="#PL" n="1957"/>
+       <hi rend="italic">boni</hi> t nisi quia tunc conversa corpore, quod non erat, 
+   <lb ed="#PL"/> putavit, nunc corde conversa, quod erat agnovit?</p>
+      <p xml:id="iuy75t-d1e1031-d1e374">5. « Dicit ei Jesus : Noli me tangere, nondum enim 
+   <lb ed="#PL"/> ascendi ad Patrem meum : vade autem ad fratres 
+   <lb ed="#PL"/> moos, et dic eis, Ascendo ad Patrem meum et Patrem 
+   <lb ed="#PL"/> vestrum, Deum meum et Deum vestrum. &gt; Est in his 
+   <lb ed="#PL"/> verbis quod breviter quidem, sed tamen attentius 
+   <lb ed="#PL"/> pertractare debemus. Jesus quippe mulierem quae 
+   <lb ed="#PL"/> illum magistrum agnovit et appellavit, cum haec ei 
+   <lb ed="#PL"/> responderet, fidem docebat : et hortulanus ille in 
+   <lb ed="#PL"/> ejus corde, tanquam in horto suo granum sinapis 
+   <lb ed="#PL"/> seminabat. Quid est ergo,
+    <hi rend="italic">Noli me tangere?</hi> Et tan<lb ed="#PL" break="no"/>quam
+   hujus prohibitionis causa quxrerctur, adjunxit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">nondum enim ascendi ad Patrem</hi> meum. Quid est hoc? 
+   <lb ed="#PL"/> Si stans in terra non tangitur, sedens in caelo quo<lb ed="#PL" break="no"/>modo
+   ab hominibus tangeretur? Qui- certe antequam 
+   <lb ed="#PL"/> ascenderet, discipulis se tangendum obtulit dicens, 
+   <lb ed="#PL"/> sicut Lucas evangelista testatur, <hi rend="italic">Palpate, et videte, 
+   <lb ed="#PL"/> quia spiritus
+    carnem et ossa non habet, sicut me videtis 
+   <lb ed="#PL"/> habere (Luc.</hi> xxiv, 39): vel quando dixit discipulo Tho<lb ed="#PL" break="no"/>mae, <hi rend="italic">Infer digitum tuum huc, et vide
+    manus meas, et 
+   <lb ed="#PL"/> affer</hi> manum <hi rend="italic">tuam, et mitte in latus
+    meum.</hi> Quis autem 
+   <lb ed="#PL"/> tam sit absurdus, ut dicat eum a disci pulis quidem 
+   <lb ed="#PL"/> antequam ad Patrem ascendisset, voluisse se tangi; 
+   <lb ed="#PL"/> a mulieribus autem noluisse, nisi cum ascendisset ad 
+   <lb ed="#PL"/> Patrem ? Sed nec sic, qui vellet, desipere sineretur.
+   
+   <lb ed="#PL"/> Leguntur enim etiam feminae post resurrectionem 
+   <lb ed="#PL"/> antequam ad Patrem ascenderet, tetigisse Jesum, in 
+   <lb ed="#PL"/> quibus erat etiam ipsa Maria Magdalene, narrante
+   
+   <lb ed="#PL"/> Matthaeo quod occurrerit illis Jesus dicens, <hi rend="italic">Avete. Illae 
+   <lb ed="#PL"/>
+    autem accesserunt,</hi> inquit, et <hi rend="italic">tęnuerunt pedes ejus et
+   <lb ed="#PL"/>
+    adoraverunt eum (Matth.</hi> XXVIII, 9). Hoc a Joanne 
+   <lb ed="#PL"/> praetermissum est, sed a Matthaeo verum dictum. Re<lb ed="#PL" break="no"/>stat
+   ergo ut aliquod in his verbis lateat sacramentum ;
+   
+   <lb ed="#PL"/> quod sive inveniamus, sive invenire minime valea<lb ed="#PL" break="no"/>mus, inesse tamen nullo modo dubitare debemus. 
+   <lb ed="#PL"/> Aut ergo sic dictum est, <hi rend="italic">Noli me
+    tangere,</hi> nondum 
+   <lb ed="#PL"/>
+       <hi rend="italic">cnim ascendi ad Patrem</hi> meum, ut in illa femina figu<lb ed="#PL" break="no"/>raretur
+   Ecclesia de Gentibus, quae in Christum non 
+   <lb ed="#PL"/> credidit, nisi cum ascendisset ad Patrem : aut sic in 
+   <lb ed="#PL"/> se credi voluit Jesus, hoc est, sic se spiritualiter 
+   <lb ed="#PL"/> tangi, quod ipse et Pater unum sint. Ejus quippe in<lb ed="#PL" break="no"/>limis
+   sensibus quodammodo ascendit ad Patrem, qui 
+   <lb ed="#PL"/> sic in eo profecerit ut Patri agnoscat aequalem : aliter
+   
+   <lb ed="#PL"/> non recte tangitur, id est, aliter non recte in eum 
+   <lb ed="#PL"/> creditur. Poterat autem sic credere Maria, ut eum 
+   <lb ed="#PL"/> putaret imparem Patri, quod utique prohibetur cum 
+   <lb ed="#PL"/> ei dicitur, <hi rend="italic">Noli me tangere:</hi> id est, Noli in me sic 
+   <lb ed="#PL"/> credere, quemadmodum adhuc sapis; noli tuum sen<lb ed="#PL" break="no"/>sum
+   huc usque pertendere quod pro te factus sum, 
+   <lb ed="#PL"/> nec transire ad illud per quod facta es. Quomodo eniin 
+   <lb ed="#PL"/> non carnaliter adhuc in eum credebat, quem sicut 
+   <lb ed="#PL"/> hominem flebat? <hi rend="italic">Nondum enim ascendi,</hi> inquit, <hi rend="italic">ad
+   <lb ed="#PL"/> Patrem</hi> meum : ibi me tanges, quando me credideris 
+   <lb ed="#PL"/> Patri non imparem Deum. <hi rend="italic">Vade autem
+    ad fratres
+   <lb ed="#PL"/> meos, et die eis, Ascendo ad Patrem</hi> meuM <hi rend="italic">et
+    Patrem 
+   <lb ed="#PL"/> vestrum.</hi> Non ait, Patrem nostrum : aliter ergo meum, 
+   <lb ed="#PL"/> aliter vestrum; natura meum , gratia vestrum. <hi rend="italic">Et
+   <lb ed="#PL"/> Dium meum,</hi> et <hi rend="italic">Deum vestrum.</hi> Neque hic dixit, Deum 
+   <lb ed="#PL"/> nostrum: ergo et hic aliter meum, aliter vestrum; 
+   <lb ed="#PL"/> Deum meum sub quo et ego homo sum, Beom ve<lb ed="#PL" break="no"/>strum
+   inter quos et ipsum mediator sum.</p>
+      <p xml:id="iuy75t-d1e1031-d1e554">4. « Venit Maria Magdalene annuntians discipulis, 
+   <lb ed="#PL"/> Quia vidi Dominum, et haec dixit mihi. Cum esset 
+   <lb ed="#PL"/> ergo sero die illa nna sabbatorum, et fores essent 
+   <lb ed="#PL"/> clausae, ubi erant discipuli congregati propter metum 
+   <lb ed="#PL"/> Judaeorum , venit Jcsus , et stetit in medio, et dicit 
+   <lb ed="#PL"/> eis : Pax vobis. Et cnm hoc dixisset, ostendit eis 
+   <lb ed="#PL"/> manus et latns. v Clavi enim manus fixerant, lancea 
+   <lb ed="#PL"/> latus. ejus aperuerat: ubi ad dubitantium corda sa<lb ed="#PL" break="no"/>nanda, vulnerum sunt servata vestigia. Moli autem 
+   <lb ed="#PL"/> corporis ubi divinitas erat, ostia clausa non obstite<lb ed="#PL" break="no"/>runt. llle quippe non eis apertis intrare potuit, quo 
+   <lb ed="#PL"/> nascente virginitas matris inviolata permansit. <hi rend="italic">Cavisi 
+   <lb ed="#PL"/> sunt ergo discipuli, viso Domino. Dixit ergo eia iterum :
+    
+   <lb ed="#PL"/> Pax vobis.</hi> Iteratio confirmatio est; ipse quippe dat 
+   <lb ed="#PL"/> per prophetam promissam pacem super pacem <hi rend="italic">(Isai.</hi>
+   
+       <lb ed="#PL"/> xxvi, 3). <hi rend="italic">Sicut misit me Pater,</hi> inquit , <hi rend="italic">et ego mitto vos.</hi>
+   
+       <lb ed="#PL"/> jEqualem Patri Filium novimus, sed hic verba Mc<lb ed="#PL" break="no"/>diatoris
+   agnoscimus. Medium quippe se ostendit di<lb ed="#PL" break="no"/>eendo, Ille me, et ego vos. <hi rend="italic">Hoc cum</hi> dixisset, insuf­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">flavit, et dixit eis : Accipite</hi> Spiritum <hi rend="italic">sanctum.</hi> Insuf<lb ed="#PL" break="no"/>flando
+   significavit Spiritum sanctum non Patris solius
+   
+   <lb ed="#PL"/> esse Spiritum , sed et suum. <hi rend="italic">Quorum remiseritis,</hi> in<lb ed="#PL" break="no"/>quit,
+   <hi rend="italic">peccata, remittuntur eis; et quorum retinueritis, 
+   <lb ed="#PL"/> retenta
+    sunt.</hi> Ecclesiae charitas quae per Spiritum san<lb ed="#PL" break="no"/>ctum
+   diffunditur in cordibus nostris, participum suo<lb ed="#PL" break="no"/>rum
+   peccata dimittit : eorum autem qui non sunt
+   
+   <lb ed="#PL"/> ejus participes, tenet. Ideo posteaquam dixit, <hi rend="italic">Acci­</hi>
+   
+       <lb ed="#PL"/> pite <hi rend="italic">Spiritum sanctum;</hi> boc continuo de peccatorum 
+   <lb ed="#PL"/> remissione ac detentione subjecit.</p>
+      <p xml:id="iuy75t-d1e1031-d1e652">5. « Thomas autem unus ex duodecim, qui dicitur 
+   <lb ed="#PL"/> Didymus, non erat cum eis quando venit Jesus : Dixe<lb ed="#PL" break="no"/>runt
+   ergo ei alii discipuli : Vidimus Dominum. Ille 
+   <lb ed="#PL"/> autem dixit eis : Nisi videro in manibus ejus fixuram 
+   <lb ed="#PL"/> clavorum, et mittam digitum meum in locum clavo<lb ed="#PL" break="no"/>rum , et mittam manum meam in latus ejus, non cre. 
+   <lb ed="#PL"/> dam. Et post dies octo iterum erant discipuli ejus 
+   <lb ed="#PL"/> intus, et Thomas cum eis. Venit Jesus januis clausis, 
+   <lb ed="#PL"/>etstetit in medio, et dixit: Pax vobis. Deinde dicit 
+   <lb ed="#PL"/> Thomae : Infer digitum tuum huc, et vide manus 
+   <lb ed="#PL"/> meas, et affer manum tuam, et mitte In latus meum; 
+   <lb ed="#PL"/> et noli esse incredulus, sed fidelis. Respondit Thomas 
+   <lb ed="#PL"/> et dixit ei : Dominus meus et Deus meus. &gt; Videbat 
+   <lb ed="#PL"/> tangebatque hominem, et confitebatur Deum quem 
+   <lb ed="#PL"/> non videbat neque tangebat; sed per hoc quod vide<lb ed="#PL" break="no"/>bat
+   atque tangebat, illud jam remota dubitatione cre<lb ed="#PL" break="no"/>debat. <hi rend="italic">Dicit</hi> ei <hi rend="italic">Jesus : Quia vidisti me, credidisti.</hi> Non 
+   <lb ed="#PL"/> ait, tetigisti me; sed, <hi rend="italic">vidisti me:</hi> quoniam generalis 
+   <lb ed="#PL"/> quodammodo sensus est visus. Nam et pcr alios qua<lb ed="#PL" break="no"/>tuor
+   sensus nominari solet : velut cum dicimus, Audi 
+   <lb ed="#PL"/> et vide quam bene sonet, olfac et vide quam bene 
+   <lb ed="#PL"/> oleat , gusta et vide quam bene sapiat, tange et vido 
+   <lb ed="#PL"/> quam bene caleat. Ubique sonuit, Vide, cum visus 
+   <lb ed="#PL"/> proprie non negetur ad oculos pertinere. Undc et hic 
+   <lb ed="#PL"/> ipse Dominus, <hi rend="italic">Infer,</hi> inquit, <hi rend="italic">digitum tuum</hi> Aut, <hi rend="italic">et
+   <lb ed="#PL"/> vide manus meas :</hi> quid aliud ait quam, Tange et vide? 
+   <lb ed="#PL"/> Nec tamen oculos ille habebat in digito. Ergo sive 
+   <pb ed="#PL" n="1959"/>
+       <lb ed="#PL"/> intuendo. sive etiam tangendo, <hi rend="italic">Quia vidisti me,</hi> in<lb ed="#PL" break="no"/>quit, <hi rend="italic">creaiditli.</hi> Quamvis dici possit non ausum fuisse
+   
+   <lb ed="#PL"/> discipulum tangere, cum se offerret ille tangendum : 
+   <lb ed="#PL"/> non enim scriptum est, Et tetigit Thomas. Sed sive 
+   <lb ed="#PL"/> aspiciendo tantum, sive etiam tangendo viderit et
+   
+   <lb ed="#PL"/> crediderit, iliud quod sequitur, magis gentium fidem 
+   <lb ed="#PL"/> praedicat atque cotnmendat, <hi rend="italic">Beali qui non viderunt, 
+   <lb ed="#PL"/> et crediderunt.</hi> Praeteriti temporis usus est verbis, tan<lb ed="#PL" break="no"/>quam
+   ille qui quod erat futurum, in sua noverat prae<lb ed="#PL" break="no"/>destinatione
+   jam factuin. Sed jam sermo iste a pro<lb ed="#PL" break="no"/>lixitate
+   cohibendus est: donabit Dominus ut de his 
+   <lb ed="#PL"/> quae restant alias disputemus.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

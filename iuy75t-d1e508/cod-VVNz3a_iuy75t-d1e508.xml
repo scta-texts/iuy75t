@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 57</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 57</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e508"> <!-- iuy75t-t57 -->
+      <head xml:id="iuy75t-d1e508-Hd1e109">Tractatus 57</head>
+      <p xml:id="iuy75t-d1e508-d1e112">Quonam <hi rend="italic">modo Ecclesia timeat inquinare pedes, dum per<lb ed="#PL" break="no"/>git
+    ad</hi> Christum.</p>
+      <p xml:id="iuy75t-d1e508-d1e120">I. Non immemormei debiti, jam reddendi tempus 
+   <lb ed="#PL"/> agnosco. Donet unde reddam, qui donavit ut debeam. 
+   <lb ed="#PL"/> Donavit eniin dilectionem, de qua dictum est, <hi rend="italic">Nemini</hi>
+   
+       <lb ed="#PL"/> quidquam <hi rend="italic">debeatis,</hi> nisi ut invicem <hi rend="italic">diligatis (Rom.</hi> XIII, 
+   <lb ed="#PL"/> 8); donet etiam sermonem, quem video me debere 
+   <lb ed="#PL"/> dilectis. Exspectationem vestram ad hoc nempe distu<lb ed="#PL" break="no"/>leram, ut explicarem sicut possem, quemadmodum 
+   <lb ed="#PL"/> etiam per terram veniatur ad Christum; cum potius 
+   <lb ed="#PL"/> jubeamur quae sursum sunt quaerere, non quae tu<lb ed="#PL" break="no"/>per
+   terram <hi rend="italic">(Coloss.</hi> III, 1, 2). Sursum enim Christus 
+   <lb ed="#PL"/> est sedens ad dexteram Patris : sed profecto et hic est: 
+   <lb ed="#PL"/> propter quod et Saulo in terra saevienti dicit, <hi rend="italic">Quid 
+   <lb ed="#PL"/> me persequeris (Act.</hi> ix, 4)? Ut autem hoc quaerendum
+   
+   <lb ed="#PL"/> susciperemus, id tractabalar quod pedes Dominus di<lb ed="#PL" break="no"/>scipulis
+   lavit, cum jam ipsi discipuli ioti esseut, nee 
+   <lb ed="#PL"/> opus haberent, nisi pedes lavare. Ubi visum est intel<lb ed="#PL" break="no"/>ligendum
+   quod Baptismo quidem homo totus ablui<lb ed="#PL" break="no"/>tur; sed dum isto postea vivit in saeculo, humanis af<lb ed="#PL" break="no"/>fectibus
+   terram velut pedibus calcans, ipsa scilicet 
+   <lb ed="#PL"/> . conversatione vitae hujus, contrahit unde dicat, Di<lb ed="#PL" break="no"/>mitte <hi rend="italic">nobis debita nostra (Matih.</hi> VI, 12). Ac sic etiam 
+   <lb ed="#PL"/> inde mundatur ab eo qui pedes lavit discipulis suis 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Joan.</hi> XIII, 5), nec desinit interpellare pro nobis 
+   <lb ed="#PL"/>
+       <hi rend="italic">( Rom.</hi> VIII, 34). Hinc occurrerunt ex Cantico cantico<lb ed="#PL" break="no"/>rum
+   Ecclesiae verba dicentis, <hi rend="italic">Lam</hi> pedes <hi rend="italic">meos; quo­
+    
+   <lb ed="#PL"/> modo inquinabo</hi> eos ? cum vellet ire, et aperire ei qui 
+   <lb ed="#PL"/> venerat ad eam, et pulsaverat, sibique aperiri popo<lb ed="#PL" break="no"/>scerat, ille speciosus forma prae filiis hommum <hi rend="italic">(Psal.</hi>
+   
+       <lb ed="#PL"/> XI.IV, 3). Hinc quaestio nata est quam coarctare no<lb ed="#PL" break="no"/>luimus
+   angustiis temporis, ideoque distulimus, quo<lb ed="#PL" break="no"/>nam
+   modo Ecclesia timeat inquinare pedes, dum
+   
+   <lb ed="#PL"/> pergit ad Christum, quos baptismate laverat Christi.</p>
+      <p xml:id="iuy75t-d1e508-d1e224">i. Sic enim ait: &lt; Ego dormio, et cor meum viii.. 
+   <lb ed="#PL"/> lat; vox fratruelis mei pulsat ad januam » Deinde di<lb ed="#PL" break="no"/>cit
+   etiam ipse : « Aperi mihi, soror mea, proxima
+   
+   <lb ed="#PL"/> mea, columba mea, perfecta mea; quia caput meum 
+   <lb ed="#PL"/> repletum est rore, et crines met noctis guttis. » 
+   <lb ed="#PL"/> Et respondet illa : &lt; Exui me tunica mea; quomodo 
+   <lb ed="#PL"/> induam eam? Lavi pedes meos; quomodo inquinabo 
+   <lb ed="#PL"/> illos &gt; <hi rend="italic">(Cant.</hi> v, i, 3)? 0 admirabile sacramentum! 
+   <lb ed="#PL"/> o grande mysterium! Ergone timet inquinare pedes, 
+   <lb ed="#PL"/> veniendo ad eum qui lavit suorum discipulorum pe<lb ed="#PL" break="no"/>des
+   ? Timet certe, quia per terram venit ad cum, qui 
+   <lb ed="#PL"/> eUam in terra est, quia suos hie constitutos non de<lb ed="#PL" break="no"/>serit. An non ipse ait, <hi rend="italic">Ecce ego
+    vobiscum</hi> sum <hi rend="italic">usque
+   <lb ed="#PL"/> ad consummationem saecuti (Malth.</hi> XXVIII, 20) ? An nou 
+   <lb ed="#PL"/> ipse ait, <hi rend="italic">Videbitis caelos apertos, et
+    Angelos Dei ascen<lb ed="#PL" break="no"/>denles
+   et descendentes ad Filium hominis (Joan.</hi> I, 51) ?
+   
+   <lb ed="#PL"/> Si ascendunt ad eum propterea quia sursum est, quo<lb ed="#PL" break="no"/>modo
+   ad eum descendunt, si non etiam hic est ? Di<lb ed="#PL" break="no"/>cit
+   ergo Ecclesia : <hi rend="italic">Lavi pedes meos;
+    quomodo</hi> inqui­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">nabo</hi> eos ? In eis hoc dicit qui possunt omni faece mun<lb ed="#PL" break="no"/>dati
+   dicere : <hi rend="italic">Cupio dissolvi et esse cum</hi> Christo, <hi rend="italic">penna.. 
+   <lb ed="#PL"/> nere autem</hi> in <hi rend="italic">carne magis</hi> necessarium <hi rend="italic">propter vos 
+   <lb ed="#PL"/> (Philipp.</hi> I, 23 et 24)? In eis hoc dicit qui praedicant 
+   <lb ed="#PL"/> Christum et aperiunt illi ostium, ut habitet per fidem 
+   <lb ed="#PL"/> in cordibus hominum <hi rend="italic">(Ephes.</hi> III, 17). In his hoc dicit, 
+   <lb ed="#PL"/> cum deliberant utrum ministerium tale suscipiant, 
+   <lb ed="#PL"/> cui se minus idoneos existimant, ut sine culpa im<lb ed="#PL" break="no"/>pleant, ne forte aliis praedicantes, ipsi reprobi fiant 
+   <lb ed="#PL"/> (I
+    <hi rend="italic">Cor.</hi> IX, 27). Tutius enim veritas auditur quam prae<lb ed="#PL" break="no"/>dicatur
+   : quoniam cum auditur, humilitas custoditur; 
+   <lb ed="#PL"/> cum autem praedicatur, vix non subrepit cuivis ho<lb ed="#PL" break="no"/>minum
+   quantulacumque jactantia, in qua utique in- 
+   <lb ed="#PL"/> quinaDtur pedes. <pb ed="#PL" n="1791"/>
+      </p>
+      <p xml:id="iuy75t-d1e508-d1e336">5. Ergo, ut apostolus Jacobus dicit, <hi rend="italic">Sit omnis homo 
+   <lb ed="#PL"/> velox ad
+    audiendum , tardus autem ad loquendum (Ja<lb ed="#PL" break="no"/>cubi</hi> I, 19). Dicit et alius homo Dei, <hi rend="italic">Auditui meo da<lb ed="#PL" break="no"/>bia
+   gaudium et laetitiam, et exsultabunt
+    ossa humiliata 
+   <lb ed="#PL"/> (Psal.</hi> L, 10). Hoc est quod dixit Cum veritas auditur, 
+   <lb ed="#PL"/> humilitas custoditur. Dicit et alius, <hi rend="italic">Amicus autem
+   <lb ed="#PL"/> sponsi stat et
+    audit eum, et gaudio gaudet propter vocem 
+   <lb ed="#PL"/> sponsi (Joan.</hi> III, 29). Fruamur auditu, sine strepitu 
+   <lb ed="#PL"/> nobis loquente intrinsecus veritate. Quanquam etiam 
+   <lb ed="#PL"/> cum forinsecus insonat per legentem, per annuntian<lb ed="#PL" break="no"/>tem, per praedicantem, per disputantem, per praeci<lb ed="#PL" break="no"/>pientem, per consolantem, per exhortantem, per 
+   <lb ed="#PL"/> ipsum etiam cantantem atque psallentem ; ipsi qui 
+   <lb ed="#PL"/> haec agunt, inquinare pedes suos timeant, cum pla<lb ed="#PL" break="no"/>cere
+   hominibus subrepente amore humanae laudis af<lb ed="#PL" break="no"/>fectant.
+   Caeterum qui eos audit libenter et pie, non 
+   <lb ed="#PL"/> habet locum jactandi se in laboribus alienis; et non 
+   <lb ed="#PL"/> inflatis ossibus, sed humiliatis gaudio gaudet propter
+   
+   <lb ed="#PL"/> vocem dominicae veritatis. Proinde in eis qui libenter 
+   <lb ed="#PL"/> et humiliter audire noverunt, et vitam quiet;lm in 
+   <lb ed="#PL"/> studiis dulcibus et salubribus agunt, sancta delicietur 
+   <lb ed="#PL"/> Ecclesia, et dicat, <hi rend="italic">Ego</hi> dormio, <hi rend="italic">et cor</hi> meum <hi rend="italic">vigilat.</hi>
+   
+       <lb ed="#PL"/> Quid est, <hi rend="italic">Ego</hi> dormio, <hi rend="italic">et cor meum
+    vigilat;</hi> nisi, ila 
+   <lb ed="#PL"/> quiesco ut audiam? Otium meum non impenditur nu<lb ed="#PL" break="no"/>triendae
+   desidia, sed percipiendae sapienliae. <hi rend="italic">Ego dor­</hi>
+   
+       <lb ed="#PL"/> mio, <hi rend="italic">et cor meum vigilat</hi> : vaco, el vidco quoniam tu es
+   
+   <lb ed="#PL"/> Dominus <hi rend="italic">(Psal.</hi> XLV, 1 ) : quia <hi rend="italic">sapientia
+    scribae in tem<lb ed="#PL" break="no"/>pore
+   otii; et qui minoratur actu, ipse percipiet eam (Ec­
+   <lb ed="#PL"/>
+    cli.</hi> XXXVIII, 25). <hi rend="italic">Ego dormio, et cor meum vigilat:</hi>
+   
+       <lb ed="#PL"/> ego requiesco a negotiosis actibus, et animus meus 
+   <lb ed="#PL"/> divinis se intendit affectibus f.</p>
+      <p xml:id="iuy75t-d1e508-d1e443">4. Sed in iis qui isto modo suaviter et humiliter re<lb ed="#PL" break="no"/>quiescunt, dum otiose oblectatur Ecclesia, ecce pulsat 
+   <lb ed="#PL"/> ille qui ait : « Quae dico vobis in tenebris, dicite in lu<lb ed="#PL" break="no"/>mine; et quod in aure auditis, praedicate super tecta &gt; 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Matth.</hi> i, 27). VOl ergo ejus pulsat ad januam, et 
+   <lb ed="#PL"/> dicit: c Aperi mihi, soror mea, proxima mea, co<lb ed="#PL" break="no"/>lumba
+   mea, perfecta mea; quia caput meum repletum 
+   <lb ed="#PL"/> est rore, et crines mei noctis guttis. &gt; Velut si dice<lb ed="#PL" break="no"/>ret, Tu vacas, et contra me ostium clausum est 2: 
+   <lb ed="#PL"/> tii studes otio paucorum, et abundanle iniquitate re<lb ed="#PL" break="no"/>frigescit
+   charitas multorum <hi rend="italic">(Id.</hi> xxiv , 12). Nox 
+   <lb ed="#PL"/> quippe, iniquitas est: ros vero ejus et guttae, hi sunt 
+   <lb ed="#PL"/> qui refrigescunt et cadunt, et faciunt refrigescere ca<lb ed="#PL" break="no"/>put
+   Christi, hoc est, ut non ametur Deus. Caput enim 
+   <lb ed="#PL"/> Christi Deus (I <hi rend="italic">Cor.</hi> XI, 3). Sed portantur in crinibus, 
+   <lb ed="#PL"/> id est, in sacramentis visibilibus tolerantur: nequa<lb ed="#PL" break="no"/>quam
+   interiora sensus attingunt. Pulsat ergo ut excu<lb ed="#PL" break="no"/>liat
+   quictem sanctis otiosis, et clamat, <hi rend="italic">Aperi mihi,</hi> de 
+   <lb ed="#PL"/> sanguine meo <hi rend="italic">soror
+    meat</hi> de accessu meo <hi rend="italic">proxima 
+   <lb ed="#PL"/> mea,</hi> de spiritu meo <hi rend="italic">columba mea,</hi> de sermone meo 
+   <lb ed="#PL"/> quem plenius ex otio didicisti
+    <hi rend="italic">perfecta mea;</hi> aperi 
+   <lb ed="#PL"/> mihi, praedica me. Ad eos quippe qui clauserunt con<lb ed="#PL" break="no"/>tra
+   me, quomodo intrabo sine aperiente ? quomodo 
+   <lb ed="#PL"/> enim audient sine praedicante <hi rend="italic">(Rom.</hi> X, 14) ?</p>
+      <p xml:id="iuy75t-d1e508-d1e524">5. Hinc fit ut etiam hi qui amant otium studiorum 
+   <lb ed="#PL"/> bonorum, et nolunt perpeti laboriosarum molestias 
+   
+   <lb ed="#PL"/> actionum, eo quod minus idoneos ad bac ministranda, 
+   <lb ed="#PL"/>etsine reprehensione agenda se sentiunt; mallent, 
+   <lb ed="#PL"/> si fieri posset, sanctos apostolos et praedicatores ve<lb ed="#PL" break="no"/>ritatis
+   antiquos excitari adversus abundantiam ini<lb ed="#PL" break="no"/>quitatis, qua fervor friguit charitatis. Sed in eis qui 
+   <lb ed="#PL"/> jani de corpore exierunt, et carnis indumento exspo<lb ed="#PL" break="no"/>liati
+   sunt (neque enim ab ea separati sunt), respondet 
+   <lb ed="#PL"/> Ecclesia, <hi rend="italic">Exui me tunica mea; quomodo induam eam?</hi>
+   
+       <lb ed="#PL"/> Recipietur quidem illa tunica, et in eis qui jam exuti 
+   <lb ed="#PL"/> sunt, rursus vestietur carne Ecclesia : non tamen 
+   <lb ed="#PL"/> nunc quando fervefaciendi sunt frigidi, sed tunc 
+   <lb ed="#PL"/> quando resurrecturi sunt mortui. Passa ergo difiicul<lb ed="#PL" break="no"/>tatem
+   propter inopiam praedicatorum,etrecolens 
+   <lb ed="#PL"/> illa sua membra sana sermonibus, sancta moribus,
+   
+   <lb ed="#PL"/> sed jam exuta corporibus, ingemit et dicit Ecclesia, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Exui me tunica mea; quomodo induam eam?</hi> Membra 
+   <lb ed="#PL"/> illa mea quae Christo aperire evangelizando excellen<lb ed="#PL" break="no"/>tissime
+   potuerunt, quomodo ad corpora quibus cxuta 
+   <lb ed="#PL"/> sunt, red ire nunc possunt?</p>
+      <p xml:id="iuy75t-d1e508-d1e576">6. Deinde respiciens ad eos qui praedicare, et po<lb ed="#PL" break="no"/>pulos
+   acquirere ac regere, ac sic Christo aperire ut<lb ed="#PL" break="no"/>cumque
+   possunt, sed in his difficultatibus actionum 
+   <lb ed="#PL"/> peccare metuunt, <hi rend="italic">Lavit</hi> inquit, <hi rend="italic">pedes</hi> meos;
+    <hi rend="italic">quomodo
+   <lb ed="#PL"/> inquinabo illos?</hi> Quisquis enim in verbo non offendit, 
+   <lb ed="#PL"/> hic perfectus est vir. Et quis est perfectus? quis est 
+   <lb ed="#PL"/> qui non offendit in tanta abundanlia iniquitatis, tanto 
+   <lb ed="#PL"/> frigore charitatis? <hi rend="italic">Lavi pedes meos; quomodo</hi> inqui­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">nabo eoa</hi> ? Quandoquidem lego, et audio, <hi rend="italic">Nolite
+    multi 
+   <lb ed="#PL"/> magistri fient</hi> fratres, <hi rend="italic">quoniam majus judicium
+    sumilis: 
+   <lb ed="#PL"/> in multis enim offendimus omnes (Jacobi.</hi> III, 1, 2). <hi rend="italic">Lavi 
+   <lb ed="#PL"/> pedes meos; quomodo inquinabo</hi> eos ? Sed ecce surgo,
+   
+   <lb ed="#PL"/> et aperio. Christe, lava eos, <hi rend="italic">Dimitte nobis debita no­
+   <lb ed="#PL"/>
+    acra,</hi> quoniam non est exstincta charitas nostra : quia 
+   <lb ed="#PL"/>
+       <hi rend="italic">et noa dimittimus debitoribus nostris (Matth.</hi> vi, 12). 
+   <lb ed="#PL"/> Quando te audimus, exsultant tecum in coelestibus 
+   <lb ed="#PL"/> ossa humiliata <hi rend="italic">(Psal.</hi> L, 10). Sed quando te praedica<lb ed="#PL" break="no"/>mus, terram calcamus ut tibi aperiamus: et ideo si 
+   <lb ed="#PL"/> reprehendimur, perturbamur; si laudamur, inflamur. 
+   <lb ed="#PL"/> Lava pedes nostros ante mundatos, sedcum ad aperien<lb ed="#PL" break="no"/>dum
+   tibi per terram pergimus, inquinatos. Haec vobis 
+   <lb ed="#PL"/> hodie satis sint, dilectissimi. Si quid secus quam opor­
+   
+   <lb ed="#PL"/> tuit dicentes fortassis offendimus, vel laudibus vestris 
+   <lb ed="#PL"/> immoderatius quam oportuit elevati sumus; impe<lb ed="#PL" break="no"/>trate
+   mundationem pedibus nostris, Deo placentibus
+   
+   <lb ed="#PL"/> orationibus vestris.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 116</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 116</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e990"> <!-- iuy75t-t116 -->
+      <head xml:id="iuy75t-d1e990-Hd1e109">Tractatus 116</head>
+      <p xml:id="iuy75t-d1e990-d1e112">
+       <hi rend="italic">In</hi> id <hi rend="italic">quod sequitur,</hi> Tunc ergo a;prehendit Pilatus 
+   <lb ed="#PL"/> Jesum, et flagellavit; <hi rend="italic">usquead id,</hi> Susceperunt au<lb ed="#PL" break="no"/>tem
+   Jesurh, et eduxerunt. <hi rend="italic">Cap.</hi> xix, f . 1-16.</p>
+      <p xml:id="iuy75t-d1e990-d1e132">i. Cum Judxi clamassent, non Jesum sibi a Pilato 
+   <lb ed="#PL"/> dimitli velle per Pascha, sed Barabbam lalronem; 
+   <lb ed="#PL"/> non salvatorem, sed interfectorem ; non datorem 
+   <lb ed="#PL"/> vitas, sed ademptorem : <hi rend="italic">Tunc apprehendit Pilatus</hi> Je­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">sum, et</hi> flagellavit. Hoc Pilatus non ob aliud fecisse 
+   <lb ed="#PL"/> credendus est, nisi ut ejus injuriis Judxi satiati suf<lb ed="#PL" break="no"/>ficere
+   sibi existimarent, et usque ad ejus mortem 
+   <lb ed="#PL"/> saevire desisterent. Ad hoc pertinet quod idcm praeses 
+   <lb ed="#PL"/> cohortem suam etiam permisit faccre quae sequuntur; 
+   <lb ed="#PL"/> aut fortassis et jussit, quamvis hoc Evangelista ta<lb ed="#PL" break="no"/>cucrit. Dixit enim quid dciudc fecerint milites; Pila­
+   
+   <lb ed="#PL"/> tum LameD id jussisse non dixit. <hi rend="italic">Et milites,</hi> inquit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">plectentes coronam de spinis imposuerunt capiti ejus, et 
+   <lb ed="#PL"/> veste
+    purpurea circumdederunt eum. Et veniebant ad
+   <lb ed="#PL"/> eum et dicebant : Ave, rex
+    Judceorum. Et dabani ei</hi>
+   
+       <lb ed="#PL"/> alapas. Sic implebantur quae de se praedixerat Chri<lb ed="#PL" break="no"/>stus : sic martyres informabantur ad omnia quae per<lb ed="#PL" break="no"/>secutores
+   libuisset facere, perfercnda; sic paulisper 
+   <lb ed="#PL"/> occultata tremenda potentia, commendabatur prius 
+   <lb ed="#PL"/> imitanda patientia ; sic reguum quod de hoc mundo 
+   <lb ed="#PL"/> non crat, superbum mundum non atrocitate pugnandi, 
+   <lb ed="#PL"/> sed patiendi humilitate vincebat ; sic illud granum 
+   <lb ed="#PL"/> multiplicandum scminabatur horribili contumelia, ut 
+   <lb ed="#PL"/> mirabili pullularet in gloria.</p>
+      <p xml:id="iuy75t-d1e990-d1e197">2. <hi rend="italic">Exiit iterum Pilatus foras, et dicit eis : Ecce ad<lb ed="#PL" break="no"/>duco
+   eum
+    foras,</hi> ut <hi rend="italic">cognoscatis quia</hi> in <hi rend="italic">eo nullam
+    cau­</hi>
+   
+       <lb ed="#PL"/> sam invenio. <hi rend="italic">Exiit ergo Jesus portans spineam coronam</hi>
+   
+       <lb ed="#PL"/> es purpureum <hi rend="italic">vestimentum. Et dicit eia : Ecce homo.</hi>
+   
+       <lb ed="#PL"/> Hinc apparet nyn ignorante Pilato haec a militibus 
+   <lb ed="#PL"/> facta, sive jusseritea, sive permiserit; illa scilicet 
+   <lb ed="#PL"/> causa, quam supra diximus, ut haec ejus ludibria
+   
+   <lb ed="#PL"/> inimici libentissime biberent, et ulterius sanguinem 
+   <lb ed="#PL"/> non sitirent. Egreditur ad eos Jesus portans spinoam 
+   <lb ed="#PL"/> coronam et purpureum vestimentum, non clarus im­
+   
+   <lb ed="#PL"/> perio, sed plenus opprobrio; et dicitur eis, <hi rend="italic">Ecce
+   <lb ed="#PL"/> homo</hi>
+   : si regi invidclis, jam parcite, quia dejectum 
+   <lb ed="#PL"/> videtis; flagellatus est, spinis coronatus est, ludibriosa 
+   <lb ed="#PL"/> veste amictus est, amans conviciis illusus est, alapis
+   
+   <lb ed="#PL"/> cxsusest; fervet ignominia, frigescat invidia. Sed 
+   <lb ed="#PL"/> non frigescit, inardescit potius et increscit.</p>
+      <p xml:id="iuy75t-d1e990-d1e252">3. i Cum ergo vidissent eum pontifices et ministri, 
+   <lb ed="#PL"/> clamabant dicentes : Crucifige, crucifige eum. Dicit 
+   <lb ed="#PL"/> eis Pilatus : Accipite eum vos, et crucifigite; ego 
+   <lb ed="#PL"/> enim non invenio in eo causam. Responderunt ei Ju<lb ed="#PL" break="no"/>dici: Nos Legem habemus, et secundum Legem de<lb ed="#PL" break="no"/>beL
+   mori, quia Filium Dei se fecit. Ecce altera ma­
+   
+   <lb ed="#PL"/> jor invidia. Parva quippe illa videbatur, velut affe<lb ed="#PL" break="no"/>ctatae
+   illicito ausu, regiae potestatis : et tamen neutrum 
+   <lb ed="#PL"/> sibi Jesusmendacitcr usurpavit; sed utrumque verum 
+   <lb ed="#PL"/> est, et unigenitus est Dei Filius, et rex ab co consti<lb ed="#PL" break="no"/>tutus
+   super Sion montem sanctum ejus :etutrumque 
+   <lb ed="#PL"/> nunc demonstraretur, nisi quanto erat potentior, 
+   <lb ed="#PL"/> tanto mallet esse patientior.</p>
+      <p xml:id="iuy75t-d1e990-d1e281">4. <hi rend="italic">Cum ergo audisset Pilatus hoc verbum, magis 
+   <lb ed="#PL"/> timuit; et</hi> ingressus <hi rend="italic">eat praetorium iterum, et dicit ad 
+   <lb ed="#PL"/> Jesum: Unde es tu?
+    Jesus autem responsum</hi> non <hi rend="italic">dedit 
+   <lb ed="#PL"/> ei.</hi> Hoc silentium Domini nostri Jcsu Christi non se<lb ed="#PL" break="no"/>mel
+   factum, collatis omnium Evangelistarum narra<lb ed="#PL" break="no"/>tionibus
+   reperitur, et apud principes sacerdotum, et 
+   <lb ed="#PL"/> apud Herodem, quo eum, sicut Lucas indicat, miserat 
+   <lb ed="#PL"/> Pilatus audiendum, et apud ipsum Pilatum (
+    <hi rend="italic">Matth.</hi>
+   
+       <lb ed="#PL"/> xxvi, 63, XXVII, 14; Marc. xiv, 61, xv, 5; <hi rend="italic">Luc.</hi> XXIII,
+   
+   <lb ed="#PL"/> 7-9, <hi rend="italic">et Joan.</hi> xix, 9 ) : ut non frustra de illu prophetia
+   
+   <lb ed="#PL"/> praecesserit, <hi rend="italic">Sicut agnus coram tondente se fuit sinc
+   <lb ed="#PL"/> voce,
+    sic non aperuit</hi> os <hi rend="italic">suum (Isai.</hi> LIII, 7); tunc uti<lb ed="#PL" break="no"/>que
+   quando interrogantibus non respondit. Quamvis 
+   <lb ed="#PL"/> enim quibusdam interrogationibus saepe responderit; 
+   <lb ed="#PL"/> tamen propter illa in quibus noluit respondere, ad 
+   <lb ed="#PL"/> hoc data est de agno similitudo, ut in suo silentio 
+   <lb ed="#PL"/> non reus, sed innocens haberetur. Cnm ergo judica- 
+   <lb ed="#PL"/> retur, ubicumque non aperuit os suum, sicut agnus 
+   <lb ed="#PL"/> non aperuit; id est, non sicut male sibi conscius qui 
+   <lb ed="#PL"/> de peccatis convincebatur suis, sed sicut mansuetus 
+   <lb ed="#PL"/> qui pro peccatis immolabatur alienis.</p>
+      <p xml:id="iuy75t-d1e990-d1e352">5. <hi rend="italic">Dicit ergo ei Pilatus: Mihi non</hi> loqueris ? <hi rend="italic">Nescis 
+   <lb ed="#PL"/> quia potestatem habeo crucifigere te, et potestatem habeo
+   <lb ed="#PL"/> dimittere
+    te? Respondit Jesus: Non haberes adversum 
+   <lb ed="#PL"/> me</hi> potestatem <hi rend="italic">ultam, nisi tibi datum esset desuper : 
+   <lb ed="#PL"/> propterea-qui</hi> me <hi rend="italic">tradidit tibi,</hi> majus <hi rend="italic">peccatum habet.</hi>
+   
+       <lb ed="#PL"/> Ecce respondit, et tamen ubicumque non respondit, 
+   <lb ed="#PL"/> non sicut reus sive dolosus, sed sicut agnus, hoc est, 
+   <lb ed="#PL"/> sicut simplex atque innocens non aperuit os suum. 
+   <lb ed="#PL"/> Proinde ubi non respondebas, sicut ovis silebat ; uhi 
+   <lb ed="#PL"/> respondebat, sicut pastor docebat Discamus ergo 
+   <lb ed="#PL"/> quod dixit, quod et per Apostolurn docuit, quia non <hi rend="italic">est 
+   <lb ed="#PL"/> potestas nisi</hi> a <hi rend="italic">Deo (Rom.</hi> XIII, 4) ; et quia plus peccat 
+   <lb ed="#PL"/> qui potestati innocentem occidendum livore tradit, 
+   <pb ed="#PL" n="1943"/>
+       <lb ed="#PL"/> quam portatas ipsa si eum timore alterius majoris 
+   <lb ed="#PL"/> potestatis occidit. Talem quippe Pilato Deus dederat 
+   <lb ed="#PL"/> potestatem, ut etiam esset sub Caesaris potestate. 
+   <lb ed="#PL"/> Quaprop:cr <hi rend="italic">non haberes,</hi> inquit, <hi rend="italic">adversum</hi> nte <hi rend="italic">potesta<lb ed="#PL" break="no"/>tem
+   ullam,</hi> id est, quantulamcumque habes, <hi rend="italic">nisi</hi> hoc 
+   <lb ed="#PL"/> ipsum quidquid est,
+    <hi rend="italic">tibi esset datum desuper.</hi> Sed quo<lb ed="#PL" break="no"/>niam
+   scio quantum sit; non euim tantum est, ut tilK 
+   <lb ed="#PL"/> omni modo liberum sit : <hi rend="italic">propterea</hi> qui <hi rend="italic">tradidit nie 
+   <lb ed="#PL"/> tibi,</hi> majus <hi rend="italic">peccatum habet.</hi> Ille quippe me tuae pote<lb ed="#PL" break="no"/>stati
+   tradidit invidendo, tu vero camdem potestatem 
+   <lb ed="#PL"/> in me exsertarus cs naetucndo. Nec timendo qnidcm, 
+   <lb ed="#PL"/> praesertim innocentem , homo hominem debet occi<lb ed="#PL" break="no"/>dere : sed tamen id zelando facere multo magis Ina<lb ed="#PL" break="no"/>lum
+   cst, qnam liniendo. Et ideo non ait vcrax ma­
+   
+   <lb ed="#PL"/> gister, <hi rend="italic">Qui me tradidit tibi,</hi> ipse habet peccatum ; 
+   <lb ed="#PL"/> tanquam ille non haberet : sed ait, <hi rend="italic">majus habet pec­
+   <lb ed="#PL"/> catum ;</hi> ut etiam se habere intelligeret. Neque enim 
+   <lb ed="#PL"/> propterea illud nullum est, quia hoc majus cst.</p>
+      <p xml:id="iuy75t-d1e990-d1e474">6. <hi rend="italic">Exinde quaerebat Pilatus dimittere</hi> eum. Quid est 
+   <lb ed="#PL"/> hoc quod dictum est, <hi rend="italic">exinde,</hi> quasi antea non quaere<lb ed="#PL" break="no"/>bat? Loge supcriora, et invenics jamdudum eum quae<lb ed="#PL" break="no"/>rere
+   dimittere Jesum. <hi rend="italic">Exinde</hi> itaque intelligendum 
+   <lb ed="#PL"/> est, Propter hoc, id est, ex hac causa , ne haberet 
+   <lb ed="#PL"/> peccatum occidendo innocentem sibi traditum, quam<lb ed="#PL" break="no"/>vis
+   minus peccans quam Judaei, qui eum illi tradide<lb ed="#PL" break="no"/>rant
+   occidendum. <hi rend="italic">Exinde</hi> ergo, id est, ideo ne hoc 
+   <lb ed="#PL"/> peccatum faceret , non nunc primum, sed ab initio 
+   <lb ed="#PL"/>
+       <hi rend="italic">quaerebat eum dimittere.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e990-d1e512">7. <hi rend="italic">Judaei autem clamabant dicentes :</hi> Si <hi rend="italic">hunc</hi> dimit­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tis, non</hi> es <hi rend="italic">amicus Caesaris. Omnis enim qui</hi> se <hi rend="italic">regem 
+   <lb ed="#PL"/> facit, contradicit Caesari.</hi> Majorem timorem se inae<lb ed="#PL" break="no"/>rere
+   putaverunt Pilato, terrendo de Caesare, ut occi<lb ed="#PL" break="no"/>deret
+   Christum , quam supcrius ubi dixerunt, <hi rend="italic">No.
+   <lb ed="#PL"/> Legem habemus, et secundum Lcgem
+    debet mori, quia
+   <lb ed="#PL"/> Filium Dei se fecit.</hi> Eorum Legem quippe ille non ti<lb ed="#PL" break="no"/>muit,
+   ut occideret1 : sed magis Filium Dei timuit, ne 
+   <lb ed="#PL"/> occideret. Nunc vero non sic potuit contemnere Cre<lb ed="#PL" break="no"/>sarem
+   auctorem potestatis suae, quapmadmodum Le* 
+   <lb ed="#PL"/> gem gentis alienae.</p>
+      <p xml:id="iuy75t-d1e990-d1e555">8. Adhuc tamen Evangelista sequitur, et dicit : 
+   <lb ed="#PL"/>
+       <hi rend="italic">Pilatus autem cum audisset hos sermones, adduxit fo<lb ed="#PL" break="no"/>ras
+   Jesum ,
+    et sedit pro tribunali, in loco qui dicitur 
+   <lb ed="#PL"/> Lithostrotos, hebraice autem
+    Gabbatha. Erat autem 
+   <lb ed="#PL"/> parasceve Paschae, hora</hi> quasi <hi rend="italic">sexta.</hi> Qua hora sil Do<lb ed="#PL" break="no"/>minus
+   crucifixus, propter evangelistae alterius testi<lb ed="#PL" break="no"/>monium
+   qui dixit, <hi rend="italic">Erat autem</hi> hora <hi rend="italic">tertia, et crucifixerunt 
+   <lb ed="#PL"/> eum</hi> ( <hi rend="italic">Marc.</hi> xv, 25), quoniam magna disceptatio so<lb ed="#PL" break="no"/>let
+   oboriri; cum ad ipsum locum ubi crucifixus nar­
+   
+   <lb ed="#PL"/> ratur ventum fucrit, ut potuerimus, si Dominus vo<lb ed="#PL" break="no"/>luerit, disseremus (a). Cum ergo pro tribunali sedis<lb ed="#PL" break="no"/>set
+   Pilatus, <hi rend="italic">Dicit</hi> Judcvis :
+    <hi rend="italic">Ecce rex vester. Illi autem</hi>
+   
+       <lb ed="#PL"/> clamabant : <hi rend="italic">Tolle, tolle, crucifige eum. Dixit eia Pila­ 
+   <lb ed="#PL"/>
+    tus : Regem vestrum crucifigam?</hi> Adhuc terrorem 
+   <lb ed="#PL"/> quom do Caesare ingesserant, suprrare conatur, de 
+   <lb ed="#PL"/> ignominia eorum volens eos frangere dicendo, <hi rend="italic">Regem 
+   <lb ed="#PL"/> vestrum crucifigam ?</hi> quos de ignominia Chr isti miti­
+   
+   <lb ed="#PL"/> sare non potuit: sed timore mox vincitur. 
+   
+  </p>
+      <p xml:id="iuy75t-d1e990-d1e623">9. <hi rend="italic">Responderunt</hi> enim <hi rend="italic">pontifices : Non habemus
+    re­
+   <lb ed="#PL"/> gem nisi</hi> Caesarem. <hi rend="italic">Tunc ergo tradidit eis</hi> illum
+    <hi rend="italic">ut cru­
+   <lb ed="#PL"/> cifigeretur.</hi> Apertissime quippe contra Caesarem venire 
+   <lb ed="#PL"/> videretur, si regcm se non habere nisi Caesarem profi<lb ed="#PL" break="no"/>tentibus, alium regem vellet ingerere dimittendo 
+   <lb ed="#PL"/> impunitum, quem propter hos ausus ei tradiderant 
+   <lb ed="#PL"/> occidendum. <hi rend="italic">Tradidit ergo eia illum ut
+    crucifigeretur.</hi>
+   
+       <lb ed="#PL"/> Sed numquid aliud et ante cupicbat quando dicebat, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Accipite eum vos, et crucifigite;</hi> vel etiam superius, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Accipite eum</hi> vos, <hi rend="italic">et secundum Legem vestram
+    judicate</hi>
+   
+       <lb ed="#PL"/> eum ? Cur antem illi tantopere noluerunt, dicentes, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Nobis non licet interficere quemquam (Joan.</hi> XVIII, 31); 
+   <lb ed="#PL"/> et omni modo instantes, ut non ab cis, sed a praeside 
+   <lb ed="#PL"/> occideretur, et ideo eum occidendum accipere recu<lb ed="#PL" break="no"/>sautes, si nunc eum accipiunt occidendum? Aut si 
+   <lb ed="#PL"/> hoc non fit, cur dictum est, <hi rend="italic">Tunc ergo tradidit eis</hi> iI­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">lum ut crucifigeretur?</hi> An aliquid interest? Plane inter<lb ed="#PL" break="no"/>est.
+   Non est enim dictum, <hi rend="italic">Tunc ergo tradidit eia ilium</hi>
+   
+       <lb ed="#PL"/> ut crucifigerent eum; sed, <hi rend="italic">ut crucifigeretur,</hi> id est, ut
+   
+   <lb ed="#PL"/> judicio ac potestate praesidis crucifigeretur. Scd idea 
+   <lb ed="#PL"/> illis traditum dixit Evangolista, ut cos crimini impli<lb ed="#PL" break="no"/>catos, a quo alieni esse conabantur, ostenderet
+   : non 
+   <lb ed="#PL"/> enini faceret hoc Pilatus, nisi ut id quod cos cupere 
+   <lb ed="#PL"/> cernebat, impleret. Quod autem sequitur, Suscepe­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">runt autem</hi> Jesum, <hi rend="italic">et eduxerunt,</hi> potest ad milites jam 
+   <lb ed="#PL"/> referri apparitores praesidis. Nam postea evidentius 
+   <lb ed="#PL"/> dicitur, <hi rend="italic">Milites ergo</hi> cum <hi rend="italic">crucifixissent eum</hi> ( <hi rend="italic">Joan.</hi>
+   
+       <lb ed="#PL"/> xiv, 23) : quamvis evangi lista etiamsi totum Jud eis 
+   <lb ed="#PL"/> tribuit, merito facit
+   ; ipsi enim susceperunt quod avi<lb ed="#PL" break="no"/>dissime
+   flagitaverunt, et ipsi fecerunt quidquid ut 
+   <lb ed="#PL"/> fieret extorserunt. Sed hac sequentia alio sermone 
+   <lb ed="#PL"/> tractanda sunt.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

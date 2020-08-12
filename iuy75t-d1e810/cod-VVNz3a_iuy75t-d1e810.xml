@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 94</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 94</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e810"> <!-- iuy75t-t94 -->
+      <head xml:id="iuy75t-d1e810-Hd1e109">Tractatus 94</head>
+      <p xml:id="iuy75t-d1e810-d1e112">
+       <hi rend="italic">De eo quod dicit</hi> Jesus, Haec autem vobis ab initio non 
+   <lb ed="#PL"/> dici, quia vobiscum eram ; <hi rend="italic">usque ad id,</hi> Si autein 
+   <lb ed="#PL"/> abicro
+   ,mittam cum ad vos. <hi rend="italic">Cap.</hi> xvi, f . 5-7.</p>
+      <p xml:id="iuy75t-d1e810-d1e128">I. Cum Dominus Jesus praedixisset discipulis suns 
+   <lb ed="#PL"/> persecutiones quas passuri fuerant post ejus absces- 
+   <lb ed="#PL"/> Slim, subjunxit, atque ait : <hi rend="italic">Haec autem
+    vobis ab initio 
+   <lb ed="#PL"/> non dixi, quia</hi> vobiscum <hi rend="italic">eram : nunc</hi> autem <hi rend="italic">vado ad 
+   <lb ed="#PL"/> cum qui me</hi> misit. Ubi primum videndum cst, utrum 
+   <lb ed="#PL"/> cis futuras non praedixerit ante passioncs. Sed alii 
+   <lb ed="#PL"/> tres evangelistae satis cum praedixisse isti demon<lb ed="#PL" break="no"/>strant, antequam ventum esset ad coenam <hi rend="italic">(Matth.</hi>
+   
+       <lb ed="#PL"/> XXIV, 9; <hi rend="italic">Marc.</hi> xm, 9-13 , <hi rend="italic">et Luc.</hi> xxi, 12-17) : qua 
+   <lb ed="#PL"/> peracta secundum Joannem isia locutus est, ubi ait, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Haec autem vobis ab initio non dixi, quia vobiscum eran.</hi>
+   
+       <lb ed="#PL"/> An forte hinc ista solvitur quaestio, quia et illi cum 
+   <lb ed="#PL"/> narrant passioni proximum fuisse cum haec diceret? 
+   <lb ed="#PL"/> Non ergo ab initio quando cum illis erat, quia jam 
+   <lb ed="#PL"/> discessurus, jamque ad Patrem perrecturus haec 
+   <lb ed="#PL"/> dixit : et ideo etiam secundum illos evangelistas ve<lb ed="#PL" break="no"/>rum
+   est quod hic dictum est, H<hi rend="italic">wc
+    autem vobis ab ini<lb ed="#PL" break="no"/>tio
+   non</hi> dixi. Sed quid agimus de fide Evangelii se­
+   
+   <lb ed="#PL"/> cundum Matthaeum, qui haec cis a Domino non solum 
+   <lb ed="#PL"/> cnm jam esset Pascha cum discipulis coenaturus im<lb ed="#PL" break="no"/>minente
+   passione, verum et ab initio denuntiata esse
+   
+   <lb ed="#PL"/> commemorat, ubi primum nominatim duodccim ex<lb ed="#PL" break="no"/>primuntur
+   Apostoli, et ad opera divina mittuntur 
+   <lb ed="#PL"/>
+       <hi rend="italic">(MattA.</hi> x, 17)? Quid sibi ergo vult quod hicaii, <hi rend="italic">Hac
+   <lb ed="#PL"/> autem volis ab initio non dixi, quia vobiscum eram:</hi> nisi
+   
+   <lb ed="#PL"/> quia ea quae hic dicit de Spiritu sancto, quod sit ven<lb ed="#PL" break="no"/>turus
+   ad eos et testimonium perhibiturus, quando 
+   <lb ed="#PL"/> mala illa passuri sunt, haec ab milio eis non dixit, 
+   <lb ed="#PL"/> quia cum ipsis erat ?</p>
+      <p xml:id="iuy75t-d1e810-d1e222">t. Consolator ergo ille vel advocatus (utrumque 
+   <lb ed="#PL"/> enim interpretatur quod est graece paracletus), Chri<lb ed="#PL" break="no"/>sto
+   abscedente fuerat necessarius; et ideo de illo non 
+   <lb ed="#PL"/> dixerat ab initio quando cum illis crat, quia ejus prae<lb ed="#PL" break="no"/>sentia
+   consolabantur : abscessurus autem oportebat 
+   <lb ed="#PL"/> ut diceret illum esse venturum , per quem futurum
+   
+   <lb ed="#PL"/> erat ut charitate diffusa in cordibus suis verbum Dei 
+   <lb ed="#PL"/> cum fiducia praedicarent; et illo intrinsecus apud 
+   <lb ed="#PL"/> eos testimonium perhibente de Christo, ipsi quoque 
+   <lb ed="#PL"/> testimonium perhiberent; neque scandalizarentur cam 
+   <lb ed="#PL"/> inimici Judxi absque synagogis facerent eos, et inter<lb ed="#PL" break="no"/>ficerent
+   arbitrantes obsequium se praestare Deo : 
+   <lb ed="#PL"/> quoniam charitas omnia tolerat (1 <hi rend="italic">Cor.</hi> XIII, 7) , quaa 
+   <lb ed="#PL"/> diffundenda erat in cordibus eorum per Spiritus san- 
+   <lb ed="#PL"/> donum
+   (Rom. v, 5). Hinc ergo iste totus ducitur 
+   <lb ed="#PL"/> sensus, quia facturus eos erat martyres suos, id est 
+   <lb ed="#PL"/> testes suos per Spiritum sanctum; ut illo in cis ope<lb ed="#PL" break="no"/>rante, persecutionum quaecumque aspera tolerarent, 
+   <lb ed="#PL"/> nec frigescerent a charitate praedicandi, illo divino 
+   <lb ed="#PL"/> igne succensi. <hi rend="italic">Haec</hi> ergo, inquit,
+    <hi rend="italic">locutus sum vobis, ut</hi>
+   
+       <lb ed="#PL"/> cum <hi rend="italic">venerit hora corum,</hi> reminiscamini <hi rend="italic">quia ego dixi vo<lb ed="#PL" break="no"/>bia (Joan.</hi> xvi, 4). Haec scilicet locutus sum vobis,
+   
+   <lb ed="#PL"/> non tantum quia passuri estis ista; sed quia cum ve- 
+   <lb ed="#PL"/> ncrit paracletus ille, testimonium perhibebit de mev 
+   <lb ed="#PL"/> ne ista timendo taceatis, unde fiet ut atiam vos testi<lb ed="#PL" break="no"/>monium
+   perhibeatis. Haec <hi rend="italic">autem vobis ab</hi> initio nun 
+   <lb ed="#PL"/>
+       <hi rend="italic">dixi, quia vobiscum etam,</hi> et ego vos consolabar mea 
+   <lb ed="#PL"/> corporali presentia, exhibita humanis sensibus ve­ 
+   <pb ed="#PL" n="1869"/>
+       <lb ed="#PL"/> siris, quam parvuli capere poL ratis.</p>
+      <p xml:id="iuy75t-d1e810-d1e310">3. <hi rend="italic">Nunc autem vado ad eum</hi> qui <hi rend="italic">me misit:
+    et</hi> nemo, 
+   <lb ed="#PL"/> mquit, <hi rend="italic">ex vobis interrogat me, Quo</hi> vadis ? Significat sic 
+   <lb ed="#PL"/> se iturum ut nullus interrogaret, quod palam fieri visu 
+   <lb ed="#PL"/> corporis cernerent : nam superius interrogaverant 
+   <lb ed="#PL"/> eum quo esset iturns, et responderat eis se iturum quo 
+   <lb ed="#PL"/> ipsi tunc venire non possent <hi rend="italic">(Joan.</hi> XIII, 36). Nunc 
+   <lb ed="#PL"/> vero ita se promittit iturum , ut nullus eorum quo
+   
+   <lb ed="#PL"/> vadit interroget. Ntes enim suscepit cum quando 
+   <lb ed="#PL"/> ascendit ab cis; et euntem in caelum non verbis quas 
+   <lb ed="#PL"/> sieruut, sed oculis deduxerunt <hi rend="italic">(Act.</hi> i, 9-11).</p>
+      <p xml:id="iuy75t-d1e810-d1e348">4. <hi rend="italic">Sed quia haec locutus sum vobis,</hi> inquit, tristitia 
+   <lb ed="#PL"/>
+       <hi rend="italic">implevit cor vestrum.</hi> Videbat utique quid illa sua verba 
+   <lb ed="#PL"/> in eorum cordibus agerent: spiritualem quippe non<lb ed="#PL" break="no"/>dum
+   interius habentes consolationem, quam per Spi<lb ed="#PL" break="no"/>ritum
+   sanctum fuerant habituri, id quod exterius in
+   
+   <lb ed="#PL"/> Christo videbant, amittere metuebant; et quia se 
+   <lb ed="#PL"/> amissuros esse illum vera denuntiantem 1 dubitare 
+   <lb ed="#PL"/> non poterant, contristabatur humanus affectus, quia 
+   <lb ed="#PL"/> carnalis desolabatur aspectus. Noverat autem ille quid 
+   <lb ed="#PL"/> eis potius expediret, quia visus interior ipse est uti<lb ed="#PL" break="no"/>que
+   melior, quo eos consolaturus fuerat Spiritus san­
+   
+   <lb ed="#PL"/> ctus; non cernentium corporibus ingesturus corpus 
+   <lb ed="#PL"/> humanum, sed seipsum credentium pectoribus infu<lb ed="#PL" break="no"/>surns. Denique adjungit, <hi rend="italic">Sed ego
+    veritatem dico vobis, 
+   <lb ed="#PL"/> expedit</hi> vobis ut <hi rend="italic">ego vadam.</hi> Si
+    <hi rend="italic">enim non abiero, Para<lb ed="#PL" break="no"/>cletus
+   non veniet ad vos : si autem
+    abiero, mittam eum 
+   <lb ed="#PL"/> ad vos :</hi> tanquom diceret, Expedit vobis ut haec forma
+   
+   <lb ed="#PL"/> servi auferatur a vobis : caro quidem factum Verbum 
+   <lb ed="#PL"/> habito in vobis; sed nolo me carnaliter adhuc diliga<lb ed="#PL" break="no"/>tis, et isto lacte contenti semper infantes esse cupia<lb ed="#PL" break="no"/>tis. <hi rend="italic">Expedit vobis ut ego vadam, Si enim non abiero,
+    
+   <lb ed="#PL"/> Paracletus non veniet ad vos.</hi> Si alimenta tcnera quibus 
+   <lb ed="#PL"/> vos alui, non subtraxero, solidum cibum non esurie. 
+   <lb ed="#PL"/> tis; si carni carnalitcr haeseritis, capaces Spiritus non 
+   <lb ed="#PL"/> critis. Nam quid est, Si <hi rend="italic">non</hi> abiero, <hi rend="italic">Paracletus non 
+   <lb ed="#PL"/> veniet ad</hi> vos : <hi rend="italic">si autem
+    abiero, mittam eum ad vos?</hi>
+   
+       <lb ed="#PL"/> Numquid hic positus, eum non poterat mittere? Quis 
+   <lb ed="#PL"/> hoc dixerit ? Neque enim ubi ille erat, iste inde reces<lb ed="#PL" break="no"/>serat; et sic vencrat a Patre, ut non maneret in
+   
+   <lb ed="#PL"/> Patre. Postremo, quomodo eum etiam hic constitutus 
+   <lb ed="#PL"/> non poterat mittere, quem scimus super eum bapt:<lb ed="#PL" break="no"/>zatum venisse atque mansisse <hi rend="italic">(Joan.</hi> I, 32), imo vero 
+   <lb ed="#PL"/> a qno scimus eum nunquam separabilem fuisse ? Quid 
+   <lb ed="#PL"/> est ergo, <hi rend="italic">Si non abiero, Paracletus non veniet ad vos;</hi>
+   
+       <lb ed="#PL"/> nisi, non potestis capere Spiritum, quamdiu secundum 
+   <lb ed="#PL"/> carnem persistitis nosse Christum ? Unde ille qui jam 
+   <lb ed="#PL"/> acceperat Spiritum : <hi rend="italic">Etsi
+    noveramus,</hi> inquit, <hi rend="italic">secundum
+   <lb ed="#PL"/> carnem Christum , sed nunc jam
+    non novimus (II Cor.</hi>
+   
+       <lb ed="#PL"/> v, 16). Etiam ipsam quippe carnem Christi non se<lb ed="#PL" break="no"/>cundum
+   carnem novit, qui Verbum carnem factum 
+   <lb ed="#PL"/> spiritualiter novit. IIoc nimirum significare voluit ma­
+   
+   <lb ed="#PL"/> gister bonus dicendo, Si <hi rend="italic">enim non abiero, Paracletus 
+   <lb ed="#PL"/>
+    non</hi> veniet <hi rend="italic">ad vos :</hi> si <hi rend="italic">autem abiero,
+    mittam eum ad vos.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e810-d1e491">5. Christo autem discedente corporaliter, non so<lb ed="#PL" break="no"/>hun
+   Spiritus sanctus, sed et Pater et Filius illis adfuit 
+   <lb ed="#PL"/> spiritualiter. Nam gi ab eis sic abscessit Christus , ut 
+   <lb ed="#PL"/> pro illo, non cum illo in eis esset Spiritus sanctus; 
+   
+   <lb ed="#PL"/> ubiest ejus Promissio dicentis, <hi rend="italic">Ecce ego vobiscum tuM 
+   <lb ed="#PL"/>
+    utque</hi> in <hi rend="italic">consummationem saeculi (Matth.</hi> XXVIII, 20); et 
+   <lb ed="#PL"/>
+       <hi rend="italic">Veniemus ad eum</hi> ego et Pater, <hi rend="italic">et mansionem apud
+    eum
+   <lb ed="#PL"/> faciemus (Joan.</hi> xiv, 23): cum.et Spiritum sanctum 
+   <lb ed="#PL"/> ita se promiserit esse missurum, ut cum eis esset in 
+   <lb ed="#PL"/> aeternum? Ac per hoc cum ex carnalibus vel animali. 
+   <lb ed="#PL"/> bus essent spirituales futuri, profecto et Patrem et 
+   <lb ed="#PL"/> Filium et Spiritum sanctum capacius fuerant habituri. 
+   <lb ed="#PL"/> In nullo autem credendus est esse Pater sine Filio et
+   <lb ed="#PL"/> Spiritu sancto, aut Pater et Filius sine Spiritu sancto,
+   
+   <lb ed="#PL"/> aut Filius sine Patre et Spirito sancto, aut sine Patre 
+   <lb ed="#PL"/> et Filio Spiritus sanctus, ant Pater et Spiritus sanctus 
+   <lb ed="#PL"/> sine Filio : sed ubi eorum quilibet unus, ibi Trinitas 
+   <lb ed="#PL"/> Deus unas. Oportebat autem ita insinuari Trinitatem 
+   <lb ed="#PL"/> ut quamvis nulla esset diversitas substantiarum, sin. 
+   <lb ed="#PL"/> gillatim tamen commendaretur distiuctio persona<lb ed="#PL" break="no"/>rum; ubi eis qui recte intelligunt, nunquam videri 
+   <lb ed="#PL"/> potest separatio naturarum.</p>
+      <p xml:id="iuy75t-d1e810-d1e551">6. Quod autem seqnitur, <hi rend="italic">Et cum venerit ille, arguet 
+   <lb ed="#PL"/> mundum de
+    peccato, et de justitia, et de judicio : de 
+   <lb ed="#PL"/> peccato quidem, quia non credunt in
+    me; de justitia
+   <lb ed="#PL"/> vero, quia ad Patrem vado, et jam non videbitis</hi> me; <hi rend="italic">de 
+   <lb ed="#PL"/> judicio autem, quia princeps hujus mundi judicatus est 
+   <lb ed="#PL"/>
+    (Id.</hi> xvi, 8-11) : tanquam solum sit peccatum non 
+   <lb ed="#PL"/> credere in Christum, et tanquamipsa sit justitia non 
+   <lb ed="#PL"/> videre Christum, et tanquam ipsum sit judicium quod
+   
+   <lb ed="#PL"/> princeps hujus mundi, hoc est diabolus judicatus est: 
+   <lb ed="#PL"/> valde latebrosum est, nec isto sermone coarctandum 
+   <lb ed="#PL"/> ne fiat obscurius brevitate; aed alio potius quantum
+   
+   <lb ed="#PL"/> Dominus adjuverit explicandum.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

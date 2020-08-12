@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 123</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 123</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e1047"> <!-- iuy75t-t123 -->
+      <head xml:id="iuy75t-d1e1047-Hd1e109">Tractatus 123</head>
+      <p xml:id="iuy75t-d1e1047-d1e112">
+       <hi rend="italic">De eo quod dicit Jesus,</hi> Venite, prandete; <hi rend="italic">usque ad id,</hi>
+   
+       <lb ed="#PL"/> Hoc autem dixit, significans qua morte clarificatu<lb ed="#PL" break="no"/>rus
+   esset Deum. <hi rend="italic">Cap.</hi> xxi, } . 42-19.</p>
+      <p xml:id="iuy75t-d1e1047-d1e128">i. 1n co quod tertio Dominus post resurrectionem 
+   <lb ed="#PL"/> manifestavit se discipulis suis, beati Joannis apostoli 
+   <lb ed="#PL"/> Evangelium terminatur : in quo jam pertractavimus, 
+   <lb ed="#PL"/> ut valuimus, partem priorcm, usqUe ad cum locum 
+   <lb ed="#PL"/> ubi narratum est captos fuissc pisces centum quin<lb ed="#PL" break="no"/>quaginta
+   tres a discipulis quibus se demonstravit, et 
+   <lb ed="#PL"/> cum magni essent, retia non esse disrupta, Dciudc 
+   <lb ed="#PL"/> quae sequuntur consideranda sunt, et quantum adju<lb ed="#PL" break="no"/>vat
+   Dominus, sicut res postulare vidcbitur, disseren<lb ed="#PL" break="no"/>da. Pcracla quippe illa piscatione, <hi rend="italic">Dicit eis Jesus :
+   <lb ed="#PL"/> Venite,</hi> prandete. <hi rend="italic">Et ncmo audebat</hi> discumbentium <hi rend="italic">inter­
+   <lb ed="#PL"/> rogare cum, Tu quis es ? scientes quia Dominus est.</hi> Si ergo 
+   <lb ed="#PL"/> sciebant, quid opus erat ut iuterrogarent? si autem non 
+   <lb ed="#PL"/> opus crat, quare dictum est, <hi rend="italic">non audebant;</hi> quasi opur 
+   <lb ed="#PL"/> esset, sed timore aliquo non auderent? Sensus ergo hic 
+   <lb ed="#PL"/> est: tanta erat evidentia vcritatis, qua Jesus illis disci<lb ed="#PL" break="no"/>palis
+   apparcbat, ut corum non solum negare, sed nec 
+   <lb ed="#PL"/> dubitare quidem ullus auderet; quoniam si quisquam 
+   <lb ed="#PL"/> dubitaret, utique interrogare deberet. Sic ergo dictum 
+   <lb ed="#PL"/> cst, <hi rend="italic">Nemo audebat</hi> eum <hi rend="italic">interrogare,
+    Tu quis es</hi> ? ac si 
+   <lb ed="#PL"/> diceretur, Nemo audebat dubitare quod ipse esset.</p>
+      <p xml:id="iuy75t-d1e1047-d1e193">i. Et <hi rend="italic">venit Jesu:, et accipit panem, et dat cis, et</hi> pi<lb ed="#PL" break="no"/>scem
+   <hi rend="italic">similiter.</hi> Ecce dictum est etiam quid pranderent: 
+   <lb ed="#PL"/> de quo prandio aliquid suave ac salubre dicemuset
+   <lb ed="#PL"/> nos, si pascat et nos. Superius narratum est quod isti 
+   <lb ed="#PL"/> discipuli, quando descenderunt In terram, <hi rend="italic">viderunt 
+   <lb ed="#PL"/> prunas positas, et piscem superpositum, et</hi> panem. Ubi 
+   <lb ed="#PL"/> non est intelligendum etiam superpositum panem 
+   <lb ed="#PL"/> fuisse prunis, sed tantum subaudiendum, Viderunt. 
+   <lb ed="#PL"/> Quod verbum si repetamus eo loco ubi snbaudienduln 
+   <lb ed="#PL"/> est, ita totum dici potest: Viderunt prunas positas, 
+   <lb ed="#PL"/> et piscem superpositum, et panem viderunt. Vel iia . 
+   <lb ed="#PL"/> potius : Viderunt prunas positas, et piscem superpo<lb ed="#PL" break="no"/>situm, vi derunt et panem. Jubente etiam Domino at<lb ed="#PL" break="no"/>. tulerunt et de piscibus quos ips ceperant: quod eos 
+   <lb ed="#PL"/> fecisse quamvis a narrante non esset expressum, 
+   <lb ed="#PL"/> tamen Dominum jussisse non tacitum est. Ait enin : 
+   <lb ed="#PL"/>
+       <hi rend="italic">Afferte de piscibus quos apprehendistis</hi> nunc <hi rend="italic">(Joan.</hi> XXI 
+   <lb ed="#PL"/> 9, 10). Et utique jubente illo eos non fecisse quis cre<lb ed="#PL" break="no"/>dal
+   ? Hinc ergo fecit prandium Dominus illis septem 
+   <lb ed="#PL"/> discipulis suis, de pisce scilicet quem prunis superpo<lb ed="#PL" break="no"/>situm
+   viderant, huic adjungens ex illis quos ceperant, 
+   <lb ed="#PL"/> et de pane quem nihilominus eos vidisse narratum 
+   <lb ed="#PL"/> est. Piscis assus, Christus est passus. Ipse est et panis 
+   <lb ed="#PL"/> qui decoelo descendit (Id, vi, 41). Huic incorporatur 
+   <lb ed="#PL"/> Ecclesia ad participandam beatitudinem sempiternam. 
+   <lb ed="#PL"/> Propter quod dUctum cst, <hi rend="italic">Afferte de piscibus quos ap­
+   <lb ed="#PL"/>
+    prehendistis nunc;</hi> ut omnes qui hanc spem gerimus, 
+   <lb ed="#PL"/> per illum septenarium numerum discipulorum, per 
+   <lb ed="#PL"/> quem potest hoc loco nostra universitas intelligi figu­
+   
+   <lb ed="#PL"/> rata, tanto Sacramento nos communicare nossemus, 
+   <lb ed="#PL"/> et eidein beatitudini sociari. Hoc Domini prandium 
+   <lb ed="#PL"/> est cum discipulis suis, ad quod Joannes Evangelium
+   
+   <lb ed="#PL"/> suum, cumhaberetdeChristo alia multa quae dicerct, 
+   <lb ed="#PL"/> magua, ut existimo, et rerum magnarum contempla<lb ed="#PL" break="no"/>tione
+   concludit. Hic enim Ecclesia qualis in solis bu­
+   
+   <lb ed="#PL"/> nis futura est, significatur per capturam centum 
+   <lb ed="#PL"/> quinquaginta trium piscium; et eis qui haec cre<lb ed="#PL" break="no"/>dunt, sperant, diligunt, participatio tantae beatitu<lb ed="#PL" break="no"/>dinis
+   pcr hoc prandium demonstratur.</p>
+      <p xml:id="iuy75t-d1e1047-d1e298">3. <hi rend="italic">Hoc jam tertio,</hi> inquit, <hi rend="italic">manifestatus eit
+    Jesus 
+   <lb ed="#PL"/> discipulis</hi> suis, <hi rend="italic">cum resurrexisset a mortuis.</hi> Quod non 
+   <lb ed="#PL"/> ad ipsas demonstrationes, sed ad dies referre debe<lb ed="#PL" break="no"/>mus (id est primo die, cum surrexit; et post dies 
+   <lb ed="#PL"/> octo, quando discipulus Thomas vidit et credidit, et 
+   <lb ed="#PL"/> hodie quando hoc de piscibus fecit; post quot autem 
+   <lb ed="#PL"/> dies id fecerit, dictum non est) : nam ipso primo die 
+   <lb ed="#PL"/> non scmel visus est, sicut, Evangelistarum omnium 
+   <lb ed="#PL"/> destimonia collata demonstrant : sed, sicut dictum 
+   <lb ed="#PL"/> est, secundum dies numerandx sunt manifestationes 
+   <lb ed="#PL"/> ejus, ut ista sit tertia; prima quippe habenda sit 1, 
+   <lb ed="#PL"/> eademque una propter unum diem, quotiescumque se 
+   <lb ed="#PL"/> et quibuscumque, die illo quo resurrexit, ostendit; 
+   <lb ed="#PL"/> secunda post dies octo, et haec tertia, et deinde quo<lb ed="#PL" break="no"/>lies
+   voluit usque ad diem quadragesimum, quo ascen-' 
+   <lb ed="#PL"/> dit in coclum, quamvis non scripta sint omnia.</p>
+      <p xml:id="iuy75t-d1e1047-d1e342">4. c Cum ergo prandissent, dicit Simoni Petro . 
+   <lb ed="#PL"/> Simon Joannis, diligis me plus his? Dicit ei : Etiam, 
+   <lb ed="#PL"/> Domine, tu scis quia amo te. Dicit ci : Pasce agno; 
+   <lb ed="#PL"/> mcos. Dicit ci itcrum : Simon Joannis, diligis me ? 
+   <lb ed="#PL"/> Ait illi : Etiam, Domine, tu scis quia amo te. Dicit 
+   <lb ed="#PL"/> ei : Pasce agnos meos. Dicit ei tertio : Simon Joan<lb ed="#PL" break="no"/>nis,
+   amas me? Constristatus est Petrus, quia dixit ei 
+   <lb ed="#PL"/> tertio, Amas me? et dicit ei
+   : Dominic, tu omnia scis, 
+   
+   <lb ed="#PL"/> » 
+   <pb ed="#PL" n="1967"/>
+       <lb ed="#PL"/> tu scis qnia amo te. Dicit ei : Pasce oves meas. 
+   <lb ed="#PL"/> Amen, amen dlco libi; cum esses junior, cingebas te, 
+   <lb ed="#PL"/>etambulabas ubi volebas : cum autem senueris, ex<lb ed="#PL" break="no"/>tentos
+   manus tuas, et alius te cinget, et ducet quo tu 
+   <lb ed="#PL"/> non vis. Hoc autem dixit, significans qua morte clarifi<lb ed="#PL" break="no"/>caturus
+   esset Dcum. i Hunc invenit exitum ille ncgator, 
+   <lb ed="#PL"/> et amator; praesumendo elatus, negando prostratus,
+   
+   <lb ed="#PL"/> flendo purgatus, confitendo probatus, patiendo coro<lb ed="#PL" break="no"/>natus : hunc invenit exitum, ut pro ejus nomine per- 
+   <lb ed="#PL"/> recta dilectine moreretur, cum quo se moriturum
+   
+   <lb ed="#PL"/> perversa festinatione promiserat. Faciat ejus resur<lb ed="#PL" break="no"/>rectione
+   firmatus, quod immature pollicebatur inlir<lb ed="#PL" break="no"/>mus. Hoc enim oportebat, ut prius Christus pro 
+   <lb ed="#PL"/> Petri salute, deinde Petrus pro Christi praEdicatione 
+   <lb ed="#PL"/> moreretur. Praeposterum fuit quod audere coeperat 
+   <lb ed="#PL"/> humana temeritas, cum istum disposuisset ordinem 
+   <lb ed="#PL"/> veritas. Animam suam se positurum pro Christo Pe<lb ed="#PL" break="no"/>trus
+   putabat <hi rend="italic">(Joan.</hi> XIII, 57), pro liberatore liberan<lb ed="#PL" break="no"/>dus; cum Christus venisset animam suam positurus 
+   <lb ed="#PL"/> pro suis omnibus 1, in quibus erat et Petrus ; quod 
+   <lb ed="#PL"/> ecce jam factum est. Nunc jam firmitas cordis ad 
+   <lb ed="#PL"/> suscipiendam mortem pro nomine Domini vera ipso 
+   <lb ed="#PL"/> donante sumatur, non falsa nobis errantibus praesu<lb ed="#PL" break="no"/>matur. Nunc est ut vitae hujus non metuamus inter<lb ed="#PL" break="no"/>itum; quia resurgente Domino vitae alterius praecessit 
+   <lb ed="#PL"/> exemplum. Nunc est, Petre, ut mortem non timeas; 
+   <lb ed="#PL"/> quia vivit quem mortuum dolebas, et quem pro nobis 
+   <lb ed="#PL"/> mori carnali amore prohibebas <hi rend="italic">(Mauh.</hi> XVI, 21,22). 
+   <lb ed="#PL"/> Ausus es praevenire ductorem, formidasti ejus porse<lb ed="#PL" break="no"/>cutorem : jam pretio pro te fuso, nunc est ut scquaris 
+   <lb ed="#PL"/> emptorem, et sequaris omnino usque ad mortem 
+   <lb ed="#PL"/> crucis. Verba ejus audisti, quem jam veracem pro<lb ed="#PL" break="no"/>basti; passurum te ipse praedixit, qui te praedixerat 
+   <lb ed="#PL"/> negaturum.</p>
+      <p xml:id="iuy75t-d1e1047-d1e444">5. Sed prius Dominus quod sciebat interrogat, nee 
+   <lb ed="#PL"/> semel, sed iterum ac tertio, utrum Petrus eum dili<lb ed="#PL" break="no"/>gat ; nec aliud toties audit a Petro, quam se diligi; 
+   <lb ed="#PL"/> nec aliud toties commendat Petro, quam suas oves 
+   <lb ed="#PL"/> pasci. Redditur negationi trinae trina confessio, ne 
+   <lb ed="#PL"/> minus <unclear>amori</unclear> lingua serviat quam timori, et plus vocis 
+   <lb ed="#PL"/> elicuisse videatur mors imminens, quam vita praesens. 
+   <lb ed="#PL"/> Sit amoris oflicium, pascere dominicum gregem ; si 
+   <lb ed="#PL"/> fuil timoris indicium, negare pastorem. Qui hoc animo 
+   <lb ed="#PL"/> pascunt oves Christi, ut suas velint esse non Christi, 
+   <lb ed="#PL"/> se convincuntur amare, non Christum ; vel gloriandi, 
+   <lb ed="#PL"/> vel dominandi, vcl acquirendi cupiditate, non obe<lb ed="#PL" break="no"/>diendi
+   et subveniendi eLDeo placendi charitate. Con-, 
+   <lb ed="#PL"/> tra hos ergo vigilat toties inculcata ista vox Christi, 
+   <lb ed="#PL"/> quos Apostolus genuit sua quaerere, non quae Jesu 
+   <lb ed="#PL"/> Christi <hi rend="italic">(Philipp.</hi> 11, 21). Nam quid est aliud, <hi rend="italic">Diligis
+   <lb ed="#PL"/> me? pasce oves meas,</hi> quam si dicerclur, Si me dil gis, 
+   <lb ed="#PL"/> non te pascere cogita : sed ovcs ntcas, sicut meas 
+   <lb ed="#PL"/> pasce, non sicut tuas; gloriam mcam in cis qu;crc, 
+   <lb ed="#PL"/> non tuam; dominium meum, non tuum; lucra ntca, 
+   <lb ed="#PL"/> non tua; ne sis in eorum societate qui pertinent ad 
+   <lb ed="#PL"/> tempora periculosa, seipsos amantes, et caetera quoe 
+   <lb ed="#PL"/> huic nialorum initio connectuntur? Cum enim dixisset 
+   <lb ed="#PL"/> Apostolus, I Erunt enim homines seipsos amantes; » 
+   
+   <lb ed="#PL"/> v secutus adjunxit, &lt; Amatores pecuniae, elati, superbi, 
+   <lb ed="#PL"/> blasphemi, parentibus non obedientes, ingrati, sce<lb ed="#PL" break="no"/>lesti, irreligiosi, sine affectione, detractores, inconti<lb ed="#PL" break="no"/>nentes, immites, sine benignitate, proditores, pro<lb ed="#PL" break="no"/>caces,
+   caecati, voluptatum amatores magis quam Dei ; 
+   <lb ed="#PL"/> habentes speciem pietatis, virtutcm autem ejus abne<lb ed="#PL" break="no"/>gantes » (II <hi rend="italic">Tim.</hi> III, 1-5). Haec omnia mala ab eo velut 
+   <lb ed="#PL"/> fonte manant, quod primum posuit, <hi rend="italic">seipsos
+    amantes.</hi>
+   
+       <lb ed="#PL"/> Merito dicitur Petro, <hi rend="italic">Diligis me?</hi> et respondet, <hi rend="italic">Amo te;</hi>
+   
+       <lb ed="#PL"/> eique refertur, <hi rend="italic">Pasce agnos meos</hi> : et hoc iterum, hoc 
+   <lb ed="#PL"/> tertio. Ubi etiam demonstratur unum atque idem esse 
+   <lb ed="#PL"/> amorem et dilectionem : nam etiam Dominus novis<lb ed="#PL" break="no"/>sime
+   non ait, <hi rend="italic">Diligis me;</hi> sed, <hi rend="italic">Amas</hi> me? Non ergo 
+   <lb ed="#PL"/> nos, sed ipsum amemus; et in pascendis ovibus ejus 
+   <lb ed="#PL"/> ea quae sunt cjus, non ea quae sunt nostra quaeramus. 
+   <lb ed="#PL"/> Nescio quo enim inexplicabili modo, quisquis scipsum, 
+   <lb ed="#PL"/> non Deum amat, non se amat; et quisquis Deum, nou 
+   <lb ed="#PL"/> seipsumamal, ipse se amat. Qui enim non potestvivere 
+   <lb ed="#PL"/> de set moritur utique amando se : non ergo se amat, 
+   <lb ed="#PL"/> qui ne vivat se amat. Cum vcro ille diligitur de quo 
+   <lb ed="#PL"/> vivitur, non se diligendo magis diligit, qui propterea 
+   <lb ed="#PL"/> non se diligit, ut eun diligat de quo vivit. Non siut 
+   <lb ed="#PL"/> ergo <hi rend="italic">seipsos
+    amantes</hi> qui pascunt oves Christi, ne tan<lb ed="#PL" break="no"/>quam
+   snas, SCII tanquam ipsius eas pascant; et velint 
+   <lb ed="#PL"/> ex illis sua lucra conquirere, sicut <hi rend="italic">amatores pecuniae ;</hi>
+   
+       <lb ed="#PL"/> vel cis dominari, sicut <hi rend="italic">elati;</hi> vel gloriari de honori­
+   
+   <lb ed="#PL"/> bus quos ab eis sumunt, sicut <hi rend="italic">superbi;</hi> vel in tantum 
+   <lb ed="#PL"/> progredi ut etiam haereses faciant, sicut <hi rend="italic">blasphemi:</hi>
+   
+       <lb ed="#PL"/> nec cedant sanctis patribus, sicut <hi rend="italic">parentibus non obe­ 
+   <lb ed="#PL"/>
+    dientes;</hi> et cis qui illos corrigere volunt quia perire 
+   <lb ed="#PL"/> nolunt, mala pro bonis reddant, sicut <hi rend="italic">ingrati:</hi> inter<lb ed="#PL" break="no"/>ficiant
+   animas et suas et alienas, sicut <hi rend="italic">scelesti;</hi> ma<lb ed="#PL" break="no"/>terna
+   Ecclesiae viscera dissipent, sicut <hi rend="italic">irreligiosi;</hi> non 
+   <lb ed="#PL"/> compatiantur infirmis, sicut <hi rend="italic">sine affectione;</hi> famam 
+   <lb ed="#PL"/> sanctorum maculare conentur, sicut <hi rend="italic">detractores;</hi> cupi<lb ed="#PL" break="no"/>ditates
+   pessimas n&gt;n refrenent, sicut <hi rend="italic">incontinentes;</hi>
+   
+       <lb ed="#PL"/> exerceant lites, sicut immites; nesciant subvenire, 
+   <lb ed="#PL"/> sicut <hi rend="italic">sine benignitate;</hi> indicent inimicis piorum quae 
+   <lb ed="#PL"/> occultanda cognoverint, sicut <hi rend="italic">proditores;</hi> humanam 
+   <lb ed="#PL"/> verecundiam inverecunda exagitatione perturbent, 
+   <lb ed="#PL"/> sicut <hi rend="italic">procaces</hi> ; non intelligant neque quae loquuntur, 
+   <lb ed="#PL"/> neque de quibus affirmant (I <hi rend="italic">Tin.</hi> I, 7), sicut caecati; 
+   <lb ed="#PL"/> laetitias carnales spiritualibus gaudiis anteponant, sic 
+   <lb ed="#PL"/> ut
+    <hi rend="italic">voluptatum amatores magis quam Dei.</hi> Haec eniti 
+   <lb ed="#PL"/> atque hujusmodi vilia, sive uni homini accidant om<lb ed="#PL" break="no"/>nia, sive his alia, illis alia dominentur, ex illa radice 
+   <lb ed="#PL"/> quodammodo pullulant, cum sunt homines <hi rend="italic">seipsos
+   <lb ed="#PL"/> amantes.</hi> Quod vitium maxime cavendum est eis qui 
+   <lb ed="#PL"/> pascunt oves Christi, ne sua quaerant, non quae Jesu 
+   <lb ed="#PL"/> Christi;etin usus cupiditatum suarum conferant, 
+   <lb ed="#PL"/> pro quibus sanguis fusus est Christi. Cujus amor in 
+   <lb ed="#PL"/> co qui pascit oves ejus, in tam magnum debet spiri<lb ed="#PL" break="no"/>tualem
+   crescere ardorem, tit vincat etiam mortis natu<lb ed="#PL" break="no"/>ralem
+   timorem, quo mori nolumus, et quando cum 
+   <lb ed="#PL"/> Christo vivere volumus. Nam et apostolus Paulus 
+   <lb ed="#PL"/> dicit sc habere concupiscentiam dissolvi et esse cum 
+   <lb ed="#PL"/> Christo <hi rend="italic">(Philipp,</hi> 1, 23) : ingemiscit tamen gravatus, 
+   <lb ed="#PL"/> et non vult exspoliari, sed supervestiri, ut ahsorbca. 
+   <lb ed="#PL"/> tur mortale a vita (II <hi rend="italic">Cor.</hi> v, 4). Et huic Dominus 
+   <pb ed="#PL" n="1969"/>
+       <lb ed="#PL"/> dilectori suo, Cum <hi rend="italic">senueris,</hi> inquit, <hi rend="italic">extendes</hi> manus 
+   <lb ed="#PL"/>
+       <hi rend="italic">tuas, et altus te cinget, et ducet quo tu non via. Hoc
+   <lb ed="#PL"/> en im ei
+    dixit, significans qua morte clarificaturus erat 
+   <lb ed="#PL"/> Deum.</hi> Extendes, inquit,
+    <hi rend="italic">manus tuas,</hi> hoc est crucifi<lb ed="#PL" break="no"/>geris. Ad hoc autem ut venias, <hi rend="italic">alius te cinget, et ducet,</hi>
+   
+       <lb ed="#PL"/> non quo vis, sed <hi rend="italic">quo non vis.</hi> Prius dixit quod fieret,
+   
+   <lb ed="#PL"/> et deinde quomodo fieret. Non enim crucifixus, sed 
+   <lb ed="#PL"/> utique crucifigendus quo nollet est ductus : nam cru<lb ed="#PL" break="no"/>cifixus. non quo nolebat abiit, scd potius quo volebat. 
+   <lb ed="#PL"/> Solutus quippe a corpore volebat esse cum Christo, 
+   <lb ed="#PL"/> sed si fieri posset, prater mortis molestiam vitam 
+   <lb ed="#PL"/> concupiscebat aeternam : ad quam molestiam nolens 
+   <lb ed="#PL"/> ductus est, sed ab ea volens eductus est: nolens ad 
+   <lb ed="#PL"/> emn venit, sed volens eam vicit; et reliquit hunc in<lb ed="#PL" break="no"/>firmitatis
+   affectum quo nemo vult mori, usque adeo 
+   <lb ed="#PL"/> naturalem, ut eum bcato Petro nec senectus auferre 
+   <lb ed="#PL"/> potuerit, cui dictum est, <hi rend="italic">Cum</hi> .emeris, duceris <hi rend="italic">quo 
+   <lb ed="#PL"/>
+    non</hi> vis. Propter nos consolandos hunc etiam in se 
+   <lb ed="#PL"/> transfiguravit ipso Salvator, dicens, <hi rend="italic">Pater,</hi> si <hi rend="italic">fieri 
+   <lb ed="#PL"/> potest,
+    transeat a me calix iste (Matth.</hi> XXVI, 39): qui 
+   <lb ed="#PL"/> utique mori venerat, nec habebat mortis necessitatem, 
+   <lb ed="#PL"/> aed voluntatem, potestate positurus animam suam, et
+   
+   <lb ed="#PL"/> rursus eam potestate sumpturus. Sed molestia quan. 
+   <lb ed="#PL"/> tacumque sit mortis, debet eam vincere vis amoris, 
+   <lb ed="#PL"/> quo amatur ille qui cum sit vita nostra, etiam mortem 
+   <lb ed="#PL"/> voluit perferre pro nobis. Nam si nulla esset mortis 
+   <lb ed="#PL"/> vcl parva molestia , non esset tam magna marlyruln 
+   <lb ed="#PL"/> gloria. Sed si pastor bonus qui posuit animam suam 
+   <lb ed="#PL"/> pro ovibus suis <hi rend="italic">(Joan.</hi> x, i8, 11), ex ipsis ovibus tam 
+   <lb ed="#PL"/> multos sibi martyres fecit; quanto magis debent usque 
+   <lb ed="#PL"/> ad mortem pro veritate certare, et usque ad sangui<lb ed="#PL" break="no"/>nem
+   adversus peccatum, quibus oves ipsas pascendas, 
+   <lb ed="#PL"/> hoc est, docendas regendasque committit? Ac per hoc 
+   <lb ed="#PL"/> praecedente passionis ejus exemplo, quis non videat 
+   <lb ed="#PL"/> magis debere imitando pastori haerere pastores, si 
+   <lb ed="#PL"/> eum multae etiam imitatae sunt oves, sub quo pastore 
+   <lb ed="#PL"/> uno in grege uno, et pastores ipsi sunt oves ? Omnes 
+   <lb ed="#PL"/> quippe fecit suas oves, pro quibus est omnibus pas. 
+   <lb ed="#PL"/> sus; quia et ipse ut pro omnibus pateretur, ovis est 
+   <lb ed="#PL"/> Jactus.
+  </p>
+    </div>
+   </body>
+  </text>
+</TEI>

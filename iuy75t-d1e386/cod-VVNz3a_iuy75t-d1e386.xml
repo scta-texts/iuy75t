@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 42</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 42</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e386"> <!-- iuy75t-t42 -->
+      <head xml:id="iuy75t-d1e386-Hd1e109">Tractatus 42</head>
+      <p xml:id="iuy75t-d1e386-d1e112">
+       <hi rend="italic">Ab eo quod</hi> scriptum est, Scio quia tilii Abrahae estis, 
+   <lb ed="#PL"/> sed quaeritis ure interficere ; usque <hi rend="italic">ad id,</hi> Propterea 
+   <lb ed="#PL"/> vos non auditis, quia ex Dco noti estis. Cup. VIII,
+   <lb ed="#PL"/> v. 37-47.</p>
+      <p xml:id="iuy75t-d1e386-d1e127">1. Dominus noster etiam ill forma servi non semus, 
+   <lb ed="#PL"/> sed in forma etium servi Dominus (fuit quippe illa 
+   <lb ed="#PL"/> carnis forma servilis, sed quamvis esset similitudo
+   
+   <lb ed="#PL"/> carnis peccati [Rom. VIII, 5], non erat caro peccati), 
+   <lb ed="#PL"/> libertatem promisit credentibus in se : Judaei vero 
+   <lb ed="#PL"/> tanquam de sna libertate superbientes, dedignati sunt 
+   <lb ed="#PL"/> fieri liberi, cum essent servi peccati. Ideo autem se 
+   <lb ed="#PL"/> liberos esse dixcrunt, quia semen erant Abrahae. Quid 
+   <lb ed="#PL"/> ergo eis ad haec responderit Dominus, hodierna lectio 
+   <lb ed="#PL"/> cum recitaretur, audivimus. Sdo, inquit, quia filii 
+   <lb ed="#PL"/> Abrahae estis : sed quaeritis me inter ficere, quia sermo 
+   <lb ed="#PL"/> mens non <hi rend="italic">cupit</hi> in vobis. Agnosco vos, inquit : filii 
+   <lb ed="#PL"/> Abr <hi rend="italic">ahoe</hi> estis, sed quaeritis <hi rend="italic">me inter ficere,</hi> Agnosco car<lb ed="#PL" break="no"/>nis
+   originem, uon cordis fidem. Filii Abrahaeestis, sed 
+   <lb ed="#PL"/> secundumcarnem. Ideo, inquit, quaeritis me occidere : 
+   <lb ed="#PL"/> aermo enim meus <hi rend="italic">non</hi> cupit ill vobis. Si sermo unus ca<lb ed="#PL" break="no"/>peretur, caperet ; si caperemini , intra retia fidei tan<lb ed="#PL" break="no"/>quam
+   pisces concluderemini. Quid est crgo, non capit 
+   <lb ed="#PL"/> in vobis ? Non capit cor vestrum, quia nun recipitur a 
+   <lb ed="#PL"/> corde vestro. Sic enim est sermo Dci, et sic esse debet 
+   <lb ed="#PL"/> fidelibus , tanquam pisci hamus; tunc capit quando 
+   <lb ed="#PL"/> capitur. Nee fit injuria illis qui capiuntur : ad salutem 
+   <lb ed="#PL"/> quippe, non ad perniciem capiuntur. Unde Dominus 
+   <lb ed="#PL"/> discipulis suis ait : Venite post <hi rend="italic">me, et (aciam</hi> vos pisca­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tores</hi> hominum (Matth. IV,19). Non ergo isti erant tales: 
+   <lb ed="#PL"/> et tamen filii Abrahae erant; lilii bominis Dei, homines 
+   <lb ed="#PL"/> iniqui. Trahebant enim carnis genus, sed degeneres 
+   <lb ed="#PL"/> facti erant, non imitando fidem illius cujus filii erant.</p>
+      <p xml:id="iuy75t-d1e386-d1e207">2. Audistis certe Dominum dicentem, Scio quia <hi rend="italic">filii</hi>
+   
+       <lb ed="#PL"/> Abraltae estis; audite quid dicaL postea : Ego quod nidi 
+   <lb ed="#PL"/>
+       <hi rend="italic">apud</hi> Patrem meum, <hi rend="italic">loquoT;</hi> et VOl quae vidistis <hi rend="italic">apud</hi>
+   
+       <lb ed="#PL"/> patrem vestrum, <hi rend="italic">facitis.</hi> Jam dixerat, <hi rend="italic">Scio</hi> quia filii 
+   <lb ed="#PL"/> Abrahae estis. Quid autem faciunt? Quod cis divit, Quae­
+   
+   <lb ed="#PL"/> ritis me <hi rend="italic">occidere.</hi> Hoc apnd Abrabam munquamvide- 
+   <lb ed="#PL"/> ! unt. Dominus autem PatremDeumvult intelligi cum 
+   <lb ed="#PL"/> dicit, <hi rend="italic">Quae
+    vidi</hi> apud <hi rend="italic">Patrem meum, IDquor.</hi> Veritatem 
+   <lb ed="#PL"/> vidi, veritatemloquor, quia Veritas sum. Si enimDo- 
+   <lb ed="#PL"/> minus veritatem loquitur quam vidit april Patrem ; se 
+   <lb ed="#PL"/> vidit, se loquitur : qnia ipse est Veritas Patris, quam 
+   <lb ed="#PL"/> vidit apud Patrem ; ipse est cnim Verbum, quod Ver<lb ed="#PL" break="no"/>bum
+   erat apud Deum. Isti ergo malum qnod faciunt, 
+   <lb ed="#PL"/> quod Dominus objurgatetcorripit, ubi viderunt? Apud 
+   <lb ed="#PL"/> patrem suum. Cum audierimus ill consequentibus 
+   <lb ed="#PL"/> apertius dielUn) quis sit comm pater, tunc intellige<lb ed="#PL" break="no"/>mus
+   qualia vidcrim apud talem patrem : adhuc enim
+   <lb ed="#PL"/> non nominat patrem ipsorum. Paulo superius Abra-
+   <lb ed="#PL"/> ham commemoravit, sed canis origine, non vitae simi- 
+   <lb ed="#PL"/> lituline ; dicturus est alterum patremillorum, qui nec 
+   <pb ed="#PL" n="1701"/>
+       <lb ed="#PL"/> genuit eos, nec creavit ut homines essent; sed tamen 
+   <lb ed="#PL"/> filii crant cjus in quantum mali erant, non in quan<lb ed="#PL" break="no"/>tum
+   homines erant; in quo
+    i<unclear>mitati</unclear> , non quod creati.</p>
+      <p xml:id="iuy75t-d1e386-d1e292">5. Responderunt, <hi rend="italic">et dixerunt</hi> ci : Pater noster <hi rend="italic">Abra­</hi>
+   
+       <lb ed="#PL"/> ham est : quasi, Quid tu dicturus es contra Abraham? 
+   <lb ed="#PL"/> aut, Si aliquid potes, aude reprehendere Abraham. 
+   <lb ed="#PL"/> Non quia Dominus non audebat reprehendere Abra<lb ed="#PL" break="no"/>ham
+   ; sed talis erat Abraham qui non reprehenderetur 
+   <lb ed="#PL"/> a Dominio, sed potius
+    la<unclear>udaretur</unclear> : tamen isti videban<lb ed="#PL" break="no"/>tur
+   cum provocare, ut aliquid mali dicere de Abra<lb ed="#PL" break="no"/>ham, et esset Hccasio faciendi quod cogitabant. Pater
+   
+   <lb ed="#PL"/> noster Abraham est.</p>
+      <p xml:id="iuy75t-d1e386-d1e321">4. Audiamus quomodo eis responderit Dominus, 
+   <lb ed="#PL"/> cum illorum damnatione laudans Abraham, <hi rend="italic">Uicit eis</hi>
+   
+       <lb ed="#PL"/> Jesus: Si filii Abrahae estis, opera <hi rend="italic">Abrahae</hi> facile. Nunc
+   
+   <lb ed="#PL"/> autem quae itis me <hi rend="italic">interficere,</hi> hominem qui veritatem 
+   <lb ed="#PL"/> vobis loculus sum, quam audivi <hi rend="italic">a Deo</hi> : hoc Abraham non 
+   <lb ed="#PL"/> fecit. Eccc ille laudatus, isti damnati. Abraham non 
+   <lb ed="#PL"/> erat homicida. Non dico, inquit, Ego Dominus sum 
+   <lb ed="#PL"/> Abrahae : quod si dicerem, verum dicerem. Nam dixit 
+   <lb ed="#PL"/> alio loco, Ante Abraham <hi rend="italic">ego</hi> BUnt (Joan. VIII, 58): 
+   <lb ed="#PL"/> tunc cum illi lapidare voluerunt : nun dixit hoc. In- 
+   <lb ed="#PL"/> tcrim quod vidcLis, quod aspicitis, quod lue Solum 
+   <lb ed="#PL"/> pnLaLis, homo sum : hominem dicentem vobis quod 
+   <lb ed="#PL"/> audivit a Deo, quare vultis occidere, nisi quia nou 
+   <lb ed="#PL"/> estis filii Abrahae ? Et tanten superius ait, Scio quia 
+   <lb ed="#PL"/>
+       <hi rend="italic">filii Abrahae estis.</hi> Non negat eorum originem, sed facta
+   <lb ed="#PL"/> condemnat : caro corum ex illo erat, sed vita non erat.</p>
+      <p xml:id="iuy75t-d1e386-d1e375">5. Nos autem, charissimi, numquid de genere ve<lb ed="#PL" break="no"/>nimus
+   Abrahae, aut ullo modo Abraham pater noster 
+   <lb ed="#PL"/> fuit secundum carnem? Originem dc carne ejus caro 
+   <lb ed="#PL"/> Judaeorum ducit, non caru Christianorum : nos de aliis 
+   <lb ed="#PL"/> gentibus venimus;ettamen imitando, Abrahae filii facti 
+   <lb ed="#PL"/> sumus. Audi Apostolum : Abrallae dictae Bunt promissio­
+   
+   <lb ed="#PL"/> nes et semini ejus. Non dicit, inquit, Et seminibus, tan<lb ed="#PL" break="no"/>quam
+   in multis; sed tanquam in uno, Et <hi rend="italic">semini</hi> tuo, 
+   <lb ed="#PL"/> quod <hi rend="italic">eat</hi> Christus. Si autem vos Christi, <hi rend="italic">ergo</hi> semen 
+   <lb ed="#PL"/> Abrahae fslis, secundum promissionem haeredes (Galat. 
+   <lb ed="#PL"/> III, 16, 2U). Nus ergo facti sumus semen Abrahae gra<lb ed="#PL" break="no"/>tia
+   Dei. Non de carne Abrahae fecit illi cohaeredes 
+   <lb ed="#PL"/> Deus. Illos exhaeredavit, istos adoptavit : et de arbore 
+   <lb ed="#PL"/> illa olivae , cujus radix est in Patriarchis, ramos na- 
+   <lb ed="#PL"/> turales superbos amputavit, humilem oleastrum in-
+   
+   <lb ed="#PL"/> seruit (Rom. XI, 17). Ideo cum venirent ad Joannem 
+   <lb ed="#PL"/> baptizandi Judaei, erupit in illos, et ait illis, Generatio 
+   <lb ed="#PL"/> viperarum. Maxime quippc de altitudine originis glo<lb ed="#PL" break="no"/>riabantur : ille autem generationem eos dixit vipera<lb ed="#PL" break="no"/>rum; non saltem hominum, sed viperarum. Hominum 
+   <lb ed="#PL"/> formam videbat, sed venenum agnoscebat. Venerant
+   
+   <lb ed="#PL"/> tamen mutandi1, quia utique baptizandi : et ait illis, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Generatio</hi> viperarum, quia vobis ostendit <hi rend="italic">fugere</hi> a ventura 
+   <lb ed="#PL"/> ira? Facite ergo fructus dignos poenitentiae. Et <hi rend="italic">nolite di­</hi>
+   
+       <lb ed="#PL"/> cere intra uos ipsos, Patrem habemus Abraham: potens 
+   <lb ed="#PL"/> est enime Deus <hi rend="italic">de</hi> lapidibus istis suscitare <hi rend="italic">filios</hi> Abrahae
+   
+   <lb ed="#PL"/> (Matth. III, 7-9). Si fructus dignos poenitentiae non 
+   <lb ed="#PL"/> feceritis, nolite vobis de illa stirpe blandiri : potens est 
+   <lb ed="#PL"/> Densetvos damnare, et Abraham filiis non fraudare. 
+   <lb ed="#PL"/> Habet enim unde excitet lilios Abrahae: fient filii qui fi- 
+   
+   <lb ed="#PL"/> dem fuerint imitati : Potens est Deus <hi rend="italic">de</hi> lapidibus istis 
+   <lb ed="#PL"/>
+       <hi rend="italic">suscitate filios Abrahae.</hi> Nos sumus : in parentibus no- 
+   <lb ed="#PL"/> slris lapides eramus, quando pro Den łapides colcba- 
+   <lb ed="#PL"/> mus; de talibus lapidibus familiam Deus fecit Abrahae.</p>
+      <p xml:id="iuy75t-d1e386-d1e481">6. Quid se ergo extollit inanis et vana jactatio q Filii 
+   <lb ed="#PL"/> Abrahae gloriari jam desinant : audierunt quod andire 
+   <lb ed="#PL"/> debuerunt, Si filii <hi rend="italic">Abrahae</hi> estis, factis probate, nou 
+   <lb ed="#PL"/> verbis. Quaeritis me <hi rend="italic">occidere</hi> hominem : interim quo 
+   <lb ed="#PL"/> dico Filium Dei, nun dico Deum, non dico Verbum, 
+   <lb ed="#PL"/> quia non morilur Verbum; boc dico quod videtis, 
+   <lb ed="#PL"/> quia et qnod videtis potestis occidcre, et quem non 
+   <lb ed="#PL"/> videtis offendere. Hoc ergo Abraham <hi rend="italic">HOM fecit.</hi> Vos fa<lb ed="#PL" break="no"/>citis <hi rend="italic">opera</hi> patris <hi rend="italic">vestri.</hi> Et adhuc nou dicit quis est iste 
+   <lb ed="#PL"/> pater corum.</p>
+      <p xml:id="iuy75t-d1e386-d1e519">7. Modo illi quid responderunt. Coeperunt enim ut<lb ed="#PL" break="no"/>cumque
+   cognoscere, non de carnis generatione Do<lb ed="#PL" break="no"/>minum
+   loqui, sed de vitae institutione. Et quia consue­
+   
+   <lb ed="#PL"/> tudo Scripturarum cst, quas legebant, fornicationem 
+   <lb ed="#PL"/> spiritualiter appellare, cum diis multis et falsis anima 
+   <lb ed="#PL"/> tanquam prostituta subjicitur, ad hoc responderunt: 
+   <lb ed="#PL"/>
+       <hi rend="italic">Dixerunt itaque ei,</hi> Noa ex <hi rend="italic">(ornicanolle
+    MOM</hi> sumus nati, 
+   <lb ed="#PL"/> unum <hi rend="italic">patrem</hi> habemus Deum. Jam viluit Abraham. 
+   <lb ed="#PL"/> Repulsi enim sunt, quomodo repelli debuerunt ore 
+   <lb ed="#PL"/> veridico; quia talis erat Abraham, cujus facta non 
+   <lb ed="#PL"/> imitabantur, et de illius gencre gloriabantur. Et mu- 
+   <lb ed="#PL"/> taverunt responsionem; credo, dicentes apud seluet. 
+   <lb ed="#PL"/> ipsos : Quotiescumque nominavermus AbrahAm , di<lb ed="#PL" break="no"/>cturus
+   est nobis, Quare non imitamini eum, de cujus 
+   <lb ed="#PL"/> genere gloriamini ? Nos sanctum, justum, innocentem, 
+   <lb ed="#PL"/> tantum virum irnitnri non possumus : Dcum dicamus 
+   <lb ed="#PL"/> patrem nostrum, videamus quid nobis dicturus est.</p>
+      <p xml:id="iuy75t-d1e386-d1e566">8. Prorsus falsitas invenit quod diceret,etnon in<lb ed="#PL" break="no"/>veniret
+   veritas quid responderet? Audiamus quid 
+   <lb ed="#PL"/> dicant, audiamus quid audiant : Unum, inquiunt, pa­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">trem</hi> habemus <hi rend="italic">Deum.</hi> Dixit <hi rend="italic">ergo eia</hi> Jesus : Si Deus pater 
+   <lb ed="#PL"/>
+       <hi rend="italic">vester esset, diligeretis</hi> utique me : <hi rend="italic">ego</hi> enim <hi rend="italic">ex Deo</hi> pro<lb ed="#PL" break="no"/>cessi <hi rend="italic">et veni.
+    Neque</hi> enim a meipso veni, <hi rend="italic">sed ille me</hi>
+   
+       <lb ed="#PL"/> misit. Dicitis Deum patrem, agnoscitc une vel fratrem. 
+   <lb ed="#PL"/> Verumtamen erexit intelligentibus cor, et illud tetigit 
+   <lb ed="#PL"/> quod solet dicere, <hi rend="italic">Non
+    a</hi> meipso veni, ille me misit, a 
+   <lb ed="#PL"/>
+       <hi rend="italic">Deo</hi> processi et veni. Mementote quid soleamus dicere, 
+   <lb ed="#PL"/> Ab illo venit; et a quo venit, cum illo venit. Christi 
+   <lb ed="#PL"/> ergo missio, est incarnatio. Quod vero dc Deu 
+   <lb ed="#PL"/> cessit Verbum, aeterna processio est: non habet tem<lb ed="#PL" break="no"/>pus, per quem factum esi tempus. Nemo dicat in corde 
+   <lb ed="#PL"/> sun : Antequam esset Verbum, quomodo erat Deus? 
+   <lb ed="#PL"/> Nunquam dicas : Antequam esset Verbum Dei. Nun- 
+   <lb ed="#PL"/> qnam Deus sinc Verbo fuit; quia Verbum est manens, 
+   <lb ed="#PL"/> non transiens; Deus, non sonus; per quem factum 
+   <lb ed="#PL"/> est coelum et terra, non quod praeteriit cum iis quae 
+   <lb ed="#PL"/> facta sunt super terram. Ergo ab illo processit ut Deus, 
+   <lb ed="#PL"/> III aqualis, ut Filius unicus, ut Verbum Patris : et ve- 
+   <lb ed="#PL"/> uit ad nos, quia V erbum caru factum est, ut habilaret 
+   <lb ed="#PL"/> in nobis (Joan. I, 14). Adventus ejus, humanitas cjus: 
+   <lb ed="#PL"/> mansio ejus, divinitas ejus : divinitas ejus quo imus, 
+   <lb ed="#PL"/> humanitas ejus qua imus. Nisi nobis fieret qua iremus,
+   
+   <lb ed="#PL"/> nunquam ad illum manentem perveniremus.</p>
+      <p xml:id="iuy75t-d1e386-d1e655">9. QlIare, inquit, <hi rend="italic">loquelam meam non</hi> cognoscitis? 
+   <lb ed="#PL"/> Quia MOM volestis audire <hi rend="italic">sermonem</hi> meum. Ideo non 
+   <pb ed="#PL" n="1703"/>
+       <lb ed="#PL"/> poterant cognoscere, quia non poterant audire. Sed
+   <lb ed="#PL"/> unde audire. non poterant, nisi quia corrigi credendo 
+   <lb ed="#PL"/> nolebant? Et hoc unde? Vos a patre diabolo estis. 
+   <lb ed="#PL"/> Quamdiu patrem commemoratis? Quamdiu patres
+   <lb ed="#PL"/> mutatis, modo Abraham, modo Deum? Audite a Filio
+   <lb ed="#PL"/> Del, cujus sitis filii : A patre diabolo estis</p>
+      <p xml:id="iuy75t-d1e386-d1e681">10. Hic jam cavenda est haeresis Manichaeorum, quae dicit esse quamdam naturam mali et quamdam
+   <lb ed="#PL"/> gentem tenebrarum cum principibus suis, quae ausa 
+   <lb ed="#PL"/> est pugnare contra Deum : illum vero Deum, ne de-
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> bellaret gens adversa regnum ejus, misisse contra
+   <lb ed="#PL"/> eam tanquam viscera sua principes de luce sua; eam-
+   <lb ed="#PL"/> que gentem fuisse debellatam. unde diabolus origi-
+   <lb ed="#PL"/> nem ducit. Hinc dicunt ducere originem carnem no-
+   <lb ed="#PL"/> stram; et secundum hoc putant dictum a Domino,
+   <lb ed="#PL"/>
+       <hi rend="italic">Vos a patre diabolo estis,</hi> quod essent illi velut natura
+   <lb ed="#PL"/> mali, ducentes originem de gente contraria tenebra-
+   <lb ed="#PL"/> rum. Sic errant, sic excaecantur, sic scipsos faciunt
+   <lb ed="#PL"/> gentem tenbrarum, credendo quod falsum est con-
+   <lb ed="#PL"/> tra eum a quo creati sunt. Bona est enim omnis na-
+   <lb ed="#PL"/> tura; sed vitiata est hominis natura per voluntatem 
+   <lb ed="#PL"/> malam. Quod fecit Deus non potest esse malum, si
+   
+   <lb ed="#PL"/> ipse homo non sit sibi malus : sed plane Creator, 
+   <lb ed="#PL"/> Creatur est; creatura, creatura est ; aequari creatura 
+   <lb ed="#PL"/> non potest Creatori. DiscerniLe eum qui fecit, ab eo 
+   <lb ed="#PL"/> quod aetquari non potest fabro scamnum, aequa-
+   <lb ed="#PL"/> ri non potest columna structori; et tamen faber si 
+   <lb ed="#PL"/> scamnum fecit, liguum ipse non creavit. Dominus 
+   <lb ed="#PL"/> autem Ucus noster quia omnipotens csL, et Verbo 
+   <lb ed="#PL"/> fecit quod fecit: omnia quae fecit nun habuit unde 
+   <lb ed="#PL"/> faceret, et tamen fecit. Facta sunt enim quia voluit, 
+   <lb ed="#PL"/> facta sunt quia dixit : sed facta factori comparari uon 
+   <lb ed="#PL"/> possunt. Quaeris quod compares, Filium uaicum 
+   <lb ed="#PL"/> agnosce. Undc ergo Judaei lilii diaboli? Imitando, 
+   <lb ed="#PL"/> Mon nascendo. Audile Scripturae sanctae consueLudi- 
+   <lb ed="#PL"/> nem. Propheta dicit ad ipsos Juda'os
+   : Pater tuus 
+   <lb ed="#PL"/> Amorrhaeus, <hi rend="italic">et mater tua Cethaea (Ezech.</hi> XVI, 5). 
+   <lb ed="#PL"/> Amorrhaei gens erat quaedam, unde originem Judaei 
+   <lb ed="#PL"/> non ducebant : Cethaei et ipsi gentem suam habe<lb ed="#PL" break="no"/>bant, omnino alienam a genere Judaeorum. Sed quia 
+   <lb ed="#PL"/> erant impii Amorrhaei et Cethaei, Judaei autem imitati 
+   <lb ed="#PL"/> sunt impictales iMorum; invenerunt sibi parenleS, 
+   <lb ed="#PL"/> non de quibus nascerentur, sed quorum mores se- 
+   <lb ed="#PL"/> ctando pariter damnarentur. Quaeritis autem fortasse, 
+   <lb ed="#PL"/> undc ipse diabolus? Inde utique unde et caeteri Ange<lb ed="#PL" break="no"/>li. Sed caeteri Angeli in sua obedientia perstiterunt:
+   
+   <lb ed="#PL"/> ille inonediendo lot superbiendo tapsus est angelus,et
+   <lb ed="#PL"/> factus est diabolus.</p>
+      <p xml:id="iuy75t-d1e386-d1e779">11. Sed modo audite quid dicat Dominus, Vos, 
+   <lb ed="#PL"/> inquit, a patre diabolo estis, <hi rend="italic">et desideria</hi> patria vestri 
+   <lb ed="#PL"/> vullis facere. Ecce unde lilii ejus; quia talia desi<lb ed="#PL" break="no"/>deratis, non quia de tHo nati estis. Quae sunt illius 
+   <lb ed="#PL"/> desideria ? Ille homicida erat ab initio. Ecce qnod est, 
+   <lb ed="#PL"/>
+       <hi rend="italic">desideria</hi> patria vestri <hi rend="italic">(ncere</hi> vultis : Quaeritis <hi rend="italic">me oc­</hi>
+   
+       <lb ed="#PL"/> cidere, hominem qui veritatem vobis dico. Et ille in vidit 
+   <lb ed="#PL"/> homini,etaccidit hominem. Diabolus enim cum in<lb ed="#PL" break="no"/>videret
+   hOltliui, serpente indutus locutus est mulieri, 
+   <lb ed="#PL"/> et de muliere venenavit et virum. Mortui sunt diabo<lb ed="#PL" break="no"/>lum
+   audiendo (Gen. III, 1), quem non audissent, d 
+   <lb ed="#PL"/> Dominum audire voluissent : positus cnim homo in<lb ed="#PL" break="no"/>ter
+   cum qui creavit, et eum qui lapsus est,
+    ob<unclear>tem­</unclear>
+   
+       <lb ed="#PL"/> perare debuit Creatori, non deceptori. Ergo ille ho­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">micida</hi> erat <hi rend="italic">ab</hi> initio. Videte genus homicidii, fratres, 
+   <lb ed="#PL"/> Homicida dicitur diabolus. non gladio armatus, noa 
+   <lb ed="#PL"/> ferro accinctus; ad hominem venit, verbum malum 
+   <lb ed="#PL"/> semina vit, et occidit. NoH ergo putare te non esse 
+   <lb ed="#PL"/> homicidam, quando fratri tuo mala persuades : si 
+   <lb ed="#PL"/> fratri tuo mala persuades, occidis. Et ut scias quia 
+   <lb ed="#PL"/> occidis, audi Psalmum,: Filii hominum, <hi rend="italic">dentes</hi> eorum 
+   <lb ed="#PL"/> arma et sagittae, <hi rend="italic">et</hi> lingua eorum machaera <hi rend="italic">acuta</hi> (Plul 
+   <lb ed="#PL"/> LVI, 5). Vos ergo <hi rend="italic">desideria</hi> patria <hi rend="italic">vestri</hi> vultis <hi rend="italic">facere</hi> : 
+   <lb ed="#PL"/> idco saevitis in carnem, qnia non potestis in mentem. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ille homicida erat ab</hi> initio : utique in primo homine. 
+   <lb ed="#PL"/> Ex illo ille homicida, ex quo potuit fieri honaicidiunl: 
+   <lb ed="#PL"/> ex illa potuit fieri homicidium, ex quo factus est 
+   <lb ed="#PL"/> Ino. Nou cnim posset occidi hamo, nisi p ius fie­
+   
+   <lb ed="#PL"/> reL homo. Homicida ergo ille ab inilio. Et unde homi<lb ed="#PL" break="no"/>cida? Et in veritate Mon stetit. Ergo in veritate fuit, 
+   <lb ed="#PL"/> sed non stando cecidit. Et quare in veritate MOM stetit? 
+   <lb ed="#PL"/> Quia <hi rend="italic">veritas non eat</hi> in eo. Non quomodo in Christo, 
+   <lb ed="#PL"/> sic est veritas, ut Christus ipse sit veritas. Si ergo 
+   <lb ed="#PL"/> iste in veritate stetisset, in Christo stetisset, sed in 
+   <lb ed="#PL"/> veritate non stetit, quia <hi rend="italic">veritas non</hi> est ill eo.</p>
+      <p xml:id="iuy75t-d1e386-d1e906">12. Cum <hi rend="italic">loquitur</hi> mendacium, <hi rend="italic">ex</hi> propriis
+    <hi rend="italic">loquitur:</hi>
+   
+       <lb ed="#PL"/> quia <hi rend="italic">mendax eat, et pater ejul.</hi> Quid est hoc 1 Andislis
+   
+   <lb ed="#PL"/> verba Evangelii, intenti accepistis: ecce rcpeLo, ut 
+   <lb ed="#PL"/> agnoscatis quid exigatis. De diabolo Dominus ea di- 
+   <lb ed="#PL"/> cebal quae de diabolo diri a Domino debuerunt. Ille 
+   <lb ed="#PL"/> homirida <hi rend="italic">erat</hi> ab initio, verum est; nam primum ho­
+   
+   <lb ed="#PL"/> minem occidit : <hi rend="italic">et in</hi> veritate non stetit; quia de veri-
+   
+   <lb ed="#PL"/> late lapsus est. Cum <hi rend="italic">loquitur</hi> mendacium, utique ipse 
+   <lb ed="#PL"/> diabolus, <hi rend="italic">de</hi> proprii' loquitur; quia mendax est, et 
+   <lb ed="#PL"/> pater ejus. In his verbis quidam patrem diabolum ha- 
+   <lb ed="#PL"/> here putavcrunt, et quaeSierunt quis esset diaboli 
+   <lb ed="#PL"/> pater. Hic vero detestabilis error Manichaeorum inve<lb ed="#PL" break="no"/>nit
+   adhuc qua deciperet imperitos. Solent enim di<lb ed="#PL" break="no"/>cere : Puta diabolus angelus fuit, et lapsus est; ab 
+   <lb ed="#PL"/> illo caepit peccatum, sicut dicitis : Pater ejus quis 
+   <lb ed="#PL"/> erat.? Nos contra : Quis enim nostrum aliquando dixit 
+   <lb ed="#PL"/> diabolum babere patrem ? Et illi contra : Dominus 
+   <lb ed="#PL"/> dicit, Evangelum loquitur, de diabolo dicens, ait, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ille</hi> homicida <hi rend="italic">erat ab</hi> initio, <hi rend="italic">et in</hi> veritate MOM stetit; 
+   <lb ed="#PL"/> quia veritas MOM eat in <hi rend="italic">eo</hi> : cum loquitur <hi rend="italic">mendacium, 
+   <lb ed="#PL"/> de</hi> propriis loquitur; <hi rend="italic">quia</hi> mendax <hi rend="italic">est, et</hi> pater <hi rend="italic">ejus.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e386-d1e1002">i3. Audi, intellige; non le longe mitto, in ipsis 
+   <lb ed="#PL"/> verbis intellige. Diabolum Dominus dixit patrem 
+   <lb ed="#PL"/> mendacii. Quid est hoc? Aurii quid siL replica modo 
+   <lb ed="#PL"/> ipsa verba, et intellige. Non omnis enim qui men<lb ed="#PL" break="no"/>titur, pater mendacii sui est. Si enim ab alio menda<lb ed="#PL" break="no"/>cium
+   accepisti, et dixisti; tu quidem mentitus es 
+   <lb ed="#PL"/> proferendo mendacium : sed pater mendacii ipsins 
+   <lb ed="#PL"/> non es, quia ab altero accepisti mendacium. Diabolus 
+   <lb ed="#PL"/> autem a scipso mendax fuit ; mendacium suum ipse 
+   <lb ed="#PL"/> genuit, a nemine audivit. Quomodo Deus Pater ge<lb ed="#PL" break="no"/>nuit
+   Filium veritatem ; sic diabolus lapsus genuit 
+   <lb ed="#PL"/> quasi filiummendendacium. Hisauditis, replicanunc 
+   <lb ed="#PL"/> et recole verbaDomini : mens calholic:" quid au- 
+   <lb ed="#PL"/> dieris adverte, quid dicat attende. Ille
+   :quis? UialJo- 
+   <pb ed="#PL" n="1705"/>
+       <lb ed="#PL"/> lus : <hi rend="italic">homicida</hi>erat ab initio. Agnoscimus, occidit
+   
+   <lb ed="#PL"/> AcJaln. <hi rend="italic">Et ill veritate</hi> non stetit. Agnoscimus, quia de
+   
+   <lb ed="#PL"/> veritate lapsus est. Quia veritas non est ill eo. Verum 
+   <lb ed="#PL"/> est; rccedendo a veritate t non habet veritatem. Cum 
+   <lb ed="#PL"/>
+       <hi rend="italic">loquitur</hi> mendacium, <hi rend="italic">de propriis loquitur.</hi> Non aliunde 
+   <lb ed="#PL"/> accipit unde loquatur. Cum loquitur mendadunl, de 
+   <lb ed="#PL"/>
+       <hi rend="italic">propriis</hi> loguitur; quia mendax eat, <hi rend="italic">et</hi> pater <hi rend="italic">ejus.</hi> Et 
+   <lb ed="#PL"/> mendax est, et pater mendacii. Nam tu forte mendax 
+   <lb ed="#PL"/> es, quia mendacium loqueris : sed non es pater ejus.
+   <lb ed="#PL"/> Si enim quod dicis a diabolo accepisti, et diabulo
+   <lb ed="#PL"/> credidistf; mendax es, pater mendacii non es
+   : ille 
+   <lb ed="#PL"/> vero quia non aliunde accepit mendacium, quo men<lb ed="#PL" break="no"/>dacio
+   tanquam veneno serpens hominem occideret, 
+   <lb ed="#PL"/> pater est mendacii; sicut Deus Pater est veritatis. 
+   <lb ed="#PL"/> Recedite a patre méndacii, currite ad Patrem veri<lb ed="#PL" break="no"/>tatis; amplectimini veritatem, ut accipiatis liber<lb ed="#PL" break="no"/>tatem.</p>
+      <p xml:id="iuy75t-d1e386-d1e1094">14. Illiergo Judaei apud patrem suum viderunt quod 
+   <lb ed="#PL"/> loquebantur : quid, nisi mendacium? Dominus au<lb ed="#PL" break="no"/>tem
+   apud Patrem suum vidit quod loqueretur : quid,
+   <lb ed="#PL"/> nisi seipsum?quid, nisi Verbum Patris? quid, nisi
+   <lb ed="#PL"/> veritatem Patris aeternam, et Patri coaeternam? <hi rend="italic">Ille</hi>
+   
+       <lb ed="#PL"/> ergo homicida erat ab initio, et in veritate non, <hi rend="italic">stetit,</hi>
+   
+       <lb ed="#PL"/> quia <hi rend="italic">veritasnon</hi> eat n<hi rend="italic">eo</hi> : cum <hi rend="italic">loquitur</hi> mendacium, <hi rend="italic">de</hi>
+   
+       <lb ed="#PL"/> propriis <hi rend="italic">loquitur ;</hi> quia <hi rend="italic">mendax est.</hi> Et non solum men<lb ed="#PL" break="no"/>dax
+   est, sed et pater ejusest : id est, ipsius mendacii 
+   <lb ed="#PL"/> quod loquitur, pater est, quia ipse genuit mendacium 
+   <lb ed="#PL"/> suum. Ego autem quia veritatem <hi rend="italic">dico,</hi> noa <hi rend="italic">credili.</hi>
+   
+       <lb ed="#PL"/> mihi. Quia ex vobis <hi rend="italic">arguit me</hi>
+       <hi rend="italic">de
+    peccato;</hi> quomodo 
+   <lb ed="#PL"/> ego arguo et vos et patrem vestrum? Si veritatem 
+   <lb ed="#PL"/>
+       <hi rend="italic">dico</hi> quarevos non creditis. mihi; nisi quia CHi diaboli 
+   <lb ed="#PL"/> estis?</p>
+      <p xml:id="iuy75t-d1e386-d1e1169">i5. Qui <hi rend="italic">eat ex Deo,</hi> verba Det audit : propterea VOl 
+   <lb ed="#PL"/> non auditis, quia ex Deo uon <hi rend="italic">estis.</hi> herum nolite at<lb ed="#PL" break="no"/>tendere
+   naturam, sed vitium. Sic sunt isti ex heo, et 
+   <lb ed="#PL"/> nonsuM ex Deo : natura ex Dea, vitio non ex Deo. 
+   <lb ed="#PL"/> Obsecro vos, attendite; in Evangelio habetis unde 
+   <lb ed="#PL"/> saneminicontra errores venenosos et nefarios haere<lb ed="#PL" break="no"/>ticorum. Quoniam et de his verbis solent Manichaei 
+   <lb ed="#PL"/> dicere; Ecce quia duae naturae sunt, una bona, et a!- 
+   <lb ed="#PL"/> tera mala ; Dominus dicit: quid dicit Dominus ? Pro<lb ed="#PL" break="no"/>ptereavos
+   nonauditis, quia <hi rend="italic">ex Deo non</hi> estis. Dicit haec 
+   <lb ed="#PL"/> Dommus. Quid ergo, inquit, tu ad ista dicis? Audi 
+   <lb ed="#PL"/> quae dicam. Et ex Deo sunt, et ex Deo non sunt; na<lb ed="#PL" break="no"/>tura
+   ex Dco sunt, vitio non sunt ex Deo : natura 
+   <lb ed="#PL"/> enim bona quae ex Deo est, peccavit voluntate, cre- 
+   <lb ed="#PL"/> dcudo quod diabolus persuasit, et vitiata est; idco 
+   <lb ed="#PL"/> medicumquaerit, qnia sana non est. Ecce quod dico. 
+   <lb ed="#PL"/> Sed impossibile tibi videtur ut ex Deo sint, et ex Dco 
+   <lb ed="#PL"/> non sint : audi quia non est impossibile. Sic sunt ex 
+   <lb ed="#PL"/> Den, et non sunt ex Deo, quomodo et filii Abrahae 
+   <lb ed="#PL"/> sunt, et non sunt filii Abrahae. Hic habetis; non est
+   <lb ed="#PL"/> quod diccatis. Ipsum Dominum audi, ipse illis dixit,
+   <lb ed="#PL"/> Scio quia filii Abrahae esti. Numquid Dominus menti-
+   <lb ed="#PL"/> retur? Absit. Ergo vcrum est quod Dominus dixit?
+   <lb ed="#PL"/> Verum est. Verumest ergo quod illi Abrahae filii 
+   <lb ed="#PL"/> erant. Verum est. Audi ipsum negantem. Qui dixit, 
+   
+   <lb ed="#PL"/> Filii <hi rend="italic">Abrahae</hi> estis, ipse illos negavit Alios Abrabae : 
+   <lb ed="#PL"/> Si filii <hi rend="italic">Abrahae</hi>estis <hi rend="italic">jacta</hi> Abrahae<hi rend="italic">(acile.</hi> Nunt autem 
+   <lb ed="#PL"/> quaeritis DIe <hi rend="italic">occidere,
+    hominem gui</hi> veritatem vobis 
+   <lb ed="#PL"/>
+       <hi rend="italic">dico,</hi> quam audivi <hi rend="italic">a Deo : hoc</hi> Abraham non
+    <hi rend="italic">fecit. Vos</hi>
+       <lb ed="#PL"/> facitis.<hi rend="italic">opera</hi> patris<hi rend="italic">vestri,</hi> id est diaboli. Quomodo
+   <lb ed="#PL"/> ergo et flii Abrahae erant, et filii Abrahae non erant? 
+   <lb ed="#PL"/> Utrumque in illis ostendit : et filii Abrahae,erant,
+   <lb ed="#PL"/> propter originem,carnis; et non erant filii Abrahae, 
+   <lb ed="#PL"/> propter vitium diabolicae persuasionis. Sic et Domi<lb ed="#PL" break="no"/>num
+   et Deum nostrum attendite : et ex. illo erant, et
+   <lb ed="#PL"/> ex illo non erant. Quomodo ex illo erant? Quia ipse 
+   <lb ed="#PL"/> creavit hominem de quo nati erant. Quomodo ei illo 
+   <lb ed="#PL"/> erant? Qnia ipse est conditor naturae, ipse est crea­
+   
+   <lb ed="#PL"/> tor carnis et animae. Quomodo ergo ex illo non erant ? 
+   <lb ed="#PL"/> Quia vitiosi a seipsis facti erant. Ex illo non erant. 
+   <lb ed="#PL"/> quiimitando diabolum, filii diaboli tacti erant.</p>
+      <p xml:id="iuy75t-d1e386-d1e1299">16. Venitergo Dominus Deus ad hominem peccato<lb ed="#PL" break="no"/>rem. Duo nomina audisti , et hominem , et peccato<lb ed="#PL" break="no"/>rem. Quod homo est, ex Deo est : quod peccator
+   <lb ed="#PL"/> non est ex Deo. A natura vitium secernatur : agnoscatur
+   <lb ed="#PL"/> natura, unde Creator laudetur; agnoscatur vitium,
+   <lb ed="#PL"/> propter quod medicus invocetur. Quod ergo ait Domi-
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> nus, Qui est ex <hi rend="italic">Deo, verba Dei audit : propterea vos 
+   <lb ed="#PL"/> non
+    auditis, quia ex Deo non estis</hi> ; non naturarum me- 
+   <lb ed="#PL"/> rita discrevit, aut praeter suam animam et carnem,
+   <lb ed="#PL"/> aliquam naturam in hominibus quae peccato vitiata
+   <lb ed="#PL"/> non esset, invenit: sed quoniam praescierat qui fue-
+   <lb ed="#PL"/> rant credituri, ipsos dixit ex Deo, quoniam regene-
+   <lb ed="#PL"/> rationis adoptione renascerentur ex Deo. Ad hos per-
+   <lb ed="#PL"/> tinet, <hi rend="italic">Qui est ex Deo, verba Dei audit. Quod</hi> vero
+   <lb ed="#PL"/>
+    sequitur,<hi rend="italic">Propterea vos non auditis,</hi>quia ex <hi rend="italic">Deu non</hi>
+   
+       <lb ed="#PL"/> estis ; eis dictum est, qni non solum peccato vitiosi 
+   <lb ed="#PL"/> eraut (nam hoc malumcommune erat omnibus), 
+   <lb ed="#PL"/> sed etiam praecogniti quod nou fuerant credituri I ea
+   
+   <lb ed="#PL"/> fide ,qua sola possent a peccaturum obligatione libe<lb ed="#PL" break="no"/>rari. Quapropter praesciebat illos quibus talia dicebat, 
+   <lb ed="#PL"/> in eo perniansuros quod ex diabolo erant, id est, in 
+   <lb ed="#PL"/> suis peccatis atque impiotatemorituros , iu qua ci ai- 
+   <lb ed="#PL"/> miles erant; nec venturos ad regenerationem in qua 
+   <lb ed="#PL"/> essent filii Dei, hoc est es Deo nati, a quo erant ho<lb ed="#PL" break="no"/>mines
+   creati. Secundumbane praedestinationemlocu- 
+   <lb ed="#PL"/> tus est Dominus : non quod aliquemhominum inve<lb ed="#PL" break="no"/>nerit, qui vel secundumregenerationem jam esset ex 
+   <lb ed="#PL"/> Deo, rel secundum naturam jam noM esset ex Deo.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

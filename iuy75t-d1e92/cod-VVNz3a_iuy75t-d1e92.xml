@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 6</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 6</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e92"> <!-- iuy75t-t6 -->
+      <head xml:id="iuy75t-d1e92-Hd1e109">Tractatus 6</head>
+      <p xml:id="iuy75t-d1e92-d1e112">
+       <hi rend="italic">In</hi> eumdem <hi rend="italic">Evangelii locum. Quare</hi> Deus per
+    <hi rend="italic">columba
+   <lb ed="#PL"/> speciem ostendere voluerit Spiritum sanctum. Cap.
+    I,</hi>
+   
+       <lb ed="#PL"/> &gt; &gt; . 32, 33.</p>
+      <p xml:id="iuy75t-d1e92-d1e128">1. Fateor Sanctitati vestrae, timueram ne frigus hoc 
+   <lb ed="#PL"/> frigidos vos ad conveniendum faceret : sed quia ista 
+   <lb ed="#PL"/> celebritate et frequentia vestra, spiritu vos fervere de<lb ed="#PL"/>monstratis, 
+   non dubito quia cliam orastis pro mc, ut 
+   <lb ed="#PL"/> debitum vobis exsolvam. Promiseram enim in nomine 
+   <lb ed="#PL"/> Christi disserere hodio, cum angustia temporis tunc
+   
+   <lb ed="#PL"/> impediret, nc in possemus explicare tractando, quare 
+   <lb ed="#PL"/> Ucus per columbx speciem ostendere voluerit Spiri<lb ed="#PL" break="no"/>hun
+   saucium. Hoc ut explicetur, illuxit nobis dies lio<lb ed="#PL" break="no"/>diernus; et sentio audiendi cupiditate et pia devotione 
+   <lb ed="#PL"/> vos celebrius congregatos. Exspectationem vestram 
+   <lb ed="#PL"/> Deus impleat ex ore nostro. Amastis enim ut venire<lb ed="#PL" break="no"/>tis : sed amastis, quid ? Si nos, et hoc bene; nam vo<lb ed="#PL" break="no"/>lumus
+   :mari a vobis, sed nolumus in nobis. Quia ergo 
+   <lb ed="#PL"/> in Christo vos amamus, in Christo nos redamate, et 
+   <lb ed="#PL"/> annor noster pro inviccm gemat ad Deum : ipse cnim 
+   <lb ed="#PL"/> gemitus columbae est.
+  </p>
+      <p xml:id="iuy75t-d1e92-d1e165">2. Si ergo gemitus columbae est, quod omnes no<lb ed="#PL" break="no"/>vimus, gcmunt autem columbae in amore; audite quid 
+   <lb ed="#PL"/> dicat Apostolus, et nolite mirari quia in columbae 
+   <lb ed="#PL"/> specie voluit demonstrari Spiritus sanctus: <hi rend="italic">Quid enim</hi>
+   
+       <lb ed="#PL"/> oremus, sicut <hi rend="italic">oporlet,</hi> inquit, <hi rend="italic">nescimus :
+    sed ipse Spi<lb ed="#PL" break="no"/>ritus
+   interpellat pro nobis</hi> gemitibus <hi rend="italic">inenarrabilibus
+   <lb ed="#PL"/> (Rom.</hi> VIII, 26). Quid ergo, fratres mei , hoc dicturi 
+   <lb ed="#PL"/> sumus, quia Spiritus gcmit, ubi perfecta et aeterna 
+   <lb ed="#PL"/> beatitudo est ei cum Patre et Filio? Spiritus enim 
+   <lb ed="#PL"/> sanctus Deus, sicut Dei Filius Deus, et Pater Dcus. 
+   <lb ed="#PL"/> Ter dixi Deus, sed non dixi ires deos : magis cniiu 
+   <lb ed="#PL"/> Deus tcr, quam dii ires; quia Pater et Filius et Spi<lb ed="#PL" break="no"/>ritus
+   sanctus unus Deus : boc optime nostis. Non ergo
+   
+   <lb ed="#PL"/> Spiritus sanctus in semetipso apud semetipsum in illa 
+   <lb ed="#PL"/> Trinitate, in illa bcalitudine, in illa aeternitate sub<lb ed="#PL" break="no"/>stantiae
+   gemit : sed in nobis gemit, quia gemere nos 
+   <lb ed="#PL"/> facit. Nee parva res est, quod nos docet Spiritus san<lb ed="#PL" break="no"/>ctus
+   gemere : insinuat enim nobis quia peregrinamur, 
+   <lb ed="#PL"/> et ducct nos in patriam suspirare, et ipso desiderio 
+   <lb ed="#PL"/> gemimus, Cui bene est in hoc saeculo, imo qui putat 
+   <lb ed="#PL"/> quod ci benc sit, qui laetitia rerum carnalium, et 
+   <lb ed="#PL"/> abundantia temporalium, etvana felicitate exsultat, 
+   <lb ed="#PL"/> habet vocem corvi: vox enim corvi clamosa est, non 
+   <lb ed="#PL"/> gemebunda. Qui autem novit in pressura se esse mor<lb ed="#PL" break="no"/>talitatis
+   hujus, et peregrinari se a Domino (II <hi rend="italic">Cor.</hi> v, 
+   <lb ed="#PL"/> 6), nondum tenere illam perpetuam quae nobis pro<lb ed="#PL" break="no"/>missa
+   est beatitudinem , sed habere illam in spe, ha­
+   
+   <lb ed="#PL"/> biturus in re, cum Dominus venerit in manifestatione 
+   <lb ed="#PL"/> praeclarus, qui prius in huntilitatc venit occultus; qui 
+   <lb ed="#PL"/> hoc novit, gcmit. Et .quamdiu propter hoc gemit,
+   
+   <lb ed="#PL"/> bene gemit: Spiritus illum docuit gelnere, a columba 
+   <lb ed="#PL"/> didicit gemere. Multi enim gemunt in infelicitate ter<lb ed="#PL" break="no"/>rcua, vel quassati damnis, vel aegritudine corporis 
+   <lb ed="#PL"/> praegravali, vcl carceribus iuclusi, vel catenis colli<lb ed="#PL" break="no"/>gati, vel fluctibus maris jactati, vel aliquibus inimico. 
+   <lb ed="#PL"/> rum insidiis circumsepti gemunt : sed non columbae 
+   <lb ed="#PL"/> gemitu gemunt, non amore Dei gemunt, non spiritu 
+   <lb ed="#PL"/> gemunt. Ideo tales cum ab ipsis pressuris fuerint Ii<lb ed="#PL" break="no"/>berati, exsultant in grandibus vocibus : ubi apparct 
+   <lb ed="#PL"/> quia corvi sunt, non columbae. Merito de arca missus 
+   <lb ed="#PL"/> est corvus ,etnon est rcversus; missa est columba; 
+   <lb ed="#PL"/>etrcversa est: illas duas aves misit Noc <hi rend="italic">(Gen.</hi> VIII , 
+   <lb ed="#PL"/> 6-9). Habebat ibi corvum , habebat et columbam; 
+   <lb ed="#PL"/> utrumque hoc genus arca illa continebat : et si arca 
+   <lb ed="#PL"/> figurabat Ecclesiam, videtis utiquc quia necesse est 
+   <lb ed="#PL"/> ut in isto diluvio saeculi utrumque genus contineat Ec<lb ed="#PL" break="no"/>clesia,etcorvum,etcolumbam. Qui sunt corvi? Qui
+   
+   <lb ed="#PL"/> sua quaerunt. Qui columbae ? Qui ea quae Christi sunt 
+   <lb ed="#PL"/> quaerunt <hi rend="italic">(Philipp.</hi> 11, 21).</p>
+      <p xml:id="iuy75t-d1e92-d1e294">5. Propterea ergo cum mtteret Spiritum sanctum, 
+   <lb ed="#PL"/> duobus modis eum ostendit visibiiitcr; per columbam, 
+   <lb ed="#PL"/> et pcr ignem : per columbam , super Dominum ba<lb ed="#PL" break="no"/>plixatum
+   ; pcr ignem, supcr discipulos congfegatos. 
+   <lb ed="#PL"/> Cum euim ascendisset Dominus in coelum post resur. 
+   <lb ed="#PL"/> rectionem, pcractis cum discipulis suis quadraginta 
+   <lb ed="#PL"/> diebus, impleto die Pentecostes, misit eis Spiritum 
+   <lb ed="#PL"/> sanctum, sicut promiserat. Spiritus ergo tunc veniens 
+   <lb ed="#PL"/> implevit locum illum, factoque primo sonitu de coelo
+   
+   <lb ed="#PL"/> tanquam ferretur flatus vehemens, sicut iu Actibus 
+   <lb ed="#PL"/> Apostolorum leginms , <hi rend="italic">Visae,</hi> inquit, illis sunt lingua 
+   <lb ed="#PL"/>
+       <hi rend="italic">divisae velut ignis, qui et insedit</hi> super <hi rend="italic">unumquemque eo­</hi>
+   
+       <lb ed="#PL"/> rum ; <hi rend="italic">et caeperunt linguis loqui, sicut</hi> Spiritus <hi rend="italic">dubat eia 
+   <lb ed="#PL"/> pronuntiare (Act.</hi> II, i-4). Hac vidimus columbam su<lb ed="#PL" break="no"/>pcr
+   Dominum , hac linguas divisas super discipulos 
+   <lb ed="#PL"/> congregatos : ibi simplicitas, hic fervor ostenditur. 
+   <lb ed="#PL"/> Sunt enim qui dicuntur simplices, et pigri sun
+   : vo<lb ed="#PL" break="no"/>cantur
+   siinpliccs , sunt autem segnes. Non talis erat 
+   <lb ed="#PL"/> Stephanus plenus Spiritu sancto : simplex erat, quia 
+   <lb ed="#PL"/> nemini nocebat; fervens erat, quia impios arguebat. 
+   <lb ed="#PL"/> Non euim tacuit Judaeis : ejus I sunt verba illa flam<lb ed="#PL" break="no"/>mantia , <hi rend="italic">Dura cervice, et non circumcisi corde et auri­
+   <lb ed="#PL"/> bus, vos semper
+    restitistis Spiritui sancto.</hi> Magnus im<lb ed="#PL" break="no"/>peius : sed columba sine felle saevit. Nam ut novcritis 
+   <lb ed="#PL"/> quia sine felic saeviebat, illi auditis bis verbis qui corvi 
+   <lb ed="#PL"/> erant, ad lapides statim adversus columbam cucurre<lb ed="#PL" break="no"/>runt; coepit Stephanus lapidari : et qui paulo aute 
+   <lb ed="#PL"/> fremens et fervens spiritu, tanquam in inimicus in.<lb ed="#PL" break="no"/>petum focerat, et tanquaM violentus invectus erat in 
+   <lb ed="#PL"/> verbis igneis atque ita flammantibus, ut audistis, <hi rend="italic">Dura 
+   <lb ed="#PL"/> cervice, et non
+    circumcisi corde et auribus</hi> : ut qui ea 
+   <lb ed="#PL"/> verba audiret, putaret Stephanum, si ci liceret, statim 
+   <lb ed="#PL"/> illos velle consumi : venientibus in se lapidibus ex 
+   <lb ed="#PL"/> manibus eorum , genu fixo ait*, <hi rend="italic">Domine,</hi> ne <hi rend="italic">statuas 
+   <lb ed="#PL"/> illis hoc delictum (Act.</hi> VII , 51, 59). Inhaeserat unitati 
+   <lb ed="#PL"/> columbae. Prior enim illud fecerat magister, super 
+   <lb ed="#PL"/> quem descendit columba; qui pendens in cruce ait. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Pater, ignosce</hi> illis, <hi rend="italic">quia nesciunt quid
+    faciunt (Luc.</hi>
+   
+       <lb ed="#PL"/> XXXIII, 34). Ergo ne Spiritu sanctificati dolum habeant, 
+   <lb ed="#PL"/> in columba demonstratum est: ne simplicitas frigida 
+   <lb ed="#PL"/> rcmaneat, in igne dcmonstratum est. Nec moveat. 
+   
+   <pb ed="#PL" n="1427"/>
+       <lb ed="#PL"/> quia linguae divisae sura. Ditant rnim linguae , ideo 
+   <lb ed="#PL"/> divisis linguis apparuit. <hi rend="italic">Linguae,</hi> inquit, <hi rend="italic">divisae velut</hi>
+   
+       <lb ed="#PL"/> 'unis, qui <hi rend="italic">el insedit</hi> super <hi rend="italic">unumquemque
+    corum.</hi> Distant 
+   <lb ed="#PL"/> incr sc linguae, sed linguarum distantia 1 non sunt 
+   <lb ed="#PL"/> schismata. In linguis divisis noli dissipationem tinere, 
+   <lb ed="#PL"/> unitatcm cognosce in columba.</p>
+      <p xml:id="iuy75t-d1e92-d1e445">4. Sic ergo, bic oportebat demonstrari Spiritum 
+   <lb ed="#PL"/> sanctum venientem super nominum, ut intelligat 
+   <lb ed="#PL"/> unusquisque, si babet Spiritum sanctum, simplicem 
+   <lb ed="#PL"/> se esse debere sicut columbam; habere cum fratribus 
+   <lb ed="#PL"/> vcram pacem, quam significant oscula columbarum. 
+   <lb ed="#PL"/> Habent Chun oscula et corvi, sed in corvis faba pax, 
+   <lb ed="#PL"/> ;n columba vera pax. Non onmis ergo qui dicit , Pax 
+   <lb ed="#PL"/> vobiscum , quasi columba audicndu3 cst. Uude ergo 
+   <lb ed="#PL"/> discernuntur oscula curvorum ab osculis columba<lb ed="#PL" break="no"/>rum? Osculantur corvi, sed laniant; a laniatu inno<lb ed="#PL" break="no"/>cens
+   est natura columbarum : ubi ergo laniatus
+   , non 
+   <lb ed="#PL"/> eat vcra in osculis pax; illi habent veram pacem, qui 
+   <lb ed="#PL"/> Ecclesiam non laniaverunt. Nam corvi de morte pa<lb ed="#PL" break="no"/>scuntur, hoc columba non habet; de frugibus terrae 
+   <lb ed="#PL"/> vivit, innocens ejus victus est : quod vere, fratres , 
+   <lb ed="#PL"/> mirandum est in columba. Sunt passeres brevissimi, 
+   <lb ed="#PL"/> vel muscas occidunt : nihil horum columba; non
+   
+   <lb ed="#PL"/> enim do morte pascitur. Qui laniaverunt Ecclesiam, 
+   <lb ed="#PL"/> de mortibus pascuntur. Potens est Deus, rogemus ut 
+   <lb ed="#PL"/> rcviviscaut qui devorantur ab eis et non sentiunt.
+   
+   <lb ed="#PL"/> Mulli agnoscunt, quia reviviscunt; nam ad eorum 
+   <lb ed="#PL"/> adventum quotidie gratulamur in nomine Christi. Vos 
+   <lb ed="#PL"/> tantum sic estote simplices, ut silis ferventes t;et
+   <lb ed="#PL"/> fervor vester in linguis sit. Nolite tacere; ardentibus 
+   <lb ed="#PL"/> linguis loquentes, accendite frigidos.</p>
+      <p xml:id="iuy75t-d1e92-d1e500">5. Quid cnim , fratres mci? quis non videat quod 
+   <lb ed="#PL"/> illi non vident? Nec mirum; quia qui inde reverti no<lb ed="#PL" break="no"/>iunt
+   t sicut corvus qui de arca emissus est Quis 
+   <lb ed="#PL"/> enim non videat quod illi non vident ? Et ipsi Spiritui 
+   <lb ed="#PL"/> sancto ingrati sunt. Ecce columba descendit super 
+   <lb ed="#PL"/> Dominum , et super Dominum baptizatum; et appa<lb ed="#PL" break="no"/>ruit
+   ibi sancta illa et vera Trinitas, quae nobis unus 
+   <lb ed="#PL"/> Deus est. Ascendit enim Dominus ab aqua, sicut in 
+   <lb ed="#PL"/> Evangelio legimus : <hi rend="italic">Et ecce aperti sunt</hi> ei coeli, <hi rend="italic">et vidit
+   <lb ed="#PL"/> Spiritum descendentem velut columbam, et
+    mansit super 
+   <lb ed="#PL"/> eum :, et statim vox consecuta est, Tu es Filius meus di­ 
+   <lb ed="#PL"/>
+    lectus,</hi> in <hi rend="italic">quo mihi</hi> complacui <hi rend="italic">(Matth.</hi> III, <hi rend="italic">16 et 17).</hi> Ap<lb ed="#PL" break="no"/>paret
+   manifestissima Trinitas, Pater in voce, Filius in 
+   <lb ed="#PL"/> homine , Spiritus in columba. In ista Trinitate quo 
+   <lb ed="#PL"/> missi sunt Apostoli , vidcamus quod videmus, ctquod 
+   <lb ed="#PL"/> mirum est quia illi nou vident: non enim vcre non vi<lb ed="#PL" break="no"/>dent, sed ad id quod facies eorum ferit, oculos dau<lb ed="#PL" break="no"/>dunt. Quo missi suut discipuli, in nomine Patris et 
+   <lb ed="#PL"/> Filii Spiritus saucti, ab illo de quo dictum est, <hi rend="italic">Hic 
+   <lb ed="#PL"/> est qui baptizat.</hi> Dictum est enim ministris ab eo qui 
+   <lb ed="#PL"/> sibi tenuit hanc potestatem.</p>
+      <p xml:id="iuy75t-d1e92-d1e564">6. Hoe enim in illo vidit Joannes, et cognovit quod 
+   <lb ed="#PL"/> non noverat : non quia eum non noverat Filium Dei, 
+   <lb ed="#PL"/> aut cum non noverat Dominum, aut non noverat 
+   
+   <lb ed="#PL"/> Christum, aut vcro et hoc non noverat quia ipse Da<lb ed="#PL" break="no"/>ptizaturus
+   esset in aqua et Spiritu sancto; namct boc 
+   <lb ed="#PL"/> noverat : sed quia ita ut sibi teneret ipsam potesta­
+   
+   <lb ed="#PL"/> tem , et in nullum ministrorum cain transferret, hoc 
+   <lb ed="#PL"/> est quod didicit in columba. Per hanc enim potesta<lb ed="#PL" break="no"/>teni, quam Christus solus sibi tenuit, et in ncminem 
+   <lb ed="#PL"/> ministrorum transfudit, quamvis pcr ministros suos 
+   <lb ed="#PL"/> baptizare dignatus sit, pcr hanc stat unitas Ecclesiae, 
+   <lb ed="#PL"/> quae significatur in columba, de qua dictum est : <hi rend="italic">Una 
+   <lb ed="#PL"/> est columba mea, una est matri suae (Cant.</hi> VI. 8). Si 
+   <lb ed="#PL"/> enim, ut jam dixi , fratres mci, transferretur potestas 
+   <lb ed="#PL"/> a Domino ad ministrum , tot baptismata essent, quot 
+   <lb ed="#PL"/> ministri essent,etjam non staret uniUs Baptismi.</p>
+      <p xml:id="iuy75t-d1e92-d1e602">7. Intendite, fratres : antequam vcnircl Dominus 
+   <lb ed="#PL"/> noster Jesus Chrislusad biptismum (nam post bapti<lb ed="#PL" break="no"/>smum
+   descendit columba in qua cognovit Joannes 
+   <lb ed="#PL"/> quiddam proprium, cuin ei dictum esset, <hi rend="italic">Super quem 
+   <lb ed="#PL"/> videris
+    Spiritum descendentem sicut columbam, et</hi> ma­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">nentem super eum, ipse est qui baptizat</hi> in <hi rend="italic">Spiritu san­</hi>
+   
+       <lb ed="#PL"/> clo), noverat quia ipse baptizat in Spiritu sancto ; sed 
+   <lb ed="#PL"/> quia tali proprictalc , ut potestas ab eo non transirct 
+   <lb ed="#PL"/> in alterum , quamvis co donante, hoc ibi didicit. Et 
+   <lb ed="#PL"/> unde probamus quia jam et hoc noverat Joannes, 
+   <lb ed="#PL"/> quia baptizaturus erat Dominus in Spiritu sancto; ut 
+   <lb ed="#PL"/> hoc intelligatur didicisse in columba , quod ita erat 
+   <lb ed="#PL"/> baptizaturus Dominus in Spiritu sancto , ut in nemi<lb ed="#PL" break="no"/>nem
+   alium hominem potestas ilia transiret? undc 
+   <lb ed="#PL"/> probamus ? Columba jam baptizato Domino descen<lb ed="#PL" break="no"/>dit: ante autem quam veniret Dominus ut baptizare<lb ed="#PL" break="no"/>tur
+   a Joannc in Jordane, diximus quia novcrat cum, 
+   <lb ed="#PL"/> illis vocibus ubi ait : <hi rend="italic">Tu ad me</hi> venis, baptizari? <hi rend="italic">ego a
+   <lb ed="#PL"/> te debeo
+    baptizari.</hi> Sed ecce Dominum noverat, noverat 
+   <lb ed="#PL"/> Filium Dei : unde probamus quod jam noverat quia 
+   <lb ed="#PL"/> ipse baptizaret in Spiritu sancto? Antequam veniret 
+   <lb ed="#PL"/> ad fluvium, cum multi ad Joannem concurrerent ba<lb ed="#PL" break="no"/>ptizari, ait illis, <hi rend="italic">Ego quidem baptizo</hi> vos in aqua : <hi rend="italic">qui 
+   <lb ed="#PL"/> autem
+    post</hi> me <hi rend="italic">venit, mujor</hi> me <hi rend="italic">est,</hi> cujus
+    <hi rend="italic">non</hi> sum di­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">gnus corrigiam calceamenti solvere; ipse vos baptizabit in
+   <lb ed="#PL"/>
+    Spiritu sancto et</hi> igni <hi rend="italic">(Matth.</hi> in, 14, 11) : jamethoc
+   
+   <lb ed="#PL"/> noverat. Quid ergo per columbam didicit, ne mendax 
+   <lb ed="#PL"/> postea inveniatur (quod avertat a nobis Deus opinari); I 
+   <lb ed="#PL"/> nisi quamdam proprietatem in Christo talem futuram, 
+   <lb ed="#PL"/> ut quamvis multi ministri baptizaturi essent, sive justi, 
+   <lb ed="#PL"/> sive injusti, non tribueretur sancliias Baptismi, nisi 
+   <lb ed="#PL"/> illi super quem descendit columba, de quo dictum 
+   <lb ed="#PL"/> est, <hi rend="italic">Hic est</hi> qui baptizat in <hi rend="italic">Spiritu</hi> sancto ? Petrus ba<lb ed="#PL" break="no"/>ptizet, hic est qui baptizat; Paulus baptizet, hic est 
+   <lb ed="#PL"/> qui baptizat; Judas baptizet, hic est qui baptizat</p>
+      <p xml:id="iuy75t-d1e92-d1e722">8. Nam si pro diversitatc meritorum Baptisma san<lb ed="#PL" break="no"/>ctum
+   est, quia diversa sunt merita, diversa erunt 
+   <lb ed="#PL"/> baptismata; et tanto quisque aliquid melius putatur 
+   <lb ed="#PL"/> accipere, quanto a meliore videtur accepisse. Ipsi san<lb ed="#PL" break="no"/>cti, intelligite fratres, boni pertinentes ad columbam, 
+   <lb ed="#PL"/> pertinentes ad sortem civitatis illius Jerusalem, ipsi 
+   <lb ed="#PL"/> boni in Ecclesia, de quibus dicit Apostolus , <hi rend="italic">Novit
+   <lb ed="#PL"/>
+    Dominus qui sunt ejus</hi> (II Tim. II, 19); diversarum 
+   <lb ed="#PL"/> gratiarum suni, non omnes paria merita habent: sunt 
+   <lb ed="#PL"/> alii aliis sanctiores, sunt alii aliis meliores. Quare ergo 
+   <lb ed="#PL"/> si unus ab illo, verbi gratia, justo sancto baptizotur, 
+   <pb ed="#PL" n="1429"/>
+       <lb ed="#PL"/> alius ab alio inferioris meriti apud Deum, interioris 
+   <lb ed="#PL"/> gradus. inferioris continentiae, inferioris vitae, unum 
+   <lb ed="#PL"/> tamen et par et aequale est quod acceperunt, nisi quia 
+   <lb ed="#PL"/>
+       <hi rend="italic">hic</hi> est qui <hi rend="italic">baptizat?</hi> Quomodo ergo cum baptizat bonus 
+   <lb ed="#PL"/> et melior, non ideo isle bonum accepit, et ille melius; 
+   <lb ed="#PL"/> sed quamvis bonus el melior fuerint ministri, unum 
+   <lb ed="#PL"/> et aequale est quod acceperunt, non est melius in illo, 
+   <lb ed="#PL"/> et inferius in islo : sic et cum baptizat malus ex ali<lb ed="#PL" break="no"/>qua
+   vel ignorantia Ecclesiae, vel tolerantia (aut enim 
+   <lb ed="#PL"/> ignorantur mali, aut tolerantur, toleratur palea, quo<lb ed="#PL" break="no"/>usque
+   in ultimo ventiletur area), illud quod datum 
+   <lb ed="#PL"/> ost, unum est, nec impar propter impares ministros; 
+   <lb ed="#PL"/> sed paretaequale, propter, <hi rend="italic">Hic est qui baptizat.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e92-d1e790">9. Ergo, dilectissimi, videamus quod videre illi 
+   <lb ed="#PL"/> nolunt ; non quod non videant, sed quod se videre 
+   <lb ed="#PL"/> doleant: quasi clausum sit contra illos. Quo missi sunt 
+   <lb ed="#PL"/> discipuli, in nomine Patris et Filii et Spiritus sancti, 
+   <lb ed="#PL"/> ut baptizarent tanquam ministri? quo missi sunt? Ite, 
+   <lb ed="#PL"/> dixit, baptizate <hi rend="italic">genles.</hi> Audistis, fratres, quomodo ve<lb ed="#PL" break="no"/>nit
+   illa hxreditas, <hi rend="italic">Postula a me,
+    et dabo tibi gentes 
+   <lb ed="#PL"/> haereditatem tuam, et possessionem tuam terminos terrae 
+   <lb ed="#PL"/>
+    (Psal.</hi> II, S). Audistis quomodo a Sion prodiit lex, et 
+   <lb ed="#PL"/> verbum Domini ab Jerusalem <hi rend="italic">(Isai.</hi> II, 5) : ibi enirn 
+   <lb ed="#PL"/> audierunt discipuli,
+    <hi rend="italic">Ite,</hi> baptizate <hi rend="italic">gentes</hi> in <hi rend="italic">nomine</hi> Pa­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tris et Filii et Spiritus sancti (Matth.</hi> XXVIII, 19). Intenti
+   
+   <lb ed="#PL"/> facti sumus, cum audiremus, <hi rend="italic">Ite, baptizate gentes.</hi> In 
+   <lb ed="#PL"/> cujus nomine? <hi rend="italic">In nomine Patris et Filii et Spiritus
+   <lb ed="#PL"/> sancti.</hi> Iste unus Deus, quia non, in nominibus Patris 
+   <lb ed="#PL"/> et Filii et Spiritus sancti; sed,
+    <hi rend="italic">in nomine Patris et
+   <lb ed="#PL"/> Filii et Spiritus sancti.</hi> Ubi unum nomcn audis, unus 
+   <lb ed="#PL"/> est Dcus : sicut de semine Abrahae dictum est, et 
+   <lb ed="#PL"/> expenit Paulus apostolus, In <hi rend="italic">semine tuo benedicentur 
+   <lb ed="#PL"/> omnes gentes : non
+    dixit, In seminibus, tanquam in 
+   <lb ed="#PL"/> multis ; sed tanquam in uno, Et semine tuo, quod
+    est 
+   <lb ed="#PL"/> Christus (Gen.</hi> xxn, 18; <hi rend="italic">Gal.</hi> III, 10). Sicut ergo quia 
+   <lb ed="#PL"/> ibi non dicit, in seminibus, docere te voluit Apostolus, 
+   <lb ed="#PL"/> quia nnus est Christus : sic et hic cum dictum est, in 
+   <lb ed="#PL"/>
+       <hi rend="italic">nomine,</hi> non, in nominibus; quomodo ibi, <hi rend="italic">in
+    semine,</hi>
+   
+       <lb ed="#PL"/> non, in seminibus ; probatur unus Deus Pater et Fi<lb ed="#PL" break="no"/>lius
+   et Spiritus sanctus.</p>
+      <p xml:id="iuy75t-d1e92-d1e892">10. Sed, Eccc, inquiunt discipuli ad Dominum, au<lb ed="#PL" break="no"/>divimus
+   in quo nomine baptizemus, ministros nos 
+   <lb ed="#PL"/> fccisti,etdixisti nobis, <hi rend="italic">Ite,
+    baptizate</hi> in <hi rend="italic">nomine Patris 
+   <lb ed="#PL"/> et Filii et Spiritus
+    sancti</hi> : quo ibimus? Quo? non au<lb ed="#PL" break="no"/>dislis? Ad haereditatem meam. Interrogatis, Quo ibi- 
+   <lb ed="#PL"/> Utus? Ad id quod emi sanguine meo. Quo ergo? Ad 
+   <lb ed="#PL"/> gentes, inquit. Putavi qnia dixit, Ite, baptizate Afros 
+   <lb ed="#PL"/> in nomine Patris cl Filii et Spiri'lIs sancti. Deo gra<lb ed="#PL" break="no"/>tias : solvit Dominus quaestionem, docuit columba.
+   
+   <lb ed="#PL"/> Deo gratias : ad gentes Apostoli missi sunt; si ad 
+   <lb ed="#PL"/> gentes, ad omnes linguas. Hoc significavit Spiritus 
+   <lb ed="#PL"/> sanctus divisus in linguis, unitus in columba. Hac 
+   <lb ed="#PL"/> linguae dividuntur I, hac columba copulat. Linguae 
+   <lb ed="#PL"/> gentium concordarunt, et una lingua Africa: discorda<lb ed="#PL" break="no"/>vit ? Quid evidentius, fratres mei? In columba unitas,
+   
+   <lb ed="#PL"/> in linguis gentium societas. Aliquando enim et linguae 
+   <lb ed="#PL"/> per superbiam discordaverunt, et tunc sunt factae 
+   <lb ed="#PL"/> linguae ex una multae. Post diluvium enim superbi 
+   
+   <lb ed="#PL"/> quidam homines, velut adversus Dcum se munire co<lb ed="#PL" break="no"/>nantes, quasi aliquid esset excelsum Deo, aut aliquid 
+   <lb ed="#PL"/> lutum superbiae, erexerunt turrim 1; quasi ne diluvio, 
+   <lb ed="#PL"/> si postea fieret, delerentur. Audierant caim et recen<lb ed="#PL" break="no"/>suerant
+   quia omnis iniquitas erat deleta diluvio : ab 
+   <lb ed="#PL"/> iniquitatc temperare nolebant; altitudinem turris eon<lb ed="#PL" break="no"/>tra
+   diluvium requirebant; aedificaverunt turrim excel­
+   
+   <lb ed="#PL"/> sam. Vidit Deus superbiam ipsorum, ei hunc crrorem 
+   <lb ed="#PL"/> illis immitti fecit, ut non se cognoscerent loqucntes; 
+   <lb ed="#PL"/> et factae sunt diversae linguae per superbiam I <hi rend="italic">(Gen.</hi>
+   
+       <lb ed="#PL"/> xi, i-9). Si superbia fecit diversitates linguarum, hn<lb ed="#PL" break="no"/>militas
+   Christi congregavit diversitatcs linguarum. Jam 
+   <lb ed="#PL"/> quod illa turris dissociaverat, Ecclesia coHigit. Dc una 
+   <lb ed="#PL"/> lingua factae sunt multae ; noli mirari, superbia hoc 
+   <lb ed="#PL"/> fccit: de multis linguis fit una; noli mirari, charitas 
+   <lb ed="#PL"/> hoc fccit. Quia etsi soni diversi linguarum sunt, in 
+   <lb ed="#PL"/> corde unus Deus invocatur, una pax custoditur. Unde 
+   <lb ed="#PL"/> debuit ergo, charissimi, demonstrari Spiritus sauctus, 
+   <lb ed="#PL"/> unitatem quamdam dcsignans, nisi per columbam, ut 
+   <lb ed="#PL"/> pacatae Ecclesiae diceretur, <hi rend="italic">Una eat
+    columba mea?</hi>
+   
+       <lb ed="#PL"/> Unde debuit humilitas, nisi per avcm simplicem et 
+   <lb ed="#PL"/> gementem , non per avem superbam et exaltantem sc 
+   <lb ed="#PL"/> sicut corvus?</p>
+      <p xml:id="iuy75t-d1e92-d1e994">ii. Et forte dicent : Quia ergo columba, et una co<lb ed="#PL" break="no"/>lumba, praeter unam columbam Baptismus esse non 
+   <lb ed="#PL"/> potest : ergo si apnd te est columba, vel tu es colum<lb ed="#PL" break="no"/>ba,
+   quando ad te venio, tu da mihi quod non habeo. 
+   <lb ed="#PL"/> Scitis hoc ipsorum esse : modo vobis apparebit non 
+   <lb ed="#PL"/> esse de voce columbae, sed de clamore corvi. Nam 
+   <lb ed="#PL"/> paululum attendat Charitas vestra, et timete insidias: 
+   <lb ed="#PL"/> imo cavete, et excipite verba contradicentium re<lb ed="#PL" break="no"/>spuenda, non transglutienda et visceribus danda. p'a. 
+   <lb ed="#PL"/> cite inde quod fecit Dominus, quando illi obtulerunt 
+   <lb ed="#PL"/> amarum potum; gustavit, et respuit <hi rend="italic">(Matth.</hi> XXVII, 54): 
+   <lb ed="#PL"/> sic et vos, audite, et abjicite. Quid enim dicunt? vi<lb ed="#PL" break="no"/>deamus. Ecce, iuquil, tu es columba, o Catholica, tibi 
+   <lb ed="#PL"/> dictum est, <hi rend="italic">Una</hi> cat <hi rend="italic">columba
+    mea,</hi> una <hi rend="italic">est</hi> 'matri <hi rend="italic">suae :</hi>
+   
+       <lb ed="#PL"/> libi certe dictum est. Exspecta, noli me interrogate : 
+   <lb ed="#PL"/> si mihi dictum est, proba primum ; si mihi dictum est, 
+   <lb ed="#PL"/> cito volo audire. Inquit, Tibi dictum est. Respondeo 
+   <lb ed="#PL"/> voee Catholicae, Mihi. Hoc autem , fratres, quod ore 
+   <lb ed="#PL"/> meo solius sonuit, sonuit, ut arbitror, et de cordibus 
+   <lb ed="#PL"/> vestris, et omnes pariter diximus, Ecclesiae catholicae 
+   <lb ed="#PL"/> dictum cst, <hi rend="italic">Una eat columba mea, una eat
+    matri</hi> suae. 
+   <lb ed="#PL"/> Prater ipsam columbam, inquit, Baptismus non est; 
+   <lb ed="#PL"/> ego praeter ipsam columbam sum baptizatus; ergo non 
+   <lb ed="#PL"/> habeo Baptismum : si Baptismum non habeo, quare 
+   <lb ed="#PL"/> mihi non das quando ad te vcnio?</p>
+      <p xml:id="iuy75t-d1e92-d1e1068">12. Et ego interrogo : interim sequestremus, cui 
+   <lb ed="#PL"/> dictum sit, <hi rend="italic">Una est columba mea, una eat matri suae;</hi>
+   
+       <lb ed="#PL"/> adhuc quarimus : aut mihi dictum cst, aut tibi dictum 
+   <lb ed="#PL"/> est; sequestremus cui dictum sit. Hoc ergo Quaero, si 
+   <lb ed="#PL"/> columba est simplex , innocens , sine felle, pacata in 
+   <lb ed="#PL"/> osculis, non saeva in unguibus; quaero utrum ad hujus 
+   <lb ed="#PL"/> columbae membra pertineant avari, raptores, subdoli, 
+   <lb ed="#PL"/> cbriosi, flagitiosi : membra sunt columbae hujus? Ab. 
+   
+   <pb ed="#PL" n="1431"/>
+       <lb ed="#PL"/> sit, inquit. Et revera, fratres, quis hoc dixerit? Ut 
+   <lb ed="#PL"/> nihil aliud dicam, raptores solos si dicain , membra 
+   <lb ed="#PL"/> accipitris possunt csse, non membra columbae : milvi 
+   <lb ed="#PL"/> rapiunt, accipitres rapiunt, corvi rapiunt; columbae 
+   <lb ed="#PL"/> non rapiunt, non dilaniant : ergo raptores non sunt 
+   <lb ed="#PL"/> membra columbae. Non apud vos fuit vel unus raptor ? 
+   <lb ed="#PL"/> Quare manet Baptismus quem dedit accipiter, non co<lb ed="#PL" break="no"/>lumba
+   ? Quare non baptizatis apud vos ipsos post ra<lb ed="#PL" break="no"/>ptores
+   et adulteros et ebriosos, p st avaros apud vos 
+   <lb ed="#PL"/> ipsos? An isti omnes membra columbae sunt? Sic 
+   <lb ed="#PL"/> dehonestatis columbam vestram , ut ei membra vul- 
+   <lb ed="#PL"/> turina faciatis. Quid ergo, fratres, quid dicimus? Mali 
+   <lb ed="#PL"/>etboni sunt in Ecclesia catholica : ibi autem soli mali 
+   <lb ed="#PL"/> sunt. Sed Corre inimico animo hoc dico : et hoc postea 
+   <lb ed="#PL"/> requiratur. Et ibi certe dicunt quia sunt boni et mali: 
+   <lb ed="#PL"/> nam si dixerint solos bonos se habere; credant illis 
+   <lb ed="#PL"/> sui,etsubscribo. Non sunt apud nos, dicant, nisi 
+   <lb ed="#PL"/> sancti, justi, casEi, sobrii; non adulteri, non fenera<lb ed="#PL" break="no"/>tores, non fraudatores, non perjuri, non vinolenti: 
+   <lb ed="#PL"/> dicant; non enim attendo linguas ipsorum, sed tango 
+   <lb ed="#PL"/> corda ipsorum. Cum autem noti sint nobis et vobis et 
+   <lb ed="#PL"/> suis, sicut et vos et vobis in Catholica et illis noti 
+   <lb ed="#PL"/> estis; nee nos eos reprehendamus, nec illi se palpent.
+   
+   <lb ed="#PL"/> Nos fatemur in Ecclesia et bonos et malos esse, sed 
+   <lb ed="#PL"/> tanquam grana et paleam. Aliquando qui baptizatur a 
+   <lb ed="#PL"/> grano, palea est; et qui baptizatur a palea, granum
+   
+   <lb ed="#PL"/> eSI. Alioquin si qui baptizatur a grano, valet; et qui 
+   <lb ed="#PL"/> baptizatur a palea, non valet: falsum est, <hi rend="italic">Hic est qui 
+   <lb ed="#PL"/> baptizat.</hi> Si autem vcrum est, <hi rend="italic">Hic est</hi> qui <hi rend="italic">baptizat :</hi> et 
+   <lb ed="#PL"/> quod ab illo datur, valet; et quomodo columba, ba<lb ed="#PL" break="no"/>ptizat. Nun enim malus ille columba est, aut ad mem<lb ed="#PL" break="no"/>bra
+   columbae pertinet : nec hic potest dici in Catholica, 
+   <lb ed="#PL"/> Dee apud illos, si illi dicunt, columbam esse Ecclesiam 
+   <lb ed="#PL"/> suam. Quid ergo intelligimus, fratres? Quoniam ma<lb ed="#PL" break="no"/>nifestum
+   est,etomnibus notum, et si nolint convin<lb ed="#PL" break="no"/>cuntur : quia et ibi quando dant mali, non post illos 
+   <lb ed="#PL"/> baptizatur ; et hic quando dant mali, non post illos 
+   <lb ed="#PL"/> baptizatur. Columba non baptizat post corvum : cor<lb ed="#PL" break="no"/>vus
+   quarc vult baptizare post columbaln ?</p>
+      <p xml:id="iuy75t-d1e92-d1e1185">13. Intendat Charitas vestra :etquare designatum 
+   <lb ed="#PL"/> est nescio quid per columbam , ut baptizato Domino 
+   <lb ed="#PL"/> veniret columba, id cst, Spiritus sanctus in specie 
+   <lb ed="#PL"/> columbae, et maneret super cum, cnm in adventu co<lb ed="#PL" break="no"/>lumbae
+   hoc cognosceret Joannes, propriam quamdam 
+   <lb ed="#PL"/> potestatem in Domino ad baptizandum? Quia per hanc 
+   <lb ed="#PL"/> propriam potestatem, sicut dixi, pax Ecclesiae firmata 
+   <lb ed="#PL"/> est. Et potest fieri ut habcat-aliquis Baptismum prae<lb ed="#PL" break="no"/>tcr
+   columbam : ut prosit ei Baptismus praeter colum­
+   
+   <lb ed="#PL"/> bam , uon potest. Intendat Charitas vestra , et intel<lb ed="#PL" break="no"/>ligat
+   quod dico : nam et ista circumventione saepe 
+   <lb ed="#PL"/> seducunt fratres nostros qni pigrietfrigidi sunt.
+   
+   <lb ed="#PL"/> Simus simpliciores et ferventiores. Ecce, inquiunt, 
+   <lb ed="#PL"/> ego accepi, an non accepi ? Respondeo, Accepisti. 
+   <lb ed="#PL"/> Si ergo accepi, non est quod noi des; securus sum,
+   
+   <lb ed="#PL"/> etiam testimonio luo : et ego euim me dico accepisse, 
+   <lb ed="#PL"/> et tu me fateris accepisse; utriusque lingua sccurum me 
+   <lb ed="#PL"/> facit: quid ergo mihi promittis? quare Inc vis catlioli<lb ed="#PL" break="no"/>&lt;um facere, quando non mihi aliquid daturus es amplius, 
+   <lb ed="#PL"/> et me iam accepisse fateris quod te habere dicis? Ego 
+   <lb ed="#PL"/> autem quando dico, Veni ad me, dico quia non habes 
+   <lb ed="#PL"/> tu , qui fatcris quia habeo : quare dicis , Veni 
+   <lb ed="#PL"/> ad me?</p>
+      <p xml:id="iuy75t-d1e92-d1e1235">i4. Docet nos columba. Respondet enim de capite 
+   <lb ed="#PL"/> Domini, et dicit : Baptismum habes , charitatem au<lb ed="#PL" break="no"/>tem
+   qua gemo non habes. Quid est hoc, inquit, Ba<lb ed="#PL" break="no"/>ptismum
+   habeo, charitatem non habeo? Sacramenta 1 
+   <lb ed="#PL"/> habeo, et charitatem non? Noli clamare; ostende 
+   <lb ed="#PL"/> mihi quomodo habeat charitatem, qui dividit unitatem. 
+   <lb ed="#PL"/> Ego, inquit, habeo Baptismum. lIabes, sed Baptismus 
+   <lb ed="#PL"/> ille sine charitate nihil tibi prodest; quia sine chari<lb ed="#PL" break="no"/>tate
+   tu nihil es. Nam Baptismus ille, etiam in illo qui
+   
+   <lb ed="#PL"/> nihil est, non est nihil: Baptisma quippe illud aliquid 
+   <lb ed="#PL"/> est,etmagnuin aliquid est; propter illum de quo di<lb ed="#PL" break="no"/>ctum
+   est, <hi rend="italic">Hic esl</hi> qui
+    <hi rend="italic">bapiizat.</hi> Sed ne putares illud 
+   <lb ed="#PL"/> quod magnum est, tibi aliquid prodesse posse si non 
+   <lb ed="#PL"/> fueris in unitate, super baptizatum columba descendit, 
+   <lb ed="#PL"/> tanquam dicens : Si Baptismum habes, esto in co<lb ed="#PL" break="no"/>lumba , ne non tibi prosit quod babcs. Veni ergo ad 
+   <lb ed="#PL"/> columbam, dicimus : non ut incipias habere quod non 
+   <lb ed="#PL"/> habebas, sed ut prodesse libi incipiat quod habebas. 
+   <lb ed="#PL"/> Foris enim habebas Baptismum ad perniciem : intus 
+   <lb ed="#PL"/> si habueris, incipit prodesse ad salutem</p>
+      <p xml:id="iuy75t-d1e92-d1e1286">45. Non euim tantum tibi non prodcrat Baptisma, 
+   <lb ed="#PL"/> et non etiam oberat. Et sancta possunt obesse : in bo. 
+   <lb ed="#PL"/> nis enim sancta ad salutem insunt; in malis ad ju<lb ed="#PL" break="no"/>dicium.
+   Certe enim , fratres, novimus quid accipia<lb ed="#PL" break="no"/>mus, et utique sanctum est quod accipimus, et nemo 
+   <lb ed="#PL"/> dicit, non esse sanctum : et quid ait Apostolus ? <hi rend="italic">Qui
+   <lb ed="#PL"/> autem man ducat el bibit indigne, Judicium</hi> sibi <hi rend="italic">mandu<lb ed="#PL" break="no"/>cat
+   et bibit</hi> (I <hi rend="italic">Cor.</hi> XI , 29). Non ait quia illa res mala 
+   <lb ed="#PL"/> est : sedquia ille malus, male accipiendo, ad judicium
+   
+   <lb ed="#PL"/> accipit bonum quod accipit. Num enim mala erat 
+   <lb ed="#PL"/> buccella quae tradita est Judae a Domino <hi rend="italic">(Joan.</hi>
+   
+       <lb ed="#PL"/> XIII, 26)? Absit. Medicus non daret venenum : sa<lb ed="#PL" break="no"/>lutem
+   medicus dedit; sed indigne accipiendo, ad per<lb ed="#PL" break="no"/>niciem
+   accepit qui non pacatus accepit. Sic ergo et
+   
+   <lb ed="#PL"/> qui baptizatur. Habeo, inquit, mihi. Fateor, habes : 
+   <lb ed="#PL"/> observa quod habes; eo ipso quod habes damnaberis. 
+   <lb ed="#PL"/> Quarc ? Quia rem columbae praeter columbam habes. 
+   <lb ed="#PL"/> Si rem columbae' in columba habeas, securus habes. 
+   <lb ed="#PL"/> Puta te esse militarem : si characterem imperatoris 
+   <lb ed="#PL"/> tui iutus habeas, securus militas; si extra habeas, 
+   <lb ed="#PL"/> non solum tibi ad militiam non prodest character ille, 
+   <lb ed="#PL"/> sed etiam pro desertore punieris. Veni ergo, veni, et 
+   <lb ed="#PL"/> noli dicere : Jam habeo, jam sufficit mihi. Veni; co<lb ed="#PL" break="no"/>lumba
+   te vocat, gemendo te vocal. Fratres me!, vobis 
+   <lb ed="#PL"/> dico; gemendo vocate, non rixando : vocale orando, 
+   <lb ed="#PL"/> vocate invitando, vocate jejunando; de charitate I 
+   <lb ed="#PL"/> intelligant quia doletis illos. Non duhito, fratres mei, 
+   <lb ed="#PL"/> quia si videant dolorem vestrum, confundentur, et 
+   <lb ed="#PL"/> reviviscent. Veni ergo, veni : noli timere; time si 
+   <lb ed="#PL"/> non venis : imo non time, sed plange. Veni, gaude<lb ed="#PL" break="no"/>bis
+   si veneris : gemes quidem ill tribulationibus 
+   <lb ed="#PL"/> peregrinationis; sed gaudebis in spe. Veni ubi est 
+   <lb ed="#PL"/> columba , cui dictum est, <hi rend="italic">Una est columba mea ,
+    una</hi>
+   
+   
+       <lb ed="#PL"/>
+       <pb ed="#PL" n="1433"/> eat <hi rend="italic">matri suae.</hi> Columbam unam vides super eaput
+   
+   <lb ed="#PL"/> Christi, linguas non vides in toto orbe terrarum ? 
+   <lb ed="#PL"/> Idem Spiritus per columbam, idem et per linguas : si 
+   <lb ed="#PL"/> per columbam idem Spiritus , et per linguas idem 
+   <lb ed="#PL"/> Spiritus, Spiritus sanctus orbi terrarum 1 datus est, 
+   <lb ed="#PL"/> a quo te praecidisti, ut clames cum corvo, non ut ge<lb ed="#PL" break="no"/>mas
+   cum columba. Vcni ergo.</p>
+      <p xml:id="iuy75t-d1e92-d1e1394">16. Sed sollicitus es forte, et dicis : Foris hapti<lb ed="#PL" break="no"/>zatus, timeo ne inde sim reus, quia foris accepi. Jam 
+   <lb ed="#PL"/> coepisti cognoscere quid gemendum sit: verum dicis,
+   
+   <lb ed="#PL"/> quia reus es; non quia accepisti, sed quia foris acce<lb ed="#PL" break="no"/>pisti. Tene ergo quod accepisii, emenda quod foris 
+   <lb ed="#PL"/> accepisti : accepisti rem columbae, praeter columbam :
+   
+   <lb ed="#PL"/> duo sunt qunc audis; Accepisti, et, Praeter columbam 
+   <lb ed="#PL"/> accepisti : quod accepisti , approbo; quia foris ac<lb ed="#PL" break="no"/>cepisti, improbo. Tene ergo quod accepisti; non mu<lb ed="#PL" break="no"/>tatur, sed agnoscitur : cfiaracter est Regis mei, non 
+   <lb ed="#PL"/> ero sacrilegus
+   ; corrigo desertorem, non inunuto 
+   <lb ed="#PL"/> characterem.</p>
+      <p xml:id="iuy75t-d1e92-d1e1420">17. Noli de Baptismate gloriari, quia dico, ipsum 
+   <lb ed="#PL"/> esl; ecce dico, ipsum est; tota Catholica dicit, ipsum 
+   <lb ed="#PL"/> est : advertit columba , et agnoscit, et gemit, quia 
+   <lb ed="#PL"/> ipsum foris babes; videt ibi quod agnoscat, videtet
+   <lb ed="#PL"/> quod corrigat. Ipsum est, veni. Gloriaris quia ipsum 
+   <lb ed="#PL"/> est, et non vis venire ? Quid ergo mali, qui non per­
+   
+   <lb ed="#PL"/> tinent ad columbam? Ait tibi columba : Et mali inter 
+   <lb ed="#PL"/> quos gemo, qui non pertinent ad membra mea I et 
+   <lb ed="#PL"/> necesse est ut inter illos gemam, nonne habent quod
+   
+   <lb ed="#PL"/> te habere gloriaris ? nonne multi ebriosi habent Ba<lb ed="#PL" break="no"/>ptismum ? nonne multi avari? nonne multi idololatrae, 
+   <lb ed="#PL"/> et quod est pejus, furtim ? nonne Pagani ad idola eunt, 
+   <lb ed="#PL"/> vel ibant publice? nunc occulte Christiani sortilegos 
+   <lb ed="#PL"/> quaerunt, mathematicos consulunt. Et isti habent Ba<lb ed="#PL" break="no"/>ptismum, sed columba gemit inter corvos. Quid ergo 
+   <lb ed="#PL"/> gaudes , quia habes ? hoc habes quod habet et malus. 
+   <lb ed="#PL"/> habeto humilitatem, charitatem, pacem : habeto bonum 
+   <lb ed="#PL"/> quod nondum habes, at prosit tibi bonum quod habes. 
+   <lb ed="#PL"/> i8. Nam quod habes, habuitetSimon magus : 
+   <lb ed="#PL"/> Actus Apostolorum testes sunt, ille liber canonicus 
+   <lb ed="#PL"/> omni anno in Ecclesia recitandus. Anniversaria so<lb ed="#PL" break="no"/>lemnitate
+   post passionem Domini nostis illum librum 
+   <lb ed="#PL"/> recitari, ubi scriptum est quomodo conversus sit Apo<lb ed="#PL" break="no"/>stolus, et ex persecutore praedicator factus <hi rend="italic">(Act.</hi>
+   
+       <lb ed="#PL"/> IX, 1-30) : ubi etiam die Pentecostes missus est Spi<lb ed="#PL" break="no"/>ritus
+   sanctus in linguis divisis velut ignis <hi rend="italic">(Id.</hi> II, 1-4). 
+   <lb ed="#PL"/> Ibi legimus multos credidisse in Samaria per praedi<lb ed="#PL" break="no"/>cationem
+   Philippi : intelligitur autem sive unus ex 
+   <lb ed="#PL"/> Apostolis, sive ex diaconis; quia septem ibi diaconos 
+   <lb ed="#PL"/> legimus ordinatos, inter quos est etiam nomen Phi<lb ed="#PL" break="no"/>lippi <hi rend="italic">(ld.</hi> VI , 3-6). Por Philippi ergo praedicationem 
+   <lb ed="#PL"/> crediderunt Samaritae ; Samaria coepit abundare fide<lb ed="#PL" break="no"/>libus : ibi erat iste Simon magus; per magicas factio<lb ed="#PL" break="no"/>nes
+   suas dementaverat populum, ut eum virtutem 
+   <lb ed="#PL"/> Dei putarent: commotus tamen signis quae a Philippo 
+   <lb ed="#PL"/> fiebant, etiam ipse credidit; sed quomodo ipse cre<lb ed="#PL" break="no"/>didcrit, posteriora sequentia demonstraverunt : ba<lb ed="#PL" break="no"/>ptizatus
+   est autem et Sianon. Audicrunt hoc Apostoli, qui crant Jerusalem; missi sunt ad illos Petrus et 
+   <lb ed="#PL"/> Joannes, invencrunt multos baptizatos : et quia nullus 
+   <lb ed="#PL"/> ipsorum adhuc acceperat Spiritum sanctum, sicut
+   
+   <lb ed="#PL"/> tunc descendebat, ad ostendendam significationem 
+   <lb ed="#PL"/> gentium crediturarum, ut linguis loquenrentur in quos 
+   <lb ed="#PL"/> descendebat Spiritus sanctus ; imposucrunt illis ma­
+   
+   <lb ed="#PL"/> nus orantes pro cis, et acceperunt Spiritum sanctum. 
+   <lb ed="#PL"/> Simon ille, qui non erat in Ecclesia columba, sed 
+   <lb ed="#PL"/> corvus, quia ca quae sua sunt quaerebat, non quae Jcsu
+   
+   <lb ed="#PL"/> Christi <hi rend="italic">(Philipp.</hi> II, 21); unde in Christianis potentiam
+   
+   <lb ed="#PL"/> magis amaverat q'tam justitiam, vidit per impositio<lb ed="#PL" break="no"/>n
+   in manuunl Apostolorum dari Spiritum sanctum 
+   <lb ed="#PL"/> (non quia ipsi dabant, sed quia ipsis orantibus
+   
+   <lb ed="#PL"/> datus est), et ait Apostolis, <hi rend="italic">Quid</hi> vultis <hi rend="italic">a me accipere 
+   <lb ed="#PL"/> pecuniae, ut et per impositionem manuum mearum detur 
+   <lb ed="#PL"/>
+    Spiritus sanctus ?</hi> Et ait illi Petrus, <hi rend="italic">Pecunia tua tecum 
+   <lb ed="#PL"/>
+    sit</hi> in <hi rend="italic">perditionem; quoniam donum Dei putasti pecunia 
+   <lb ed="#PL"/>
+    comparandum.</hi> Cui dicit, <hi rend="italic">Pecunia tua tecum sit in per­ 
+   <lb ed="#PL"/>
+    ditionem ?</hi> Utique baptizato. Jam Baptisma habebat : 
+   <lb ed="#PL"/> sed columbae visceribus non haerebat. Audi quia non 
+   <lb ed="#PL"/> haerebat ; verba ipsa Petri apostoli adverte : sequitur
+   
+   <lb ed="#PL"/> enim , <hi rend="italic">Non est tibi pars neque sors in hac fide ; in felle
+   <lb ed="#PL"/>
+    enim amaritudinis video te esse (Act.</hi> VIII, 5-23). (;o- 
+   <lb ed="#PL"/> lumba fel non habet: Simon habebat; ideo separatus 
+   <lb ed="#PL"/> erat a columbae visceribus. Baptisma illi quid prod<lb ed="#PL" break="no"/>erat ? Noli ergo de Baptismate gloriari, quasi ex ipso 
+   <lb ed="#PL"/> salus tibi sufliciat: noli irasci, depone fel, veni ad 
+   <lb ed="#PL"/> columbam; hic tibi proderit quod foris non solum * 
+   <lb ed="#PL"/> non proderat, sed etiam oberat.</p>
+      <p xml:id="iuy75t-d1e92-d1e1594">19. Neque dicas : Non venio, quia foris sum ha<lb ed="#PL" break="no"/>ptizatus. Ecce incipe habere charitatem, incipe habere 
+   <lb ed="#PL"/> fructum, inveniatur in te fructus, mittet1 te columba
+   
+   <lb ed="#PL"/> intro. Invenimus hoc in Scriptura. Imputribilibus lignis 
+   <lb ed="#PL"/> arca fuerat fabricata <hi rend="italic">(Gen.</hi> VI, 14): imputribilia ligna 
+   <lb ed="#PL"/> sancti sunt, fideles pertinentes ad Christum. Quo<lb ed="#PL" break="no"/>modo
+   enim in templo lapides vivi do quibus acdifica<lb ed="#PL" break="no"/>tur
+   templum, homines fideles dicti sunt; sic ligna 
+   <lb ed="#PL"/> imputribilia homines perseverantes ill fide. In ipsa 
+   <lb ed="#PL"/> ergo arca ligna imputribilia erant; arca enim Eccle<lb ed="#PL" break="no"/>sia
+   est: ibi baptizat cofumba; arca e::im illa in aqua 
+   <lb ed="#PL"/> ferebatur
+   : ligna imputribilia intus baptizata sunt. 
+   <lb ed="#PL"/> Invenimus quaedam ligna foris baptizata, omnes ar<lb ed="#PL" break="no"/>bores
+   quae erant in mundo. Ipsa tamen aqua erat, 
+   <lb ed="#PL"/> non erat altera : omnis dp caelo venerat, et de abys<lb ed="#PL" break="no"/>sis
+   fontium : ipsa erat aqua in qua baptizata suut Ii.. 
+   <lb ed="#PL"/> gna imputribilia quae erant in arca, in qua baptizata 
+   <lb ed="#PL"/> sum ligna foris. Missa est columba, et primo non 
+   <lb ed="#PL"/> invenit requiem pedibus suis : rediit ad arcam; plena 
+   <lb ed="#PL"/> enim crant aquis omnia, et maluit redirc quam re<lb ed="#PL" break="no"/>baptizari. Corvus autem ille elnissus est antequam 
+   <lb ed="#PL"/> siccaret 2 aqua : rebaptizatus redire noluit; mortuus 
+   <lb ed="#PL"/> est in his aquis. Avertat Deus corvi illius mortem. 
+   <lb ed="#PL"/> Nam quare non est reversus, nisi quia aquis interce<lb ed="#PL" break="no"/>ptus
+   est? At vero columba non inveniens requiem pe<lb ed="#PL" break="no"/>dibus
+   suis, cum ei undique clamaret aqua, Veni, veni, 
+   <lb ed="#PL"/> hic tingere; quomodo clamant isti haeretici, Vcoi, 
+   <lb ed="#PL"/> veni, hie habes : non inveniens illa requiem pedibus 
+   
+   <pb ed="#PL" n="1435"/>
+       <lb ed="#PL"/> suis, reversa est ad arcam. Et misit illam Noe ite<lb ed="#PL" break="no"/>rum, sicut vos mittit arca, ut loquamini illis : et quid 
+   <lb ed="#PL"/> fecit postea coluinba? Quia erant ligna foris bapti<lb ed="#PL" break="no"/>zata, reportavit ad arcam ramum de oliva. Ramus 
+   <lb ed="#PL"/> ille et folia et fructum habebat <hi rend="italic">(Cen.</hi> VIII, 6-11) : non 
+   <lb ed="#PL"/> sint in te sola verba, non sint in te sola folia; sit 
+   <lb ed="#PL"/> fructus, et redis ad arcam, non per teipsum, co<lb ed="#PL" break="no"/>lumba
+   tc revocat. Gemite foris, ut illos intro revocetis.</p>
+      <p xml:id="iuy75t-d1e92-d1e1681">20. Etenim fructus iste olivae, si discutiatur, in<lb ed="#PL" break="no"/>venies
+   quid crat. Olivae fructus, charitatem significat. 
+   <lb ed="#PL"/> Unde hoc probamus? Quomodo enim oleum a nullo
+   
+   <lb ed="#PL"/> humore premitur, sed disruptis omnibus exslit et 
+   <lb ed="#PL"/> supereminet: sic et charitas non potest premi in 
+   <lb ed="#PL"/> ima; necesse est ut ad superna emincat1. Propterea
+   
+   <lb ed="#PL"/> de illa dicit Apostolus, <hi rend="italic">Adhuc supereminentiorem viam 
+   <lb ed="#PL"/>
+    vobis demonstro.</hi> Quia diximus de oleo, quia super<lb ed="#PL" break="no"/>eminet, ne forte non de charitate dixerit Apostolus, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Supereminentiorem viam vobis demonstro,</hi> audiamus 
+   <lb ed="#PL"/> quid sequitur : Si <hi rend="italic">linguis hominum loquar et angelo<lb ed="#PL" break="no"/>rum, charitatem
+    autem</hi> non <hi rend="italic">habeam , factus sum tan­
+   <lb ed="#PL"/> quam</hi> aeramentum sonans, <hi rend="italic">aut cymbalum tinniens</hi> (I <hi rend="italic">Cor.</hi>
+   
+       <lb ed="#PL"/> XII, 51, XIII, 1). I nunc, Donate,etclama, Diser<lb ed="#PL" break="no"/>tus
+   sum : i nunc , et clama , Doctus sum. Quantum 
+   <lb ed="#PL"/> disertus ? quantum doctus ? numquid linguis Angelo­
+   
+   <lb ed="#PL"/> rum loculus es? Et tamen si linguis Angelorum lo<lb ed="#PL" break="no"/>quereris, charitatem non babens, audirem aera so<lb ed="#PL" break="no"/>nantia
+   et cymbala tinnientia. Soliditatem aliquam 
+   <lb ed="#PL"/> quaero, fructum in foliis inveniam : non sint sola 
+   <lb ed="#PL"/> verba, habeant olivam, redeant ad arcam.</p>
+      <p xml:id="iuy75t-d1e92-d1e1745">21. Sed, inquies, habeo sacramentum. Verum di<lb ed="#PL" break="no"/>cis : Sacramentum divinum est; habes Baptisma , et 
+   <lb ed="#PL"/> ego confiteor. Sed quid dicit idem apostolus? <hi rend="italic">Si
+   <lb ed="#PL"/> sciero omnia sacramenta,ethabuero prophetiam et
+   <lb ed="#PL"/> omnem
+    fidem, ita ut montes transferam</hi> : ne forte et 
+   <lb ed="#PL"/> hoc diceres, Credidi, sufficit mihi. Sed quid dicit Ja<lb ed="#PL" break="no"/>cobus <hi rend="italic">Et daemones credunt, et
+    contremiscunt ( Jacobi</hi>
+   
+       <lb ed="#PL"/> ii, 19). Magna est fides, sed nihil prodest si non ha<lb ed="#PL" break="no"/>lent
+   charitatem. Confitebantur et daemones Christum. 
+   <lb ed="#PL"/> Ergo credendo, sed non diligendo dicebant, <hi rend="italic">Quid
+   <lb ed="#PL"/> nobisettibi</hi> (Marc. 1, 24)? Fidem habebant,charita­
+   
+   <lb ed="#PL"/> tem non habebant: idco daemones erant. Noli de fide 
+   <lb ed="#PL"/> gloriari; adhuc dxmonibus comparandus cs. Noli di<lb ed="#PL" break="no"/>ccre
+   Christo I, Mihi et tibi quid est' Unitas enim 
+   <lb ed="#PL"/> Christi libi loquitur. Veni, cognosce pacem, redi ad 
+   <lb ed="#PL"/> viscera columhne. Foris baptizatus es; habeto fru<lb ed="#PL" break="no"/>ctum,etredis ad arcam.</p>
+      <p xml:id="iuy75t-d1e92-d1e1792">22. Et tu : Quid nos quaeritis, si mali sumus ? Ut 
+   <lb ed="#PL"/> boni sitis. Idco vos quaerimus, quia mali estis : nam 
+   <lb ed="#PL"/> si mali non essetis, invenissemus vos, non vos quae<lb ed="#PL" break="no"/>rercmus.
+   Qui bonus est, jam inventus est : qui ma<lb ed="#PL" break="no"/>lus
+   cst, adhuc quaeritur. Ideo vos quaerimus; redite 
+   <lb ed="#PL"/> ad arcam. Sed jam habeo Baptismum. <hi rend="italic">Si
+    omnia</hi> sa<lb ed="#PL" break="no"/>cramenta <hi rend="italic">seicro, et habuero prophetiam et omnem
+    fi<lb ed="#PL" break="no"/>dem, ita ut montes transferam, charitatem autem non
+   <lb ed="#PL"/> habeam, nihil</hi> sum. Fructum ibi videam, olivam iUi 
+   <lb ed="#PL"/> videam, et revocaris ad arcam.</p>
+      <p xml:id="iuy75t-d1e92-d1e1820">23. Sed quid ais? Ecce nos multa mala patimur. 
+   
+   <lb ed="#PL"/> haec si pro Christo pateremini, non pro honoribus 
+   <lb ed="#PL"/> vestris. Audite quod sequitur : jactant se cnim ali<lb ed="#PL" break="no"/>quando, quia cleemosynas multas faciunt, dant pan­
+   
+   <lb ed="#PL"/> peribus; quia patiuntur molestias : sed pro Donato, 
+   <lb ed="#PL"/> non pro Christo. Vide quomodo patiaris : nam si pro 
+   <lb ed="#PL"/> Donato pateris, pro superbo pateris; non es in co­
+   
+   <lb ed="#PL"/> , lumba , si pro Donato patcris. Non erat ille ami<lb ed="#PL" break="no"/>cus
+   sponsi : nam si amicus esset sponsi, gloriam 
+   <lb ed="#PL"/> sponsi quaereret, non suam <hi rend="italic">(Joan.</hi> III, 29). Vide ami<lb ed="#PL" break="no"/>cum
+   sponsi dicentem, <hi rend="italic">Hic eat
+    qui baptizat.</hi> Ille non 
+   <lb ed="#PL"/> erat amicus sponsi, pro quo pateris. Non habes vc­
+   
+   <lb ed="#PL"/> stem nuptialcm;etsi ad convivium venisti, foras habes 
+   <lb ed="#PL"/> mitti <hi rend="italic">(Matth.</hi> XXII, 11-13); imo quia foras missus es, 
+   <lb ed="#PL"/> idco miscr es
+   : redi aliquando , et noli gloriari. Audi 
+   <lb ed="#PL"/> quid dicat Apostolus : Si <hi rend="italic">distribuero omnia mea pau­</hi>
+   
+       <lb ed="#PL"/> peribus, <hi rend="italic">et tradidero corpus-meum ut ardeam,</hi> charita­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tem autem non habeam.</hi> Ecce quod non habes. <hi rend="italic">Si
+    tra. 
+   <lb ed="#PL"/> didero,</hi> inquit, <hi rend="italic">corpus meum</hi> ut <hi rend="italic">ardeam;</hi>etutiquc pro 
+   <lb ed="#PL"/> nomine Christi : sed quia sunt multi qui jactanter 
+   <lb ed="#PL"/> illud faciunt, non cum charitate, ideo, <hi rend="italic">Si
+    tradidero
+   <lb ed="#PL"/> corpus meum ut ardeam, charitatem autem non habeam, 
+   <lb ed="#PL"/> nihil mihi
+    prodest ( I Cor.</hi> XIII, 2, 3). Charitate fecerunt 
+   <lb ed="#PL"/> martyres illi qui in tempore persecutionis passi sunt; 
+   <lb ed="#PL"/> charitate fecerunt : isti autem de tumoreetde super. 
+   <lb ed="#PL"/> bia faciunt; nam cum persecutor desit, seipsos praeci<lb ed="#PL" break="no"/>pitant. Veni ergo, ut habeas charitatem. Sed nos ha<lb ed="#PL" break="no"/>bemus
+   martyres. Quos martyres? Non sunt columbae, 
+   <lb ed="#PL"/> idco volare conati sunt, et de petra ceciderunt.</p>
+      <p xml:id="iuy75t-d1e92-d1e1914">24. Omnia ergo, fratres mei, videtis, quia clamant 
+   <lb ed="#PL"/> adversus illos, omnes paginae divinae, omnis prophe<lb ed="#PL" break="no"/>tia, totum Evangelium , omnes apostolicae lillerx , 
+   <lb ed="#PL"/> omnis gemitus columbae ; et nondum evigilant, non<lb ed="#PL" break="no"/>dum
+   expergiscuntur. Sed si columba sumus, gemamus, 
+   <lb ed="#PL"/> toleremus, spercmus; aderit misericordia Dei, utef<lb ed="#PL" break="no"/>ferveat
+   ignis Spiritus sancti in simplicitate vestra; et 
+   <lb ed="#PL"/> venient. Non est desperandum ; orate, praedicate, di<lb ed="#PL" break="no"/>x
+   ligite; prorsus potens est Dominus. Jam coeperunt co<lb ed="#PL" break="no"/>gnoscere
+   frontem suam : multi cognoverunt, multi 
+   <lb ed="#PL"/> erubuerunt; aderit Christus, ut cognoscant et caeteri. 
+   <lb ed="#PL"/> Et certe, fratres mei, vcl palea sola ibi remaneat, 
+   <lb ed="#PL"/> omnia grana colligantur : quidquid ibi fructificavit, 
+   <lb ed="#PL"/> redeat ad arcam per columbam.</p>
+      <p xml:id="iuy75t-d1e92-d1e1945">25. Modo deficientes ubique, quid nobis propo<lb ed="#PL" break="no"/>nunt, non invenientes quid dicant? Villas nostras tu<lb ed="#PL" break="no"/>lerunt, fundos nostros tulerunt. Proferunt testamenta 
+   <lb ed="#PL"/> hominum. Ecce ubi Gaius Scius donavit fundum Ec<lb ed="#PL" break="no"/>clesia, cui praeerat Faustinus. Cujus episcopus erat 
+   <lb ed="#PL"/> Faustinus Ecclesiae ? quid est Ecclesia? Ecclesiae, 
+   <lb ed="#PL"/> dixit, cui praeerat Faustinus : sed non Ecclesiae pra<lb ed="#PL" break="no"/>crat
+   Faustinus, sed parti praeerat. Columba autem 
+   <lb ed="#PL"/> Ecclesia est. Quid clamas? Non devoravimus villas, 
+   <lb ed="#PL"/> columba illas habeat: quaeratur quae sit columba, et 
+   <lb ed="#PL"/> ipsa habeat. Nam nostis, fratres mei, quia villae istac non 
+   <lb ed="#PL"/> sunt Augustini : et si non nostis, et putatis me gaudere 
+   <lb ed="#PL"/> in possessione villarum, Deus novit, ipse scit quid ego 
+   <lb ed="#PL"/> dc illis villis sentiam, vel quid ibi sufferam; novit ge<lb ed="#PL" break="no"/>mitus
+   meos, si mihi aliquid de columba impertire di<lb ed="#PL" break="no"/>guatus
+   est. Ecce sunt villae: quo jure defendis villas ?
+   
+   <lb ed="#PL"/> divino an humano ? Respondeant : Divinum jus in Scri­ 
+   <pb ed="#PL" n="1437"/>
+       <lb ed="#PL"/> pturis babemus, humanum jug in legibus regum. Unde 
+   <lb ed="#PL"/> guisque possidet quod possidet? nonne jure humano? 
+   <lb ed="#PL"/> Nam jure divino, Domini est terra et plenitudo ejus 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Psal.</hi> XXIII, 1) pauperes et divites Deus de uno limo 
+   <lb ed="#PL"/> fecit, et pauperes et divites una terra supportat. Jure 
+   <lb ed="#PL"/> tamen humano dicit, Haec villa mea est, haec domus 
+   <lb ed="#PL"/> mea, hic servus mcus est. Jure ergo humano, jure 
+   <lb ed="#PL"/> imperatorum. Quare? Quia ipsa jura humana per im<lb ed="#PL" break="no"/>peratores
+   et reges saeculi Deus distribuit generi hu<lb ed="#PL" break="no"/>mano. Vultis legamus leges imperatorum, et secun<lb ed="#PL" break="no"/>dum
+   ipsas agamus de villis? Si jure humano vultis 
+   <lb ed="#PL"/> possidere, rccitemns leges imperatorum : videamus 
+   <lb ed="#PL"/> si voluerunt aliquid ab haereticis possideri. Sed quid
+   
+   <lb ed="#PL"/> mihi est imperator ? Secundum jus ipsius possides 
+   <lb ed="#PL"/> terram. Aut tolle jura imperatorum, et quis audet 
+   <lb ed="#PL"/> dicere : Mea est illa villa, aut meus est ille servus,
+   
+   <lb ed="#PL"/> aut domus haec mea est? Si autem ut teneantur ista 
+   <lb ed="#PL"/> ab hominibus, jura acceperunt regum, vultis reciLe<lb ed="#PL" break="no"/>mus
+   leges, ut gnudcatis quia vel unum hortum habe<lb ed="#PL" break="no"/>tis,etnon imputetis nisi mansuetudini columbae, quia 
+   <lb ed="#PL"/> vel ibi vobis permittitur permancre? Leguntur euim 
+   <lb ed="#PL"/> leges manifestae, ubi praeceperunt imperatores, eos qui 
+   <lb ed="#PL"/> praeter Ecclesiae catholicae communionem usurpant sibi 
+   <lb ed="#PL"/> noinen Christianum, nec volunt in pace colere pacis 
+   <lb ed="#PL"/> auctorem, nihil nomine Ecclesiae audeant possidere.</p>
+      <p xml:id="iuy75t-d1e92-d1e2042">26. Sed quid nobis et imperatori ? Sed jam dixi, de 
+   <lb ed="#PL"/> Jure humanoagitur. Et tamen Apostolus voluit serviri 
+   <lb ed="#PL"/> regibus, voluit honorari reges, et dixit : <hi rend="italic">Regem rere­
+   <lb ed="#PL"/> remini</hi> (I <hi rend="italic">Petr.</hi> II, 17). Noli dicere : Quid milii et 
+   <lb ed="#PL"/> regi ? Quid tibi ergo et possessioni ? Per jura regum
+   
+   <lb ed="#PL"/> possidentur possessiones. Dixisti, Quid mihi et regi? 
+   <lb ed="#PL"/> noli dicere possessiones tuas ; quia ad ipsa jura hu<lb ed="#PL" break="no"/>mana
+   renuntiasti, quibus possidentur possessiones. 
+   <lb ed="#PL"/> Sed de divino jure ago, ait. Ergo Evangelium rccite<lb ed="#PL" break="no"/>mus; videamus quo usque Ecclesia catholica Christi 
+   <lb ed="#PL"/> est, saper quero venit columba, quae docuit, <hi rend="italic">Hic eat
+   <lb ed="#PL"/> qui baptizat.</hi> Quomodo ergo jure divino possidoat, qui 
+   <lb ed="#PL"/> dicit, Ego baptizo; cum dicat columba, <hi rend="italic">Hie
+    est</hi> qui 
+   <lb ed="#PL"/>
+       <hi rend="italic">baptizat;</hi> cum dicat Scriptura , <hi rend="italic">Una est columba
+    mea,</hi>
+   
+       <lb ed="#PL"/> una <hi rend="italic">est matri sum?</hi> Quare laniastis columbam? Imo 
+   <lb ed="#PL"/> laniastis viscera vestra : nam vobis laniatis, columba 
+   <lb ed="#PL"/> integra perseverat. Ergo, fratres mei ,. si ubique non 
+   <lb ed="#PL"/> habent quod dicant, ego dico quod faciant : veniant
+   
+   <lb ed="#PL"/> ad Catholicam, et nobiscum habebunt non solum 
+   <lb ed="#PL"/> terram, sed etiam illum qui fecit caelum et terram.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

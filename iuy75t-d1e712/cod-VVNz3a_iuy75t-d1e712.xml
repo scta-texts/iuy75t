@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 82</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 82</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e712"> <!-- iuy75t-t82 -->
+      <head xml:id="iuy75t-d1e712-Hd1e109">Tractatus 82</head>
+      <p xml:id="iuy75t-d1e712-d1e112">
+       <hi rend="italic">De eo quod Dominus dicit,</hi> In hoc clarificatus est Pater 
+   <lb ed="#PL"/> meus, ut fructum plurimum afferatis; usque ad id. 
+   <lb ed="#PL"/> .Et maneo in ejus dilectione.
+    <hi rend="italic">Cap.</hi> xv, f . 8-10.</p>
+      <p xml:id="iuy75t-d1e712-d1e125">1. Magis magisqne Salvator gratiam, qua salvamur 
+   <lb ed="#PL"/> discipulis loquendo commendans :
+    <hi rend="italic">In hoc,</hi> inquit; 
+   <lb ed="#PL"/>
+       <hi rend="italic">clarificatus est Pater</hi> meus, ut fructum <hi rend="italic">plurimum</hi> afferatis, 
+   <lb ed="#PL"/>
+       <hi rend="italic">et efficiamini</hi> mei <hi rend="italic">discipuli.</hi> Sive <hi rend="italic">glorificatus</hi>sive <hi rend="italic">clari­</hi>
+   
+       <lb ed="#PL"/>
+       <pb ed="#PL" n="1843"/>
+       <hi rend="italic">fcatus</hi> dicatur, ex uno graeco verbo utrumque transla<lb ed="#PL" break="no"/>tum
+   cst, quod est <foreign xml:lang="grc">δοξάζειν. Δόξα</foreign> enim quae graece di<lb ed="#PL" break="no"/>citur,
+   laliue gloria e st Quod ide o commemorandum 
+   <lb ed="#PL"/> existimavi, quia dicit Apostolus, Si <hi rend="italic">Abraham</hi> ex <hi rend="italic">ope<lb ed="#PL" break="no"/>ribus
+    justificatus eat, habel gloriam, sed</hi> non <hi rend="italic">ad Deum</hi>
+   
+       <lb ed="#PL"/> (Rom. iv, 2). Ilac est ad Deum gloria qua glorificatur 
+   <lb ed="#PL"/> non homo, sed Deus, si non ex operibus, sed ex fide 
+   <lb ed="#PL"/> justificatur, ut ex Deo illi sit quod etiam bene operatur 
+   <lb ed="#PL"/> quoniam palmes, sicut jam superius dixi, non potest 
+   <lb ed="#PL"/> ferre Fructum a semetipso <hi rend="italic">(Tracl.</hi> 81, n. 2). Si enim 
+   <lb ed="#PL"/> in boc clarificatus est Deus Pater ut fructum pluri<lb ed="#PL" break="no"/>mum
+   afferamus, et efficiamur Christi discipuli; non 
+   <lb ed="#PL"/> huc gloriae nostrae tribuamus, tanquam hoc ex nobis 
+   <lb ed="#PL"/> ipsis habeamus. Ejus est enim haec gratia, et idco in 
+   <lb ed="#PL"/> hoc non nostra, sed ejus est gloria. Unde et alibi cum 
+   <lb ed="#PL"/> dixisset, <hi rend="italic">Src luceat lumen</hi> vestrum <hi rend="italic">coram hominibus, ut
+   <lb ed="#PL"/> videant opera</hi> vestra <hi rend="italic">bona;</hi> ne a semetipsis putarent 
+   <lb ed="#PL"/> esse bona opera sua, mox addidit, <hi rend="italic">Et
+    glorificent</hi> Pa<lb ed="#PL" break="no"/>trem
+   vestrum <hi rend="italic">qui</hi> in <hi rend="italic">coelis est (Matth.</hi> v, 16). In hoc 
+   <lb ed="#PL"/> enim glorificatur Pater ut fructum plurimum affera<lb ed="#PL" break="no"/>tou., et efficiamur Christi diseipuli. A quo officimur,
+   
+   <lb ed="#PL"/> nisi ab illo eujus misericordia praevenit nos? Ipsius 
+   <lb ed="#PL"/> enim figmentum sumus, creati in Christo Jesu in ope<lb ed="#PL" break="no"/>ribus
+   bonis <hi rend="italic">(Ephes.</hi> II, 10).</p>
+      <p xml:id="iuy75t-d1e712-d1e251">I. <hi rend="italic">Sicat dilexit me Pater,</hi> inquit, <hi rend="italic">et ego
+    dilexi vos:
+   <lb ed="#PL"/> manete</hi> in dilectione mea. Ecce unde sunt nobis opera 
+   <lb ed="#PL"/> booa. Nam unde nobis essent, nisi quia fides per 
+   <lb ed="#PL"/> dilectionem operatur <hi rend="italic">(Galat.</hi> v, 6) ? Unde autem dili<lb ed="#PL" break="no"/>geremus, nisi prius diligeremur ? Apertissime hoc in 
+   <lb ed="#PL"/> Epistola sua idem iste evangelista dixit : <hi rend="italic">Noa dili­</hi>
+   
+       <lb ed="#PL"/> gamus <hi rend="italic">Deum,</hi> quoniam <hi rend="italic">ipse</hi> prior <hi rend="italic">dilexit not</hi> (I Jean. 
+   <lb ed="#PL"/> iv, 19). Quod autem ait, <hi rend="italic">Sicut dilexit me Pater,</hi> et 
+   <lb ed="#PL"/>
+       <hi rend="italic">ego dilexi vos;</hi> non aequalitatem naturae ostendit nostras 
+   <lb ed="#PL"/> et suae, sicut est Patris et ipsius, sed gratiam qua 
+   <lb ed="#PL"/> inediator Dei et hominum est bomo Christus Jesue 
+   <lb ed="#PL"/> (I Tim. II, 5). Mediator quippe monstratur, cum dicit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">me Pater, et ego vos</hi> I. Nam Pater utique diligit et 
+   <lb ed="#PL"/> nos, sed in ipso; quia in boc glorificatur Pater, ut 
+   <lb ed="#PL"/> Iructum afferamus in vive, hoc est in Filio, et elUda<lb ed="#PL" break="no"/>mur
+   ejus discipuli.</p>
+      <p xml:id="iuy75t-d1e712-d1e319">3. <hi rend="italic">Manete,</hi> inquit, in <hi rend="italic">dilectione mea.</hi> Quomodo mane<lb ed="#PL" break="no"/>bimus? Audi quid sequitur : <hi rend="italic">Si praecepta mea,</hi> inquit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">servaveritis, manebitis in</hi> dilectione <hi rend="italic">mea.</hi> Dilectio facit prae<lb ed="#PL" break="no"/>cepta
+   servari, an praecepta servata faciunt dilectionem? 
+   <lb ed="#PL"/> Sed quis ambigat quod dilectio praecedit ? Unde enim 
+   <lb ed="#PL"/> praecepta servet non habel, qui non diligit. Qnod ergo 
+   <lb ed="#PL"/> ait, <hi rend="italic">Si praecepta mea servaveritis,
+    manebitis in dilectione</hi>
+   
+       <lb ed="#PL"/> mea, ostendit non uude dilectio generetur, sed uide 
+   <lb ed="#PL"/> monstretur. Tanquam diceret, Nolite vos putare manere 
+   <lb ed="#PL"/> in dilectione mea, si non servatis praecepta mea
+   : si 
+   <lb ed="#PL"/> enim servaveritis, manebitis. Hoc est, hinc apparebit 
+   <lb ed="#PL"/> quod in dilectione mea manebitis, si praecepta mca scr<lb ed="#PL" break="no"/>vabitis. Ut nemo se fallat, dicendo quod cum diligat, si 
+   <lb ed="#PL"/> ejus praetepta non servat. Nam in tantum cum diligi<lb ed="#PL" break="no"/>mus,
+   ill quantum cjus praecepta servamus: in quantum 
+   <lb ed="#PL"/> autem minus servamus, minus diligimus. Quamvis 
+   <lb ed="#PL"/> quod ait, .Inete in <hi rend="italic">dilectione mea,</hi> non apparet quam 
+   
+   <lb ed="#PL"/> dixerit dilectionem, utrum qua cum diligimus, an qua 
+   <lb ed="#PL"/> ipse diligit nos : sed ex verbo superiore dignoscitur. 
+   <lb ed="#PL"/> Dixerat quippe, <hi rend="italic">Et ego dilexi
+    vos;</hi> cui ve: bo continuo 
+   <lb ed="#PL"/> subjunxit, <hi rend="italic">Manete</hi> in <hi rend="italic">dilectione mea :</hi> illa ergo qua 
+   <lb ed="#PL"/> dilexit nos. Quid est ergo,
+    <hi rend="italic">Manete in dilectione mea,</hi>
+   
+       <lb ed="#PL"/> nisi, manete in gratia mea? Et quid est, Si <hi rend="italic">praecepta 
+   <lb ed="#PL"/> mea
+    servaveritis,</hi> manebitis <hi rend="italic">in dilectione mea,</hi> msi, ex 
+   <lb ed="#PL"/> boc scietis quod in dilectione mea qua vos diligo, 
+   <lb ed="#PL"/> manebitis, si praecepta mea servabitis? Non ergo ut 
+   <lb ed="#PL"/> nos diligat, prius ejus praecepta servamus; sed nisi 
+   <lb ed="#PL"/> nos diligat, praecepta ejus servare non possumus. 
+   <lb ed="#PL"/> Haec est gratia qu:e humilibus patet, superbos latet.</p>
+      <p xml:id="iuy75t-d1e712-d1e423">4. Sed quid illud est quod adjungit : Sind <hi rend="italic">et ego 
+   <lb ed="#PL"/> Patris</hi> mei <hi rend="italic">praecepta</hi> servavi, <hi rend="italic">et maneo in ejus</hi> dile<lb ed="#PL" break="no"/>ctione
+   Utique etiam hic hanc dilectionem Patris intel<lb ed="#PL" break="no"/>tigi
+   voluit, qua eum diligit Pater. Ita quippe dixerat, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Sicut dilexit</hi> me <hi rend="italic">Pater, et ego dilexi vos;</hi> atque his 
+   <lb ed="#PL"/> verbis illa subjunxit, <hi rend="italic">Manete in dilectione</hi> mea, illa 
+   <lb ed="#PL"/> procul dubio qua dilexi vos. Ergo quod ait etiam de 
+   <lb ed="#PL"/> Patre, <hi rend="italic">Maneo in ejus dilectione,</hi> illa scilicet accipicnda 
+   <lb ed="#PL"/> est qua dilexit eam Pater. Sed numquid et hic gratia 
+   <lb ed="#PL"/> intelligenda est, qua Pater diligit Filium, sicut gratia 
+   <lb ed="#PL"/> est qua nos diligit Filius : cum simus nos filii gratin,
+   
+   <lb ed="#PL"/> Don natura; Unigenitus autem natura, non gratia? 
+   <lb ed="#PL"/> An hoc etiam in ipso Filio ad hominem referendum 
+   <lb ed="#PL"/> est ? Ita sane. Nam dicendo, <hi rend="italic">Sicut
+    dilexit</hi> me <hi rend="italic">Pater, et
+   <lb ed="#PL"/> ego dilexi VOl,</hi> gratiam mediatoris ostendit. Mediator 
+   <lb ed="#PL"/> autem Dei et hominom, non in quantum Deus, sed in
+   
+   <lb ed="#PL"/> quantum homo est Cbristos Jesus. Et profecto secun<lb ed="#PL" break="no"/>dum
+   id quod homo est, de illo legitur, <hi rend="italic">Et Jesus</hi> profi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">ciebat sapientia et aetate, et gratia apud Deum et homines 
+   <lb ed="#PL"/>
+    (Luc.</hi> II, 52). Secundum hoc igitur recte possumus 
+   <lb ed="#PL"/> dicere, quod cum ad naturam, Dei non pertineat huma<lb ed="#PL" break="no"/>na
+   natura, ad personam tamen unigeniti Filii Dei per 
+   <lb ed="#PL"/> gratiam pertinet humana natura; et tantam gratiam, 
+   <lb ed="#PL"/> ut nulla sit major, nulla prorsus aequalis. Neque enim 
+   <lb ed="#PL"/> illam susceptionem hominis ulla merita praecesserunt, 
+   <lb ed="#PL"/> sed ab illa susceptione merita ejus cuncta coeperunt. 
+   <lb ed="#PL"/> Manet ergo Filias in dilectione qua eum dilexit Pater, 
+   <lb ed="#PL"/> et ideo servavit praecepta ejus. Quid est enim et ille 
+   <lb ed="#PL"/> homo, nisi quod Deus susceptor est ejus <hi rend="italic">(Psal.</hi> III, 4), 
+   <lb ed="#PL"/> Deus enim erat Verbum, Unigenitus gignenti coaeter<lb ed="#PL" break="no"/>nos
+   : sed ut mediator daretur nobis, per ineffabilem 
+   <lb ed="#PL"/> gratiam Verbum caro factum est,ethabitavit in 
+   <lb ed="#PL"/> nobis <hi rend="italic">(Joan.</hi> I, i, 14).</p>
+    </div>
+   </body>
+  </text>
+</TEI>

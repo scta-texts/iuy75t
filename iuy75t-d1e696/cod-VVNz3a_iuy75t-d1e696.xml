@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 80</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 80</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e696"> <!-- iuy75t-t80 -->
+      <head xml:id="iuy75t-d1e696-Hd1e109">Tractatus 80</head>
+      <p xml:id="iuy75t-d1e696-d1e112">
+       <hi rend="italic">De eo qnod dicit,</hi> Ego sum vitis vera, et Pater meus 
+   <lb ed="#PL"/> agricola est; <hi rend="italic">usque ad</hi> id, Jam vos mundi estis pro<lb ed="#PL" break="no"/>pter
+   sermonem qucm locutus sum vobis. <hi rend="italic">Cap.</hi> xv, 
+   <lb ed="#PL"/> ℣. 1-3.</p>
+      <p xml:id="iuy75t-d1e696-d1e131">1. Iste locus evangelicus, fratres, ubi se dicit Do<lb ed="#PL" break="no"/>minus
+   vitem, et discipulos suos palmites, secundum 
+   <lb ed="#PL"/> hoc dicit quod est caput Ecclesiae, nosque membra 
+   <lb ed="#PL"/> ejus, mediator Dei et hominum homo Christus Jesus 
+   <lb ed="#PL"/> (1 <hi rend="italic">Tim.</hi> II, 5). Unius quippe naturae sunt vitis et palmi<lb ed="#PL" break="no"/>les : propter quod cum esset Deus, cujus naturae 
+   <lb ed="#PL"/> non sumus, factus est homo, ut in illo esset vitis hu<lb ed="#PL" break="no"/>mana
+   natura, cu;us et nos homines palmites esse pos<lb ed="#PL" break="no"/>semus. Quid ergo est, <hi rend="italic">Ego</hi> sum <hi rend="italic">vitis</hi> vera? Numquid ut 
+   <lb ed="#PL"/> adderet ver, hoc ad cam vitem retulit, unde ista si<lb ed="#PL" break="no"/>militudo
+   translata cst? Sic enim dicitur vitis, per si<lb ed="#PL" break="no"/>militudinem, non per proprietatcm ; quemadmodum 
+   <lb ed="#PL"/> dicitur ovis, agnus, leo, petra, lapis angularis, et cae<lb ed="#PL" break="no"/>tera
+   hujusmodi, quae magis ipsa sunt vera, ex quibus 
+   <lb ed="#PL"/> ducuntur istae similitudines, non proprietates. Sed
+   
+   <lb ed="#PL"/> cum dicit, <hi rend="italic">Ego sum vitis uera,</hi> ab illa se utique di<lb ed="#PL" break="no"/>scernit
+   cui dicitur, <hi rend="italic">Quomodo conversa es in amaritudi­</hi>
+   
+       <lb ed="#PL"/> nem, <hi rend="italic">vitis aliena (Jerem.</hi> II, 21)? Nam quo pacto est 
+   <lb ed="#PL"/> vitis vera, quae exspectata est ut iaceret uvam, fecit 
+   <lb ed="#PL"/> autem. spinas <hi rend="italic">(Isai.</hi> v, 4)1</p>
+      <p xml:id="iuy75t-d1e696-d1e197">i. <hi rend="italic">Ego sum,</hi> inquit, <hi rend="italic">vitis vera, et Pater meus
+    agricola 
+   <lb ed="#PL"/> est. Omnem palmitem</hi> in <hi rend="italic">me non ferentem fructum,
+    tollet 
+   <lb ed="#PL"/> eum : et omnem qui</hi> fert <hi rend="italic">fructum, purgabit eum, ut
+    fructum</hi>
+   
+       <lb ed="#PL"/> plus afferat. Numquid unum sunt agricola et vilis ? Se<lb ed="#PL" break="no"/>cundum
+   hoc ergo vitis Christus, secundum quodait, <hi rend="italic">Pa­</hi>
+   
+       <lb ed="#PL"/> ter major me est (Joan. XIV, 28) : secundum autem id quod 
+   <lb ed="#PL"/> ait,Ego <hi rend="italic">et Pater</hi> unum sumus <hi rend="italic">(ld.</hi> x, 30), et ipse agri<lb ed="#PL" break="no"/>cola
+   est. Nec talis quales sunt, qui extrinsecus ope<lb ed="#PL" break="no"/>rando
+   exhibent ministerium; sed talis ut det etiam 
+   <lb ed="#PL"/> intrinsecus incrementum. <hi rend="italic">Nam
+    neque</hi> qui <hi rend="italic">plantat eat 
+   <lb ed="#PL"/> aliquid, neque qui rigat; sed qui
+    incrementum dat Deus.</hi>
+   
+       <lb ed="#PL"/> Sed utique Deus est Christus, quia Deus erat Verbum; 
+   <lb ed="#PL"/> unde ipse et Pater unum sunt: et si Verbum caro fa<lb ed="#PL" break="no"/>ctum
+   est (Id. i, i, 14) quod non erat, manet quod
+   
+   <lb ed="#PL"/> erat. Denique cum de Patre tanquam de agricola 
+   <lb ed="#PL"/> dixisset quod infructuosos palmites tollat, fructuosos 
+   <lb ed="#PL"/> autem purget ut plus afierant fructum; continuo 
+   <lb ed="#PL"/> etiam seipsum mundatorem palmitum ostendens, <hi rend="italic">Jam 
+   <lb ed="#PL"/> vos,</hi> inquit, mundi <hi rend="italic">estis propter</hi> sermonem <hi rend="italic">quem
+    locutus</hi>
+   
+       <lb ed="#PL"/> sum <hi rend="italic">vobis.</hi> Ecce et ipse mundator est palmitum, quod 
+   <lb ed="#PL"/> est agricolae, non vitis officium : qui cLiam palmites 
+   <lb ed="#PL"/> operarios suos fecit. Nam etsi non dant incrementum, 
+   <lb ed="#PL"/> impendunt tamen aliquod adjumentum; sed non de 
+   <lb ed="#PL"/> suo : <hi rend="italic">Quia sine tne,</hi> inquit, <hi rend="italic">nihil potestis
+    facere.</hi> Audi 
+   <lb ed="#PL"/> etiam ipsos confientes : <hi rend="italic">Quid autem eat
+    Apollo? quid
+   <lb ed="#PL"/> autem Paulus? Ministri per quos (<foreign xml:lang="grc">δι</foreign>
+        <foreign xml:lang="grc">ὢν</foreign>) credidistis, et</hi> uni­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">cuique sicut Dominus dedit. Ego</hi> plantavi, <hi rend="italic">Apollo</hi> rigavit. 
+   <lb ed="#PL"/> Et hoc ergo <hi rend="italic">sicut umcuique Dominus
+    dedit:</hi> non itaque 
+   <lb ed="#PL"/> de suo. Jamvero quod scquitur, <hi rend="italic">sed Deus
+    incrementum
+   <lb ed="#PL"/> dedit</hi> (I <hi rend="italic">Cor.</hi> III, 5 7); non per illos, sed per seipsum 
+   <lb ed="#PL"/> facit: excedit boc humanam humilitatem, excedit an<lb ed="#PL" break="no"/>gelicam
+   sublimitatem, nee omnino pertinet nisi ad 
+   <lb ed="#PL"/> agricolam Trinitatem. <hi rend="italic">Jam vos mundi estis,</hi> mundi 
+   <lb ed="#PL"/> scilicet atque mundandi. Neque enim nisi mundi es<lb ed="#PL" break="no"/>sent, fructum ferre potuissent: et tamen omnem qui 
+   <lb ed="#PL"/> fert fructum, purgat agricola, ut fructum plus affec<lb ed="#PL" break="no"/>rat. Fert fructum, quia mundus est; atque ut plus
+   
+   <lb ed="#PL"/> afferat, purgatur adhuc. Quis enim est in hac vita sic 
+   <lb ed="#PL"/> mundus, ut non sit magis magisque mundandus? Uhi 
+   <lb ed="#PL"/> i si dixerimus quia peccatum non habcmus, nos ipsos
+   
+   <lb ed="#PL"/> seducimus, et veritas in nobis non cst: si autem con<lb ed="#PL" break="no"/>fessi
+   fuerimus peccata nostra, fidelis est et justus, qui 
+   <lb ed="#PL"/> dimittat nobis peccata, et mundet nos ab omni ini<lb ed="#PL" break="no"/>quitatei (I <hi rend="italic">Joan.</hi> 1,8,9): mundet utique mundos, hoc
+   
+   <lb ed="#PL"/> est fructuosos, ut tanto sint fructuosiores, quanto 
+   <lb ed="#PL"/> fuerint mundiores.</p>
+      <p xml:id="iuy75t-d1e696-d1e376">3. <hi rend="italic">Jam vos</hi> mundi <hi rend="italic">estis propter verbum quod
+    loculus
+   <lb ed="#PL"/> sum vobis.</hi> Quare non ait, inundi estis propter Ba<lb ed="#PL" break="no"/>ptismum
+   quo loti estis , sed ait, <hi rend="italic">propter verbum quod
+   <lb ed="#PL"/> locutus sum vobis;</hi> nisi quia et in aqua verbum mun<lb ed="#PL" break="no"/>dat? Detrahe verbum, et quid est aqua nisi aqua ? Ac<lb ed="#PL" break="no"/>cedit
+   verbum ad elementum , et fil Sacramentum, 
+   <lb ed="#PL"/> etiam ipsum tanquam visibile verbum. Nam et hoc 
+   <lb ed="#PL"/> utique dixerat, quando pedes discipulis lavit : <hi rend="italic">Qui</hi> lo<lb ed="#PL" break="no"/>tus <hi rend="italic">est, non indiget nisi ut pedes
+    lavet, scd est mundus 
+   <lb ed="#PL"/> totus (Joan.</hi> XIII, 10). Unde ista tanta vir tus aquae, ut 
+   <lb ed="#PL"/> corpus tangat et cor abluat, nisi faciente verbo : non 
+   <lb ed="#PL"/> qnia dicitur, sed quia creditur ? Nametin ipso verbo, 
+   <lb ed="#PL"/> aliud est sonus transiens, aliud virtus manens. <hi rend="italic">lloc 
+   <lb ed="#PL"/> eat</hi> verbum <hi rend="italic">fidei quod praedicamus</hi> ait Apostolus, <hi rend="italic">quia</hi>
+   
+       <lb ed="#PL"/> si <hi rend="italic">confessus</hi> fueris in <hi rend="italic">ore tuo quia</hi> Dominus <hi rend="italic">est Jesus, 
+   <lb ed="#PL"/> et credideris in corde tuo quia Deus
+    illum</hi> suscitavit a 
+   <lb ed="#PL"/> mortuis, <hi rend="italic">salvus eris. Corde enim
+    creditur ad justitiam, 
+   <lb ed="#PL"/> ore autem confessio fit ad salutem (Rom.</hi> x, 8-10). Unde 
+   <lb ed="#PL"/> in Actibus Apostolorum legitur, <hi rend="italic">Fide mundans corda
+   <lb ed="#PL"/>
+    eorum (Act.</hi> xv, 9) : et in Epistola sua beatus Petrus, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Sic et vos</hi> , inquit, <hi rend="italic">Baptisma salvos facit;
+    non</hi> caritis 
+   <lb ed="#PL"/>
+       <hi rend="italic">depositio</hi> sordium, <hi rend="italic">sed conscientia bonae
+    interrogatio</hi>
+   
+       <lb ed="#PL"/> (l <hi rend="italic">Petr.</hi> III, 21). <hi rend="italic">Hoc est verbum</hi> fidei <hi rend="italic">qnod praedicamus' :</hi>
+   
+       <lb ed="#PL"/> quo sine dubio ut mundare possit, consecratur et Ba<lb ed="#PL" break="no"/>ptismus. Christus quippe nobiscum vitis , cum Patre 
+   <lb ed="#PL"/> agricola , <hi rend="italic">dilexit Ecclesiam,
+    et seipsum tradidit pro ea.</hi>
+   
+       <lb ed="#PL"/> Lege Apostolum , cl vide quid adjungat: <hi rend="italic">Ut eam
+   <lb ed="#PL"/>
+    sanctificaret,</hi> inquit, mundans <hi rend="italic">eum lavacro aquae</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">verbo (Ephes.</hi> v, 25-26). Mundatio igitur nequaquam 
+   <lb ed="#PL"/> fluxo et labili tribuerelur elemento , nisi addercLur, 
+   <lb ed="#PL"/>
+       <hi rend="italic">in verbo.</hi> Hoc verbum fidei tantum valet in Ecclesia 
+   <lb ed="#PL"/> Dei, ut per ipsum credentem I, offerentem, bene<lb ed="#PL" break="no"/>dicentem, tingentem, etiam tantillum mundet infan<lb ed="#PL" break="no"/>tem ; quamvis nondum valentem corde credere ad 
+   <lb ed="#PL"/> justitiam,etore confiteri ad salutem. Totum hoc fit 
+   <lb ed="#PL"/> per verbum, de quo Dominus ait, <hi rend="italic">Jam</hi> vos <hi rend="italic">mundi 
+   <lb ed="#PL"/> eatis propter verbum quod
+    locutus sum</hi> vobis. 
+   <pb ed="#PL" n="1841"/>
+      </p>
+    </div>
+   </body>
+  </text>
+</TEI>

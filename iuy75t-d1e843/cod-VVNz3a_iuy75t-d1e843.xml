@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 98</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 98</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e843"> <!-- iuy75t-t98 -->
+      <head xml:id="iuy75t-d1e843-Hd1e109">Tractatus 98</head>
+      <!--<ab>
+   <title type="sub">
+    <hi rend="italic">In eamdem lectionem.</hi>
+   </title>
+  </ab>-->
+      <p xml:id="iuy75t-d1e843-d1e114">i. Ex verbis Domini nostri, ubi dicit, <hi rend="italic">Adhuc multa 
+   <lb ed="#PL"/> habeo vobis
+    dicere, sed non potestis portare modo,</hi>
+   
+       <lb ed="#PL"/> exortam difficilem quaestionem me recolo distulisse, 
+   <lb ed="#PL"/> ut inde oliosius tractaretur 1, quia illum modus com<lb ed="#PL" break="no"/>petens
+   compellebat finire sermonem. Nunc ergo quo<lb ed="#PL" break="no"/>niam
+   tempus est promissa reddendi, pertractetur ut 
+   <lb ed="#PL"/> Dominus ipse donavcril, qui cordi nostro ut propone<lb ed="#PL" break="no"/>retur
+   ingessit. Hacc est autem quaestio : utrum spiri<lb ed="#PL" break="no"/>tuales
+   homines habeant aliquid in doctrina, quod car<lb ed="#PL" break="no"/>nalibus
+   taceant,etspiritualibus dicant. Quia si dixe<lb ed="#PL" break="no"/>rimus, Non habent ; respondebitur nobis, Quid est 
+   <lb ed="#PL"/> ergo quod dicebat Apostolus scribens ad Corinthios : 
+   <lb ed="#PL"/> i Non potui vybis loqui quasi spiritualibus, sed quasi 
+   <lb ed="#PL"/> carnalibus. Quasi parvulisin Christo lac vobis potum 
+   <lb ed="#PL"/> dedi, non escam ; nondum enim poteratis : sed neo 
+   <lb ed="#PL"/> adhuc quidem potestis; adhuc cnim estis carnales &gt; 
+   <lb ed="#PL"/>
+       <hi rend="italic">(I Cor.</hi> III, 1 <hi rend="italic">et</hi> 2) ? Si autem dixerimus, Habent; ti<lb ed="#PL" break="no"/>mendum
+   et eavendum est, ne sub hac occasione in oc<lb ed="#PL" break="no"/>culis
+   nefaria doceantur , et spiritualium nomine , 
+   <lb ed="#PL"/> velut ea quae carnales capere non possunt, non solum 
+   <lb ed="#PL"/> excusatione dealbanda, verum etiam praedicatione 
+   <lb ed="#PL"/> laudanda videantur.</p>
+      <p xml:id="iuy75t-d1e843-d1e171">i. Primum ergo scire debet Charitas vestra, quod 
+   <lb ed="#PL"/> ipse Cbristus crucifixus 2, quo velut lacte parvulos 
+   <lb ed="#PL"/> aluisse se dicit ApoSlolus; ipsa vero caro ejus, in que 
+   <lb ed="#PL"/> facta est vera mors ejus et vulnera vera confixi, sae<lb ed="#PL" break="no"/>guisque
+   percussi, noa eo modo a carnalibus quo ab 
+   <lb ed="#PL"/> spiritualibus cogitatur, et illis est lac, istis cibus; quia 
+   <lb ed="#PL"/> et si non audiunt amplius, intelligunt amplius. Non 
+   
+   <pb ed="#PL" n="1881"/>
+       <lb ed="#PL"/> enim aequaliter mente percipitur, etiam quod in fide pa<lb ed="#PL" break="no"/>ritcr
+   ab ulrisqne recipitur. Iia fit ut praedicatus ab Apo<lb ed="#PL" break="no"/>stolis
+   Christus crucifixus, et Judaeis esset scandalum,et
+   <lb ed="#PL"/> Grntibus stultitia, et ipsis vocatis Judxis et Graecis Dei 
+   <lb ed="#PL"/> Virtus et Dei Sapientia(I Cor. I, 23, 24;: sed carnalibus 
+   <lb ed="#PL"/> parvulis id tantum credendo tenentibus, spiritualibus 
+   <lb ed="#PL"/> autem capacioribus id etiam intelligendo cernentibus ; 
+   <lb ed="#PL"/> illis ergo tanquam lacteus potus, istis tanquam solidus 
+   <lb ed="#PL"/> cibus
+   : non quia hoc illi aliter in populis, isti aliter 
+   <lb ed="#PL"/> in cubiculis cognoverunt ; sed quod eodum modo utri<lb ed="#PL" break="no"/>que
+   cum palam diceretur audiebant, pro suo modo 
+   <lb ed="#PL"/> quique capiebant. Cum enim Christus propterea sit 
+   <lb ed="#PL"/> crucifixus, ut in remissionem peccatorum sanguinem 
+   <lb ed="#PL"/> funderet, qua ejus Unigeniti passione divina gratia 
+   <lb ed="#PL"/> commendatur, ut nemo in homine glorietur; quomodo 
+   <lb ed="#PL"/> intelligebant Christum crucifixum qui adhuc dicebant, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ego sum Pauli (Ibid., 12) ?</hi> Numquid quomodo ipse 
+   <lb ed="#PL"/> Paulus qui dicebat, <hi rend="italic">Mihi autem absit gloriari,</hi> nisi in 
+   <lb ed="#PL"/>
+       <hi rend="italic">cruce Domini nostri Jesu Christi (Galat.</hi> VI, i4)? De 
+   <lb ed="#PL"/> ipso itaque Christo crucifixo, et ipse cibum pro sua 
+   <lb ed="#PL"/> capacitate sumebat, et illos lacte pro eorum infirmi<lb ed="#PL" break="no"/>tite
+   nutriebat. Denique illa quae scripsit ad Corinthios, 
+   <lb ed="#PL"/> aliter utique ab ipsis parvulis, aliter a capacioribus 
+   <lb ed="#PL"/> posse intelligi sciens, ait
+   : <hi rend="italic">Siquis eat intervos propheta
+   <lb ed="#PL"/> aut spirtiualis, agnoscat quae
+    scribo vobis, qnia Domini 
+   <lb ed="#PL"/> eat</hi> mandatum : <hi rend="italic">si quis autem
+    ignorat,</hi> ignorabitur ( l 
+   <lb ed="#PL"/>
+       <hi rend="italic">Cor.</hi> xiv, 37, 38). Solidam profecto voluit esse scien<lb ed="#PL" break="no"/>tiain
+   spiritualium, ubi non sola fides accommodare<lb ed="#PL" break="no"/>tur, sed certa cognitio teneretur ; ac per hoc illi ea 
+   <lb ed="#PL"/> ipsa credebant, quae spirituales insuper agnoscebant. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Jgnorabitur</hi> autcm , ait, qui <hi rend="italic">ignorat;</hi> quia nondum ci 
+   <lb ed="#PL"/> revelatum est, ut quod credit sciat. Quod cum fit in 
+   <lb ed="#PL"/> hominis mente
+   , ipse dicitur cognosci a Deo; quia 
+   <lb ed="#PL"/> Deus illum cognoscentem facit, sicut alibi ait
+   : <hi rend="italic">Nunc 
+   <lb ed="#PL"/> cutem cognoscentes Deum, imo cogniti a Deo (Galat.</hi> IV, 
+   <lb ed="#PL"/> 9). Neque enim tunc cognoverat eos Deus, praecognitos 
+   <lb ed="#PL"/>etelectos ante mundi constitutionem <hi rend="italic">(Eph.</hi> I, 4); sed 
+   <lb ed="#PL"/> tunc eos scipsum cognoscere fecerat.</p>
+      <p xml:id="iuy75t-d1e843-d1e303">3. Hoc igitur primitus cognito, quod ea ipsa quae 
+   <lb ed="#PL"/> simui audiunt spirituales atque carnales, pro suo qui<lb ed="#PL" break="no"/>que
+   modulo capiunt; illi ut parvuli, isti ut majores, 
+   <lb ed="#PL"/> illi ut lactis alimentum , isti ut cibi solidamentum : 
+   <lb ed="#PL"/> nulta videtur esse necessitas, ut aliqua secreta do<lb ed="#PL" break="no"/>ctrinaE
+   taceantur, et abscondantur fidelibus parvulis, 
+   <lb ed="#PL"/> seorsum dicenda majoribus, hoc est intelligentioribus; 
+   <lb ed="#PL"/> et hoc ideo faciendum putetur, quia dixit Apostolus, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Non</hi> potui <hi rend="italic">vobis loqui quasi spiritualibus , sed
+    quasi 
+   <lb ed="#PL"/> carnalibus.</hi> Hoc ipsum enim quod non judicavit sc 
+   <lb ed="#PL"/> scire in eis nisi Jesum Christum, et hunc crucifixum 
+   <lb ed="#PL"/> ( I <hi rend="italic">Cor.</hi> II, 2), ipsis non potuit loqui quasi spiriluali<lb ed="#PL" break="no"/>bus, sed quasi carnalibus ; quia id sicut spirituales 
+   <lb ed="#PL"/> eapere non valebant. Quicumque antem spirituales 
+   <lb ed="#PL"/> inter eos erant, idem quod illi tanquam earnales au<lb ed="#PL" break="no"/>diebant, spirituali ipsi intellectu capiebant: ut sic in<lb ed="#PL" break="no"/>telligatur
+   quod ait, <hi rend="italic">Non potui vobis loqui
+    quasi spiri<lb ed="#PL" break="no"/>tuatibus, sed</hi> quasi <hi rend="italic">carnalibus,</hi> ac si diceret, Non po<lb ed="#PL" break="no"/>tuistis
+   quasi spirituales, sed quasi carnales capere 
+   <lb ed="#PL"/> qnod loquebar. <hi rend="italic">Animalis</hi> enim <hi rend="italic">homo,</hi> id est, qui secun<lb ed="#PL" break="no"/>dum
+   hommem, sapit, animalis dictus ab anima, carnalia 
+   <lb ed="#PL"/> a carne, quia ex anima et carne constat totns homo , 
+   <lb ed="#PL"/>
+       <hi rend="italic">non percipit quae sunt Spiritus Dei (I Cor.</hi> II, 14), id est, 
+   <lb ed="#PL"/> quid gratiae credentibus crux conferat Christi; et pu<lb ed="#PL" break="no"/>tat
+   hoc illa cruce actum esse tantummodo, ut nobis 
+   <lb ed="#PL"/> usque ad mortem pro veritate certantibus imitandum 
+   <lb ed="#PL"/> praberctur exemplum. Nam si scirent huJusmodi ho<lb ed="#PL" break="no"/>mines, qui nolunt esse nisi homines, quemadmodum 
+   <lb ed="#PL"/> Christus crucifixus <hi rend="italic">factus</hi> sit <hi rend="italic">nobis sapientia a Deo, et</hi>
+   
+       <lb ed="#PL"/> justitia, <hi rend="italic">et sanctificatio, et redemptio, nt quemadmodum
+   <lb ed="#PL"/>
+    scriptum est,</hi> Qui <hi rend="italic">gloriatur in Domino glorietur ( I d.</hi>
+   
+       <lb ed="#PL"/> I, 30, 31) ; procul dubio non gloriarentur in homine, 
+   <lb ed="#PL"/> nec carnaliter dicerent, <hi rend="italic">Ego quidem sum Pauli; ego
+   <lb ed="#PL"/> autem Apollo; ego vero Cephae
+    :</hi> sed spiritualiter, <hi rend="italic">Ego
+   <lb ed="#PL"/> sum Christi (Ibid. 12).</hi>
+      </p>
+      <p xml:id="iuy75t-d1e843-d1e423">4. Verum illud adhuc quaestionem facil, quod in 
+   <lb ed="#PL"/> Epistola ad Hebraeos legitur : « Cum jam deberetis 
+   <lb ed="#PL"/> tempore ipso esse doctores, Herum doctrina indige<lb ed="#PL" break="no"/>tis, quae sint elementa sermonum Dei; et facti estis 
+   <lb ed="#PL"/> opus habentes lacte, non solido cibo. Omnis enim qui 
+   <lb ed="#PL"/> lactatur, inexpertus est verbum justitiae ; infans est 
+   <lb ed="#PL"/> cnim. Perfectorum est autem solidus cibus, eorum qui 
+   <lb ed="#PL"/> per habitum exercitatos habent sensus, ad separandum 
+   <lb ed="#PL"/> bonum a malo»(£for. v, 12-14). Hic enim videmus 
+   <lb ed="#PL"/> tanquam deflnilum esse quem perfectorum dicit soli<lb ed="#PL" break="no"/>dum
+   cibum; et hoc esse illud qnod ad Corinthios 
+   <lb ed="#PL"/> seriptum est, <hi rend="italic">Sopientiam loquimur inter
+    perfectos ( I 
+   <lb ed="#PL"/> Cor.</hi> II, 6). Quos autem perfectos voluerit hoc loco 
+   <lb ed="#PL"/> intciligi, subjecit atque ait, <hi rend="italic">Qui per habitum exercitatos 
+   <lb ed="#PL"/>
+    habent sensus, ad separandum bonum a malo.</hi> Hoc ergo 
+   <lb ed="#PL"/> qui invalida et inexercitata mente non possunt, pro<lb ed="#PL" break="no"/>fecto
+   nisi fidei quodam lacte tencantur, ut et invisi<lb ed="#PL" break="no"/>bilia
+   quae non videit, et intelligibilia quae nondum in<lb ed="#PL" break="no"/>telligunt,
+   credant, facile ad vanas et sacrilegas fabulas 
+   <lb ed="#PL"/> promissione scientiae ducuntur: utetbonum et ma<lb ed="#PL" break="no"/>lum
+   nonnisi corporalihus imaginibus cogitent, et ipsum 
+   <lb ed="#PL"/> Deum nonnisi aliquod esse corpus existiment, et ma<lb ed="#PL" break="no"/>lum
+   nisi substantiam putare non possinl; cum sit 
+   <lb ed="#PL"/> potius ab immutabili substantia mutabilium substan<lb ed="#PL" break="no"/>tiarum
+   quidam defectus, quas fecit ex nihilo ipsa im<lb ed="#PL" break="no"/>Mutabilis. et summa substantia , qui est Deus. Quod 
+   <lb ed="#PL"/> profecto quisquis non solum credit, verum etiam 
+   <lb ed="#PL"/> exercitatis interioribus animi, sensibus intelligit, per<lb ed="#PL" break="no"/>cipit, novit; non est jain metuendum ne seducatur ab 
+   <lb ed="#PL"/> eis qui malum putando esse substantiam quam non 
+   <lb ed="#PL"/> fecit Deus, mutabilem substantiam faciunt ipsum 
+   <lb ed="#PL"/> Deum, sicut Manichaei, vel si quae aliae pestes ita de<lb ed="#PL" break="no"/>sipiunt.</p>
+      <p xml:id="iuy75t-d1e843-d1e501">5. Sed meate adhuc parvulis, quos dicit Apostolus 
+   <lb ed="#PL"/> carnales lacte nutriendos, omnis de hac re sermo, 
+   <lb ed="#PL"/> quo agitur ut non solum credatur, verum etiam intel<lb ed="#PL" break="no"/>ligatur
+   sciaturque quod dicitur, percipere talia non 
+   <lb ed="#PL"/> valentibus onerosus est, faciliusque iios premit quam 
+   <lb ed="#PL"/> pascit. Ex quo fit ut spirituales ista. carnalibus non 
+   <lb ed="#PL"/> omnimodo taceant, propter catholicam fidem r qua 
+   <lb ed="#PL"/> omnibus praedicanda Cbt; nec tamen sic disserant , 
+   <lb ed="#PL"/> ut volentes ea perducere ad intelligentiarn uon cap.
+   
+   <lb ed="#PL"/> cem, facilius fastidiri faciant in veritate sermonem , 
+   <lb ed="#PL"/> quam in sermone percipi vcritatcm. Propterea did., 
+   <lb ed="#PL"/> scribens ad Colossenses : Et si <hi rend="italic">corpore abscus</hi> sum, spi- 
+   <pb ed="#PL" n="1883"/>
+       <lb ed="#PL"/>
+       <hi rend="italic">vitu vobiscum</hi> sum , gaudens <hi rend="italic">et videns
+    ordinationem vc<lb ed="#PL" break="no"/>stram, et id quod decst 1 fidei vestrae in Christo (Coloss.</hi>
+   
+       <lb ed="#PL"/> II , 5). El ad Thessalonicenses : <hi rend="italic">Nocte</hi> ac <hi rend="italic">die,</hi> inquit, 
+   <lb ed="#PL"/> ( <hi rend="italic">bundantius</hi> orantes ,
+    <hi rend="italic">ut</hi> vidcamus <hi rend="italic">faciem vestram, et 
+   <lb ed="#PL"/>
+    suppleamus quae desunt fidei vestrae</hi> ( I <hi rend="italic">Thess.</hi> III, 10).
+   
+   <lb ed="#PL"/> Intelligendi sunt utique ita prilnum catechizati, ut 
+   <lb ed="#PL"/> lacte alerentur, non solido cibo : cujus lactis ad He<lb ed="#PL" break="no"/>hr.ros commemoratur ubertas eis quos volcbaL cibi 
+   <lb ed="#PL"/> solidate jam pascere. Propter quod ait : c Ideoque 
+   <lb ed="#PL"/> remittentes initii Christi verbum, in consummatio<lb ed="#PL" break="no"/>nem
+   respiciamus; non iterum jacientes fundamentum
+   
+   <lb ed="#PL"/> poenitentiae ab operibus mortuis. et fidei in Deum , 
+   <lb ed="#PL"/> lavacri doctrinae, et impositionis manuum, resurre<lb ed="#PL" break="no"/>ctionis
+   etiam mortuorum,etjudicii aeterni» <hi rend="italic">(Hebr.</hi> VI, 
+   <lb ed="#PL"/> 1, 2). Haec est lactis ubertas, siue quo non vivunt
+   
+   <lb ed="#PL"/> qui jam quidem ratione utuntur ut possint credere, 
+   <lb ed="#PL"/> sed bonum a malo, non credendo tantum, verum 
+   <lb ed="#PL"/> etiam intelligendo (quod pertinet ad solidum cibum) 
+   <lb ed="#PL"/> separare non possunt. Quod autem in lactis comme<lb ed="#PL" break="no"/>moratione
+   posuit et doctrinam, ipsa est quae per sym<lb ed="#PL" break="no"/>bolum
+   traditur et orationem dominicam.</p>
+      <p xml:id="iuy75t-d1e843-d1e606">6. Sed huic lacti absit ut sit contrarius cibus rerum 
+   <lb ed="#PL"/> spiritualium firma intelligentia capiendus, qui Colos<lb ed="#PL" break="no"/>sensibus
+   et Thessalonicensibus defuit, et supplendus, 
+   <lb ed="#PL"/> fuit. Quando cnim suppletur quod defuit, non impro<lb ed="#PL" break="no"/>batur
+   quod fuit. Nam et in ipsis quae sumimus ali<lb ed="#PL" break="no"/>mentis, usque adeo non cat lacti contrarius solidus 
+   <lb ed="#PL"/> cibus, ut ipse lactescat, quo possit esse aptus infan<lb ed="#PL" break="no"/>tibus,
+   ad quos per matris vel nutricis pervenit car<lb ed="#PL" break="no"/>nem : sicut fecit etiam mater ipsa sapientia, quae cum 
+   <lb ed="#PL"/> sit in excelsis Angelorum solidus cibus, dignata est 
+   <lb ed="#PL"/> quodammodo lactescere parvulis, cum Verbum caro 
+   <lb ed="#PL"/> factum est, et habitavit in nobis
+    <hi rend="italic">(Joan.</hi> I, i, 14). Sed 
+   <lb ed="#PL"/> ipse homo Christus, qui vera carne, vera cruce, vera 
+   <lb ed="#PL"/> morte, vera resurrectione sincerum lac dicitur par<lb ed="#PL" break="no"/>. vulorum, cum bene ab spiritualibus capitur, invenitur 
+   <lb ed="#PL"/> Dominus Angelorum. Proinde nec sic parvuli sunt la<lb ed="#PL" break="no"/>ctandi, ut semper non intelligant Deam Christum; 
+   <lb ed="#PL"/> nec sic ablactandi, ut deserant hominetn Christum. 
+   <lb ed="#PL"/> Quod alio modo idipsum ita dici potest: nec sic la<lb ed="#PL" break="no"/>ctandi
+   sant, nt creatorem nunquam intelligant Chri<lb ed="#PL" break="no"/>stum
+   ; nec sic ablactandi, ut mediatorem unquam de<lb ed="#PL" break="no"/>sorant
+   Christum. In hoc quippe non convenit huic rei 
+   <lb ed="#PL"/> similitudo materni lactis et solidi cibi, sed potius fun­
+   
+   <lb ed="#PL"/> damenti: quia et puer quando ablactatur, ut ab ali<lb ed="#PL" break="no"/>mentis
+   infantiae jam recedat, inter solidos cibos non 
+   <lb ed="#PL"/> repetit ubera quae sugcbal; Christus autem crucifixus, 
+   <lb ed="#PL"/> et lac sugentibus, et cibus est proficientibus. Funda<lb ed="#PL" break="no"/>menti
+   vero ideo est aptior similitudo, quia ut perfi<lb ed="#PL" break="no"/>ciatur
+   quod struitur, additur aedificium, non subtra<lb ed="#PL" break="no"/>hitur
+   fundamentum.</p>
+      <p xml:id="iuy75t-d1e843-d1e675">7. Quae cum ita sint, o quicumqne estis, qui sine 
+   <lb ed="#PL"/> dubio multi estis parvuli in Christo, proficite ad soli<lb ed="#PL" break="no"/>dum
+   cibum mentis, non ventris. Proficite ad separan­
+   
+   <lb ed="#PL"/> dum bonum a malo, et magis magisque inhaerete Me<lb ed="#PL" break="no"/>diatori, per quem liberamini a mala; quod non est a 
+   
+   <lb ed="#PL"/> vobis loco separandum, scd in vobis potius est sanan<lb ed="#PL" break="no"/>dum. Quisquis autem vobis dixerit, Nolite credere vc<lb ed="#PL" break="no"/>rum
+   bominem Christum, aut non a vero Deo corpus
+   
+   <lb ed="#PL"/> cujuslibet hominis vel cujuslibet auimantis creatum, 
+   <lb ed="#PL"/> aut non a vero Deo Vetus Testamentum datum, et ti 
+   <lb ed="#PL"/> quid hujusmodi; haec enim vobis prius ideo non dice­
+   
+   <lb ed="#PL"/> bantur, quando lacte nutriebamini, quoniam ad vera 
+   <lb ed="#PL"/> capienda cor nondum habcbatis idoneum : non vobis 
+   <lb ed="#PL"/> iste cibum praeparat, sed venenum. Propter quod bca­
+   
+   <lb ed="#PL"/> tus Apostolus cos alloquens qui sui jam videbantur 
+   <lb ed="#PL"/> esse perfecti, cum se imperfectum ipse dixisset, <hi rend="italic">Quot­
+   <lb ed="#PL"/> quot ergo,</hi> inquit, <hi rend="italic">perfecti, hoc sapiamus :</hi> et si <hi rend="italic">quid uli­ 
+   <lb ed="#PL"/>
+    ter sapitis, hoc quoque vobis Deus revelabit.</hi> Et ne forte 
+   <lb ed="#PL"/> incurrerent in seductores, qui cos vellent a fide avcr<lb ed="#PL" break="no"/>tere
+   promittendo scientiam veritatis, et hoc putarent 
+   <lb ed="#PL"/> esse quod dixit Apostolus, <hi rend="italic">id quoque vobis Deus
+    revela<lb ed="#PL" break="no"/>bit;</hi> continuo subjunxit, <hi rend="italic">Verumtamen in quod
+    perveni­
+   <lb ed="#PL"/> mus,</hi> in <hi rend="italic">eo ambulemus (Pkilipp.</hi> Ill, 15, 16). Si quid 
+   <lb ed="#PL"/> ergo intellexeris quod non sit contra regulam catho<lb ed="#PL" break="no"/>licae
+   fidei, ad quam, velut viam quae tc ducat ad pa<lb ed="#PL" break="no"/>triam, pervenisti; et sic intellexeris, ut inde dubitare 
+   <lb ed="#PL"/> omnino non debeas: adde aedificium, noli tamen rc<lb ed="#PL" break="no"/>linquere
+   fundamentum. Sic debent majores docere 
+   <lb ed="#PL"/> aliquid parvuios, ut omnium Dominum Christum, ei 
+   <lb ed="#PL"/> seipsis longe mnjores Prophetas et Apostolos non di<lb ed="#PL" break="no"/>cant
+   aliquid fuisse mentitos. Non autem solum vanilo<lb ed="#PL" break="no"/>quos
+   et mentis seductores fabulosa et falsa garrientes, 
+   <lb ed="#PL"/> et in eis vanitatibus velut altam scientiam promitten<lb ed="#PL" break="no"/>tes
+   contra regulam fidei, quam catholicam suscepi<lb ed="#PL" break="no"/>stis, cavere debetis : vcrum etiam ipsos qui de ipsa 
+   <lb ed="#PL"/> divinae immutabilitate naturae, vel incorporea creatu<lb ed="#PL" break="no"/>ra, sive Creatore veraciter disputant, et quod dicum, 
+   <lb ed="#PL"/> omnino documentis atque rationibus certissimis pro<lb ed="#PL" break="no"/>bant, et tamen ab uno Dei et hominum Mediatore co<lb ed="#PL" break="no"/>nautur
+   avertere, tanquam pestem insidiosiorem caete<lb ed="#PL" break="no"/>ris
+   fugite. Tales enim sunt de quibus dicit Apostolus, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Quia cognoscentes Deum, non sicut Deum glorificave<lb ed="#PL" break="no"/>runt
+    (Rom.</hi> i, 21). Quid enim prodest babere intelli<lb ed="#PL" break="no"/>gentiam
+   veram de immutabili bono, ei qui non tenet 
+   <lb ed="#PL"/> per quem liberetur a rnalo ? Prorsus admonitio beatis­
+   
+   <lb ed="#PL"/> simi Apostoli de vestris cordibus non recedat: <hi rend="italic">Siquis
+   <lb ed="#PL"/> vobis
+    evangelizaverit</hi> praeter <hi rend="italic">quod accepistis, anathema sit
+   <lb ed="#PL"/>
+    (Galat.</hi> I, 9). Non ait, plus quam accepistis; sed, prae­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">ter quod accepistis.</hi> Nam si illud diceret, sibi ipse prae<lb ed="#PL" break="no"/>judicaret,
+   qui cupiebat venire ad Thessalonicenses, ut 
+   <lb ed="#PL"/> suppleret quae illorum fidei defuerunt. Sed qui sup<lb ed="#PL" break="no"/>plet, quod minus erat addit, non quod inerat tollit: 
+   <lb ed="#PL"/> qui autem praetergreditur fidei regulam, non accedit 
+   <lb ed="#PL"/> in via, sed recedit de via.</p>
+      <p xml:id="iuy75t-d1e843-d1e823">8. Quod itaque ait Dominus, <hi rend="italic">Adhuc multa habeo</hi> vo<lb ed="#PL" break="no"/>bia <hi rend="italic">dicere, sed</hi> non <hi rend="italic">potestis portare modo;</hi> adjicienda 
+   <lb ed="#PL"/> illisfuerantqudc nesciebant, non quae didicerant evcr<lb ed="#PL" break="no"/>tenda. Et ille quidem, sicut in pristino sermone jam 
+   <lb ed="#PL"/> exposui, potuit hoc ita dicere, quia illa ipsa quoe do<lb ed="#PL" break="no"/>cuerat, si vellet eis sic aperire, ut in illo concipiuntur
+   
+   <lb ed="#PL"/> ab Angelis; hoc infirmitas humana in qua adhuc 
+   <lb ed="#PL"/> erant, ferre non posset. Spiritualis autem homo quili<lb ed="#PL" break="no"/>bet
+   potest alterum hominem docere quod novit, si pro<lb ed="#PL" break="no"/>ficiendo
+   capaciorem faciat Spiritus sanctus, in quoet
+   <pb ed="#PL" n="1885"/>
+       <lb ed="#PL"/> ipse doctor aliquid amplius addiscere potuit, ut sint 
+   <lb ed="#PL"/> ambo docibiles Deo <hi rend="italic">(Joan.</hi> vi, 45). Quanquam et inter 
+   <lb ed="#PL"/> ipsos spirituales sunt utique aliis alii capaciores atque 
+   <lb ed="#PL"/> meliores; ita ut quidam illorum ad ea pervenerit quae 
+   <lb ed="#PL"/> non licet homini loqui. Qua occasione vani quidam
+   
+   <lb ed="#PL"/> Apocalypsim Pauli, quam sana non recipit Ecclesia, 
+   <lb ed="#PL"/> nescio quibus fabulis plenam, stultissima praesum<lb ed="#PL" break="no"/>ptione
+   finxerunt; dicentes hanc esse unde dixerat ra­
+   
+   <lb ed="#PL"/> ptum se fuisse in tertium coelum, et illic audisse inef<lb ed="#PL" break="no"/>fabilia
+   verba <hi rend="italic">qum non licet homini loqui</hi> (II <hi rend="italic">Cor.</hi> XII, i,
+   
+   <lb ed="#PL"/> 4). Utcumque illorum tolerabilis esset audacia, si se 
+   <lb ed="#PL"/> audisse dixisset qux adhuc non licet homini loqui : 
+   <lb ed="#PL"/> cum vero dixerit, <hi rend="italic">quae non
+    licet</hi> homini <hi rend="italic">loqui;</hi> isti qui 
+   <lb ed="#PL"/> sunt qui haec audeant impudenter et infeliciter loqui ? 
+   <lb ed="#PL"/> Sed jam istum sermonem hoc fine concludam; per
+   
+   <lb ed="#PL"/> quem vos esse cupio sapientes quidem in bono, inte<lb ed="#PL" break="no"/>grus
+   autem a malo.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

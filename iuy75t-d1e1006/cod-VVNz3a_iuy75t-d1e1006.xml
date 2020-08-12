@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 118</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 118</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e1006"> <!-- iuy75t-t118 -->
+      <head xml:id="iuy75t-d1e1006-Hd1e109">Tractatus 118</head>
+      <p xml:id="iuy75t-d1e1006-d1e112">
+       <hi rend="italic">In hoec verba,</hi> Milites ergo cum crucifixissent eum, 
+   <lb ed="#PL"/> acceperunt vestimenta ejus, <hi rend="italic">etc. Cap.</hi> xix, f f . 
+   <lb ed="#PL"/> 13, 24.</p>
+      <p xml:id="iuy75t-d1e1006-d1e125">1. Ea quae gesta sunt juxta crucem Domini, cum 
+   <lb ed="#PL"/> jam crucifixus esset, isto, quantum adjuvat, ser<lb ed="#PL" break="no"/>mone
+   tractemus. c Milites ergo cum crucifixissent 
+   <lb ed="#PL"/> cum
+   , acceperunt vestimenta ejus, et fecerunt qua<lb ed="#PL" break="no"/>tuor
+   partes; unicuique militi partem, et tunicam. 
+   <lb ed="#PL"/> Erat autem tunica inconsutilis, desuper contexta per 
+   <lb ed="#PL"/> totum : dixerunt ergo ad invicem, Non scindamus 
+   <lb ed="#PL"/> eam, sed sortiamur de illa cujus sit. Ut Scriptura im<lb ed="#PL" break="no"/>plerclur
+   dicens , Partiti sunt vestimenta mea sibi, et 
+   <lb ed="#PL"/> in vestem meam miserunt sortem. » Factum est quod 
+   <lb ed="#PL"/> voluerunt Judici: non ipsi, sed milites qui parebant 
+   <lb ed="#PL"/> Pilato, judicante ipso, crucifixerunt Jesum; et ta<lb ed="#PL" break="no"/>men
+   si voluntates, si insidias, si operam, si tradi<lb ed="#PL" break="no"/>tionem, postremo si extorquentes clamores eorum 
+   <lb ed="#PL"/> cogitemus, magis utique Judaei crucifixerunt Jesum.</p>
+      <p xml:id="iuy75t-d1e1006-d1e158">i. Sed de partitione et sortitione vestimentorum 
+   <lb ed="#PL"/> ejus non est praetereunter loquendum. Quamvis enim 
+   <lb ed="#PL"/> omnes Evangelistae quatuor hujus rei meminerint, 
+   <lb ed="#PL"/> caeteri tamen brevius quam Joannes : et clause illi , 
+   <lb ed="#PL"/> iste vero apertissime. Nam Matthaeus ait: <hi rend="italic">Postquam 
+   <lb ed="#PL"/> autem crucifixerunt eum, diviserunt
+    vestimenta ejus,
+   <lb ed="#PL"/> sortem mittentes</hi> ( <hi rend="italic">Matth.</hi> XXVII, 35). Marcus : Et cru­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">cifigentes eum, diviserunt vestimenta ejus, mittentes
+   <lb ed="#PL"/> sortem
+    super</hi> eis, quis <hi rend="italic">quid tolleret (Marc.</hi> xv, 24). Lu<lb ed="#PL" break="no"/>cas
+   <hi rend="italic">iDividentes vero vestimenta ejus, miserunt sortes
+   <lb ed="#PL"/> (Luc.</hi> XXIII. 34). Joannes autem et quot partes de ve<lb ed="#PL" break="no"/>stimentis
+   ejus fecerint, dixit, id est, quatuor, ut 
+   <lb ed="#PL"/> singulas tollerent. Unde apparet quatuor fuisse mi<lb ed="#PL" break="no"/>lites
+   qui in eo crucifigendo praesidi paruerunt. Mani<lb ed="#PL" break="no"/>feste
+   quippe ait, <hi rend="italic">Milites ergo</hi> cum <hi rend="italic">crucifixissent</hi> eum , 
+   <lb ed="#PL"/>
+       <hi rend="italic">acceperunt vestimenta ejus , et fecerunt quatuor parte ,</hi>
+   
+       <lb ed="#PL"/> unicuique <hi rend="italic">militi vartem , et tunicam;</hi> subaudiendum 
+   <lb ed="#PL"/> est, acceperunt: ut iste sit sensus, Acceperunt ve<lb ed="#PL" break="no"/>stimenta
+   ejus , et fecerunt quatuor partes, unicuique 
+   <lb ed="#PL"/> militi partem ; acceperunt et tunicam. Et sic loculus
+   
+   <lb ed="#PL"/> est, ut de caneris vestimentis nullam sortem mis­ 
+   
+   <lb ed="#PL"/> sam esse videamus; sed de tunica quam simul cum 
+   <lb ed="#PL"/> caeteris acceperunt, sed non similiter diviserunt. 
+   <lb ed="#PL"/> De hac enim sequitur exponens, <hi rend="italic">Erat autem
+    tunica 
+   <lb ed="#PL"/> inconsutilis, desuper contexta per totum.</hi> Cur autem de 
+   <lb ed="#PL"/> illa sortem miserunt narrans : <hi rend="italic">Dixerunt</hi> ergo , inquit. 
+   <lb ed="#PL"/>
+       <hi rend="italic">ad invicem, Non scindamus eam, sed sortiamur de illa 
+   <lb ed="#PL"/> cujus
+    sit.</hi> Apparet itaque in aliis vestibus aequales cos 
+   <lb ed="#PL"/> habuisse partes, ut sortiri necesse non fuerit: in 
+   <lb ed="#PL"/> illa vero una non cos habere potuisse singulas partes, 
+   <lb ed="#PL"/> nisi scinderetur, ut pannos ejus inutiliter tollerent ; 
+   <lb ed="#PL"/> quod ne facerent, ad unum eam pervenire sortitione 
+   <lb ed="#PL"/> maluerunt. Hujus evangelistae narrationi consonat 
+   <lb ed="#PL"/> etiam propheticum testimonium , quod et ipse conti<lb ed="#PL" break="no"/>nun
+   subjungens,
+    <hi rend="italic">Ut sciptura,</hi> inquit, <hi rend="italic">impleretur</hi> di­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">cens, Partiti sunt vestimenta mea</hi> sibi, <hi rend="italic">et
+    super vestem 
+   <lb ed="#PL"/> meam miserunt sortém.</hi> Non enim , ait, sortiti; sed , 
+   <lb ed="#PL"/>
+       <hi rend="italic">partiti</hi> : nee ait, sortientes partiti sunt; sed in caete<lb ed="#PL" break="no"/>ris
+   vestimentis sortem omnino non nominans, postea 
+   <lb ed="#PL"/> dixit, <hi rend="italic">et</hi> in <hi rend="italic">vestem meam miserunt</hi> sortem, propter iI<lb ed="#PL" break="no"/>lam
+   reliquam tunicam. De qua re dicam quod ipse 
+   <lb ed="#PL"/> donaverit , cum prius eam quae oboriri potest, lan<lb ed="#PL" break="no"/>quam
+   Evangelistae inter se discrepent, calumniam 
+   <lb ed="#PL"/> propulsavero, demonstrans nullius caeterorum verba 
+   <lb ed="#PL"/> narrationi Joannis esse contraria.</p>
+      <p xml:id="iuy75t-d1e1006-d1e316">3. Matthaeus enim dicendo , <hi rend="italic">Diviserunt vestimenta 
+   <lb ed="#PL"/> ejus, sortem
+    mittentes,</hi> ad totam divisionem vestimen<lb ed="#PL" break="no"/>torum
+   voluit intelligi etiam tunicam pertinere, de qua 
+   <lb ed="#PL"/> sortem miserunt; quia utique omnes vestes divi<lb ed="#PL" break="no"/>dendo,
+   in quibus et illa fuit, de ipsa sortiti sunt. Tale 
+   <lb ed="#PL"/> est etiam quod ait Lucas, <hi rend="italic">Dividentes vestimenta ejus , 
+   <lb ed="#PL"/> miserunt sortes:</hi> dividentes enim venerunt ad tunicam, 
+   <lb ed="#PL"/> de qua facta est sortitio, ut inter eos universa vesti<lb ed="#PL" break="no"/>mentorum
+   ejus divisio compleretur. Quid autem inter<lb ed="#PL" break="no"/>est
+   utrum dicatur, <hi rend="italic">Dividentes miserunt sortes,</hi> quod 
+   <lb ed="#PL"/> ait Lucas; an , <hi rend="italic">Diviserunt, sortem mittentes</hi> , quod ait 
+   <lb ed="#PL"/> Matthaeus : nisi quod Lucas dicendo sortes, pluralem 
+   <lb ed="#PL"/> pro singulari numero posuit; quae locutio Scripturis 
+   <lb ed="#PL"/> sanctis insolita non est: quamvis nonnulli codices 
+   <lb ed="#PL"/>
+       <hi rend="italic">sortem</hi> reperiantur habere <hi rend="italic">(a),</hi> non <hi rend="italic">sortes f</hi> Marcus 
+   <lb ed="#PL"/> itaque solus videtur aliquam intulisse quaestionem : 
+   <lb ed="#PL"/> dicendo enim, <hi rend="italic">Mittentes sortem super</hi> eis, <hi rend="italic">quis quid 
+   <lb ed="#PL"/> tolleret,</hi> tanquam super omnibus vestimentis, non
+   
+   <lb ed="#PL"/> super sola tunica sors missa sit, locutus videtur. Sed 
+   <lb ed="#PL"/> etiam hicbrevitas obscuritatem facit: sic enim dictum 
+   <lb ed="#PL"/> est, <hi rend="italic">Mittentes sortem super
+    eis,</hi> ac si diceretur, Mit<lb ed="#PL" break="no"/>tentes
+   sortem cum dividerentur: quod et factum est. 
+   <lb ed="#PL"/> Omnium quip e vestimentorum ejus divisio completa 
+   <lb ed="#PL"/> non esset, nisi sorte claruisset quis etiam illam tuni<lb ed="#PL" break="no"/>cam
+   tolleret, ut sic contentio dividentium finiretur, 
+   <lb ed="#PL"/> vel nulla potius oriretur. Quod ergo ait, Quis <hi rend="italic">quid
+   <lb ed="#PL"/> tolleret,</hi> quandoquidem hoc sorti deputatur, non ad 
+   <lb ed="#PL"/> omnia quae divisa sunt vestimenta referendum est; 
+   <lb ed="#PL"/> sors enim missa est, quis illam tunicam tolleret : de 
+   <lb ed="#PL"/> qua quoniam narrare praetermisit qualis fuerit, et 
+   <lb ed="#PL"/> quemadmodum aequalibus factis partibus sola reman<lb ed="#PL" break="no"/>serit, quae ne conscinderetur, veniret in sortem; 
+   <lb ed="#PL"/> propterea positum est quod ait, <hi rend="italic">Quis quid tolleret,</hi>
+   
+       <lb ed="#PL"/> id est, quis eam tolleret : tanquam si totum ita dice- 
+   
+   <pb ed="#PL" n="1949"/>
+       <lb ed="#PL"/> retur, Diviserunt vestimenta ejus, mittentes sortem 
+   <lb ed="#PL"/> super eis, quis tunicam qu;e partibus aequalibus su<lb ed="#PL" break="no"/>perfuerat, tolleret.</p>
+      <p xml:id="iuy75t-d1e1006-d1e436">4. Quaerat forte aliquis, quid significet in tot partes 
+   <lb ed="#PL"/> vestimentorum facta divisio, et de tunica illa <unclear>sor</unclear>.itio. 
+   <lb ed="#PL"/> Quadripartita vestis Domini Jesu Christi, quadripar<lb ed="#PL" break="no"/>titam
+   figuravit ejus Ecclesiam, toto scilicet, qui qua<lb ed="#PL" break="no"/>tuor
+   partibus constat, terrarum orbe diG'usam ,et
+   <lb ed="#PL"/> omnibus eisdem partibus aequaliter, id est concorditer 
+   <lb ed="#PL"/> distributam. Propter quod alibi dicit missurum se An<lb ed="#PL" break="no"/>gelos
+   SilOS, ut colligant electos ejus a quatuor ventis 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Matth.</hi> xxiv, 31): quod quid est, nisi a quatuor par<lb ed="#PL" break="no"/>tibus
+   mundi, Oriente, Occidente, Aquilone et Me<lb ed="#PL" break="no"/>ridic? Tunica vero illa sortita, omnium partium signi<lb ed="#PL" break="no"/>ficat
+   unitatem, quae charitatis vinculo continetur. De 
+   <lb ed="#PL"/> charitate autem locuturus Apostolus, <hi rend="italic">Supereminen­
+   <lb ed="#PL"/> tem,</hi> inquit, viam vobis <hi rend="italic">demonstro</hi> (I <hi rend="italic">Cor.</hi> XII , 51) : et 
+   <lb ed="#PL"/> .. alio loco ait, <hi rend="italic">Cognoscere etiam supereminentem
+    scientiae
+   <lb ed="#PL"/> charitatem Christi (Ephes.</hi> III, 19); itemque alibi, Sci­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">per</hi> omnia <hi rend="italic">autem haec charitatem, quaest vinculum
+    per<lb ed="#PL" break="no"/>fectionis (Coloss.</hi> III, 14). Si ergo charitas et supere<lb ed="#PL" break="no"/>minentiorem
+   habet viam, et supereminet scientae, et 
+   <lb ed="#PL"/> super omnia praecepta est; merito vestis qua signifi<lb ed="#PL" break="no"/>catur, desuper contexta perhibetur. Inconsutilis an­
+   
+   <lb ed="#PL"/> tem, ne aliquando dissuatur : et ad unum pervenit, 
+   <lb ed="#PL"/> quia in unum omnes colligit. Sicut in Apostolis cum 
+   <lb ed="#PL"/> esset etiam ipse numerus duodenarius, id est quadri<lb ed="#PL" break="no"/>partitus
+   iri ternos, et omnes essent interrogati, solus 
+   <lb ed="#PL"/> Petrus respondit, <hi rend="italic">Tu es Christus Filius Dei vivi;</hi> et ei 
+   <lb ed="#PL"/> dicitur,
+    <hi rend="italic">Tibi dabo claves regni</hi> caelorum <hi rend="italic">(Matth.</hi> xvi, 
+   <lb ed="#PL"/> 15, 16,19), tanquam ligandi et solvendi solus acce<lb ed="#PL" break="no"/>perit
+   potestatem : cum et illud unus pro omnibus 
+   <lb ed="#PL"/> dixerit, et hoc cum omnibus tanquam personam ge­
+   
+   <lb ed="#PL"/> rens ipsius unitatis acceperit : ideo unus pro omni<lb ed="#PL" break="no"/>bus, qnia unitas est in omnibus. Unde et hic cum 
+   <lb ed="#PL"/> dixisset, <hi rend="italic">desuper contexta;</hi> addidit, <hi rend="italic">per</hi> totum. Quod 
+   <lb ed="#PL"/> si referamus ad id quod significat, nemo ejus est ex<lb ed="#PL" break="no"/>pers
+   qui pertinere invenitur ad totum : a quo toto,
+   
+   <lb ed="#PL"/> sicut graeca indicat lingua, catholica vocatur Eccle<lb ed="#PL" break="no"/>sia (a). In sorte autem quid, nisi Dei gratia commen<lb ed="#PL" break="no"/>data
+   est? Sic quippe in uno ad omnes pervenit, cum 
+   <lb ed="#PL"/> sors omnibus placuit, quia et Dei gratia in unitate ad 
+   <lb ed="#PL"/> omnes pervenit : et cum sors mittitur, non personae 
+   <lb ed="#PL"/> cujusque vel meritis, sed occulto judicio Dei ceditur.</p>
+      <p xml:id="iuy75t-d1e1006-d1e566">5. Nec ideo ista non aliquid boni significasse quis 
+   <lb ed="#PL"/> dixerit, quia per malos facta sunt, non scilicet per 
+   <lb ed="#PL"/> eos qui Christum secuti, sed qui sunt persecuti. Quid 
+   <lb ed="#PL"/> enim de ipsa cruce dicturi sumus, quae certe similiter 
+   <lb ed="#PL"/> ab inimicis atque impiis Christo facta et impacta est? 
+   <lb ed="#PL"/> Et tamen ea significari recte intelligitur quod ait
+   
+   <lb ed="#PL"/> Apostolus, <hi rend="italic">Quae</hi> sit latitudo, <hi rend="italic">et
+    longitudo, et altitudo,
+   <lb ed="#PL"/> et</hi> profundum <hi rend="italic">(Ephes.</hi> III, 18). Lata est quippe in 
+   <lb ed="#PL"/> transverso ligno, quo extenduntur pendentis manus; 
+   <lb ed="#PL"/> et significat opera bona, in latitudine charitatis : 
+   <lb ed="#PL"/> longa est a transverso ligno usque ad terram , ubi 
+   <lb ed="#PL"/> dorsum pedesque figuntur; et significat perseveran<lb ed="#PL" break="no"/>tiam
+   in longitudine temporis usque in finem : alta est 
+   <lb ed="#PL"/> in cacumine, quo transversum lignum sursum versus 
+   
+   <lb ed="#PL"/> exceditur; et significat supernum finem, quo cuncta 
+   <lb ed="#PL"/> opera referuntur ; quoniam cuncta quae latitudine ac 
+   <lb ed="#PL"/> longitudine bene ac perseveranter fiunt, propter alti<lb ed="#PL" break="no"/>tudinem
+   divinorum facienda sant praemiorum : pro<lb ed="#PL" break="no"/>funda
+   est in ea parte qua in terra figilur; ibi quippe 
+   <lb ed="#PL"/> et occulta est, ncr videri potest, sed cuncta ejus ap<lb ed="#PL" break="no"/>parentia
+   et eminentia inde consurgunt; sicut bona 
+   <lb ed="#PL"/> nostra de profunditate gratiae Dei, quae comprehendi 
+   <lb ed="#PL"/> ac dijudicari non potes!, universa procedunt. Sed 
+   <lb ed="#PL"/> etsi crux Christi hoc solum signilicet quod ait Aposto<lb ed="#PL" break="no"/>lus,
+    <hi rend="italic">Qui autem Jesu Christi sunt, carnem suam</hi> cruci­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">fixerunt cum passionibus et concupiscentiis (Gulat.</hi> v, 
+   <lb ed="#PL"/> 24), quam magnum bonum est? Nee tamen facit hoc, 
+   <lb ed="#PL"/> pisi concupiscens adversus carnem spiritus bonus, 
+   <lb ed="#PL"/> cum illam crucem Christi fecerit inimicus, id est spi<lb ed="#PL" break="no"/>ritus
+   malus. Postremo quid est, quod omnes novcrunt, 
+   <lb ed="#PL"/> Signum Christi, nisi crux Christi? Quod signum nisi 
+   <lb ed="#PL"/> adhibcatur sive frontibus credentium, sive ipsi aquae 
+   <lb ed="#PL"/> ex qua rcgenerantur, sive oleo quo chrismate ungun<lb ed="#PL" break="no"/>tur, sive sacrificio quo aluntur, nihil eorum rite per<lb ed="#PL" break="no"/>ficimur. Quomodo ergo per id quod mali faciunt, nihi 
+   <lb ed="#PL"/> boni significatur; quando per crucem Christi. quan 
+   <lb ed="#PL"/> fecerunt mali, in celebratione Sacramentorum ejui 
+   <lb ed="#PL"/> bonum nobis omne siguatur? Sed haec hactenus: quje 
+   <lb ed="#PL"/> autem sequuntur, alias, ut Deus opitulabitur, disse<lb ed="#PL" break="no"/>rendo
+   videbimus.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

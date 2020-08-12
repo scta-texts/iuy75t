@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 56</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 56</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e500"> <!-- iuy75t-t56 -->
+      <head xml:id="iuy75t-d1e500-Hd1e109">Tractatus 56</head>
+      <p xml:id="iuy75t-d1e500-d1e112">
+       <hi rend="italic">Ab eo quod</hi> scriptum <hi rend="italic">est,</hi> Venit ergo ad Simonem Po<lb ed="#PL" break="no"/>trum, etc., <hi rend="italic">usque ad id,</hi> Qui lotus est, non indiget 
+   <lb ed="#PL"/> nisi ut pedes lavet, sed est mundus totus. <hi rend="italic">Cap.</hi> XIII, 
+   <lb ed="#PL"/> t • 6-10.</p>
+      <p xml:id="iuy75t-d1e500-d1e134">1. Cum lavaret pedes discipulorum Dominus, Ve<lb ed="#PL" break="no"/>nit <hi rend="italic">ad Simonem
+    Petrum; et</hi> dicit ei <hi rend="italic">Petrus: Domi­</hi>
+   
+       <lb ed="#PL"/> ne, tu <hi rend="italic">mihi lavas pedes</hi>? Quis enim non expavesceret la­
+   
+   <lb ed="#PL"/> vari sibi pedes a Dei Filio? Quamvis itaque magnae 
+   <lb ed="#PL"/> fuisset audaciae contradicere servum Domino, homi<lb ed="#PL" break="no"/>nem
+   Deo : tamen hoc Petrus facere maluit , quam
+   
+   <lb ed="#PL"/> perpeti ut sibi pedes lavarentur a Domino et Deo. Nec 
+   <lb ed="#PL"/> putare debemus hoc Petrum intercaeleros formidasse 
+   <lb ed="#PL"/> atque recusasse, cum id alii ante ipsum libenter vel 
+   <lb ed="#PL"/> aequanimiter sibi fieri permisissent. Facilius quippe 
+   <lb ed="#PL"/> sic accipiuntur ista verba Evangelii. quia cum dictum 
+   <lb ed="#PL"/> esset, <hi rend="italic">Coepit lavare pedes
+    discipulorum, et extergere lin­
+   <lb ed="#PL"/> teo quo erat praecinctus;</hi> deinde subjunctum est, <hi rend="italic">Venit
+   <lb ed="#PL"/> ergo ad</hi> Simonem <hi rend="italic">Petrum,</hi> quasi aliquibus jam lavisset, 
+   <lb ed="#PL"/> post eos vcnisset ad primum. Quis enim nesciat pri­
+   
+   <lb ed="#PL"/> mum Apostolorum esse beatissimum Petrum ? Sed 
+   <lb ed="#PL"/> non ita intelligendum est quod post aliquos ad illum 
+   <lb ed="#PL"/> venerit ; sed quod ab illo coeperit. Quando ergo pedes 
+   <lb ed="#PL"/> discipulorum lavare coepit, venit ad eum a quo coepit, 
+   <lb ed="#PL"/> id est, ad Petrum : et tunc Petrus, quod etiam quili<lb ed="#PL" break="no"/>bet
+   eorum expavisset, expavit, atque ait, Domine, 
+   <lb ed="#PL"/>
+       <hi rend="italic">tu mihi lavas pedes?</hi> Quid est, tu ? quid est, mihi ? 
+   <lb ed="#PL"/> Cogitanda sunt potius quam dicenda; ne forte quod 
+   <lb ed="#PL"/> ex his verbis aliquatenus dignum concipitanima, uon 
+   <lb ed="#PL"/> explicet lingua.</p>
+      <p xml:id="iuy75t-d1e500-d1e210">i. Sed <hi rend="italic">respondit Jesus, et dixit ei : Quod ega facio, 
+   <lb ed="#PL"/> tu nescis
+    modo, scies autem postea.</hi> Nec tamen ille do<lb ed="#PL" break="no"/>minici
+   facti altitudine exterritus, permittit fieri quod 
+   <lb ed="#PL"/> cur fieret ignorabat; sed usque ad suos pedes humi<lb ed="#PL" break="no"/>lem
+   Christum adhuc non vult vidcre, non potest sus<lb ed="#PL" break="no"/>tinere. <hi rend="italic">Non lavabis mihi,</hi> inquit, <hi rend="italic">pedes in aeternum.</hi>
+   
+       <lb ed="#PL"/> Quid est, <hi rend="italic">in aeternum?</hi> Nunquam hoc feram, nunquam 
+   <lb ed="#PL"/> patiar, nunquam sinam : hoc quippe in aeternum non 
+   <lb ed="#PL"/> fit, quod nunquam fit. Tum Salvator aegrum reluctan<lb ed="#PL" break="no"/>tem , de ipsius salutis periculo exterrens : Si <hi rend="italic">non</hi> la<lb ed="#PL" break="no"/>vero <hi rend="italic">te,</hi> inquit, <hi rend="italic">non habebis partem mecum,</hi> Ita dictum 
+   <lb ed="#PL"/> est, <hi rend="italic">Si non lavero te,</hi> cum de solis pedibus agerctur; 
+   <lb ed="#PL"/> quomodo dici assolet, Calcas me, quando sola planta 
+   <lb ed="#PL"/> calcatur. At ille amore et timore perturbatus, et plus 
+   <lb ed="#PL"/> expavescens Christum sibi negari, quam usque ad 
+   <lb ed="#PL"/> suos pedes humiliari
+    <hi rend="italic">: Domine,</hi> ait, <hi rend="italic">non tantum pedes 
+   <lb ed="#PL"/> meos,
+    sed et manus et caput.</hi> Quandoquidem sic mina<lb ed="#PL" break="no"/>ris, lavanda tibi membra mea, non solum ima non 
+   <lb ed="#PL"/> subtraho, verum etiam prima substerno. Ne mihi ne. 
+   <lb ed="#PL"/> ges capiendam tecum partem , nullam tibi nego 
+   <lb ed="#PL"/> ablucndum mei corporis partem.</p>
+      <p xml:id="iuy75t-d1e500-d1e288">3. <hi rend="italic">Dicit ei Jesus : Qui lotus eat, non habet</hi> opus nisi 
+   <lb ed="#PL"/>
+       <hi rend="italic">pedes lavare, sed est mundus totus.</hi> Hie moveatur for- 
+   <lb ed="#PL"/> Lassis quis, et dicat: Imo si mundus est totus, quid 
+   <lb ed="#PL"/> ei opus est vel pedes lavare
+   ? Dominus autem noverat 
+   <lb ed="#PL"/> quod dicebat, etiamsi nostra infirmitas ejus secreta 
+   <lb ed="#PL"/> non penetrat. Verumtamen quantum nos erudire et 
+   <lb ed="#PL"/> ex lege sua docere dignatur, pro captu meo, pro mo<lb ed="#PL" break="no"/>dulo
+   meo, aliquid etiam ego de hujus quaestionis pro<lb ed="#PL" break="no"/>funditate,
+   illo adjuvante, respondeam : ac primum 
+   <lb ed="#PL"/> ipsam locutionem non sibi esse contrariam facillime 
+   <lb ed="#PL"/> ostendam. Quis enim non ita rectissime loqui possit, 
+   <lb ed="#PL"/> Mundus est totus, praeter pedes ? Elegantius autcm 
+   <lb ed="#PL"/> Ioquitur si dicit, Mundus est totus, nisi pedes; quod 
+   <lb ed="#PL"/> tantumdem valet 1. Hoc ergo ait Dominus, <hi rend="italic">Non</hi> ha­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">bet opus</hi> nisi <hi rend="italic">pedes lavare, sed eat</hi> mundus
+    <hi rend="italic">totus.</hi> Totus 
+   <lb ed="#PL"/> utique praeter pedes, vel, nisi pedes, quos habet 
+   <lb ed="#PL"/> opus lavare.</p>
+      <p xml:id="iuy75t-d1e500-d1e344">4. Sed quid est hoc ? quid sibi vult ? quid hoc ne<lb ed="#PL" break="no"/>cessarium
+   est ut quaeramus ? Dominus dicit, veritas 
+   <lb ed="#PL"/> loquitur, quod opus habeat pedes lavare etiam ille 
+   <lb ed="#PL"/> qui lotus est. Quid , fratres mei, quid putatis ? nisi 
+   
+   <pb ed="#PL" n="1789"/>
+       <lb ed="#PL"/> quia homo in sancto quidem Baptismo totus abluitur, 
+   <lb ed="#PL"/> non praeter pedet, sed totus omnino : veremtamen 
+   <lb ed="#PL"/> cum in rebus humanis postea vivitur, utique terra 
+   <lb ed="#PL"/> calcatur. Ipsi igitur humani affectus, sine quibus in 
+   <lb ed="#PL"/> hac mortalitate non vivitur, quasi pedes sunt, ubi ex 
+   <lb ed="#PL"/> humanis rebus afficimur; et sic afficimur, ut si dixe<lb ed="#PL" break="no"/>rimus
+   quia peccatum nonbabemus, nos ipsos deci<lb ed="#PL" break="no"/>piamus, et veritas in nobis non sit (I <hi rend="italic">Joan.</hi> i, 8). Quo<lb ed="#PL" break="no"/>tidie
+   igitur pedes lavat nobis, qui interpellat pro 
+   <lb ed="#PL"/> nobis <hi rend="italic">(Rom.</hi> vin, 34)
+   : et quotidie nos opus habere ut 
+   <lb ed="#PL"/> pedes lavemus, id est, vias spiritualium gressuum
+   
+   <lb ed="#PL"/> dirigamus, in ipsa oratione dominica conStemur, 
+   <lb ed="#PL"/> cum dicimus, <hi rend="italic">Dimitte</hi> nobis <hi rend="italic">debita nostra, sicut et</hi> nos 
+   <lb ed="#PL"/>
+       <hi rend="italic">dimittimus debitoribus nostris (Matth.</hi> VI, 12). Si enim 
+   <lb ed="#PL"/>
+       <hi rend="italic">confiteamur,</hi> sicut scriptum est, <hi rend="italic">peccata
+    nostra,</hi> pro<lb ed="#PL" break="no"/>recto
+   ille qui lavit pedes discipulorum suorum , <hi rend="italic">fide<lb ed="#PL" break="no"/>lis
+   est et justus qui dimittat nobis peccata, et mundet</hi>
+   
+       <lb ed="#PL"/> noe ab <hi rend="italic">omni iniquitate</hi> (1 <hi rend="italic">Joan.</hi> I, 9), id est, usque ad 
+   <lb ed="#PL"/> pedes quibus conversamur in terra.</p>
+      <p xml:id="iuy75t-d1e500-d1e428">5. Proinde Ecclesia quam mundat Christus lavacro 
+   <lb ed="#PL"/> aquae in verbo, non solum in illis est sine macula et 
+   <lb ed="#PL"/> ruga <hi rend="italic">(Ephes.</hi> v, 26, 27), qui post lavacrum regenera<lb ed="#PL" break="no"/>tionis
+   continuo ex hujus vitae contagione tolluntur, 
+   <lb ed="#PL"/> nec calcant terram ut opus habeant pedes lavare; 
+   <lb ed="#PL"/> verum etiam in iis quibus istam miserieordiam prae<lb ed="#PL" break="no"/>bens
+   Dominus, fecit eos de saeculo isto lotis etiam 
+   <lb ed="#PL"/> - pedibus emigrare. In bis autem qui hic demorantur, 
+   <lb ed="#PL"/> etiam si manda sit, quoniam juste vivunt; opus tamen 
+   <lb ed="#PL"/> habent pedes lavare, quoniam sine peccato utique 
+   <lb ed="#PL"/> non sunt. Propter hoc dicit in Cantico canticorum, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Lavi pedes</hi> meos; <hi rend="italic">quomodo inquinabo illos
+    (Cant.</hi> v, 3)? 
+   <lb ed="#PL"/> Dicit enim hoc cum cogitur ad Christum venire, et 
+   <lb ed="#PL"/> terram calcare cum venit. Alia quaestio rursus exori<lb ed="#PL" break="no"/>tur. Nonne Christus sursum est? nonne ascendit in 
+   <lb ed="#PL"/> coelum, et sedet ad dexteram Patris? nonne Aposto<lb ed="#PL" break="no"/>lus
+   clamat, et dicit, Si <hi rend="italic">ergo resurrexistis cum Christo,</hi>
+   
+       <lb ed="#PL"/> quae sursum sunt <hi rend="italic">sapite,</hi> ubi <hi rend="italic">Christus eat
+    ad dexteram 
+   <lb ed="#PL"/> Dei sedens, qum</hi> sursum <hi rend="italic">sunt quaerite ,</hi> non <hi rend="italic">qum</hi> super 
+   <lb ed="#PL"/>
+       <hi rend="italic">terram . (Coloss.</hi> III, I <hi rend="italic">et</hi> 2) ? Quomodo ergo ut ad Chri<lb ed="#PL" break="no"/>atum
+   eamus, terram calcare compellimur; cum potius 
+   <lb ed="#PL"/> nobis sursum cor babendum sit ad Dominum, ut cum 
+   <lb ed="#PL"/> illo esse possimus ? Videtis, fratres, hodierni tempo<lb ed="#PL" break="no"/>ris
+   angustias istam coarctare quaestionem. Quod et si 
+   <lb ed="#PL"/> vos forte minus videtis, ego utcumque video quantae 
+   <lb ed="#PL"/> .disputationis indigeat. Unde peto ut eam potius sus<lb ed="#PL" break="no"/>pendi, quam vel negligentius vel angustius pertractari, 
+   <lb ed="#PL"/> non fraudata, sed dilata exspectatione patiamini. 
+   <lb ed="#PL"/> Aderit enim Dominus qui nos debitores facit, ut fa<lb ed="#PL" break="no"/>ciat
+   etiam redditores.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

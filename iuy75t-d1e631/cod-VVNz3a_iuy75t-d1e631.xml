@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 72</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 72</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e631"> <!-- iuy75t-t72 -->
+      <head xml:id="iuy75t-d1e631-Hd1e109">Tractatus 72</head>
+      <ab>
+       <title type="sub">
+        <hi rend="italic">In eamdem lectionem.</hi>
+       </title>
+      </ab>
+      <p xml:id="iuy75t-d1e631-d1e121">i. Quid sibi velit, et quomodo accipiendum sit quod 
+   <lb ed="#PL"/> Dominus ait, <hi rend="italic">Qui credit</hi> in <hi rend="italic">me, opera quae ego facio, et 
+   <lb ed="#PL"/>
+    ipse faciet,</hi> non est facile comprehendere : et cum hoc 
+   <lb ed="#PL"/> ad intelligendum difficillimum sit, adjecit aliud diffi<lb ed="#PL" break="no"/>cilius, <hi rend="italic">Et majora horum
+    faciet.</hi> Quid est hoc? Qui fa<lb ed="#PL" break="no"/>ceret
+   opera quae Christus fecit, non inveniebamus; 
+   <lb ed="#PL"/> qui etiam majora faciet, inventuri sumus ? Sed dixera. 
+   <lb ed="#PL"/> mus sermone pristino quia majus fuit umbrae suae 
+   <lb ed="#PL"/> tiansitu, quod discipuli fecerunt <hi rend="italic">(Act.</hi> v, 15), quam 
+   <lb ed="#PL"/> fimbriae suue tactu, quod ipse Dominus fecit ( <hi rend="italic">Matth.</hi>
+   
+       <lb ed="#PL"/> xiv, 36), sanare languentes; et quia plures Apostolis, 
+   <lb ed="#PL"/> quam ipso per os proprium praedicante Domino cre<lb ed="#PL" break="no"/>diderunt: ut haec viderentur opera intelligenda esso 
+   <lb ed="#PL"/> majora : non quo major esset Magistro discipulus, vel 
+   <lb ed="#PL"/> Domino servus, vel adoptatus Unigenito, vel homo 
+   <lb ed="#PL"/> Deo; sed quod per illos ipse dignaretur eadem majo<lb ed="#PL" break="no"/>ra
+   facere, qui dicit illis alio loco, <hi rend="italic">Sine me nihil
+    potestis 
+   <lb ed="#PL"/> facere (Joan.</hi> xv, 5). Ipse quippe, ut alia omittam, quae 
+   <lb ed="#PL"/> sunt innumerabilia, sine ipsis fecit eos, sine ipsis fecit 
+   <lb ed="#PL"/> hunc mundum; et quia homo etiam ipse fieri dignatus 
+   <lb ed="#PL"/> est, sine ipsis fecit et seipsum. Quid autem illi sine 
+   <lb ed="#PL"/> ipso, nisi peccatum ? Denique et hic id quod de hac 
+   <lb ed="#PL"/> re poterat nos movere, mox abstulit : cum enim di<lb ed="#PL" break="no"/>xisset, Qui <hi rend="italic">credit in me,
+    opera quae ego facio, et ipse 
+   <lb ed="#PL"/> faciet, et majora horum faciet;</hi> continuo seculus adjun<lb ed="#PL" break="no"/>xit, <hi rend="italic">Quia ego ad Patrem vado, et quascumque
+    petieritis,</hi>
+   
+       <lb ed="#PL"/> in <hi rend="italic">nomine meo, haec faciam.</hi> Qui dixerat <hi rend="italic">faciet,</hi> post ait 
+   <lb ed="#PL"/>
+       <hi rend="italic">faciam;</hi> tanquam diceret , Non vobis impossibile hoc 
+   <lb ed="#PL"/> videatur : non enim poteris esse major me qui credit 
+   <lb ed="#PL"/> in me, sed ego facturus sum et tunc majora quam 
+   <lb ed="#PL"/> nunc; majora per eum qui credit in me, quam praeter 
+   <lb ed="#PL"/> cumper me : ego tamen ipse praeter eum, ego ipse 
+   <lb ed="#PL"/> per eum : sed quando praeter eum, non faciet ipse ; 
+   <lb ed="#PL"/> quando autem per cum, quamvis non per semetipsum, 
+   <lb ed="#PL"/> faciet et ipse. Porro autem majora facere per eum 
+   <lb ed="#PL"/> quam praeter eum, non est defectio, sed dignatio. 
+   <lb ed="#PL"/> Quid enim retribuant servi Domino, pro omnibus quae 
+   <lb ed="#PL"/> retribuit eis
+    <hi rend="italic">(Psal.</hi> civ, 12) ? Quandoquidem inter cae<lb ed="#PL" break="no"/>tera
+   bona etiam hoc eis donare dignatus est, ut ma<lb ed="#PL" break="no"/>jora
+   faceret per illos quam pra ter illos. Nonne ab ore 
+   <lb ed="#PL"/> illius dives ille tristis abscessit, quando vitae aeternae 
+   <lb ed="#PL"/> consilium quaesivit <hi rend="italic">(Matth.</hi> xix, 16-22)? Audivit, ab<lb ed="#PL" break="no"/>jecit: et tamen postea quod ab illo auditum uon fecit 
+   <pb ed="#PL" n="1823"/>
+       <lb ed="#PL"/> unus, fecerunt multi, cum loqueretur per discipulos 
+   <lb ed="#PL"/> magister bonus; contemptibilis ci quem divitem per 
+   <lb ed="#PL"/> seipsum monuit, amabilis eis quos ex divitibus pau<lb ed="#PL" break="no"/>peres
+   per pauperes fecit. Ecce majora fecit praedica<lb ed="#PL" break="no"/>tus
+   a credentibus, quam locutus audientibus.</p>
+      <p xml:id="iuy75t-d1e631-d1e268">2. Verum hoc adhuc movet, quod haec majora per 
+   <lb ed="#PL"/> Apostolos fecit: non autem ipsos tantum significans 
+   <lb ed="#PL"/> ait, Opera quae ego facio et vos facietis, et majora ho<lb ed="#PL" break="no"/>. rum facietis : sed omnes ad suam familiam pertinen- • 
+   <lb ed="#PL"/> tes intelligi volens, <hi rend="italic">Qui credit in me,</hi> inquit, <hi rend="italic">opera
+   <lb ed="#PL"/> quas ego
+    facio, et ipse</hi> faciet, <hi rend="italic">et majora horum</hi> faciet. Si 
+   <lb ed="#PL"/> ergo qui credit faciet, non credit utique qui non fa. 
+   <lb ed="#PL"/> ciet : sicuti est, <hi rend="italic">Qui diligit</hi> me , <hi rend="italic">mandata mea</hi> custodit 
+   <lb ed="#PL"/>
+       <hi rend="italic">. (Joan.</hi> xiv, 21); unde profecto qui non custodit, non 
+   <lb ed="#PL"/> diligit. Item alio loco, <hi rend="italic">Qui audit,</hi> inquit, <hi rend="italic">verba mea
+   <lb ed="#PL"/> haec et facit ea, similabo</hi> eum <hi rend="italic">viro prudenti
+    qui</hi> aedificat 
+   <lb ed="#PL"/>
+       <hi rend="italic">domum suam supra petram (Matth.</hi> VII, 24) : qui ergo 
+   <lb ed="#PL"/> non est similis huic viro pmdenti, procul dubio 
+   <lb ed="#PL"/> aut verba haec audit et non facit, aut omnino 
+   <lb ed="#PL"/> nee audit. <hi rend="italic">Qui credit,</hi> inquit, <hi rend="italic">in
+    me, licet</hi> moriatur, 
+   <lb ed="#PL"/>
+       <hi rend="italic">vivet (Joan. XI,.</hi> 25) : qui ergo non vivet, non uliquo 
+   <lb ed="#PL"/> credit. Tale etiam hoc est, Qui <hi rend="italic">credit in me, faciet:</hi>
+   
+       <lb ed="#PL"/> non utique credit qui non faciet. Quid est hoc, fra<lb ed="#PL" break="no"/>tres ? Numquid inter credentes in Christum non est 
+   <lb ed="#PL"/> computandus, qui non fecerit opera majora quam 
+   <lb ed="#PL"/> Christus? Durum est, absurdum est, ferri non potest: 
+   <lb ed="#PL"/> non toleratur nisi intelligatur. Apostolum igitur au<lb ed="#PL" break="no"/>diamus : <hi rend="italic">Credenti,</hi> inquit, <hi rend="italic">in eum qui justificat impium, 
+   <lb ed="#PL"/> deputatur fides ejus ad
+    justitiam (Rom.</hi> IV, 5). In hoc 
+   <lb ed="#PL"/> opere faciamus opera Christi, quia et ipsum credere 
+   <lb ed="#PL"/> in Christum, opus est Christi. Hoc operatur in nobis, 
+   <lb ed="#PL"/> non utique sine nobis. Audi ergo jam, et intellige, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Qui credit in me, opera quae ego facio, et ipse faciet :</hi>
+   
+       <lb ed="#PL"/> prius ego facio, deinde et ipse faciet; quia facio ut 
+   <lb ed="#PL"/> faciat. Quae opera, nisi ut ex impio justus liat?</p>
+      <p xml:id="iuy75t-d1e631-d1e388">5. <hi rend="italic">Et majora horum faciet.</hi> Quorum, obsecro ? Num<lb ed="#PL" break="no"/>quidnam
+   omnium operum Christi majora iacit, qui 
+   <lb ed="#PL"/> cum timore et tremore suam ipsius salutem operator 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Philipp.</hi> II, 12) ? Quod utique in illo, sed non sine 
+   <lb ed="#PL"/> illo Christus operatur. Prorsus majus boc csse dixe<lb ed="#PL" break="no"/>rim, quam est caelum et terra, et quaecumque cer<lb ed="#PL" break="no"/>nuntur
+   in coelo et in terra. Et caelum enim et terra 
+   <lb ed="#PL"/> transibit <hi rend="italic">(Matth.</hi> xxiv, 55 ); praedestinatorum autem, 
+   <lb ed="#PL"/> id est eorum quos prascit, salus et justificatio perma- 
+   <lb ed="#PL"/> Debit. In illis tantum operi Dei, in bis autem etiam 
+   <lb ed="#PL"/> est imago Dei. Sed et in coelis, Sedes, Dominationes,
+   
+   <lb ed="#PL"/> Principatus, Potestates, Archangeli, Angeli opera sunt 
+   <lb ed="#PL"/> Christi; numquid etiam his operibus majora facit, qui 
+   <lb ed="#PL"/> operante in se Christo, cooperatur aeternam salutem 
+   <lb ed="#PL"/> ac justificationem suam? Non hic audeo praecipitare 
+   <lb ed="#PL"/> senteutiam : intelligat qui potest, judicet qui potest, 
+   <lb ed="#PL"/> utrum majus sit justos crcare quam impios justificare. 
+   <lb ed="#PL"/> Certe enim si aequalis est uirumque potentiae, hoc ma<lb ed="#PL" break="no"/>joris
+   est miscricordise. <hi rend="italic">Hoc eat</hi> enim <hi rend="italic">magnum
+    pietatis
+   <lb ed="#PL"/> sacramentum, quod manifestatum eat</hi> in carne, <hi rend="italic">justifica­</hi>
+   
+       <lb ed="#PL"/> tum <hi rend="italic">est in Spiritu, apparuit Angelis, praedicatum est</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">gentibus, creditum est in</hi> mundo, <hi rend="italic">assumptum est
+    in glo<lb ed="#PL" break="no"/>ria (</hi> I <hi rend="italic">Tim.</hi> m, 16). Sed omnia opera Christi intelli<lb ed="#PL" break="no"/>gere
+   ubi ait, <hi rend="italic">Majora horum faciei,</hi> nulla nos necessi<lb ed="#PL" break="no"/>tas
+   cogit. <hi rend="italic">MoruM</hi> enim forsitan dixit, quai in illa hora 
+   <lb ed="#PL"/> faciebat: tunc autem verba fidei faciebat, et de his ope. 
+   <lb ed="#PL"/> ribus fuerat praelocutus dicens, <hi rend="italic">Verba qum ego loquor 
+   <lb ed="#PL"/> vobis, a meipso non
+    loquor : Pater autem in me manens,
+   <lb ed="#PL"/> ipse facit opera.</hi> Tunc igitur verba ejus erant opera 
+   <lb ed="#PL"/> ejus. Et utique minus est verba justitiae praedicare, 
+   <lb ed="#PL"/> quod fecit praeter nos, quam impios juslificare, quod 
+   <lb ed="#PL"/> ita facit in nobis, ut faciamus et nos. Restat inquirere 
+   <lb ed="#PL"/> quomodo accipiendum sit, <hi rend="italic">Quodcumque
+    petieritis</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">nomine meo, hoc faciam.</hi> Propter multa enim quae pe<lb ed="#PL" break="no"/>tunt
+   fideles ejus, nec accipiunt, non parva hine exo<lb ed="#PL" break="no"/>ritur
+   quaestio : sed quoniam sermo iste jam clauden<lb ed="#PL" break="no"/>dus
+   est, ei considerandae atque tractandae tribuatur 
+   <lb ed="#PL"/> saltem parva dilatio.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

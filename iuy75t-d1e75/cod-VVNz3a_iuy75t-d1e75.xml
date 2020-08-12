@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 4</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 4</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e75"> <!-- iuy75t-t4 -->
+      <head xml:id="iuy75t-d1e75-Hd1e109">Tractatus 4</head>
+      <p xml:id="iuy75t-d1e75-d1e112">
+       <hi rend="italic">Ab eo quod scriptum</hi> est, Et hoc est testimonium Joan<lb ed="#PL" break="no"/>nis, 
+   quando miserunt Judaei ab Jerosolymis sacerdo<lb ed="#PL" break="no"/>tes, 
+   <hi rend="italic">etc., usque ad id,</hi> Ipse est qui baptizat in Spi<lb ed="#PL" break="no"/>ritu
+   sancto, <hi rend="italic">etc. Cap.</hi> I, f . 19-33.
+  </p>
+      <p xml:id="iuy75t-d1e75-d1e131">
+   i. Saepissime audivit Sanctitas vestra, et optime no. 
+   <lb ed="#PL"/> stis, quoniam Joannes Baptista quanto praeclarior erat 
+   <lb ed="#PL"/> in natis mulierum, et quanto humilior ad cognoscen<lb ed="#PL" break="no"/>dum
+   Dominum, tanto meruit esse amicus sponsi; 
+   <lb ed="#PL"/> sponso zelans, non sibi; non suum honorem quae<lb ed="#PL" break="no"/>rens, 
+   sed judicis sui, quem tanquam praeco praibat.
+   <lb ed="#PL"/> Itaque Prophetis praecedentibus praenuntiare de Chri<lb ed="#PL" break="no"/>sto
+   futura concessum est; huic autem digito osten<lb ed="#PL" break="no"/>dere. 
+   Sicut enim ignorabatur Christus ab his qui
+   <lb ed="#PL"/> Prophetis non crediderunt antequam veniret, sic ab 
+   <lb ed="#PL"/> eis ignorabatur et praesens. Venerat enim humiliter 
+   <lb ed="#PL"/> primo et occultus; tanto occultior, quanto humilior : 
+   <lb ed="#PL"/> populi autem spernentes per superbiam suam humili<lb ed="#PL" break="no"/>tatem
+   Dei, crucifixerunt Salvatorem suum, et fece<lb ed="#PL" break="no"/>runt
+   damnatorem suum.
+  </p>
+      <p xml:id="iuy75t-d1e75-d1e164">i. Sed qui primo venit occultus, quia venit humi- 
+   <lb ed="#PL"/> Jis, numquid deinceps non est venturus manifestus, 
+   <lb ed="#PL"/> quia excelsus ? Audistis modo Psalmum : <hi rend="italic">Deus</hi> ma<lb ed="#PL" break="no"/>nifestus 
+   <hi rend="italic">veniet, Deus noster et non silebit.</hi> Siluit ut ju<lb ed="#PL" break="no"/>dicaretur, 
+   non silebit cum coeperit judicare. Non
+   <lb ed="#PL"/> diceretur, <hi rend="italic">manifestus veniet,</hi> nisi primo venisset oc<lb ed="#PL" break="no"/>cultus; 
+   nec diceretur, <hi rend="italic">non silebit,</hi> nisi quia primo 
+   <lb ed="#PL"/> siluit. Quomodo siluit? Interroga Isaiam : <hi rend="italic">Sicut ovis 
+   <lb ed="#PL"/> ad occisionem ductus est, el sicut agnus coram eo qui
+   <lb ed="#PL"/> se tonderet</hi> i, <hi rend="italic">fuit sine voce, sic non aperuit os suum 
+   <lb ed="#PL"/> (Isai.</hi> LIII, 7). <hi rend="italic">Veniet</hi> autem <hi rend="italic">manifestus, et</hi> non <hi rend="italic">silebit.</hi>
+       <lb ed="#PL"/> Quomodo <hi rend="italic">manifestus ? ignis ante eum proeibit, et</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">circuitu ejus tempestas valida (Psal.</hi> XLIX, 3). Tem<lb ed="#PL" break="no"/>pestas
+   illa tollere habet totam palcam de area, quae 
+   <lb ed="#PL"/> modo trituratur; et ignis incendere quod tempestas 
+   <lb ed="#PL"/> abstulerit. Modo antem tacet : tacet judicio, sed non 
+   <lb ed="#PL"/> tacet praecepto. Si enim tacet Christus, quid sibi 
+   <lb ed="#PL"/> volunt haec Evangelia? quid sibi volunt voces apo<lb ed="#PL" break="no"/>stolicae, 
+   quid cantica Psalmorum, quid eloquia Pro<lb ed="#PL" break="no"/>phetarum
+   ? In bis enim omnibus Christus non tacet. 
+   <lb ed="#PL"/> Sed tacet modo, ut non vindicet: non tacet, ut non 
+   <lb ed="#PL"/> moneat. Veniet antem praeclarus in vindictam, et 
+   <lb ed="#PL"/> apparebit omnibus, et qui in eum non credunt. Modo 
+   <lb ed="#PL"/> vero quia et praesens occultus erat, oportebat ut con. 
+   <lb ed="#PL"/> temneretur. Nisi enim contemneretur, non crucifige<lb ed="#PL" break="no"/>retur
+   : si non crucifigeretur, non funderet sangui<lb ed="#PL" break="no"/>nem, 
+   quo pretio nos redemit. Ut autem daret pretium 
+   <lb ed="#PL"/> pro nobis, crucifixus est; ut crucifigeretur, contem<lb ed="#PL" break="no"/>ptus 
+   est; ut contemneretur, humilis apparuit.
+  </p>
+      <p xml:id="iuy75t-d1e75-d1e263">
+   3. Tamen quia quasi in nocte apparuit in corpore 
+   <lb ed="#PL"/> mortali, lueernam sibi aceendit unde videretur. Ipsa 
+   <lb ed="#PL"/> lucerna Joannes <hi rend="italic">erat (Joan.</hi> v, 35), de quo jam multa 
+   <lb ed="#PL"/> audivistis : et praesens lectio Evangelii, verba Joan<lb ed="#PL" break="no"/>nis
+   continet, primo, quod pracipuum est, confitentis 
+   <lb ed="#PL"/> quia non ipse erat Christus. Tanta autem excellentia 
+   <lb ed="#PL"/> erat in Joanne, ut posset credi Christus : et in eo 
+   <lb ed="#PL"/> probata est humilitas ejas, quia dixit se non esse, 
+   
+   <pb ed="#PL" n="1407"/>
+       <lb ed="#PL"/> cum posset credi esse. Ergo, Hoc <hi rend="italic">est testimonium</hi>
+   
+       <lb ed="#PL"/> JoanniS, <hi rend="italic">quando miserunt Judoei ab</hi> Jerosolymis <hi rend="italic">sacer<lb ed="#PL" break="no"/>dotes
+   et Levitas ad cum, ut interrogarent eum, Tu quis
+   <lb ed="#PL"/>
+    es?</hi> Non autem mitterent, nisi movcrenlur excellentia 
+   <lb ed="#PL"/> auctoritatis ejus, quia ausus est baptizare. <hi rend="italic">Et confes­</hi>
+   
+       <lb ed="#PL"/> sus <hi rend="italic">est, et non negavit.</hi> Quid confessus est? <hi rend="italic">Et con­</hi>
+   
+       <lb ed="#PL"/> fessus <hi rend="italic">est, Quia non</hi> sum <hi rend="italic">ego
+    Christus.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e75-d1e326">4. <hi rend="italic">Et interrogaverunt eum, Quid ergo? Elias es tu?</hi>
+   
+       <lb ed="#PL"/> Noverant cnim quia praecessurus erat Elias Christum. 
+   <lb ed="#PL"/> Non enim alicui incognitum erat nomen Christi apud 
+   <lb ed="#PL"/> Judaeos. Istum non putaverunt esse Christum : non 
+   <lb ed="#PL"/> omnino Christum non esse venturum. Cum sperarent 
+   <lb ed="#PL"/> venturum, sic offenderunt in praesentem, offenderunt 
+   <lb ed="#PL"/> tanquam in humilem lapidem). Lapis enim jlle adhuc 
+   <lb ed="#PL"/> parvus erat, jam quidem praecisus de monte sine ma<lb ed="#PL" break="no"/>nibus : sicut dicit Daniel propheta, vidisse se lapidcm 
+   <lb ed="#PL"/> praecisum de monte sine manibus. Sed quid sequitur? 
+   <lb ed="#PL"/>
+       <hi rend="italic">Et crevit,</hi> inquit, <hi rend="italic">lapis ille, et factus est
+    mons magnus, 
+   <lb ed="#PL"/> et implevit universam faciem terr</hi>oe ( Dan. II, 34, 55 ). 
+   <lb ed="#PL"/> Videat ergo Cbaritas vestra quod dico : Christus ante 
+   <lb ed="#PL"/> Judaeos jam praecisus erat de monte. Moutcm regnum 
+   <lb ed="#PL"/> vult intelligi Judxorum. Sed regnum Judaeorum non 
+   <lb ed="#PL"/> impleverat universam facicm terrae. Inde praecisus est 
+   <lb ed="#PL"/> ille lapis, quia inde natus est in praesentia Dominus. 
+   <lb ed="#PL"/> Et quare sine manibus? Quia sine opere virili Virgo
+   
+   <lb ed="#PL"/> peperit Christum. Jam ergo erat lapis ille praecisus 
+   <lb ed="#PL"/> sine manibus, ante oculos Judaeorum : sed humilis 
+   <lb ed="#PL"/> erat. Non immerito ; quia nondum creverat lapis ille, 
+   <lb ed="#PL"/> et impleverat orbem terrarum : quod ostendit in re<lb ed="#PL" break="no"/>gno
+   suo, quod est Ecclesia, qua implevit totam faciem 
+   <lb ed="#PL"/> terrae. Quia ergo nondum creverat, offenderunt in 
+   <lb ed="#PL"/> illum tanquam in lapidem : et factum est in eis quod 
+   <lb ed="#PL"/> scriptum est, <hi rend="italic">Qui ceciderit super lapidem</hi> istum, <hi rend="italic">con­
+   <lb ed="#PL"/>
+    quassabitur; et super quos ceciderit lapis ille, conteret
+   <lb ed="#PL"/> eos (Luc.</hi> xx, 18). Primo super humilem cccidcrunt; 
+   <lb ed="#PL"/> excelsus super illos venturus est: sed ut cos venturus 
+   <lb ed="#PL"/> excelsus conterat, primo eos humilis quassavit. Offen<lb ed="#PL" break="no"/>derunt
+   in cum, et quassati sunt; non contriti, sed 
+   <lb ed="#PL"/> quassati : venie! excelsus,etconteret eos. Sed igno<lb ed="#PL" break="no"/>scendum
+   est 1 Judaeis, quia offenderunt in lapidem qui 
+   <lb ed="#PL"/> nondum creverat. Qualcs sunt illi qui in ipsum mon<lb ed="#PL" break="no"/>tem
+   offenderunt ? Jam de quibus dicam cognoscitis. 
+   <lb ed="#PL"/> Qui negant Ecclesiam loto orbe diffusam, non in hu<lb ed="#PL" break="no"/>milem
+   lapidem, sed in ipsum montem offendunt: quod 
+   <lb ed="#PL"/> factus est ille lapis dum cresceret. Caeci Judaei non vi<lb ed="#PL" break="no"/>derunt
+   humilem lapidem : quanta caecitas est non vi<lb ed="#PL" break="no"/>dere
+   montem?</p>
+      <p xml:id="iuy75t-d1e75-d1e428">5. Ergo viderunt humilem, et non cognovcrunt. 
+   <lb ed="#PL"/> Demonstrabatur illis per lucernam. Nam primo ille, 
+   <lb ed="#PL"/> quo major nemo surrexerat in natis mulierum, dixit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Non</hi> sum ego <hi rend="italic">Christus.</hi> Dictumque illi est,
+    <hi rend="italic">Numquid tu
+   <lb ed="#PL"/> ca</hi> Elias ? <hi rend="italic">Respondit, non
+    sum.</hi> Christus enim praemittit 
+   <lb ed="#PL"/> ante se Etiam : et dixit, <hi rend="italic">Non</hi> sum, et fecit nobis quoe<lb ed="#PL" break="no"/>stionem. Timendum est enim ne minus intelligentes, 
+   <lb ed="#PL"/> contraria putent Joannem dixisse quam Christus dixit. 
+   <lb ed="#PL"/> Quodam enim loco, cum Dominus Jesus Christus in 
+   <lb ed="#PL"/> Evangelio quaedam diceret de se, responderunt illi die 
+   
+   <lb ed="#PL"/> scipuli : <hi rend="italic">Quomodo ergo dicunt Scriboe,</hi> id est periii Le­
+   
+   <lb ed="#PL"/> gis, <hi rend="italic">quia Etiam oportet primum venire?</hi> Et ait, Domi<lb ed="#PL" break="no"/>nus
+   : <hi rend="italic">Elias jam venit, et fecerunt ei quae voluerunt; et
+   <lb ed="#PL"/> si vultis
+    scire, ipse est Joannes Baptista</hi> ( <hi rend="italic">Matth.</hi> xvn, 
+   <lb ed="#PL"/> 40 13, <hi rend="italic">et</hi> xi, 11-14). Dominus Jesirs Christus dixit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Elias jam venit, et ipse est Joannes Baptista:</hi> Joannes 
+   <lb ed="#PL"/> autcm interrogatus sic se confessus est Etiam non csso, 
+   <lb ed="#PL"/> quomodo nee Christum esse. Et utiqne sicut verum 
+   <lb ed="#PL"/> confessus est Christum se non esse, sic verum confes<lb ed="#PL" break="no"/>sus
+   est nee Etiam se esse. Quomodo ergo comparabi<lb ed="#PL" break="no"/>mus
+   dicta praeconis cum dictis judicis? Absit ut prae<lb ed="#PL" break="no"/>co
+   mentiatur : hoc eniin loquitur quod audit a judice.
+   
+   <lb ed="#PL"/> Quare ergo ille, <hi rend="italic">Non</hi> sum <hi rend="italic">Elias:</hi> et Dominus, <hi rend="italic">Ipse est</hi>
+   
+       <lb ed="#PL"/> Elias ? Quia in eo Dominus Jesus Christus praefigurare 
+   <lb ed="#PL"/> voluit futurum adventum suum, et hoc diccre, quia in 
+   <lb ed="#PL"/> spiritu Eliae erat Joannes. Et quod erat Joannes ad 
+   <lb ed="#PL"/> primum adventum, hoc erit Elias ad secundum ad. 
+   <lb ed="#PL"/> ventum. Quolnodo duo adventus judicis, sic duo pr:e- 
+   <lb ed="#PL"/> cones. Judex quidem ipse, praecoues autem duo
+   : non 
+   <lb ed="#PL"/> duo judices. Oportebat enim judicem primo venire ju - 
+   <lb ed="#PL"/> dicandum. Misit ante se primum praeconem, vocavit 
+   <lb ed="#PL"/> illum Eliam; quia hoc erit in secundo adventu Elias, 
+   <lb ed="#PL"/> quod in primo Joannes.</p>
+      <p xml:id="iuy75t-d1e75-d1e544">6. Namque intendat Charitas vestra quam verum 
+   <lb ed="#PL"/> dicam. Quando conceptus est Joannes, vcl potius 
+   <lb ed="#PL"/> quando natus est, Spiritus sanctus hoc de illo homine 
+   <lb ed="#PL"/> implendum prophetavit : <hi rend="italic">Et erit,</hi> inquit, <hi rend="italic">praecursor Al<lb ed="#PL" break="no"/>tissimi, in spiritu etvirtute Eliae (Luc.</hi> I, i7). Non ergo
+   
+   <lb ed="#PL"/> Elias, sed <hi rend="italic">in spiritu et virtute Elice.</hi> Quid est, <hi rend="italic">in spiritu
+   <lb ed="#PL"/> et virtute Elioe?</hi> In codem Spiritu sancto vice Elias. 
+   <lb ed="#PL"/> Quare vice Eliae? Quia quod Elias secundo, hoc Joan- 
+   <lb ed="#PL"/> Des primo advenlui fuit. Recte ergo modo Joannes 
+   <lb ed="#PL"/> proprie respondit. Nam Dominus figurate,
+    <hi rend="italic">Elias ipse 
+   <lb ed="#PL"/> est Joannes :</hi> iste autem, ut dixi, proprie,
+    <hi rend="italic">Non sum
+   <lb ed="#PL"/> ego Elias.</hi> Si figuram praecursionis advertas, Joannes 
+   <lb ed="#PL"/> ipse est Elias : quod enim ille ad primum adventum , 
+   <lb ed="#PL"/> hoc ille ad secundum erit. Si proprietatem personae 
+   <lb ed="#PL"/> interroges, Joannes Joannes, Elias Elias; Dominus er<lb ed="#PL" break="no"/>go
+   ad praefigurationem recte, <hi rend="italic">Ipse est</hi> Elias : Joannes 
+   <lb ed="#PL"/> auLon recte ad proprietatem, <hi rend="italic">Non sum Elias.</hi> Nee
+   
+   <lb ed="#PL"/> Joannes falsum, nec Dominus falsum : nee praeco fal<lb ed="#PL" break="no"/>sum, nec Judex falsum ; sed si intelligas. Quis autem 
+   <lb ed="#PL"/> intelliget? Qui imitatus fuerit humilitatem praeconis, 
+   <lb ed="#PL"/>etcognovcrit celsitudinem judicis. Nihil cnim humi<lb ed="#PL" break="no"/>lius
+   ipso praecone. Fratres mei, nullum tantum mcri<lb ed="#PL" break="no"/>lum
+   Joannes habuit quam de ista humilitate, quod 
+   <lb ed="#PL"/> cum posset lallerc homines, et putari Christus,etIra<lb ed="#PL" break="no"/>beri
+   pro Christo (tantae enim gratiae tantaeque cxcel<lb ed="#PL" break="no"/>lentiae
+   fuit), confessus est tamen aperte, et dixit, <hi rend="italic">Non</hi>
+   
+       <lb ed="#PL"/> sum <hi rend="italic">ego Christus. Numquid tu Elias es?</hi> Jam si diceret,
+   
+   <lb ed="#PL"/> Elias sum; ergo jam in secundo adventu adveniens 
+   <lb ed="#PL"/> Christus judicaret, non adhuc in primo judicaretur. 
+   <lb ed="#PL"/> Tanquam dicens, Venturus est et Elias; <hi rend="italic">Non sum,</hi> in<lb ed="#PL" break="no"/>quit, <hi rend="italic">Elias.</hi> Sed observatc humilem, ante quem venit 
+   <lb ed="#PL"/> Joannes, ne sentiatis excelsum ante quem venturus 
+   <lb ed="#PL"/> est Elias. Nam et Dominus ita complevit : <hi rend="italic">Ipse cst
+    
+   <lb ed="#PL"/> Joannes Baptista qui venturus cst.</hi> Ipsa praefiguratione 
+   <lb ed="#PL"/> venit iste, qua proprietate venturus est Elias. Tunc 
+   <lb ed="#PL"/> Elias per proprietatcm Elias crit, nunc per similitudi­ 
+   <pb ed="#PL" n="1409"/>
+       <lb ed="#PL"/> nem Joannes erat. Modo Joannes per proprietatem 
+   <lb ed="#PL"/> Joannes, pcr similitudinem Elias est 1. Ambo praeco- 
+   <lb ed="#PL"/> Des sibi dederunt similitudines suas, et tenuerunt pro<lb ed="#PL" break="no"/>prietates
+   suas : unus autem Dominus judex, sive illo 
+   <lb ed="#PL"/> , pra'cone praecedente, sive illo.</p>
+      <p xml:id="iuy75t-d1e75-d1e676">7. <hi rend="italic">Et interrogaverunt eum: Quid ergo? Elias es tu? 
+   <lb ed="#PL"/> Et dixit:
+    Non. Et dixerunt ei : Propheta es tu ? Et re<lb ed="#PL" break="no"/>spondit ? Non. Dixerunt ergo ei :
+    Quis es tu ? ut respon­</hi>
+   
+       <lb ed="#PL"/> sum <hi rend="italic">demus his qui miseruut noa. Quid dicis de</hi> teipso i 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ait : Ego vox clamantis in deserto.</hi> Isaias illud dixit 
+   <lb ed="#PL"/>
+       <hi rend="italic">(lsa.,</hi> XL, 3). In Joanne prophetia ista impleta est, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ego vox clamantis</hi> in <hi rend="italic">deserto.</hi> Quid clamantis? <hi rend="italic">Dirigite 
+   <lb ed="#PL"/> viam Domini, rectas facile semitas Dei
+    nostri.</hi> Non vobis 
+   <lb ed="#PL"/> videtur praeconis esse dicere, Exite, facile viam? Nisi
+   
+   <lb ed="#PL"/> quod praeco Exite dicit: Joannes dicit, Venite. A ju<lb ed="#PL" break="no"/>dice
+   repellit praeco, ad judicem vocat Joannes. Imo 
+   <lb ed="#PL"/> vocat Joannes ad humilem, ne judex sentiatur excel­
+   
+   <lb ed="#PL"/> sus. <hi rend="italic">Ego vox</hi> clamantis in deserto, <hi rend="italic">dirigite viam Domini, 
+   <lb ed="#PL"/> sicut</hi> dixit Isaias <hi rend="italic">propheta.</hi> Non dixit, Ego sum Joannes, 
+   <lb ed="#PL"/> ego sum Elias, Ego sum propheta. Sed quid dixit? Hoc
+   
+   <lb ed="#PL"/> vocor, Vox <hi rend="italic">clamantis in deserto, Dirigite viam Domino :</hi>
+   
+       <lb ed="#PL"/> ego sum ipsa prophetia.</p>
+      <p xml:id="iuy75t-d1e75-d1e747">8. <hi rend="italic">Et qui missi fuerant, erant ex Pharisoeis</hi> : id est, 
+   <lb ed="#PL"/> ex principibus Judaeorum. <hi rend="italic">Et interrogaverunt, et dixe­
+   <lb ed="#PL"/> runt ei: Quid
+    ergo baptizas,</hi> si <hi rend="italic">tu non es</hi> Christus, <hi rend="italic">neque 
+   <lb ed="#PL"/> Elias, neque</hi> propheta ? Quasi audaciae videbatur esse 
+   <lb ed="#PL"/> baptizare, quasi, In qua persona? Quaerimus utrum 
+   <lb ed="#PL"/> tu sis Christus; tu dicis te non esse : quaerimus ne 
+   <lb ed="#PL"/> forte praccursor illius sis, quia novimus anie Christi 
+   <lb ed="#PL"/> adventum venturum esse Eliam; negas te esse: quae<lb ed="#PL" break="no"/>rimus
+   ne forte aliquis multum praeveniens praeco es, 
+   <lb ed="#PL"/> id est propheta, et accepisti hanc potestatem; nec pro­
+   
+   <lb ed="#PL"/> phetam te esse dicis. Et non erat propheta Joannes : 
+   <lb ed="#PL"/> major erat quam propheta. Dominus de illo tale testi<lb ed="#PL" break="no"/>monium
+   dedit : <hi rend="italic">Quid
+    existis</hi> in <hi rend="italic">desertum videre</hi> ? Arun­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">dinem vento agitari.</hi> Utique, Non vento agitari, sub<lb ed="#PL" break="no"/>audis; quia non hoc erat Joannes, quasi qui a vento 
+   <lb ed="#PL"/> moveretur: qui euim a vento movetur, circumflatur 
+   <lb ed="#PL"/> omni spiritu seductorio. <hi rend="italic">Sed quid</hi> existis <hi rend="italic">videre?</hi> Ho<lb ed="#PL" break="no"/>minem <hi rend="italic">mollibus vestitum?</hi> Vestiebalur enim Joanpes 
+   <lb ed="#PL"/> asperis, id est, tunica facta de pilis cameli. <hi rend="italic">Ecce qui 
+   <lb ed="#PL"/> mollibus vestiuntur, in domibus regum sunt.</hi> Non ergo
+   
+   <lb ed="#PL"/> existis vidcre hominem mollibus vestitum. <hi rend="italic">Sed quid</hi>
+   
+       <lb ed="#PL"/> existis videre ? Prophetam ? <hi rend="italic">Ita dico vobis, major quam 
+   <lb ed="#PL"/>
+    propheta hic (Matth.</hi> XI, 7,8, 9) : quia prophetae longe 
+   <lb ed="#PL"/> ante pranuntiaverunt, Joannes praesentem demon<lb ed="#PL" break="no"/>strabat.</p>
+      <p xml:id="iuy75t-d1e75-d1e843">9. <hi rend="italic">Quid ergo tu baptizas,</hi> si <hi rend="italic">tu non es
+    Christus, ne<lb ed="#PL" break="no"/>que
+   Elias, neque propheta? Respondit eis Joannes, et 
+   <lb ed="#PL"/> dixit:
+    Ego baptizo</hi> in <hi rend="italic">aqua; medius autem vestrum sletit 
+   <lb ed="#PL"/> quem vos
+    nescitis.</hi> Humilis enim non videbatur, et pro<lb ed="#PL" break="no"/>pterca
+   lucerna accensa est. Videte quomodo dat locum, 
+   <lb ed="#PL"/> qui aliud posset putari. <hi rend="italic">Ipse est qui
+    post me venit, qui 
+   <lb ed="#PL"/> ante me factus est.</hi> Sicut jam diximus, id est, antepo­
+   
+   <lb ed="#PL"/> situs est mihi. <hi rend="italic">Cujus ego non</hi> sum <hi rend="italic">dignus
+    ut solvam coni­</hi>
+   
+       <lb ed="#PL"/> giam <hi rend="italic">calceamenti ejus.</hi> Quantum se abjecit? Et ideo mul­
+    tum elevatus est ; quoniam qui se humiliat, exaltabitur 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Luc.</hi> XIV, 11). Unde debet videre Sanctitas vestra, 
+   <lb ed="#PL"/> quia si Joannes sic se humiliavit, ut diceret, <hi rend="italic">Non</hi> sum 
+   <lb ed="#PL"/>
+       <hi rend="italic">ego dignus corrigiam solvere;</hi> quomodo habent bu<lb ed="#PL" break="no"/>miliari, qui dicunt: Nos baptizamus, nps qnod damus 
+   <lb ed="#PL"/> nostrum est, et quod nostrum est, sanctum est. Ille 
+   <lb ed="#PL"/> dicit, Non ego, sed ille : illi dicunt, Nos (a). Non 
+   <lb ed="#PL"/> est dignus Joannes solvere corrigiam calceamenli 
+   <lb ed="#PL"/> ejus : quod si dignum se diceret, quam humilis esset? 
+   <lb ed="#PL"/> Et si dignum se diceret, et sic dicerct, Ille venit post 
+   <lb ed="#PL"/> me, qui ante me factus est, cujus tantummodo corri<lb ed="#PL" break="no"/>giam
+   calceamenti dignus sum solvere; multum se hu<lb ed="#PL" break="no"/>miliasset. Quando autem nee ad hoc dignum se dicit, 
+   <lb ed="#PL"/> vere plenus Spiritu sancto crat, qui sic servus Domi<lb ed="#PL" break="no"/>num
+   agnovit,etex servo amicus fieri meruit.</p>
+      <p xml:id="iuy75t-d1e75-d1e924">10. <hi rend="italic">Hoec</hi> in <hi rend="italic">Bethania facta sunt trans Jordanem,
+    ubi 
+   <lb ed="#PL"/> erat Joannes baptizans. Altera die vidit Joannes Jesum 
+   <lb ed="#PL"/> venientem ad
+    set et ait : Ecce Agnus Dei, ecce qui tollit 
+   <lb ed="#PL"/> peCcatum mundi.</hi> Nemo sibi arroget, et dicat quia ipse 
+   <lb ed="#PL"/> auferat peccatum mundi. Jam intendite 1, contra quos
+   
+   <lb ed="#PL"/> superbos intendebat digitum Joannes. Nondum erant 
+   <lb ed="#PL"/> nati haeretici, et jam ostendebantur : contra illos cla. 
+   <lb ed="#PL"/> mabat tunc a fluvio, contra quos modo clamat ex
+   
+   <lb ed="#PL"/> Evangelio. Venit Jesus ; et quid dicit ille ? <hi rend="italic">Ecce Agnus 
+   <lb ed="#PL"/>
+    Dei.</hi> Si agnus innocens, et Joannes agnus. An non 
+   <lb ed="#PL"/> et ipse innocens ? Sed quis innocens ? quantum in no<lb ed="#PL" break="no"/>cens ? Omnes ex illa traduce veniunt et ex illa pro<lb ed="#PL" break="no"/>pagine, de qua canta! gemens David : <hi rend="italic">Ego in iniqui­ 
+   <lb ed="#PL"/>
+    tate conceptus</hi> sum, <hi rend="italic">et in peccatis mater mea</hi> in <hi rend="italic">utero 
+   <lb ed="#PL"/> me aluit</hi> ( <hi rend="italic">Psal.</hi> L, 7). Solus ergo ille Agnus, qui non 
+   <lb ed="#PL"/> sic venit. Non enim in iniquitate conceptus est; 
+   <lb ed="#PL"/> quia non de mortalitate conceptus est: nec eum in 
+   <lb ed="#PL"/> peccatis mater ejus in utero aluit, quem virgo con<lb ed="#PL" break="no"/>cepit, virgo peperit; quia fide concepit, et fide susce­
+   
+   <lb ed="#PL"/> pit. Ergo <hi rend="italic">ecce Agnus Dei.</hi> Non habet iste traducem 
+   <lb ed="#PL"/> de Adam : carnem tantum sumpsit de Adam, pecca<lb ed="#PL" break="no"/>tum
+   non assumpsit. Qui non assumpsit de nostra 
+   <lb ed="#PL"/> massa peccatum, ipse est qui tollit nostrum peccatum. 
+   <lb ed="#PL"/>
+       <hi rend="italic">Ecce Agnus Dei, ecce qui tollit peccatum</hi> mundi.</p>
+      <p xml:id="iuy75t-d1e75-d1e1004">ii. Nostis quia quidam homines dicunt aliquando; 
+   <lb ed="#PL"/> Nos tollimus peccata hominibus, qui sancti sumus: 
+   <lb ed="#PL"/> si enim non fuerit sanctus qui baptizat, quomodo 
+   <lb ed="#PL"/> tollit peccatum alterius, cum sit homo ipse plenus 
+   <lb ed="#PL"/> peccato ? Contra istas disputationes verba nostra non 
+   <lb ed="#PL"/> dicamus, hunc legamus : <hi rend="italic">Ecce Agnus Dei,
+    ecce</hi> qui <hi rend="italic">tollit 
+   <lb ed="#PL"/> peccatum</hi> mundi. Non sit praesumptio hominibus in 
+   <lb ed="#PL"/> homines: non transmigret passer in montes, in Do<lb ed="#PL" break="no"/>mino
+   confidat
+    <hi rend="italic">(Psa..</hi> x, 2);etsi levat oculos in mon<lb ed="#PL" break="no"/>tes, unde veniet auxilium ei, intelligat quia auxilium 
+   <lb ed="#PL"/> ejus a Domino, qui fecit caelum et terram
+    <hi rend="italic">(Psal.</hi> ciI, 
+   <lb ed="#PL"/> 4,2). Tantae excellentiae Joannes, dicitur ei, Tu es 
+   <lb ed="#PL"/> Christus ? Dicit, Non. Tu es Elias ? Dicit, Non. Tu es 
+   <lb ed="#PL"/> propheta? Dicit, Non. Quare ergo baptizas? <hi rend="italic">Ecce 
+   <lb ed="#PL"/> Agnus Dei, ecce qui tollit
+    peccatum mundi : hic eat de 
+   <lb ed="#PL"/> quo dixi, Post me venit vir qui ante me factus est,
+    quia 
+   <lb ed="#PL"/> prior me erat. Post me venit,</hi> quia posterius natus est: 
+   
+   
+   <pb ed="#PL" n="1411"/>
+       <lb ed="#PL"/>
+       <hi rend="italic">ante</hi> me <hi rend="italic">factus est,</hi> qnia praelatus est mihi
+   : <hi rend="italic">prior me
+   <lb ed="#PL"/> erat, quia</hi> in <hi rend="italic">principio erat
+    Verbum, et Verbum erat
+   <lb ed="#PL"/> apud Deum, et Deus</hi> erat <hi rend="italic">Verbum.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e75-d1e1081">12. « Et ego nesciebam eutn, dixit : sed ut manife<lb ed="#PL" break="no"/>staretur
+   Israeli, propterea veni ego in aqua baptizans. 
+   <lb ed="#PL"/> Et testimonium perhibuit Joannes, dicens, Quia vidi
+   
+   <lb ed="#PL"/> Spiritum de coelo descendentem quasi, columbam, et 
+   <lb ed="#PL"/> mansit super eum : et ego nesciebanJ cum, sed qui 
+   <lb ed="#PL"/> me misit baptizare in aqua, ille mihi dixit, Super 
+   <lb ed="#PL"/> qucin videris Spiritum descendentem et manentem 
+   <lb ed="#PL"/> super eum, hic est qui baptizat in Spiritu sancto : et 
+   <lb ed="#PL"/> ego v idi, et testimonium perhibui quia hic est Filius * 
+   <lb ed="#PL"/> Dei. &gt; Intendat modicum Charitas vestra : Joannes 
+   <lb ed="#PL"/> quando didicit Christum ? Missus est enim ut baptiza<lb ed="#PL" break="no"/>reL
+   in aqua. Quaesitum est quare? <hi rend="italic">Ut
+    manifestaretur
+   <lb ed="#PL"/> Israeli,</hi> dixit. Quid profuit baptismus Joannis? Fra<lb ed="#PL" break="no"/>tres
+   mei, si profuit aliquid, et modo maneret, et 
+   <lb ed="#PL"/> baptizarentur homines baptismo Joannis; et sic ve<lb ed="#PL" break="no"/>nirent
+   ad baptismum Christi. Sed quid ait ? <hi rend="italic">Ut</hi> mani­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">festaretur Israeli :</hi> id est, ipsi Israel, populo Israel ut 
+   <lb ed="#PL"/> manifestaretur Christus, venit baptizare in aqua. Ac<lb ed="#PL" break="no"/>cepit
+   ministerium baptismatis Joannes, in aqua peeni<lb ed="#PL" break="no"/>tentiae
+   parare viam Domino, non existeus Dominus : 
+   <lb ed="#PL"/> at ubi cognitus est Dominus, superfluo ei via paraba<lb ed="#PL" break="no"/>tur; quia cognoscentibus se ipse factus est via : ita<lb ed="#PL" break="no"/>que
+   non duravit diu baptismus Joannis. Sed quomodo 
+   <lb ed="#PL"/> demonstratus est Dominus? Humilis; ut ideo acciperet 
+   <lb ed="#PL"/> baptisma Joannes, in quo baptizaretur ipse Dominus.</p>
+      <p xml:id="iuy75t-d1e75-d1e1145">13. Et opus erat Domino baptizari ? Et ego inter<lb ed="#PL" break="no"/>rogans
+   cito respondeo : Opus erat Domino nasci ? 
+   <lb ed="#PL"/> opus erat Domino crucifigi ? opus erat Domino mori ? 
+   <lb ed="#PL"/> opus erat Domino sepeliri ? Si ergo tantam suscepit 
+   <lb ed="#PL"/> pro nobis humilitatem, baptismum non erat susceptu<lb ed="#PL" break="no"/>rus ? Et quid profuit quia suscepit baptismum servi ?
+   
+   <lb ed="#PL"/> Ut tu non dedignareris suscipere baptismum Domini. 
+   <lb ed="#PL"/> Intendat Charitas vestra. Futuri erant aliqui in Eccle<lb ed="#PL" break="no"/>sia
+   excelsioris gratiae catechumeni. Fit eniin ali­
+   
+   <lb ed="#PL"/> quando ut videas catechumenum abstinentem ab omni 
+   <lb ed="#PL"/> concubitu, valefacientem saeculo, renuntiantem omni<lb ed="#PL" break="no"/>bus
+   quae possidebat, distribuentem pauperibus; et 
+   <lb ed="#PL"/> catechumenus est, instructus etiam forte doctrina sa<lb ed="#PL" break="no"/>lutari
+   supra inultos fideles. Timendum est huic ne 
+   <lb ed="#PL"/> dicat apud semetipsum de Baptismate sancto quo 
+   <lb ed="#PL"/> peccata dimittantur : Quid plus accepturus sum? 
+   <lb ed="#PL"/> Ecce ego melior sum illo fideli et illo fideli : cogitans 
+   <lb ed="#PL"/> fideles aut conjugatos, aut forte idiotas, aut habentes
+   
+   <lb ed="#PL"/> et possidentes res suas, quas ipse distribuit jam pau<lb ed="#PL" break="no"/>peribus, et meliorem se esse arbitrans quam ille qui 
+   <lb ed="#PL"/> jam baptizatus est, dedignetur venire ad Baptismum, 
+   <lb ed="#PL"/> dicens, Hoc sum accepturus quod habet ille et ille ; 
+   <lb ed="#PL"/> et proponat sibi illos quos contemnit, et quasi sor<lb ed="#PL" break="no"/>deat
+   illi hoc accipere quod acceperunt inferiores, quia 
+   <lb ed="#PL"/> jam videtur ipse sibi melior : et tamen omnia peccata 
+   <lb ed="#PL"/> super illum sunt, et nisi venerit ad salutarem Ba<lb ed="#PL" break="no"/>ptismum, ubi peccata solvuntur, cum omni excellentia 
+   <lb ed="#PL"/> sua non potest intrare in regnum coelorum. Sed ut 
+   <lb ed="#PL"/> illam excellentiam invitaret Dominus ad baptismum 
+   <lb ed="#PL"/> suum, ut peccata illi dimitterentur, venit ipse ad ba<lb ed="#PL" break="no"/>ptismum
+   servi sui; rt cum ipse non haberet quod ei 
+   <lb ed="#PL"/> dimitteretur, nec quod in ilo lavaretur, suscepit a 
+   <lb ed="#PL"/> servo baptismum ; et tanquam allocutus est filium 
+   <lb ed="#PL"/> superbientem et extollentem se, ac dedignantem torte 
+   <lb ed="#PL"/> accipere cum idiotis unde ci possit salus venire, et 
+   <lb ed="#PL"/> quasi dicens : Quantum te extEndis ? quantum extol<lb ed="#PL" break="no"/>lis ? quanja est cxcellentia tua ? quanta gratia tua ?
+   
+   <lb ed="#PL"/> major potest esse quam mea ? si ego veni ad servum, 
+   <lb ed="#PL"/> tu dedignaris venire ad Dominum ? si ego suscepi 
+   <lb ed="#PL"/> baptismum servi, tu dedignaris a Domino baptizari ?</p>
+      <p xml:id="iuy75t-d1e75-d1e1232">14. Nam ut noveritis, fratres mei, quia non ex ne<lb ed="#PL" break="no"/>cessitate
+   alicujus vinculi peccati Dominus veniebat 
+   <lb ed="#PL"/> ad ipsum Joannem; sicut dicunt alii evangelistae, 
+   <lb ed="#PL"/> cum ad illum veniret baptizandus Dominus, ait ipso 
+   <lb ed="#PL"/> Joannes : Tu ad <hi rend="italic">me venis? ego a te debeo baptizari.</hi> Et 
+   <lb ed="#PL"/> quid ei ipse respondit
+   ? Sine <hi rend="italic">modo; impleatur omnis 
+   <lb ed="#PL"/> justitia (Matth.</hi> III, 14, 15). Quid est, <hi rend="italic">impleatur</hi> omnis 
+   <lb ed="#PL"/> justitia ? Mori veni pro hominibus, baptizari non 
+   <lb ed="#PL"/> habeo pro hominibus ? Quid est, impleatur <hi rend="italic">omnis justi­</hi>
+   
+       <lb ed="#PL"/> tia ? Impleatur omnis humilitas. Quid ergo ? non erat 
+   <lb ed="#PL"/> suscepturus baptismum a bono servo, qui passionem 
+   <lb ed="#PL"/> suscepit a servis malis? Intendite ergo. Baptizato
+   
+   <lb ed="#PL"/> Domino, si propterea baptizavit Joannes, ut in ejus 
+   <lb ed="#PL"/> baptismo Dominus ostenderet humilitalcm, nemo 
+   <lb ed="#PL"/> alius baptizaretur baptismo Joannis? Multi autem
+   
+   <lb ed="#PL"/> baptizati sunt baptismo Joannis ; baptizatus est Do<lb ed="#PL" break="no"/>minus
+   baptismo Joannis, et cessavit baptismus Joan<lb ed="#PL" break="no"/>nis : inde jam missue est in carcerem Joannes ; dein­
+   
+   <lb ed="#PL"/> ceps Demo baptizatus invenitur illo baptismate. Si 
+   <lb ed="#PL"/> ergo propterea venit et Joannes baptizans, ut Domini 
+   <lb ed="#PL"/> humilitas nobis demonstraretur, ut quia ille suscepit
+   
+   <lb ed="#PL"/> a servo, nos non dedignarcmur suscipere a Domino ; 
+   <lb ed="#PL"/> Dominum solum Joannes baptizaret ? Sed si solum 
+   <lb ed="#PL"/> Dominum Joannes baptizaret, non deessent qui puta<lb ed="#PL" break="no"/>rent
+   sanctius fuisse baptisma Joannis quam Christi: 
+   <lb ed="#PL"/> quasi baptismate Joannis solus Christus meruisset 
+   <lb ed="#PL"/> baptizari, baptismate autem Christi genus humanum. 
+   <lb ed="#PL"/> Intendat Charitas vestra. Baptismate Christi baptizati 
+   <lb ed="#PL"/> sumus, non tantum nos, sed et universus orbis ter<lb ed="#PL" break="no"/>rarum, et baptizator usque in finem. Quis nostrum 
+   <lb ed="#PL"/> potest ex aliqua parte comparari Christo, cujus se 
+   <lb ed="#PL"/> Joannes dixit indignum solvere corrigiam calcea<lb ed="#PL" break="no"/>menti ? Si ergo ille Christus tantae excellentiae homo 
+   <lb ed="#PL"/> Deus, solus baptizaretur baptismo Joannis, quid 
+   <lb ed="#PL"/> dicturi erant homines ? Qttalem baptismum ha<lb ed="#PL" break="no"/>buit
+   Joannes? Magnum baptismum habuit, ineffa<lb ed="#PL" break="no"/>bile
+   sacramentum : vide, quia solus Christus me<lb ed="#PL" break="no"/>ruit
+   baptizari Joannis baptismo. Atque ita major 
+   <lb ed="#PL"/> videretur baptismus servi, quam baptismus Domini. 
+   <lb ed="#PL"/> Baptizati sunt et alii baptismo Joannis, ne melior 
+   <lb ed="#PL"/> baptismus videretur Joannis quam Christi; baptizatus 
+   <lb ed="#PL"/> autem et Dominus, ut Domino suscipiente baptismum 
+   <lb ed="#PL"/> servi, non dedignarentur alii servi suscipere baptismum 
+   <lb ed="#PL"/> Domini: ad hoc ergo missus erat Joannes.</p>
+      <p xml:id="iuy75t-d1e75-d1e1341">15. Sed noverat Christum, au non noverat? Si 
+   <lb ed="#PL"/> non noverat, quare dicebat quando venit ad fluvium 
+   <lb ed="#PL"/> Christus : <hi rend="italic">Ego a te debeo baptizari</hi> ? hoc est, Scio qui 
+   <lb ed="#PL"/> sis. Si ergo jam noverat, certe tunc cognovit quando 
+   <lb ed="#PL"/> vidit columbam descendentem. Manifestum eat quia 
+   <lb ed="#PL"/> columba non descendit super Dominum, nisi postea­ 
+   <pb ed="#PL" n="1413"/>
+       <lb ed="#PL"/> quam ascenditab aqua baptismi. Dominus baptizatus 
+   <lb ed="#PL"/> ascendit ab aqua, aperti sunt coeli, et vidit super cum 
+   <lb ed="#PL"/> columbam. Si ergo post baptismum descendit co<lb ed="#PL" break="no"/>lumba, et antequam baptiLarctur Dominus, dixit illi 
+   <lb ed="#PL"/> Joannes, Tu <hi rend="italic">ad me venis? ego a te debeo baptizari?</hi>
+   
+       <lb ed="#PL"/> ante, illum noverat, cui dixit, <hi rend="italic">Tu ad me</hi> venis? <hi rend="italic">ego a
+   <lb ed="#PL"/> te debeo</hi> baptizari ? quomodo ergo dixit, « Et ego ne­
+   
+   <lb ed="#PL"/> sciebam eum; sed qui me misit baptizare in aqua, 
+   <lb ed="#PL"/> ille milii dixit, Super quem videris Spiritum descen<lb ed="#PL" break="no"/>dentem
+   sicut columbam, et manentem super eum, 
+   <lb ed="#PL"/> ipse est qui baptizat in Spiritu sancto? &gt; Non parva- 
+   <lb ed="#PL"/> quaestio est, fratres mei. Si vidistis quaestionem, non 
+   <lb ed="#PL"/> parum vidistis : soperesL ut ipsius solutionem Domi­
+   
+   <lb ed="#PL"/> nus det. Tamen illud dico, si vidistis quaestionem, 
+   <lb ed="#PL"/> non est parum. Ecce positus est Joannes ante ocntos 
+   <lb ed="#PL"/> vestros, stans ad fluvium Joannes Baptista; ecce
+   
+   <lb ed="#PL"/> venit Dominus adhuc baptizandus, nondum baptizatus: 
+   <lb ed="#PL"/> audi vocem Joannis, Tu
+    <hi rend="italic">ad me</hi> venis ? <hi rend="italic">ego a te debeo 
+   <lb ed="#PL"/>
+    baptizari;</hi> ecce jam cognoscit Dominum, a quo vult 
+   <lb ed="#PL"/> baptizari. Baptizatus Dominus ascendit ab aqua, ape<lb ed="#PL" break="no"/>riuntur
+   coeli, descendit Spiritus, modo illum cogno­
+   
+   <lb ed="#PL"/> scil Joannes : si modo illum cognoscit, quid dixit 
+   <lb ed="#PL"/> antea, <hi rend="italic">Ego a te debeo baptizari?</hi> Si autem non eum 
+   <lb ed="#PL"/> modo cognoscit, quia jain noverat eum, quid est quod 
+   <lb ed="#PL"/> dixit, &lt; Non noveram eum ; sed qui me misit bapti­
+   
+   <lb ed="#PL"/> zare in aqua, ille mihi dixit, Super quem videris 
+   <lb ed="#PL"/> Spiritum descendentem , et manentem saper eum 
+   <lb ed="#PL"/> sicut Columbam, ipse est qui baptizat in Spirito 
+   <lb ed="#PL"/> sancto?
+   &gt;</p>
+      <p xml:id="iuy75t-d1e75-d1e1441">16. Fratres, ista quaestio si hodie solvatur, gravat 
+   <lb ed="#PL"/> vos, non dubito, quia jam multa dicta sunt. Sciatis 
+   <lb ed="#PL"/> autem talem istam quaestionem esse, ut haec sola per­
+   
+   <lb ed="#PL"/> imat partem Donati. Ad hoc dixi Charitati vestrae, ut 
+   <lb ed="#PL"/> intentos vos facerem, similiter ut soleo; simul ut ore<lb ed="#PL" break="no"/>tis
+   pro nohis et vobis, ut et nobis det Dominus digna 
+   <lb ed="#PL"/> loqui,etvos digna capere mereamini. Interim hodie 
+   <lb ed="#PL"/> dignamini differre. Sed boc breviter dico inierim, do<lb ed="#PL" break="no"/>nec
+   solvatur : interrogate pacifice, sine rixa, sine con<lb ed="#PL" break="no"/>tentione, sine altercationibus, sine inimicitiis ; et vo­
+   
+   <lb ed="#PL"/> biscum quaerite, et alios interrogate, et dicite, Hanc 
+   <lb ed="#PL"/> quaestionem proposuit nobis hodie episcopus noster, 
+   <lb ed="#PL"/> aliquando si Dominus concesserit, soluturus eam. Sed
+   
+   <lb ed="#PL"/> sive solvatur sive non solvatur, putate me proposuisse 
+   <lb ed="#PL"/> quod me movet : movcor enim multum. Dicit Joan- 
+   <lb ed="#PL"/> Des, <hi rend="italic">Ego</hi> a <hi rend="italic">te debeo baptizari;</hi> tanquam Christo cogn!<lb ed="#PL" break="no"/>to. Si enim non noverat eum a quo volebat baptizari, 
+   <lb ed="#PL"/> temere dicebat, <hi rend="italic">Ego a te
+    debeo baptizari.</hi> Noverat ergo 
+   <lb ed="#PL"/> eum. Si noverat eum, quid est ergo quod dicit, <hi rend="italic">Non
+   <lb ed="#PL"/> noveram</hi> eum; <hi rend="italic">sed qui me misit
+    baptizare in aqua, ipse
+   <lb ed="#PL"/> mihi dixit, Super quem videris Spiritum descendentem</hi>
+   
+       <lb ed="#PL"/> et manentem super <hi rend="italic">eum, sicut columbam, ipse eat qui 
+   <lb ed="#PL"/>
+    baptizat</hi> in <hi rend="italic">Spirilu sancto</hi> ? Quid dicturi sumus ? Quia
+   
+   <lb ed="#PL"/> non scimus quando venerit columba ? Ne forte ibi la<lb ed="#PL" break="no"/>teant *, legantur alii evangelistae, qui planius illud 
+   <lb ed="#PL"/> dixerunt : et invenimus apertissime tunc descendisse 
+   <lb ed="#PL"/> columbam, cum Dominus ab aqua ascendit. Super 
+   <lb ed="#PL"/> baptizatum enim aperti suut caeli, et vidit Spiritum 
+   <lb ed="#PL"/> descendentem <hi rend="italic">(Matth.</hi> III, 16, <hi rend="italic">Marc.</hi> i, 10, <hi rend="italic">et Luc.</hi> III, 
+   
+   <lb ed="#PL"/> 21 <hi rend="italic">et</hi> 22). Si jam baptizatum cognovit, venienti ad 
+   <lb ed="#PL"/> baptisma quomodo dicit, <hi rend="italic">Ego a te debeo</hi> baptizari <hi rend="italic">?</hi>
+   
+       <lb ed="#PL"/> Hanc vobiscum interim ruminate, hanc vobiscum 
+   <lb ed="#PL"/> conferte, hanc vobiscum tractate. Praestet Dominus 
+   <lb ed="#PL"/> Deus noster ut antequama me audiatis, alicui vestrum
+   
+   <lb ed="#PL"/> priori eam revclet. Tamen, fratres, hoc sciatis, qnia 
+   <lb ed="#PL"/> per istius quaestionis solutionem, vocem pars Donati 
+   <lb ed="#PL"/> de Baptismi gratia, ubi nebulas obtendunt imperitis,
+   
+   <lb ed="#PL"/> et retia tendunt avibus volantibus, si frontem ha<lb ed="#PL" break="no"/>beant, omnino non habebant : omnino eorum ora 
+   <lb ed="#PL"/> claudentur.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

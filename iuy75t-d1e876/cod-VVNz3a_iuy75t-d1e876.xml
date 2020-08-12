@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 102</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 102</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e876"> <!-- iuy75t-t102 -->
+      <head xml:id="iuy75t-d1e876-Hd1e109">Tractatus 102</head>
+      <p xml:id="iuy75t-d1e876-d1e112">
+       <hi rend="italic">De eo quod Dominus ait,</hi> Amen, amen dico vobis, si 
+   <lb ed="#PL"/> quid petieritis Patrem in nomine meo, dabit vobis; 
+   <lb ed="#PL"/>
+       <hi rend="italic">usque ad id,</hi> Iterum relinquo mundum, et vado ad 
+   <lb ed="#PL"/> Patrem. <hi rend="italic">Cap.</hi> xvj, f. 23-28.</p>
+      <p xml:id="iuy75t-d1e876-d1e131">1. Domini verba nunc ista tractanda sunt, <hi rend="italic">Amen, 
+   <lb ed="#PL"/> amen dico
+    vobis,</hi> si <hi rend="italic">quid petieritis Patrem</hi> in <hi rend="italic">nomine meo, 
+   <lb ed="#PL"/> dabit vobis.</hi> Jam dictum est in superioribus hujus do<lb ed="#PL" break="no"/>minici
+   sermonis partibus, propter eos qui nonnulla pe<lb ed="#PL" break="no"/>tunt
+   a Patre in Christi nomine, nec accipiunt, non pcti 
+   <lb ed="#PL"/> in nomine Salvatoris quidquid petitur contra rationem 
+   <lb ed="#PL"/> salutis <hi rend="italic">( Supra, Tract.</hi> 73). Non enim sonnm littera<lb ed="#PL" break="no"/>rum
+   ac syllabarum, sed quod sonus ipse significat, et 
+   <lb ed="#PL"/> quod eo sono recte ac veraciter intelligitur, hoc acci<lb ed="#PL" break="no"/>piendus
+   est dicere cum dicit, <hi rend="italic">in nomine meo.</hi> Unde qui 
+   <lb ed="#PL"/> hoc sentit de Christo quod non est de unico Dei Filio 
+   <lb ed="#PL"/> sentiendum, non petit in ejus nomine, etiamsi non ta<lb ed="#PL" break="no"/>ceat
+   litteris ac syllabis Christum ; quoniam in ejus no<lb ed="#PL" break="no"/>mine
+   petit, quem cogitat cum petit. Qui vero quod est 
+   <lb ed="#PL"/> de illo sentiendum sentit, ipse in ejus nomine petit;
+   
+   <lb ed="#PL"/> et accipit quod petit, si non contra suam salutem sem<lb ed="#PL" break="no"/>piternam
+   petit. Accipit autem quando debet accipere. 
+   <lb ed="#PL"/> Quaedam enim non negantur, sed ut congruo dentur 
+   <lb ed="#PL"/> tempore differuntur. Ita sane intelligendum est quod 
+   <lb ed="#PL"/> ait, <hi rend="italic">dabit</hi> vobis, ut ea beneficia significata sciantur his 
+   <lb ed="#PL"/> verbis, quae ad eos qui petunt proprie pertinent. Ex<lb ed="#PL" break="no"/>audiuntur
+   quippe omnes sancti pro seipsis, non au<lb ed="#PL" break="no"/>tem
+   pro omnibus exaudiuntur vel amicis vel inimicis 
+   <lb ed="#PL"/> suis, vel quibuslibet aliis : quia non utcumque dictum 
+   <lb ed="#PL"/> est, <hi rend="italic">dabit;</hi> sed <hi rend="italic">dabit vobis.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e876-d1e211">i. <hi rend="italic">Usque modo,</hi> inquit, <hi rend="italic">non petistis
+    quidquam</hi> in no­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">mine meo. Petite, et accipietis,</hi> ut gaudium <hi rend="italic">vestrum</hi> sit 
+   <lb ed="#PL"/>
+       <hi rend="italic">plenum.</hi> Hoc quod dicit gaudium plenum, profecto non 
+   <lb ed="#PL"/> carnale, sed spirituale gaudium est: et quando tan<lb ed="#PL" break="no"/>tuin
+   erit, ut aliquid ei jam non sit addendum, procul 
+   <lb ed="#PL"/> dubio tunc erit plenum. Quidquid ergo petitur quod 
+   <lb ed="#PL"/> pertineat ad hoc gaudium consequendum, hoc est in 
+   <lb ed="#PL"/> nomine Christi petendum, si divinam intelligimus gra<lb ed="#PL" break="no"/>tiam, si vere beatam poscimus vitam. Quidquid autem
+   
+   <lb ed="#PL"/> aliud petitur, nihil petitur : non quia nulla omnino 
+   <lb ed="#PL"/> res est, sed quia in tantae rei comparatione quidquid 
+   <lb ed="#PL"/> aliud concupiscitur, nihil est. Neque enim prorsus 
+   <lb ed="#PL"/> nulla res est homo, de quo ait Apostolus : <hi rend="italic">Qui se
+    putat
+   <lb ed="#PL"/> aliquid este, cum</hi> nihil <hi rend="italic">sit (Galat.</hi> VI, 3). In compara<lb ed="#PL" break="no"/>tione
+   quippe spiritualis hominis, qui scit gratia Dei 
+   <lb ed="#PL"/> se esse quod est, quisquis vana praesumit, nibil est. 
+   <lb ed="#PL"/> Etiam sic ergo recte intelligi potest,
+    <hi rend="italic">Amen,</hi> amen 
+   <lb ed="#PL"/>
+       <hi rend="italic">dico</hi> vobis, si <hi rend="italic">quid petieritis Patrem</hi> in
+    <hi rend="italic">nomine meo, da­</hi>
+   
+       <lb ed="#PL"/> bit <hi rend="italic">vobis;</hi> ut hoc quod ait, si <hi rend="italic">quid,</hi> non quodlibet in<lb ed="#PL" break="no"/>telligatur, sed aliquid quod non in beatae vitae com• 
+   <pb ed="#PL" n="1897"/>
+       <lb ed="#PL"/> paratione sit nibil. Et quod sequitur, <hi rend="italic">Utque modo
+    non</hi>
+   
+       <lb ed="#PL"/> petistis <hi rend="italic">quidquam</hi>
+       <hi rend="italic">in</hi> nomine <hi rend="italic">meo,</hi> duobus modis intel<lb ed="#PL" break="no"/>ligi
+   potest: vel quia non in nomino meo petistis , 
+   <lb ed="#PL"/> quod nomen non sicut cognoscendum est cognovistis; 
+   <lb ed="#PL"/> vel non petistis quidquam, quoniam in comparatione 
+   <lb ed="#PL"/> rei quam petere debuistis, pro nihilo habendum est 
+   <lb ed="#PL"/> quod petistis. Ut igitur in ejus nomine non nihil, sed 
+   <lb ed="#PL"/> gaudium plenum petant (quoniam si aliquid aliud pe<lb ed="#PL" break="no"/>tunt, idem aliquid nihil est), exhortatur dicens, Pe­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tite, et accipietis,</hi> ut <hi rend="italic">gaudium</hi> vestrum
+    <hi rend="italic">sit</hi> plenum : id 
+   <lb ed="#PL"/> est, hoc in nomine meo petite, ut gaudium vestrum 
+   <lb ed="#PL"/> sit plenum, et accipietis. Isto enim bono in petendo 
+   <lb ed="#PL"/> perseverantes sanctos suos nequaquam misericordia 
+   <lb ed="#PL"/> divina fraudabit.</p>
+      <p xml:id="iuy75t-d1e876-d1e351">
+       <hi rend="italic">3. Haec,</hi> inquit, in <hi rend="italic">proverbiis locutus</hi> sum
+    <hi rend="italic">vobis : venit
+   <lb ed="#PL"/> hora</hi> cum <hi rend="italic">jam non</hi> in
+    <hi rend="italic">proverbiis loquar vobis, sed palam
+   <lb ed="#PL"/> de Patre meo annuntiabo
+    vobis.</hi> Possem dicere hanc de 
+   <lb ed="#PL"/> qua loquitur horam, futurum oportere saeculum in<lb ed="#PL" break="no"/>telligi, ubi videbimus palam, quod beatus Paulus di<lb ed="#PL" break="no"/>cit, <hi rend="italic">facie ad faciem;</hi> ut quod ait, <hi rend="italic">Haec in</hi> proverbiis lo<lb ed="#PL" break="no"/>cutus
+   sum vobis, boc sit quod ab eodem apostolo di<lb ed="#PL" break="no"/>ctum
+   est, Videmus <hi rend="italic">nunc</hi> per <hi rend="italic">speculum</hi> in <hi rend="italic">aenigmate</hi>
+   
+       <lb ed="#PL"/> ( I <hi rend="italic">Cor.</hi> XIII, 12) : <hi rend="italic">annuntiabo</hi> autem <hi rend="italic">vobis,</hi> quia per 
+   <lb ed="#PL"/> Filium Pater videbitur, juxta illud quod alibi ait, Ne­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">que Patrem</hi> quis <hi rend="italic">cognoscit, nisi Fi/ius, et</hi> cui <hi rend="italic">voluerit 
+   <lb ed="#PL"/> Filius revelare (Matth.</hi> XI, 27). Sed istum sensum 
+   <lb ed="#PL"/> videtur impedire quod sequitur : <hi rend="italic">Illo die in nomine 
+   <lb ed="#PL"/>
+    meo petetis.</hi> In futuro enim saeculo cum pervenerimus 
+   <lb ed="#PL"/> ad regnum, ubi similes ei erimus, quoniam videbimus 
+   <lb ed="#PL"/> eum siculi est (I <hi rend="italic">Joan.</hi> 111, 2), quid petituri sumus, 
+   <lb ed="#PL"/> quando satiabitur in bonis desiderium nostrum <hi rend="italic">(Psa/.</hi>
+   
+       <lb ed="#PL"/> COli, 5) ? Unde et ip alio psalmo dicitur : <hi rend="italic">Satiabor cum 
+   <lb ed="#PL"/>
+    manifestabitur gloria tua (Psal.</hi> xvi, 15). Petitio nam<lb ed="#PL" break="no"/>que
+   alicujus est indigentise, quae ibi nulla erit ubi haec 
+   <lb ed="#PL"/> satietas erit.</p>
+      <p xml:id="iuy75t-d1e876-d1e459">4. Uelinquitur itaque , quantum sapere valeo , ut 
+   <lb ed="#PL"/> intelligatur Jesus discipulos suos de carnalibos vel 
+   <lb ed="#PL"/> animalibus se spirituales promisisse facturum, quam<lb ed="#PL" break="no"/>vis
+   nondum tales qualcs crimus, quando spirituale 
+   <lb ed="#PL"/> etiam corpus habebimus ; sed qualis erat qui dicebat, 
+   <lb ed="#PL"/> &lt; Sapientiam loquimur inter perfectos &gt; ( I Cor. n, 6); 
+   <lb ed="#PL"/> et, t Non potui vobis loqui quasi spiritualibus, sed 
+   <lb ed="#PL"/> quasi carnalibus
+   &gt; <hi rend="italic">(ld.</hi> III, 1); et, &lt; Non spiritnm hu<lb ed="#PL" break="no"/>jus
+   mundi accepimus, sed Spiritum qui ex Deo est, 
+   <lb ed="#PL"/> ut sciamus quae a Deo donata sunt nobis; qux et lo<lb ed="#PL" break="no"/>quimur, non in sapientiae humanae doctis verbis, sed 
+   <lb ed="#PL"/> doctis Spiritus I, spiritualibus spir itualia comparantes. 
+   <lb ed="#PL"/> Animalis autem homo non percipit quae sunt Spiritus 
+   <lb ed="#PL"/> Dei. » Non itaque percipiens quae sunt Spiritus Dei
+   
+   <lb ed="#PL"/> homo animalis, sic audit quaecumque audit de Dei na<lb ed="#PL" break="no"/>tura, ut aliud quam corpus cogitare non possit, quam<lb ed="#PL" break="no"/>libet
+   amplissimum vel immensum, quamlibet lucidum 
+   <lb ed="#PL"/> ac speciosum, corpus tamen : ideo proverbia illi sunt 
+   <lb ed="#PL"/> quaecumque dicta sapientiae de incorporea immutabili 
+   <lb ed="#PL"/> que substantia; non quod ea tanquam proverbia de<lb ed="#PL" break="no"/>putat, sed quia sic cogitat, quomodo qui proverbia 
+   <lb ed="#PL"/> solent audire ncque intelligere. Cum vero spiritualis 
+   
+   <lb ed="#PL"/> coeperit omnia dijudicare, ipse autem a uemine diju<lb ed="#PL" break="no"/>dicari ( I Cor. u, 12-15), etiamsi in hac vita adhuc velut 
+   <lb ed="#PL"/> per speculum ex parte, perspicit tamen non ullo cor 
+   <lb ed="#PL"/> poris sensu, non ulla imaginaria cogitatione quae1 ca 
+   <lb ed="#PL"/> pit aut fingit qualiumcumque similitudines corporum. 
+   <lb ed="#PL"/> sed mentis certissima intelligentia, Deum noa corpus 
+   <lb ed="#PL"/> esse, sed spiritum : ita palam de Patre annuntiante 
+   <lb ed="#PL"/> Filio, ut ejusdem substantiae conspiciatur et ipse qui 
+   <lb ed="#PL"/> annuntiat. Tunc in ejus nomine petunt qui petunt; 
+   <lb ed="#PL"/> quia in sono ejus nominis non aliud quam res ipsa est 
+   <lb ed="#PL"/> quae hoc nomine vocatur, intelligunt, nee animi vani<lb ed="#PL" break="no"/>tate
+   vel infirmitate confingunt tanquam in alio loco 
+   <lb ed="#PL"/> Patrem, in alio Filium ante Patrem stantem, et pro 
+   <lb ed="#PL"/> nobis. rogantem, spatia sua quaeque amborum occu<lb ed="#PL" break="no"/>pantibus
+   molibus, et Verbum ad eum cujus est Ver<lb ed="#PL" break="no"/>bum
+   facere verba pro nobis, intervallo interposito in<lb ed="#PL" break="no"/>ter
+   os loquentis et auriculas audientis; et alia talia quae 
+   <lb ed="#PL"/> sibi animales, iidemque carnales in cordibus fabrican<lb ed="#PL" break="no"/>tur. Quidquid enim tale spiritualibus de Deo cogitan<lb ed="#PL" break="no"/>tibus
+   ex corporum consuetudine occurrit, negando 
+   <lb ed="#PL"/> atque respuendo, tanquam importunas muscas, ab in<lb ed="#PL" break="no"/>terioribus
+   oculis abigunt; et sinceritati ejus lucis 
+   <lb ed="#PL"/> acquiescunt, qua teste ac judice has ipsas imagines 
+   <lb ed="#PL"/> corporum suis infernis aspectibus irruentes, falsas 
+   <lb ed="#PL"/> omnino esse convincunt. Hi possunt utcumque cogi<lb ed="#PL" break="no"/>tare
+   Dominum nostrum Jesum Christum in quantum 
+   <lb ed="#PL"/> homo est, pro nobis interpellare Patrem; in quantum 
+   <lb ed="#PL"/> autem Deus est, nos exaudire cum Patre. Quod eum
+   
+   <lb ed="#PL"/> , significasse arbitror ubi ait, <hi rend="italic">Et non dico</hi> vobis quia ego 
+   <lb ed="#PL"/>
+       <hi rend="italic">rogabo Patrem de vobis.</hi> Ad hoc quippe intuendum 
+   <lb ed="#PL"/> qnomodo non rogat Patrem Filius, sed simul exau. 
+   <lb ed="#PL"/> diunt rogantes Pater et Filius, nonnisi spiritualis ocu<lb ed="#PL" break="no"/>lus
+   mentis ascendit.</p>
+      <p xml:id="iuy75t-d1e876-d1e588">5. <hi rend="italic">Ipse enim Pater,</hi> inquit, <hi rend="italic">amat</hi> vos, <hi rend="italic">quia vos me</hi>
+   
+       <lb ed="#PL"/> amastis. Ideo amat ille, quia nos amamus; an potius, 
+   <lb ed="#PL"/> quia ille amat, ideo noe amamus ? Ex Epistola sua 
+   <lb ed="#PL"/> evangelista idem ipse respondeat: <hi rend="italic">Nos diligimus,</hi> in<lb ed="#PL" break="no"/>quit, quia prior <hi rend="italic">ipse dilexit
+    nea</hi> (I Joan.IV, 10). Hine 
+   <lb ed="#PL"/> ergo factum est ut diligeremus, quia dilecti sumus. 
+   <lb ed="#PL"/> Prorsus donum Dei est diligere Deum. Ipse ut dilige<lb ed="#PL" break="no"/>retur
+   dedit, qui non dilectus dilexit. Displicentes 
+   <lb ed="#PL"/> amati sumus, ut esset in nobis unde placeremus. Non 
+   <lb ed="#PL"/> enim amaremus Filium, nisi amaremus et Patrem. 
+   <lb ed="#PL"/> Amat nos Pater, quia nos amamus Filium; cum a 
+   <lb ed="#PL"/> Patre et Filio acceperimus ut et .Patrem amemus et 
+   <lb ed="#PL"/> Filium : difFundit enim charitatem in cordibus no<lb ed="#PL" break="no"/>stris
+   amborum Spiritus <hi rend="italic">(Rom.</hi> v, 5), per quem Spi<lb ed="#PL" break="no"/>ritum
+   et Patrem amamus et Filium, et quem Spiritum 
+   <lb ed="#PL"/> cum Patre amamus et Filio. Amorem itaque nostrum 
+   <lb ed="#PL"/> , pium quo colimus Deum, fecit Deus, et vidit quia bo<lb ed="#PL" break="no"/>num
+   est, ideo quippe amavit ipse quod fecit. Sed in 
+   <lb ed="#PL"/> nobii non faceret quod amaret, nisi antequam id fa<lb ed="#PL" break="no"/>ceret, nos amaret.</p>
+      <p xml:id="iuy75t-d1e876-d1e651">0. <hi rend="italic">Et credidistis,</hi> inquit, quia <hi rend="italic">a Deo
+    exivi.</hi> Esivi a 
+   <lb ed="#PL"/>
+       <hi rend="italic">Patre</hi> et <hi rend="italic">veni</hi> in mundum : iterum <hi rend="italic">relinquo mundum, et 
+   <lb ed="#PL"/> rado</hi> ad <hi rend="italic">Patrem.</hi> Plane credidimus. Neque enim pro<lb ed="#PL" break="no"/>pterea
+   debet ineredtbile vidcri, quia sic ad mundum 
+   
+   
+   
+   <pb ed="#PL" n="1899"/>
+       <lb ed="#PL"/> veniens exiit a Patre, ut nan desereret Patrem; et sic 
+   <lb ed="#PL"/> vadit ad Patrem relicto mundo, ut non deserat mun<lb ed="#PL" break="no"/>dum. Exiit enim a Patre, quia de Patre est : in mun<lb ed="#PL" break="no"/>dum
+   venit, quia mundo suum corpus ostendit quod 
+   <lb ed="#PL"/> de Yirginc assumpsit. Reliquit mundum corporali dis- 
+   <lb ed="#PL"/> cessione, porrexit ad Patrem hominis ascensione, 
+   <lb ed="#PL"/> nee mundum deseruit praesentiae gubernatione.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 46</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 46</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e418"> <!-- iuy75t-t46 -->
+      <head xml:id="iuy75t-d1e418-Hd1e109">Tractatus 46</head>
+      <p xml:id="iuy75t-d1e418-d1e112">
+       <hi rend="italic">Ab eo quod scriptum est,</hi> Ego sum pastor bonus, <hi rend="italic">etc.,
+   <lb ed="#PL"/> usque ad id,</hi> Mercenarius autem fugit, quia merce<lb ed="#PL" break="no"/>narius
+   est, et non pertinet ad eum de ovibus. <hi rend="italic">Cap.</hi>
+   
+       <lb ed="#PL"/> x, ℣.11-13.</p>
+      <p xml:id="iuy75t-d1e418-d1e130">i. Loquens Dominus Jesus ovibus suis, et praesen<lb ed="#PL" break="no"/>libus, et futuris quae tunc aderant; quia erant ubi 
+   <lb ed="#PL"/> jam oves ejus erant, quae future erant ejus oves': 
+   <lb ed="#PL"/> item presentibus et futuris, et illis et nobis, et quot<lb ed="#PL" break="no"/>quot
+   etiam post nos fuerint oves ejus, quis ad eas 
+   <lb ed="#PL"/> missus esset, ostendit. Omnes ergo audiunt vocem
+   
+   <lb ed="#PL"/> pastoris sui dicentis, <hi rend="italic">Ego sum pastor bonus.</hi> Non ad<lb ed="#PL" break="no"/>deret,
+   <hi rend="italic">bonus,</hi> nisi essent pastores mali. Sed pastores 
+   <lb ed="#PL"/> mali, ipsi sunt fures et latrones : aut certe, ut mul<lb ed="#PL" break="no"/>lum, mercenarii. Omnes enim hic personas quas po- 
+   
+   <lb ed="#PL"/> suit, requirere, distinguere, nosse debemus. Aperuit 
+   <lb ed="#PL"/> enim jam dqas res Dominus, quas quodammodo clau<lb ed="#PL" break="no"/>sas
+   proposuerat : jam scimus quia ostium ipse est,
+   
+   <lb ed="#PL"/> scimus quia pastor ipsecst. Fures cl latroncs qui sint, 
+   <lb ed="#PL"/> in hesterna lectione patefactum est; hodie autem au<lb ed="#PL" break="no"/>diviamus
+   mercenarium, audivimus et<unclear/> lu| um : heri no<lb ed="#PL" break="no"/>minatus
+   est et ostiarius. In bonis ergo ostium est, 
+   <lb ed="#PL"/> ostiarius, pastor et oves : in malis fures et latrones, 
+   <lb ed="#PL"/> mercenarii, lupus.</p>
+      <p xml:id="iuy75t-d1e418-d1e180">i, Ostium Dominum Christum accipimus, pastorcm 
+   <lb ed="#PL"/> ipsum: ostiarium quem? Haec enim duo ipse expo­ <hi rend="underline">
+        <lb ed="#PL"/> suit;ostiarium</hi> nobisreliquit<hi rend="underline">quaerendum.</hi> Et quid ait 
+   <lb ed="#PL"/> de ostiario? <hi rend="italic">Huic</hi> inquit, <hi rend="italic">ostiaxiusaperit.</hi> Cui apcrit? 
+   <lb ed="#PL"/> Pastori. Quid aperit pastori ? Ostium. Et quis est ipsum 
+   <lb ed="#PL"/> ostium ? Ipse pastor. Numquid, si Plinius Christus 
+   <lb ed="#PL"/> non exposuisset, non ipse dixisset, <hi rend="italic">Ego sum
+    pastor,</hi>
+   
+       <lb ed="#PL"/> et, <hi rend="italic">Ego</hi> sum <hi rend="italic">ostium (Joan.</hi> x, 3, 9), auderet quisquam 
+   <lb ed="#PL"/> nostrum dicere quod ipse Christus sit et pastoret
+   <lb ed="#PL"/> ostium? Si enim diceret, <hi rend="italic">Ego</hi> sum <hi rend="italic">pastor,</hi> et non di<lb ed="#PL" break="no"/>cerct, <hi rend="italic">Ego</hi> sum <hi rend="italic">ostium;</hi> quaesituri eramus quid esset 
+   <lb ed="#PL"/> ostium, et forte aliud putantes ante ostium reman<lb ed="#PL" break="no"/>suri. Gratia illius et misericordia nobis exposuit pa<lb ed="#PL" break="no"/>storem, seipsum dixit; exposuit ostium, seipsum 
+   <lb ed="#PL"/> dixit : ostiarium quaerendum nobis reliquit. Quem 
+   <lb ed="#PL"/> nos dicturi sumus ostiarium ? Quemlibet invencrimus, 
+   <lb ed="#PL"/> cavendum est ne major existimetur quam ipsum 
+   <lb ed="#PL"/> ostium; quia ostiarius in domibus hominuin major 
+   <lb ed="#PL"/> est ostio. Ostiarius enim ostio, non ostium praeponi<lb ed="#PL" break="no"/>tar
+   ostiario; quia ostiarius ostium, non ostium custodit 
+   <lb ed="#PL"/> ostiarium. Non audeo dicere aliquem ostio majorem; 
+   <lb ed="#PL"/> audivi enin jam quid sit ostium : non me latet, nou 
+   <lb ed="#PL"/> sum dimissus conjecturae meae, non mihi humana est 
+   <lb ed="#PL"/> relaxata suspicio; Deus dixil, veritas dixit, mutari 
+   <lb ed="#PL"/> non potest quod immutabilis dixit.</p>
+      <p xml:id="iuy75t-d1e418-d1e270">3. Dicam ergo in hujus profunditate quaestionis quid 
+   <lb ed="#PL"/> mihi videatur: eligat unusquisque quod placet; pie ta<lb ed="#PL" break="no"/>men
+   sentiat, sicut scriptum est, Sentite <hi rend="italic">de Domino</hi> in 
+   <lb ed="#PL"/>
+       <hi rend="italic">bonitate, et</hi> in <hi rend="italic">simplicitate cordis quaerite
+    illum (Sap. I,</hi>
+   
+       <lb ed="#PL"/> 1). Ostiarium forte ipsum Domiuum debemus acci<lb ed="#PL" break="no"/>pere. Multo sum enim inter se diversa in rebus hu<lb ed="#PL" break="no"/>manis
+   pastor et ostium, quam ostiariusetostium; et 
+   <lb ed="#PL"/> tamen Dominus et pastorem se dixit, et ostium. Cur 
+   <lb ed="#PL"/> ergo non intelligamus ipsum et ostiarium ? Si enim 
+   <lb ed="#PL"/> consideremus proprietates, Dominus Christus nec 
+   <lb ed="#PL"/> pastor est, sicut consucvimns nosse et videre pasto<lb ed="#PL" break="no"/>res; nec ostium est, non enim eum faber fecit: si 
+   <lb ed="#PL"/> autem secundum aliquam similitudinem,et ostium et 
+   <lb ed="#PL"/> pastor est; audeo dicere, <hi rend="underline">et ovis est :</hi> ovis nempe sub 
+   <lb ed="#PL"/> pastore est, tamen ille et pastor est et ovis. Ubi est 
+   <lb ed="#PL"/> pastor? Ecce hic habes, lege Evangelium : <hi rend="italic">Ego sum 
+   <lb ed="#PL"/> pastor bonus.</hi> Ubi est ovis? Interroga prophetam : <hi rend="italic">Sic 
+   <lb ed="#PL"/> ut ovis ad immOlandum ductus est (Isat.</hi> LIII, 7). In<lb ed="#PL" break="no"/>terroga
+   amicum sponsi: <hi rend="italic">Ecce agnus Dei, ecce
+    qui</hi> tollit 
+   <lb ed="#PL"/>
+       <hi rend="italic">peccatum</hi> mundi <hi rend="italic">(Joan.</hi> I, 29). Adhuc aliquid secun<lb ed="#PL" break="no"/>dum
+   istas similitudines mirabilius sum dicturus. Et 
+   <lb ed="#PL"/> agnus enim et ovis et pastor inter se amica sunt 
+   <lb ed="#PL"/> contra leones autem a pastoribus oves custodiri so<lb ed="#PL" break="no"/>lent: et tamen de Christo, cum sit ovis et pastor, le-, 
+   <lb ed="#PL"/> gimus dictum, <hi rend="italic">Vicit leo de tribu Juda (Apoc.</hi> v, 5), 
+   <pb ed="#PL" n="1729"/>
+       <lb ed="#PL"/> Haec omnia, fratres, secunduli similitudines accipite, 
+   <lb ed="#PL"/> non secundum proprietates. Solemus videre pastorcs 
+   <lb ed="#PL"/> sedere supra petram, et indo commissa sibi pecora 
+   <lb ed="#PL"/> custodire: utique melior pastor quam petra, super 
+   <lb ed="#PL"/> quam sedet pastor; et tamen Christus et pastoret
+   <lb ed="#PL"/> petra. Tolum hoc secundum similitudinem. Proprie-
+   
+   <lb ed="#PL"/> talem autem si quaeras a me; In <hi rend="italic">principio erat Ver<lb ed="#PL" break="no"/>bum,
+    et Verbum erat apud Deum, et Deus erat Verbtun 
+   <lb ed="#PL"/> (Joan.</hi> i. 4). Si quaeras a me proprietatem; Filius 
+   <lb ed="#PL"/> unicus de Patre in aeternum ab aeterno genitus, 
+   <lb ed="#PL"/> aequałis gignenti , per quem facta sunt omnia, cum 
+   <lb ed="#PL"/> Patre inconunutabilis, et accepta forma hominis non 
+   <lb ed="#PL"/> mutamus, ex incarnatione homo, filius hominis et Filius 
+   <lb ed="#PL"/> Dei. Huc totum quod dixi, non similitudo, sed res ost.</p>
+      <p xml:id="iuy75t-d1e418-d1e391">4. Non ergo pigeat nos, fratres, secuodum quasdam 
+   <lb ed="#PL"/> similitudinesip DIU accipere ostium, ipsum ostiarium. * 
+   <lb ed="#PL"/> Quid est enim ostium ? Qua intramus. Quis est ostia­
+   
+   <lb ed="#PL"/> rius? Qui aperit. Quis ergo se aperit, nisi qui seipsum 
+   <lb ed="#PL"/> exponit? Ecce Dominus dixerat ostium, non intellexe<lb ed="#PL" break="no"/>ramus; quando non intelleximus, clausum crat: qni 
+   <lb ed="#PL"/> aperuit, ipse est ostiarius. Nulla est ergo necessitas 
+   <lb ed="#PL"/> aliquid aliud quaerere. nulla necessitas : sed fortasse 
+   <lb ed="#PL"/> ost volun'as. Si est voluntas, noli exorbitare, noli a 
+   <lb ed="#PL"/> Trinitatc discedere. Si personam aliam quaeris ostia<lb ed="#PL" break="no"/>' rii, Spiritus sanctus occurrat: non enim dedignabitur 
+   <lb ed="#PL"/> ostiarius esse Spiritus sanctus, quando ipsum ostium 
+   <lb ed="#PL"/> esse dignatus est Filius. Vide ostiarium forte Spiritum 
+   <lb ed="#PL"/> sanctum : ipse Dominus discipulis suis de Spiritu san<lb ed="#PL" break="no"/>cto
+   dicit,
+    <hi rend="italic">Ipsevos docebit omnem veritatem</hi> (Id. xvi, 15). 
+   <lb ed="#PL"/> O.tium quid cst? C vristus. Quid est Christus?Veritas. 
+   <lb ed="#PL"/> Quis apcrit osttrum, nisi qui docet omnem veritatem ?</p>
+      <p xml:id="iuy75t-d1e418-d1e431">5. De mercenario autem quid dicimus? Non in bo<lb ed="#PL" break="no"/>nis
+   hic commemoratus esi. <hi rend="italic">Pastor bonus,</hi> art, animam 
+   <lb ed="#PL"/>
+       <hi rend="italic">suam dat pro ovibus. Mercenarius, et qui non eat</hi> pa<lb ed="#PL" break="no"/>sior,
+    <hi rend="italic">cujus non sunt oves proprioe, videt</hi> lupum venien­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">tem, et dimittit</hi> oves, <hi rend="italic">et fugit; et lupus
+    rapit, et dispergit 
+   <lb ed="#PL"/> oves.</hi> Non hic bonam personam mercenarius gerit, et
+   
+   <lb ed="#PL"/> tamen in aliquo utilis est : nec mercenarius dice<lb ed="#PL" break="no"/>retur, nisi acciperet a conducente mercedem. Quis 
+   <lb ed="#PL"/> est ergo iste mercenarius, <hi rend="underline">et
+    culpabilis et necessarius?</hi>
+   
+       <lb ed="#PL"/> Hic vero, fratres, luceat nobis ipse Dominus, ut et 
+   <lb ed="#PL"/> I mercenarios intelligamus, et mercenarii non simus. 
+   <lb ed="#PL"/> Quis est ergo mercenarius? Sunt in Ecclesia quidam 
+   <lb ed="#PL"/> praepositi, de quibus Paulus apostolus dicit: <hi rend="italic">Sua quae­
+    
+   <lb ed="#PL"/> ' rentes, non quae Jesu</hi> Christl. Quid est, sua <hi rend="italic">quaerentes
+    ?</hi>
+   
+       <lb ed="#PL"/> Non Christum gratis diligentes, non Deum propter 
+   <lb ed="#PL"/> Deum quaerentes ; temporalia commoda conserctantes, 
+   <lb ed="#PL"/> lucris inhiantes, honores ab hominibus appetentes. 
+   <lb ed="#PL"/> Haec quando amantur a praeposito, et propter haec 
+   <lb ed="#PL"/> servitur Dco; quisquis est talis, mercenarius est, in<lb ed="#PL" break="no"/>ter
+   filios se non computet. De talibus enimetDomi<lb ed="#PL" break="no"/>nus
+   dicit : <hi rend="italic">Amen dico vobis, perceperunt mercedem 
+   <lb ed="#PL"/> suam
+    (Matth</hi> VI, 5). Audi de Timotheo sancto quid 
+   <lb ed="#PL"/> dicat apostolus Paulus : « Spero autem in Domino 
+   <lb ed="#PL"/> Jesu Timotheum cito mitterevobis, ut et ego bono 
+   <lb ed="#PL"/> animo sim, cum cognovero quae circa vos sint: ne<lb ed="#PL" break="no"/>minem
+   cnim habeo unanimem I, qui germane de vo<lb ed="#PL" break="no"/>bis
+   sollicitus sit. Omnes enim sua quaerunt, non quae 
+   
+   <lb ed="#PL"/> Jesu Christi » <hi rend="italic">(Philipp.</hi> n, 19-21). Inter mercemrios 
+   <lb ed="#PL"/> pastor ingemuit: Quaesivit aliquem qni sinceriter di<lb ed="#PL" break="no"/>ligeret
+   gregem Cbristi, et circa se is eis qui cum Hto 
+   <lb ed="#PL"/> eo tempore fucrant, non invenit. Non enim in Eccle­
+   
+   <lb ed="#PL"/> sia Christi tunc praeter Paulum apostolum et Timo. 
+   <lb ed="#PL"/> theum ncmo erat qui germane de grege sollicitus es<lb ed="#PL" break="no"/>soi : sed contigerat ut eo tempore quo Timotheum
+   
+   <lb ed="#PL"/> misit, circa se alium de filiis non haberet; sed soli 
+   <lb ed="#PL"/> merceparii cum ilio essent, <hi rend="italic">sua quaerentes, non quae 
+   <lb ed="#PL"/> Jesu Christi.</hi> Et tamen ipse germane de grege sollici<lb ed="#PL" break="no"/>tus, maluit filium mittere, et inter mercenarios re.
+   
+   <lb ed="#PL"/> manere. Invenimus et mercenarios, non eos discutit 
+   <lb ed="#PL"/> nisi Dominus; qui cor inspicit, ipse discutit: tamen 
+   <lb ed="#PL"/> aliquando intelliguntur a nobis. Non enim frustra
+   
+   <lb ed="#PL"/> dixit ipse Dominus etiam de lupis : <hi rend="italic">Ex fructibus eo<lb ed="#PL" break="no"/>rum
+    cognoscetis eos (Matth.</hi> VII, 16). Multos interro<lb ed="#PL" break="no"/>gant
+   tentationes, et tunc apparent cogitationes : multi 
+   <lb ed="#PL"/> aatem latent. Habeat' ovile Domini praepositos, ct
+   
+   <lb ed="#PL"/> filios et mercenarios. Prapositi autem qui filii sunt, 
+   <lb ed="#PL"/> pastores sunt. Si pastores sunt, quomodo unus pa<lb ed="#PL" break="no"/>stor, nisi quia sunt illi omnes unius membra pastoris, 
+   <lb ed="#PL"/> cujus sunt oves propriae? Nam et ipsi membra sunt 
+   <lb ed="#PL"/> ipsius unius ovis; quia <hi rend="italic">sicut ovis ad immolandum</hi> du­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">ctus est.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e418-d1e585">6. Audite autem, quia et mercenarii <hi rend="underline">necessarii</hi>
+   
+       <lb ed="#PL"/> suut. Multi quippe in Ecelesia commoda terrena se- 
+   <lb ed="#PL"/> ctantes, Christum tamen praedicant, et per eos vox 
+   <lb ed="#PL"/> Christi auditur: et sequmtur oves, non mercenarium,
+   
+   <lb ed="#PL"/> . sed vocem pastoris pcr mercenarium. Audite merce<lb ed="#PL" break="no"/>narios
+   ab ipso Domino demonstratos : <hi rend="italic">Scribae,</hi> inquit, 
+   <lb ed="#PL"/>
+       <hi rend="italic">et Pharisaei cathedram Moysi sedent: quae dicunt,</hi> fa­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">cite; quae autem</hi> faciunt, <hi rend="italic">facere nolite
+    (Id.</hi> XXIII, I). 
+   <lb ed="#PL"/> Quid aliud dixit, nisi, Per mercenarios vocem pasto<lb ed="#PL" break="no"/>ris
+   auditc? Sedendo eniin cathedram Moysi legem Dei 
+   <lb ed="#PL"/> docent: ergo per illos Deus docct. Sua vero illi si 
+   <lb ed="#PL"/> velint docerc, nolite audire, nolite facere. Certe enim
+   
+   <lb ed="#PL"/> tales sua quaerunt, non quae Jesu Christi: nullus ta<lb ed="#PL" break="no"/>men
+   mercenarius ausus est dicere populo Christi, 
+   <lb ed="#PL"/> Tua quaere, non quae Jesu Christi. Quod enim facit 
+   <lb ed="#PL"/> male, non praedicat de cathedra Christi : iude laedit 
+   <lb ed="#PL"/> unde mala facit, non unde bona dicit. Botrum carpe, 
+   <lb ed="#PL"/> spinam cave. Bene, quia intellexistis; sed propter 
+   <lb ed="#PL"/> tardiores dicam hoc idem planius. Quomodo dixi, Bo<lb ed="#PL" break="no"/>trum
+   carpe, spinam cave; cum Dominus dicat, Num­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">quid colligunt de spinis unam, auc de tribulis</hi> ficum 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Id.</hi> vii, 16) ? Verum est omnino; et tamen etiam 
+   <lb ed="#PL"/> verum ego dixi, Botrum carpe, spinam cave. Quia 
+   <lb ed="#PL"/> botrus aliquando de radicc vitis exortus, pendet in 
+   <lb ed="#PL"/> sepe, crescit palmes, inseritur spinis, et portat fru<lb ed="#PL" break="no"/>ctum
+   spina non suum. Non enim spinam vitis attulit, 
+   <lb ed="#PL"/> sed spinis palmes incubuit. Noli interrogare nisi ra<lb ed="#PL" break="no"/>dices. Quaere radicem spinae, extra invenis a vite ; 
+   <lb ed="#PL"/> quaere originem uvae, vitis hanc protulit ex radice. Ca<lb ed="#PL" break="no"/>thedra
+   ergo Moysi vitis erat : Pharisaeorum mores 
+   <lb ed="#PL"/> spinae erant. Doctrina vera per malos, palmes ill sepe,
+   
+   <lb ed="#PL"/> botrus inter spinas. Caute lege It ne dum quaeris fru- 
+   
+   <pb ed="#PL" n="1739"/>
+       <lb ed="#PL"/> ctum , laceres manum : et cum audis bona dicentem, 
+   <lb ed="#PL"/> oe imiteris niala facientem. <hi rend="italic">Quae</hi> dicunt <hi rend="italic">facite,</hi> legite
+   
+   <lb ed="#PL"/> uvas : quae <hi rend="italic">autem faciunt, facere nolite,</hi> cavete spinas.
+   
+   <lb ed="#PL"/> Etiam per mercenarios vocem pastoris audite, sed 
+   <lb ed="#PL"/> nolite esse mercenarii, cum sitis membra pastoris. 
+   <lb ed="#PL"/> Ipse autena Paulus sanctus apostolus, qui dixit, « Ne­
+   
+   <lb ed="#PL"/> minem habeo qui germane de vobis sollicitus sit; 
+   <lb ed="#PL"/> omnes eniin sua quaerunt, non quae Jesu Christi; i 
+   <lb ed="#PL"/> alio loco inter mercenarios filiosque distinguens, vi­
+   
+   <lb ed="#PL"/> deto quid dixerit : c Quidam per invidiametconten<lb ed="#PL" break="no"/>tionem ; quidam vero et per bonam voluntatem Chri<lb ed="#PL" break="no"/>stum
+   praedicant : quidam ex charitate, scientes quia
+   
+   <lb ed="#PL"/> ill defensionem Evangelii positus sum; quidam vero 
+   <lb ed="#PL"/> et per contumaciam Christum anhuntiant, non caste, 
+   <lb ed="#PL"/> existimantes tribulationem suscitari vinculismeis.
+   &gt; Isti 
+   <lb ed="#PL"/> mercenarii erant, Paulo apostolo invidebant. Quare in<lb ed="#PL" break="no"/>videbant, nisi quia temporalia requirebant? Sed quid ad<lb ed="#PL" break="no"/>jungat, attendite : <hi rend="italic">Quidenim? Dum omni modo, sive occa<lb ed="#PL" break="no"/>sione, sive veritate Christus
+    annuntietur; et</hi> in hoc <hi rend="italic">gaudeo, 
+   <lb ed="#PL"/> sed et gaudebo
+    (Philipp.</hi> I, 15-18). Veritas est Chri<lb ed="#PL" break="no"/>stus : veritas a mercenariis occasione annuntietur, 
+   <lb ed="#PL"/> veritas a filiis veritate annuntietur : filii aeternam hae­
+   
+   <lb ed="#PL"/> reditatem Patris patienter exspectant, mercenarii 
+   <lb ed="#PL"/> temporalem mercedem conducentis festinanter CIO<lb ed="#PL" break="no"/>ptant : nihi humana gloria, cui mercenarios invidere
+   
+   <lb ed="#PL"/> video, minuatur ; et tamen per linguas et mercena<lb ed="#PL" break="no"/>riorum
+   et filiorum divina Christi gloria diffametur, 
+   <lb ed="#PL"/>
+       <hi rend="italic">cum sive occasione, sive</hi> veritate <hi rend="italic">Christus
+    annuntictur.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e418-d1e762">7. Vidimus qui sil etiam mercenarius. Quis est lupus, 
+   <lb ed="#PL"/> nisi diabolus? £i quid dictum est de mercenario?Cum 
+   <lb ed="#PL"/>
+       <hi rend="italic">viderit lupum venientem, fugit; quia</hi> non <hi rend="italic">sunt
+    ejus</hi> ovet 
+   <lb ed="#PL"/>
+       <hi rend="italic">propriae, nec ei cura est de</hi> ovibus. Numquid talis erat 
+   <lb ed="#PL"/> apostolus Paulus ? AUsit. Numquid talis Petrus ? 
+   <lb ed="#PL"/> Absit. Numquid tales caeteri Apostoli, excepto Ju<lb ed="#PL" break="no"/>da
+   filio perditionis? Absit. Pastores ergo illi? Pla<lb ed="#PL" break="no"/>ne
+   pastores. Et unde unus pastor? Jam dixi, pasto<lb ed="#PL" break="no"/>res, quia membra pastoris. Illo capite gaudebant, sub 
+   <lb ed="#PL"/> illo capite concordabant, uno spiritu in unius corporis
+   
+   <lb ed="#PL"/> compage vivebant: ac per hoc omnes ad unum pa<lb ed="#PL" break="no"/>storem
+   pertinebant. Si ergo pastores, non mercenarii, 
+   <lb ed="#PL"/> quare fugiebant quando persecutionem patiebantur? 
+   <lb ed="#PL"/> Expone nobis, o Domine. Vidi in Epistola fugientem 
+   <lb ed="#PL"/> Paulum : per murum in sporta submissus est, ut nia<lb ed="#PL" break="no"/>nus
+   persequentis evaderet ( It Cor. XI, 33). Non ergo 
+   <lb ed="#PL"/> illi cura fuit de ovibus, quas lupo veniente deserebat? 
+   <lb ed="#PL"/> Fuit plane, sed eas pastori in coelo sedenti orationi<lb ed="#PL" break="no"/>bus
+   comme: dabat : se autem utilitati carum fugiendo 
+   <lb ed="#PL"/> servabat, sicut quodam loco ait, <hi rend="italic">Manere in carne
+    ne­
+   <lb ed="#PL"/> cessarium propter uos (Philipp.</hi> I, 24). Ab ipso namque 
+   <lb ed="#PL"/> pastore omnes audicranl, Si vos <hi rend="italic">persecuti fuerint in 
+   <lb ed="#PL"/> una civitate,
+    fugite in aliam (Matth.</hi> x, i3). I fane nobis 
+   <lb ed="#PL"/> quaestionem Dominus dignetur exponere. Domine, tu 
+   <lb ed="#PL"/> dixisti cis quos fideles pastores esse utique volebas, 
+   <lb ed="#PL"/> quos tua membra esse formabas, Si <hi rend="italic">vos</hi> persecuti <hi rend="italic">fue<lb ed="#PL" break="no"/>rint, fugite.</hi> Injuriam ergo illis facis, quando reprehen<lb ed="#PL" break="no"/>dis
+   inercenarios, qui vident lupum venientem et fu<lb ed="#PL" break="no"/>giunt. Roganus inuiccs nobis quid habeat altitudo 
+   <lb ed="#PL"/> qu cslionis : pulsemus, aderit qui aperiat se ostiarius 
+   <lb ed="#PL"/> ostii, quod est ipse.</p>
+      <p xml:id="iuy75t-d1e418-d1e851">8. Quis est mercenarius, qai videt tipum venien<lb ed="#PL" break="no"/>tem
+   et fugit? Qni sua quscrit, non quae Jesu Christ i : ! 
+   <lb ed="#PL"/> peccantem nou libere audet arguere (I <hi rend="italic">Tim.</hi> v, 2u). 1 
+   <lb ed="#PL"/> Ecce nescio quis peccavit, graviter peccavit; incre<lb ed="#PL" break="no"/>pandas
+   est, ,excommunicandus est : sed excommuni<lb ed="#PL" break="no"/>catus, inimicus erit, insidiabitur, noccbit cum potue<lb ed="#PL" break="no"/>rit. Jam ille qui sua quaerit, non quae Jesu Christi, no i 
+   <lb ed="#PL"/> perdat quod sectatur, humanae amicitiae commodita- 
+   <lb ed="#PL"/> tem, et inimicitiarum humanarum incurrat molestiam, 
+   <lb ed="#PL"/> tacet, non corripit. Ecce lupus ovi guttur apprehendit : ! 
+   <lb ed="#PL"/> diabolus fideli adulterium persuasit; tu taces, non incre-
+   
+   <lb ed="#PL"/> pas : o mercenarie, lupum venientem vidisti, et fugisti. 
+   <lb ed="#PL"/> Respondet forte et dicit: Ecce hicsum, non fugi. Fugi<lb ed="#PL" break="no"/>sti, quia tacuisti ; tacuisti, quia timuisti. Fuga animi , 
+   <lb ed="#PL"/> timor est. Corpore stetisti, spiritu fugisti: quod ille 
+   <lb ed="#PL"/> non faciebat qui dicebat, <hi rend="italic">Etsi corpore</hi> absens sum, <hi rend="italic">spi<lb ed="#PL" break="no"/>ritu
+   vobiscum sum (Coloss.</hi> II , 5). Quomodo enim spi<lb ed="#PL" break="no"/>ritu
+   fugiebat, qui etiam corpore absens, fornicatores 
+   <lb ed="#PL"/> litteris argucbat? Affectiones nostre motus animorum 
+   <lb ed="#PL"/> sunt. Laetitia, animi diffusio; tristitia, animi contra­
+   
+   <lb ed="#PL"/> clio : cupiditas, animi progressio; timor, animi fuga 
+   <lb ed="#PL"/> est. Diffuruleris enim animo, cum delectaris; contra<lb ed="#PL" break="no"/>heris
+   animo , cum molestaris : progrederis animo ,
+   
+   <lb ed="#PL"/> cum appetis ; fugis animo, cum metuis. Ecce unde 
+   <lb ed="#PL"/> ille mercenarius viso lupo_dicitur fugere. Quare? Quia 
+   <lb ed="#PL"/>
+       <hi rend="italic">non eat ei cura de ovibus.</hi> Quare <hi rend="italic">non eat</hi> ei <hi rend="italic">cura de ovi­
+   <lb ed="#PL"/> bus? Quia mercenarius est.</hi> Quid est, <hi rend="italic">mercenarius est?</hi>
+   
+       <lb ed="#PL"/> Temporalem mercedem quaerens, et in domo in retcr<lb ed="#PL" break="no"/>num
+   non habitabit 1. Sunt hie adhuc quaerenda, et 
+   <lb ed="#PL"/> discutienda vobiscum, sed onerare vos non est con<lb ed="#PL" break="no"/>silii.
+   Dominica enim cibaria conservis ministramus; 
+   <lb ed="#PL"/> in pascuis dominicis oves pascimus, et simul pasci<lb ed="#PL" break="no"/>mur. Sicut non est negandum quod necessarium cst, 
+   <lb ed="#PL"/> sic non est cor infirmum pabuli multitudine praegra<lb ed="#PL" break="no"/>vandum. Non sit ergo molestum Charitati vestrae, 
+   <lb ed="#PL"/> quia omnia quae hic adhuc discutienda arbitror, hodio 
+   <lb ed="#PL"/> non discutio: sed iterum nobis I in nomine Domini 
+   <lb ed="#PL"/> dicbus reddendi sermonis eadem lectio recitabitur, 
+   <lb ed="#PL"/> et diligentius, illo adjuvante, tractabitur.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

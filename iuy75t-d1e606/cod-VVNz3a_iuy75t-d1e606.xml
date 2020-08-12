@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 69</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 69</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e606"> <!-- iuy75t-t69 -->
+      <head xml:id="iuy75t-d1e606-Hd1e109">Tractatus 69</head>
+      <p xml:id="iuy75t-d1e606-d1e112">
+       <hi rend="italic">In id quod Dominus dicit,</hi> Et quo ego vado scitis, et 
+   <lb ed="#PL"/> viam scitis ; <hi rend="italic">usque ad id,</hi> Nemo venit ad Patrem, 
+   <lb ed="#PL"/> nisi per no.
+    <hi rend="italic">Cap.</hi> XIV, t. 4-6.</p>
+      <p xml:id="iuy75t-d1e606-d1e128">1. Nunc est,dilectissimi, ut quantum valemus, in<lb ed="#PL" break="no"/>telligamus
+   de verbis Domini posterioribus priora, et 
+   <lb ed="#PL"/> consequentibus praecedentia , in eo qnod audistis 
+   <lb ed="#PL"/> apostolo Thomae interroganti esse responsum. Di<lb ed="#PL" break="no"/>xerat
+   enim superius Dominus, cum de mansionibus 
+   
+   <lb ed="#PL"/> loqueretur, quas et esse dixit in domo Patris sui, et 
+   <lb ed="#PL"/> ire se ut praeparet eas; ubi intelleximus et esse jam 
+   <lb ed="#PL"/> mansiones ipsas in praedestinatione, et praeparari eas 
+   <lb ed="#PL"/> cum eorum qui ibi mansuri sunt, per fidem corda 
+   <lb ed="#PL"/> mundantur, quoniam ipsa Dei domus ipsi sunt;et
+   <lb ed="#PL"/> quid est aliud manere in donno Dei, quam esse in 
+   <lb ed="#PL"/> populo Dei, cum idem populus est in Deo, et Deus in 
+   <lb ed="#PL"/> eo? hoc ut praepararet, Dominiis abiit; ut credendo in 
+   <lb ed="#PL"/> eum qui non videtur, ea quae in specie semper futura
+   
+   <lb ed="#PL"/> est, nunc per fidem mansio praeparetur : propter hoc 
+   <lb ed="#PL"/> ergo dixerat, Et si <hi rend="italic">abiero, et praeparavero vobis</hi> locum, 
+   <lb ed="#PL"/>
+       <hi rend="italic">iterum venio, et accipiam vos ad meipsum, ut ubi ego sum et</hi>
+   
+       <lb ed="#PL"/> possitis. <hi rend="italic">Et quo ego vado scitis,</hi> et viam scitis. Ad haec
+    <hi rend="italic">dicit 
+   <lb ed="#PL"/> ei Thomas</hi> : Domine, <hi rend="italic">nescimus quo
+    vadis; ei quomodo 
+   <lb ed="#PL"/> possumus viam scire?</hi> Utrumque illos Dominus dixcrat 
+   <lb ed="#PL"/> scire, utrumque dicit iste nescire, et locum quo itur, 
+   <lb ed="#PL"/> et viam qua itur. Sed nescit ille mentiri : ergo isti 
+   <lb ed="#PL"/> sciebint, et scire se nesciebant. Convincat eos jam 
+   <lb ed="#PL"/> scire, quod se putant adhuc usque nescire. <hi rend="italic">Dicit</hi> ei 
+   <lb ed="#PL"/>
+       <hi rend="italic">Jesus : Ego sum ria, et veritas, et vita.</hi> Quid est, fra<lb ed="#PL" break="no"/>tres
+   ? Ecce audivimus discipulum interrogantem, 
+   <lb ed="#PL"/> audivimus et magistrum docentem, et nondum capi<lb ed="#PL" break="no"/>mus, etiam post vocem sonantem, sententiam lati<lb ed="#PL" break="no"/>tantem. Sed quid non possumus capere ? NumquiJ 
+   <lb ed="#PL"/> poterant ei dicere Apostoli ejus cum quibus loqueba<lb ed="#PL" break="no"/>tur, Nescimus te ? Proinde si eum sciebant, et via ipse 
+   <lb ed="#PL"/> est, viam sciebant : si 6um sciebant, et veritas ipse 
+   <lb ed="#PL"/> est, veritatem sciebant : si eum sciebant, et vita ipse 
+   <lb ed="#PL"/> est, vitam sciebant. Ecce scire convicti sunt quod se 
+   <lb ed="#PL"/> scire nesciebant.</p>
+      <p xml:id="iuy75t-d1e606-d1e226">2. Quid igitur et nos in isto sermone non cepimus 1 
+   <lb ed="#PL"/> Quid putatis, fratres mei, nisi qnia dixit, <hi rend="italic">Et quo vado
+   <lb ed="#PL"/> scitis, et viam scitis</hi> ? Et ecce cognovimus quod scie<lb ed="#PL" break="no"/>bant
+   viam, quia sciebant ipsum qui est via : sed via
+   
+   <lb ed="#PL"/> est qua itur; numquid via est et quo Hur? Utrumque 
+   <lb ed="#PL"/> autem illos dixerat scire, et quo vadit, et viam. Opus 
+   <lb ed="#PL"/> ergo erat ut diceret, <hi rend="italic">Ego</hi> sum <hi rend="italic">via,</hi> ut ostenderet cus 
+   <lb ed="#PL"/> qui cum scirent, viam scire qunm putaverant se ne. 
+   <lb ed="#PL"/> scire : quid autem opus erat ut diceret, <hi rend="italic">Ego sum aia,
+   <lb ed="#PL"/> et veritas, et vita,</hi> cum via cognita qua iret, restaret 
+   <lb ed="#PL"/> nosse quo iret; nisi quia ibat ad veritatem, ibat ad 
+   <lb ed="#PL"/> vitam? Ibat ergo ad seipsum, per scipsum. Et nos quo 
+   <lb ed="#PL"/> imus, nisi ad ipsum? et qua imus, nisi per ipsum? 
+   <lb ed="#PL"/> Ipse igitur ad scipsum per seipsum; nos ad ipsum 
+   <lb ed="#PL"/> per ipsum : ima vero et ad Patrem et ipse et nos. 
+   <lb ed="#PL"/> Nam et de scipso alibi dicit, <hi rend="italic">Ad Patrem vado (Joan.</hi>
+   
+       <lb ed="#PL"/> XVI, 10) : et hoc loco propter nos, <hi rend="italic">Nemo,</hi> inquit, ve­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">nit ad</hi> Patrem, <hi rend="italic">nisi per me.</hi> Ac per hoc et ipse per se<lb ed="#PL" break="no"/>ipsum
+   et ad scipsumetad Patrem, et nos per ipsum 
+   <lb ed="#PL"/> et ad ipsumetad Putrem. Quis haec capit, nisi qui 
+   <lb ed="#PL"/> spiritualiter sapit? Et quantum est quod hic capit , 
+   <lb ed="#PL"/> etiamsi spiritualitcr sapit? Fratres, quid a me isia 
+   <lb ed="#PL"/> vobis vultis exponi ? Cogitate quam excelsa sint. Vi<lb ed="#PL" break="no"/>detis
+   quid sim, video quid silis : in omnibus nobis 
+   <lb ed="#PL"/> corpus quod corrumpitur aggravat animam, etdepri<lb ed="#PL" break="no"/>mit
+   terrena inhabitatio sensum multa cogitantem 
+   <lb ed="#PL"/>
+       <hi rend="italic">(Sap.</hi> IX, 15). Putamusne possumus dicere. <hi rend="italic">Ad</hi> te <hi rend="italic">te- 
+   <lb ed="#PL"/> vavi animam meam, qui</hi> habitas in <hi rend="italic">caeto (Psal.</hi> CXXII , 
+   <lb ed="#PL"/> 1)? Sed sub tanto pondera ubi ingemiscimus gravati, 
+   <pb ed="#PL" n="1817"/>
+       <lb ed="#PL"/> quomodo levabo animam meam, nisi mecum levet qui 
+   <lb ed="#PL"/> posuit pro me suam
+   ? Dieam ergo quod possum, ca<lb ed="#PL" break="no"/>piat
+   vestrum qui potest. Quo donante dico, co do­
+   
+   <lb ed="#PL"/> nante capit qui capit, et eo donante credit qui nondum 
+   <lb ed="#PL"/> capit. <hi rend="italic">Ntsi</hi> enim credideritis, <unclear>inqu</unclear> propheta, <hi rend="italic">non in<lb ed="#PL" break="no"/>telligetis (Isa.</hi> VII, 9, <hi rend="italic">sec,</hi> LXX).</p>
+      <p xml:id="iuy75t-d1e606-d1e355">3. Dic mihi, Domine meus, quid dicam servis tuis 
+   <lb ed="#PL"/> conservis meis ? Thomas apostolus ut te interrogaret, 
+   <lb ed="#PL"/> habuit te ante se; nee tamen intelligeret te, nisi ha<lb ed="#PL" break="no"/>beret
+   in se : ego interrogo te, quia te scio esse super 
+   <lb ed="#PL"/> me; interrogo autem in quantum possum super me 
+   <lb ed="#PL"/> clfundere animam meam, ubi non sonantem et tamen
+   
+   <lb ed="#PL"/> docentem audiam te. Dic milii, obsecro, quomodo 
+   <lb ed="#PL"/> vadis ad te. Numquidnam ut venires ad nos, relique<lb ed="#PL" break="no"/>ras
+   te : maxime quia non a teipso venisti, sed Pater
+   
+   <lb ed="#PL"/> te misit ? Scio quidem quod te exinanisti; sed quia 
+   <lb ed="#PL"/> formam servi accepisti
+    <hi rend="italic">(Philipp.</hi> II, 7), non quia for<lb ed="#PL" break="no"/>mam
+   Dei vel ad quam redires demisisti, vel quam 
+   <lb ed="#PL"/> reciperes amisisti : ettamen venisti, et non solum
+   
+   <lb ed="#PL"/> usque ad carnales oculos, verum etiam usque ad 
+   <lb ed="#PL"/> uranius hominum pervenisti. Quomodo, nisi in carne? 
+   <lb ed="#PL"/> Per hanc venisti manens ubi eras, per hanc redisti 
+   <lb ed="#PL"/> non relinquens quo veneras. Si ergo per hanc venisti 
+   <lb ed="#PL"/> et redisti; per hanc procul dubio non solum nobis es 
+   <lb ed="#PL"/> qua veniremus ad te, verum etiam tibi qua venires 
+   <lb ed="#PL"/> et redires, via fuisti. Cum vero ad vitam, quod es 
+   <lb ed="#PL"/> ipse, isti; eamdem profecto carnem tuam de morte 
+   <lb ed="#PL"/> ad vitam duxisti. Aliud quippe Dei Verbum est, aliud 
+   <lb ed="#PL"/> homo : sed Verbum caro factum est, id est homo. 
+   <lb ed="#PL"/> Non itaque alia Ycrbi, alia est hominis persona, quo<lb ed="#PL" break="no"/>niam
+   utrumque est Christus una persona : ac per hoc 
+   <lb ed="#PL"/> quemadmodum caro cum mortua est, Christus est 
+   <lb ed="#PL"/> mortuus; et cum caro sepulta est, Christus est sepuf<lb ed="#PL" break="no"/>tus ( sic enim corde credimus ad justitiam, sic ore 
+   <lb ed="#PL"/> confessionem facimus ad salutem <hi rend="italic">[Rom.</hi> x, 10]); ita 
+   <lb ed="#PL"/> cum caro a morte venit ad vitam, Christus venit ad 
+   <lb ed="#PL"/> vitam. Et quia VerbUm Dei Christus est, Christus 
+   <lb ed="#PL"/> est vita. Ita miro quodam et inefFabili modo, qui nun<lb ed="#PL" break="no"/>quam
+   demisit vel amisit seipsum, venit ad seipsum. 
+   <lb ed="#PL"/> Venerat autem, ut dictum est, per carnem Deus ad 
+   <lb ed="#PL"/> homines, veritas ad mendaces : Deus enim verax, 
+   <lb ed="#PL"/> omnis autem horno mendax <hi rend="italic">(Id.</hi> III, 4). Cum itaque 
+   <lb ed="#PL"/> ab hominibus abstulit, atque illuc ubi nemo mentitur, 
+   <lb ed="#PL"/> carnem suam levavit; idem ipse, quia- Verbum caro
+   
+   <lb ed="#PL"/> factum est, per seipsum, id est per earnem, ad veri<lb ed="#PL" break="no"/>tatem, quod est ipse, remeavit. Quam quidem verita<lb ed="#PL" break="no"/>tem, quamvis inter mendaccs, et in morte servavit :
+   
+   <lb ed="#PL"/> aliquando enim Christus fuit mortuus, sed nunquam 
+   <lb ed="#PL"/> fuit falsus.</p>
+      <p xml:id="iuy75t-d1e606-d1e458">4. Accipite quamvis diversum et longe impar 
+   <lb ed="#PL"/> gxemplum, tamen utcumque ad intelligendum Deum, 
+   <lb ed="#PL"/> ex his quae propius subjecta sunt Deo. Ecce ego ipso, 
+   <lb ed="#PL"/> quantum attinct ad animum meum, cum hoc sim quod 
+   <lb ed="#PL"/> estis et vos, si taceo, apud meipsum sum: si autem 
+   <lb ed="#PL"/> lOquor vobis quod intelligatis, quodammodo ad vos 
+   <lb ed="#PL"/> profedo, nec me relinquo, sed et ad vos accedo, et 
+   <lb ed="#PL"/> nou recedo unde procedo. Cum autem tacuero, quo<lb ed="#PL" break="no"/>dAmrnodo
+   ad me redeo; et quodammodo vobiscuin 
+   <lb ed="#PL"/> maneo, si tenueritis quod audistis in sermone quem 
+   <lb ed="#PL"/> dico. Si boc potest imago quam fecit Deus, quid po. 
+   <lb ed="#PL"/> test non a Deo facta, sed ex Deo nata imago Dei Deus : 
+   <lb ed="#PL"/> cujus illud, quo ad nos egressus est, et in que ,a uobis 
+   <lb ed="#PL"/> regressus est, corpus, non sicut meus elapsus est 
+   <lb ed="#PL"/> sonus, sed manet ibi ubi jam non moritur, et mors 
+   <lb ed="#PL"/> ei ultra non dominabitur <hi rend="italic">(Rom.</hi> VI, 9)? Molta de his 
+   <lb ed="#PL"/> . evangelicis verbis adhuc dici fortasse poterant et de<lb ed="#PL" break="no"/>bebant : sed non sunt corda vestra spiritualibus cibis 
+   <lb ed="#PL"/> quamlibet suavibus oneranda; maxime quia spiritus 
+   <lb ed="#PL"/> promptus est, caro autcm infirma (Matth.XXVI, 41).</p>
+    </div>
+   </body>
+  </text>
+</TEI>

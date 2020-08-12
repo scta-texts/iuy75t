@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 8</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 8</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e108"> <!-- iuy75t-t8 -->
+      <head xml:id="iuy75t-d1e108-Hd1e109">Tractatus 8</head>
+      <p xml:id="iuy75t-d1e108-d1e112">
+       <hi rend="italic">Ab eo Evangelii loco,</hi> Et die tertia nuptiae factae sunt 
+   <lb ed="#PL"/> in Cana Galilaeae; <hi rend="italic">usquead id,</hi> Quid mihi et tibi est, 
+   <lb ed="#PL"/> mulier? nondum venit hora mea. <hi rend="italic">Cap. n, f.</hi> i-4.</p>
+      <p xml:id="iuy75t-d1e108-d1e128">1. Miraculum quidem Domini nostri Jesu Christi , 
+   <lb ed="#PL"/> quo de aqua vinum fecit, non est mirum eis qui no<lb ed="#PL" break="no"/>verunt
+   quia Deus fecit. Ipse enim fecit vinum illo die 
+   <lb ed="#PL"/> in nuptiis in sex illis hydriis, quas impleri aqua prae<lb ed="#PL" break="no"/>cepit <hi rend="italic">(Joan.</hi> II, 6-11) , qui omni anno facit hoc in vi<lb ed="#PL" break="no"/>tibus. 
+   Sicut enim quod miserunt ministri in hydrias, 
+   <lb ed="#PL"/> in vinum conversum est opere Domini; sic et quod
+   
+   <lb ed="#PL"/> nubes fundunt, in vinum convertitur ejusdem opere 
+   <lb ed="#PL"/> Domini. Illud autem non miramur, quia omni anno 
+   <lb ed="#PL"/> fit: assiduitate amisit admirationem. Nam et conside-
+   
+   <lb ed="#PL"/> rationem majorem invenit, quam id quod factum est 
+   <lb ed="#PL"/> in hydriis aquae. Quis est enim qui considerat opera 
+   <lb ed="#PL"/> Dei, quibus regitur et administrator totus hic mun­
+   
+   <lb ed="#PL"/> dus, et non obstupescit obruiturque miraculis ? Si 
+   <lb ed="#PL"/> consideret vim unius grani, cujuslibet seminis, ma<lb ed="#PL" break="no"/>gna
+   quaedam res est, horror est consideranti. Sed
+   
+   <lb ed="#PL"/> quia homines in aliud intenti perdiderunt considera- 
+   <lb ed="#PL"/> tionem operum Dei, in qua darent laudem quotidie 
+   <lb ed="#PL"/> Creatori; tanquam servavit sibi Deus inusitata quaedam
+   
+   <lb ed="#PL"/> quae faceret, ut tanquam dormientes homines, ad se 
+   <lb ed="#PL"/> colendum mirabilius excitaret. Mortuus resurrexit, 
+   <lb ed="#PL"/> mirati sunt homines : tot quotidie nascuntur, et nemo 
+   <lb ed="#PL"/> miratur. Si consideremus prudentius, majoris mira<lb ed="#PL" break="no"/>culi
+   est esse qui non erat, quam reviviscere qui erat. 
+   <lb ed="#PL"/> Idem tamen Deus Pater Domini nostri Jesu Christi 
+   <lb ed="#PL"/> per Verbum suum facit omnia haec, et regit qui crea<lb ed="#PL" break="no"/>vit. Priora miracula fecit per Verbum suum Deum 
+   <lb ed="#PL"/> apud se : posteriora miracula fecit per ipsum Verbum 
+   <lb ed="#PL"/> suum, incarnatum , et propter nos hominem factum. 
+   <lb ed="#PL"/> Sicut miramur quae facta suut per hominem Je. 
+   <lb ed="#PL"/> sum, miremur quae facta sunt per Deum Jesum. Per 
+   <lb ed="#PL"/> Deum Jesum facta sunt coelum et terra, mare, et 
+   <lb ed="#PL"/> omnis ornatus coeli, opulentia terrae , fecunditas ma<lb ed="#PL" break="no"/>ris; omnia haec quae oculis adjacent, per Jesum Demn 
+   <lb ed="#PL"/> facta sunt. Et videmus haec, et si est in nobis Spiri- 
+   
+   
+   
+   <pb ed="#PL" n="1451"/>
+       <lb ed="#PL"/> tus ipsius, sic nobis placent ut artifex laudetur : non 
+   <lb ed="#PL"/> ut ad opera conversi ab artifice avertamur, et faciem 
+   <lb ed="#PL"/> quodammodo ponentes ad ea quae fecit, dorsum po<lb ed="#PL" break="no"/>namus
+   ad eum qui fecit.</p>
+      <p xml:id="iuy75t-d1e108-d1e218">
+   2. Et haec quidem videmus, et adjacent oculis : 
+   <lb ed="#PL"/> quid illa quae non videmus, sicut sunt Angeli, 'Vir<lb ed="#PL" break="no"/>tutes, 
+   Potestates, Dominationes, omnisque habitator 
+   <lb ed="#PL"/> fabricae hujus supercoelestis, non adjacens oculis no<lb ed="#PL" break="no"/>stris? 
+   Quanquam saepe et Angeli, quando oportuit, 
+   <lb ed="#PL"/> demonstraverunt sc hominibus. Nonne Deus et, per 
+   <lb ed="#PL"/> Verbum suum, id est, unicum Filium suum Domi<lb ed="#PL" break="no"/>num
+   nostrum Jesum Christum fecit haec omnia ? Quid 
+   <lb ed="#PL"/> ipsa anima humana , quae non videtur, et per opera 
+   <lb ed="#PL"/> quae exhibet in carne, magnam praebet admirationem 
+   <lb ed="#PL"/> bene considerantibus, a quo facta est, nisi a Deo? et 
+   <lb ed="#PL"/> per quem facta est, nisi per Filium Dei? Nondum 
+   <lb ed="#PL"/> dico de anima hominis. Cujusvis pecoris anima quo<lb ed="#PL" break="no"/>modo
+   regit molem suam ! sensus omnes exserit, ocu<lb ed="#PL" break="no"/>los
+   ad videndum, aures ad audiendum , nares ad per<lb ed="#PL" break="no"/>cipiendum
+   odorem , oris judicium ad sapores discer<lb ed="#PL" break="no"/>nendus, membra denique ipsa ad peragenda officia
+   
+   <lb ed="#PL"/> sua. Numquid haec corpus, et non anima, id est, ha<lb ed="#PL" break="no"/>bitatrix
+   corporis agit ? Nec tamen videtur oculis , et 
+   <lb ed="#PL"/> ex his quae agit, admirationem movet. Accedat jam
+   
+   <lb ed="#PL"/> consideratio tua etiam ad animam humanam, cui, tri- 
+   <lb ed="#PL"/> :'uit Deus intellectum cognoscendi Creatorem suum, 
+   <lb ed="#PL"/> dignoscend; et distinguendi inter bonum et malam ,
+   
+   <lb ed="#PL"/> hoc est inter justum et injustum : quanta agit per cor<lb ed="#PL" break="no"/>pus! 
+   Attendite universum orbem terrarum ordinatum 
+   <lb ed="#PL"/> in ipsa humana republica : quibus administrationibus, 
+   <lb ed="#PL"/> quibus ordinibus potestatum, conditionibus civitatum, 
+   <lb ed="#PL"/> legibus, moribus, artibus! Hoc totum per animam 
+   <lb ed="#PL"/> geritur, et haec vis animae non videtur. Cum subtra<lb ed="#PL" break="no"/>hitur
+   corpori , cadaver jacet: cum autem adest cor<lb ed="#PL" break="no"/>pori,
+   primo condit quodammodo putores. Corrupti<lb ed="#PL" break="no"/>bilis
+   est enim omnis caro, in putredines defluit, nisi 
+   <lb ed="#PL"/> quodam condimento animae teneatur. Sed hoc com<lb ed="#PL" break="no"/>mune
+   illi est cum, pecoris anima : ilia magis miranda 
+   <lb ed="#PL"/> quae dixi, quae ad mentem et intellectum pertinent; 
+   <lb ed="#PL"/> ubi etiam ad imaginem Creatoris sui renovatur, ad 
+   <lb ed="#PL"/> cujus imaginem factus est homo <hi rend="italic">(Colo".</hi> in, 10). 
+   <lb ed="#PL"/> Quid erit haec vis animae, cum et corpus hoc induerit 
+   <lb ed="#PL"/> incorruptionem, et mortale hoc induerit immortalita<lb ed="#PL" break="no"/>tem 
+   (I <hi rend="italic">Cor.</hi> xv, 53, 54) ? Si lanta potest per carnem 
+   <lb ed="#PL"/> corruptibilem , quid poterit per corpus spirituale post 
+   <lb ed="#PL"/> resurrectionem mortuorum ? Haec tamen anima, ut 
+   <lb ed="#PL"/> dixi, admirabilis naturae atque substantiae, invisibilii 
+   <lb ed="#PL"/> res est et intelligibilis : et haec tamen per Jesum Deum
+   
+   <lb ed="#PL"/> facta est, quia ipse est Verbum DeL Omoia per ipsum 
+   <lb ed="#PL"/> facta sunt, et sine ipso factum est nihil <hi rend="italic">(Joan.</hi> 1 , 3).</p>
+      <p xml:id="iuy75t-d1e108-d1e329">3. Cum ergo tanta videamus facta per Deum Je<lb ed="#PL" break="no"/>sum, 
+   quid miramur aquam in viam conversam per 
+   <lb ed="#PL"/> hominem Jesum? Neque enim sic factus est homo, ut 
+   <lb ed="#PL"/> perderet quod Deus erat: accessit ilii homo, non 
+   <lb ed="#PL"/> omissus est Deus. Ipse ergo fecit hoc, qui illa omnia. 
+   <lb ed="#PL"/> Nen itaque miremur quia Deus feeit; sed amemus 
+   <lb ed="#PL"/> quia inter dos fecit, et propter nostram reparationem 
+   <lb ed="#PL"/> fccit. Aliquid enim et in ipsis factis innuit nobis. 
+   <lb ed="#PL"/> Puto quia non sine causa venit ad nuptias. Excepto 
+   <lb ed="#PL"/> miraculo, aliquid in ipso facto mysterii et sacramenti 
+   <lb ed="#PL"/> latet. Pulsemus ut aperiat, et de vino invisibili in<lb ed="#PL" break="no"/>ebriet
+   nos : quia et nos aqua eramus, et vinum nos 
+   <lb ed="#PL"/> fecit, sapientes nos fecit; sapimus enim fidem ipsius, 
+   <lb ed="#PL"/> qui prius insipientes eramus. Et forte ad ipsam sa<lb ed="#PL" break="no"/>pientiam
+   pertinet, cum honore Dei, et cum laude
+   
+   <lb ed="#PL"/> majestatis ejus, et cum charitate potentissimae mi<lb ed="#PL" break="no"/>sericordiae
+   ejus, intelligere quid sic gestum in hoc mi 
+   <lb ed="#PL"/> raculo.</p>
+      <p xml:id="iuy75t-d1e108-d1e368">4. Dominus invitatus ad nuptias venit. Quid mirum 
+   <lb ed="#PL"/> si in illam domum ad nuptias venit, qui in hunc 
+   <lb ed="#PL"/> mundum ad nuptias venit? Si enim non venit ad no.. 
+   <lb ed="#PL"/>
+   
+       <lb ed="#PL"/> ptias, non hic habet sponsam. Et quid est quod ait 
+   <lb ed="#PL"/> Apostolus, <hi rend="italic">Aptavi vos uni viro, virginem castam</hi> exhi­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">bere Christo?</hi> Quid est quod timet ne virginitas sponsae 
+   <lb ed="#PL"/> Christi per astutiam diaboli corrumpatur? <hi rend="italic">Timeo,</hi> in<lb ed="#PL" break="no"/>quit,
+    <hi rend="italic">ne sicut serpens Evam seduxit astutia sua, sic et 
+   <lb ed="#PL"/> vestroe
+    mentes corrumpantur</hi> a <hi rend="italic">simplicitate et castitate
+   <lb ed="#PL"/> quoe
+    est</hi> in <hi rend="italic">Christo</hi> (II <hi rend="italic">Cor.</hi> XI, i, 3). Habet ergo hic 
+   <lb ed="#PL"/> sponsam quam redemit sanguine suo, et cui pignus 
+   <lb ed="#PL"/> dedit Spiritum sanctum <hi rend="italic">(Id.</hi> i, 22). Eruit eam de 
+   <lb ed="#PL"/> mancipatur diaboli : mortuus est propter delicta ejus, 
+   <lb ed="#PL"/> resurrexit propter justificationem ejus <hi rend="italic">(Rom</hi> iv, 25). 
+   <lb ed="#PL"/> Quis offeret tanta sponsae suae? Offerant homines 
+   <lb ed="#PL"/> quaelibet ornamenta terrarum; aurum, argentum, la<lb ed="#PL" break="no"/>pides
+   pretiosos, equos, mancipia, fundos, praedia : 
+   <lb ed="#PL"/> numquid aliquis offeret sanguineni suum? Si eniti 
+   <lb ed="#PL"/> sanguinem suum sponsae dederit, non erit qui ducat 
+   <lb ed="#PL"/> uxorem. Dominus autem securus moriens, dedit sau- 
+   <lb ed="#PL"/> guinem suum pro ea quam resurgens haberet, quam 
+   <lb ed="#PL"/> sibi jam conjunxerat in utero Virginis. Verbum enim 
+   <lb ed="#PL"/> sponsus, et sponsa caro humana; et utrumque unus 
+   <lb ed="#PL"/> Filius Dei, et idem filius hominis : ubi factus est ca. 
+   <lb ed="#PL"/> put Ecclesiae, ille uterus virginis Mariae thalamus 
+   <lb ed="#PL"/> ejus, inde processit tanquam sponsus de tlialamo 
+   <lb ed="#PL"/> suo, sicut Scriptura praedixit, <hi rend="italic">Et ipse tanquam</hi> spon­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">sus procedens de thalamo</hi> suo, <hi rend="italic">exsultavit</hi> ut <hi rend="italic">gigas ad 
+   <lb ed="#PL"/> currendam viam (Psal.</hi> XVIII , 6); de thalamo proces<lb ed="#PL" break="no"/>sit
+   velut sponsus, et invitatus venit ad nuptias.</p>
+      <p xml:id="iuy75t-d1e108-d1e476">5. Certi sacramenti gratia, videtur matrem de qua 
+   <lb ed="#PL"/> sponsus processit, non agnoscere, et dicere illi, <hi rend="italic">Quid</hi>
+   
+       <lb ed="#PL"/> mihi et <hi rend="italic">tibi est , mulier ?</hi> nondum venit <hi rend="italic">hora mea.</hi> Quid 
+   <lb ed="#PL"/> est hoc? ideone venit ad nuptias, ut doceret matres 
+   <lb ed="#PL"/> contemni ? Utique ad cujus nuptias venerat, ideo du,<lb ed="#PL" break="no"/>cebat uxorem , ut filios procrearet; et ab eis quos 
+   <lb ed="#PL"/> ut procrearet optabat, utique honorari cupiebat: ille
+   
+   <lb ed="#PL"/> ergo venerat ad nuptias , ut exhonoraret matrem, 
+   <lb ed="#PL"/> cum propter iUlios habendos, quibus reddere honorem 
+   <lb ed="#PL"/> parentibus imperat Deus, ipsae nuptiae celebrentur, 
+   <lb ed="#PL"/> et ducantur Dores! Procul dubio, fratres, latet ibi 
+   <lb ed="#PL"/> aliquid. Nam tanta res est, ut quidam, quos cavendos 
+   <lb ed="#PL"/> praemonuit Apostolus, sicut supra commemoravimus, 
+   <lb ed="#PL"/> dicens, <hi rend="italic">Timeo</hi> ne sicut <hi rend="italic">serpens Euam seduxit astatia
+   <lb ed="#PL"/> sua , sic et vestroe mentes corrumpantur a
+    simplicitate
+   <lb ed="#PL"/> et castitate quce est in</hi> Christo , derogantes Evangelio, 
+   <lb ed="#PL"/> et dicentes quod Jesus non sit natus de Maria Virgine, 
+   <lb ed="#PL"/> hinc argumentum sumere conarentur erroris sui, ut 
+   <lb ed="#PL"/> dicerent, Quomodo erat mater ejus, cui dixit, <hi rend="italic">Quid
+   <lb ed="#PL"/> mihi et tibi est, mulier ?</hi> Respondendum ergo est eis,
+   
+   <lb ed="#PL"/>etdisserendum quare hoc dixerit Dominus ; ne sibi 
+   <pb ed="#PL" n="1453"/>
+       <lb ed="#PL"/> aliquid adversus sanam fidem insanientes invenisse 
+   <lb ed="#PL"/> videantur, 'unde sponsae virginis castitas corrumpa<lb ed="#PL" break="no"/>tur, id est, unde fides Ecclesiae violetur. Revera enD, 
+   <lb ed="#PL"/> fratres, corrumpitur fides eorum qui praeponunt men<lb ed="#PL" break="no"/>dacium
+   veritati. Nam isti qui videntur sic honorare 
+   <lb ed="#PL"/> Christum, ut negent eum carnem habuisse, nihil 
+   <lb ed="#PL"/> aliud eum quam mendacem praedicant. Qui ergo 
+   <lb ed="#PL"/> mendacium aedificant in hominibus, quid ab eis ex<lb ed="#PL" break="no"/>pellunt, nisi veritatem? Immittunt diabolum, exclu<lb ed="#PL" break="no"/>dunt
+   Christum; immittunt adulterum, excludunt spon<lb ed="#PL" break="no"/>sum : paranymphi scilicet, vel potius leDones ser<lb ed="#PL" break="no"/>pentis. Ad hoc enin loquuntur ut serpens possideat, 
+   <lb ed="#PL"/> Christus excludatur. Quomodo possidet serpens? 
+   <lb ed="#PL"/> Quando possidet mendacium. Quando possidet fal<lb ed="#PL" break="no"/>sitas, serpens possidet: quando possidet veritas, 
+   <lb ed="#PL"/> Christus possidet. Ipse enim dixit, <hi rend="italic">Ego</hi> sum <hi rend="italic">veritas
+   <lb ed="#PL"/> (Joan.</hi> xiv, 6) : de illo autem dixit, Et <hi rend="italic">in veritate non 
+   <lb ed="#PL"/> stetit, quia veritas non eat in eo (Id.</hi> VIII, 44). Sic est 
+   <lb ed="#PL"/> autem veritas Christus, ut totum verum accipias in 
+   <lb ed="#PL"/> Christo. Verum Verbum, Deus aequalis Patri, vera 
+   <lb ed="#PL"/> anima, vera caro, verus homo, verus Deus, vera na<lb ed="#PL" break="no"/>tivitas, vera passio, vera mors, vera, resurrectio. 
+   <lb ed="#PL"/> Si aliquid horum dixeris falsum, intrat putredo, de 
+   <lb ed="#PL"/> veneno serpentis nascuntur vermes mendaciorum, et 
+   <lb ed="#PL"/> nihil integrum remanebit.</p>
+      <p xml:id="iuy75t-d1e108-d1e606">6. Quid est ergo , inquit, quod ait Dominus, <hi rend="italic">Quid</hi>
+   
+       <lb ed="#PL"/> mihi <hi rend="italic">et tibi est,</hi> mulier ? Forte in eo quod sequitur 
+   <lb ed="#PL"/> ostendit nobis Dominus quare hoc dixerit : <hi rend="italic">Nondum,</hi>
+   
+       <lb ed="#PL"/> inquit, <hi rend="italic">venit hora mea.</hi> Sic enim ait, <hi rend="italic">Quid mihi et</hi> tiM 
+   <lb ed="#PL"/>
+       <hi rend="italic">est,</hi> mulier ? <hi rend="italic">nondum venit hora mea.</hi> Et hoc cur di<lb ed="#PL" break="no"/>ctum
+   sit, requirendum cst. Prius ergo hinc resistamus 
+   <lb ed="#PL"/> haereticis. Quid dicit serpens veternosus, venenorum 
+   <lb ed="#PL"/> insibilator et inspirator antiquus? quid dicit? Non 
+   <lb ed="#PL"/> babuit matrem feminam Jesus. Unde probas? Quia 
+   <lb ed="#PL"/> dixit, inquit, <hi rend="italic">Quid</hi> mihi <hi rend="italic">et tibi est,</hi> mulier ? Quis hoc
+   
+   <lb ed="#PL"/> narravit, ut credamus quia hoc dixit? quis hoc narra<lb ed="#PL" break="no"/>vit? Nempe Joannes evangelista. At ipse Joannes 
+   <lb ed="#PL"/> evangelista dixit, <hi rend="italic">Et erat ibi
+    mater Jesu,</hi> Nam ita nar<lb ed="#PL" break="no"/>ravit : <hi rend="italic">Altera die nuptioe factoe
+    sunt in Cana Galiloeoe,
+   <lb ed="#PL"/> et erat</hi> ibi <hi rend="italic">mater Jesu. Venerat
+    autem illuc invitatus ad 
+   <lb ed="#PL"/> nuptias cum discipulis</hi> suis. Tenemus duas sententias 
+   <lb ed="#PL"/> ab Evangelista prolatas. <hi rend="italic">Erat ibi mater Jesu,</hi> Evan<lb ed="#PL" break="no"/>gelista
+   dixit: quid dixerit matri suae Jesus, ipseEvan<lb ed="#PL" break="no"/>gcliSla
+   dixit. Et quomodo dixit respondisse matri 
+   <lb ed="#PL"/> suae Jesum , ut primo diceret, <hi rend="italic">Ait</hi> illi <hi rend="italic">mater ejus,</hi> vi<lb ed="#PL" break="no"/>dele, fratres, ut adversus linguam serpentis muni<lb ed="#PL" break="no"/>tam
+   virginitatem cordis habeatis. Illic in ipso Evan­
+   
+   <lb ed="#PL"/> gelio eo ipso evangelista narrante dicitur, <hi rend="italic">Erat</hi> ibi 
+   <lb ed="#PL"/>
+       <hi rend="italic">mater Jesu;</hi> et, Dixit <hi rend="italic">illi mater ejus.</hi> Quis hoc narra<lb ed="#PL" break="no"/>vit ? Joannes evangelista. Et quid respondit matri 
+   <lb ed="#PL"/> Jesus?
+    <hi rend="italic">Quid</hi> mihi <hi rend="italic">et tibi eat, mulier</hi> ? Quis hoc narrat? 
+   <lb ed="#PL"/> Idem ipse Joannes evangelista. 0 Evangelista fidelis<lb ed="#PL" break="no"/>sime
+   et veracissime , tu mihi narras dixisse Jesum , 
+   <lb ed="#PL"/>
+       <hi rend="italic">Quid mihi et tibi est, mulier</hi> ? cur ei apposuisti matrem 
+   <lb ed="#PL"/> quam non agnoscit ? Nam tu dixisti quia <hi rend="italic">ibi erat ma<lb ed="#PL" break="no"/>ter</hi> Jesu , et quia <hi rend="italic">dixit ei mater ejus</hi> : cur non potius 
+   <lb ed="#PL"/> dixisti, Erat ibi Maria; et, Dixit ei Maria? Utrumque 
+   <lb ed="#PL"/> tu narras, et, <hi rend="italic">Dixit ei mater ejus;</hi> et, <hi rend="italic">Respondit</hi> ei Je­
+   
+   <lb ed="#PL"/> sus, <hi rend="italic">Quid</hi> 'nihi <hi rend="italic">et tibi cat, mulier
+    ?</hi> Quare hoc, nisi quia 
+   <lb ed="#PL"/> utrumque verum est? Illi autem in eo volunt credere
+   
+   <lb ed="#PL"/> Evangelistae , quod narrat Jesum dixisse matri, <hi rend="italic">Quid</hi>
+   
+       <lb ed="#PL"/> mihi <hi rend="italic">et tibi est, mulier?</hi> et in eo nolunt credere Evan­
+   
+   <lb ed="#PL"/> gelistae quod ait, <hi rend="italic">Erat</hi> ivi <hi rend="italic">mater
+    Jesu;</hi> et, <hi rend="italic">Dixit ei mater 
+   <lb ed="#PL"/> ejus.</hi> Quis est autem qui resistit serpenti ,et tenet ve<lb ed="#PL" break="no"/>ritatem, cujus virginitas cordis noa corrumpitur
+   
+   <lb ed="#PL"/> astutia diaboli ? Qui utrumque verum credit; et quia 
+   <lb ed="#PL"/> erat ibi mater Jesu, et quia illud respondit matri 
+   <lb ed="#PL"/> Jesus. Sed si nondum intelligit quemadmodum dixe<lb ed="#PL" break="no"/>rit
+   Jesus , <hi rend="italic">Quid mihi et tibi est,</hi> mulier ? interim cre<lb ed="#PL" break="no"/>dat
+   quod dixerit, et quod matri dixerit. Sit primo 
+   <lb ed="#PL"/> pietas in credente, et erit fructus in intelligente.</p>
+      <p xml:id="iuy75t-d1e108-d1e810">7. Interrogo vos, o fideles Christiani, Erat ibi ma<lb ed="#PL" break="no"/>ter
+   Jesu? respondete, EraL Unde scitis ? respondete, 
+   <lb ed="#PL"/> Hoc loquitur Evangelium. Quid respondit matri Je<lb ed="#PL" break="no"/>sus
+   ? respondete , <hi rend="italic">Quid, mihi et tibi est, mulier? non­
+   <lb ed="#PL"/> dum venit
+    hora mea.</hi> Et hoc unde scitis ? respondete, 
+   <lb ed="#PL"/> Hoc loquitur Evangelium. Nullus vobis corrumpat 
+   <lb ed="#PL"/> hanc fidem , si vultis sponso servare castam virgini<lb ed="#PL" break="no"/>tatem. Si autem quaeritur a vobis, cur hoc matri re<lb ed="#PL" break="no"/>sponderit; dicat qui intelligit : qui autem nondum 
+   <lb ed="#PL"/> intelligit, firmissime tamen credat, hoc respondisse, 
+   <lb ed="#PL"/> et tamen matri respondisse Jesum. Hac pietate mere<lb ed="#PL" break="no"/>bitur
+   etiam intelligere cur ila responderit, si orando 
+   <lb ed="#PL"/> pulset, et non rixando accedat ad ostium veritatis. 
+   <lb ed="#PL"/> Tantum caveat, ne dum se putat scire, aut erubescit 
+   <lb ed="#PL"/> nescire cur ita responderit, cogatur credere aut 
+   <lb ed="#PL"/> Evangelistam fuisse mentitum qui ait, <hi rend="italic">Erat
+    ibi mater</hi>
+   
+       <lb ed="#PL"/> Jesu : aut ipsum Christum falsa morte passum pro<lb ed="#PL" break="no"/>pter
+   delicta nostra, et falsas cicatrices ostendisse pro<lb ed="#PL" break="no"/>pter
+   justificationem nostram ; falsumque dixisse, Si 
+   <lb ed="#PL"/>
+       <hi rend="italic">manseritis</hi> in <hi rend="italic">verbo meo, vere discipuli</hi> mei <hi rend="italic">estis;</hi> ei 
+   <lb ed="#PL"/>
+       <hi rend="italic">cognoscetis veritatem, et veritas liberabit vos (Joan.</hi> VIII .
+   
+   <lb ed="#PL"/> 3i, 32). Si enim falsa mater, falsa caro, falsa mors, 
+   <lb ed="#PL"/> falsa vulnera passionis, falsae cicatrices resurrectionis; 
+   <lb ed="#PL"/> non veritas credentes in eum, sed potius falsitas libera<lb ed="#PL" break="no"/>bit. Imo vero falsitas cedat veritati, et confundantur
+   
+   <lb ed="#PL"/> omnes qui propterea se volunt videri veraces, quia 
+   <lb ed="#PL"/> Christum conantur demonstrare fallacem; et nolunt 
+   <lb ed="#PL"/> sibi dici, Non vobis credimus quia mentimini; cum
+   
+   <lb ed="#PL"/> ipsam veritatem dicant esse mentitam. Quibus tamen 
+   <lb ed="#PL"/> si dicamus, Unde nostis dixisse Christum, <hi rend="italic">Quid</hi> mihi 
+   <lb ed="#PL"/>
+       <hi rend="italic">et tibi est, mulier ?</hi> Evangelio se credidisse respondent. 
+   <lb ed="#PL"/> Cur non credunt Evangelio dicenti, <hi rend="italic">Erat ibi mater 
+   <lb ed="#PL"/> Jesu;</hi> et,
+    <hi rend="italic">Dixit</hi> ei mater <hi rend="italic">ejus?</hi> Aut si hoc mentitur
+   
+   <lb ed="#PL"/> Evangelium, quomodo ei creditur quod dixeritJesus, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Quid mihi et</hi> libi <hi rend="italic">est, mulier ?</hi> Cur non potius miseri, 
+   <lb ed="#PL"/> et quod ita non extraneae, sed matri Dominus respon<lb ed="#PL" break="no"/>dent, fideliter credunt; et cur ita responderit, pie 
+   <lb ed="#PL"/> quaerunt? Multum enim interest inter eum qui dicit, 
+   <lb ed="#PL"/> Volo scire quare Christus hoc matri responderit; et 
+   <lb ed="#PL"/> eum qui dicit, Scio quod hoc Christus non matri 
+   <lb ed="#PL"/> responderit. Aliud est intelligere velle quod clausum 
+   <lb ed="#PL"/> est, aliud nolle credere quod apertum est. Qui dicit, 
+   <lb ed="#PL"/> Scire volo cur ita Christus matri responderit, aperiri 
+   <lb ed="#PL"/> sibi vult Evangelium cui credit : qui autem dicit, Scio 
+   <lb ed="#PL"/> quod hoc Cbrisms non mam responderit, ipsum 
+   <lb ed="#PL"/> Evangelium arguit de mendacio, ubi credidit quod 
+   <lb ed="#PL"/> Christus ita responderit.</p>
+      <pb ed="#PL" n="1455"/>
+
+      <p xml:id="iuy75t-d1e108-d1e956">8. Jam ergo si placet, fratres, illis repulsis, et in 
+   <lb ed="#PL"/> sua caecitate errantibus semper, nisi humiliter sanen<lb ed="#PL" break="no"/>tur, nos qurcramus , quare Dominus noster sic matri
+   
+   <lb ed="#PL"/> responderit. Ille singulariter natus de Patre sine ma<lb ed="#PL" break="no"/>tre, de matre sine patre ; sine matre Deus, sine patre 
+   <lb ed="#PL"/> . homo; sine matre ante tempora , sine patre in fine 
+   <lb ed="#PL"/> temporum. Quod respondit, matri respondit: quia, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Erat ibi mater Jesu;</hi> et, <hi rend="italic">Dixit ei mater
+    ejus.</hi> Hoc totum 
+   <lb ed="#PL"/> Evangelium loquitur. Ulic novimus quia <hi rend="italic">erat ibi</hi> ma­ 
+   <lb ed="#PL"/>
+       <hi rend="italic">ter Jesu,</hi> ubi novimus quod dixerit ei, <hi rend="italic">Quid
+    mihi et
+   <lb ed="#PL"/> tibi est, mulier ? nondum venit hora mea.</hi> Totum cre<lb ed="#PL" break="no"/>damus, et quod nondum intelligimus requiramus. 
+   <lb ed="#PL"/> Et primum hoc videte , ne forte quomodo invene<lb ed="#PL" break="no"/>runt
+   Manichaei occasionem perfidiae suae, quia dixit 
+   <lb ed="#PL"/> Dominus, Quid mihi
+    <hi rend="italic">et tibi eat mulier ?</hi> sic inveniant 
+   <lb ed="#PL"/> mathematici occasionem fallaciae suae, quia dixit, 
+   <lb ed="#PL"/> Nondum <hi rend="italic">venit hora mea.</hi> Et si hoc secundum mathe<lb ed="#PL" break="no"/>maticos
+   dixit, sacrilegium fecimus incendendo codi<lb ed="#PL" break="no"/>ces
+   eorum. Si autem recte fecimus, sicut Apostolorum 
+   <lb ed="#PL"/> temporibus factum est <hi rend="italic">(Act.</hi> xix, 19); non secundum 
+   <lb ed="#PL"/> cos dixit Dominus , <hi rend="italic">Nondum venit hora mea.</hi> Dicunt 
+   <lb ed="#PL"/> enim vaniloqui et seducti seductores , Vides quia sub 
+   <lb ed="#PL"/> fato erat Christus, qui dicit, <hi rend="italic">Nondum venit hora mea.</hi>
+   
+       <lb ed="#PL"/> Quibus ergo prius respondendum esi; hxreticis, an 
+   <lb ed="#PL"/> matliematicis ? Utrique enim a serpente illo vcniunt, 
+   <lb ed="#PL"/> volentes corrumpere virginitatem cordis Ecclesiae,
+   
+   <lb ed="#PL"/> quam habet in integra fide. Primo si placet, eis quos 
+   <lb ed="#PL"/> proposueramus , quibus quidem jam ex magna parte 
+   <lb ed="#PL"/> respondimus. Sed De arbitrentur nos non habere 
+   <lb ed="#PL"/> quid dicamus de his verbis qua: Dominus matri re<lb ed="#PL" break="no"/>spondil, vos magis adversus illos iustruimus : nam 
+   <lb ed="#PL"/> iNis relellendis, puto quod sufficiant quae jam di<lb ed="#PL" break="no"/>cta
+   sunt.</p>
+      <p xml:id="iuy75t-d1e108-d1e1059">9. Cur ergo ait matri filius, <hi rend="italic">Quid mihi et tibi est, 
+   <lb ed="#PL"/> mulier?
+    nondum venit hora mea.</hi> Dominus noster Jesus 
+   <lb ed="#PL"/> Christus, et Deus eratethomo: secundum quod Deus 
+   <lb ed="#PL"/> crat, matrem non habebat; secundum quod homo erat, 
+   <lb ed="#PL"/> habehat. Mater ergo erat carnis, mater humanitatis, 
+   <lb ed="#PL"/> mater infirmitatis quam suscepit propter nos. Miracu<lb ed="#PL" break="no"/>lum
+   autem quod facturus erat, secundum divinitatem
+   
+   <lb ed="#PL"/> facturus crat, non secuudum infirmitatem ; secundum 
+   <lb ed="#PL"/> quod Dens erat, non secundum quod infirmus natus 
+   <lb ed="#PL"/> erat. Sed infirmum Dei fortius est hominibus ( I <hi rend="italic">Cor.</hi>
+   
+       <lb ed="#PL"/> I, 25). Miraculum ergo exigebat mater; at ille tan<lb ed="#PL" break="no"/>, quam non agnoscit viscera humana, operaturus facta 
+   <lb ed="#PL"/> divina; tanquam dicens, Quod de me facit miraculum, 
+   <lb ed="#PL"/> non tu genuisti, divinitalcm meam non tu genuisti : 
+   <lb ed="#PL"/> sed quia genuisti infirmitatem meam, tunc te cogno<lb ed="#PL" break="no"/>scam, cum ipsa inlirmitas pendebit in cruce: hoc est 
+   <lb ed="#PL"/> enim, <hi rend="italic">Nondum venit hora mea.</hi> Tunc enim cognovit, 
+   <lb ed="#PL"/> qui utique semper noverat. Et antequam de illa natus 
+   <lb ed="#PL"/> esset, in praedestinatione noverat matrem; et ante<lb ed="#PL" break="no"/>quam
+   ipse Dcus crearet, de qua ipse homo crearetur, 
+   <lb ed="#PL"/> noverat matrem : sed ad quamdam horam in mysterio 
+   <lb ed="#PL"/> non agnoscit;etad quamdam horam quae nondum ve<lb ed="#PL" break="no"/>nerat, in mysterio rursus agnoscit. Tunc enim agno<lb ed="#PL" break="no"/>vit, quando illud quod peperit moriebatur. Non enim 
+   <lb ed="#PL"/> moriebatur per quod lacta erat Maria, sed moriebatur 
+   <lb ed="#PL"/> quod factum erat ex Maria : non moriebatur aeTernitas 
+   <lb ed="#PL"/> divinitatis, sed moriebatur infirmitas carnis. Illud ergo 
+   <lb ed="#PL"/> respondit, discernens in fide credentium, quis, qua 
+   <lb ed="#PL"/> venerit. Venit enim per matrem feminam, Deus et 
+   <lb ed="#PL"/> Dominus coeli et terrae. Secundum quod Dominus 
+   <lb ed="#PL"/> mundi, quod Dominus coeli et terrae. Dominus utique 
+   <lb ed="#PL"/> et Mariae; secundum quod creator coeli et terrae, crea<lb ed="#PL" break="no"/>tor
+   et Mariae: secundum autem quod dictum est, <hi rend="italic">Fa­
+    
+   <lb ed="#PL"/> ctum ex</hi> muliere, <hi rend="italic">factum sub Lege (Galat.</hi> IV, 4), lilius 
+   <lb ed="#PL"/> Mariae, Ipse Dominus Mariae, ipse filius Mariae: ipse 
+   <lb ed="#PL"/> creator Mariae, ipse creatus ex Maria. Noli mirari quia 
+   <lb ed="#PL"/> et filius et Dominus: sicut enim Mariae. ita et David 
+   <lb ed="#PL"/> dictus est filius; et ideo David filius, quia Mariae filius. 
+   <lb ed="#PL"/> Audi Apostolum aperte dicentem, <hi rend="italic">Qui factus eat ei ex
+   <lb ed="#PL"/> semine David
+    secundum carnem (Rom.</hi> I. 3). Audi eum 
+   <lb ed="#PL"/> et Dominum David; dicat hoc ipse David : <hi rend="italic">Dixit Domi­</hi>
+   
+       <lb ed="#PL"/> nus <hi rend="italic">Domino meo, Sede ad dexteram meam (Psal.</hi> CIX.I). 
+   <lb ed="#PL"/> EI ipse Jesus hoc proposuit Judieis, et eos inde convi<lb ed="#PL" break="no"/>cit <hi rend="italic">(Matth.</hi> XXII, 45). Quomodo ergo Davidetfilius 
+   <lb ed="#PL"/> et dominus; filius David secundum carnem, dominus 
+   <lb ed="#PL"/> David secundum divinitatem: sic Mariae filius secun<lb ed="#PL" break="no"/>dum
+   carnem, et Mariae dominus secundum majestatem. 
+   <lb ed="#PL"/> Quia ergo non erat illa mater divinitatis, et per divi<lb ed="#PL" break="no"/>nitatem
+   futurum erat miraculum quod petebat; re<lb ed="#PL" break="no"/>spondit
+   ei, <hi rend="italic">Quid mihi et tibi est, mulier?</hi> sed ne putes 
+   <lb ed="#PL"/> quod te negem matrem, <hi rend="italic">Nondum venit hora mea:</hi> ibi 
+   <lb ed="#PL"/> enim te agnoscam, cum pendere in cruce coeperit in<lb ed="#PL" break="no"/>firmitas
+   cujus mater es. Probemus si verum est. Quando 
+   <lb ed="#PL"/> passus est Dominus, sicut idem evangelista dicit, qui 
+   <lb ed="#PL"/> noverat matrem Domini, et qui nobis insinuavit etiam 
+   <lb ed="#PL"/> in his nuptiis matrem Domini, ipse narrat: <hi rend="italic">Erat,</hi> in<lb ed="#PL" break="no"/>quit, <hi rend="italic">illic circa
+    crucem mater Jesu, et ait Jesus matri 
+   <lb ed="#PL"/> suoe, Mulier, ecce filius tuus: et ad</hi> discipulum, <hi rend="italic">Ecce 
+   <lb ed="#PL"/> mater tua (Joan.</hi> xix, 25-27). Commendat matrem di<lb ed="#PL" break="no"/>scipulo: commendatmalrem prior matre moriturus, et 
+   <lb ed="#PL"/> ante matris mortem resurrecturus; commendat homo 
+   <lb ed="#PL"/> homini hominem. Hoc pepererat Maria. Illa hora jam 
+   <lb ed="#PL"/> venerat, de qua tunc dixerat, <hi rend="italic">Nondum venit hora
+    mea.</hi>
+      </p>
+      <p xml:id="iuy75t-d1e108-d1e1243">10. Quantum arbitror, frates, responsum est hae • 
+   <lb ed="#PL"/> reticis: mathematicis respondeamus. Et ipsi unde co<lb ed="#PL" break="no"/>nantur
+   conviucere quia sub fato erat Jesus? Quia ipse 
+   <lb ed="#PL"/> ait, inquiunt, <hi rend="italic">Nondum venit hora mea.</hi> Ergo illi cre­
+   
+   <lb ed="#PL"/> dimus; et si dixisset, Horam non habeo, exclusisset 
+   <lb ed="#PL"/> mathematicos : sed ecce, inquiunt, ipse dixit, <hi rend="italic">Non­
+   <lb ed="#PL"/> dum venit hora mea.</hi> Si ergo dixisset, Horam non lia<lb ed="#PL" break="no"/>beo, exclusisset mathematicos. non esset unde ca<lb ed="#PL" break="no"/>lumniarenlur
+   : nunc vero quia dixit, <hi rend="italic">Nondum venit 
+   <lb ed="#PL"/> hora mea,</hi> contra ipsius verba quid possumus dicere? 
+   <lb ed="#PL"/> Mirum est quod mathematici credendo verbis Chri<lb ed="#PL" break="no"/>sti, conantur convincere Christianos quod sub hora 
+   <lb ed="#PL"/> fatali vixerit Christus. Credant ergo Christo dicenti, 
+   <lb ed="#PL"/>
+       <hi rend="italic">Potestatem habeo ponendi animam meam, et iterum</hi> su<lb ed="#PL" break="no"/>mendi
+    <hi rend="italic">eam : nemo tollit eam</hi> a <hi rend="italic">me, sed ego pono eam
+    a 
+   <lb ed="#PL"/> meipso, et iterum</hi> sumo <hi rend="italic">eam (Id.</hi> x, 18). Ergone ista 
+   <lb ed="#PL"/> potestas sub fato est? Ostendant hominem qui potesta<lb ed="#PL" break="no"/>tem
+   habeat quando moriatur, quamdiu vivat: omnino 
+   <lb ed="#PL"/> non ostendent. Credant ergo Deo dicenti, <hi rend="italic">Potestatem
+   <lb ed="#PL"/> habeo ponendi animam meam, et iterum</hi> sumendi <hi rend="italic">eam :</hi>
+   
+       <lb ed="#PL"/> et quaerant quare sil dictum, <hi rend="italic">Nondum venit hora mea;</hi>
+   
+       <lb ed="#PL"/> nIc ideo jam sub fato ponant cenditerem coeli, crea­ 
+   <pb ed="#PL" n="1457"/>
+       <lb ed="#PL"/> lorem atque ordinatorem siderum. Quia si esset fatum 
+   <lb ed="#PL"/> de sideribus, non poteratesse sub necessitate sidemm. 
+   <lb ed="#PL"/> conditor siderum. Adde quia non solum Christus non 
+   <lb ed="#PL"/> habuit quod appellas fatum; sed nec tu, aut ego, aut 
+   <lb ed="#PL"/> ille, aut quisquam hominum.</p>
+      <p xml:id="iuy75t-d1e108-d1e1335">ii Verumtamen seducti seducunt, et proponunt 
+   <lb ed="#PL"/> fallacias hominibus : tendunt ad capiendos homines, 
+   <lb ed="#PL"/> et hoc in plateis. Nam qui tendunt ad capiendas fe<lb ed="#PL" break="no"/>ras, vel in silvis atque in solitudine id agunt: quam 
+   <lb ed="#PL"/> infeliciter vani sunt homines, quibus capiendis in foro 
+   <lb ed="#PL"/> tenditur ! Nummos accipiunt, cum se homines homini<lb ed="#PL" break="no"/>bus
+   vendunt; dant isti nummos, ut se vanitatibus ven<lb ed="#PL" break="no"/>dant. Intrant enim ad mathematicum, ut emant sibi 
+   <lb ed="#PL"/> dominos, quales mathematico dare placuerit; vel Sa­
+   
+   <lb ed="#PL"/> turnum, vel Jovem, vel Mercurium, vel si quid aliud 
+   <lb ed="#PL"/> sacrilegi nominis. Intravit liber, ut nummis datis ser- 
+   <lb ed="#PL"/> VIIS exiret. Imo vero non intraret, si liber esset: sed 
+   <lb ed="#PL"/> intravit quo eum dominus error, et domina cupiditas 
+   <lb ed="#PL"/> traxit. Unde et Veritas dicit: Omnis qui <hi rend="italic">facit peccatum, 
+   <lb ed="#PL"/> servus est
+    peccati</hi> (Joan. VIII, 3i).</p>
+      <p xml:id="iuy75t-d1e108-d1e1371">12. Quare ergo dixit, <hi rend="italic">Nondum venit hora mea?</hi> Ma<lb ed="#PL" break="no"/>gis
+   quia in potestate habebat quando moreretur, non<lb ed="#PL" break="no"/>dum
+   videbat esse opportunum ut illa potestate utert<lb ed="#PL" break="no"/>tur. Quomodo nos, fratres, verbi gratia, sic loquimur, 
+   <lb ed="#PL"/> Jam certa hora est, qua exeamus ut celebremus sa<lb ed="#PL" break="no"/>cramenta
+   1 Si ante exeamus quam opus est, nonne 
+   <lb ed="#PL"/> perversi et praeposteri sumus? Quia ergo non facimus, 
+   <lb ed="#PL"/> nisi quando opportunum est; propterea in his agen<lb ed="#PL" break="no"/>dis, cum ita loquimur, fatum consideramus? Quid est 
+   <lb ed="#PL"/> ergo, <hi rend="italic">Nondum venit hora mea?</hi> Quando ego scio oppor<lb ed="#PL" break="no"/>tunumi
+   me pati, quando passio mea utilis erit, nondum 
+   <lb ed="#PL"/> venit ipsa hora; tunc voluntate patiar: ut utrumque 
+   <lb ed="#PL"/> serves I, et, <hi rend="italic">Nondum
+    venit hora</hi> mea; et, <hi rend="italic">Petestatem 
+   <lb ed="#PL"/> habeo ponendi animam</hi> meam, <hi rend="italic">et iterum sumendi eam.</hi>
+   
+       <lb ed="#PL"/> Venerat ergo habens in potestate quando moreretur. 
+   <lb ed="#PL"/> At si ante moreretur quam discipulos elegisset, certe 
+   <lb ed="#PL"/> praeposterum esset: si esset homo qui non haberet in
+   
+   <lb ed="#PL"/> potestate horam suam, posset ante mori quam disci<lb ed="#PL" break="no"/>, pulos elegisset; et si forte moreretur jam electiseru<lb ed="#PL" break="no"/>ditisque
+   discipulis, praestaretur ei, non ipse hoc face<lb ed="#PL" break="no"/>ret. At vero qui venerat in manu habens quando irct, 
+   <lb ed="#PL"/> quando rediret, quo usque excurreret, cui paterent in<lb ed="#PL" break="no"/>! reri. non tantum morienti, scd et resurgenti, ut nobis 
+   <lb ed="#PL"/> ■ ostenderet spem immortalitatis Ecclesiae sue, in ca<lb ed="#PL" break="no"/>pite
+   ostendit quod membra exspectare deberent. Re<lb ed="#PL" break="no"/>surget
+   etiam in caeteris membris, qui resurrexit in 
+   <lb ed="#PL"/> capite. Hora ergo nondum venerat, opportunitas non­
+   
+   <lb ed="#PL"/> dum erat. Vocandi erant discipuli, annuntiandum erat 
+   <lb ed="#PL"/> regnum coelorum, faciendae erant virtutes, commen<lb ed="#PL" break="no"/>danda
+   erat divinitas Domini ia miraculis, commen<lb ed="#PL" break="no"/>danda
+   erat humanitas Domini in ipsa compassione 
+   <lb ed="#PL"/> mortalitatis. Ille enim qui esuriebat, quia homo erat, 
+   <lb ed="#PL"/> pavit quinque panibus tot millia, quia Deus erat: qui 
+   <lb ed="#PL"/> dormiebat, quia homo erat, ventis et fluctibus impe<lb ed="#PL" break="no"/>rabat, quia Deus erat. Haec omnia commendanda erant 
+   <lb ed="#PL"/> prius, ut esset quod scriberent Evangelistae, quod prae<lb ed="#PL" break="no"/>dicaretur
+   Ecclesiae. At ubi tantum fecit, quantum suf<lb ed="#PL" break="no"/>ficere
+   judicavit; venit hora non necessitatis, sed vo­ 
+   
+   <lb ed="#PL"/> luntatis, non conditionis, scJ potestatis.</p>
+      <p xml:id="iuy75t-d1e108-d1e1472">13. Quid ergo, fratres, quia illis et illis respondi<lb ed="#PL" break="no"/>mus, nibil dicemus quid sibi velint hydriae, quid aqua 
+   <lb ed="#PL"/> in vinnm conversa, quid architriclinus, quid sponsIs, 
+   <lb ed="#PL"/> quid mater Jesu in mysterio, quid ipsae nuptiae? Di. 
+   <lb ed="#PL"/> cenda sunt omnia, sed onerandi non estis. Volui qui<lb ed="#PL" break="no"/>dem
+   in nomine Christi et hesterno die, quo solet 
+   <lb ed="#PL"/> sermo deberi Charitati vestrae, id agere vobiscum, sed 
+   <lb ed="#PL"/> non sum permissus necessitatibus quibusdam impe<lb ed="#PL" break="no"/>dientibus. Si ergo placet Sanctitati vestrae, hoc quod 
+   <lb ed="#PL"/> ad mysterium pertinet hujus facti, in crastinum diffe<lb ed="#PL" break="no"/>ramus,
+   et non oneremus et vestram et nostram infir<lb ed="#PL" break="no"/>mitatem. Sunt forte hodie multi qui propter solemni<lb ed="#PL" break="no"/>tatem
+   diei, non propter audiendum sermonem conve<lb ed="#PL" break="no"/>nerunt.
+   Crastino qui venient, veniant audituri; ut, nee 
+   <lb ed="#PL"/> fraudemus studiosos, nec gravemus fastidiosos.</p>
+    </div>
+   </body>
+  </text>
+</TEI>

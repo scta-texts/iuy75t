@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Tractatus 66</title>
+      <author ref="#Augustine">Augustinus</author>
+      <respStmt>
+       <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+       <resp>Transcription Editor</resp>
+       <resp>TEI Encoder</resp>
+       <resp>Continued OCR correction</resp>
+      </respStmt>
+      <!--<respStmt>        <p>Derived from Initial OCR correction in     https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL35/PL35.xml</p>      </respStmt>-->
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+       <title>Tractatus 66</title>
+       <date when="2020-08-12">August 12, 2020</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>SCTA</authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+       </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="PL" n="cod-VVNz3a">PL 35</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+    guidelines for a diplomatic edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2020-08-12" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on"/>
+   </front>
+   <body>
+    <div xml:id="iuy75t-d1e582"> <!-- iuy75t-t66 -->
+      <head xml:id="iuy75t-d1e582-Hd1e109">Tractatus 66</head>
+      <p xml:id="iuy75t-d1e582-d1e112">
+       <hi rend="italic">De eo quod</hi> sequitur, Dicit ei Simon Petrus : Domine, 
+   <lb ed="#PL"/> quo vadis ? <hi rend="italic">usque ad id,</hi> Amen, amen dico libi; 
+   <lb ed="#PL"/> non cantabit gallus, donec tcr me neges. <hi rend="italic">Cap.</hi> XIII, 
+   <lb ed="#PL"/> f 36 38.</p>
+      <p xml:id="iuy75t-d1e582-d1e131">i. Cum Dominus Jesus sanctam dilectioncm qua se 
+   <lb ed="#PL"/> invicem diligerent, discipulis commendaret, <hi rend="italic">Dicit ei
+   <lb ed="#PL"/> Simon</hi> Petrus : <hi rend="italic">Domine, quo vadis?</hi> Sic utique hoc 
+   <lb ed="#PL"/> dixit Magistro discipulus, et Domino servus, tanquam 
+   <lb ed="#PL"/> sequi paratus. Propterea quippe Dominus, qui cjus 
+   <lb ed="#PL"/> animum vidit quare hoc interrogaverit, sic ei re<lb ed="#PL" break="no"/>spondit : <hi rend="italic">Quo ego
+    vado, non potes me modo sequi:</hi>
+   
+       <lb ed="#PL"/> tanquam diceret, Propter quod interrogas, non poLos 
+   <lb ed="#PL"/> modo. Non ait, non potes; sed <hi rend="italic">non potes modo</hi> : di - 
+   <lb ed="#PL"/> lationem intulit, non spem tulit; et eamdem spem 
+   <lb ed="#PL"/> quam non tulit, sed potius dedit, sequenti voce fir<lb ed="#PL" break="no"/>mavit,
+   addendo atque dicendo, <hi rend="italic">Sequeris autem postea.</hi>
+   
+       <lb ed="#PL"/> Quid festinas, Petre? Nondum suospiritu solidavit 
+   <lb ed="#PL"/> petra. Noli extolli praesumendo, <hi rend="italic">non potes</hi> modo : noli 
+   <lb ed="#PL"/> dejici desperando, <hi rend="italic">sequeris postea.</hi> Sed adhuc ille quid 
+   <lb ed="#PL"/> diCit? <hi rend="italic">Quare le non possum sequi modo? Animam meam 
+   <lb ed="#PL"/> pro te ponam.</hi> Quid in animo ejus esset cupiditatis, 
+   <lb ed="#PL"/> videbat; quid virium, non videbat. Voluntatem suam 
+   <lb ed="#PL"/> jactabat infirmus, sed inspiciebat valetudinem mcdi<lb ed="#PL" break="no"/>cus; iste promittebat, ille praenoscebat : qui nescie<lb ed="#PL" break="no"/>bat, audebat; qui praesciebat, docebat. Quantum sibi
+   
+   <lb ed="#PL"/> assumpserat Petrus intuendo quid vellet, ignorando 
+   <lb ed="#PL"/> quid posset? quantum sibi assumpserat, ut cum vc<lb ed="#PL" break="no"/>nisset
+   Dominus animam suam ponere pro amicis suis, 
+   <lb ed="#PL"/> ac per hoc et pro ipso, ille hoc Domino offerre con- 
+   <lb ed="#PL"/> Meret: et nondum pro se posita anima Christi, ani<lb ed="#PL" break="no"/>mam
+   suam polliceretur se posiLurum esse pro Christo? 
+   <lb ed="#PL"/>
+       <hi rend="italic">Respondit</hi> ergo Jesus, <hi rend="italic">Animam tuam pro vic
+    pones?</hi>
+   
+       <lb ed="#PL"/> Itane facies pro me, quod nondum ego pro te? <hi rend="italic">Ani<lb ed="#PL" break="no"/>mam
+   tuum
+    pro me pones ?</hi> Praeire potes, qui sequi non 
+   <lb ed="#PL"/> potes? Quid tantum praesumis? quid de te sentis? 
+   <lb ed="#PL"/> quid esse te credis? Audi quid sis : <hi rend="italic">Amen,
+    amen dico</hi>
+   
+       <lb ed="#PL"/> tibi; <hi rend="italic">non cantabit gallus, donec ter me neges.</hi> Ecco 
+   <lb ed="#PL"/> quomodo tibi cito apparebis, qui magna loqucris, et 
+   <lb ed="#PL"/> le parvulum nescis. Qui mihi promittis mortem tuam, 
+   <lb ed="#PL"/> ter negabis vitam tuam. Qui tc jam putas mori posse 
+   <lb ed="#PL"/> pre me, prius vive pro te : nam timendo mortem 
+   <lb ed="#PL"/> carnis tuae, mortem dabis animan tuae. Quanta enun 
+   <lb ed="#PL"/> vita est confiteri Christum, tanta mors est negare 
+   <lb ed="#PL"/> Christum.</p>
+      <p xml:id="iuy75t-d1e582-d1e259">i. An apostolus Petrus, sicut eum quidam favore 
+   <lb ed="#PL"/> perverso excusare nituntur <hi rend="italic">(Ambros.</hi> in <hi rend="italic">Luc.</hi> XXII), 
+   <lb ed="#PL"/> Christum non negavit, quia interrogatus ab anciJla 
+   <lb ed="#PL"/> hominem se nescire respondit, sicut alii evangelistae 
+   <lb ed="#PL"/> contestantur expressius? Quasi vero qui hominem 
+   <lb ed="#PL"/> Christum negat, non Christum ncgat; et hoc in eo 
+   <lb ed="#PL"/> negat quod factus est propter nos, ne periret quod 
+   <lb ed="#PL"/> fecerat nos. Ergo qui ila confitetur Christum Dcum # 
+   <lb ed="#PL"/> ut hominem neget, non pro illo mortuus est Christus; 
+   <lb ed="#PL"/> quia secundum hominem mortuus est Christus. Qui
+   
+   <lb ed="#PL"/> negat hominem Christum, non reconciliatur per me­ 
+   <pb ed="#PL" n="1811"/>
+       <lb ed="#PL"/> diatorem Dco. Unus cnim Deus, et unus mediator 
+   <lb ed="#PL"/> Dei et hominum homo Christus Jesus (1 <hi rend="italic">Tim.</hi> II, 5). 
+   <lb ed="#PL"/> Qui negat hominem Christum, non justificatur; quia 
+   <lb ed="#PL"/> sicut per inobedientiam unius hominis, peccatores 
+   <lb ed="#PL"/> constituti sunt multi; ita et per obedientiam unius 
+   <lb ed="#PL"/> hominis, justi constitueutur multi (Rom. v, 19). Qui 
+   <lb ed="#PL"/> ncgat hoininem Christum, non resurget in resurre<lb ed="#PL" break="no"/>ctionem
+   vitae; quia per hominem mors, et per homi<lb ed="#PL" break="no"/>nem
+   resurrectio mortuorum : sicut enim in Adam 
+   <lb ed="#PL"/> omnes moriuntur, ita et in Christo omnes vivificabun<lb ed="#PL" break="no"/>tnr
+   (I <hi rend="italic">Cor.</hi> xv, 21 et 22). Pcr quid autem caput est 
+   <lb ed="#PL"/> Ecclesire , nisi pEr hominem, quod Verbum caro fa<lb ed="#PL" break="no"/>ctum
+   est f id est, Dei Patris Unigenitus Deus homo 
+   <lb ed="#PL"/> factus est, Quomodo est igitur in corpore Christi, 
+   <lb ed="#PL"/> qui negat bominem Christum ? Qui cnim caput 
+   <lb ed="#PL"/> negat, quomodo est membrum ? Sed quid multis im­
+   
+   <lb ed="#PL"/> morer, cum ipse Dominus abstulerit omnes humanae 
+   <lb ed="#PL"/> argumentationis ambages? Non cnim ait, Nou canta<lb ed="#PL" break="no"/>bit
+   gallus doneE hominem neges; aut, sicut loqui fa<lb ed="#PL" break="no"/>miliariore
+   cum hominibus dignatione consuevit, Non 
+   <lb ed="#PL"/> cantabit gallus donee Filium hominis ter neges :sed 
+   <lb ed="#PL"/> ait, <hi rend="italic">donec me ter neges.</hi> Quid est,
+    <hi rend="italic">me,</hi> nisi quod erat ? 
+   <lb ed="#PL"/>etquid nisi Christus erat? Quidquid ergo ejus nega<lb ed="#PL" break="no"/>vit, ipsum negavit, Christum negavit, Dominum Deum 
+   <lb ed="#PL"/> suum negavit. Quia et ille condiscipulus ejus Thomas, 
+   <lb ed="#PL"/> quando exclamavit, <hi rend="italic">Dominus meus et Deus</hi> meas, non 
+   <lb ed="#PL"/> Verbum, sed carnem tetigit; non incorpoream Dei 
+   <lb ed="#PL"/> naturam, sed hominis corpus curiosis manibus con<lb ed="#PL" break="no"/>trectavit
+   <hi rend="italic">(Joan,</hi> xx, 27,28). Hominem itaque tetigit, 
+   <lb ed="#PL"/> et tamen Deum cognovit. Si ergo quod iste tetigit, 
+   <lb ed="#PL"/> hoc Petrus negavit; quod iste exclamavit, hoc Petrus 
+   <lb ed="#PL"/> offendit. <hi rend="italic">Non canlabit gallus, donec ter
+    me neges.</hi> hi<lb ed="#PL" break="no"/>cas
+   licet, <hi rend="italic">Nescio</hi> hominem; dicas licet, <hi rend="italic">Homo, nescio 
+   <lb ed="#PL"/> quid dicis;</hi> dicas licet, <hi rend="italic">Non</hi> sum <hi rend="italic">ex discipulis ejus
+   <lb ed="#PL"/> (Matth.</hi> XXVI, 34 , 69-74 , <hi rend="italic">et Luc.</hi> XXII, 55-60) : me 
+   <lb ed="#PL"/> negabis. Si, quod dubitare nefas est, Christus hoc 
+   <lb ed="#PL"/> dixit, verumque praedixit, procul dubio Petrus Chri<lb ed="#PL" break="no"/>stum
+   negavit. Non accusemus Christum cum defen<lb ed="#PL" break="no"/>dimus
+   Petrum. Peccatum agnoscat inlirmitas; nam 
+   <lb ed="#PL"/> mendacium non habet veritas. Agnovit quippe pecca<lb ed="#PL" break="no"/>tum
+   suum infirmitas Petri, prorsus agnovit; et quan<lb ed="#PL" break="no"/>tum
+   mali Christum negando commiserit, plorando 
+   <lb ed="#PL"/> monstravit. Ipse suos redarguit defensores , et unde 
+   <lb ed="#PL"/> eos convincat, producit lacrymas testes. Neque nos 
+   <lb ed="#PL"/> cum ista dicimus, primum Apostolorum accusare de<lb ed="#PL" break="no"/>lectal : sed hunc intuendo adlnoncri nos oportet , ne 
+   <lb ed="#PL"/> homo quisquam de humanis viribus fidat. Nam quid 
+   <lb ed="#PL"/> aliud pertinuit ad doclorem Salvatoremque nostrum , 
+   <lb ed="#PL"/> nisi ut nobis nequaquam de se quemquam praesumere
+   
+   <lb ed="#PL"/> debere, in ipso primo Apostolorum demonstraret 
+   <lb ed="#PL"/> exemplo ? In anima itaque Petri contigit quod offere<lb ed="#PL" break="no"/>bat
+   in corpore. Non tamen pro Domino, ut temere 
+   <lb ed="#PL"/> prasumebat, praecessit, sed aliter quam putabat. 
+   <lb ed="#PL"/> Namque ante mortem et resurrectionem Domini, et 
+   <lb ed="#PL"/> mortuus est negando, et revixit plorando : sed mor­
+   
+   <lb ed="#PL"/> tuus est, quia superbe ipse praesumpsit; revixit au<lb ed="#PL" break="no"/>tem, quia benigne ille respexit.</p>
+    </div>
+   </body>
+  </text>
+</TEI>
